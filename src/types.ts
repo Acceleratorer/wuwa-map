@@ -28,7 +28,20 @@ export interface MapPack {
     height: number;
   };
   categories: MapCategory[];
+  defaultVisibleCategoryIds?: string[];
   markers: MapMarker[];
+}
+
+export interface MapCatalogEntry {
+  id: string;
+  title: string;
+  pack: string;
+}
+
+export interface MapCatalog {
+  schemaVersion: SchemaVersion;
+  defaultMapId: string;
+  maps: MapCatalogEntry[];
 }
 
 export interface Profile {

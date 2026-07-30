@@ -192,36 +192,43 @@ deploy cùng ứng dụng. Chỉ import dữ liệu và hình ảnh mà bạn c�
 
 ## Map pack riêng tự động
 
-Khi file sau tồn tại, ứng dụng tự dùng nó thay cho map demo:
+Ứng dụng ưu tiên catalog nhiều khu vực:
 
 ```text
-public/map-packs/private/default-map-pack.json
+public/map-packs/private/catalog.json
+public/map-packs/private/maps/<state-id>.json
+public/map-packs/private/maps/<state-id>.webp
 ```
 
-Basemap được tham chiếu trong JSON cũng nên nằm dưới
-`public/map-packs/private/`. Toàn bộ thư mục này đã bị Git ignore nên có thể
-build bản dùng cá nhân mà không commit dữ liệu hoặc asset bên thứ ba.
+Mỗi khu vực được lazy-load khi chọn trong menu. Nếu không có catalog, ứng dụng
+vẫn hỗ trợ file đơn `public/map-packs/private/default-map-pack.json`. Toàn bộ
+thư mục private đã bị Git ignore nên có thể build bản dùng cá nhân mà không
+commit dữ liệu hoặc asset bên thứ ba.
 
-Converter cho release data của `9268/wuwa-map`:
+Sinh catalog toàn bộ database `9268/wuwa-map`:
 
 ```bash
-pnpm convert:9268 -- \
+pnpm catalog:9268 -- \
   --db data/private/9268-latest/stitched/map_items.db \
   --coords data/private/9268-latest/stitched/map_coords.json \
-  --state 906 \
-  --country 4 \
-  --items qzx_01,qzx_02,qzx_03,qzx_04 \
-  --image map-packs/private/wuwa-906.webp \
-  --image-width 4973 \
-  --image-height 4956 \
-  --output public/map-packs/private/default-map-pack.json
+  --images public/map-packs/private/maps \
+  --output public/map-packs/private \
+  --default-state 906
 ```
+
+Thư mục `--images` cần có ảnh `<state-id>.webp` hoặc `<state-id>.png`. Catalog
+generator tự đọc kích thước ảnh, xuất một JSON cho mỗi khu vực và đặt nhóm
+`qzx_*` làm bộ lọc mặc định. Các item khác vẫn có đầy đủ theo ID và có thể tìm
+trực tiếp trong ô tìm kiếm.
 
 Converter dùng parameterized SQLite queries, lọc marker ngoài ảnh và đổi tọa
 độ game sang pixel của basemap đã resize. Bốn loại `qzx_01..04` được Việt hóa;
-ghi chú nguồn chưa dịch không được đưa vào bản public. Repo `9268/wuwa-map`
-phát hành code và bộ dữ liệu tổng hợp theo MIT; quyền với bản đồ và game asset
-gốc vẫn thuộc KURO GAMES. Chỉ public những file bạn có quyền phân phối.
+item chưa dịch hiển thị dưới dạng `Vật phẩm <id>` và ghi chú nguồn chưa dịch
+không được đưa vào bản public. Repo `9268/wuwa-map` phát hành code và bộ dữ liệu
+tổng hợp theo MIT; quyền với bản đồ và game asset gốc vẫn thuộc KURO GAMES. Chỉ
+public những file bạn có quyền phân phối.
+
+Converter một khu vực vẫn có thể chạy bằng `pnpm convert:9268 -- --help`.
 
 ## Local profile link
 

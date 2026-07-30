@@ -6,10 +6,20 @@ import L, {
 import "leaflet/dist/leaflet.css";
 import "./style.css";
 import demoMapPackJson from "./data/demo-map-pack.json";
-import { parseBackup, parseMapPack } from "./map-pack";
+import {
+  parseBackup,
+  parseMapCatalog,
+  parseMapPack,
+} from "./map-pack";
 import { LocalDatabase, progressRecordId } from "./storage";
 import { SyncApiError, SyncClient, type RemoteSession } from "./sync";
-import type { MapCategory, MapMarker, MapPack, Profile } from "./types";
+import type {
+  MapCatalog,
+  MapCategory,
+  MapMarker,
+  MapPack,
+  Profile,
+} from "./types";
 
 const DEFAULT_PROFILES: Profile[] = [
   {
@@ -59,6 +69,10 @@ app.innerHTML = `
         <div class="eyebrow">BẢN ĐỒ ĐANG DÙNG</div>
         <h1 id="map-title"></h1>
         <p id="map-subtitle"></p>
+        <label class="map-picker" id="map-picker" hidden>
+          <span>Khu vực</span>
+          <select id="map-select" aria-label="Chọn khu vực"></select>
+        </label>
         <div class="demo-notice" id="demo-notice">
           <span>DEMO</span>
           Dữ liệu giả lập, không phải dữ liệu trong game.
@@ -80,7 +94,7 @@ app.innerHTML = `
 
       <label class="search-box">
         <span aria-hidden="true">⌕</span>
-        <input id="search-input" type="search" placeholder="Tìm điểm..." autocomplete="off" />
+        <input id="search-input" type="search" placeholder="Tìm tên hoặc ID..." autocomplete="off" />
       </label>
 
       <div class="section-heading">
@@ -191,6 +205,8 @@ const elements = {
   mapTitle: mustQuery<HTMLElement>("#map-title"),
   mapSubtitle: mustQuery<HTMLElement>("#map-subtitle"),
   mapAttribution: mustQuery<HTMLElement>("#map-attribution"),
+  mapPicker: mustQuery<HTMLElement>("#map-picker"),
+  mapSelect: mustQuery<HTMLSelectElement>("#map-select"),
   demoNotice: mustQuery<HTMLElement>("#demo-notice"),
   topProgressCount: mustQuery<HTMLElement>("#top-progress-count"),
   progressPercentage: mustQuery<HTMLElement>("#progress-percentage"),
@@ -220,7 +236,10 @@ const elements = {
 
 const database = await LocalDatabase.open();
 const demoMapPack = parseMapPack(demoMapPackJson);
-const bundledMapPack = await loadBundledMapPack();
+const bundledMapCatalog = await loadBundledMapCatalog();
+const bundledMapPack = bundledMapCatalog
+  ? undefined
+  : await loadBundledMapPack();
 const syncClient = new SyncClient();
 let initialSyncMessage: string | undefined;
 let remoteSession = await bootstrapRemoteSession();
@@ -232,8 +251,20 @@ if (remoteSession) {
 }
 let activeProfileId = remoteSession?.profile.id ??
   (await resolveActiveProfileId(profiles));
-let mapPack = await resolveActiveMapPack(bundledMapPack);
+let mapPack = await resolveActiveMapPack(
+  bundledMapCatalog,
+  bundledMapPack,
+);
 let activeMapPack = resolveImageSource(mapPack);
+const categoryById = new Map(
+  activeMapPack.categories.map((category) => [category.id, category]),
+);
+const markersByCategory = new Map<string, MapMarker[]>();
+for (const marker of activeMapPack.markers) {
+  const categoryMarkers = markersByCategory.get(marker.categoryId) ?? [];
+  categoryMarkers.push(marker);
+  markersByCategory.set(marker.categoryId, categoryMarkers);
+}
 let completedMarkerIds = new Set<string>();
 let visibleCategoryIds = await resolveVisibleCategoryIds(activeMapPack);
 const storedHideCompleted = await database.getSetting<unknown>("hideCompleted");
@@ -325,10 +356,27 @@ async function resolveActiveProfileId(availableProfiles: Profile[]): Promise<str
   return candidate;
 }
 
-async function loadBundledMapPack(): Promise<MapPack | undefined> {
+async function loadBundledMapCatalog(): Promise<MapCatalog | undefined> {
   try {
     const response = await fetch(
-      `${import.meta.env.BASE_URL}map-packs/private/default-map-pack.json`,
+      `${import.meta.env.BASE_URL}map-packs/private/catalog.json`,
+      { cache: "no-cache" },
+    );
+    if (!response.ok) {
+      return undefined;
+    }
+    return parseMapCatalog(await response.json());
+  } catch {
+    return undefined;
+  }
+}
+
+async function loadMapPackResource(
+  path: string,
+): Promise<MapPack | undefined> {
+  try {
+    const response = await fetch(
+      new URL(path, document.baseURI),
       { cache: "no-cache" },
     );
     if (!response.ok) {
@@ -340,16 +388,43 @@ async function loadBundledMapPack(): Promise<MapPack | undefined> {
   }
 }
 
+async function loadBundledMapPack(): Promise<MapPack | undefined> {
+  return loadMapPackResource(
+    `${import.meta.env.BASE_URL}map-packs/private/default-map-pack.json`,
+  );
+}
+
+async function loadCatalogMapPack(
+  catalog: MapCatalog,
+  mapId: string,
+): Promise<MapPack | undefined> {
+  const entry = catalog.maps.find((candidate) => candidate.id === mapId);
+  if (!entry) {
+    return undefined;
+  }
+  const pack = await loadMapPackResource(entry.pack);
+  return pack?.id === entry.id ? pack : undefined;
+}
+
 async function resolveActiveMapPack(
+  catalog: MapCatalog | undefined,
   bundledPack: MapPack | undefined,
 ): Promise<MapPack> {
   const storedMapPackId = await database.getSetting<unknown>("activeMapPackId");
-  const defaultMapPack = bundledPack ?? demoMapPack;
   const activeMapPackId =
-    typeof storedMapPackId === "string" ? storedMapPackId : defaultMapPack.id;
+    typeof storedMapPackId === "string"
+      ? storedMapPackId
+      : catalog?.defaultMapId ?? bundledPack?.id ?? demoMapPack.id;
 
   if (activeMapPackId === demoMapPack.id) {
     return demoMapPack;
+  }
+  if (catalog) {
+    const catalogPack = await loadCatalogMapPack(catalog, activeMapPackId);
+    if (catalogPack) {
+      await database.putSetting("activeMapPackId", catalogPack.id);
+      return catalogPack;
+    }
   }
   if (bundledPack && activeMapPackId === bundledPack.id) {
     await database.putSetting("activeMapPackId", bundledPack.id);
@@ -357,12 +432,24 @@ async function resolveActiveMapPack(
   }
 
   const storedMapPack = await database.getMapPack(activeMapPackId);
-  if (!storedMapPack) {
-    await database.putSetting("activeMapPackId", defaultMapPack.id);
-    return defaultMapPack;
+  if (storedMapPack) {
+    return parseMapPack(storedMapPack);
   }
 
-  return parseMapPack(storedMapPack);
+  if (catalog) {
+    const defaultCatalogPack = await loadCatalogMapPack(
+      catalog,
+      catalog.defaultMapId,
+    );
+    if (defaultCatalogPack) {
+      await database.putSetting("activeMapPackId", defaultCatalogPack.id);
+      return defaultCatalogPack;
+    }
+  }
+
+  const fallbackMapPack = bundledPack ?? demoMapPack;
+  await database.putSetting("activeMapPackId", fallbackMapPack.id);
+  return fallbackMapPack;
 }
 
 function resolveImageSource(pack: MapPack): MapPack {
@@ -384,7 +471,11 @@ async function resolveVisibleCategoryIds(pack: MapPack): Promise<Set<string>> {
     !Array.isArray(storedValue) ||
     !storedValue.every((value) => typeof value === "string")
   ) {
-    return validCategoryIds;
+    const defaultCategoryIds =
+      pack.defaultVisibleCategoryIds ?? [...validCategoryIds];
+    return new Set(
+      defaultCategoryIds.filter((id) => validCategoryIds.has(id)),
+    );
   }
 
   const filtered = storedValue.filter((id) => validCategoryIds.has(id));
@@ -405,6 +496,37 @@ function renderStaticMapDetails(): void {
   elements.mapAttribution.textContent = activeMapPack.attribution;
   elements.demoNotice.hidden = activeMapPack.id !== demoMapPack.id;
   elements.hideCompleted.checked = hideCompleted;
+  renderMapSelector();
+}
+
+function renderMapSelector(): void {
+  const options = bundledMapCatalog?.maps.map((entry) => ({
+    id: entry.id,
+    title: entry.title,
+  })) ?? [];
+
+  if (!options.some((option) => option.id === activeMapPack.id)) {
+    options.push({
+      id: activeMapPack.id,
+      title: activeMapPack.title,
+    });
+  }
+  if (!options.some((option) => option.id === demoMapPack.id)) {
+    options.push({
+      id: demoMapPack.id,
+      title: "Bản đồ demo",
+    });
+  }
+
+  elements.mapSelect.replaceChildren();
+  for (const mapOption of options) {
+    const option = document.createElement("option");
+    option.value = mapOption.id;
+    option.textContent = mapOption.title;
+    option.selected = mapOption.id === activeMapPack.id;
+    elements.mapSelect.append(option);
+  }
+  elements.mapPicker.hidden = options.length <= 1;
 }
 
 function renderProfiles(): void {
@@ -434,11 +556,19 @@ function renderProfiles(): void {
 
 function renderCategories(): void {
   elements.categoryList.replaceChildren();
+  const normalizedSearchTerm = searchTerm.trim().toLocaleLowerCase("vi");
 
   for (const category of activeMapPack.categories) {
-    const categoryMarkers = activeMapPack.markers.filter(
-      (marker) => marker.categoryId === category.id,
-    );
+    const categorySearchText =
+      `${category.label} ${category.id}`.toLocaleLowerCase("vi");
+    if (
+      normalizedSearchTerm.length > 0 &&
+      !categorySearchText.includes(normalizedSearchTerm)
+    ) {
+      continue;
+    }
+
+    const categoryMarkers = markersByCategory.get(category.id) ?? [];
     const completed = categoryMarkers.filter((marker) =>
       completedMarkerIds.has(marker.id),
     ).length;
@@ -490,6 +620,7 @@ function initializeMap(): void {
 
   map = L.map("map", {
     crs: L.CRS.Simple,
+    preferCanvas: true,
     minZoom: -2,
     maxZoom: 2.5,
     zoomSnap: 0.25,
@@ -523,10 +654,12 @@ function renderMarkers(): void {
   for (const marker of activeMapPack.markers) {
     const category = findCategory(marker.categoryId);
     const isDone = completedMarkerIds.has(marker.id);
-    const matchesCategory = visibleCategoryIds.has(marker.categoryId);
-    const haystack = `${marker.title} ${marker.description ?? ""}`.toLocaleLowerCase(
-      "vi",
-    );
+    const matchesCategory =
+      normalizedSearchTerm.length > 0 ||
+      visibleCategoryIds.has(marker.categoryId);
+    const haystack =
+      `${marker.title} ${marker.categoryId} ${marker.description ?? ""}`
+        .toLocaleLowerCase("vi");
     const matchesSearch =
       normalizedSearchTerm.length === 0 || haystack.includes(normalizedSearchTerm);
 
@@ -570,9 +703,7 @@ function renderMarkers(): void {
 }
 
 function findCategory(categoryId: string): MapCategory {
-  const category = activeMapPack.categories.find(
-    (candidate) => candidate.id === categoryId,
-  );
+  const category = categoryById.get(categoryId);
   if (!category) {
     throw new Error(`Không tìm thấy category: ${categoryId}`);
   }
@@ -775,6 +906,7 @@ function bindEvents(): void {
 
   elements.searchInput.addEventListener("input", () => {
     searchTerm = elements.searchInput.value;
+    renderCategories();
     renderMarkers();
   });
 
@@ -800,6 +932,11 @@ function bindEvents(): void {
   elements.fitMap.addEventListener("click", () => {
     map.fitBounds(imageBounds);
     elements.sidebar.classList.remove("is-open");
+  });
+
+  elements.mapSelect.addEventListener("change", async () => {
+    await database.putSetting("activeMapPackId", elements.mapSelect.value);
+    window.location.reload();
   });
 
   elements.profileSelect.addEventListener("change", async () => {

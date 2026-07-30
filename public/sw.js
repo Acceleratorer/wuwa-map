@@ -1,4 +1,4 @@
-const CACHE_NAME = "wayfinder-runtime-v3";
+const CACHE_NAME = "wayfinder-runtime-v4";
 const APP_SHELL = ["./", "./demo-map.svg", "./icon.svg", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
@@ -52,9 +52,8 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (
-    url.pathname.endsWith(
-      "/map-packs/private/default-map-pack.json",
-    )
+    url.pathname.includes("/map-packs/private/") &&
+    url.pathname.endsWith(".json")
   ) {
     event.respondWith(
       fetch(request)

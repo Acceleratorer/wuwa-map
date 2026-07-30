@@ -202,6 +202,33 @@ input[type="checkbox"] {
   line-height: 1.55;
 }
 
+.map-picker {
+  display: grid;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.map-picker[hidden] {
+  display: none;
+}
+
+.map-picker span {
+  color: #7da79f;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.map-picker select {
+  width: 100%;
+  padding: 9px 30px 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: #e5fff8;
+  background: rgba(8, 28, 30, 0.78);
+}
+
 .eyebrow {
   color: #6fa79f;
   font-size: 10px;

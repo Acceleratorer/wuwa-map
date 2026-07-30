@@ -39,12 +39,14 @@ test("9268 converter maps game coordinates into resized image pixels", () => {
       INSERT INTO state (id, name) VALUES (906, 'Test Region');
       INSERT INTO item (id, name) VALUES
         ('qzx_01', 'Common Chest'),
-        ('qzx_02', 'Standard Chest');
+        ('qzx_02', 'Standard Chest'),
+        ('310000790', 'Rock Spider');
       INSERT INTO location (
         id, item_id, state_id, country_id, floor_id, level, x, y, description
       ) VALUES
         ('marker-1', 'qzx_01', 906, 4, '40', '0', 1500, 3000, 'Near the bridge'),
-        ('marker-outside', 'qzx_02', 906, 4, '', '0', 3000, 3000, '');
+        ('marker-outside', 'qzx_02', 906, 4, '', '0', 3000, 3000, ''),
+        ('marker-2', '310000790', 906, 4, '', '0', 1600, 3200, '');
     `);
   } finally {
     database.close();
@@ -95,6 +97,42 @@ test("9268 converter maps game coordinates into resized image pixels", () => {
     assert.doesNotMatch(mapPack.markers[0].description, /Near the bridge/);
     assert.equal(mapPack.subtitle, "1 vị trí · 2 loại rương");
     assert.match(mapPack.attribution, /9268\/wuwa-map/);
+
+    const fullMapPack = buildMapPack({
+      databasePath,
+      coordsPath,
+      stateId: 906,
+      countryId: 4,
+      itemIds: "all",
+      imageSrc: "map-packs/private/maps/906.webp",
+      imageWidth: 50,
+      imageHeight: 25,
+    });
+
+    assert.equal(fullMapPack.title, "Bản đồ khu vực 906");
+    assert.equal(fullMapPack.subtitle, "2 vị trí · 3 loại điểm");
+    assert.deepEqual(fullMapPack.defaultVisibleCategoryIds, [
+      "qzx_01",
+      "qzx_02",
+    ]);
+    assert.deepEqual(
+      fullMapPack.categories.map((category) => ({
+        id: category.id,
+        label: category.label,
+        symbol: category.symbol,
+      })),
+      [
+        { id: "qzx_01", label: "Rương đơn sơ", symbol: "1" },
+        { id: "qzx_02", label: "Rương tiêu chuẩn", symbol: "2" },
+        { id: "310000790", label: "Vật phẩm 310000790", symbol: "•" },
+      ],
+    );
+    assert.equal(fullMapPack.markers.length, 2);
+    assert.equal(
+      fullMapPack.markers.find((marker) => marker.id === "9268:marker-2")
+        ?.title,
+      "Vật phẩm 310000790",
+    );
   } finally {
     rmSync(directory, { recursive: true, force: true });
   }

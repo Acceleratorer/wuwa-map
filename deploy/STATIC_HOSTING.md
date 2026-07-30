@@ -5,11 +5,12 @@ PHP. Không cần chạy Node server.
 
 ## Build có private map pack
 
-Đặt hai file private trước khi build:
+Đặt catalog private trước khi build:
 
 ```text
-public/map-packs/private/default-map-pack.json
-public/map-packs/private/wuwa-906.webp
+public/map-packs/private/catalog.json
+public/map-packs/private/maps/*.json
+public/map-packs/private/maps/*.webp
 ```
 
 Sau đó:

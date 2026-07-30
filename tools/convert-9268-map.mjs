@@ -83,7 +83,7 @@ function markerDescription(row) {
 }
 
 function itemLabel(itemId, sourceName) {
-  return VIETNAMESE_ITEM_LABELS.get(itemId) ?? sourceName;
+  return VIETNAMESE_ITEM_LABELS.get(itemId) ?? `Vật phẩm ${itemId}`;
 }
 
 export function buildMapPack({
@@ -100,7 +100,10 @@ export function buildMapPack({
   if (countryId !== undefined) {
     assertPositiveInteger(countryId, "countryId");
   }
-  assertItemIds(itemIds);
+  const includeAllItems = itemIds === "all";
+  if (!includeAllItems) {
+    assertItemIds(itemIds);
+  }
   assertPositiveInteger(imageWidth, "imageWidth");
   assertPositiveInteger(imageHeight, "imageHeight");
   if (typeof imageSrc !== "string" || imageSrc.trim().length === 0) {
@@ -132,25 +135,44 @@ export function buildMapPack({
       throw new Error(`Không tìm thấy state ${stateId}.`);
     }
 
-    const placeholders = itemIds.map(() => "?").join(", ");
-    const itemRows = database
-      .prepare(`
-        SELECT id, name
-        FROM item
-        WHERE id IN (${placeholders})
-      `)
-      .all(...itemIds);
+    const itemRows = includeAllItems
+      ? database
+          .prepare(`
+            SELECT i.id, i.name
+            FROM item AS i
+            INNER JOIN location AS l ON l.item_id = i.id
+            WHERE l.state_id = ?
+              AND (? IS NULL OR l.country_id = ?)
+            GROUP BY i.id, i.name
+            ORDER BY
+              CASE WHEN i.id LIKE 'qzx_%' THEN 0 ELSE 1 END,
+              i.id
+          `)
+          .all(stateId, countryId ?? null, countryId ?? null)
+      : database
+          .prepare(`
+            SELECT id, name
+            FROM item
+            WHERE id IN (${itemIds.map(() => "?").join(", ")})
+          `)
+          .all(...itemIds);
+    const selectedItemIds = includeAllItems
+      ? itemRows.map((item) => item.id)
+      : itemIds;
     const itemById = new Map(itemRows.map((item) => [item.id, item]));
-    const missingItemIds = itemIds.filter((itemId) => !itemById.has(itemId));
+    const missingItemIds = selectedItemIds.filter(
+      (itemId) => !itemById.has(itemId),
+    );
     if (missingItemIds.length > 0) {
       throw new Error(`Không tìm thấy item: ${missingItemIds.join(", ")}.`);
     }
     const itemLabels = new Map(
-      itemIds.map((itemId) => [
+      selectedItemIds.map((itemId) => [
         itemId,
         itemLabel(itemId, itemById.get(itemId).name),
       ]),
     );
+    const placeholders = selectedItemIds.map(() => "?").join(", ");
 
     const locationRows = database
       .prepare(`
@@ -174,7 +196,7 @@ export function buildMapPack({
         stateId,
         countryId ?? null,
         countryId ?? null,
-        ...itemIds,
+        ...selectedItemIds,
       );
 
     const markers = [];
@@ -207,8 +229,12 @@ export function buildMapPack({
     return {
       schemaVersion: 1,
       id: `wuwa-9268-state-${stateId}`,
-      title: `Bản đồ rương · Khu vực ${stateId}`,
-      subtitle: `${markers.length} vị trí · ${itemIds.length} loại rương`,
+      title: includeAllItems
+        ? `Bản đồ khu vực ${stateId}`
+        : `Bản đồ rương · Khu vực ${stateId}`,
+      subtitle: includeAllItems
+        ? `${markers.length} vị trí · ${selectedItemIds.length} loại điểm`
+        : `${markers.length} vị trí · ${selectedItemIds.length} loại rương`,
       attribution:
         "Dữ liệu tổng hợp: 9268/wuwa-map (MIT). Bản đồ và dữ liệu game gốc thuộc KURO GAMES.",
       image: {
@@ -216,11 +242,21 @@ export function buildMapPack({
         width: imageWidth,
         height: imageHeight,
       },
-      categories: itemIds.map((itemId, index) => ({
+      defaultVisibleCategoryIds: (() => {
+        const chestIds = selectedItemIds.filter((itemId) =>
+          itemId.startsWith("qzx_"),
+        );
+        return chestIds.length > 0
+          ? chestIds
+          : selectedItemIds.slice(0, 8);
+      })(),
+      categories: selectedItemIds.map((itemId, index) => ({
         id: itemId,
         label: itemLabels.get(itemId),
         color: CATEGORY_COLORS[index % CATEGORY_COLORS.length],
-        symbol: String(index + 1),
+        symbol: VIETNAMESE_ITEM_LABELS.has(itemId)
+          ? String(DEFAULT_ITEM_IDS.indexOf(itemId) + 1)
+          : "•",
       })),
       markers,
     };
@@ -261,7 +297,7 @@ function printUsage() {
   console.log(
     "    --image-width 4973 --image-height 4956 --output <map-pack.json> \\",
   );
-  console.log("    [--items qzx_01,qzx_02,qzx_03,qzx_04]");
+  console.log("    [--items all|qzx_01,qzx_02,qzx_03,qzx_04]");
 }
 
 async function main() {
@@ -280,11 +316,13 @@ async function main() {
       ? Number(argumentsMap.get("--country"))
       : undefined,
     itemIds: argumentsMap.has("--items")
-      ? argumentsMap
-          .get("--items")
-          .split(",")
-          .map((itemId) => itemId.trim())
-          .filter(Boolean)
+      ? argumentsMap.get("--items") === "all"
+        ? "all"
+        : argumentsMap
+            .get("--items")
+            .split(",")
+            .map((itemId) => itemId.trim())
+            .filter(Boolean)
       : DEFAULT_ITEM_IDS,
     imageSrc: requiredArgument(argumentsMap, "--image"),
     imageWidth: Number(requiredArgument(argumentsMap, "--image-width")),

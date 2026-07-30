@@ -1,6 +1,7 @@
 import type {
   BackupPayload,
   MapCategory,
+  MapCatalog,
   MapMarker,
   MapPack,
   Profile,
@@ -19,17 +20,19 @@ function isFiniteNumber(value: unknown): value is number {
   return typeof value === "number" && Number.isFinite(value);
 }
 
-function isAllowedImageSource(value: string): boolean {
-  if (value.startsWith("data:")) {
-    return value.startsWith("data:image/");
-  }
-
+function isAllowedResourceSource(value: string): boolean {
   try {
     const url = new URL(value, "https://map-pack.local/");
     return url.protocol === "https:" || url.protocol === "http:";
   } catch {
     return false;
   }
+}
+
+function isAllowedImageSource(value: string): boolean {
+  return value.startsWith("data:")
+    ? value.startsWith("data:image/")
+    : isAllowedResourceSource(value);
 }
 
 function assertCategory(value: unknown, index: number): asserts value is MapCategory {
@@ -130,7 +133,52 @@ export function parseMapPack(value: unknown): MapPack {
     throw new Error("Map pack có marker id bị trùng.");
   }
 
+  if (
+    value.defaultVisibleCategoryIds !== undefined &&
+    (
+      !Array.isArray(value.defaultVisibleCategoryIds) ||
+      !value.defaultVisibleCategoryIds.every(
+        (categoryId) =>
+          isNonEmptyString(categoryId) && categoryIds.has(categoryId),
+      ) ||
+      new Set(value.defaultVisibleCategoryIds).size !==
+        value.defaultVisibleCategoryIds.length
+    )
+  ) {
+    throw new Error("Danh sách category mặc định không hợp lệ.");
+  }
+
   return value as unknown as MapPack;
+}
+
+export function parseMapCatalog(value: unknown): MapCatalog {
+  if (
+    !isRecord(value) ||
+    value.schemaVersion !== 1 ||
+    !isNonEmptyString(value.defaultMapId) ||
+    !Array.isArray(value.maps) ||
+    value.maps.length === 0 ||
+    !value.maps.every(
+      (entry) =>
+        isRecord(entry) &&
+        isNonEmptyString(entry.id) &&
+        isNonEmptyString(entry.title) &&
+        isNonEmptyString(entry.pack) &&
+        isAllowedResourceSource(entry.pack),
+    )
+  ) {
+    throw new Error("Map catalog không đúng schema version 1.");
+  }
+
+  const mapIds = new Set(value.maps.map((entry) => entry.id));
+  if (
+    mapIds.size !== value.maps.length ||
+    !mapIds.has(value.defaultMapId)
+  ) {
+    throw new Error("Map catalog có id bị trùng hoặc defaultMapId không tồn tại.");
+  }
+
+  return value as unknown as MapCatalog;
 }
 
 function isProfile(value: unknown): value is Profile {
