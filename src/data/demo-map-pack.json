@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "clean-room-demo",
+  "title": "Băng Nguyên Thử Nghiệm",
+  "subtitle": "Dữ liệu giả lập để kiểm tra ứng dụng",
+  "attribution": "Bản đồ và marker mẫu do dự án tự tạo. Không phải dữ liệu trong game.",
+  "image": {
+    "src": "demo-map.svg",
+    "width": 1600,
+    "height": 1000
+  },
+  "categories": [
+    {
+      "id": "chest",
+      "label": "Rương",
+      "color": "#f8c963",
+      "symbol": "R"
+    },
+    {
+      "id": "resource",
+      "label": "Tài nguyên",
+      "color": "#65d6a8",
+      "symbol": "T"
+    },
+    {
+      "id": "challenge",
+      "label": "Thử thách",
+      "color": "#f07e83",
+      "symbol": "!"
+    },
+    {
+      "id": "waypoint",
+      "label": "Điểm dịch chuyển",
+      "color": "#6cc8ee",
+      "symbol": "D"
+    }
+  ],
+  "markers": [
+    {
+      "id": "demo-chest-01",
+      "categoryId": "chest",
+      "title": "Rương sườn băng",
+      "x": 255,
+      "y": 195,
+      "description": "Dữ liệu mẫu."
+    },
+    {
+      "id": "demo-chest-02",
+      "categoryId": "chest",
+      "title": "Rương khe tuyết",
+      "x": 438,
+      "y": 314
+    },
+    {
+      "id": "demo-chest-03",
+      "categoryId": "chest",
+      "title": "Rương trạm gió",
+      "x": 744,
+      "y": 205
+    },
+    {
+      "id": "demo-chest-04",
+      "categoryId": "chest",
+      "title": "Rương cầu đá",
+      "x": 985,
+      "y": 334
+    },
+    {
+      "id": "demo-chest-05",
+      "categoryId": "chest",
+      "title": "Rương lòng hồ",
+      "x": 1268,
+      "y": 250
+    },
+    {
+      "id": "demo-chest-06",
+      "categoryId": "chest",
+      "title": "Rương đài quan sát",
+      "x": 1362,
+      "y": 535
+    },
+    {
+      "id": "demo-chest-07",
+      "categoryId": "chest",
+      "title": "Rương vách đông",
+      "x": 1106,
+      "y": 746
+    },
+    {
+      "id": "demo-chest-08",
+      "categoryId": "chest",
+      "title": "Rương hang thấp",
+      "x": 646,
+      "y": 780
+    },
+    {
+      "id": "demo-resource-01",
+      "categoryId": "resource",
+      "title": "Cụm khoáng xanh",
+      "x": 344,
+      "y": 555
+    },
+    {
+      "id": "demo-resource-02",
+      "categoryId": "resource",
+      "title": "Hoa sương",
+      "x": 518,
+      "y": 658
+    },
+    {
+      "id": "demo-resource-03",
+      "categoryId": "resource",
+      "title": "Tinh thể ven hồ",
+      "x": 808,
+      "y": 478
+    },
+    {
+      "id": "demo-resource-04",
+      "categoryId": "resource",
+      "title": "Cụm khoáng đỏ",
+      "x": 952,
+      "y": 630
+    },
+    {
+      "id": "demo-resource-05",
+      "categoryId": "resource",
+      "title": "Rêu phát sáng",
+      "x": 1222,
+      "y": 664
+    },
+    {
+      "id": "demo-resource-06",
+      "categoryId": "resource",
+      "title": "Hoa mép vực",
+      "x": 1430,
+      "y": 382
+    },
+    {
+      "id": "demo-challenge-01",
+      "categoryId": "challenge",
+      "title": "Thử thách vòng băng",
+      "x": 405,
+      "y": 815
+    },
+    {
+      "id": "demo-challenge-02",
+      "categoryId": "challenge",
+      "title": "Thử thách cầu gãy",
+      "x": 675,
+      "y": 395
+    },
+    {
+      "id": "demo-challenge-03",
+      "categoryId": "challenge",
+      "title": "Thử thách đài cao",
+      "x": 1032,
+      "y": 190
+    },
+    {
+      "id": "demo-challenge-04",
+      "categoryId": "challenge",
+      "title": "Thử thách hang vọng",
+      "x": 1320,
+      "y": 842
+    },
+    {
+      "id": "demo-waypoint-01",
+      "categoryId": "waypoint",
+      "title": "Điểm dịch chuyển phía tây",
+      "x": 190,
+      "y": 475
+    },
+    {
+      "id": "demo-waypoint-02",
+      "categoryId": "waypoint",
+      "title": "Điểm dịch chuyển trung tâm",
+      "x": 785,
+      "y": 565
+    },
+    {
+      "id": "demo-waypoint-03",
+      "categoryId": "waypoint",
+      "title": "Điểm dịch chuyển phía bắc",
+      "x": 1120,
+      "y": 118
+    },
+    {
+      "id": "demo-waypoint-04",
+      "categoryId": "waypoint",
+      "title": "Điểm dịch chuyển phía đông",
+      "x": 1450,
+      "y": 650
+    }
+  ]
+}

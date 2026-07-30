@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+*.local
+*.log
+.env
+.env.*
+!.env.example
+
+# Real map packs and third-party assets must stay out of source control
+public/map-packs/private/
+data/private/
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal

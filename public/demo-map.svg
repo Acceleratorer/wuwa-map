@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071b20"/>
+      <stop offset="1" stop-color="#0d3032"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#d9efe8"/>
+      <stop offset="0.5" stop-color="#9dc9bc"/>
+      <stop offset="1" stop-color="#4e857d"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4fff9"/>
+      <stop offset="1" stop-color="#87b7ad"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#02090a" flood-opacity=".55"/>
+    </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#76b9ae" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#ocean)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <g filter="url(#shadow)">
+    <path d="M120 445 196 236 350 120 542 112 660 186 826 115 1005 142 1133 230 1302 216 1470 330 1514 510 1428 695 1260 862 1018 900 822 848 635 910 418 826 254 694Z" fill="url(#land)" stroke="#dff8ef" stroke-opacity=".35" stroke-width="6"/>
+    <path d="m250 402 116-126 126-28 98 90-80 104-166 44Z" fill="url(#ridge)" opacity=".72"/>
+    <path d="m552 188 112 70 72-64 136 42-70 124-154-6Z" fill="url(#ridge)" opacity=".64"/>
+    <path d="m895 278 146-76 122 76-25 128-167 34Z" fill="url(#ridge)" opacity=".67"/>
+    <path d="m1180 388 160-96 94 112-38 132-158 28Z" fill="url(#ridge)" opacity=".72"/>
+    <path d="m324 585 162-88 114 98-64 140-174 22Z" fill="#75aaa0" opacity=".7"/>
+    <path d="m690 540 122-110 132 66-24 153-138 76-108-70Z" fill="#2e716f" opacity=".82"/>
+    <path d="m985 618 125-96 160 72-8 150-138 94-146-72Z" fill="#6ea69b" opacity=".78"/>
+    <path d="m545 744 150-58 104 88-54 90-148 14Z" fill="#a8d4c7" opacity=".74"/>
+  </g>
+  <g fill="none" stroke="#e8fff7" stroke-linecap="round" opacity=".5">
+    <path d="M179 492c206-104 303-66 453 22s291 57 394-54 255-83 414 40" stroke-width="8"/>
+    <path d="M300 668c159-85 273-63 386 7s244 67 370 3 231-55 335 7" stroke-width="5" stroke-dasharray="18 20"/>
+    <path d="M504 184c64 118 102 221 84 339s-10 205 81 326" stroke-width="4" stroke-dasharray="12 22"/>
+    <path d="M1097 180c-80 104-116 204-87 317s24 221-42 343" stroke-width="4" stroke-dasharray="12 22"/>
+  </g>
+  <g fill="#0c3234" opacity=".48">
+    <ellipse cx="800" cy="559" rx="104" ry="72"/>
+    <ellipse cx="1286" cy="554" rx="66" ry="44"/>
+    <ellipse cx="401" cy="514" rx="52" ry="34"/>
+  </g>
+  <g font-family="system-ui, sans-serif" fill="#eafff8" text-anchor="middle">
+    <text x="820" y="58" font-size="24" font-weight="700" letter-spacing="7" opacity=".86">BĂNG NGUYÊN THỬ NGHIỆM</text>
+    <text x="820" y="89" font-size="14" letter-spacing="3" opacity=".5">CLEAN-ROOM DEMO MAP</text>
+    <g font-size="18" font-weight="650" opacity=".78">
+      <text x="395" y="350">SƯỜN GIÓ</text>
+      <text x="748" y="290">ĐỒI TRẮNG</text>
+      <text x="1030" y="342">ĐÀI CAO</text>
+      <text x="1320" y="430">VÁCH ĐÔNG</text>
+      <text x="802" y="570">HỒ TĨNH</text>
+      <text x="485" y="650">THUNG LŨNG</text>
+      <text x="1100" y="700">RỪNG SƯƠNG</text>
+    </g>
+  </g>
+  <rect x="24" y="24" width="1552" height="952" rx="28" fill="none" stroke="#b9eee0" stroke-opacity=".18" stroke-width="2"/>
+</svg>
