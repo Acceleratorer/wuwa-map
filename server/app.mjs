@@ -186,7 +186,7 @@ export function createWayfinderServer({
   ],
   cookieSecure = false,
   trustProxy = false,
-  sessionDays = 180,
+  sessionDays = 3650,
   logger = console,
 } = {}) {
   const repository = new WayfinderRepository(databasePath);

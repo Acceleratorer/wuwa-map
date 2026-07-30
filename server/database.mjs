@@ -32,6 +32,17 @@ function mapProgress(row) {
   };
 }
 
+function mapSession(row) {
+  return {
+    id: row.token_hash.slice(0, 16),
+    profileId: row.profile_id,
+    profileName: row.profile_name,
+    createdAt: row.created_at,
+    lastSeenAt: row.last_seen_at,
+    expiresAt: row.expires_at,
+  };
+}
+
 export class WayfinderRepository {
   constructor(databasePath) {
     ensureParentDirectory(databasePath);
@@ -210,6 +221,63 @@ export class WayfinderRepository {
     this.database
       .prepare("DELETE FROM sessions WHERE token_hash = ?")
       .run(tokenHash);
+  }
+
+  listSessions({ profileId, now = Date.now() } = {}) {
+    return this.database
+      .prepare(`
+        SELECT
+          sessions.token_hash,
+          sessions.profile_id,
+          profiles.name AS profile_name,
+          sessions.created_at,
+          sessions.last_seen_at,
+          sessions.expires_at
+        FROM sessions
+        INNER JOIN profiles ON profiles.id = sessions.profile_id
+        WHERE sessions.expires_at > ?
+          AND (? IS NULL OR sessions.profile_id = ?)
+        ORDER BY sessions.last_seen_at DESC
+      `)
+      .all(now, profileId ?? null, profileId ?? null)
+      .map(mapSession);
+  }
+
+  revokeSessionByPrefix(prefix) {
+    if (typeof prefix !== "string" || !/^[a-f0-9]{12,64}$/.test(prefix)) {
+      throw new Error("Session ID phải có từ 12 đến 64 ký tự hex.");
+    }
+
+    const matches = this.database
+      .prepare(`
+        SELECT token_hash
+        FROM sessions
+        WHERE token_hash LIKE ? || '%'
+        LIMIT 2
+      `)
+      .all(prefix);
+
+    if (matches.length > 1) {
+      throw new Error("Session ID chưa đủ dài để xác định duy nhất.");
+    }
+    if (matches.length === 0) {
+      return 0;
+    }
+
+    const result = this.database
+      .prepare("DELETE FROM sessions WHERE token_hash = ?")
+      .run(matches[0].token_hash);
+    return Number(result.changes);
+  }
+
+  revokeSessionsByProfile(profileId) {
+    if (!this.getProfile(profileId)) {
+      throw new Error(`Unknown profile: ${profileId}`);
+    }
+    const result = this.database
+      .prepare("DELETE FROM sessions WHERE profile_id = ?")
+      .run(profileId);
+    return Number(result.changes);
   }
 
   getProgress(profileId, mapId) {

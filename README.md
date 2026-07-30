@@ -11,6 +11,7 @@ thiết bị đã claim một invite hợp lệ.
 - Bộ lọc danh mục, tìm kiếm và ẩn điểm đã hoàn thành.
 - Hai profile mặc định: `owner` và `friend`.
 - Invite dùng một lần để liên kết thiết bị với đúng profile.
+- Session thiết bị mặc định 3650 ngày để người dùng không phải đăng nhập lại.
 - IndexedDB tự động lưu profile, settings, map pack và tiến trình.
 - Node HTTP + SQLite backend chạy cùng origin.
 - Session opaque token trong cookie `HttpOnly`, `SameSite=Strict`.
@@ -18,6 +19,7 @@ thiết bị đã claim một invite hợp lệ.
 - Export/import backup JSON.
 - Import map pack JSON có validation.
 - PWA metadata và runtime cache cho bản production.
+- CLI backup SQLite và thu hồi thiết bị.
 - Basemap và marker demo do dự án tự tạo.
 
 Nếu backend không hoạt động, frontend tự rơi về local-only mode. Những thay đổi
@@ -25,7 +27,7 @@ offline được giữ trạng thái pending và đẩy lên server sau khi kế
 
 ## Chạy local
 
-Yêu cầu Node.js 20.19+ hoặc 22.12+ và pnpm.
+Yêu cầu Node.js 24+ và pnpm 11.
 
 ```bash
 pnpm install
@@ -87,6 +89,55 @@ Người dùng chỉ cần mở URL một lần. Backend:
 
 Không gửi invite URL qua kênh công khai. Nếu link bị lộ trước khi claim, hãy tạo
 invite khác.
+
+Sau khi claim, thiết bị mặc định được ghi nhớ 3650 ngày. Người dùng chỉ cần link
+mới nếu chủ map thu hồi session, người dùng bấm đăng xuất, cookie bị xóa hoặc
+trình duyệt xóa dữ liệu website.
+
+## Backup SQLite
+
+Tạo snapshot nhất quán kể cả khi backend đang chạy:
+
+```bash
+pnpm backup
+```
+
+Hoặc chọn đường dẫn đích:
+
+```bash
+pnpm backup /path/to/backups/wayfinder-2026-07-30.sqlite
+```
+
+CLI từ chối ghi đè file có sẵn và chạy `PRAGMA quick_check` trước khi báo thành
+công.
+
+## Quản lý thiết bị
+
+Liệt kê tất cả session đang hoạt động:
+
+```bash
+pnpm devices list
+```
+
+Chỉ liệt kê profile `friend`:
+
+```bash
+pnpm devices list friend
+```
+
+Thu hồi đúng một thiết bị:
+
+```bash
+pnpm devices revoke <session-id>
+```
+
+Thu hồi mọi thiết bị của profile `friend`:
+
+```bash
+pnpm devices revoke-all friend --confirm
+```
+
+Thu hồi thiết bị không xóa progress. Có thể tạo invite mới để liên kết lại.
 
 ## Map pack
 
@@ -156,7 +207,7 @@ Các biến môi trường được mô tả trong [`.env.example`](.env.example
 
 - `APP_ORIGIN`: danh sách origin được phép thực hiện request thay đổi state.
 - `DATABASE_PATH`: đường dẫn SQLite có filesystem bền.
-- `SESSION_DAYS`: thời gian cookie/session, mặc định 180 ngày.
+- `SESSION_DAYS`: thời gian cookie/session, mặc định 3650 ngày.
 - `COOKIE_SECURE`: phải là `true` trên production HTTPS.
 - `TRUST_PROXY`: chỉ bật khi app nằm sau reverse proxy đáng tin cậy.
 
@@ -198,6 +249,10 @@ DATABASE_PATH=/path/to/persistent-data/wayfinder.sqlite
 TRUST_PROXY=true
 ```
 
+Bộ cấu hình systemd, Nginx và hướng dẫn từng bước cho
+`https://accel.io.vn/wuwa_map/` nằm tại
+[`deploy/README.md`](deploy/README.md).
+
 ## Kiểm thử
 
 ```bash
@@ -215,7 +270,6 @@ Test suite hiện kiểm tra:
 
 ## Phase tiếp theo
 
-1. Thêm recovery invite và CLI backup SQLite.
-2. Thêm trang admin local để quản lý/revoke thiết bị.
-3. Thêm data adapter cho nguồn dữ liệu có license rõ ràng.
-4. Triển khai sau HTTPS tại `accel.io.vn/wuwa_map/`.
+1. Triển khai sau HTTPS tại `accel.io.vn/wuwa_map/`.
+2. Thêm data adapter cho nguồn dữ liệu có license rõ ràng.
+3. Diễn tập restore từ SQLite backup trên môi trường staging.

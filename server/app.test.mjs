@@ -74,6 +74,7 @@ test("one-time invite creates a session and syncs authorized progress", async ()
   const setCookie = claim.headers.get("set-cookie");
   assert.ok(setCookie?.includes("HttpOnly"));
   assert.ok(setCookie?.includes("SameSite=Strict"));
+  assert.ok(setCookie?.includes("Max-Age=315360000"));
   const cookie = setCookie.split(";")[0];
 
   const reusedInvite = await api("/invites/claim", {

@@ -14,6 +14,8 @@
     "preview": "vite preview --host 127.0.0.1",
     "serve": "node --env-file-if-exists=.env server/index.mjs",
     "invite": "node --env-file-if-exists=.env server/create-invite.mjs",
+    "backup": "node --env-file-if-exists=.env server/backup-database.mjs",
+    "devices": "node --env-file-if-exists=.env server/manage-devices.mjs",
     "test:server": "node --test server/*.test.mjs",
     "test": "pnpm test:server && pnpm build"
   },

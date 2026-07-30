@@ -1,0 +1,22 @@
+[Unit]
+Description=Wayfinder Map
+After=network.target
+
+[Service]
+Type=simple
+User=wuwa-map
+Group=wuwa-map
+WorkingDirectory=/opt/wuwa-map/current
+EnvironmentFile=/etc/wuwa-map.env
+ExecStart=/usr/bin/node server/index.mjs
+Restart=on-failure
+RestartSec=5s
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/wuwa-map
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -22,7 +22,7 @@ const host = process.env.HOST ?? "127.0.0.1";
 const port = parsePositiveNumber(process.env.PORT, 8787, "PORT");
 const sessionDays = parsePositiveNumber(
   process.env.SESSION_DAYS,
-  180,
+  3650,
   "SESSION_DAYS",
 );
 const appOrigins = (process.env.APP_ORIGIN ??
