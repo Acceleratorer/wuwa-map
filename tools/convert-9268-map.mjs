@@ -13,6 +13,12 @@ const DEFAULT_ITEM_IDS = [
   "qzx_03",
   "qzx_04",
 ];
+const VIETNAMESE_ITEM_LABELS = new Map([
+  ["qzx_01", "Rương đơn sơ"],
+  ["qzx_02", "Rương tiêu chuẩn"],
+  ["qzx_03", "Rương tinh xảo"],
+  ["qzx_04", "Rương huy quang"],
+]);
 const CATEGORY_COLORS = [
   "#8bd3c7",
   "#f8c963",
@@ -72,16 +78,12 @@ function roundCoordinate(value) {
 }
 
 function markerDescription(row) {
-  const parts = [];
   const floorId = row.floor_id?.trim();
-  const description = row.description?.trim();
-  if (floorId) {
-    parts.push(`Tầng ${floorId}`);
-  }
-  if (description) {
-    parts.push(description);
-  }
-  return parts.length > 0 ? parts.join(" · ") : undefined;
+  return floorId ? `Tầng ${floorId}` : undefined;
+}
+
+function itemLabel(itemId, sourceName) {
+  return VIETNAMESE_ITEM_LABELS.get(itemId) ?? sourceName;
 }
 
 export function buildMapPack({
@@ -143,6 +145,12 @@ export function buildMapPack({
     if (missingItemIds.length > 0) {
       throw new Error(`Không tìm thấy item: ${missingItemIds.join(", ")}.`);
     }
+    const itemLabels = new Map(
+      itemIds.map((itemId) => [
+        itemId,
+        itemLabel(itemId, itemById.get(itemId).name),
+      ]),
+    );
 
     const locationRows = database
       .prepare(`
@@ -185,7 +193,7 @@ export function buildMapPack({
       markers.push({
         id: `9268:${row.id}`,
         categoryId: row.item_id,
-        title: itemById.get(row.item_id).name,
+        title: itemLabels.get(row.item_id),
         x: roundCoordinate((sourceX / sourceWidth) * imageWidth),
         y: roundCoordinate((sourceY / sourceHeight) * imageHeight),
         description: markerDescription(row),
@@ -199,8 +207,8 @@ export function buildMapPack({
     return {
       schemaVersion: 1,
       id: `wuwa-9268-state-${stateId}`,
-      title: state.name,
-      subtitle: `${markers.length} điểm · ${itemIds.join(", ")}`,
+      title: `Bản đồ rương · Khu vực ${stateId}`,
+      subtitle: `${markers.length} vị trí · ${itemIds.length} loại rương`,
       attribution:
         "Dữ liệu tổng hợp: 9268/wuwa-map (MIT). Bản đồ và dữ liệu game gốc thuộc KURO GAMES.",
       image: {
@@ -210,7 +218,7 @@ export function buildMapPack({
       },
       categories: itemIds.map((itemId, index) => ({
         id: itemId,
-        label: itemById.get(itemId).name,
+        label: itemLabels.get(itemId),
         color: CATEGORY_COLORS[index % CATEGORY_COLORS.length],
         symbol: String(index + 1),
       })),

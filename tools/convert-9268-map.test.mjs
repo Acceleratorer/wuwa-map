@@ -75,17 +75,25 @@ test("9268 converter maps game coordinates into resized image pixels", () => {
     });
 
     assert.equal(mapPack.id, "wuwa-9268-state-906");
-    assert.equal(mapPack.title, "Test Region");
+    assert.equal(mapPack.title, "Bản đồ rương · Khu vực 906");
     assert.deepEqual(
-      mapPack.categories.map((category) => category.id),
-      ["qzx_01", "qzx_02"],
+      mapPack.categories.map((category) => ({
+        id: category.id,
+        label: category.label,
+      })),
+      [
+        { id: "qzx_01", label: "Rương đơn sơ" },
+        { id: "qzx_02", label: "Rương tiêu chuẩn" },
+      ],
     );
     assert.equal(mapPack.markers.length, 1);
     assert.equal(mapPack.markers[0].id, "9268:marker-1");
+    assert.equal(mapPack.markers[0].title, "Rương đơn sơ");
     assert.equal(mapPack.markers[0].x, 25);
     assert.equal(mapPack.markers[0].y, 12.5);
     assert.match(mapPack.markers[0].description, /Tầng 40/);
-    assert.match(mapPack.markers[0].description, /Near the bridge/);
+    assert.doesNotMatch(mapPack.markers[0].description, /Near the bridge/);
+    assert.equal(mapPack.subtitle, "1 vị trí · 2 loại rương");
     assert.match(mapPack.attribution, /9268\/wuwa-map/);
   } finally {
     rmSync(directory, { recursive: true, force: true });

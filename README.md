@@ -218,9 +218,10 @@ pnpm convert:9268 -- \
 ```
 
 Converter dùng parameterized SQLite queries, lọc marker ngoài ảnh và đổi tọa
-độ game sang pixel của basemap đã resize. Repo `9268/wuwa-map` phát hành code
-và bộ dữ liệu tổng hợp theo MIT; quyền với bản đồ và game asset gốc vẫn thuộc
-KURO GAMES. Chỉ public những file bạn có quyền phân phối.
+độ game sang pixel của basemap đã resize. Bốn loại `qzx_01..04` được Việt hóa;
+ghi chú nguồn chưa dịch không được đưa vào bản public. Repo `9268/wuwa-map`
+phát hành code và bộ dữ liệu tổng hợp theo MIT; quyền với bản đồ và game asset
+gốc vẫn thuộc KURO GAMES. Chỉ public những file bạn có quyền phân phối.
 
 ## Local profile link
 

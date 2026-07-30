@@ -39,7 +39,7 @@ app.innerHTML = `
         <img src="${import.meta.env.BASE_URL}icon.svg" alt="" />
         <div>
           <strong>Wayfinder</strong>
-          <span>Local-first progress map</span>
+          <span>Bản đồ tiến trình cá nhân</span>
         </div>
       </div>
       <div class="topbar-spacer"></div>
@@ -48,7 +48,7 @@ app.innerHTML = `
         <small>đã hoàn thành</small>
       </div>
       <label class="profile-picker">
-        <span>Profile</span>
+        <span>Hồ sơ</span>
         <select id="profile-select" aria-label="Chọn profile"></select>
       </label>
       <button class="icon-button settings-button" id="settings-button" type="button" aria-label="Mở cài đặt">⚙</button>
@@ -56,7 +56,7 @@ app.innerHTML = `
 
     <aside class="sidebar" id="sidebar">
       <section class="map-intro">
-        <div class="eyebrow">MAP PACK ĐANG DÙNG</div>
+        <div class="eyebrow">BẢN ĐỒ ĐANG DÙNG</div>
         <h1 id="map-title"></h1>
         <p id="map-subtitle"></p>
         <div class="demo-notice" id="demo-notice">
@@ -80,11 +80,11 @@ app.innerHTML = `
 
       <label class="search-box">
         <span aria-hidden="true">⌕</span>
-        <input id="search-input" type="search" placeholder="Tìm marker..." autocomplete="off" />
+        <input id="search-input" type="search" placeholder="Tìm điểm..." autocomplete="off" />
       </label>
 
       <div class="section-heading">
-        <span>Loại marker</span>
+        <span>Loại điểm</span>
         <button id="toggle-all-categories" type="button">Bật tất cả</button>
       </div>
       <div class="category-list" id="category-list"></div>
@@ -113,7 +113,7 @@ app.innerHTML = `
       <div id="map" aria-label="Bản đồ tương tác"></div>
       <div class="map-hud">
         <span class="status-dot"></span>
-        <span id="visible-count">0 marker đang hiển thị</span>
+        <span id="visible-count">0 điểm đang hiển thị</span>
       </div>
       <div class="map-hint">Kéo để di chuyển · Cuộn để phóng to</div>
     </main>
@@ -130,8 +130,8 @@ app.innerHTML = `
       </div>
 
       <section class="dialog-section">
-        <h3>Profile hiện tại</h3>
-        <p id="profile-mode-description">Profile đang lưu cục bộ trên thiết bị này.</p>
+        <h3>Hồ sơ hiện tại</h3>
+        <p id="profile-mode-description">Hồ sơ đang lưu trên thiết bị này.</p>
         <div class="inline-form">
           <input id="profile-name-input" type="text" maxlength="40" aria-label="Tên profile" />
           <button id="rename-profile" class="primary-button" type="button">Lưu tên</button>
@@ -154,11 +154,11 @@ app.innerHTML = `
       </section>
 
       <section class="dialog-section">
-        <h3>Map pack</h3>
+        <h3>Gói bản đồ</h3>
         <p>Chỉ import dữ liệu và basemap mà bạn có quyền sử dụng.</p>
         <div class="button-grid">
-          <button id="import-map-pack" class="secondary-button" type="button">Import map pack</button>
-          <button id="use-demo-map" class="secondary-button" type="button">Dùng map demo</button>
+          <button id="import-map-pack" class="secondary-button" type="button">Import gói bản đồ</button>
+          <button id="use-demo-map" class="secondary-button" type="button">Dùng bản đồ demo</button>
         </div>
       </section>
 
@@ -254,7 +254,9 @@ renderCategories();
 initializeMap();
 renderMarkers();
 bindEvents();
-renderSyncState(remoteSession ? "Đang kết nối..." : "Chỉ lưu local");
+renderSyncState(
+  remoteSession ? "Đang kết nối..." : "Chỉ lưu trên thiết bị này",
+);
 if (initialSyncMessage) {
   showToast(initialSyncMessage, remoteSession ? "success" : "error");
 }
@@ -399,7 +401,7 @@ async function reloadProgress(): Promise<void> {
 function renderStaticMapDetails(): void {
   elements.mapTitle.textContent = activeMapPack.title;
   elements.mapSubtitle.textContent =
-    activeMapPack.subtitle ?? "Map pack không có mô tả.";
+    activeMapPack.subtitle ?? "Bản đồ không có mô tả.";
   elements.mapAttribution.textContent = activeMapPack.attribution;
   elements.demoNotice.hidden = activeMapPack.id !== demoMapPack.id;
   elements.hideCompleted.checked = hideCompleted;
@@ -427,7 +429,7 @@ function renderProfiles(): void {
     ? `Thiết bị đã liên kết với profile ${
         remoteSession?.profile.name ?? activeProfile?.name ?? ""
       }. Tiến trình được đồng bộ với server.`
-    : "Profile đang lưu cục bộ trên thiết bị này.";
+    : "Hồ sơ đang lưu trên thiết bị này.";
 }
 
 function renderCategories(): void {
@@ -563,7 +565,7 @@ function renderMarkers(): void {
     visibleMarkerCount += 1;
   }
 
-  elements.visibleCount.textContent = `${visibleMarkerCount} marker đang hiển thị`;
+  elements.visibleCount.textContent = `${visibleMarkerCount} điểm đang hiển thị`;
   updateProgressDisplay();
 }
 
@@ -630,7 +632,7 @@ async function setMarkerDone(markerId: string, done: boolean): Promise<void> {
     showToast("Đã lưu tiến trình.");
   } else {
     completedMarkerIds.delete(markerId);
-    showToast("Đã hoàn tác marker.");
+    showToast("Đã hoàn tác điểm.");
   }
 
   map.closePopup();
@@ -903,7 +905,7 @@ function bindEvents(): void {
     }
 
     if (file.size > 5 * 1024 * 1024) {
-      showToast("Map pack JSON vượt quá 5 MB.", "error");
+      showToast("Gói bản đồ JSON vượt quá 5 MB.", "error");
       return;
     }
 
@@ -920,7 +922,7 @@ function bindEvents(): void {
 
   elements.useDemoMap.addEventListener("click", async () => {
     await database.putSetting("activeMapPackId", demoMapPack.id);
-    showToast("Đang chuyển về map demo...");
+    showToast("Đang chuyển về bản đồ demo...");
     window.setTimeout(() => window.location.reload(), 350);
   });
 }
