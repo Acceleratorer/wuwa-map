@@ -12,8 +12,8 @@ import {
   randomToken,
 } from "./security.mjs";
 
-const APP_BASE = "/wuwa_map/";
-const API_BASE = "/wuwa_map/api";
+const APP_BASE = "/wuwa-map/";
+const API_BASE = "/wuwa-map/api";
 const MAX_BODY_BYTES = 64 * 1024;
 const ID_PATTERN = /^[a-zA-Z0-9:_-]{1,128}$/;
 const INVITE_PATTERN = /^[a-zA-Z0-9_-]{20,100}$/;

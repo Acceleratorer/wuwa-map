@@ -25,7 +25,7 @@ try {
   const appOrigin = new URL(
     (process.env.APP_ORIGIN ?? "http://127.0.0.1:8787").split(",")[0].trim(),
   );
-  const inviteUrl = new URL("/wuwa_map/", appOrigin);
+  const inviteUrl = new URL("/wuwa-map/", appOrigin);
   inviteUrl.searchParams.set("invite", code);
 
   console.log(`Profile: ${profile.name} (${profile.id})`);

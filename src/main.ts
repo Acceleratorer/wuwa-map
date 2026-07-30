@@ -220,6 +220,7 @@ const elements = {
 
 const database = await LocalDatabase.open();
 const demoMapPack = parseMapPack(demoMapPackJson);
+const bundledMapPack = await loadBundledMapPack();
 const syncClient = new SyncClient();
 let initialSyncMessage: string | undefined;
 let remoteSession = await bootstrapRemoteSession();
@@ -231,7 +232,7 @@ if (remoteSession) {
 }
 let activeProfileId = remoteSession?.profile.id ??
   (await resolveActiveProfileId(profiles));
-let mapPack = await resolveActiveMapPack();
+let mapPack = await resolveActiveMapPack(bundledMapPack);
 let activeMapPack = resolveImageSource(mapPack);
 let completedMarkerIds = new Set<string>();
 let visibleCategoryIds = await resolveVisibleCategoryIds(activeMapPack);
@@ -322,19 +323,41 @@ async function resolveActiveProfileId(availableProfiles: Profile[]): Promise<str
   return candidate;
 }
 
-async function resolveActiveMapPack(): Promise<MapPack> {
+async function loadBundledMapPack(): Promise<MapPack | undefined> {
+  try {
+    const response = await fetch(
+      `${import.meta.env.BASE_URL}map-packs/private/default-map-pack.json`,
+      { cache: "no-cache" },
+    );
+    if (!response.ok) {
+      return undefined;
+    }
+    return parseMapPack(await response.json());
+  } catch {
+    return undefined;
+  }
+}
+
+async function resolveActiveMapPack(
+  bundledPack: MapPack | undefined,
+): Promise<MapPack> {
   const storedMapPackId = await database.getSetting<unknown>("activeMapPackId");
+  const defaultMapPack = bundledPack ?? demoMapPack;
   const activeMapPackId =
-    typeof storedMapPackId === "string" ? storedMapPackId : demoMapPack.id;
+    typeof storedMapPackId === "string" ? storedMapPackId : defaultMapPack.id;
 
   if (activeMapPackId === demoMapPack.id) {
     return demoMapPack;
   }
+  if (bundledPack && activeMapPackId === bundledPack.id) {
+    await database.putSetting("activeMapPackId", bundledPack.id);
+    return bundledPack;
+  }
 
   const storedMapPack = await database.getMapPack(activeMapPackId);
   if (!storedMapPack) {
-    await database.putSetting("activeMapPackId", demoMapPack.id);
-    return demoMapPack;
+    await database.putSetting("activeMapPackId", defaultMapPack.id);
+    return defaultMapPack;
   }
 
   return parseMapPack(storedMapPack);

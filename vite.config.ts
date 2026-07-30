@@ -1,10 +1,10 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/wuwa_map/",
+  base: "/wuwa-map/",
   server: {
     proxy: {
-      "/wuwa_map/api": {
+      "/wuwa-map/api": {
         target: "http://127.0.0.1:8787",
       },
     },

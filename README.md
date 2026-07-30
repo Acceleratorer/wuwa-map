@@ -49,7 +49,7 @@ pnpm dev
 Vite proxy API về backend Node. URL frontend local là:
 
 ```text
-http://127.0.0.1:5173/wuwa_map/
+http://127.0.0.1:5173/wuwa-map/
 ```
 
 Build production:
@@ -62,7 +62,7 @@ pnpm serve
 Full-stack server chạy tại:
 
 ```text
-http://127.0.0.1:8787/wuwa_map/
+http://127.0.0.1:8787/wuwa-map/
 ```
 
 ## Tạo invite thiết bị
@@ -76,7 +76,7 @@ pnpm invite friend 72
 CLI sẽ in một URL dạng:
 
 ```text
-https://example.com/wuwa_map/?invite=<one-time-code>
+https://example.com/wuwa-map/?invite=<one-time-code>
 ```
 
 Người dùng chỉ cần mở URL một lần. Backend:
@@ -190,12 +190,44 @@ Quy ước tọa độ:
 Basemap có thể là URL HTTPS, data URL hoặc đường dẫn tương đối tới file đã được
 deploy cùng ứng dụng. Chỉ import dữ liệu và hình ảnh mà bạn có quyền sử dụng.
 
+## Map pack riêng tự động
+
+Khi file sau tồn tại, ứng dụng tự dùng nó thay cho map demo:
+
+```text
+public/map-packs/private/default-map-pack.json
+```
+
+Basemap được tham chiếu trong JSON cũng nên nằm dưới
+`public/map-packs/private/`. Toàn bộ thư mục này đã bị Git ignore nên có thể
+build bản dùng cá nhân mà không commit dữ liệu hoặc asset bên thứ ba.
+
+Converter cho release data của `9268/wuwa-map`:
+
+```bash
+pnpm convert:9268 -- \
+  --db data/private/9268-latest/stitched/map_items.db \
+  --coords data/private/9268-latest/stitched/map_coords.json \
+  --state 906 \
+  --country 4 \
+  --items qzx_01,qzx_02,qzx_03,qzx_04 \
+  --image map-packs/private/wuwa-906.webp \
+  --image-width 4973 \
+  --image-height 4956 \
+  --output public/map-packs/private/default-map-pack.json
+```
+
+Converter dùng parameterized SQLite queries, lọc marker ngoài ảnh và đổi tọa
+độ game sang pixel của basemap đã resize. Repo `9268/wuwa-map` phát hành code
+và bộ dữ liệu tổng hợp theo MIT; quyền với bản đồ và game asset gốc vẫn thuộc
+KURO GAMES. Chỉ public những file bạn có quyền phân phối.
+
 ## Local profile link
 
 Khi chưa bật backend, vẫn có thể chọn profile local bằng:
 
 ```text
-https://example.com/wuwa_map/?profile=friend
+https://example.com/wuwa-map/?profile=friend
 ```
 
 Ứng dụng nhớ profile được chọn trong IndexedDB. Vì dữ liệu hiện là local-only,
@@ -234,7 +266,7 @@ nâng phiên bản.
 Build output nằm trong `dist/`. Web server cần phục vụ toàn bộ thư mục dưới:
 
 ```text
-/wuwa_map/
+/wuwa-map/
 ```
 
 Nếu muốn deploy ở path khác, sửa `base` trong `vite.config.ts` và build lại.
@@ -250,8 +282,12 @@ TRUST_PROXY=true
 ```
 
 Bộ cấu hình systemd, Nginx và hướng dẫn từng bước cho
-`https://accel.io.vn/wuwa_map/` nằm tại
+`https://accel.io.vn/wuwa-map/` nằm tại
 [`deploy/README.md`](deploy/README.md).
+
+Nếu hosting chỉ nhận file tĩnh/PHP, dùng hướng dẫn
+[`deploy/STATIC_HOSTING.md`](deploy/STATIC_HOSTING.md). Chế độ này vẫn lưu tiến
+trình bằng IndexedDB nhưng không đồng bộ giữa các thiết bị.
 
 ## Kiểm thử
 
@@ -270,6 +306,6 @@ Test suite hiện kiểm tra:
 
 ## Phase tiếp theo
 
-1. Triển khai sau HTTPS tại `accel.io.vn/wuwa_map/`.
+1. Upload production build có private map pack lên `accel.io.vn/wuwa-map/`.
 2. Thêm data adapter cho nguồn dữ liệu có license rõ ràng.
 3. Diễn tập restore từ SQLite backup trên môi trường staging.

@@ -31,7 +31,7 @@ export function parseCookies(header) {
 export function createSessionCookie(token, maxAgeSeconds, secure) {
   const attributes = [
     `${SESSION_COOKIE_NAME}=${token}`,
-    "Path=/wuwa_map/",
+    "Path=/wuwa-map/",
     "HttpOnly",
     "SameSite=Strict",
     `Max-Age=${maxAgeSeconds}`,
@@ -45,7 +45,7 @@ export function createSessionCookie(token, maxAgeSeconds, secure) {
 export function clearSessionCookie(secure) {
   const attributes = [
     `${SESSION_COOKIE_NAME}=`,
-    "Path=/wuwa_map/",
+    "Path=/wuwa-map/",
     "HttpOnly",
     "SameSite=Strict",
     "Max-Age=0",

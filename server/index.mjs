@@ -43,7 +43,7 @@ const { server, repository } = createWayfinderServer({
 });
 
 server.listen(port, host, () => {
-  console.log(`Wayfinder listening on http://${host}:${port}/wuwa_map/`);
+  console.log(`Wayfinder listening on http://${host}:${port}/wuwa-map/`);
 });
 
 function shutdown() {

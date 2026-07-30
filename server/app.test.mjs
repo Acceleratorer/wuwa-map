@@ -29,7 +29,7 @@ before(async () => {
   if (!address || typeof address === "string") {
     throw new Error("Test server did not expose a TCP address.");
   }
-  baseUrl = `http://127.0.0.1:${address.port}/wuwa_map/api`;
+  baseUrl = `http://127.0.0.1:${address.port}/wuwa-map/api`;
 });
 
 after(async () => {
@@ -75,6 +75,7 @@ test("one-time invite creates a session and syncs authorized progress", async ()
   assert.ok(setCookie?.includes("HttpOnly"));
   assert.ok(setCookie?.includes("SameSite=Strict"));
   assert.ok(setCookie?.includes("Max-Age=315360000"));
+  assert.ok(setCookie?.includes("Path=/wuwa-map/"));
   const cookie = setCookie.split(";")[0];
 
   const reusedInvite = await api("/invites/claim", {

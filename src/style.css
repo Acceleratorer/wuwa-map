@@ -223,6 +223,10 @@ input[type="checkbox"] {
   line-height: 1.4;
 }
 
+.demo-notice[hidden] {
+  display: none;
+}
+
 .demo-notice span {
   padding: 3px 6px;
   border-radius: 5px;

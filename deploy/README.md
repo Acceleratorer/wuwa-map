@@ -1,8 +1,8 @@
-# Deploy lên VPS tại accel.io.vn/wuwa_map/
+# Deploy lên VPS tại accel.io.vn/wuwa-map/
 
 Đây là cấu hình tham khảo cho VPS Linux dùng systemd + Nginx. Backend và frontend
 được phục vụ bởi cùng một Node process tại `127.0.0.1:8787`; Nginx chỉ public
-đường dẫn HTTPS `/wuwa_map/`.
+đường dẫn HTTPS `/wuwa-map/`.
 
 ## 1. Chuẩn bị ứng dụng
 
@@ -44,7 +44,7 @@ sudo systemctl status wuwa-map
 Health check nội bộ:
 
 ```bash
-curl http://127.0.0.1:8787/wuwa_map/api/health
+curl http://127.0.0.1:8787/wuwa-map/api/health
 ```
 
 ## 4. Nối Nginx
@@ -60,7 +60,7 @@ sudo systemctl reload nginx
 Kiểm tra public:
 
 ```bash
-curl https://accel.io.vn/wuwa_map/api/health
+curl https://accel.io.vn/wuwa-map/api/health
 ```
 
 ## 5. Tạo link một lần cho bạn
