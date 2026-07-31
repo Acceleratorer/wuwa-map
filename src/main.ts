@@ -6,6 +6,7 @@ import L, {
 import "leaflet/dist/leaflet.css";
 import "./style.css";
 import demoMapPackJson from "./data/demo-map-pack.json";
+import { createFilterIcon } from "./filter-icons";
 import {
   parseBackup,
   parseMapCatalog,
@@ -16,10 +17,17 @@ import { SyncApiError, SyncClient, type RemoteSession } from "./sync";
 import type {
   MapCatalog,
   MapCategory,
+  MapCategoryGroup,
   MapMarker,
   MapPack,
   Profile,
 } from "./types";
+
+const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
+  id: "__other__",
+  label: "Khác",
+  icon: "default",
+};
 
 const DEFAULT_PROFILES: Profile[] = [
   {
@@ -97,11 +105,28 @@ app.innerHTML = `
         <input id="search-input" type="search" placeholder="Tìm tên hoặc ID..." autocomplete="off" />
       </label>
 
-      <div class="section-heading">
-        <span>Loại điểm</span>
-        <button id="toggle-all-categories" type="button">Bật tất cả</button>
+      <div class="section-heading category-heading">
+        <span>Bộ lọc điểm</span>
+        <button id="toggle-all-categories" type="button">Chọn tất cả</button>
       </div>
-      <div class="category-list" id="category-list"></div>
+      <div class="category-browser">
+        <nav class="category-groups" id="category-groups" aria-label="Nhóm loại điểm"></nav>
+        <section class="category-panel" aria-live="polite">
+          <div class="category-panel-heading">
+            <strong id="category-group-title">Loại điểm</strong>
+            <span id="category-group-count">0 mục</span>
+          </div>
+          <div class="category-list" id="category-list"></div>
+        </section>
+      </div>
+
+      <section class="selected-filters">
+        <div class="selected-filters-heading">
+          <span id="selected-category-count">Đang chọn 0 loại</span>
+          <button id="reset-category-filters" type="button">↻ Mặc định</button>
+        </div>
+        <div class="selected-category-list" id="selected-category-list"></div>
+      </section>
 
       <label class="toggle-row">
         <input id="hide-completed" type="checkbox" />
@@ -214,7 +239,13 @@ const elements = {
   progressBar: mustQuery<HTMLElement>("#progress-bar"),
   visibleCount: mustQuery<HTMLElement>("#visible-count"),
   searchInput: mustQuery<HTMLInputElement>("#search-input"),
+  categoryGroups: mustQuery<HTMLElement>("#category-groups"),
+  categoryGroupTitle: mustQuery<HTMLElement>("#category-group-title"),
+  categoryGroupCount: mustQuery<HTMLElement>("#category-group-count"),
   categoryList: mustQuery<HTMLElement>("#category-list"),
+  selectedCategoryCount: mustQuery<HTMLElement>("#selected-category-count"),
+  selectedCategoryList: mustQuery<HTMLElement>("#selected-category-list"),
+  resetCategoryFilters: mustQuery<HTMLButtonElement>("#reset-category-filters"),
   toggleAllCategories: mustQuery<HTMLButtonElement>("#toggle-all-categories"),
   hideCompleted: mustQuery<HTMLInputElement>("#hide-completed"),
   fitMap: mustQuery<HTMLButtonElement>("#fit-map"),
@@ -256,6 +287,10 @@ let mapPack = await resolveActiveMapPack(
   bundledMapPack,
 );
 let activeMapPack = resolveImageSource(mapPack);
+const categoryGroups = resolveCategoryGroups(activeMapPack);
+const categoryGroupById = new Map(
+  categoryGroups.map((group) => [group.id, group]),
+);
 const categoryById = new Map(
   activeMapPack.categories.map((category) => [category.id, category]),
 );
@@ -267,6 +302,7 @@ for (const marker of activeMapPack.markers) {
 }
 let completedMarkerIds = new Set<string>();
 let visibleCategoryIds = await resolveVisibleCategoryIds(activeMapPack);
+let activeCategoryGroupId = resolveInitialCategoryGroupId();
 const storedHideCompleted = await database.getSetting<unknown>("hideCompleted");
 let hideCompleted =
   typeof storedHideCompleted === "boolean" ? storedHideCompleted : false;
@@ -482,6 +518,57 @@ async function resolveVisibleCategoryIds(pack: MapPack): Promise<Set<string>> {
   return new Set(filtered);
 }
 
+function resolveCategoryGroups(pack: MapPack): MapCategoryGroup[] {
+  const configuredGroups = pack.categoryGroups ?? [];
+  const configuredGroupIds = new Set(
+    configuredGroups.map((group) => group.id),
+  );
+  const usedGroupIds = new Set(
+    pack.categories
+      .map((category) => category.groupId)
+      .filter((groupId): groupId is string => groupId !== undefined),
+  );
+  const groups = configuredGroups.filter((group) =>
+    usedGroupIds.has(group.id),
+  );
+  const hasUngroupedCategories = pack.categories.some(
+    (category) =>
+      category.groupId === undefined ||
+      !configuredGroupIds.has(category.groupId),
+  );
+
+  if (hasUngroupedCategories || groups.length === 0) {
+    groups.push(FALLBACK_CATEGORY_GROUP);
+  }
+  return groups;
+}
+
+function categoryGroupId(category: MapCategory): string {
+  return category.groupId && categoryGroupById.has(category.groupId)
+    ? category.groupId
+    : FALLBACK_CATEGORY_GROUP.id;
+}
+
+function resolveInitialCategoryGroupId(): string {
+  const firstVisibleCategory = activeMapPack.categories.find((category) =>
+    visibleCategoryIds.has(category.id),
+  );
+  return firstVisibleCategory
+    ? categoryGroupId(firstVisibleCategory)
+    : categoryGroups[0]?.id ?? FALLBACK_CATEGORY_GROUP.id;
+}
+
+function defaultVisibleCategoryIds(pack: MapPack): Set<string> {
+  const validCategoryIds = new Set(
+    pack.categories.map((category) => category.id),
+  );
+  return new Set(
+    (pack.defaultVisibleCategoryIds ?? [...validCategoryIds]).filter((id) =>
+      validCategoryIds.has(id),
+    ),
+  );
+}
+
 async function reloadProgress(): Promise<void> {
   const records = await database.getProgress(activeProfileId, activeMapPack.id);
   completedMarkerIds = new Set(
@@ -555,61 +642,171 @@ function renderProfiles(): void {
 }
 
 function renderCategories(): void {
+  elements.categoryGroups.replaceChildren();
   elements.categoryList.replaceChildren();
+  elements.selectedCategoryList.replaceChildren();
   const normalizedSearchTerm = searchTerm.trim().toLocaleLowerCase("vi");
+  const isSearching = normalizedSearchTerm.length > 0;
 
-  for (const category of activeMapPack.categories) {
-    const categorySearchText =
-      `${category.label} ${category.id}`.toLocaleLowerCase("vi");
-    if (
-      normalizedSearchTerm.length > 0 &&
-      !categorySearchText.includes(normalizedSearchTerm)
-    ) {
-      continue;
+  for (const group of categoryGroups) {
+    const groupCategories = activeMapPack.categories.filter(
+      (category) => categoryGroupId(category) === group.id,
+    );
+    const selectedCount = groupCategories.filter((category) =>
+      visibleCategoryIds.has(category.id),
+    ).length;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className =
+      group.id === activeCategoryGroupId
+        ? "category-group-button is-active"
+        : "category-group-button";
+    button.setAttribute(
+      "aria-pressed",
+      String(group.id === activeCategoryGroupId),
+    );
+    button.append(createFilterIcon(group.icon, "•"));
+
+    const label = document.createElement("span");
+    label.textContent = group.label;
+    const count = document.createElement("small");
+    count.textContent = `${selectedCount}/${groupCategories.length}`;
+    button.append(label, count);
+    button.addEventListener("click", () => {
+      activeCategoryGroupId = group.id;
+      if (searchTerm.length > 0) {
+        searchTerm = "";
+        elements.searchInput.value = "";
+        renderMarkers();
+      }
+      renderCategories();
+    });
+    elements.categoryGroups.append(button);
+  }
+
+  const displayedCategories = activeMapPack.categories.filter((category) => {
+    if (isSearching) {
+      const categorySearchText =
+        `${category.label} ${category.id}`.toLocaleLowerCase("vi");
+      return categorySearchText.includes(normalizedSearchTerm);
     }
+    return categoryGroupId(category) === activeCategoryGroupId;
+  });
 
+  const activeGroup = categoryGroupById.get(activeCategoryGroupId) ??
+    FALLBACK_CATEGORY_GROUP;
+  elements.categoryGroupTitle.textContent = isSearching
+    ? "Kết quả tìm kiếm"
+    : activeGroup.label;
+  elements.categoryGroupCount.textContent = `${displayedCategories.length} mục`;
+
+  if (displayedCategories.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "category-empty";
+    empty.textContent = isSearching
+      ? "Không tìm thấy loại điểm phù hợp."
+      : "Nhóm này chưa có điểm trong khu vực.";
+    elements.categoryList.append(empty);
+  }
+
+  for (const category of displayedCategories) {
     const categoryMarkers = markersByCategory.get(category.id) ?? [];
+    const categoryGroup = categoryGroupById.get(categoryGroupId(category)) ??
+      FALLBACK_CATEGORY_GROUP;
     const completed = categoryMarkers.filter((marker) =>
       completedMarkerIds.has(marker.id),
     ).length;
+    const isSelected = visibleCategoryIds.has(category.id);
 
-    const label = document.createElement("label");
-    label.className = "category-row";
-
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.checked = visibleCategoryIds.has(category.id);
-    checkbox.addEventListener("change", async () => {
-      if (checkbox.checked) {
-        visibleCategoryIds.add(category.id);
-      } else {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = isSelected
+      ? "category-card is-selected"
+      : "category-card";
+    card.style.setProperty("--category-color", category.color);
+    card.setAttribute("aria-pressed", String(isSelected));
+    card.title = `${category.label} · ${category.id}`;
+    card.addEventListener("click", async () => {
+      if (visibleCategoryIds.has(category.id)) {
         visibleCategoryIds.delete(category.id);
+      } else {
+        visibleCategoryIds.add(category.id);
       }
       await persistVisibleCategories();
+      renderCategories();
       renderMarkers();
     });
 
     const swatch = document.createElement("span");
-    swatch.className = "category-swatch";
+    swatch.className = "category-card-icon";
     swatch.style.setProperty("--category-color", category.color);
-    swatch.textContent = category.symbol;
+    swatch.append(
+      createFilterIcon(
+        category.icon ?? categoryGroup.icon,
+        category.symbol,
+      ),
+    );
 
     const text = document.createElement("span");
-    text.className = "category-label";
+    text.className = "category-card-copy";
     const title = document.createElement("strong");
     title.textContent = category.label;
-    const count = document.createElement("small");
-    count.textContent = `${completed}/${categoryMarkers.length}`;
-    text.append(title, count);
+    const details = document.createElement("span");
+    details.className = "category-card-details";
+    const progress = document.createElement("small");
+    progress.textContent = `${completed}/${categoryMarkers.length}`;
+    const id = document.createElement("code");
+    id.textContent = category.id;
+    details.append(progress, id);
+    text.append(title, details);
 
-    label.append(checkbox, swatch, text);
-    elements.categoryList.append(label);
+    const selectedIndicator = document.createElement("span");
+    selectedIndicator.className = "category-selected-indicator";
+    selectedIndicator.textContent = "✓";
+    selectedIndicator.setAttribute("aria-hidden", "true");
+
+    card.append(swatch, text, selectedIndicator);
+    elements.categoryList.append(card);
+  }
+
+  const selectedCategories = activeMapPack.categories.filter((category) =>
+    visibleCategoryIds.has(category.id),
+  );
+  elements.selectedCategoryCount.textContent =
+    `Đang chọn ${selectedCategories.length} loại`;
+
+  if (selectedCategories.length === 0) {
+    const empty = document.createElement("span");
+    empty.className = "selected-category-empty";
+    empty.textContent = "Chưa chọn loại điểm nào.";
+    elements.selectedCategoryList.append(empty);
+  }
+
+  for (const category of selectedCategories) {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "selected-category-chip";
+    chip.style.setProperty("--category-color", category.color);
+    chip.title = `Bỏ ${category.label}`;
+    const label = document.createElement("span");
+    label.textContent = category.label;
+    const remove = document.createElement("span");
+    remove.textContent = "×";
+    remove.setAttribute("aria-hidden", "true");
+    chip.append(label, remove);
+    chip.addEventListener("click", async () => {
+      visibleCategoryIds.delete(category.id);
+      await persistVisibleCategories();
+      renderCategories();
+      renderMarkers();
+    });
+    elements.selectedCategoryList.append(chip);
   }
 
   elements.toggleAllCategories.textContent =
     visibleCategoryIds.size === activeMapPack.categories.length
-      ? "Tắt tất cả"
-      : "Bật tất cả";
+      ? "Bỏ chọn tất cả"
+      : "Chọn tất cả";
 }
 
 function initializeMap(): void {
@@ -927,6 +1124,17 @@ function bindEvents(): void {
     await persistVisibleCategories();
     renderCategories();
     renderMarkers();
+  });
+
+  elements.resetCategoryFilters.addEventListener("click", async () => {
+    visibleCategoryIds = defaultVisibleCategoryIds(activeMapPack);
+    searchTerm = "";
+    elements.searchInput.value = "";
+    activeCategoryGroupId = resolveInitialCategoryGroupId();
+    await persistVisibleCategories();
+    renderCategories();
+    renderMarkers();
+    showToast("Đã đặt lại bộ lọc mặc định.");
   });
 
   elements.fitMap.addEventListener("click", () => {

@@ -1,12 +1,27 @@
 import type {
   BackupPayload,
   MapCategory,
+  MapCategoryGroup,
   MapCatalog,
+  MapIconName,
   MapMarker,
   MapPack,
   Profile,
   ProgressRecord,
 } from "./types";
+
+const MAP_ICON_NAMES = new Set<MapIconName>([
+  "activity",
+  "boss",
+  "chest",
+  "collection",
+  "default",
+  "elite",
+  "enemy",
+  "exploration",
+  "location",
+  "resource",
+]);
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -18,6 +33,10 @@ function isNonEmptyString(value: unknown): value is string {
 
 function isFiniteNumber(value: unknown): value is number {
   return typeof value === "number" && Number.isFinite(value);
+}
+
+function isMapIconName(value: unknown): value is MapIconName {
+  return typeof value === "string" && MAP_ICON_NAMES.has(value as MapIconName);
 }
 
 function isAllowedResourceSource(value: string): boolean {
@@ -41,13 +60,29 @@ function assertCategory(value: unknown, index: number): asserts value is MapCate
     !isNonEmptyString(value.id) ||
     !isNonEmptyString(value.label) ||
     !isNonEmptyString(value.symbol) ||
-    !isNonEmptyString(value.color)
+    !isNonEmptyString(value.color) ||
+    (value.groupId !== undefined && !isNonEmptyString(value.groupId)) ||
+    (value.icon !== undefined && !isMapIconName(value.icon))
   ) {
     throw new Error(`Danh mục #${index + 1} không hợp lệ.`);
   }
 
   if (!/^#[0-9a-f]{6}$/i.test(value.color)) {
     throw new Error(`Màu của danh mục "${value.label}" phải có dạng #RRGGBB.`);
+  }
+}
+
+function assertCategoryGroup(
+  value: unknown,
+  index: number,
+): asserts value is MapCategoryGroup {
+  if (
+    !isRecord(value) ||
+    !isNonEmptyString(value.id) ||
+    !isNonEmptyString(value.label) ||
+    !isMapIconName(value.icon)
+  ) {
+    throw new Error(`Nhóm danh mục #${index + 1} không hợp lệ.`);
   }
 }
 
@@ -116,6 +151,32 @@ export function parseMapPack(value: unknown): MapPack {
   const categoryIdCount = categoryIds.size;
   if (categoryIdCount !== value.categories.length) {
     throw new Error("Map pack có category id bị trùng.");
+  }
+
+  if (value.categoryGroups !== undefined) {
+    if (!Array.isArray(value.categoryGroups) || value.categoryGroups.length === 0) {
+      throw new Error("Danh sách nhóm category không hợp lệ.");
+    }
+    value.categoryGroups.forEach(assertCategoryGroup);
+    const categoryGroupIds = new Set(
+      value.categoryGroups.map((group) => group.id),
+    );
+    if (categoryGroupIds.size !== value.categoryGroups.length) {
+      throw new Error("Map pack có category group id bị trùng.");
+    }
+    if (
+      value.categories.some(
+        (category) =>
+          category.groupId !== undefined &&
+          !categoryGroupIds.has(category.groupId),
+      )
+    ) {
+      throw new Error("Category dùng groupId không tồn tại.");
+    }
+  } else if (
+    value.categories.some((category) => category.groupId !== undefined)
+  ) {
+    throw new Error("Map pack thiếu danh sách categoryGroups.");
   }
 
   value.markers.forEach((marker, index) =>

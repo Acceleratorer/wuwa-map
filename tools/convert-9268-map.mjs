@@ -27,6 +27,73 @@ const CATEGORY_COLORS = [
   "#6cc8ee",
   "#9fdb72",
 ];
+const CATEGORY_GROUPS = [
+  {
+    sourceDirectory: "61",
+    id: "collection",
+    label: "Bộ sưu tập",
+    itemLabel: "Vật phẩm sưu tập",
+    icon: "collection",
+  },
+  {
+    sourceDirectory: "52",
+    id: "exploration",
+    label: "Khám phá",
+    itemLabel: "Điểm khám phá",
+    icon: "exploration",
+  },
+  {
+    sourceDirectory: "49",
+    id: "resources",
+    label: "Tài nguyên",
+    itemLabel: "Tài nguyên",
+    icon: "resource",
+  },
+  {
+    sourceDirectory: "63",
+    id: "enemies",
+    label: "Kẻ thù",
+    itemLabel: "Kẻ thù",
+    icon: "enemy",
+  },
+  {
+    sourceDirectory: "65",
+    id: "elite-enemies",
+    label: "Kẻ thù mạnh",
+    itemLabel: "Kẻ thù mạnh",
+    icon: "elite",
+  },
+  {
+    sourceDirectory: "50",
+    id: "bosses",
+    label: "Boss",
+    itemLabel: "Boss",
+    icon: "boss",
+  },
+  {
+    sourceDirectory: "51",
+    id: "activities",
+    label: "Hoạt động",
+    itemLabel: "Hoạt động",
+    icon: "activity",
+  },
+  {
+    sourceDirectory: "48",
+    id: "locations",
+    label: "Địa điểm",
+    itemLabel: "Địa điểm",
+    icon: "location",
+  },
+];
+const FALLBACK_CATEGORY_GROUP = {
+  id: "other",
+  label: "Khác",
+  itemLabel: "Vật phẩm",
+  icon: "default",
+};
+const CATEGORY_GROUP_BY_SOURCE_DIRECTORY = new Map(
+  CATEGORY_GROUPS.map((group) => [group.sourceDirectory, group]),
+);
 const ID_PATTERN = /^[a-zA-Z0-9:_-]{1,128}$/;
 
 function assertPositiveInteger(value, name) {
@@ -82,8 +149,27 @@ function markerDescription(row) {
   return floorId ? `Tầng ${floorId}` : undefined;
 }
 
-function itemLabel(itemId, sourceName) {
-  return VIETNAMESE_ITEM_LABELS.get(itemId) ?? `Vật phẩm ${itemId}`;
+function itemGroup(itemId, icon) {
+  if (itemId.startsWith("qzx_")) {
+    return CATEGORY_GROUP_BY_SOURCE_DIRECTORY.get("61");
+  }
+  const sourceDirectory =
+    typeof icon === "string"
+      ? /^adminConfig\/([^/]+)\//.exec(icon)?.[1]
+      : undefined;
+  return sourceDirectory
+    ? CATEGORY_GROUP_BY_SOURCE_DIRECTORY.get(sourceDirectory) ??
+        FALLBACK_CATEGORY_GROUP
+    : FALLBACK_CATEGORY_GROUP;
+}
+
+function itemLabel(itemId, group) {
+  return VIETNAMESE_ITEM_LABELS.get(itemId) ??
+    `${group.itemLabel} ${itemId}`;
+}
+
+function itemIcon(itemId, group) {
+  return itemId.startsWith("qzx_") ? "chest" : group.icon;
 }
 
 export function buildMapPack({
@@ -138,12 +224,12 @@ export function buildMapPack({
     const itemRows = includeAllItems
       ? database
           .prepare(`
-            SELECT i.id, i.name
+            SELECT i.id, i.name, i.icon
             FROM item AS i
             INNER JOIN location AS l ON l.item_id = i.id
             WHERE l.state_id = ?
               AND (? IS NULL OR l.country_id = ?)
-            GROUP BY i.id, i.name
+            GROUP BY i.id, i.name, i.icon
             ORDER BY
               CASE WHEN i.id LIKE 'qzx_%' THEN 0 ELSE 1 END,
               i.id
@@ -151,7 +237,7 @@ export function buildMapPack({
           .all(stateId, countryId ?? null, countryId ?? null)
       : database
           .prepare(`
-            SELECT id, name
+            SELECT id, name, icon
             FROM item
             WHERE id IN (${itemIds.map(() => "?").join(", ")})
           `)
@@ -166,10 +252,16 @@ export function buildMapPack({
     if (missingItemIds.length > 0) {
       throw new Error(`Không tìm thấy item: ${missingItemIds.join(", ")}.`);
     }
+    const itemGroups = new Map(
+      selectedItemIds.map((itemId) => [
+        itemId,
+        itemGroup(itemId, itemById.get(itemId).icon),
+      ]),
+    );
     const itemLabels = new Map(
       selectedItemIds.map((itemId) => [
         itemId,
-        itemLabel(itemId, itemById.get(itemId).name),
+        itemLabel(itemId, itemGroups.get(itemId)),
       ]),
     );
     const placeholders = selectedItemIds.map(() => "?").join(", ");
@@ -242,6 +334,16 @@ export function buildMapPack({
         width: imageWidth,
         height: imageHeight,
       },
+      categoryGroups: [
+        ...CATEGORY_GROUPS,
+        FALLBACK_CATEGORY_GROUP,
+      ]
+        .filter((group) =>
+          selectedItemIds.some(
+            (itemId) => itemGroups.get(itemId).id === group.id,
+          ),
+        )
+        .map(({ id, label, icon }) => ({ id, label, icon })),
       defaultVisibleCategoryIds: (() => {
         const chestIds = selectedItemIds.filter((itemId) =>
           itemId.startsWith("qzx_"),
@@ -257,6 +359,8 @@ export function buildMapPack({
         symbol: VIETNAMESE_ITEM_LABELS.has(itemId)
           ? String(DEFAULT_ITEM_IDS.indexOf(itemId) + 1)
           : "•",
+        groupId: itemGroups.get(itemId).id,
+        icon: itemIcon(itemId, itemGroups.get(itemId)),
       })),
       markers,
     };

@@ -1,10 +1,30 @@
 export type SchemaVersion = 1;
 
+export type MapIconName =
+  | "activity"
+  | "boss"
+  | "chest"
+  | "collection"
+  | "default"
+  | "elite"
+  | "enemy"
+  | "exploration"
+  | "location"
+  | "resource";
+
+export interface MapCategoryGroup {
+  id: string;
+  label: string;
+  icon: MapIconName;
+}
+
 export interface MapCategory {
   id: string;
   label: string;
   color: string;
   symbol: string;
+  groupId?: string;
+  icon?: MapIconName;
 }
 
 export interface MapMarker {
@@ -27,6 +47,7 @@ export interface MapPack {
     width: number;
     height: number;
   };
+  categoryGroups?: MapCategoryGroup[];
   categories: MapCategory[];
   defaultVisibleCategoryIds?: string[];
   markers: MapMarker[];

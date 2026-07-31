@@ -9,30 +9,55 @@
     "width": 1600,
     "height": 1000
   },
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    }
+  ],
   "categories": [
     {
       "id": "chest",
       "label": "Rương",
       "color": "#f8c963",
-      "symbol": "R"
+      "symbol": "R",
+      "groupId": "collection",
+      "icon": "chest"
     },
     {
       "id": "resource",
       "label": "Tài nguyên",
       "color": "#65d6a8",
-      "symbol": "T"
+      "symbol": "T",
+      "groupId": "resources",
+      "icon": "resource"
     },
     {
       "id": "challenge",
       "label": "Thử thách",
       "color": "#f07e83",
-      "symbol": "!"
+      "symbol": "!",
+      "groupId": "exploration",
+      "icon": "activity"
     },
     {
       "id": "waypoint",
       "label": "Điểm dịch chuyển",
       "color": "#6cc8ee",
-      "symbol": "D"
+      "symbol": "D",
+      "groupId": "exploration",
+      "icon": "location"
     }
   ],
   "markers": [

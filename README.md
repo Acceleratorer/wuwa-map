@@ -157,12 +157,21 @@ Schema tối thiểu:
     "width": 1600,
     "height": 1000
   },
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    }
+  ],
   "categories": [
     {
       "id": "chest",
       "label": "Rương",
       "color": "#f8c963",
-      "symbol": "R"
+      "symbol": "R",
+      "groupId": "collection",
+      "icon": "chest"
     }
   ],
   "markers": [
@@ -186,6 +195,8 @@ Quy ước tọa độ:
 - Marker phải nằm trong `image.width` và `image.height`.
 - `id` của category và marker phải duy nhất.
 - `color` dùng dạng `#RRGGBB`.
+- `categoryGroups`, `groupId` và `icon` là metadata tùy chọn để dựng bộ lọc
+  dạng nhóm/card. Map pack schema v1 cũ không có các trường này vẫn dùng được.
 
 Basemap có thể là URL HTTPS, data URL hoặc đường dẫn tương đối tới file đã được
 deploy cùng ứng dụng. Chỉ import dữ liệu và hình ảnh mà bạn có quyền sử dụng.
@@ -208,7 +219,7 @@ commit dữ liệu hoặc asset bên thứ ba.
 Sinh catalog toàn bộ database `9268/wuwa-map`:
 
 ```bash
-pnpm catalog:9268 -- \
+pnpm catalog:9268 \
   --db data/private/9268-latest/stitched/map_items.db \
   --coords data/private/9268-latest/stitched/map_coords.json \
   --images public/map-packs/private/maps \
@@ -218,17 +229,20 @@ pnpm catalog:9268 -- \
 
 Thư mục `--images` cần có ảnh `<state-id>.webp` hoặc `<state-id>.png`. Catalog
 generator tự đọc kích thước ảnh, xuất một JSON cho mỗi khu vực và đặt nhóm
-`qzx_*` làm bộ lọc mặc định. Các item khác vẫn có đầy đủ theo ID và có thể tìm
-trực tiếp trong ô tìm kiếm.
+`qzx_*` làm bộ lọc mặc định. Metadata icon trong database được quy về tám nhóm
+Việt hóa: bộ sưu tập, khám phá, tài nguyên, kẻ thù, kẻ thù mạnh, boss, hoạt động
+và địa điểm. Các item vẫn có đầy đủ theo ID và có thể tìm trực tiếp trong ô tìm
+kiếm.
 
 Converter dùng parameterized SQLite queries, lọc marker ngoài ảnh và đổi tọa
 độ game sang pixel của basemap đã resize. Bốn loại `qzx_01..04` được Việt hóa;
-item chưa dịch hiển thị dưới dạng `Vật phẩm <id>` và ghi chú nguồn chưa dịch
-không được đưa vào bản public. Repo `9268/wuwa-map` phát hành code và bộ dữ liệu
-tổng hợp theo MIT; quyền với bản đồ và game asset gốc vẫn thuộc KURO GAMES. Chỉ
-public những file bạn có quyền phân phối.
+item chưa dịch hiển thị bằng tên nhóm cộng với ID, chẳng hạn
+`Kẻ thù 310000790`; ghi chú nguồn chưa dịch không được đưa vào bản public. Repo
+`9268/wuwa-map` phát hành code và bộ dữ liệu tổng hợp theo MIT; quyền với bản đồ
+và game asset gốc vẫn thuộc KURO GAMES. Chỉ public những file bạn có quyền phân
+phối.
 
-Converter một khu vực vẫn có thể chạy bằng `pnpm convert:9268 -- --help`.
+Converter một khu vực vẫn có thể chạy bằng `pnpm convert:9268 --help`.
 
 ## Local profile link
 

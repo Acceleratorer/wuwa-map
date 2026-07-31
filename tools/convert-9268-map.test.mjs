@@ -37,10 +37,10 @@ test("9268 converter maps game coordinates into resized image pixels", () => {
       );
 
       INSERT INTO state (id, name) VALUES (906, 'Test Region');
-      INSERT INTO item (id, name) VALUES
-        ('qzx_01', 'Common Chest'),
-        ('qzx_02', 'Standard Chest'),
-        ('310000790', 'Rock Spider');
+      INSERT INTO item (id, name, icon) VALUES
+        ('qzx_01', 'Common Chest', 'adminConfig/61/props_namephoto/chest-1.png'),
+        ('qzx_02', 'Standard Chest', 'adminConfig/61/props_namephoto/chest-2.png'),
+        ('310000790', 'Rock Spider', 'adminConfig/63/props_namephoto/enemy.png');
       INSERT INTO location (
         id, item_id, state_id, country_id, floor_id, level, x, y, description
       ) VALUES
@@ -97,6 +97,20 @@ test("9268 converter maps game coordinates into resized image pixels", () => {
     assert.doesNotMatch(mapPack.markers[0].description, /Near the bridge/);
     assert.equal(mapPack.subtitle, "1 vị trí · 2 loại rương");
     assert.match(mapPack.attribution, /9268\/wuwa-map/);
+    assert.deepEqual(mapPack.categoryGroups, [
+      { id: "collection", label: "Bộ sưu tập", icon: "collection" },
+    ]);
+    assert.deepEqual(
+      mapPack.categories.map((category) => ({
+        id: category.id,
+        groupId: category.groupId,
+        icon: category.icon,
+      })),
+      [
+        { id: "qzx_01", groupId: "collection", icon: "chest" },
+        { id: "qzx_02", groupId: "collection", icon: "chest" },
+      ],
+    );
 
     const fullMapPack = buildMapPack({
       databasePath,
@@ -115,23 +129,47 @@ test("9268 converter maps game coordinates into resized image pixels", () => {
       "qzx_01",
       "qzx_02",
     ]);
+    assert.deepEqual(fullMapPack.categoryGroups, [
+      { id: "collection", label: "Bộ sưu tập", icon: "collection" },
+      { id: "enemies", label: "Kẻ thù", icon: "enemy" },
+    ]);
     assert.deepEqual(
       fullMapPack.categories.map((category) => ({
         id: category.id,
         label: category.label,
         symbol: category.symbol,
+        groupId: category.groupId,
+        icon: category.icon,
       })),
       [
-        { id: "qzx_01", label: "Rương đơn sơ", symbol: "1" },
-        { id: "qzx_02", label: "Rương tiêu chuẩn", symbol: "2" },
-        { id: "310000790", label: "Vật phẩm 310000790", symbol: "•" },
+        {
+          id: "qzx_01",
+          label: "Rương đơn sơ",
+          symbol: "1",
+          groupId: "collection",
+          icon: "chest",
+        },
+        {
+          id: "qzx_02",
+          label: "Rương tiêu chuẩn",
+          symbol: "2",
+          groupId: "collection",
+          icon: "chest",
+        },
+        {
+          id: "310000790",
+          label: "Kẻ thù 310000790",
+          symbol: "•",
+          groupId: "enemies",
+          icon: "enemy",
+        },
       ],
     );
     assert.equal(fullMapPack.markers.length, 2);
     assert.equal(
       fullMapPack.markers.find((marker) => marker.id === "9268:marker-2")
         ?.title,
-      "Vật phẩm 310000790",
+      "Kẻ thù 310000790",
     );
   } finally {
     rmSync(directory, { recursive: true, force: true });
