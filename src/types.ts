@@ -36,17 +36,28 @@ export interface MapMarker {
   description?: string;
 }
 
+export interface MapImageSource {
+  src: string;
+  width: number;
+  height: number;
+}
+
+export interface MapTileSource {
+  src: string;
+  tileSize: number;
+  columns: number;
+  rows: number;
+  availableTiles?: string[];
+}
+
 export interface MapPack {
   schemaVersion: SchemaVersion;
   id: string;
   title: string;
   subtitle?: string;
   attribution: string;
-  image: {
-    src: string;
-    width: number;
-    height: number;
-  };
+  image?: MapImageSource;
+  tiles?: MapTileSource;
   categoryGroups?: MapCategoryGroup[];
   categories: MapCategory[];
   defaultVisibleCategoryIds?: string[];

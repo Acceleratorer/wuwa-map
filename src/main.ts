@@ -8,6 +8,7 @@ import "./style.css";
 import demoMapPackJson from "./data/demo-map-pack.json";
 import { createFilterIcon } from "./filter-icons";
 import {
+  mapPackDimensions,
   parseBackup,
   parseMapCatalog,
   parseMapPack,
@@ -28,6 +29,8 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
   label: "Khác",
   icon: "default",
 };
+const TRANSPARENT_TILE =
+  "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 
 const DEFAULT_PROFILES: Profile[] = [
   {
@@ -286,7 +289,7 @@ let mapPack = await resolveActiveMapPack(
   bundledMapCatalog,
   bundledMapPack,
 );
-let activeMapPack = resolveImageSource(mapPack);
+let activeMapPack = resolveBasemapSources(mapPack);
 const categoryGroups = resolveCategoryGroups(activeMapPack);
 const categoryGroupById = new Map(
   categoryGroups.map((group) => [group.id, group]),
@@ -488,13 +491,32 @@ async function resolveActiveMapPack(
   return fallbackMapPack;
 }
 
-function resolveImageSource(pack: MapPack): MapPack {
+function resolveTileTemplate(source: string): string {
+  const xToken = "__WAYFINDER_TILE_X__";
+  const yToken = "__WAYFINDER_TILE_Y__";
+  return new URL(
+    source.replace("{x}", xToken).replace("{y}", yToken),
+    document.baseURI,
+  ).href
+    .replace(xToken, "{x}")
+    .replace(yToken, "{y}");
+}
+
+function resolveBasemapSources(pack: MapPack): MapPack {
   return {
     ...pack,
-    image: {
-      ...pack.image,
-      src: new URL(pack.image.src, document.baseURI).href,
-    },
+    image: pack.image
+      ? {
+          ...pack.image,
+          src: new URL(pack.image.src, document.baseURI).href,
+        }
+      : undefined,
+    tiles: pack.tiles
+      ? {
+          ...pack.tiles,
+          src: resolveTileTemplate(pack.tiles.src),
+        }
+      : undefined,
   };
 }
 
@@ -810,9 +832,10 @@ function renderCategories(): void {
 }
 
 function initializeMap(): void {
+  const dimensions = mapPackDimensions(activeMapPack);
   imageBounds = L.latLngBounds(
     [0, 0],
-    [activeMapPack.image.height, activeMapPack.image.width],
+    [dimensions.height, dimensions.width],
   );
 
   map = L.map("map", {
@@ -825,9 +848,33 @@ function initializeMap(): void {
     attributionControl: false,
   });
 
-  L.imageOverlay(activeMapPack.image.src, imageBounds, {
-    className: "map-image",
-  }).addTo(map);
+  if (activeMapPack.image) {
+    L.imageOverlay(activeMapPack.image.src, imageBounds, {
+      className: "map-image",
+    }).addTo(map);
+  } else if (activeMapPack.tiles) {
+    const tileLayer = L.tileLayer(activeMapPack.tiles.src, {
+      tileSize: activeMapPack.tiles.tileSize,
+      minNativeZoom: 0,
+      maxNativeZoom: 0,
+      minZoom: -2,
+      maxZoom: 2.5,
+      noWrap: true,
+      bounds: imageBounds,
+      keepBuffer: 2,
+      updateWhenZooming: false,
+      className: "map-image",
+    });
+    if (activeMapPack.tiles.availableTiles) {
+      const availableTiles = new Set(activeMapPack.tiles.availableTiles);
+      const originalGetTileUrl = tileLayer.getTileUrl.bind(tileLayer);
+      tileLayer.getTileUrl = (coordinates) =>
+        availableTiles.has(`${coordinates.x},${coordinates.y}`)
+          ? originalGetTileUrl(coordinates)
+          : TRANSPARENT_TILE;
+    }
+    tileLayer.addTo(map);
+  }
   markerLayer = L.layerGroup().addTo(map);
   map.fitBounds(imageBounds, { animate: false });
   if (window.matchMedia("(max-width: 820px)").matches) {
@@ -839,7 +886,8 @@ function initializeMap(): void {
 }
 
 function markerLatLng(marker: MapMarker): L.LatLngExpression {
-  return [activeMapPack.image.height - marker.y, marker.x];
+  const dimensions = mapPackDimensions(activeMapPack);
+  return [dimensions.height - marker.y, marker.x];
 }
 
 function renderMarkers(): void {

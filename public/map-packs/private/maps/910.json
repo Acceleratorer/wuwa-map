@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-state-910",
+  "title": "时隙废都",
+  "subtitle": "59 vị trí · 9 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-07-31.",
+  "tiles": {
+    "src": "map-packs/private/maps/910/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 2,
+    "rows": 2,
+    "availableTiles": [
+      "0,-1",
+      "1,-2",
+      "1,-1",
+      "0,-2"
+    ]
+  },
+  "categoryGroups": [
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "activities",
+      "label": "Hoạt động",
+      "icon": "activity"
+    },
+    {
+      "id": "locations",
+      "label": "Địa điểm",
+      "icon": "location"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "SP_IconMap_Activity_HonamiStory_UI",
+    "320000480",
+    "CS_01",
+    "T_IconC_SM_Gat_25A_UI",
+    "310000760",
+    "T_IconC_SM_Gat_01B_UI",
+    "myjl",
+    "310000750"
+  ],
+  "categories": [
+    {
+      "id": "SP_IconMap_Activity_HonamiStory_UI",
+      "label": "作战准备",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location"
+    },
+    {
+      "id": "320000480",
+      "label": "梦魇·刺玫菇",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy"
+    },
+    {
+      "id": "CS_01",
+      "label": "中枢信标",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration"
+    },
+    {
+      "id": "T_IconC_SM_Gat_25A_UI",
+      "label": "香柠草",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource"
+    },
+    {
+      "id": "310000760",
+      "label": "梦魇·侏侏鸵",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy"
+    },
+    {
+      "id": "T_IconC_SM_Gat_01B_UI",
+      "label": "香苏",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource"
+    },
+    {
+      "id": "myjl",
+      "label": "梦魇聚落",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity"
+    },
+    {
+      "id": "310000750",
+      "label": "梦魇·呜咔咔",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy"
+    },
+    {
+      "id": "T_IconC_060_UI",
+      "label": "长夏花",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource"
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1437866586385195008",
+      "categoryId": "SP_IconMap_Activity_HonamiStory_UI",
+      "title": "作战准备",
+      "x": 797.816,
+      "y": 820.405
+    },
+    {
+      "id": "kuro:1440114482467074048",
+      "categoryId": "320000480",
+      "title": "梦魇·刺玫菇",
+      "x": 761.675,
+      "y": 695.718,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1440114676952756224",
+      "categoryId": "320000480",
+      "title": "梦魇·刺玫菇",
+      "x": 761.675,
+      "y": 693.007,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1440115218227687424",
+      "categoryId": "320000480",
+      "title": "梦魇·刺玫菇",
+      "x": 763.482,
+      "y": 693.007,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1440316870595473408",
+      "categoryId": "CS_01",
+      "title": "中枢信标",
+      "x": 773.421,
+      "y": 802.334
+    },
+    {
+      "id": "kuro:1438873179090145280",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 856.546,
+      "y": 753.544
+    },
+    {
+      "id": "kuro:1438873996251131904",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 694.814,
+      "y": 740.894
+    },
+    {
+      "id": "kuro:1438873996360183808",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 696.621,
+      "y": 739.991
+    },
+    {
+      "id": "kuro:1438873996460847104",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 694.814,
+      "y": 738.184
+    },
+    {
+      "id": "kuro:1438876790827806720",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 739.991,
+      "y": 753.544
+    },
+    {
+      "id": "kuro:1438876790932664320",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 738.184,
+      "y": 750.833
+    },
+    {
+      "id": "kuro:1438877175290294272",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 749.026,
+      "y": 701.139
+    },
+    {
+      "id": "kuro:1438877175390957568",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 749.929,
+      "y": 700.235
+    },
+    {
+      "id": "kuro:1438877872210137088",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 821.308,
+      "y": 708.367
+    },
+    {
+      "id": "kuro:1438878265712865280",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 830.344,
+      "y": 695.718
+    },
+    {
+      "id": "kuro:1438878747403513856",
+      "categoryId": "T_IconC_SM_Gat_25A_UI",
+      "title": "香柠草",
+      "x": 777.939,
+      "y": 731.859
+    },
+    {
+      "id": "kuro:1440113139902402560",
+      "categoryId": "310000760",
+      "title": "梦魇·侏侏鸵",
+      "x": 765.289,
+      "y": 695.718,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1440113821019623424",
+      "categoryId": "310000760",
+      "title": "梦魇·侏侏鸵",
+      "x": 762.579,
+      "y": 696.621,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1438868567666806784",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 777.035,
+      "y": 831.247
+    },
+    {
+      "id": "kuro:1438871562770477056",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 835.765,
+      "y": 786.974
+    },
+    {
+      "id": "kuro:1438871919821672448",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 874.616,
+      "y": 817.694
+    },
+    {
+      "id": "kuro:1438872257777717248",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 851.125,
+      "y": 806.852
+    },
+    {
+      "id": "kuro:1438872257958072320",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 848.414,
+      "y": 803.238
+    },
+    {
+      "id": "kuro:1438872623332282368",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 926.118,
+      "y": 753.544
+    },
+    {
+      "id": "kuro:1438877653872963584",
+      "categoryId": "T_IconC_SM_Gat_01B_UI",
+      "title": "香苏",
+      "x": 805.948,
+      "y": 749.929
+    },
+    {
+      "id": "kuro:1439988171407446016",
+      "categoryId": "myjl",
+      "title": "梦魇聚落",
+      "x": 764.386,
+      "y": 669.515,
+      "description": "该地区每日将会固定刷新一定数量的梦魇残象，击败梦魇残象后，可以获取独特的梦魇声骸。"
+    },
+    {
+      "id": "kuro:1440115411157282816",
+      "categoryId": "310000750",
+      "title": "梦魇·呜咔咔",
+      "x": 763.482,
+      "y": 693.911,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1440115560306733056",
+      "categoryId": "310000750",
+      "title": "梦魇·呜咔咔",
+      "x": 764.386,
+      "y": 695.718,
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+    },
+    {
+      "id": "kuro:1438959520290729984",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 770.711,
+      "y": 826.729
+    },
+    {
+      "id": "kuro:1438962449605226496",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 769.075,
+      "y": 829.25
+    },
+    {
+      "id": "kuro:1438966553570791424",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 768,
+      "y": 829.44
+    },
+    {
+      "id": "kuro:1438984289404874752",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 761.675,
+      "y": 814.08
+    },
+    {
+      "id": "kuro:1438984289522315264",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 759.868,
+      "y": 814.984
+    },
+    {
+      "id": "kuro:1438984289635561472",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 759.868,
+      "y": 817.694
+    },
+    {
+      "id": "kuro:1438985432918945792",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 698.428,
+      "y": 757.158
+    },
+    {
+      "id": "kuro:1438985433048969216",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 699.332,
+      "y": 757.158
+    },
+    {
+      "id": "kuro:1438985433174798336",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 700.235,
+      "y": 757.158
+    },
+    {
+      "id": "kuro:1438986234513354752",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 712.885,
+      "y": 758.965
+    },
+    {
+      "id": "kuro:1438986234630795264",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 720.113,
+      "y": 764.386
+    },
+    {
+      "id": "kuro:1438986234744041472",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 719.209,
+      "y": 765.289
+    },
+    {
+      "id": "kuro:1438986234861481984",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 720.113,
+      "y": 767.096
+    },
+    {
+      "id": "kuro:1438987033702912000",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 713.788,
+      "y": 774.325
+    },
+    {
+      "id": "kuro:1438987033904238592",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 711.981,
+      "y": 774.325
+    },
+    {
+      "id": "kuro:1438987034092982272",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 711.981,
+      "y": 775.228
+    },
+    {
+      "id": "kuro:1438987587608408064",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 710.174,
+      "y": 768.904
+    },
+    {
+      "id": "kuro:1438988132702834688",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 674.936,
+      "y": 778.842
+    },
+    {
+      "id": "kuro:1438988947586314240",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 815.887,
+      "y": 758.061
+    },
+    {
+      "id": "kuro:1438988947712143360",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 814.984,
+      "y": 757.158
+    },
+    {
+      "id": "kuro:1438988947837972480",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 815.887,
+      "y": 756.254
+    },
+    {
+      "id": "kuro:1438989629616377856",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 835.765,
+      "y": 755.351
+    },
+    {
+      "id": "kuro:1438989629796732928",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 835.765,
+      "y": 754.447
+    },
+    {
+      "id": "kuro:1438989629977088000",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 834.861,
+      "y": 755.351
+    },
+    {
+      "id": "kuro:1438990245350109184",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 830.344,
+      "y": 743.605
+    },
+    {
+      "id": "kuro:1438990245454966784",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 824.922,
+      "y": 767.096
+    },
+    {
+      "id": "kuro:1438991118279725056",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 869.195,
+      "y": 796.913
+    },
+    {
+      "id": "kuro:1438991118460080128",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 867.388,
+      "y": 800.527
+    },
+    {
+      "id": "kuro:1438991915189096448",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 855.642,
+      "y": 823.115
+    },
+    {
+      "id": "kuro:1438991915382034432",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 854.739,
+      "y": 822.212
+    },
+    {
+      "id": "kuro:1438991915570778112",
+      "categoryId": "T_IconC_060_UI",
+      "title": "长夏花",
+      "x": 855.642,
+      "y": 820.405
+    }
+  ]
+}

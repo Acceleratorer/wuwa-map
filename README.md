@@ -244,6 +244,36 @@ phối.
 
 Converter một khu vực vẫn có thể chạy bằng `pnpm convert:9268 --help`.
 
+## Crawl KURO official map
+
+Khi chủ dự án đã có permission phù hợp từ KURO, có thể mirror toàn bộ dữ liệu và tile công
+khai về thư mục private:
+
+```bash
+pnpm crawl:kuro --output public/map-packs/private --states all
+```
+
+Crawler:
+
+- Không dùng cookie, tài khoản hoặc API ghi tiến trình.
+- Chỉ đọc metadata public và tile CDN của official map.
+- Tự lấy resource hash và danh sách state hiện tại.
+- Tải tile WebP 768 px theo pool giới hạn; file đã tải thành công sẽ được bỏ qua khi chạy lại.
+- Tự tải lại toàn bộ tile khi KURO đổi resource hash hoặc khi đổi kích thước tile.
+- Giữ raw JSON trong `data/private/kuro/` để audit và build lại.
+- Sinh `catalog.json` cùng một map pack cho mỗi state.
+
+Muốn ép refresh tile dù resource hash chưa đổi:
+
+```bash
+pnpm crawl:kuro --output public/map-packs/private --states all --refresh-tiles true
+```
+
+Bundle deploy trong `public/map-packs/private/` được commit để clone repo mới có thể build và
+host full map ngay. Raw JSON/cache trong `data/private/kuro/` vẫn nằm trong `.gitignore`.
+Chỉ deploy hoặc phân phối các file này khi permission của bạn cho phép; attribution trong map
+pack không đồng nghĩa với việc KURO phát hành asset dưới một giấy phép nguồn mở.
+
 ## Local profile link
 
 Khi chưa bật backend, vẫn có thể chọn profile local bằng:

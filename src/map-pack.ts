@@ -54,6 +54,25 @@ function isAllowedImageSource(value: string): boolean {
     : isAllowedResourceSource(value);
 }
 
+export function mapPackDimensions(pack: MapPack): {
+  width: number;
+  height: number;
+} {
+  if (pack.image) {
+    return {
+      width: pack.image.width,
+      height: pack.image.height,
+    };
+  }
+  if (pack.tiles) {
+    return {
+      width: pack.tiles.tileSize * pack.tiles.columns,
+      height: pack.tiles.tileSize * pack.tiles.rows,
+    };
+  }
+  throw new Error("Map pack không có basemap.");
+}
+
 function assertCategory(value: unknown, index: number): asserts value is MapCategory {
   if (
     !isRecord(value) ||
@@ -131,19 +150,77 @@ export function parseMapPack(value: unknown): MapPack {
   }
 
   const image = value.image;
-  const imageSource = isRecord(image) ? image.src : undefined;
-  const imageWidth = isRecord(image) ? image.width : undefined;
-  const imageHeight = isRecord(image) ? image.height : undefined;
-  if (
-    !isRecord(image) ||
-    !isNonEmptyString(imageSource) ||
-    !isAllowedImageSource(imageSource) ||
-    !isFiniteNumber(imageWidth) ||
-    !isFiniteNumber(imageHeight) ||
-    imageWidth <= 0 ||
-    imageHeight <= 0
-  ) {
-    throw new Error("Thông tin basemap không hợp lệ.");
+  const tiles = value.tiles;
+  const hasImage = image !== undefined;
+  const hasTiles = tiles !== undefined;
+  if (hasImage === hasTiles) {
+    throw new Error("Map pack phải có đúng một loại basemap.");
+  }
+
+  let mapWidth: number;
+  let mapHeight: number;
+  if (hasImage) {
+    const imageSource = isRecord(image) ? image.src : undefined;
+    const imageWidth = isRecord(image) ? image.width : undefined;
+    const imageHeight = isRecord(image) ? image.height : undefined;
+    if (
+      !isRecord(image) ||
+      !isNonEmptyString(imageSource) ||
+      !isAllowedImageSource(imageSource) ||
+      !isFiniteNumber(imageWidth) ||
+      !isFiniteNumber(imageHeight) ||
+      imageWidth <= 0 ||
+      imageHeight <= 0
+    ) {
+      throw new Error("Thông tin basemap ảnh không hợp lệ.");
+    }
+    mapWidth = imageWidth;
+    mapHeight = imageHeight;
+  } else {
+    const tileSource = isRecord(tiles) ? tiles.src : undefined;
+    const tileSize = isRecord(tiles) ? tiles.tileSize : undefined;
+    const columns = isRecord(tiles) ? tiles.columns : undefined;
+    const rows = isRecord(tiles) ? tiles.rows : undefined;
+    const availableTiles = isRecord(tiles) ? tiles.availableTiles : undefined;
+    if (
+      !isRecord(tiles) ||
+      !isNonEmptyString(tileSource) ||
+      !isAllowedResourceSource(tileSource) ||
+      !isFiniteNumber(tileSize) ||
+      !isFiniteNumber(columns) ||
+      !isFiniteNumber(rows) ||
+      !Number.isInteger(tileSize) ||
+      !Number.isInteger(columns) ||
+      !Number.isInteger(rows) ||
+      tileSize <= 0 ||
+      columns <= 0 ||
+      rows <= 0 ||
+      !tileSource.includes("{x}") ||
+      !tileSource.includes("{y}") ||
+      (
+        availableTiles !== undefined &&
+        (
+          !Array.isArray(availableTiles) ||
+          new Set(availableTiles).size !== availableTiles.length ||
+          !availableTiles.every((tile) => {
+            if (typeof tile !== "string") {
+              return false;
+            }
+            const match = /^(-?\d+),(-?\d+)$/.exec(tile);
+            if (!match) {
+              return false;
+            }
+            const x = Number(match[1]);
+            const y = Number(match[2]);
+            return x >= 0 && x < columns && y >= -rows && y < 0;
+          })
+        )
+      )
+    ) {
+      throw new Error("Thông tin basemap tile không hợp lệ.");
+    }
+    mapWidth = tileSize * columns;
+    mapHeight = tileSize * rows;
   }
 
   value.categories.forEach(assertCategory);
@@ -184,8 +261,8 @@ export function parseMapPack(value: unknown): MapPack {
       marker,
       index,
       categoryIds,
-      imageWidth,
-      imageHeight,
+      mapWidth,
+      mapHeight,
     ),
   );
 

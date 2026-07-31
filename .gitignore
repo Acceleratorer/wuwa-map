@@ -1,14 +1,19 @@
 node_modules/
 dist/
 .vite/
+.playwright-cli/
 *.local
 *.log
 .env
 .env.*
 !.env.example
 
-# Real map packs and third-party assets must stay out of source control
-public/map-packs/private/
+# Raw source/cache and obsolete stitched map assets stay out of source control.
+# The deploy-ready KURO tile bundle under public/map-packs/private is tracked.
+public/map-packs/private/default-map-pack.json
+public/map-packs/private/wuwa-906.webp
+public/map-packs/private/maps/*.png
+public/map-packs/private/maps/*.webp
 data/private/
 data/*.sqlite
 data/*.sqlite-shm
