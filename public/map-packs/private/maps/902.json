@@ -61,7 +61,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/b5d976bb86a8458428a6.webp"
     },
     {
       "id": "SP_IconMonsterHead_31045_UI",
@@ -69,7 +70,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/671a9cb0299ebfe722be.webp"
     },
     {
       "id": "SP_IconMonsterHead_31043_UI",
@@ -77,7 +79,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2bcd16f3ad93173a1759.webp"
     },
     {
       "id": "SP_IconMonsterHead_32028_UI",
@@ -85,7 +88,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/145ee317554070226e39.webp"
     },
     {
       "id": "shtz·dlck",
@@ -93,7 +97,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/2aec26da16e3b23c1d75.webp"
     },
     {
       "id": "qzx_02",
@@ -101,7 +106,8 @@
       "color": "#9fdb72",
       "symbol": "2",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
     },
     {
       "id": "qzx_03",
@@ -109,7 +115,8 @@
       "color": "#8bd3c7",
       "symbol": "3",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
     },
     {
       "id": "SP_IconMonsterHead_185_UI",
@@ -117,7 +124,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/0fd1e2e9e4b8d787d4f5.webp"
     },
     {
       "id": "qzx_01",
@@ -125,7 +133,8 @@
       "color": "#b8a1ff",
       "symbol": "1",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
     },
     {
       "id": "SP_IconMonsterHead_31048_UI",
@@ -133,7 +142,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/bcd48a2e905e219caf47.webp"
     },
     {
       "id": "qzx_04",
@@ -141,7 +151,8 @@
       "color": "#6cc8ee",
       "symbol": "4",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/9fb9717a222ce68bd07e.webp"
     },
     {
       "id": "SP_IconMonsterHead_31051_UI",
@@ -149,7 +160,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/0d4ec6a6e1703223b873.webp"
     },
     {
       "id": "FCRK",
@@ -157,7 +169,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/49d61d91025178ae0e67.webp"
     },
     {
       "id": "SP_IconMonsterHead_31046_UI",
@@ -165,7 +178,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/96e617e0880213a1269d.webp"
     },
     {
       "id": "SP_IconMonsterHead_32031_UI",
@@ -173,7 +187,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/71885f12b2bf2868d6e3.webp"
     },
     {
       "id": "T_IconC_046_UI",
@@ -181,7 +196,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/3f40fc234fbc24b328a1.webp"
     },
     {
       "id": "ylfy",
@@ -189,7 +205,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/f25645bab686c5bd36b2.webp"
     },
     {
       "id": "xlzm",
@@ -197,7 +214,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/da33ca06eb9548216814.webp"
     },
     {
       "id": "T_IconC_042_UI",
@@ -205,7 +223,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/2fdfd3590e9575194c1d.webp"
     },
     {
       "id": "cx_01",
@@ -213,7 +232,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "collection",
-      "icon": "collection"
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/1b956f2f5d2ab8f86ef4.webp"
     },
     {
       "id": "SP_IconMonsterHead_31040_UI",
@@ -221,7 +241,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/6cef3f708d7f5b0b3f83.webp"
     },
     {
       "id": "cbd",
@@ -229,7 +250,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5111afe1ca71aba1d1e3.webp"
     },
     {
       "id": "SP_IconMonsterHead_31042_UI",
@@ -237,7 +259,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/c4f1d32b7dab3741c1a9.webp"
     },
     {
       "id": "cx_03",
@@ -245,7 +268,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "collection",
-      "icon": "collection"
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
     },
     {
       "id": "CS_02",
@@ -253,7 +277,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
     },
     {
       "id": "cx_02",
@@ -261,7 +286,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "collection",
-      "icon": "collection"
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
     },
     {
       "id": "SP_IconMonsterHead_31044_UI",
@@ -269,7 +295,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/9e511c8d358166759ece.webp"
     },
     {
       "id": "SP_IconMonsterHead_32029_UI",
@@ -277,7 +304,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/d0a3984d7ad0693de158.webp"
     },
     {
       "id": "T_IconC_SM_Gat_01B_UI",
@@ -285,7 +313,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/73c5aaac487261afb42d.webp"
     },
     {
       "id": "SP_IconMonsterHead_32024_UI",
@@ -293,7 +322,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/96910ae6543c2c1b9e18.webp"
     },
     {
       "id": "jlxw",
@@ -301,7 +331,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "elite-enemies",
-      "icon": "elite"
+      "icon": "elite",
+      "imageSrc": "map-packs/private/icons/b48d8154e964005b1804.webp"
     },
     {
       "id": "SP_IconMonsterHead_31050_UI",
@@ -309,7 +340,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/8bb75f60142ef948be69.webp"
     },
     {
       "id": "SP_IconMonsterHead_31049_UI",
@@ -317,7 +349,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/8d83d7bee1fe18647853.webp"
     },
     {
       "id": "SP_IconMonsterHead_32030_UI",
@@ -325,7 +358,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/676061c1fef60b0b9d35.webp"
     },
     {
       "id": "SP_IconMonsterHead_31047_UI",
@@ -333,7 +367,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/0158cdc6eff1a800071b.webp"
     },
     {
       "id": "T_IconC_047_UI",
@@ -341,7 +376,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/e2b73b956293dc2c2293.webp"
     },
     {
       "id": "SP_IconMonsterHead_32032_UI",
@@ -349,7 +385,165 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/f242311f0bd14f2a3853.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-1/16",
+      "label": "声骸藏区1楼",
+      "groupId": "16",
+      "groupLabel": "声骸藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-1_16/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2"
+        ]
+      }
+    },
+    {
+      "id": "-2/16",
+      "label": "声骸藏区2楼",
+      "groupId": "16",
+      "groupLabel": "声骸藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-2_16/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2"
+        ]
+      }
+    },
+    {
+      "id": "-3/16",
+      "label": "声骸藏区3楼",
+      "groupId": "16",
+      "groupLabel": "声骸藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-3_16/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2"
+        ]
+      }
+    },
+    {
+      "id": "-4/16",
+      "label": "声骸藏区4楼",
+      "groupId": "16",
+      "groupLabel": "声骸藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-4_16/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2"
+        ]
+      }
+    },
+    {
+      "id": "-1/17",
+      "label": "金库未知区域内部",
+      "groupId": "17",
+      "groupLabel": "金库未知区域内部",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-1_17/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-3",
+          "2,-3"
+        ]
+      }
+    },
+    {
+      "id": "-1/14",
+      "label": "声骸站台内部",
+      "groupId": "14",
+      "groupLabel": "声骸站台内部",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-1_14/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2"
+        ]
+      }
+    },
+    {
+      "id": "-1/15",
+      "label": "贵金属与艺术品藏区1楼",
+      "groupId": "15",
+      "groupLabel": "贵金属与艺术品藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-1_15/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2",
+          "1,-1"
+        ]
+      }
+    },
+    {
+      "id": "-2/15",
+      "label": "贵金属与艺术品藏区2楼",
+      "groupId": "15",
+      "groupLabel": "贵金属与艺术品藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-2_15/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2",
+          "1,-1"
+        ]
+      }
+    },
+    {
+      "id": "-3/15",
+      "label": "贵金属与艺术品藏区3楼",
+      "groupId": "15",
+      "groupLabel": "贵金属与艺术品藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-3_15/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2",
+          "1,-1"
+        ]
+      }
+    },
+    {
+      "id": "-4/15",
+      "label": "贵金属与艺术品藏区4楼",
+      "groupId": "15",
+      "groupLabel": "贵金属与艺术品藏区",
+      "tiles": {
+        "src": "map-packs/private/layers/902/-4_15/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 3,
+        "rows": 3,
+        "availableTiles": [
+          "1,-2",
+          "1,-1"
+        ]
+      }
     }
   ],
   "markers": [
@@ -359,7 +553,9 @@
       "title": "浮灵偶·蕾弗",
       "x": 1525.266,
       "y": 1194.15,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1415816068381057024",
@@ -367,7 +563,9 @@
       "title": "浮灵偶·蕾弗",
       "x": 1311.988,
       "y": 1537.22,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415816419326861312",
@@ -375,7 +573,9 @@
       "title": "浮灵偶·蕾弗",
       "x": 1323.562,
       "y": 1498.919,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415819727517032448",
@@ -383,7 +583,9 @@
       "title": "浮灵偶·蕾弗",
       "x": 1429.266,
       "y": 1533.886,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415819780080050176",
@@ -391,7 +593,9 @@
       "title": "浮灵偶·蕾弗",
       "x": 1434.606,
       "y": 1551.884,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415351216369868800",
@@ -399,7 +603,9 @@
       "title": "魔术先生",
       "x": 1459.2,
       "y": 1170.974,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1415380912738443264",
@@ -407,7 +613,9 @@
       "title": "魔术先生",
       "x": 1454.276,
       "y": 1219.177,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1415380957193908224",
@@ -415,7 +623,9 @@
       "title": "魔术先生",
       "x": 1454.213,
       "y": 1220.442,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1415383542239895552",
@@ -423,7 +633,9 @@
       "title": "魔术先生",
       "x": 1442.205,
       "y": 1141.781,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415384826498031616",
@@ -431,7 +643,9 @@
       "title": "魔术先生",
       "x": 1488.565,
       "y": 1121.678,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415384913949306880",
@@ -439,7 +653,9 @@
       "title": "魔术先生",
       "x": 1489.64,
       "y": 1134.706,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415384964163514368",
@@ -447,7 +663,9 @@
       "title": "魔术先生",
       "x": 1489.83,
       "y": 1136.73,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415820549596422144",
@@ -455,7 +673,9 @@
       "title": "幽翎火",
       "x": 1457.393,
       "y": 1547.059,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415820591388504064",
@@ -463,7 +683,9 @@
       "title": "幽翎火",
       "x": 1465.172,
       "y": 1546.824,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415820626897444864",
@@ -471,7 +693,9 @@
       "title": "幽翎火",
       "x": 1465.642,
       "y": 1529.377,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415820661290737664",
@@ -479,7 +703,9 @@
       "title": "幽翎火",
       "x": 1456.363,
       "y": 1529.242,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415821995456897024",
@@ -487,7 +713,9 @@
       "title": "幽翎火",
       "x": 1388.345,
       "y": 1578.755,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-4/15"
     },
     {
       "id": "kuro:1415822031817318400",
@@ -495,7 +723,9 @@
       "title": "幽翎火",
       "x": 1392.05,
       "y": 1578.565,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-4/15"
     },
     {
       "id": "kuro:1415815972646105088",
@@ -503,7 +733,9 @@
       "title": "浮灵偶",
       "x": 1312.087,
       "y": 1539.813,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415819581051936768",
@@ -511,7 +743,9 @@
       "title": "浮灵偶",
       "x": 1431.082,
       "y": 1552.218,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415819649167433728",
@@ -519,7 +753,9 @@
       "title": "浮灵偶",
       "x": 1431.471,
       "y": 1534.816,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1401676382150574080",
@@ -527,7 +763,9 @@
       "title": "声骸挑战·刀伶操控",
       "x": 1316.099,
       "y": 1483.722,
-      "description": "Tầng 15 · 位于该藏馆2层"
+      "description": "Tầng 15 · 位于该藏馆2层",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1401676764742795264",
@@ -535,7 +773,9 @@
       "title": "声骸挑战·刀伶操控",
       "x": 1502.235,
       "y": 364.692,
-      "description": "Tầng 17 · 位于《金库未知区域》内部"
+      "description": "Tầng 17 · 位于《金库未知区域》内部",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1341764541466599424",
@@ -543,7 +783,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1417.638,
       "y": 1493.534,
-      "description": "Tầng 15 · 3楼，用莫塔里权限攻击这三个摄像头即可解锁"
+      "description": "Tầng 15 · 3楼，用莫塔里权限攻击这三个摄像头即可解锁",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341765834075594752",
@@ -551,7 +793,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1461.007,
       "y": 1549.553,
-      "description": "Tầng 15 · 藏宝地在三楼噢"
+      "description": "Tầng 15 · 藏宝地在三楼噢",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341770776249163776",
@@ -559,7 +803,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1381.496,
       "y": 1497.148,
-      "description": "Tầng 15 · 3楼，在雕像前面，可以用角飞过来"
+      "description": "Tầng 15 · 3楼，在雕像前面，可以用角飞过来",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341772198874423296",
@@ -567,7 +813,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1498.052,
       "y": 1247.774,
-      "description": "Tầng 16 · 二楼，莫塔里权限攻击摄像头即可解锁"
+      "description": "Tầng 16 · 二楼，莫塔里权限攻击摄像头即可解锁",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1341772951666876416",
@@ -575,7 +823,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1494.438,
       "y": 1140.254,
-      "description": "Tầng 16 · 藏宝地的宝箱，在飓力熊投影对面"
+      "description": "Tầng 16 · 藏宝地的宝箱，在飓力熊投影对面",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1341773467562074112",
@@ -583,7 +833,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1489.92,
       "y": 1097.788,
-      "description": "Tầng 16 · 3楼，按顺序用莫塔里权限攻击摄像头即可解锁"
+      "description": "Tầng 16 · 3楼，按顺序用莫塔里权限攻击摄像头即可解锁",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1341775766158106624",
@@ -591,7 +843,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1427.576,
       "y": 1185.431,
-      "description": "Tầng 16 · 在三楼监视器隔壁"
+      "description": "Tầng 16 · 在三楼监视器隔壁",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1341776139347533824",
@@ -599,7 +853,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1490.824,
       "y": 1079.718,
-      "description": "Tầng 16 · 二楼，按顺序莫塔里权限关闭摄像头即可"
+      "description": "Tầng 16 · 二楼，按顺序莫塔里权限关闭摄像头即可",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1341779244473442304",
@@ -607,7 +863,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1519.736,
       "y": 331.595,
-      "description": "Tầng 17 · 藏宝地宝箱"
+      "description": "Tầng 17 · 藏宝地宝箱",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1342158556839256064",
@@ -615,7 +873,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1311.021,
       "y": 1498.955,
-      "description": "Tầng 15 · 二楼，从进门依次跟4个机器人对话，第一个要对话两次，每个机器人都选第一个选项即可获得隐藏宝箱"
+      "description": "Tầng 15 · 二楼，从进门依次跟4个机器人对话，第一个要对话两次，每个机器人都选第一个选项即可获得隐藏宝箱",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1343637094124544000",
@@ -623,7 +883,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1310.118,
       "y": 1539.614,
-      "description": "Tầng 15 · 击败怪物解锁，在二楼。（标点由玩家雲开提供）"
+      "description": "Tầng 15 · 击败怪物解锁，在二楼。（标点由玩家雲开提供）",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1344419077394063360",
@@ -631,7 +893,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1346.259,
       "y": 1500.762,
-      "description": "Tầng 15 · 位于楼上，可直接开启（标点由玩家雲开提供）"
+      "description": "Tầng 15 · 位于楼上，可直接开启（标点由玩家雲开提供）",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1344419695147933696",
@@ -639,7 +903,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1424.866,
       "y": 1563.106,
-      "description": "Tầng 15 · 位于楼上进门处，旁边就是电梯，可直接开启（标点由玩家雲开提供）"
+      "description": "Tầng 15 · 位于楼上进门处，旁边就是电梯，可直接开启（标点由玩家雲开提供）",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1344424060604702720",
@@ -647,7 +913,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1484.499,
       "y": 1086.042,
-      "description": "Tầng 16 · 跟随任务，在完成第二个沉默的刀伶小游戏后，反转房间后出现宝箱（标点由玩家雲开提供）"
+      "description": "Tầng 16 · 跟随任务，在完成第二个沉默的刀伶小游戏后，反转房间后出现宝箱（标点由玩家雲开提供）",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1344424665810444288",
@@ -655,7 +923,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 1506.184,
       "y": 1103.209,
-      "description": "Tầng 16 · 跟随任务，在完成第三个沉默的刀伶小游戏后，反转房间后出现宝箱（标点由玩家雲开提供）"
+      "description": "Tầng 16 · 跟随任务，在完成第三个沉默的刀伶小游戏后，反转房间后出现宝箱（标点由玩家雲开提供）",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1341763859908976640",
@@ -663,7 +933,9 @@
       "title": "Rương tinh xảo",
       "x": 1320.96,
       "y": 1468.235,
-      "description": "Tầng 15 · 从正门进去（不要坐电梯），在里面的二楼，完成刀伶挑战即可"
+      "description": "Tầng 15 · 从正门进去（不要坐电梯），在里面的二楼，完成刀伶挑战即可",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1341765491771285504",
@@ -671,7 +943,9 @@
       "title": "Rương tinh xảo",
       "x": 1461.007,
       "y": 1527.868,
-      "description": "Tầng 15 · 在三楼藏宝地，击败旁边怪物即可"
+      "description": "Tầng 15 · 在三楼藏宝地，击败旁边怪物即可",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341770125502898176",
@@ -679,7 +953,9 @@
       "title": "Rương tinh xảo",
       "x": 1390.532,
       "y": 1537.807,
-      "description": "Tầng 15 · 按照图中顺序跳上上层（柱子边边可以站），通过顶部跳入即可获得，周围有玻璃挡着，只能从上面跳进去，跳进去之后玻璃打开直接可以出来（请与周围的精密宝箱进行区分）"
+      "description": "Tầng 15 · 按照图中顺序跳上上层（柱子边边可以站），通过顶部跳入即可获得，周围有玻璃挡着，只能从上面跳进去，跳进去之后玻璃打开直接可以出来（请与周围的精密宝箱进行区分）",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341777937579876352",
@@ -687,7 +963,9 @@
       "title": "Rương tinh xảo",
       "x": 1444.744,
       "y": 381.289,
-      "description": "Tầng 17 · 雕像下面"
+      "description": "Tầng 17 · 雕像下面",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1341778331901943808",
@@ -695,7 +973,9 @@
       "title": "Rương tinh xảo",
       "x": 1501.666,
       "y": 354.184,
-      "description": "Tầng 17 · 完成刀伶挑战即可"
+      "description": "Tầng 17 · 完成刀伶挑战即可",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1341778761767772160",
@@ -703,7 +983,9 @@
       "title": "Rương tinh xảo",
       "x": 1495.341,
       "y": 340.631,
-      "description": "Tầng 17 · 藏宝地宝箱"
+      "description": "Tầng 17 · 藏宝地宝箱",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1342156042788986880",
@@ -711,7 +993,9 @@
       "title": "Rương tinh xảo",
       "x": 1498.955,
       "y": 1125.798,
-      "description": "Tầng 16 · 3楼，吊灯上，从旁边的展柜跳上去即可（这个宝箱可以探测到）"
+      "description": "Tầng 16 · 3楼，吊灯上，从旁边的展柜跳上去即可（这个宝箱可以探测到）",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1344427779804340224",
@@ -719,7 +1003,9 @@
       "title": "Rương tinh xảo",
       "x": 1509.798,
       "y": 1111.341,
-      "description": "Tầng 16 · 藏宝地的宝箱，房间东北角，在游鳞机枢投影的前方"
+      "description": "Tầng 16 · 藏宝地的宝箱，房间东北角，在游鳞机枢投影的前方",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1344428325406564352",
@@ -727,7 +1013,9 @@
       "title": "Rương tinh xảo",
       "x": 1431.191,
       "y": 1191.755,
-      "description": "Tầng 16 · 在第四层，在取得第三阶权限的位置旁开启宝箱"
+      "description": "Tầng 16 · 在第四层，在取得第三阶权限的位置旁开启宝箱",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1347679848191467520",
@@ -735,7 +1023,9 @@
       "title": "Rương tinh xảo",
       "x": 1401.374,
       "y": 1540.518,
-      "description": "Tầng 15 · 在贵金属与艺术品藏区3楼，可直接开启（标点由玩家万华镜提供，并请与周围其他的精密宝箱进行区分）"
+      "description": "Tầng 15 · 在贵金属与艺术品藏区3楼，可直接开启（标点由玩家万华镜提供，并请与周围其他的精密宝箱进行区分）",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1347679848266964992",
@@ -743,7 +1033,9 @@
       "title": "Rương tinh xảo",
       "x": 1388.725,
       "y": 1497.148,
-      "description": "Tầng 15 · 位于贵金属与艺术品藏区4楼，可直接开启"
+      "description": "Tầng 15 · 位于贵金属与艺术品藏区4楼，可直接开启",
+      "floorId": "15",
+      "levelId": "-4/15"
     },
     {
       "id": "kuro:1415381676944826368",
@@ -751,7 +1043,9 @@
       "title": "坚岩斗士",
       "x": 1497.663,
       "y": 1221.969,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415383902081818624",
@@ -759,7 +1053,9 @@
       "title": "坚岩斗士",
       "x": 1469.536,
       "y": 1122.193,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1341765617896972288",
@@ -767,7 +1063,9 @@
       "title": "Rương đơn sơ",
       "x": 1454.682,
       "y": 1517.026,
-      "description": "Tầng 15 · 在三楼藏宝地"
+      "description": "Tầng 15 · 在三楼藏宝地",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341765744019693568",
@@ -775,7 +1073,9 @@
       "title": "Rương đơn sơ",
       "x": 1467.332,
       "y": 1534.193,
-      "description": "Tầng 15 · 三楼藏宝地"
+      "description": "Tầng 15 · 三楼藏宝地",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341773031112417280",
@@ -783,7 +1083,9 @@
       "title": "Rương đơn sơ",
       "x": 1488.113,
       "y": 1132.122,
-      "description": "Tầng 16 · 3楼藏宝地"
+      "description": "Tầng 16 · 3楼藏宝地",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1341773125021655040",
@@ -791,7 +1093,9 @@
       "title": "Rương đơn sơ",
       "x": 1507.991,
       "y": 1129.412,
-      "description": "Tầng 16 · 3楼藏宝地"
+      "description": "Tầng 16 · 3楼藏宝地",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1341777060608401408",
@@ -799,7 +1103,8 @@
       "title": "Rương đơn sơ",
       "x": 1316.442,
       "y": 486.099,
-      "description": "在外面，靠近悬崖边"
+      "description": "在外面，靠近悬崖边",
+      "levelId": "0"
     },
     {
       "id": "kuro:1341778961560477696",
@@ -807,7 +1112,9 @@
       "title": "Rương đơn sơ",
       "x": 1504.376,
       "y": 341.534,
-      "description": "Tầng 17 · 藏宝地宝箱"
+      "description": "Tầng 17 · 藏宝地宝箱",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1341779063443087360",
@@ -815,7 +1122,9 @@
       "title": "Rương đơn sơ",
       "x": 1509.798,
       "y": 340.631,
-      "description": "Tầng 17 · 藏宝地宝箱"
+      "description": "Tầng 17 · 藏宝地宝箱",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1342167433513246720",
@@ -823,7 +1132,9 @@
       "title": "Rương đơn sơ",
       "x": 1386.918,
       "y": 1509.798,
-      "description": "Tầng 15 · 位于地下金库1楼大厅，在大厅的东南角，用权限组件打掉摄像头后获得（标点由玩家阿尔托莉雅、雲开提供）"
+      "description": "Tầng 15 · 位于地下金库1楼大厅，在大厅的东南角，用权限组件打掉摄像头后获得（标点由玩家阿尔托莉雅、雲开提供）",
+      "floorId": "15",
+      "levelId": "-1/15"
     },
     {
       "id": "kuro:1344423670819643392",
@@ -831,7 +1142,9 @@
       "title": "Rương đơn sơ",
       "x": 1457.393,
       "y": 1179.106,
-      "description": "Tầng 16 · 跟随任务坐电梯到3楼，一开电梯门就能看到宝箱（标点由玩家雲开提供）"
+      "description": "Tầng 16 · 跟随任务坐电梯到3楼，一开电梯门就能看到宝箱（标点由玩家雲开提供）",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1347673895706533888",
@@ -839,7 +1152,9 @@
       "title": "Rương đơn sơ",
       "x": 1367.04,
       "y": 1537.807,
-      "description": "Tầng 15 · 位于贵金属与艺术品藏区2楼，进入圆形大门之后左手边，裸露宝箱，宝箱对面有个机器人（标点由玩家万华镜提供）"
+      "description": "Tầng 15 · 位于贵金属与艺术品藏区2楼，进入圆形大门之后左手边，裸露宝箱，宝箱对面有个机器人（标点由玩家万华镜提供）",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1348742913708236800",
@@ -847,7 +1162,8 @@
       "title": "Rương đơn sơ",
       "x": 1066.165,
       "y": 1283.012,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348743501854515200",
@@ -855,7 +1171,8 @@
       "title": "Rương đơn sơ",
       "x": 1204.405,
       "y": 1430.287,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348744011855486976",
@@ -863,7 +1180,8 @@
       "title": "Rương đơn sơ",
       "x": 1389.628,
       "y": 1403.181,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348744237174726656",
@@ -871,7 +1189,8 @@
       "title": "Rương đơn sơ",
       "x": 1501.666,
       "y": 1360.715,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348744470741704704",
@@ -879,7 +1198,8 @@
       "title": "Rương đơn sơ",
       "x": 1351.68,
       "y": 1363.426,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348744738540855296",
@@ -887,7 +1207,8 @@
       "title": "Rương đơn sơ",
       "x": 1191.755,
       "y": 1241.449,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348744932149927936",
@@ -895,7 +1216,8 @@
       "title": "Rương đơn sơ",
       "x": 1286.626,
       "y": 569.224,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1348745360908460032",
@@ -903,7 +1225,8 @@
       "title": "Rương đơn sơ",
       "x": 1273.976,
       "y": 906.24,
-      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）"
+      "description": "列车轨道沿途的奇藏，直接在列车上射击即可。（标点由玩家遥行千里提供）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415820937666011136",
@@ -911,7 +1234,9 @@
       "title": "欺诈奇藏",
       "x": 1460.953,
       "y": 1537.554,
-      "description": "Tầng 15 · 位于藏馆三层，该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。"
+      "description": "Tầng 15 · 位于藏馆三层，该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415824215988543488",
@@ -919,7 +1244,9 @@
       "title": "欺诈奇藏",
       "x": 1503.608,
       "y": 335.128,
-      "description": "Tầng 17 · 位于藏馆内，该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。"
+      "description": "Tầng 17 · 位于藏馆内，该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1416181433728540672",
@@ -927,7 +1254,8 @@
       "title": "欺诈奇藏",
       "x": 1632.876,
       "y": 305.583,
-      "description": "推荐从p2方法前往，拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。（已验证无菲比角色玩家p3最实际有用，从右方上坡，使用可飞行或可大跳角色 例:珂莱塔第二段e 长离心眼冲等等到达目的地）"
+      "description": "推荐从p2方法前往，拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。（已验证无菲比角色玩家p3最实际有用，从右方上坡，使用可飞行或可大跳角色 例:珂莱塔第二段e 长离心眼冲等等到达目的地）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1418706969910652928",
@@ -935,7 +1263,8 @@
       "title": "欺诈奇藏",
       "x": 1346.973,
       "y": 1461.287,
-      "description": "位于藏馆外夹层。该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。"
+      "description": "位于藏馆外夹层。该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1418709194762432512",
@@ -943,7 +1272,9 @@
       "title": "欺诈奇藏",
       "x": 1445.231,
       "y": 1528.853,
-      "description": "Tầng 15 · 位于藏馆三层上层（推荐踩p2图中展示柜前往）该敌人衍射伤害抗性提高。拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。"
+      "description": "Tầng 15 · 位于藏馆三层上层（推荐踩p2图中展示柜前往）该敌人衍射伤害抗性提高。拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1418711406641192960",
@@ -951,7 +1282,8 @@
       "title": "欺诈奇藏",
       "x": 1716.146,
       "y": 346.296,
-      "description": "位于平台上，通过图2布偶跳方法跳上平台（先跳黄后跳蓝）。该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。"
+      "description": "位于平台上，通过图2布偶跳方法跳上平台（先跳黄后跳蓝）。该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1418712740530528256",
@@ -959,7 +1291,8 @@
       "title": "欺诈奇藏",
       "x": 1344.949,
       "y": 468.995,
-      "description": "位于上层平台上，需前往标点东北方图2位置前往上层平台。该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。"
+      "description": "位于上层平台上，需前往标点东北方图2位置前往上层平台。该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1399138046361976832",
@@ -967,28 +1300,32 @@
       "title": "Rương huy quang",
       "x": 964.075,
       "y": 764.991,
-      "description": "完成任务“叶落无声”任务的宝箱。"
+      "description": "完成任务“叶落无声”任务的宝箱。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343001783392591872",
       "categoryId": "SP_IconMonsterHead_31051_UI",
       "title": "气动棱镜",
       "x": 1698.635,
-      "y": 345.148
+      "y": 345.148,
+      "levelId": "0"
     },
     {
       "id": "kuro:1343001783426146304",
       "categoryId": "SP_IconMonsterHead_31051_UI",
       "title": "气动棱镜",
       "x": 1700.442,
-      "y": 350.569
+      "y": 350.569,
+      "levelId": "0"
     },
     {
       "id": "kuro:1343001783459700736",
       "categoryId": "SP_IconMonsterHead_31051_UI",
       "title": "气动棱镜",
       "x": 1701.346,
-      "y": 344.245
+      "y": 344.245,
+      "levelId": "0"
     },
     {
       "id": "kuro:1343004960145858560",
@@ -996,7 +1333,9 @@
       "title": "气动棱镜",
       "x": 1499.47,
       "y": 380.856,
-      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。"
+      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。",
+      "floorId": "17",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343005100589162496",
@@ -1004,7 +1343,9 @@
       "title": "气动棱镜",
       "x": 1498.675,
       "y": 388.283,
-      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。"
+      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。",
+      "floorId": "17",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343005194062192640",
@@ -1012,7 +1353,9 @@
       "title": "气动棱镜",
       "x": 1489.396,
       "y": 382.581,
-      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。"
+      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。",
+      "floorId": "17",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343011224095612928",
@@ -1020,7 +1363,9 @@
       "title": "气动棱镜",
       "x": 1499.859,
       "y": 1099.595,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1343011224129167360",
@@ -1028,7 +1373,9 @@
       "title": "气动棱镜",
       "x": 1500.762,
       "y": 1093.271,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1343014228954947584",
@@ -1036,7 +1383,9 @@
       "title": "气动棱镜",
       "x": 1499.859,
       "y": 1235.125,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1343014229022056448",
@@ -1044,7 +1393,9 @@
       "title": "气动棱镜",
       "x": 1496.245,
       "y": 1235.125,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1343015631260540928",
@@ -1052,7 +1403,9 @@
       "title": "气动棱镜",
       "x": 1453.779,
       "y": 1198.08,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1343015631294095360",
@@ -1060,7 +1413,9 @@
       "title": "气动棱镜",
       "x": 1460.104,
       "y": 1198.984,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1343016574095171584",
@@ -1068,7 +1423,9 @@
       "title": "气动棱镜",
       "x": 1457.294,
       "y": 1192.532,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1343018155786952704",
@@ -1076,7 +1433,8 @@
       "title": "气动棱镜",
       "x": 1744.715,
       "y": 297.261,
-      "description": "这里有两只气动棱镜，但是熊大干掉一个"
+      "description": "这里有两只气动棱镜，但是熊大干掉一个",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343018155820507136",
@@ -1084,7 +1442,8 @@
       "title": "气动棱镜",
       "x": 1746.522,
       "y": 241.242,
-      "description": "这里有两只气动棱镜，但是熊大干掉一个。"
+      "description": "这里有两只气动棱镜，但是熊大干掉一个。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1332390971321434112",
@@ -1092,7 +1451,9 @@
       "title": "分层入口",
       "x": 1416.752,
       "y": 1194.294,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1000000/16"
     },
     {
       "id": "kuro:1332391277076246528",
@@ -1100,7 +1461,9 @@
       "title": "分层入口",
       "x": 1363.634,
       "y": 1457.745,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-1000000/15"
     },
     {
       "id": "kuro:1332391669638758400",
@@ -1108,7 +1471,9 @@
       "title": "分层入口",
       "x": 905.183,
       "y": 1391.246,
-      "description": "Tầng 14"
+      "description": "Tầng 14",
+      "floorId": "14",
+      "levelId": "-1000000/14"
     },
     {
       "id": "kuro:1332392078378614784",
@@ -1116,7 +1481,9 @@
       "title": "分层入口",
       "x": 1440.325,
       "y": 407.257,
-      "description": "Tầng 17"
+      "description": "Tầng 17",
+      "floorId": "17",
+      "levelId": "-1000000/17"
     },
     {
       "id": "kuro:1415351425548197888",
@@ -1124,7 +1491,9 @@
       "title": "寂寞小姐",
       "x": 1458.296,
       "y": 1170.071,
-      "description": "Tầng 16 · 位于藏馆一层。"
+      "description": "Tầng 16 · 位于藏馆一层。",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1415384757619208192",
@@ -1132,7 +1501,9 @@
       "title": "寂寞小姐",
       "x": 1488.8,
       "y": 1120.413,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1340435756829958144",
@@ -1140,7 +1511,8 @@
       "title": "重塑雕像的拳砾",
       "x": 1330.899,
       "y": 461.704,
-      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342596870817947648",
@@ -1148,7 +1520,8 @@
       "title": "重塑雕像的拳砾",
       "x": 1685.082,
       "y": 304.489,
-      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342598944757440512",
@@ -1156,7 +1529,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1422.155,
       "y": 382.193,
-      "description": "Tầng 17 · 位于藏馆内，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 17 · 位于藏馆内，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1415817433111146496",
@@ -1164,7 +1539,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1394.814,
       "y": 1467.232,
-      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415817527885602816",
@@ -1172,7 +1549,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1395.095,
       "y": 1455.134,
-      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415817599243296768",
@@ -1180,7 +1559,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1395.239,
       "y": 1478.111,
-      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415819432376442880",
@@ -1188,7 +1569,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1424.062,
       "y": 1537.635,
-      "description": "Tầng 15 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 15 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415821343104212992",
@@ -1196,7 +1579,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1435.32,
       "y": 1513.981,
-      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415822259991687168",
@@ -1204,7 +1589,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1372.823,
       "y": 1570.171,
-      "description": "Tầng 15 · 位于藏馆4层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 15 · 位于藏馆4层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "15",
+      "levelId": "-4/15"
     },
     {
       "id": "kuro:1419061768652926976",
@@ -1212,7 +1599,9 @@
       "title": "重塑雕像的拳砾",
       "x": 1497.23,
       "y": 1216.485,
-      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1419062994358579200",
@@ -1220,49 +1609,57 @@
       "title": "重塑雕像的拳砾",
       "x": 1467.522,
       "y": 1121.741,
-      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。"
+      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1352437067972509696",
       "categoryId": "T_IconC_046_UI",
       "title": "云母釉岩",
       "x": 884.808,
-      "y": 1373.03
+      "y": 1373.03,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437078408224768",
       "categoryId": "T_IconC_046_UI",
       "title": "云母釉岩",
       "x": 887.79,
-      "y": 1371.756
+      "y": 1371.756,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437088293912576",
       "categoryId": "T_IconC_046_UI",
       "title": "云母釉岩",
       "x": 889.498,
-      "y": 1373.32
+      "y": 1373.32,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437109169250304",
       "categoryId": "T_IconC_046_UI",
       "title": "云母釉岩",
       "x": 883.245,
-      "y": 1390.36
+      "y": 1390.36,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437120552304640",
       "categoryId": "T_IconC_046_UI",
       "title": "云母釉岩",
       "x": 882.107,
-      "y": 1390.36
+      "y": 1390.36,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437134876139520",
       "categoryId": "T_IconC_046_UI",
       "title": "云母釉岩",
       "x": 881.818,
-      "y": 1392.068
+      "y": 1392.068,
+      "levelId": "0"
     },
     {
       "id": "kuro:1409587242336129024",
@@ -1270,7 +1667,8 @@
       "title": "音乐飞萤",
       "x": 955.491,
       "y": 1330.483,
-      "description": "在标点周围游荡的飞萤 漂泊者，捕捉它吧！（如长时间未出现可尝试退出游戏重进）"
+      "description": "在标点周围游荡的飞萤 漂泊者，捕捉它吧！（如长时间未出现可尝试退出游戏重进）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1409587329602818048",
@@ -1278,7 +1676,8 @@
       "title": "音乐飞萤",
       "x": 1387.975,
       "y": 1181.934,
-      "description": "在标点周围游荡的飞萤 漂泊者，捕捉它吧！"
+      "description": "在标点周围游荡的飞萤 漂泊者，捕捉它吧！",
+      "levelId": "0"
     },
     {
       "id": "kuro:1409587538164584448",
@@ -1286,7 +1685,9 @@
       "title": "音乐飞萤",
       "x": 1361.971,
       "y": 1490.968,
-      "description": "Tầng 15 · 在标点周围游荡的飞萤 漂泊者，捕捉它吧！（标点位于该区域一楼）获得《全金属警戒》"
+      "description": "Tầng 15 · 在标点周围游荡的飞萤 漂泊者，捕捉它吧！（标点位于该区域一楼）获得《全金属警戒》",
+      "floorId": "15",
+      "levelId": "-1/15"
     },
     {
       "id": "kuro:1409552720013955072",
@@ -1294,7 +1695,9 @@
       "title": "巡礼之梦",
       "x": 1505.587,
       "y": 1195.089,
-      "description": "Tầng 16 · 首次完成三个节点目标后可获得三个潮汐之遗奖励"
+      "description": "Tầng 16 · 首次完成三个节点目标后可获得三个潮汐之遗奖励",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1409552856349806592",
@@ -1302,7 +1705,9 @@
       "title": "巡礼之梦",
       "x": 1362.721,
       "y": 1546.833,
-      "description": "Tầng 15 · 首次完成三个节点目标后可获得三个潮汐之遗奖励"
+      "description": "Tầng 15 · 首次完成三个节点目标后可获得三个潮汐之遗奖励",
+      "floorId": "15",
+      "levelId": "-1/15"
     },
     {
       "id": "kuro:1339606671685402624",
@@ -1310,7 +1715,8 @@
       "title": "垂青橄榄",
       "x": 862.518,
       "y": 1393.685,
-      "description": "路边四个"
+      "description": "路边四个",
+      "levelId": "0"
     },
     {
       "id": "kuro:1339606923166617600",
@@ -1318,7 +1724,8 @@
       "title": "垂青橄榄",
       "x": 865.753,
       "y": 1383.647,
-      "description": "路边四个"
+      "description": "路边四个",
+      "levelId": "0"
     },
     {
       "id": "kuro:1339606954754048000",
@@ -1326,7 +1733,8 @@
       "title": "垂青橄榄",
       "x": 879.369,
       "y": 1367.374,
-      "description": "路边四个"
+      "description": "路边四个",
+      "levelId": "0"
     },
     {
       "id": "kuro:1339607014568890368",
@@ -1334,7 +1742,8 @@
       "title": "垂青橄榄",
       "x": 880.173,
       "y": 1387.803,
-      "description": "路边四个"
+      "description": "路边四个",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343931195600461824",
@@ -1342,7 +1751,9 @@
       "title": "潮汐之遗·绿",
       "x": 1504.376,
       "y": 1185.431,
-      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得"
+      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1343934603826012160",
@@ -1350,7 +1761,9 @@
       "title": "潮汐之遗·绿",
       "x": 1365.233,
       "y": 1557.685,
-      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得"
+      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得",
+      "floorId": "15",
+      "levelId": "-1/15"
     },
     {
       "id": "kuro:1415816367619481600",
@@ -1358,7 +1771,9 @@
       "title": "浮灵偶·海德",
       "x": 1320.192,
       "y": 1499.064,
-      "description": "Tầng 15 · 位于藏馆二层。不断寻找着合适「身躯」的残象们"
+      "description": "Tầng 15 · 位于藏馆二层。不断寻找着合适「身躯」的残象们",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1418644386826498048",
@@ -1366,7 +1781,9 @@
       "title": "浮灵偶·海德",
       "x": 1312.657,
       "y": 1540.12,
-      "description": "Tầng 15 · 位于藏馆二层。不断寻找着合适「身躯」的残象们"
+      "description": "Tầng 15 · 位于藏馆二层。不断寻找着合适「身躯」的残象们",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1418645670354825216",
@@ -1374,7 +1791,9 @@
       "title": "浮灵偶·海德",
       "x": 1431.416,
       "y": 1530.208,
-      "description": "Tầng 15 · 位于藏馆三层。不断寻找着合适「身躯」的残象们"
+      "description": "Tầng 15 · 位于藏馆三层。不断寻找着合适「身躯」的残象们",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1418645894552920064",
@@ -1382,7 +1801,9 @@
       "title": "浮灵偶·海德",
       "x": 1431.877,
       "y": 1555.137,
-      "description": "Tầng 15 · 位于藏馆三层。不断寻找着合适「身躯」的残象们"
+      "description": "Tầng 15 · 位于藏馆三层。不断寻找着合适「身躯」的残象们",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1418646966336004096",
@@ -1390,7 +1811,9 @@
       "title": "浮灵偶·海德",
       "x": 1525.338,
       "y": 1194.267,
-      "description": "Tầng 16 · 位于藏馆四层，靠近标点位置时才出现请注意——不断寻找着合适「身躯」的残象们"
+      "description": "Tầng 16 · 位于藏馆四层，靠近标点位置时才出现请注意——不断寻找着合适「身躯」的残象们",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1409549845716144128",
@@ -1398,7 +1821,9 @@
       "title": "藏宝地",
       "x": 1499.208,
       "y": 1124.975,
-      "description": "Tầng 16 · 该藏宝地共5处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域3楼）"
+      "description": "Tầng 16 · 该藏宝地共5处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域3楼）",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1409550530562101248",
@@ -1406,7 +1831,9 @@
       "title": "藏宝地",
       "x": 1460.582,
       "y": 1529.585,
-      "description": "Tầng 15 · 该藏宝地共4处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域3楼）"
+      "description": "Tầng 15 · 该藏宝地共4处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域3楼）",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1409551234018185216",
@@ -1414,7 +1841,9 @@
       "title": "藏宝地",
       "x": 1507.837,
       "y": 335.986,
-      "description": "Tầng 17 · 该藏宝地共4处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域内部）"
+      "description": "Tầng 17 · 该藏宝地共4处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域内部）",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1415385742974427136",
@@ -1422,7 +1851,9 @@
       "title": "浮灵偶·莱特",
       "x": 1528.221,
       "y": 1191.99,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1415816125092241408",
@@ -1430,7 +1861,9 @@
       "title": "浮灵偶·莱特",
       "x": 1311.843,
       "y": 1541.349,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415816484305055744",
@@ -1438,7 +1871,9 @@
       "title": "浮灵偶·莱特",
       "x": 1316.677,
       "y": 1499.019,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415819866168139776",
@@ -1446,7 +1881,9 @@
       "title": "浮灵偶·莱特",
       "x": 1434.281,
       "y": 1533.832,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415819914293583872",
@@ -1454,7 +1891,9 @@
       "title": "浮灵偶·莱特",
       "x": 1428.372,
       "y": 1552.218,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1341420541027082240",
@@ -1462,7 +1901,9 @@
       "title": "潮汐之遗·金",
       "x": 1530.217,
       "y": 1160.439,
-      "description": "Tầng 16 · 击败“飓力熊王”后解锁\n位置描述：在声骸藏区传送点进门左转电梯上四楼，然后左转进走廊沿着路一直往前走到底（不要进左边的展厅），到尽头后有电梯下去后到达"
+      "description": "Tầng 16 · 击败“飓力熊王”后解锁\n位置描述：在声骸藏区传送点进门左转电梯上四楼，然后左转进走廊沿着路一直往前走到底（不要进左边的展厅），到尽头后有电梯下去后到达",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1343931909567471616",
@@ -1470,7 +1911,9 @@
       "title": "潮汐之遗·金",
       "x": 1507.087,
       "y": 1185.431,
-      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得"
+      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1343935022521180160",
@@ -1478,42 +1921,49 @@
       "title": "潮汐之遗·金",
       "x": 1362.522,
       "y": 1557.685,
-      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得"
+      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得",
+      "floorId": "15",
+      "levelId": "-1/15"
     },
     {
       "id": "kuro:1339271556119740416",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1373.41,
-      "y": 1428.543
+      "y": 1428.543,
+      "levelId": "0"
     },
     {
       "id": "kuro:1339271609337069568",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 888.748,
-      "y": 1381.243
+      "y": 1381.243,
+      "levelId": "0"
     },
     {
       "id": "kuro:1339271687458615296",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1385.698,
-      "y": 1190.409
+      "y": 1190.409,
+      "levelId": "0"
     },
     {
       "id": "kuro:1339271767042035712",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1350.713,
-      "y": 521.589
+      "y": 521.589,
+      "levelId": "0"
     },
     {
       "id": "kuro:1339271841133719552",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1706.966,
-      "y": 340.486
+      "y": 340.486,
+      "levelId": "0"
     },
     {
       "id": "kuro:1343931741951729664",
@@ -1521,7 +1971,9 @@
       "title": "潮汐之遗·紫",
       "x": 1509.798,
       "y": 1185.431,
-      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得"
+      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1343934847543205888",
@@ -1529,7 +1981,9 @@
       "title": "潮汐之遗·紫",
       "x": 1359.812,
       "y": 1557.685,
-      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得"
+      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得",
+      "floorId": "15",
+      "levelId": "-1/15"
     },
     {
       "id": "kuro:1343013166079336448",
@@ -1537,7 +1991,9 @@
       "title": "云海妖精",
       "x": 1507.087,
       "y": 1193.562,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1343013166112890880",
@@ -1545,7 +2001,9 @@
       "title": "云海妖精",
       "x": 1507.087,
       "y": 1196.273,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1417633908771860480",
@@ -1553,7 +2011,9 @@
       "title": "云海妖精",
       "x": 1507.087,
       "y": 1192.659,
-      "description": "Tầng 16 · 本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。"
+      "description": "Tầng 16 · 本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1417634360137654272",
@@ -1561,7 +2021,9 @@
       "title": "云海妖精",
       "x": 1506.184,
       "y": 1196.273,
-      "description": "Tầng 16 · 本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。"
+      "description": "Tầng 16 · 本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415379080796479488",
@@ -1569,7 +2031,9 @@
       "title": "琉璃刀伶",
       "x": 1478.301,
       "y": 1209.763,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415379281368133632",
@@ -1577,7 +2041,9 @@
       "title": "琉璃刀伶",
       "x": 1478.68,
       "y": 1179.196,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415379752250023936",
@@ -1585,7 +2051,9 @@
       "title": "琉璃刀伶",
       "x": 1439.295,
       "y": 1177.507,
-      "description": "Tầng 16 · 该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "Tầng 16 · 该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415380249568649216",
@@ -1593,7 +2061,9 @@
       "title": "琉璃刀伶",
       "x": 1436.856,
       "y": 1195.505,
-      "description": "Tầng 16 · 该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "Tầng 16 · 该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415380326911614976",
@@ -1601,7 +2071,9 @@
       "title": "琉璃刀伶",
       "x": 1438.545,
       "y": 1212.392,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415814675347841024",
@@ -1609,7 +2081,8 @@
       "title": "琉璃刀伶",
       "x": 1386.059,
       "y": 1427.604,
-      "description": "该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415814832550391808",
@@ -1617,7 +2090,8 @@
       "title": "琉璃刀伶",
       "x": 1340.82,
       "y": 1427.224,
-      "description": "该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415824531630891008",
@@ -1625,7 +2099,9 @@
       "title": "琉璃刀伶",
       "x": 1560.097,
       "y": 354.373,
-      "description": "Tầng 17 · 位于藏馆内部，该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "Tầng 17 · 位于藏馆内部，该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "floorId": "17",
+      "levelId": "-1/17"
     },
     {
       "id": "kuro:1419074765517529088",
@@ -1633,7 +2109,9 @@
       "title": "琉璃刀伶",
       "x": 1452.604,
       "y": 1105.152,
-      "description": "Tầng 16 · 位于藏光2层，该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "Tầng 16 · 位于藏光2层，该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1419075984843681792",
@@ -1641,7 +2119,8 @@
       "title": "琉璃刀伶",
       "x": 1625.061,
       "y": 350.723,
-      "description": "该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。"
+      "description": "该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1419067387053158400",
@@ -1649,7 +2128,8 @@
       "title": "暗夜骑士",
       "x": 1649.23,
       "y": 344.597,
-      "description": "需靠近标点附近才出现，该敌人湮灭伤害抗性提高。\n装束华贵，手执利刃的人形拟态残象，只会在暗月的清辉下现身。据说是昔日英雄们的影子，即便身为残象，却还是保留着优雅的举止。身为骑士，早已忘却了被授予的名讳；失去了守护之物，空余对荣耀的偏执。"
+      "description": "需靠近标点附近才出现，该敌人湮灭伤害抗性提高。\n装束华贵，手执利刃的人形拟态残象，只会在暗月的清辉下现身。据说是昔日英雄们的影子，即便身为残象，却还是保留着优雅的举止。身为骑士，早已忘却了被授予的名讳；失去了守护之物，空余对荣耀的偏执。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1419068151335038976",
@@ -1657,7 +2137,9 @@
       "title": "暗夜骑士",
       "x": 1363.354,
       "y": 1498.775,
-      "description": "Tầng 15 · 位于藏馆4层，该敌人湮灭伤害抗性提高。\n装束华贵，手执利刃的人形拟态残象，只会在暗月的清辉下现身。\n据说是昔日英雄们的影子，即便身为残象，却还是保留着优雅的举止。\n身为骑士，早已忘却了被授予的名讳；失去了守护之物，空余对荣耀的偏执。"
+      "description": "Tầng 15 · 位于藏馆4层，该敌人湮灭伤害抗性提高。\n装束华贵，手执利刃的人形拟态残象，只会在暗月的清辉下现身。\n据说是昔日英雄们的影子，即便身为残象，却还是保留着优雅的举止。\n身为骑士，早已忘却了被授予的名讳；失去了守护之物，空余对荣耀的偏执。",
+      "floorId": "15",
+      "levelId": "-4/15"
     },
     {
       "id": "kuro:1339992979189403648",
@@ -1665,7 +2147,9 @@
       "title": "飓力熊王",
       "x": 1519.736,
       "y": 1161.035,
-      "description": "Tầng 16 · 在声骸藏区传送点进门左转电梯上四楼，然后左转进走廊沿着路一直往前走到底（不要进左边的展厅），到尽头后有电梯下去后到达"
+      "description": "Tầng 16 · 在声骸藏区传送点进门左转电梯上四楼，然后左转进走廊沿着路一直往前走到底（不要进左边的展厅），到尽头后有电梯下去后到达",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1343006382674649088",
@@ -1673,7 +2157,8 @@
       "title": "釉变幼岩",
       "x": 1328.188,
       "y": 463.511,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1343009141104812032",
@@ -1681,7 +2166,9 @@
       "title": "釉变幼岩",
       "x": 1437.515,
       "y": 1516.122,
-      "description": "Tầng 15 · 该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "Tầng 15 · 该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1343009141205475328",
@@ -1689,7 +2176,9 @@
       "title": "釉变幼岩",
       "x": 1432.998,
       "y": 1516.122,
-      "description": "Tầng 15 · 该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "Tầng 15 · 该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1343013665928355840",
@@ -1697,14 +2186,17 @@
       "title": "釉变幼岩",
       "x": 1497.148,
       "y": 1214.344,
-      "description": "Tầng 16 · 位于藏馆2层，该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "Tầng 16 · 位于藏馆2层，该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1343019262835744768",
       "categoryId": "SP_IconMonsterHead_31050_UI",
       "title": "釉变幼岩",
       "x": 1607.379,
-      "y": 349.666
+      "y": 349.666,
+      "levelId": "0"
     },
     {
       "id": "kuro:1343019262890270720",
@@ -1712,7 +2204,8 @@
       "title": "釉变幼岩",
       "x": 1607.379,
       "y": 346.955,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415348667789123584",
@@ -1720,7 +2213,8 @@
       "title": "釉变幼岩",
       "x": 881.845,
       "y": 1368.847,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415348667931729920",
@@ -1728,7 +2222,8 @@
       "title": "釉变幼岩",
       "x": 880.038,
       "y": 1369.751,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415349445975121920",
@@ -1736,7 +2231,8 @@
       "title": "釉变幼岩",
       "x": 1385.111,
       "y": 1222.475,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415349446113533952",
@@ -1744,7 +2240,8 @@
       "title": "釉变幼岩",
       "x": 1388.725,
       "y": 1222.475,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。"
+      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342596072973246464",
@@ -1752,7 +2249,8 @@
       "title": "愚金幼岩",
       "x": 1332.706,
       "y": 463.511,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342596073040355328",
@@ -1760,7 +2258,8 @@
       "title": "愚金幼岩",
       "x": 1333.609,
       "y": 460.8,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342597349898510336",
@@ -1768,7 +2267,8 @@
       "title": "愚金幼岩",
       "x": 1684.179,
       "y": 305.393,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342597349936259072",
@@ -1776,7 +2276,8 @@
       "title": "愚金幼岩",
       "x": 1685.082,
       "y": 305.393,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342597349969813504",
@@ -1784,7 +2285,8 @@
       "title": "愚金幼岩",
       "x": 1687.793,
       "y": 305.393,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1342597350007562240",
@@ -1792,7 +2294,8 @@
       "title": "愚金幼岩",
       "x": 1686.889,
       "y": 307.2,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415381513509576704",
@@ -1800,7 +2303,9 @@
       "title": "愚金幼岩",
       "x": 1493.155,
       "y": 1216.666,
-      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415381555905638400",
@@ -1808,7 +2313,9 @@
       "title": "愚金幼岩",
       "x": 1502.036,
       "y": 1216.539,
-      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415383780056969216",
@@ -1816,7 +2323,9 @@
       "title": "愚金幼岩",
       "x": 1467.522,
       "y": 1120.494,
-      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415383819697336320",
@@ -1824,7 +2333,9 @@
       "title": "愚金幼岩",
       "x": 1467.377,
       "y": 1124.334,
-      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415817284964134912",
@@ -1832,7 +2343,9 @@
       "title": "愚金幼岩",
       "x": 1391.02,
       "y": 1465.353,
-      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1415817328857526272",
@@ -1840,7 +2353,9 @@
       "title": "愚金幼岩",
       "x": 1390.875,
       "y": 1469.012,
-      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "floorId": "15",
+      "levelId": "-3/15"
     },
     {
       "id": "kuro:1416179282788786176",
@@ -1848,7 +2363,8 @@
       "title": "愚金幼岩",
       "x": 906.394,
       "y": 1379.572,
-      "description": "背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1418717698265001984",
@@ -1856,7 +2372,8 @@
       "title": "愚金幼岩",
       "x": 1383.828,
       "y": 1222.674,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1418717821283901440",
@@ -1864,7 +2381,8 @@
       "title": "愚金幼岩",
       "x": 1390.649,
       "y": 1221.246,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。"
+      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1415380802860298240",
@@ -1872,7 +2390,9 @@
       "title": "巨布偶",
       "x": 1457.79,
       "y": 1219.774,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1417601100959526912",
@@ -1880,7 +2400,9 @@
       "title": "巨布偶",
       "x": 1509.798,
       "y": 1122.184,
-      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。"
+      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1417604682907725824",
@@ -1888,7 +2410,9 @@
       "title": "巨布偶",
       "x": 1445.647,
       "y": 1191.755,
-      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。"
+      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1417605290775621632",
@@ -1896,7 +2420,9 @@
       "title": "巨布偶",
       "x": 1445.647,
       "y": 1197.176,
-      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。"
+      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1417607320952975360",
@@ -1904,21 +2430,25 @@
       "title": "巨布偶",
       "x": 1451.068,
       "y": 1140.254,
-      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。"
+      "description": "Tầng 16 · 寄生在布偶之中的无质残象，模仿着破破烂烂又不好惹的大型布偶模样。",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415349930299793408",
       "categoryId": "SP_IconMonsterHead_31047_UI",
       "title": "工头布偶",
       "x": 1388.725,
-      "y": 1168.264
+      "y": 1168.264,
+      "levelId": "0"
     },
     {
       "id": "kuro:1415349930442399744",
       "categoryId": "SP_IconMonsterHead_31047_UI",
       "title": "工头布偶",
       "x": 1390.532,
-      "y": 1166.456
+      "y": 1166.456,
+      "levelId": "0"
     },
     {
       "id": "kuro:1415380682890584064",
@@ -1926,7 +2456,9 @@
       "title": "工头布偶",
       "x": 1461.504,
       "y": 1219.376,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1415380739870203904",
@@ -1934,7 +2466,9 @@
       "title": "工头布偶",
       "x": 1458.387,
       "y": 1221.635,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-1/16"
     },
     {
       "id": "kuro:1415383341894770688",
@@ -1942,7 +2476,9 @@
       "title": "工头布偶",
       "x": 1441.834,
       "y": 1138.818,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415383387935682560",
@@ -1950,7 +2486,9 @@
       "title": "工头布偶",
       "x": 1445.448,
       "y": 1139.522,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415384399245291520",
@@ -1958,7 +2496,9 @@
       "title": "工头布偶",
       "x": 1509.147,
       "y": 1127.957,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415385062305996800",
@@ -1966,140 +2506,161 @@
       "title": "工头布偶",
       "x": 1489.315,
       "y": 1140.751,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1352437233626832896",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 887.501,
-      "y": 1386.385
+      "y": 1386.385,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437242460037120",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 890.347,
-      "y": 1384.397
+      "y": 1384.397,
+      "levelId": "0"
     },
     {
       "id": "kuro:1352437250907078656",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 892.759,
-      "y": 1386.385
+      "y": 1386.385,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353553174376644608",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 891.16,
-      "y": 1386.412
+      "y": 1386.412,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353553185969700864",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 888.965,
-      "y": 1386.764
+      "y": 1386.764,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353555466307928064",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 888.169,
-      "y": 1381.496
+      "y": 1381.496,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353555466379231232",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 887.266,
-      "y": 1376.979
+      "y": 1376.979,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353555466446340096",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 885.459,
-      "y": 1380.593
+      "y": 1380.593,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353556223098781696",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 909.854,
-      "y": 1374.268
+      "y": 1374.268,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353556223174279168",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 909.854,
-      "y": 1376.979
+      "y": 1376.979,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353556223245582336",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 909.854,
-      "y": 1379.689
+      "y": 1379.689,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353556223316885504",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 911.661,
-      "y": 1375.172
+      "y": 1375.172,
+      "levelId": "0"
     },
     {
       "id": "kuro:1353556223392382976",
       "categoryId": "T_IconC_047_UI",
       "title": "愚惑金",
       "x": 911.661,
-      "y": 1377.882
+      "y": 1377.882,
+      "levelId": "0"
     },
     {
       "id": "kuro:1340436078567858176",
       "categoryId": "SP_IconMonsterHead_32032_UI",
       "title": "飓力熊",
       "x": 1401.374,
-      "y": 450.861
+      "y": 450.861,
+      "levelId": "0"
     },
     {
       "id": "kuro:1340436078630772736",
       "categoryId": "SP_IconMonsterHead_32032_UI",
       "title": "飓力熊",
       "x": 1395.049,
-      "y": 438.212
+      "y": 438.212,
+      "levelId": "0"
     },
     {
       "id": "kuro:1342596324819001344",
       "categoryId": "SP_IconMonsterHead_32032_UI",
       "title": "飓力熊",
       "x": 1687.793,
-      "y": 356.894
+      "y": 356.894,
+      "levelId": "0"
     },
     {
       "id": "kuro:1342596454628515840",
       "categoryId": "SP_IconMonsterHead_32032_UI",
       "title": "飓力熊",
       "x": 1685.082,
-      "y": 329.788
+      "y": 329.788,
+      "levelId": "0"
     },
     {
       "id": "kuro:1342596625089224704",
       "categoryId": "SP_IconMonsterHead_32032_UI",
       "title": "飓力熊",
       "x": 1711.285,
-      "y": 311.718
+      "y": 311.718,
+      "levelId": "0"
     },
     {
       "id": "kuro:1342597843802972160",
       "categoryId": "SP_IconMonsterHead_32032_UI",
       "title": "飓力熊",
       "x": 1744.715,
-      "y": 302.682
+      "y": 302.682,
+      "levelId": "0"
     },
     {
       "id": "kuro:1342598017484906496",
@@ -2107,7 +2668,9 @@
       "title": "飓力熊",
       "x": 1521.544,
       "y": 359.605,
-      "description": "Tầng 17"
+      "description": "Tầng 17",
+      "floorId": "17",
+      "levelId": "-1000000/17"
     },
     {
       "id": "kuro:1415382118806364160",
@@ -2115,7 +2678,9 @@
       "title": "飓力熊",
       "x": 1457.059,
       "y": 1239.986,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415382171981787136",
@@ -2123,7 +2688,9 @@
       "title": "飓力熊",
       "x": 1457.212,
       "y": 1234.745,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-2/16"
     },
     {
       "id": "kuro:1415382861865066496",
@@ -2131,7 +2698,9 @@
       "title": "飓力熊",
       "x": 1421.975,
       "y": 1164.378,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415382915648626688",
@@ -2139,7 +2708,9 @@
       "title": "飓力熊",
       "x": 1427.215,
       "y": 1164.414,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-3/16"
     },
     {
       "id": "kuro:1415386148072927232",
@@ -2147,7 +2718,9 @@
       "title": "飓力熊",
       "x": 1457.456,
       "y": 1195.08,
-      "description": "Tầng 16"
+      "description": "Tầng 16",
+      "floorId": "16",
+      "levelId": "-4/16"
     },
     {
       "id": "kuro:1415817945571172352",
@@ -2155,7 +2728,9 @@
       "title": "飓力熊",
       "x": 1422.336,
       "y": 1457.312,
-      "description": "Tầng 15"
+      "description": "Tầng 15",
+      "floorId": "15",
+      "levelId": "-2/15"
     },
     {
       "id": "kuro:1415823808335749120",
@@ -2163,7 +2738,9 @@
       "title": "飓力熊",
       "x": 1493.001,
       "y": 383.539,
-      "description": "Tầng 17"
+      "description": "Tầng 17",
+      "floorId": "17",
+      "levelId": "-1/17"
     }
   ]
 }

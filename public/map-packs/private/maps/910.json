@@ -60,7 +60,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "locations",
-      "icon": "location"
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/95d732001e9a9bb2225a.webp"
     },
     {
       "id": "320000480",
@@ -68,7 +69,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/c4f99099276bec99189c.webp"
     },
     {
       "id": "CS_01",
@@ -76,7 +78,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
     },
     {
       "id": "T_IconC_SM_Gat_25A_UI",
@@ -84,7 +87,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/527f4883ab160db19a07.webp"
     },
     {
       "id": "310000760",
@@ -92,7 +96,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/e247591a3add671f31ec.webp"
     },
     {
       "id": "T_IconC_SM_Gat_01B_UI",
@@ -100,7 +105,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/73c5aaac487261afb42d.webp"
     },
     {
       "id": "myjl",
@@ -108,7 +114,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "activities",
-      "icon": "activity"
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/993c67129f1ae4795459.webp"
     },
     {
       "id": "310000750",
@@ -116,7 +123,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/22a1ac05af5584f25bf1.webp"
     },
     {
       "id": "T_IconC_060_UI",
@@ -124,7 +132,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/f96c3aed4acb1752cce0.webp"
     }
   ],
   "markers": [
@@ -133,7 +142,8 @@
       "categoryId": "SP_IconMap_Activity_HonamiStory_UI",
       "title": "作战准备",
       "x": 797.816,
-      "y": 820.405
+      "y": 820.405,
+      "levelId": "0"
     },
     {
       "id": "kuro:1440114482467074048",
@@ -141,7 +151,8 @@
       "title": "梦魇·刺玫菇",
       "x": 761.675,
       "y": 695.718,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1440114676952756224",
@@ -149,7 +160,8 @@
       "title": "梦魇·刺玫菇",
       "x": 761.675,
       "y": 693.007,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1440115218227687424",
@@ -157,91 +169,104 @@
       "title": "梦魇·刺玫菇",
       "x": 763.482,
       "y": 693.007,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1440316870595473408",
       "categoryId": "CS_01",
       "title": "中枢信标",
       "x": 773.421,
-      "y": 802.334
+      "y": 802.334,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438873179090145280",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 856.546,
-      "y": 753.544
+      "y": 753.544,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438873996251131904",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 694.814,
-      "y": 740.894
+      "y": 740.894,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438873996360183808",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 696.621,
-      "y": 739.991
+      "y": 739.991,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438873996460847104",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 694.814,
-      "y": 738.184
+      "y": 738.184,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438876790827806720",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 739.991,
-      "y": 753.544
+      "y": 753.544,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438876790932664320",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 738.184,
-      "y": 750.833
+      "y": 750.833,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438877175290294272",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 749.026,
-      "y": 701.139
+      "y": 701.139,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438877175390957568",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 749.929,
-      "y": 700.235
+      "y": 700.235,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438877872210137088",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 821.308,
-      "y": 708.367
+      "y": 708.367,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438878265712865280",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 830.344,
-      "y": 695.718
+      "y": 695.718,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438878747403513856",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
       "title": "香柠草",
       "x": 777.939,
-      "y": 731.859
+      "y": 731.859,
+      "levelId": "0"
     },
     {
       "id": "kuro:1440113139902402560",
@@ -249,7 +274,8 @@
       "title": "梦魇·侏侏鸵",
       "x": 765.289,
       "y": 695.718,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1440113821019623424",
@@ -257,56 +283,64 @@
       "title": "梦魇·侏侏鸵",
       "x": 762.579,
       "y": 696.621,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1438868567666806784",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 777.035,
-      "y": 831.247
+      "y": 831.247,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438871562770477056",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 835.765,
-      "y": 786.974
+      "y": 786.974,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438871919821672448",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 874.616,
-      "y": 817.694
+      "y": 817.694,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438872257777717248",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 851.125,
-      "y": 806.852
+      "y": 806.852,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438872257958072320",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 848.414,
-      "y": 803.238
+      "y": 803.238,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438872623332282368",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 926.118,
-      "y": 753.544
+      "y": 753.544,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438877653872963584",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
       "title": "香苏",
       "x": 805.948,
-      "y": 749.929
+      "y": 749.929,
+      "levelId": "0"
     },
     {
       "id": "kuro:1439988171407446016",
@@ -314,7 +348,8 @@
       "title": "梦魇聚落",
       "x": 764.386,
       "y": 669.515,
-      "description": "该地区每日将会固定刷新一定数量的梦魇残象，击败梦魇残象后，可以获取独特的梦魇声骸。"
+      "description": "该地区每日将会固定刷新一定数量的梦魇残象，击败梦魇残象后，可以获取独特的梦魇声骸。",
+      "levelId": "0"
     },
     {
       "id": "kuro:1440115411157282816",
@@ -322,7 +357,8 @@
       "title": "梦魇·呜咔咔",
       "x": 763.482,
       "y": 693.911,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1440115560306733056",
@@ -330,224 +366,256 @@
       "title": "梦魇·呜咔咔",
       "x": 764.386,
       "y": 695.718,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）"
+      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1438959520290729984",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 770.711,
-      "y": 826.729
+      "y": 826.729,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438962449605226496",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 769.075,
-      "y": 829.25
+      "y": 829.25,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438966553570791424",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 768,
-      "y": 829.44
+      "y": 829.44,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438984289404874752",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 761.675,
-      "y": 814.08
+      "y": 814.08,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438984289522315264",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 759.868,
-      "y": 814.984
+      "y": 814.984,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438984289635561472",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 759.868,
-      "y": 817.694
+      "y": 817.694,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438985432918945792",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 698.428,
-      "y": 757.158
+      "y": 757.158,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438985433048969216",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 699.332,
-      "y": 757.158
+      "y": 757.158,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438985433174798336",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 700.235,
-      "y": 757.158
+      "y": 757.158,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438986234513354752",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 712.885,
-      "y": 758.965
+      "y": 758.965,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438986234630795264",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 720.113,
-      "y": 764.386
+      "y": 764.386,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438986234744041472",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 719.209,
-      "y": 765.289
+      "y": 765.289,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438986234861481984",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 720.113,
-      "y": 767.096
+      "y": 767.096,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438987033702912000",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 713.788,
-      "y": 774.325
+      "y": 774.325,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438987033904238592",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 711.981,
-      "y": 774.325
+      "y": 774.325,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438987034092982272",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 711.981,
-      "y": 775.228
+      "y": 775.228,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438987587608408064",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 710.174,
-      "y": 768.904
+      "y": 768.904,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438988132702834688",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 674.936,
-      "y": 778.842
+      "y": 778.842,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438988947586314240",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 815.887,
-      "y": 758.061
+      "y": 758.061,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438988947712143360",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 814.984,
-      "y": 757.158
+      "y": 757.158,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438988947837972480",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 815.887,
-      "y": 756.254
+      "y": 756.254,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438989629616377856",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 835.765,
-      "y": 755.351
+      "y": 755.351,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438989629796732928",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 835.765,
-      "y": 754.447
+      "y": 754.447,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438989629977088000",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 834.861,
-      "y": 755.351
+      "y": 755.351,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438990245350109184",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 830.344,
-      "y": 743.605
+      "y": 743.605,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438990245454966784",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 824.922,
-      "y": 767.096
+      "y": 767.096,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438991118279725056",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 869.195,
-      "y": 796.913
+      "y": 796.913,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438991118460080128",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 867.388,
-      "y": 800.527
+      "y": 800.527,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438991915189096448",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 855.642,
-      "y": 823.115
+      "y": 823.115,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438991915382034432",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 854.739,
-      "y": 822.212
+      "y": 822.212,
+      "levelId": "0"
     },
     {
       "id": "kuro:1438991915570778112",
       "categoryId": "T_IconC_060_UI",
       "title": "长夏花",
       "x": 855.642,
-      "y": 820.405
+      "y": 820.405,
+      "levelId": "0"
     }
   ]
 }

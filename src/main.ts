@@ -1,7 +1,9 @@
 import L, {
-  type CircleMarker,
+  type Layer,
   type LayerGroup,
   type Map as LeafletMap,
+  type Marker,
+  type TileLayer,
 } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "./style.css";
@@ -19,8 +21,10 @@ import type {
   MapCatalog,
   MapCategory,
   MapCategoryGroup,
+  MapFloorLayer,
   MapMarker,
   MapPack,
+  MapTileSource,
   Profile,
 } from "./types";
 
@@ -83,6 +87,10 @@ app.innerHTML = `
         <label class="map-picker" id="map-picker" hidden>
           <span>Khu vực</span>
           <select id="map-select" aria-label="Chọn khu vực"></select>
+        </label>
+        <label class="map-picker" id="floor-picker" hidden>
+          <span>Tầng bản đồ</span>
+          <select id="floor-select" aria-label="Chọn tầng bản đồ"></select>
         </label>
         <div class="demo-notice" id="demo-notice">
           <span>DEMO</span>
@@ -235,6 +243,8 @@ const elements = {
   mapAttribution: mustQuery<HTMLElement>("#map-attribution"),
   mapPicker: mustQuery<HTMLElement>("#map-picker"),
   mapSelect: mustQuery<HTMLSelectElement>("#map-select"),
+  floorPicker: mustQuery<HTMLElement>("#floor-picker"),
+  floorSelect: mustQuery<HTMLSelectElement>("#floor-select"),
   demoNotice: mustQuery<HTMLElement>("#demo-notice"),
   topProgressCount: mustQuery<HTMLElement>("#top-progress-count"),
   progressPercentage: mustQuery<HTMLElement>("#progress-percentage"),
@@ -310,10 +320,19 @@ const storedHideCompleted = await database.getSetting<unknown>("hideCompleted");
 let hideCompleted =
   typeof storedHideCompleted === "boolean" ? storedHideCompleted : false;
 let searchTerm = "";
+const storedFloorId = await database.getSetting<unknown>(
+  `activeFloor:${activeMapPack.id}`,
+);
+let activeFloorId =
+  typeof storedFloorId === "string" &&
+  activeMapPack.layers?.some((layer) => layer.id === storedFloorId)
+    ? storedFloorId
+    : "";
 let map: LeafletMap;
 let imageBounds: L.LatLngBounds;
 let markerLayer: LayerGroup;
-let markerReferences = new Map<string, CircleMarker>();
+let floorTileLayer: TileLayer | undefined;
+let markerReferences = new Map<string, Layer>();
 let toastTimer: number | undefined;
 let syncInFlight = false;
 
@@ -517,6 +536,19 @@ function resolveBasemapSources(pack: MapPack): MapPack {
           src: resolveTileTemplate(pack.tiles.src),
         }
       : undefined,
+    categories: pack.categories.map((category) => ({
+      ...category,
+      imageSrc: category.imageSrc
+        ? new URL(category.imageSrc, document.baseURI).href
+        : undefined,
+    })),
+    layers: pack.layers?.map((layer) => ({
+      ...layer,
+      tiles: {
+        ...layer.tiles,
+        src: resolveTileTemplate(layer.tiles.src),
+      },
+    })),
   };
 }
 
@@ -606,6 +638,7 @@ function renderStaticMapDetails(): void {
   elements.demoNotice.hidden = activeMapPack.id !== demoMapPack.id;
   elements.hideCompleted.checked = hideCompleted;
   renderMapSelector();
+  renderFloorSelector();
 }
 
 function renderMapSelector(): void {
@@ -636,6 +669,41 @@ function renderMapSelector(): void {
     elements.mapSelect.append(option);
   }
   elements.mapPicker.hidden = options.length <= 1;
+}
+
+function renderFloorSelector(): void {
+  const layers = activeMapPack.layers ?? [];
+  elements.floorSelect.replaceChildren();
+  if (layers.length === 0) {
+    elements.floorPicker.hidden = true;
+    return;
+  }
+
+  const allFloors = document.createElement("option");
+  allFloors.value = "";
+  allFloors.textContent = "Tất cả tầng";
+  allFloors.selected = activeFloorId === "";
+  elements.floorSelect.append(allFloors);
+
+  const layersByGroup = new Map<string, MapFloorLayer[]>();
+  for (const layer of layers) {
+    const groupLayers = layersByGroup.get(layer.groupId) ?? [];
+    groupLayers.push(layer);
+    layersByGroup.set(layer.groupId, groupLayers);
+  }
+  for (const groupLayers of layersByGroup.values()) {
+    const group = document.createElement("optgroup");
+    group.label = groupLayers[0]?.groupLabel ?? "Tầng bản đồ";
+    for (const layer of groupLayers) {
+      const option = document.createElement("option");
+      option.value = layer.id;
+      option.textContent = layer.label;
+      option.selected = layer.id === activeFloorId;
+      group.append(option);
+    }
+    elements.floorSelect.append(group);
+  }
+  elements.floorPicker.hidden = false;
 }
 
 function renderProfiles(): void {
@@ -762,12 +830,20 @@ function renderCategories(): void {
     const swatch = document.createElement("span");
     swatch.className = "category-card-icon";
     swatch.style.setProperty("--category-color", category.color);
-    swatch.append(
-      createFilterIcon(
-        category.icon ?? categoryGroup.icon,
-        category.symbol,
-      ),
-    );
+    if (category.imageSrc) {
+      const image = document.createElement("img");
+      image.src = category.imageSrc;
+      image.alt = "";
+      image.loading = "lazy";
+      swatch.append(image);
+    } else {
+      swatch.append(
+        createFilterIcon(
+          category.icon ?? categoryGroup.icon,
+          category.symbol,
+        ),
+      );
+    }
 
     const text = document.createElement("span");
     text.className = "category-card-copy";
@@ -853,28 +929,9 @@ function initializeMap(): void {
       className: "map-image",
     }).addTo(map);
   } else if (activeMapPack.tiles) {
-    const tileLayer = L.tileLayer(activeMapPack.tiles.src, {
-      tileSize: activeMapPack.tiles.tileSize,
-      minNativeZoom: 0,
-      maxNativeZoom: 0,
-      minZoom: -2,
-      maxZoom: 2.5,
-      noWrap: true,
-      bounds: imageBounds,
-      keepBuffer: 2,
-      updateWhenZooming: false,
-      className: "map-image",
-    });
-    if (activeMapPack.tiles.availableTiles) {
-      const availableTiles = new Set(activeMapPack.tiles.availableTiles);
-      const originalGetTileUrl = tileLayer.getTileUrl.bind(tileLayer);
-      tileLayer.getTileUrl = (coordinates) =>
-        availableTiles.has(`${coordinates.x},${coordinates.y}`)
-          ? originalGetTileUrl(coordinates)
-          : TRANSPARENT_TILE;
-    }
-    tileLayer.addTo(map);
+    createTileLayer(activeMapPack.tiles, "map-image", 200).addTo(map);
   }
+  updateFloorLayer();
   markerLayer = L.layerGroup().addTo(map);
   map.fitBounds(imageBounds, { animate: false });
   if (window.matchMedia("(max-width: 820px)").matches) {
@@ -885,19 +942,69 @@ function initializeMap(): void {
   map.setMaxBounds(imageBounds.pad(0.18));
 }
 
+function createTileLayer(
+  source: MapTileSource,
+  className: string,
+  zIndex: number,
+): TileLayer {
+  const tileLayer = L.tileLayer(source.src, {
+    tileSize: source.tileSize,
+    minNativeZoom: 0,
+    maxNativeZoom: 0,
+    minZoom: -2,
+    maxZoom: 2.5,
+    noWrap: true,
+    bounds: imageBounds,
+    keepBuffer: 2,
+    updateWhenZooming: false,
+    className,
+    zIndex,
+  });
+  if (source.availableTiles) {
+    const availableTiles = new Set(source.availableTiles);
+    const originalGetTileUrl = tileLayer.getTileUrl.bind(tileLayer);
+    tileLayer.getTileUrl = (coordinates) =>
+      availableTiles.has(`${coordinates.x},${coordinates.y}`)
+        ? originalGetTileUrl(coordinates)
+        : TRANSPARENT_TILE;
+  }
+  return tileLayer;
+}
+
+function updateFloorLayer(): void {
+  if (floorTileLayer) {
+    map.removeLayer(floorTileLayer);
+    floorTileLayer = undefined;
+  }
+  if (!activeFloorId) {
+    return;
+  }
+  const floor = activeMapPack.layers?.find(
+    (layer) => layer.id === activeFloorId,
+  );
+  if (floor) {
+    floorTileLayer = createTileLayer(
+      floor.tiles,
+      "map-image floor-map-image",
+      240,
+    ).addTo(map);
+  }
+}
+
 function markerLatLng(marker: MapMarker): L.LatLngExpression {
   const dimensions = mapPackDimensions(activeMapPack);
   return [dimensions.height - marker.y, marker.x];
 }
 
+function markerMatchesActiveFloor(marker: MapMarker): boolean {
+  return activeFloorId === "" || marker.levelId === activeFloorId;
+}
+
 function renderMarkers(): void {
   markerLayer.clearLayers();
-  markerReferences = new Map<string, CircleMarker>();
+  markerReferences = new Map<string, Layer>();
   const normalizedSearchTerm = searchTerm.trim().toLocaleLowerCase("vi");
-  let visibleMarkerCount = 0;
-
-  for (const marker of activeMapPack.markers) {
-    const category = findCategory(marker.categoryId);
+  const visibleMarkers = activeMapPack.markers.filter((marker) => {
     const isDone = completedMarkerIds.has(marker.id);
     const matchesCategory =
       normalizedSearchTerm.length > 0 ||
@@ -907,44 +1014,89 @@ function renderMarkers(): void {
         .toLocaleLowerCase("vi");
     const matchesSearch =
       normalizedSearchTerm.length === 0 || haystack.includes(normalizedSearchTerm);
+    return (
+      matchesCategory &&
+      matchesSearch &&
+      markerMatchesActiveFloor(marker) &&
+      !(hideCompleted && isDone)
+    );
+  });
+  const useImageMarkers = visibleMarkers.length <= 1500;
 
-    if (
-      !matchesCategory ||
-      !matchesSearch ||
-      (hideCompleted && isDone)
-    ) {
-      continue;
-    }
-
-    const circle = L.circleMarker(markerLatLng(marker), {
-      radius: isDone ? 8 : 10,
-      color: isDone ? "#d9fff6" : "#f7fffc",
-      weight: isDone ? 1 : 2,
-      fillColor: category.color,
-      fillOpacity: isDone ? 0.28 : 0.94,
-      opacity: isDone ? 0.48 : 1,
-      className: isDone ? "progress-marker is-done" : "progress-marker",
-    });
+  for (const marker of visibleMarkers) {
+    const category = findCategory(marker.categoryId);
+    const isDone = completedMarkerIds.has(marker.id);
+    const renderedMarker =
+      useImageMarkers && category.imageSrc
+        ? createImageMarker(marker, category, isDone)
+        : L.circleMarker(markerLatLng(marker), {
+            radius: isDone ? 8 : 10,
+            color: isDone ? "#d9fff6" : "#f7fffc",
+            weight: isDone ? 1 : 2,
+            fillColor: category.color,
+            fillOpacity: isDone ? 0.28 : 0.94,
+            opacity: isDone ? 0.48 : 1,
+            className: isDone ? "progress-marker is-done" : "progress-marker",
+          });
 
     const tooltipContent = document.createElement("span");
     tooltipContent.textContent = marker.title;
-    circle.bindTooltip(tooltipContent, {
+    renderedMarker.bindTooltip(tooltipContent, {
       direction: "top",
-      offset: [0, -8],
+      offset: [0, useImageMarkers && category.imageSrc ? -18 : -8],
       opacity: 0.95,
     });
-    circle.bindPopup(createMarkerPopup(marker, category, isDone), {
+    renderedMarker.bindPopup(createMarkerPopup(marker, category, isDone), {
       className: "marker-popup",
       minWidth: 230,
       closeButton: true,
     });
-    circle.addTo(markerLayer);
-    markerReferences.set(marker.id, circle);
-    visibleMarkerCount += 1;
+    renderedMarker.addTo(markerLayer);
+    markerReferences.set(marker.id, renderedMarker);
   }
 
-  elements.visibleCount.textContent = `${visibleMarkerCount} điểm đang hiển thị`;
+  elements.visibleCount.textContent = `${visibleMarkers.length} điểm đang hiển thị`;
   updateProgressDisplay();
+}
+
+function createImageMarker(
+  marker: MapMarker,
+  category: MapCategory,
+  isDone: boolean,
+): Marker {
+  const wrapper = document.createElement("span");
+  wrapper.className = isDone
+    ? "map-marker-icon is-done"
+    : "map-marker-icon";
+  wrapper.style.setProperty("--category-color", category.color);
+
+  const frame = document.createElement("span");
+  frame.className = "map-marker-frame";
+  const image = document.createElement("img");
+  image.src = category.imageSrc ?? "";
+  image.alt = "";
+  frame.append(image);
+  wrapper.append(frame);
+
+  if (isDone) {
+    const check = document.createElement("span");
+    check.className = "map-marker-check";
+    check.textContent = "✓";
+    wrapper.append(check);
+  }
+
+  return L.marker(markerLatLng(marker), {
+    icon: L.divIcon({
+      className: "progress-icon-marker",
+      html: wrapper,
+      iconSize: [38, 44],
+      iconAnchor: [19, 40],
+      popupAnchor: [0, -36],
+      tooltipAnchor: [0, -30],
+    }),
+    opacity: isDone ? 0.52 : 1,
+    riseOnHover: true,
+  });
 }
 
 function findCategory(categoryId: string): MapCategory {
@@ -1193,6 +1345,21 @@ function bindEvents(): void {
   elements.mapSelect.addEventListener("change", async () => {
     await database.putSetting("activeMapPackId", elements.mapSelect.value);
     window.location.reload();
+  });
+
+  elements.floorSelect.addEventListener("change", async () => {
+    activeFloorId = elements.floorSelect.value;
+    await database.putSetting(
+      `activeFloor:${activeMapPack.id}`,
+      activeFloorId,
+    );
+    updateFloorLayer();
+    renderMarkers();
+    const floorLabel = activeFloorId
+      ? activeMapPack.layers?.find((layer) => layer.id === activeFloorId)
+          ?.label
+      : "Tất cả tầng";
+    showToast(`Đã chuyển sang ${floorLabel ?? "tầng bản đồ"}.`);
   });
 
   elements.profileSelect.addEventListener("change", async () => {

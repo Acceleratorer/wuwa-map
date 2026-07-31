@@ -3,9 +3,11 @@ import type {
   MapCategory,
   MapCategoryGroup,
   MapCatalog,
+  MapFloorLayer,
   MapIconName,
   MapMarker,
   MapPack,
+  MapTileSource,
   Profile,
   ProgressRecord,
 } from "./types";
@@ -54,6 +56,54 @@ function isAllowedImageSource(value: string): boolean {
     : isAllowedResourceSource(value);
 }
 
+function assertTileSource(
+  value: unknown,
+  label: string,
+): asserts value is MapTileSource {
+  const tileSource = isRecord(value) ? value.src : undefined;
+  const tileSize = isRecord(value) ? value.tileSize : undefined;
+  const columns = isRecord(value) ? value.columns : undefined;
+  const rows = isRecord(value) ? value.rows : undefined;
+  const availableTiles = isRecord(value) ? value.availableTiles : undefined;
+  if (
+    !isRecord(value) ||
+    !isNonEmptyString(tileSource) ||
+    !isAllowedResourceSource(tileSource) ||
+    !isFiniteNumber(tileSize) ||
+    !isFiniteNumber(columns) ||
+    !isFiniteNumber(rows) ||
+    !Number.isInteger(tileSize) ||
+    !Number.isInteger(columns) ||
+    !Number.isInteger(rows) ||
+    tileSize <= 0 ||
+    columns <= 0 ||
+    rows <= 0 ||
+    !tileSource.includes("{x}") ||
+    !tileSource.includes("{y}") ||
+    (
+      availableTiles !== undefined &&
+      (
+        !Array.isArray(availableTiles) ||
+        new Set(availableTiles).size !== availableTiles.length ||
+        !availableTiles.every((tile) => {
+          if (typeof tile !== "string") {
+            return false;
+          }
+          const match = /^(-?\d+),(-?\d+)$/.exec(tile);
+          if (!match) {
+            return false;
+          }
+          const x = Number(match[1]);
+          const y = Number(match[2]);
+          return x >= 0 && x < columns && y >= -rows && y < 0;
+        })
+      )
+    )
+  ) {
+    throw new Error(`${label} không hợp lệ.`);
+  }
+}
+
 export function mapPackDimensions(pack: MapPack): {
   width: number;
   height: number;
@@ -81,7 +131,14 @@ function assertCategory(value: unknown, index: number): asserts value is MapCate
     !isNonEmptyString(value.symbol) ||
     !isNonEmptyString(value.color) ||
     (value.groupId !== undefined && !isNonEmptyString(value.groupId)) ||
-    (value.icon !== undefined && !isMapIconName(value.icon))
+    (value.icon !== undefined && !isMapIconName(value.icon)) ||
+    (
+      value.imageSrc !== undefined &&
+      (
+        !isNonEmptyString(value.imageSrc) ||
+        !isAllowedImageSource(value.imageSrc)
+      )
+    )
   ) {
     throw new Error(`Danh mục #${index + 1} không hợp lệ.`);
   }
@@ -134,6 +191,28 @@ function assertMarker(
   if (value.description !== undefined && typeof value.description !== "string") {
     throw new Error(`Mô tả của marker "${value.title}" không hợp lệ.`);
   }
+  if (
+    (value.floorId !== undefined && !isNonEmptyString(value.floorId)) ||
+    (value.levelId !== undefined && !isNonEmptyString(value.levelId))
+  ) {
+    throw new Error(`Thông tin tầng của marker "${value.title}" không hợp lệ.`);
+  }
+}
+
+function assertFloorLayer(
+  value: unknown,
+  index: number,
+): asserts value is MapFloorLayer {
+  if (
+    !isRecord(value) ||
+    !isNonEmptyString(value.id) ||
+    !isNonEmptyString(value.label) ||
+    !isNonEmptyString(value.groupId) ||
+    !isNonEmptyString(value.groupLabel)
+  ) {
+    throw new Error(`Tầng bản đồ #${index + 1} không hợp lệ.`);
+  }
+  assertTileSource(value.tiles, `Tile của tầng "${value.label}"`);
 }
 
 export function parseMapPack(value: unknown): MapPack {
@@ -177,50 +256,9 @@ export function parseMapPack(value: unknown): MapPack {
     mapWidth = imageWidth;
     mapHeight = imageHeight;
   } else {
-    const tileSource = isRecord(tiles) ? tiles.src : undefined;
-    const tileSize = isRecord(tiles) ? tiles.tileSize : undefined;
-    const columns = isRecord(tiles) ? tiles.columns : undefined;
-    const rows = isRecord(tiles) ? tiles.rows : undefined;
-    const availableTiles = isRecord(tiles) ? tiles.availableTiles : undefined;
-    if (
-      !isRecord(tiles) ||
-      !isNonEmptyString(tileSource) ||
-      !isAllowedResourceSource(tileSource) ||
-      !isFiniteNumber(tileSize) ||
-      !isFiniteNumber(columns) ||
-      !isFiniteNumber(rows) ||
-      !Number.isInteger(tileSize) ||
-      !Number.isInteger(columns) ||
-      !Number.isInteger(rows) ||
-      tileSize <= 0 ||
-      columns <= 0 ||
-      rows <= 0 ||
-      !tileSource.includes("{x}") ||
-      !tileSource.includes("{y}") ||
-      (
-        availableTiles !== undefined &&
-        (
-          !Array.isArray(availableTiles) ||
-          new Set(availableTiles).size !== availableTiles.length ||
-          !availableTiles.every((tile) => {
-            if (typeof tile !== "string") {
-              return false;
-            }
-            const match = /^(-?\d+),(-?\d+)$/.exec(tile);
-            if (!match) {
-              return false;
-            }
-            const x = Number(match[1]);
-            const y = Number(match[2]);
-            return x >= 0 && x < columns && y >= -rows && y < 0;
-          })
-        )
-      )
-    ) {
-      throw new Error("Thông tin basemap tile không hợp lệ.");
-    }
-    mapWidth = tileSize * columns;
-    mapHeight = tileSize * rows;
+    assertTileSource(tiles, "Thông tin basemap tile");
+    mapWidth = tiles.tileSize * tiles.columns;
+    mapHeight = tiles.tileSize * tiles.rows;
   }
 
   value.categories.forEach(assertCategory);
@@ -254,6 +292,17 @@ export function parseMapPack(value: unknown): MapPack {
     value.categories.some((category) => category.groupId !== undefined)
   ) {
     throw new Error("Map pack thiếu danh sách categoryGroups.");
+  }
+
+  if (value.layers !== undefined) {
+    if (!Array.isArray(value.layers) || value.layers.length === 0) {
+      throw new Error("Danh sách tầng bản đồ không hợp lệ.");
+    }
+    value.layers.forEach(assertFloorLayer);
+    const layerIds = new Set(value.layers.map((layer) => layer.id));
+    if (layerIds.size !== value.layers.length) {
+      throw new Error("Map pack có id tầng bản đồ bị trùng.");
+    }
   }
 
   value.markers.forEach((marker, index) =>

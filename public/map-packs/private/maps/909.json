@@ -87,7 +87,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/992142e14fc8f8ea4838.webp"
     },
     {
       "id": "320000580",
@@ -95,7 +96,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/61eabca2fa1c0fc4b40e.webp"
     },
     {
       "id": "42601480",
@@ -103,7 +105,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/1cefa79d83923b5ca31c.webp"
     },
     {
       "id": "42601500",
@@ -111,7 +114,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/f59f76ef09ec283787fe.webp"
     },
     {
       "id": "qzx_02",
@@ -119,7 +123,8 @@
       "color": "#6cc8ee",
       "symbol": "2",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
     },
     {
       "id": "qzx_03",
@@ -127,7 +132,8 @@
       "color": "#9fdb72",
       "symbol": "3",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
     },
     {
       "id": "qzx_01",
@@ -135,7 +141,8 @@
       "color": "#8bd3c7",
       "symbol": "1",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
     },
     {
       "id": "IconMap_WYQ",
@@ -143,7 +150,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "activities",
-      "icon": "activity"
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/16e450d745d806079f04.webp"
     },
     {
       "id": "FCRK",
@@ -151,7 +159,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/49d61d91025178ae0e67.webp"
     },
     {
       "id": "qzx_04",
@@ -159,7 +168,8 @@
       "color": "#f07e83",
       "symbol": "4",
       "groupId": "collection",
-      "icon": "chest"
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/9fb9717a222ce68bd07e.webp"
     },
     {
       "id": "zscj",
@@ -167,7 +177,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "collection",
-      "icon": "collection"
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/ed9ef2e8c51bdc5d12e2.webp"
     },
     {
       "id": "320000660",
@@ -175,7 +186,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/ab4f4482942adc39d3a8.webp"
     },
     {
       "id": "381037",
@@ -183,7 +195,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "locations",
-      "icon": "location"
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/5cee0398d10949743710.webp"
     },
     {
       "id": "SP_IconMonsterHead_105_UI",
@@ -191,7 +204,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/89f9c5f061e9c74cf811.webp"
     },
     {
       "id": "320000560",
@@ -199,7 +213,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a076ebbea8a998c1cc94.webp"
     },
     {
       "id": "310000840",
@@ -207,7 +222,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/eb4c4ae20d48c55ce78e.webp"
     },
     {
       "id": "320000600",
@@ -215,7 +231,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/65c921fb2fc15ed48c21.webp"
     },
     {
       "id": "3330003",
@@ -223,7 +240,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "locations",
-      "icon": "location"
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/415bc5f47e9443b9c807.webp"
     },
     {
       "id": "320000520",
@@ -231,7 +249,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/1decb00506d6b2fd64ae.webp"
     },
     {
       "id": "3330002",
@@ -239,7 +258,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "bosses",
-      "icon": "boss"
+      "icon": "boss",
+      "imageSrc": "map-packs/private/icons/da3f0b9c563720a6f428.webp"
     },
     {
       "id": "57",
@@ -247,7 +267,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/94eb808df3308ee404d0.webp"
     },
     {
       "id": "58",
@@ -255,7 +276,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/9ad3a1e1a497d2302c34.webp"
     },
     {
       "id": "320000570",
@@ -263,7 +285,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/94e50aeebe9671949856.webp"
     },
     {
       "id": "cbd",
@@ -271,7 +294,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5111afe1ca71aba1d1e3.webp"
     },
     {
       "id": "59",
@@ -279,7 +303,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/3afbd85ec10eb8e01dea.webp"
     },
     {
       "id": "cx_03",
@@ -287,7 +312,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "collection",
-      "icon": "collection"
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
     },
     {
       "id": "CS_02",
@@ -295,7 +321,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
     },
     {
       "id": "cx_02",
@@ -303,7 +330,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "collection",
-      "icon": "collection"
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
     },
     {
       "id": "42601490",
@@ -311,7 +339,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "resources",
-      "icon": "resource"
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/4578809897c7c053b31e.webp"
     },
     {
       "id": "CS_01",
@@ -319,7 +348,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
     },
     {
       "id": "310000810",
@@ -327,7 +357,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/b1d6f414590c651ff12f.webp"
     },
     {
       "id": "320000530",
@@ -335,7 +366,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/90f9a0e66f0c6d41fe06.webp"
     },
     {
       "id": "SP_IconMonsterHead_035_UI",
@@ -343,7 +375,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/75962fabb89286166243.webp"
     },
     {
       "id": "60",
@@ -351,7 +384,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/20b7cfea664f8fbdd3ff.webp"
     },
     {
       "id": "61",
@@ -359,7 +393,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/e7509b0da2269a8f78f7.webp"
     },
     {
       "id": "62",
@@ -367,7 +402,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/d383bbb692279a752529.webp"
     },
     {
       "id": "310000830",
@@ -375,7 +411,8 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/7bef31083c232e6bcedb.webp"
     },
     {
       "id": "320000610",
@@ -383,7 +420,8 @@
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/f2083cfacc90e048caa3.webp"
     },
     {
       "id": "63",
@@ -391,7 +429,8 @@
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/f2a27894dc6815bb1882.webp"
     },
     {
       "id": "320000510",
@@ -399,7 +438,8 @@
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
-      "icon": "enemy"
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2d694c8594ee0c541b7a.webp"
     },
     {
       "id": "64",
@@ -407,7 +447,8 @@
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/1a3519ac7166967b7a87.webp"
     },
     {
       "id": "42",
@@ -415,7 +456,8 @@
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/737a517c7fc367ccb974.webp"
     },
     {
       "id": "43",
@@ -423,7 +465,117 @@
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
-      "icon": "exploration"
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/e9ffeefc820c3c82ddfa.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-1/49",
+      "label": "明日阈限",
+      "groupId": "49",
+      "groupLabel": "明日阈限",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-1_49/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "2,-4",
+          "3,-4"
+        ]
+      }
+    },
+    {
+      "id": "-1/50",
+      "label": "栖光岩窟",
+      "groupId": "50",
+      "groupLabel": "栖光岩窟",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-1_50/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "2,-2",
+          "2,-3"
+        ]
+      }
+    },
+    {
+      "id": "-1/51",
+      "label": "未竟残舍",
+      "groupId": "51",
+      "groupLabel": "未竟残舍",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-1_51/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "1,-3"
+        ]
+      }
+    },
+    {
+      "id": "-1/52",
+      "label": "入口·虚妄摇篮",
+      "groupId": "52",
+      "groupLabel": "虚妄摇篮",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-1_52/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "1,-4"
+        ]
+      }
+    },
+    {
+      "id": "-2/52",
+      "label": "一层·虚妄摇篮",
+      "groupId": "52",
+      "groupLabel": "虚妄摇篮",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-2_52/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "1,-4"
+        ]
+      }
+    },
+    {
+      "id": "-3/52",
+      "label": "二层·虚妄摇篮",
+      "groupId": "52",
+      "groupLabel": "虚妄摇篮",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-3_52/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "1,-4"
+        ]
+      }
+    },
+    {
+      "id": "-1/53",
+      "label": "锈丘",
+      "groupId": "53",
+      "groupLabel": "锈丘",
+      "tiles": {
+        "src": "map-packs/private/layers/909/-1_53/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 5,
+        "rows": 5,
+        "availableTiles": [
+          "3,-3"
+        ]
+      }
     }
   ],
   "markers": [
@@ -433,7 +585,8 @@
       "title": "造路悬仪挑战赛道",
       "x": 1365.233,
       "y": 1421.252,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱"
+      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496993395934994432",
@@ -441,7 +594,8 @@
       "title": "造路悬仪挑战赛道",
       "x": 1300.179,
       "y": 1166.456,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱"
+      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496994683791843328",
@@ -449,7 +603,8 @@
       "title": "造路悬仪挑战赛道",
       "x": 1554.974,
       "y": 2187.445,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱"
+      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496995391425454080",
@@ -457,7 +612,8 @@
       "title": "造路悬仪挑战赛道",
       "x": 2307.614,
       "y": 2453.986,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱"
+      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496996054846234624",
@@ -465,7 +621,8 @@
       "title": "造路悬仪挑战赛道",
       "x": 2518.136,
       "y": 2183.831,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱"
+      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496996440592850944",
@@ -473,35 +630,40 @@
       "title": "造路悬仪挑战赛道",
       "x": 3021.402,
       "y": 2249.788,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱"
+      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1504052856540717056",
       "categoryId": "320000580",
       "title": "风鳞蜃甲",
       "x": 1431.832,
-      "y": 1126.954
+      "y": 1126.954,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504053201866153984",
       "categoryId": "320000580",
       "title": "风鳞蜃甲",
       "x": 1399.513,
-      "y": 1292.237
+      "y": 1292.237,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504053617043529728",
       "categoryId": "320000580",
       "title": "风鳞蜃甲",
       "x": 1238.395,
-      "y": 1284.439
+      "y": 1284.439,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504053956916371456",
       "categoryId": "320000580",
       "title": "风鳞蜃甲",
       "x": 2191.23,
-      "y": 2083.06
+      "y": 2083.06,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496845457791361024",
@@ -509,7 +671,9 @@
       "title": "星之梦",
       "x": 2186.704,
       "y": 1264.715,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845517911842816",
@@ -517,7 +681,9 @@
       "title": "星之梦",
       "x": 2184.698,
       "y": 1270.335,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845562862198784",
@@ -525,7 +691,9 @@
       "title": "星之梦",
       "x": 2189.92,
       "y": 1268.329,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845604142538752",
@@ -533,7 +701,9 @@
       "title": "星之梦",
       "x": 2189.116,
       "y": 1271.546,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845647150931968",
@@ -541,7 +711,9 @@
       "title": "星之梦",
       "x": 2185.502,
       "y": 1273.154,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845851153489920",
@@ -549,7 +721,9 @@
       "title": "星之梦",
       "x": 2174.253,
       "y": 1251.849,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845899841642496",
@@ -557,7 +731,9 @@
       "title": "星之梦",
       "x": 2167.82,
       "y": 1244.214,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496845972100440064",
@@ -565,7 +741,9 @@
       "title": "星之梦",
       "x": 2165.01,
       "y": 1249.039,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846023137402880",
@@ -573,7 +751,9 @@
       "title": "星之梦",
       "x": 2171.037,
       "y": 1246.627,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846065541816320",
@@ -581,7 +761,9 @@
       "title": "星之梦",
       "x": 2168.218,
       "y": 1250.647,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846325009178624",
@@ -589,7 +771,9 @@
       "title": "星之梦",
       "x": 2228.899,
       "y": 1230.553,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846448682426368",
@@ -597,7 +781,9 @@
       "title": "星之梦",
       "x": 2238.178,
       "y": 1219.06,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846487618150400",
@@ -605,7 +791,9 @@
       "title": "星之梦",
       "x": 2231.257,
       "y": 1216.756,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846531717734400",
@@ -613,7 +801,9 @@
       "title": "星之梦",
       "x": 2234.717,
       "y": 1217.678,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846568383668224",
@@ -621,7 +811,9 @@
       "title": "星之梦",
       "x": 2232.874,
       "y": 1222.755,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846690735710208",
@@ -629,7 +821,9 @@
       "title": "星之梦",
       "x": 2231.103,
       "y": 1259.177,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846727947575296",
@@ -637,7 +831,9 @@
       "title": "星之梦",
       "x": 2241.711,
       "y": 1265.004,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846788363001856",
@@ -645,7 +841,9 @@
       "title": "星之梦",
       "x": 2250.728,
       "y": 1263.414,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846819710558208",
@@ -653,7 +851,9 @@
       "title": "星之梦",
       "x": 2256.023,
       "y": 1260.767,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496846972237094912",
@@ -661,7 +861,9 @@
       "title": "星之梦",
       "x": 2243.518,
       "y": 1267.128,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496847022698094592",
@@ -669,7 +871,9 @@
       "title": "星之梦",
       "x": 2248.767,
       "y": 1258.689,
-      "description": "Tầng 49"
+      "description": "Tầng 49",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1496856604229738496",
@@ -677,7 +881,9 @@
       "title": "星之梦",
       "x": 1386.701,
       "y": 1454.158,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496856711402594304",
@@ -685,7 +891,9 @@
       "title": "星之梦",
       "x": 1384.117,
       "y": 1453.869,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496856927526690816",
@@ -693,7 +901,9 @@
       "title": "星之梦",
       "x": 1390.062,
       "y": 1452.107,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496856984912486400",
@@ -701,7 +911,9 @@
       "title": "星之梦",
       "x": 1388.354,
       "y": 1448.791,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857027681804288",
@@ -709,7 +921,9 @@
       "title": "星之梦",
       "x": 1391.264,
       "y": 1446.578,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857193378455552",
@@ -717,7 +931,9 @@
       "title": "星之梦",
       "x": 1392.267,
       "y": 1447.581,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857472261922816",
@@ -725,7 +941,9 @@
       "title": "星之梦",
       "x": 1417.574,
       "y": 1407.419,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857520492224512",
@@ -733,7 +951,9 @@
       "title": "星之梦",
       "x": 1416.282,
       "y": 1402.901,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857559872544768",
@@ -741,7 +961,9 @@
       "title": "星之梦",
       "x": 1420.583,
       "y": 1398.808,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857608912347136",
@@ -749,7 +971,9 @@
       "title": "星之梦",
       "x": 1419.291,
       "y": 1395.79,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857749576720384",
@@ -757,7 +981,9 @@
       "title": "星之梦",
       "x": 1419.083,
       "y": 1380.71,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857785496739840",
@@ -765,7 +991,9 @@
       "title": "星之梦",
       "x": 1414.773,
       "y": 1379.418,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857820308791296",
@@ -773,7 +1001,9 @@
       "title": "星之梦",
       "x": 1411.539,
       "y": 1378.994,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496857914173792256",
@@ -781,7 +1011,9 @@
       "title": "星之梦",
       "x": 1411.114,
       "y": 1381.361,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496858028044951552",
@@ -789,7 +1021,9 @@
       "title": "星之梦",
       "x": 1425.751,
       "y": 1382.87,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496858233008005120",
@@ -797,7 +1031,9 @@
       "title": "星之梦",
       "x": 1392.158,
       "y": 1393.206,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496858307599507456",
@@ -805,7 +1041,9 @@
       "title": "星之梦",
       "x": 1399.052,
       "y": 1400.742,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496858375735975936",
@@ -813,7 +1051,9 @@
       "title": "星之梦",
       "x": 1382.039,
       "y": 1408.286,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496858430614249472",
@@ -821,7 +1061,9 @@
       "title": "星之梦",
       "x": 1388.499,
       "y": 1407.211,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1496858552642658304",
@@ -829,371 +1071,425 @@
       "title": "星之梦",
       "x": 1385.915,
       "y": 1406.777,
-      "description": "Tầng 52"
+      "description": "Tầng 52",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1498262370324406272",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1356.198,
-      "y": 1966.08
+      "y": 1966.08,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498262370513149952",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1357.101,
-      "y": 1965.176
+      "y": 1965.176,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498262370697699328",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1358.005,
-      "y": 1963.369
+      "y": 1963.369,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498262370886443008",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1359.812,
-      "y": 1964.273
+      "y": 1964.273,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498262371070992384",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1358.908,
-      "y": 1962.466
+      "y": 1962.466,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498301586190196736",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1355.294,
-      "y": 2012.16
+      "y": 2012.16,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498301586378940416",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1357.101,
-      "y": 2013.064
+      "y": 2013.064,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498301586559295488",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1358.005,
-      "y": 2012.16
+      "y": 2012.16,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498302123384070144",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1344.452,
-      "y": 2018.485
+      "y": 2018.485,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498302123568619520",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1346.259,
-      "y": 2016.678
+      "y": 2016.678,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498302591480979456",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1345.355,
-      "y": 2041.976
+      "y": 2041.976,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498302591661334528",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1343.548,
-      "y": 2041.976
+      "y": 2041.976,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498302591841689600",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1343.548,
-      "y": 2043.784
+      "y": 2043.784,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498303037448740864",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1341.741,
-      "y": 2044.687
+      "y": 2044.687,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498303037629095936",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1340.838,
-      "y": 2045.591
+      "y": 2045.591,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498303796119314432",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1441.129,
-      "y": 2366.344
+      "y": 2366.344,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498303796236754944",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1440.226,
-      "y": 2367.247
+      "y": 2367.247,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498303796350001152",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1438.419,
-      "y": 2369.054
+      "y": 2369.054,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498304349402537984",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1442.033,
-      "y": 2362.729
+      "y": 2362.729,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498304349515784192",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1441.129,
-      "y": 2362.729
+      "y": 2362.729,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498323244427485184",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1411.313,
-      "y": 2351.887
+      "y": 2351.887,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498323244532342784",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1412.216,
-      "y": 2351.887
+      "y": 2351.887,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498323244633006080",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1412.216,
-      "y": 2349.176
+      "y": 2349.176,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498323244733669376",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1413.12,
-      "y": 2350.08
+      "y": 2350.08,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498323244834332672",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1414.024,
-      "y": 2350.08
+      "y": 2350.08,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498323658279460864",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1378.786,
-      "y": 2339.238
+      "y": 2339.238,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498324269179166720",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1454.682,
-      "y": 2304
+      "y": 2304,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498324269359521792",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1454.682,
-      "y": 2303.096
+      "y": 2303.096,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498324269539876864",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1454.682,
-      "y": 2302.193
+      "y": 2302.193,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498324269720231936",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1454.682,
-      "y": 2301.289
+      "y": 2301.289,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498324269917364224",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1453.779,
-      "y": 2300.386
+      "y": 2300.386,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498325096342724608",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1427.576,
-      "y": 1269.459
+      "y": 1269.459,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498325096481136640",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1428.48,
-      "y": 1270.362
+      "y": 1270.362,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498325096585994240",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1431.191,
-      "y": 1270.362
+      "y": 1270.362,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498325096695046144",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1431.191,
-      "y": 1271.266
+      "y": 1271.266,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498325096799903744",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1432.998,
-      "y": 1270.362
+      "y": 1270.362,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498326201080455168",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1412.216,
-      "y": 1264.941
+      "y": 1264.941,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498327394741624832",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1408.602,
-      "y": 1227.896
+      "y": 1227.896,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498327394905202688",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1409.506,
-      "y": 1227.896
+      "y": 1227.896,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498327395014254592",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1410.409,
-      "y": 1227.896
+      "y": 1227.896,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498327395123306496",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1411.313,
-      "y": 1227.896
+      "y": 1227.896,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498327689843793920",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1416.734,
-      "y": 1234.221
+      "y": 1234.221,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498331755983118336",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1440.226,
-      "y": 1204.405
+      "y": 1204.405,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498331756087975936",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1439.322,
-      "y": 1203.501
+      "y": 1203.501,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498331756192833536",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1438.419,
-      "y": 1203.501
+      "y": 1203.501,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498332025257435136",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1445.647,
-      "y": 1204.405
+      "y": 1204.405,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498332025412624384",
       "categoryId": "42601500",
       "title": "勿忘我",
       "x": 1447.454,
-      "y": 1204.405
+      "y": 1204.405,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499188640382689280",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1670.852,
-      "y": 797.247
+      "y": 797.247,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499189058067587072",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1786.711,
-      "y": 865.735
+      "y": 865.735,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499191949557850112",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1220.424,
-      "y": 1108.016
+      "y": 1108.016,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499193466989928448",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1486.188,
-      "y": 1148.503
+      "y": 1148.503,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499193728949379072",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1467.576,
-      "y": 1167.107
+      "y": 1167.107,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499195873467654144",
@@ -1201,7 +1497,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1050.642,
       "y": 1113.862,
-      "description": "完成“路悬仪挑战赛道1”后出现"
+      "description": "完成“路悬仪挑战赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499200163536674816",
@@ -1209,21 +1506,24 @@
       "title": "Rương tiêu chuẩn",
       "x": 1440.334,
       "y": 1010.507,
-      "description": "完成“路悬仪挑战赛道3”后出现"
+      "description": "完成“路悬仪挑战赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499205185703337984",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1471.136,
-      "y": 2546.056
+      "y": 2546.056,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499205209086582784",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1478.969,
-      "y": 2559.112
+      "y": 2559.112,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499224263004348416",
@@ -1231,7 +1531,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1221.725,
       "y": 1910.115,
-      "description": "完成“路悬仪挑战赛道6”后出现"
+      "description": "完成“路悬仪挑战赛道6”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499225820164874240",
@@ -1239,7 +1540,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1332.137,
       "y": 1347.18,
-      "description": "完成“摩托-飞行赛道4”后出现"
+      "description": "完成“摩托-飞行赛道4”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499228681716867072",
@@ -1247,42 +1549,48 @@
       "title": "Rương tiêu chuẩn",
       "x": 1140.525,
       "y": 2140.335,
-      "description": "完成“摩托-固定赛道2”后出现"
+      "description": "完成“摩托-固定赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499229107173810176",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1181.609,
-      "y": 2175.419
+      "y": 2175.419,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499230069066801152",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1162.689,
-      "y": 2198.043
+      "y": 2198.043,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499230271055421440",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1266.549,
-      "y": 2120.484
+      "y": 2120.484,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499230423941996544",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1259.565,
-      "y": 2097.607
+      "y": 2097.607,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499230684949340160",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1278.63,
-      "y": 2105.775
+      "y": 2105.775,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499231832171175936",
@@ -1290,35 +1598,40 @@
       "title": "Rương tiêu chuẩn",
       "x": 1228.899,
       "y": 2224.815,
-      "description": "完成“摩托-飞行赛道3”后出现"
+      "description": "完成“摩托-飞行赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499233478896869376",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1114.657,
-      "y": 1804.999
+      "y": 1804.999,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499233849237807104",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 1138.51,
-      "y": 1751.176
+      "y": 1751.176,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499236093814726656",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2041.525,
-      "y": 2322.188
+      "y": 2322.188,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499236281530802176",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2021.936,
-      "y": 2346.33
+      "y": 2346.33,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499238878367014912",
@@ -1326,7 +1639,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2546.58,
       "y": 2204.539,
-      "description": "完成“摩托-固定赛道1”后出现"
+      "description": "完成“摩托-固定赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499240953008185344",
@@ -1334,7 +1648,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2136.052,
       "y": 2449.64,
-      "description": "天空悬浮建筑上"
+      "description": "天空悬浮建筑上",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499241407880454144",
@@ -1342,7 +1657,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2146.388,
       "y": 2408.719,
-      "description": "天空悬浮建筑上"
+      "description": "天空悬浮建筑上",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499241981045350400",
@@ -1350,7 +1666,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2125.716,
       "y": 2142.937,
-      "description": "完成“摩托-飞行赛道2”后出现"
+      "description": "完成“摩托-飞行赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499242882027315200",
@@ -1358,7 +1675,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2211.858,
       "y": 2385.029,
-      "description": "完成“路悬仪挑战赛道5”后出现"
+      "description": "完成“路悬仪挑战赛道5”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499243508455006208",
@@ -1366,7 +1684,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 3065.278,
       "y": 1821.317,
-      "description": "做完图二处的解密拿到里面的陷阱宝箱即可解锁"
+      "description": "做完图二处的解密拿到里面的陷阱宝箱即可解锁",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499245773035905024",
@@ -1374,35 +1693,40 @@
       "title": "Rương tiêu chuẩn",
       "x": 2270.895,
       "y": 2418.992,
-      "description": "完成“路悬仪挑战赛道2”后出现"
+      "description": "完成“路悬仪挑战赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499247699118350336",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2767.321,
-      "y": 2098.673
+      "y": 2098.673,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499247835580702720",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2774.215,
-      "y": 2102.386
+      "y": 2102.386,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499250923766374400",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2831.354,
-      "y": 2326.209
+      "y": 2326.209,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499251415565967360",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2835.348,
-      "y": 2297.513
+      "y": 2297.513,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499251998632271872",
@@ -1410,7 +1734,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2563.683,
       "y": 2179.747,
-      "description": "完成“摩托-飞行赛道1”后出现"
+      "description": "完成“摩托-飞行赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499252575206465536",
@@ -1418,21 +1743,24 @@
       "title": "Rương tiêu chuẩn",
       "x": 2606.728,
       "y": 2112.452,
-      "description": "完成“路悬仪挑战赛道4”后出现"
+      "description": "完成“路悬仪挑战赛道4”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499253153782013952",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 3160.428,
-      "y": 2185.692
+      "y": 2185.692,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499253496250458112",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 3161.422,
-      "y": 2158.478
+      "y": 2158.478,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499256773935456256",
@@ -1440,49 +1768,56 @@
       "title": "Rương tiêu chuẩn",
       "x": 2569.827,
       "y": 1504.485,
-      "description": "完成“摩托-飞行赛道5”后出现"
+      "description": "完成“摩托-飞行赛道5”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499258765630070784",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2341.135,
-      "y": 1384.379
+      "y": 1384.379,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499258822538387456",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2337.015,
-      "y": 1367.257
+      "y": 1367.257,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499261130232537088",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2361.754,
-      "y": 1145.567
+      "y": 1145.567,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499261434634149888",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2344.451,
-      "y": 1126.954
+      "y": 1126.954,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499264641417961472",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2090.885,
-      "y": 1332.887
+      "y": 1332.887,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499264888567324672",
       "categoryId": "qzx_02",
       "title": "Rương tiêu chuẩn",
       "x": 2102.016,
-      "y": 1357.128
+      "y": 1357.128,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499266185630670848",
@@ -1490,7 +1825,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2537.725,
       "y": 1434.534,
-      "description": "完成“摩托-固定赛道3”后出现"
+      "description": "完成“摩托-固定赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500192871343808512",
@@ -1498,7 +1834,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2239.371,
       "y": 1261.77,
-      "description": "在长椅坐下后出现"
+      "description": "在长椅坐下后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500194235415355392",
@@ -1506,7 +1843,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2453.128,
       "y": 1338.868,
-      "description": "与人物对话后，参加摩托车挑战出现"
+      "description": "与人物对话后，参加摩托车挑战出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500200422475800576",
@@ -1514,7 +1852,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1083.91,
       "y": 1395.339,
-      "description": "触摸石像后，变身日灵完成交互后出现"
+      "description": "触摸石像后，变身日灵完成交互后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500200454327345152",
@@ -1522,7 +1861,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1088.536,
       "y": 1395.935,
-      "description": "触摸石像后，变身日灵完成交互后出现"
+      "description": "触摸石像后，变身日灵完成交互后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500305893891219456",
@@ -1530,7 +1870,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1203.619,
       "y": 2062.929,
-      "description": "山坡上，询问日灵后出现，获得成就“一杆入袋”"
+      "description": "山坡上，询问日灵后出现，获得成就“一杆入袋”",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500314688993714176",
@@ -1538,7 +1879,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1113.112,
       "y": 2074.214,
-      "description": "与日灵交互后出现"
+      "description": "与日灵交互后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500348947188654080",
@@ -1546,7 +1888,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2182.123,
       "y": 2384.333,
-      "description": "需完成“危行任务”破碎黯原之心"
+      "description": "需完成“危行任务”破碎黯原之心",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500349610698186752",
@@ -1554,7 +1897,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2364.329,
       "y": 2555.407,
-      "description": "需完成“危行任务”破碎黯原之心"
+      "description": "需完成“危行任务”破碎黯原之心",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500350752923934720",
@@ -1562,7 +1906,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2110.825,
       "y": 2538.077,
-      "description": "需完成“危行任务”破碎黯原之心"
+      "description": "需完成“危行任务”破碎黯原之心",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500353009489518592",
@@ -1570,7 +1915,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 2146.921,
       "y": 2327.203,
-      "description": "Tầng 50 · 需完成“危行任务”破碎黯原之心"
+      "description": "Tầng 50 · 需完成“危行任务”破碎黯原之心",
+      "floorId": "50",
+      "levelId": "-1/50"
     },
     {
       "id": "kuro:1500354235265802240",
@@ -1578,7 +1925,9 @@
       "title": "Rương tiêu chuẩn",
       "x": 2126.709,
       "y": 2332.552,
-      "description": "Tầng 50 · 需完成“危行任务”破碎黯原之心"
+      "description": "Tầng 50 · 需完成“危行任务”破碎黯原之心",
+      "floorId": "50",
+      "levelId": "-1/50"
     },
     {
       "id": "kuro:1500356830966030336",
@@ -1586,7 +1935,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2143.75,
       "y": 798.088,
-      "description": "需完成“危行任务”完美飞行日"
+      "description": "需完成“危行任务”完美飞行日",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500441291112030208",
@@ -1594,7 +1944,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 1102.785,
       "y": 2373.807,
-      "description": "需完成“纪闻任务“   寻\"宝“行动"
+      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500450352595443712",
@@ -1602,7 +1953,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2149.524,
       "y": 1026.843,
-      "description": "需完成“纪闻任务“   寻\"宝“行动"
+      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "levelId": "0"
     },
     {
       "id": "kuro:1501515759980208128",
@@ -1610,7 +1962,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2091.165,
       "y": 2319.694,
-      "description": "危行任务:破碎黯原之心 最后日灵的赠礼，该宝箱在水晶后面，可根据日灵寻找"
+      "description": "危行任务:破碎黯原之心 最后日灵的赠礼，该宝箱在水晶后面，可根据日灵寻找",
+      "levelId": "0"
     },
     {
       "id": "kuro:1505803990658424832",
@@ -1618,7 +1971,8 @@
       "title": "Rương tiêu chuẩn",
       "x": 2135.492,
       "y": 2274.003,
-      "description": "需完成“危行任务”破碎黯原之心"
+      "description": "需完成“危行任务”破碎黯原之心",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499196912103153664",
@@ -1626,7 +1980,8 @@
       "title": "Rương tinh xảo",
       "x": 1151.124,
       "y": 1228.683,
-      "description": "完成“摩托-特技赛道1”后出现"
+      "description": "完成“摩托-特技赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500366388236476416",
@@ -1634,91 +1989,104 @@
       "title": "Rương tinh xảo",
       "x": 1479.71,
       "y": 2302.319,
-      "description": "需完成“纪闻任务”拂光搁浅的旧讯"
+      "description": "需完成“纪闻任务”拂光搁浅的旧讯",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499189376504012800",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1361.962,
-      "y": 1531.988
+      "y": 1531.988,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499189875856203776",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1425.851,
-      "y": 1473.675
+      "y": 1473.675,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499190206178615296",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1329.833,
-      "y": 1330.095
+      "y": 1330.095,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499190555199234048",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 996.963,
-      "y": 1222.99
+      "y": 1222.99,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499191835918049280",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1220.75,
-      "y": 1101.493
+      "y": 1101.493,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499192066251776000",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1238.703,
-      "y": 1096.27
+      "y": 1096.27,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499192195130155008",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1219.792,
-      "y": 1081.579
+      "y": 1081.579,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499192979972513792",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1505.768,
-      "y": 1111.612
+      "y": 1111.612,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499193286454501376",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1487.164,
-      "y": 1130.216
+      "y": 1130.216,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499194011058937856",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1416.987,
-      "y": 1134.462
+      "y": 1134.462,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499194354354331648",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1311.229,
-      "y": 1109.001
+      "y": 1109.001,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499194566560276480",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1380.647,
-      "y": 1104.339
+      "y": 1104.339,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499195797177458688",
@@ -1726,7 +2094,8 @@
       "title": "Rương đơn sơ",
       "x": 1048.528,
       "y": 1112.272,
-      "description": "完成“路悬仪挑战赛道1”后出现"
+      "description": "完成“路悬仪挑战赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499195837421805568",
@@ -1734,7 +2103,8 @@
       "title": "Rương đơn sơ",
       "x": 1053.832,
       "y": 1117.838,
-      "description": "完成“路悬仪挑战赛道1”后出现"
+      "description": "完成“路悬仪挑战赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499196825708879872",
@@ -1742,7 +2112,8 @@
       "title": "Rương đơn sơ",
       "x": 1145.034,
       "y": 1230.797,
-      "description": "完成“摩托-特技赛道1”后出现"
+      "description": "完成“摩托-特技赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499196884273946624",
@@ -1750,7 +2121,8 @@
       "title": "Rương đơn sơ",
       "x": 1154.042,
       "y": 1231.33,
-      "description": "完成“摩托-特技赛道1”后出现"
+      "description": "完成“摩托-特技赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499200109039411200",
@@ -1758,7 +2130,8 @@
       "title": "Rương đơn sơ",
       "x": 1430.441,
       "y": 1004.074,
-      "description": "完成“路悬仪挑战赛道3”后出现"
+      "description": "完成“路悬仪挑战赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499200138282098688",
@@ -1766,21 +2139,24 @@
       "title": "Rương đơn sơ",
       "x": 1434.398,
       "y": 1006.55,
-      "description": "完成“路悬仪挑战赛道3”后出现"
+      "description": "完成“路悬仪挑战赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499205351836196864",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1509.653,
-      "y": 2567.596
+      "y": 2567.596,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499205441367138304",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1498.549,
-      "y": 2554.54
+      "y": 2554.54,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499224195127926784",
@@ -1788,7 +2164,8 @@
       "title": "Rương đơn sơ",
       "x": 1224.337,
       "y": 1902.282,
-      "description": "完成“路悬仪挑战赛道6”后出现"
+      "description": "完成“路悬仪挑战赛道6”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499224225431773184",
@@ -1796,7 +2173,8 @@
       "title": "Rương đơn sơ",
       "x": 1223.035,
       "y": 1906.194,
-      "description": "完成“路悬仪挑战赛道6”后出现"
+      "description": "完成“路悬仪挑战赛道6”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499224795374772224",
@@ -1804,7 +2182,8 @@
       "title": "Rương đơn sơ",
       "x": 1268.89,
       "y": 1909.492,
-      "description": "完成机关解密后破冰出现（需要完成任务勘探悖论之域）"
+      "description": "完成机关解密后破冰出现（需要完成任务勘探悖论之域）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499225766284845056",
@@ -1812,7 +2191,8 @@
       "title": "Rương đơn sơ",
       "x": 1332.137,
       "y": 1341.642,
-      "description": "完成“摩托-飞行赛道4”后出现"
+      "description": "完成“摩托-飞行赛道4”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499225791925297152",
@@ -1820,28 +2200,32 @@
       "title": "Rương đơn sơ",
       "x": 1333.058,
       "y": 1344.407,
-      "description": "完成“摩托-飞行赛道4”后出现"
+      "description": "完成“摩托-飞行赛道4”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499226861720281088",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1104.059,
-      "y": 2379.481
+      "y": 2379.481,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499227780221853696",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1023.491,
-      "y": 2222.502
+      "y": 2222.502,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499228007394418688",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1085.6,
-      "y": 2155.107
+      "y": 2155.107,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499228602523541504",
@@ -1849,7 +2233,8 @@
       "title": "Rương đơn sơ",
       "x": 1144.681,
       "y": 2135.718,
-      "description": "完成“摩托-固定赛道2”后出现"
+      "description": "完成“摩托-固定赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499228634798710784",
@@ -1857,28 +2242,32 @@
       "title": "Rương đơn sơ",
       "x": 1144.221,
       "y": 2140.335,
-      "description": "完成“摩托-固定赛道2”后出现"
+      "description": "完成“摩托-固定赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499229278871838720",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1150.22,
-      "y": 2208.199
+      "y": 2208.199,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499229821803520000",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1172.844,
-      "y": 2233.127
+      "y": 2233.127,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499231157282496512",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1411.042,
-      "y": 2061.592
+      "y": 2061.592,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499231750408085504",
@@ -1886,7 +2275,8 @@
       "title": "Rương đơn sơ",
       "x": 1235.432,
       "y": 2218.942,
-      "description": "完成“摩托-飞行赛道3”后出现"
+      "description": "完成“摩托-飞行赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499231784411308032",
@@ -1894,77 +2284,88 @@
       "title": "Rương đơn sơ",
       "x": 1232.821,
       "y": 2222.203,
-      "description": "完成“摩托-飞行赛道3”后出现"
+      "description": "完成“摩托-飞行赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499233296764084224",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1154.485,
-      "y": 1791.934
+      "y": 1791.934,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499233786944004096",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1161.948,
-      "y": 1767.267
+      "y": 1767.267,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499234982282895360",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1975.061,
-      "y": 2194.483
+      "y": 2194.483,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499235103359197184",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1951.967,
-      "y": 2189.234
+      "y": 2189.234,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499235215099650048",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1933.426,
-      "y": 2160.89
+      "y": 2160.89,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499235302492168192",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 1953.72,
-      "y": 2152.849
+      "y": 2152.849,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499235773306986496",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2185.312,
-      "y": 2272.512
+      "y": 2272.512,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499236334626496512",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2027.186,
-      "y": 2375.722
+      "y": 2375.722,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499236491254390784",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2058.674,
-      "y": 2340.385
+      "y": 2340.385,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499237613834690560",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2441.815,
-      "y": 2371.873
+      "y": 2371.873,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499238785275109376",
@@ -1972,7 +2373,8 @@
       "title": "Rương đơn sơ",
       "x": 2537.102,
       "y": 2198.938,
-      "description": "完成“摩托-固定赛道1”后出现"
+      "description": "完成“摩托-固定赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499238836633690112",
@@ -1980,21 +2382,24 @@
       "title": "Rương đơn sơ",
       "x": 2540.978,
       "y": 2199.796,
-      "description": "完成“摩托-固定赛道1”后出现"
+      "description": "完成“摩托-固定赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499239253719474176",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2295.154,
-      "y": 2462.353
+      "y": 2462.353,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499239734906806272",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2079.202,
-      "y": 2605.146
+      "y": 2605.146,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499241104079298560",
@@ -2002,7 +2407,8 @@
       "title": "Rương đơn sơ",
       "x": 2136.486,
       "y": 2430.684,
-      "description": "天空悬浮建筑上"
+      "description": "天空悬浮建筑上",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499241360505790464",
@@ -2010,7 +2416,8 @@
       "title": "Rương đơn sơ",
       "x": 2145.096,
       "y": 2410.869,
-      "description": "天空悬浮建筑上"
+      "description": "天空悬浮建筑上",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499242025768542208",
@@ -2018,7 +2425,8 @@
       "title": "Rương đơn sơ",
       "x": 2124.424,
       "y": 2143.804,
-      "description": "完成“摩托-飞行赛道2”后出现"
+      "description": "完成“摩托-飞行赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499242097068187648",
@@ -2026,7 +2434,8 @@
       "title": "Rương đơn sơ",
       "x": 2123.99,
       "y": 2147.247,
-      "description": "完成“摩托-飞行赛道2”后出现"
+      "description": "完成“摩托-飞行赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499242767283740672",
@@ -2034,7 +2443,8 @@
       "title": "Rương đơn sơ",
       "x": 2203.681,
       "y": 2385.887,
-      "description": "完成“路悬仪挑战赛道5”后出现"
+      "description": "完成“路悬仪挑战赛道5”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499242807985266688",
@@ -2042,14 +2452,16 @@
       "title": "Rương đơn sơ",
       "x": 2208.849,
       "y": 2387.613,
-      "description": "完成“路悬仪挑战赛道5”后出现"
+      "description": "完成“路悬仪挑战赛道5”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499244129744674816",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2830.658,
-      "y": 1831.563
+      "y": 1831.563,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499245597541359616",
@@ -2057,7 +2469,8 @@
       "title": "Rương đơn sơ",
       "x": 2273.551,
       "y": 2416.878,
-      "description": "完成“路悬仪挑战赛道2”后出现"
+      "description": "完成“路悬仪挑战赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499245647512969216",
@@ -2065,21 +2478,24 @@
       "title": "Rương đơn sơ",
       "x": 2271.961,
       "y": 2425.886,
-      "description": "完成“路悬仪挑战赛道2”后出现"
+      "description": "完成“路悬仪挑战赛道2”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499248140606595072",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2748.762,
-      "y": 2098.673
+      "y": 2098.673,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499251254533382144",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2844.256,
-      "y": 2323.245
+      "y": 2323.245,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499252031150710784",
@@ -2087,7 +2503,8 @@
       "title": "Rương đơn sơ",
       "x": 2564.171,
       "y": 2184.698,
-      "description": "完成“摩托-飞行赛道1”后出现"
+      "description": "完成“摩托-飞行赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499252105998065664",
@@ -2095,7 +2512,8 @@
       "title": "Rương đơn sơ",
       "x": 2566.647,
       "y": 2189.152,
-      "description": "完成“摩托-飞行赛道1”后出现"
+      "description": "完成“摩托-飞行赛道1”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499252500624023552",
@@ -2103,7 +2521,8 @@
       "title": "Rương đơn sơ",
       "x": 2604.749,
       "y": 2121.858,
-      "description": "完成“路悬仪挑战赛道4”后出现"
+      "description": "完成“路悬仪挑战赛道4”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499252542235041792",
@@ -2111,28 +2530,32 @@
       "title": "Rương đơn sơ",
       "x": 2608.218,
       "y": 2109.488,
-      "description": "完成“路悬仪挑战赛道4”后出现"
+      "description": "完成“路悬仪挑战赛道4”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499253313915674624",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 3185.664,
-      "y": 2186.18
+      "y": 2186.18,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499253649577435136",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 3130.738,
-      "y": 2189.649
+      "y": 2189.649,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499253967518932992",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 3191.6,
-      "y": 2067.926
+      "y": 2067.926,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499254678658310144",
@@ -2140,14 +2563,16 @@
       "title": "Rương đơn sơ",
       "x": 3172.301,
       "y": 1939.769,
-      "description": "完成“铸光仪”挑战后出现"
+      "description": "完成“铸光仪”挑战后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499256032499949568",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2119.788,
-      "y": 945.697
+      "y": 945.697,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499256700623216640",
@@ -2155,7 +2580,8 @@
       "title": "Rương đơn sơ",
       "x": 2561.903,
       "y": 1500.22,
-      "description": "完成“摩托-飞行赛道5”后出现"
+      "description": "完成“摩托-飞行赛道5”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499256732496404480",
@@ -2163,119 +2589,136 @@
       "title": "Rương đơn sơ",
       "x": 2566.773,
       "y": 1503.265,
-      "description": "完成“摩托-飞行赛道5”后出现"
+      "description": "完成“摩托-飞行赛道5”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499257149111754752",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2290.203,
-      "y": 1602.554
+      "y": 1602.554,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499258300775358464",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2317.445,
-      "y": 1353.794
+      "y": 1353.794,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499258562399936512",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2316.152,
-      "y": 1385.671
+      "y": 1385.671,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499260194721718272",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2496.913,
-      "y": 1293.448
+      "y": 1293.448,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499260653867982848",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2317.688,
-      "y": 1168.092
+      "y": 1168.092,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499260818347614208",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2334.331,
-      "y": 1166.131
+      "y": 1166.131,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499261278571814912",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2348.047,
-      "y": 1141.646
+      "y": 1141.646,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499261581761273856",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2398.97,
-      "y": 1138.384
+      "y": 1138.384,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499262053909880832",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2188.077,
-      "y": 1053.506
+      "y": 1053.506,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499263224535932928",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2080.024,
-      "y": 989.844
+      "y": 989.844,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499263424432939008",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2040.522,
-      "y": 1000.288
+      "y": 1000.288,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499263643081334784",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2017.021,
-      "y": 1043.378
+      "y": 1043.378,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499264017485881344",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2154.782,
-      "y": 1139.034
+      "y": 1139.034,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499264406759235584",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2075.055,
-      "y": 1348.716
+      "y": 1348.716,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499264719960498176",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2080.25,
-      "y": 1332.634
+      "y": 1332.634,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499265267263315968",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2018.141,
-      "y": 1152.524
+      "y": 1152.524,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499266071604322304",
@@ -2283,7 +2726,8 @@
       "title": "Rương đơn sơ",
       "x": 2533.876,
       "y": 1438.039,
-      "description": "完成“摩托-固定赛道3”后出现"
+      "description": "完成“摩托-固定赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499266141254934528",
@@ -2291,14 +2735,16 @@
       "title": "Rương đơn sơ",
       "x": 2541.574,
       "y": 1437.335,
-      "description": "完成“摩托-固定赛道3”后出现"
+      "description": "完成“摩托-固定赛道3”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500340597431820288",
       "categoryId": "qzx_01",
       "title": "Rương đơn sơ",
       "x": 2767.357,
-      "y": 2079.084
+      "y": 2079.084,
+      "levelId": "0"
     },
     {
       "id": "kuro:1500363088875986944",
@@ -2306,7 +2752,8 @@
       "title": "Rương đơn sơ",
       "x": 1363.778,
       "y": 1099.387,
-      "description": "小小的愿望 成就宝箱"
+      "description": "小小的愿望 成就宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500365082986520576",
@@ -2314,7 +2761,8 @@
       "title": "Rương đơn sơ",
       "x": 2303.404,
       "y": 2581.049,
-      "description": "需完成“纪闻任务”刻于心间"
+      "description": "需完成“纪闻任务”刻于心间",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500365447428923392",
@@ -2322,7 +2770,8 @@
       "title": "Rương đơn sơ",
       "x": 2126.755,
       "y": 2513.754,
-      "description": "需完成“纪闻任务”刻于心间"
+      "description": "需完成“纪闻任务”刻于心间",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500440694040272896",
@@ -2330,7 +2779,8 @@
       "title": "Rương đơn sơ",
       "x": 2367.618,
       "y": 2292.399,
-      "description": "需完成“纪闻任务“   寻\"宝“行动"
+      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500449137631404032",
@@ -2338,7 +2788,8 @@
       "title": "Rương đơn sơ",
       "x": 1264.218,
       "y": 1142.947,
-      "description": "需完成“纪闻任务“   寻\"宝“行动"
+      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "levelId": "0"
     },
     {
       "id": "kuro:1501513441654841344",
@@ -2346,7 +2797,8 @@
       "title": "Rương đơn sơ",
       "x": 1404.798,
       "y": 1096.894,
-      "description": "危行任务:勘探悖论之域 寂寞断崖的还原培育 追寻学生和日灵时候调查地上闪光点"
+      "description": "危行任务:勘探悖论之域 寂寞断崖的还原培育 追寻学生和日灵时候调查地上闪光点",
+      "levelId": "0"
     },
     {
       "id": "kuro:1501515016669847552",
@@ -2354,7 +2806,8 @@
       "title": "Rương đơn sơ",
       "x": 2286.092,
       "y": 2270.678,
-      "description": "成就:小小的愿望，打碎矿石解救日灵后，在打碎旁边的矿石获得"
+      "description": "成就:小小的愿望，打碎矿石解救日灵后，在打碎旁边的矿石获得",
+      "levelId": "0"
     },
     {
       "id": "kuro:1501515398184411136",
@@ -2362,7 +2815,8 @@
       "title": "Rương đơn sơ",
       "x": 1210.675,
       "y": 2211.108,
-      "description": "成就:小小的愿望，使用大象打碎矿石后获得"
+      "description": "成就:小小的愿望，使用大象打碎矿石后获得",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496921282502959104",
@@ -2370,7 +2824,8 @@
       "title": "无音区",
       "x": 3081.939,
       "y": 2213.647,
-      "description": "角色造成冷凝伤害提高，敌人受到衍射伤害降低"
+      "description": "角色造成冷凝伤害提高，敌人受到衍射伤害降低",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499266823018078208",
@@ -2378,7 +2833,9 @@
       "title": "分层入口",
       "x": 2781.949,
       "y": 2069.923,
-      "description": "Tầng 53 · 锈丘"
+      "description": "Tầng 53 · 锈丘",
+      "floorId": "53",
+      "levelId": "-1000000/53"
     },
     {
       "id": "kuro:1500353434250878976",
@@ -2386,7 +2843,9 @@
       "title": "分层入口",
       "x": 2223.08,
       "y": 2371.25,
-      "description": "Tầng 50 · 栖光岩窟"
+      "description": "Tầng 50 · 栖光岩窟",
+      "floorId": "50",
+      "levelId": "-1000000/50"
     },
     {
       "id": "kuro:1500353636298219520",
@@ -2394,7 +2853,9 @@
       "title": "分层入口",
       "x": 1371.106,
       "y": 2241.738,
-      "description": "Tầng 51 · 未竟残舍"
+      "description": "Tầng 51 · 未竟残舍",
+      "floorId": "51",
+      "levelId": "-1000000/51"
     },
     {
       "id": "kuro:1500353916456755200",
@@ -2402,14 +2863,17 @@
       "title": "分层入口",
       "x": 2248.325,
       "y": 1417.52,
-      "description": "Tầng 49 · 明日阈限"
+      "description": "Tầng 49 · 明日阈限",
+      "floorId": "49",
+      "levelId": "-1000000/49"
     },
     {
       "id": "kuro:1499263075961102336",
       "categoryId": "qzx_04",
       "title": "Rương huy quang",
       "x": 2120.502,
-      "y": 978.089
+      "y": 978.089,
+      "levelId": "0"
     },
     {
       "id": "kuro:1500352754823962624",
@@ -2417,7 +2881,8 @@
       "title": "Rương huy quang",
       "x": 2174.199,
       "y": 2379.779,
-      "description": "需完成“危行任务”破碎黯原之心"
+      "description": "需完成“危行任务”破碎黯原之心",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500357953256923136",
@@ -2425,7 +2890,8 @@
       "title": "Rương huy quang",
       "x": 2687.178,
       "y": 1492.802,
-      "description": "需完成“危行任务”完美飞行日"
+      "description": "需完成“危行任务”完美飞行日",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500358244450672640",
@@ -2433,7 +2899,8 @@
       "title": "Rương huy quang",
       "x": 2692.861,
       "y": 1492.802,
-      "description": "涡纹奇藏箱  需完成“危行任务”完美飞行日"
+      "description": "涡纹奇藏箱  需完成“危行任务”完美飞行日",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497542833669644288",
@@ -2441,7 +2908,8 @@
       "title": "终声残卷",
       "x": 1326.381,
       "y": 2297.675,
-      "description": "位于山体的夹缝中"
+      "description": "位于山体的夹缝中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497543840150937600",
@@ -2449,7 +2917,8 @@
       "title": "终声残卷",
       "x": 1222.475,
       "y": 2040.169,
-      "description": "位于标点正下方的冰窟中"
+      "description": "位于标点正下方的冰窟中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497545352131092480",
@@ -2457,7 +2926,8 @@
       "title": "终声残卷",
       "x": 1476.367,
       "y": 2577.769,
-      "description": "位于洞窟内"
+      "description": "位于洞窟内",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497548175261917184",
@@ -2465,7 +2935,8 @@
       "title": "终声残卷",
       "x": 1042.673,
       "y": 2208.226,
-      "description": "位于树枝尖端"
+      "description": "位于树枝尖端",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497550033880326144",
@@ -2473,7 +2944,8 @@
       "title": "终声残卷",
       "x": 2275.087,
       "y": 2075.407,
-      "description": "位于山崖边"
+      "description": "位于山崖边",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497552457327534080",
@@ -2481,7 +2953,8 @@
       "title": "终声残卷",
       "x": 2055.529,
       "y": 2153.111,
-      "description": "位于标点正下方一段距离的的山体平台上，从标点处的北面飞下山崖，回头即可看到对应平台"
+      "description": "位于标点正下方一段距离的的山体平台上，从标点处的北面飞下山崖，回头即可看到对应平台",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497555027694166016",
@@ -2489,7 +2962,8 @@
       "title": "终声残卷",
       "x": 1991.379,
       "y": 2403.388,
-      "description": "位于山崖边"
+      "description": "位于山崖边",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497560552477532160",
@@ -2497,7 +2971,8 @@
       "title": "终声残卷",
       "x": 2193.769,
       "y": 2594.936,
-      "description": "位于树枝尖端"
+      "description": "位于树枝尖端",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497562324965236736",
@@ -2505,7 +2980,8 @@
       "title": "终声残卷",
       "x": 2474.767,
       "y": 2311.228,
-      "description": "位于半空中"
+      "description": "位于半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497564298209107968",
@@ -2513,7 +2989,8 @@
       "title": "终声残卷",
       "x": 2177.506,
       "y": 2241.656,
-      "description": "位于山崖边半空中"
+      "description": "位于山崖边半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497568096343646208",
@@ -2521,7 +2998,8 @@
       "title": "终声残卷",
       "x": 2247.078,
       "y": 2404.292,
-      "description": "位于山崖边半空中"
+      "description": "位于山崖边半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497571684059684864",
@@ -2529,7 +3007,8 @@
       "title": "终声残卷",
       "x": 2381.704,
       "y": 2360.019,
-      "description": "到达标点后，先往西南方向走到小湖泊，再把视角转到东北方向，终声残卷在视线前方的瀑布洞窟内"
+      "description": "到达标点后，先往西南方向走到小湖泊，再把视角转到东北方向，终声残卷在视线前方的瀑布洞窟内",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497577690696605696",
@@ -2537,7 +3016,8 @@
       "title": "终声残卷",
       "x": 2640.113,
       "y": 2035.652,
-      "description": "位于顶部山崖的半空中"
+      "description": "位于顶部山崖的半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497609542728392704",
@@ -2545,7 +3025,8 @@
       "title": "终声残卷",
       "x": 2753.054,
       "y": 2177.506,
-      "description": "位于标点正下方的山体半空中"
+      "description": "位于标点正下方的山体半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497611544296398848",
@@ -2553,7 +3034,8 @@
       "title": "终声残卷",
       "x": 3239.153,
       "y": 1967.887,
-      "description": "位于山崖边"
+      "description": "位于山崖边",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497612784123600896",
@@ -2561,7 +3043,8 @@
       "title": "终声残卷",
       "x": 3062.965,
       "y": 2241.656,
-      "description": "位于山崖边半空中"
+      "description": "位于山崖边半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497613712986447872",
@@ -2569,7 +3052,8 @@
       "title": "终声残卷",
       "x": 3000.621,
       "y": 2204.612,
-      "description": "位于标点下层的山体半空中"
+      "description": "位于标点下层的山体半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497616142323130368",
@@ -2577,7 +3061,8 @@
       "title": "终声残卷",
       "x": 2991.586,
       "y": 1810.673,
-      "description": "位于山崖边的半空中"
+      "description": "位于山崖边的半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497709602392743936",
@@ -2585,7 +3070,8 @@
       "title": "终声残卷",
       "x": 1414.024,
       "y": 1439.322,
-      "description": "位于标点正下方的山体平台半空中"
+      "description": "位于标点正下方的山体平台半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497911586080514048",
@@ -2593,7 +3079,8 @@
       "title": "终声残卷",
       "x": 1163.746,
       "y": 1312.828,
-      "description": "位于半山腰的平台上，到达标点附近的山崖边后将镜头下移可以看见"
+      "description": "位于半山腰的平台上，到达标点附近的山崖边后将镜头下移可以看见",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497913822223360000",
@@ -2601,7 +3088,8 @@
       "title": "终声残卷",
       "x": 1202.598,
       "y": 1357.101,
-      "description": "位于山洞中"
+      "description": "位于山洞中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497914762238861312",
@@ -2609,7 +3097,8 @@
       "title": "终声残卷",
       "x": 1082.428,
       "y": 1095.078,
-      "description": "位于石头顶端"
+      "description": "位于石头顶端",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497915320281948160",
@@ -2617,7 +3106,8 @@
       "title": "终声残卷",
       "x": 1475.464,
       "y": 1054.419,
-      "description": "位于半空的石头夹缝中"
+      "description": "位于半空的石头夹缝中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497918574717919232",
@@ -2625,7 +3115,8 @@
       "title": "终声残卷",
       "x": 1877.534,
       "y": 1130.315,
-      "description": "位于树枝尖端的半空中，在附近山崖用钩索拉取即可"
+      "description": "位于树枝尖端的半空中，在附近山崖用钩索拉取即可",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497921794324389888",
@@ -2633,7 +3124,8 @@
       "title": "终声残卷",
       "x": 2320.264,
       "y": 1491.727,
-      "description": "位于树枝尖端的半空中"
+      "description": "位于树枝尖端的半空中",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497929924601683968",
@@ -2641,7 +3133,8 @@
       "title": "终声残卷",
       "x": 2277.798,
       "y": 1102.306,
-      "description": "位于树枝上"
+      "description": "位于树枝上",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497946743386759168",
@@ -2649,7 +3142,8 @@
       "title": "终声残卷",
       "x": 1693.214,
       "y": 732.762,
-      "description": "位于石头顶端"
+      "description": "位于石头顶端",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497955888484294656",
@@ -2657,7 +3151,8 @@
       "title": "终声残卷",
       "x": 2226.296,
       "y": 1674.24,
-      "description": "位于树枝中间"
+      "description": "位于树枝中间",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498101683183394816",
@@ -2665,7 +3160,8 @@
       "title": "终声残卷",
       "x": 1407.699,
       "y": 1338.127,
-      "description": "位于半空漂浮的石头堆中，可能会被漂浮的石头挡住"
+      "description": "位于半空漂浮的石头堆中，可能会被漂浮的石头挡住",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498102510493081600",
@@ -2673,7 +3169,8 @@
       "title": "终声残卷",
       "x": 1466.428,
       "y": 1329.995,
-      "description": "在破碎的漂浮建筑废墟靠近顶端的位置，可在图2位置找到一台无人机，骑摩托飞上去然后用万向锚拉取，也可以沿着建筑废墟往上爬靠近目标终声残卷"
+      "description": "在破碎的漂浮建筑废墟靠近顶端的位置，可在图2位置找到一台无人机，骑摩托飞上去然后用万向锚拉取，也可以沿着建筑废墟往上爬靠近目标终声残卷",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497361974324862976",
@@ -2681,7 +3178,8 @@
       "title": "迷胧幻蛾",
       "x": 2696.294,
       "y": 1982.316,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497362416626130944",
@@ -2689,7 +3187,8 @@
       "title": "迷胧幻蛾",
       "x": 2846.542,
       "y": 2109.904,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497362862300291072",
@@ -2697,7 +3196,8 @@
       "title": "迷胧幻蛾",
       "x": 2579.179,
       "y": 2093.261,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497364202896990208",
@@ -2705,7 +3205,8 @@
       "title": "迷胧幻蛾",
       "x": 2512.905,
       "y": 2157.565,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497365790910144512",
@@ -2713,7 +3214,8 @@
       "title": "迷胧幻蛾",
       "x": 2192.649,
       "y": 2258.119,
-      "description": "不在地图最顶层，在悬崖下方一层山上"
+      "description": "不在地图最顶层，在悬崖下方一层山上",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497366217269534720",
@@ -2721,7 +3223,8 @@
       "title": "迷胧幻蛾",
       "x": 2115.28,
       "y": 2251.912,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497367824749797376",
@@ -2729,7 +3232,8 @@
       "title": "迷胧幻蛾",
       "x": 2028.767,
       "y": 2229.061,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497369441800118272",
@@ -2737,7 +3241,8 @@
       "title": "迷胧幻蛾",
       "x": 2056.849,
       "y": 2154.629,
-      "description": "在最顶层一层守护潮汐之遗"
+      "description": "在最顶层一层守护潮汐之遗",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497371926879772672",
@@ -2745,7 +3250,8 @@
       "title": "迷胧幻蛾",
       "x": 2119.852,
       "y": 2109.579,
-      "description": "在最下层的平台"
+      "description": "在最下层的平台",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497373275004575744",
@@ -2753,7 +3259,8 @@
       "title": "迷胧幻蛾",
       "x": 2024.204,
       "y": 2368.133,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497376157087014912",
@@ -2761,7 +3268,8 @@
       "title": "迷胧幻蛾",
       "x": 2114.629,
       "y": 2461.503,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497376636168134656",
@@ -2769,7 +3277,8 @@
       "title": "迷胧幻蛾",
       "x": 2223.667,
       "y": 2540.499,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497376809930432512",
@@ -2777,7 +3286,8 @@
       "title": "迷胧幻蛾",
       "x": 2236.073,
       "y": 2534.626,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497377222146629632",
@@ -2785,7 +3295,8 @@
       "title": "迷胧幻蛾",
       "x": 2174.696,
       "y": 2529.729,
-      "description": "在瀑布底的河川"
+      "description": "在瀑布底的河川",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497378230574080000",
@@ -2793,7 +3304,8 @@
       "title": "迷胧幻蛾",
       "x": 2066.309,
       "y": 2610.034,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497382136347713536",
@@ -2801,7 +3313,8 @@
       "title": "迷胧幻蛾",
       "x": 2296.139,
       "y": 2462.479,
-      "description": "在最顶层位置"
+      "description": "在最顶层位置",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497382804399677440",
@@ -2809,7 +3322,8 @@
       "title": "迷胧幻蛾",
       "x": 2846.642,
       "y": 2314.951,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497383419767660544",
@@ -2817,7 +3331,8 @@
       "title": "迷胧幻蛾",
       "x": 2830.225,
       "y": 1809.236,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497383704971943936",
@@ -2825,7 +3340,8 @@
       "title": "迷胧幻蛾",
       "x": 2873.964,
       "y": 1768.108,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497384100317978624",
@@ -2833,7 +3349,8 @@
       "title": "迷胧幻蛾",
       "x": 2530.153,
       "y": 1377.801,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497384263828725760",
@@ -2841,7 +3358,8 @@
       "title": "迷胧幻蛾",
       "x": 2547.131,
       "y": 1374.214,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497385267127214080",
@@ -2849,7 +3367,8 @@
       "title": "迷胧幻蛾",
       "x": 2451.799,
       "y": 1328.179,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497385771983675392",
@@ -2857,7 +3376,8 @@
       "title": "迷胧幻蛾",
       "x": 2477.649,
       "y": 1278.756,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497386307906674688",
@@ -2865,7 +3385,8 @@
       "title": "迷胧幻蛾",
       "x": 2445.33,
       "y": 1207.26,
-      "description": "在悬崖下方一层"
+      "description": "在悬崖下方一层",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497387253642534912",
@@ -2873,7 +3394,8 @@
       "title": "迷胧幻蛾",
       "x": 2356.206,
       "y": 1131.526,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497388115521003520",
@@ -2881,7 +3403,8 @@
       "title": "迷胧幻蛾",
       "x": 2300.052,
       "y": 1139.685,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497388340105682944",
@@ -2889,7 +3412,8 @@
       "title": "迷胧幻蛾",
       "x": 2300.052,
       "y": 1077.658,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497388560516358144",
@@ -2897,7 +3421,8 @@
       "title": "迷胧幻蛾",
       "x": 2258.272,
       "y": 1075.046,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497388726815645696",
@@ -2905,7 +3430,8 @@
       "title": "迷胧幻蛾",
       "x": 2263.386,
       "y": 1060.87,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497389909928812544",
@@ -2913,7 +3439,8 @@
       "title": "迷胧幻蛾",
       "x": 2202.217,
       "y": 1136.044,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497390226187051008",
@@ -2921,7 +3448,8 @@
       "title": "迷胧幻蛾",
       "x": 2318.737,
       "y": 1241.151,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497390518060277760",
@@ -2929,7 +3457,8 @@
       "title": "迷胧幻蛾",
       "x": 2389.871,
       "y": 1369.796,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497390799897206784",
@@ -2937,7 +3466,8 @@
       "title": "迷胧幻蛾",
       "x": 2331.702,
       "y": 1435.817,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497391022203707392",
@@ -2945,7 +3475,8 @@
       "title": "迷胧幻蛾",
       "x": 2288.306,
       "y": 1410.888,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497391341696425984",
@@ -2953,7 +3484,8 @@
       "title": "迷胧幻蛾",
       "x": 2023.761,
       "y": 1244.684,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497391477159862272",
@@ -2961,7 +3493,8 @@
       "title": "迷胧幻蛾",
       "x": 2009.91,
       "y": 1246.066,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497391655434559488",
@@ -2969,7 +3502,8 @@
       "title": "迷胧幻蛾",
       "x": 2026.535,
       "y": 1188.819,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497392410405085184",
@@ -2977,7 +3511,8 @@
       "title": "迷胧幻蛾",
       "x": 1963.695,
       "y": 1289.327,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497393756986384384",
@@ -2985,7 +3520,8 @@
       "title": "迷胧幻蛾",
       "x": 1900.041,
       "y": 1080.043,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497393960598872064",
@@ -2993,7 +3529,8 @@
       "title": "迷胧幻蛾",
       "x": 1903.7,
       "y": 1081.335,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497394719331688448",
@@ -3001,7 +3538,8 @@
       "title": "迷胧幻蛾",
       "x": 1536.045,
       "y": 1098.782,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497395086705909760",
@@ -3009,7 +3547,8 @@
       "title": "迷胧幻蛾",
       "x": 1488.836,
       "y": 1113.193,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497395476776181760",
@@ -3017,7 +3556,8 @@
       "title": "迷胧幻蛾",
       "x": 1365.251,
       "y": 1128.056,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497396312886190080",
@@ -3025,7 +3565,8 @@
       "title": "迷胧幻蛾",
       "x": 988.624,
       "y": 1205.209,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497396845625040896",
@@ -3033,7 +3574,8 @@
       "title": "迷胧幻蛾",
       "x": 1389.303,
       "y": 1510.52,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497397565350830080",
@@ -3041,7 +3583,8 @@
       "title": "迷胧幻蛾",
       "x": 1161.758,
       "y": 1811.622,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497398012887261184",
@@ -3049,7 +3592,8 @@
       "title": "迷胧幻蛾",
       "x": 1111.133,
       "y": 1765.496,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497398325442600960",
@@ -3057,7 +3601,8 @@
       "title": "迷胧幻蛾",
       "x": 1404.753,
       "y": 2051.617,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497398733804904448",
@@ -3065,7 +3610,8 @@
       "title": "迷胧幻蛾",
       "x": 1033.132,
       "y": 2218.869,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497399600766869504",
@@ -3073,539 +3619,616 @@
       "title": "迷胧幻蛾",
       "x": 1440.614,
       "y": 2582.983,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾"
+      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498325825337925632",
       "categoryId": "320000660",
       "title": "迷胧幻蛾",
       "x": 2846.118,
-      "y": 2069.986
+      "y": 2069.986,
+      "levelId": "0"
     },
     {
       "id": "kuro:1531771257350078464",
       "categoryId": "381037",
       "title": "青实归还之碑",
       "x": 2948.469,
-      "y": 2183.451
+      "y": 2183.451,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504056122959814656",
       "categoryId": "SP_IconMonsterHead_105_UI",
       "title": "破霜猎手",
       "x": 1203.393,
-      "y": 2159.806
+      "y": 2159.806,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503774223931252736",
       "categoryId": "320000560",
       "title": "隐迹铁影",
       "x": 2134.136,
-      "y": 2245.271
+      "y": 2245.271,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503775090575122432",
       "categoryId": "320000560",
       "title": "隐迹铁影",
       "x": 2162.146,
-      "y": 1349.873
+      "y": 1349.873,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503775466212794368",
       "categoryId": "320000560",
       "title": "隐迹铁影",
       "x": 2122.391,
-      "y": 1257.713
+      "y": 1257.713,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503775784505270272",
       "categoryId": "320000560",
       "title": "隐迹铁影",
       "x": 2033.845,
-      "y": 1267.652
+      "y": 1267.652,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503776129017683968",
       "categoryId": "320000560",
       "title": "隐迹铁影",
       "x": 2338.334,
-      "y": 1247.774
+      "y": 1247.774,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505809225393086464",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2071.287,
-      "y": 2600.05
+      "y": 2600.05,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505809260213526528",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2057.499,
-      "y": 2605.616
+      "y": 2605.616,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505809281626120192",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2067.311,
-      "y": 2620.994
+      "y": 2620.994,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505809838998790144",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1164.911,
-      "y": 2418.369
+      "y": 2418.369,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505809861811609600",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1156.075,
-      "y": 2421.983
+      "y": 2421.983,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505809891964461056",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1163.303,
-      "y": 2426.401
+      "y": 2426.401,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505810110311538688",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1106.227,
-      "y": 2392.248
+      "y": 2392.248,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505810130753904640",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1113.067,
-      "y": 2395.862
+      "y": 2395.862,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505810149570224128",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1116.076,
-      "y": 2384.812
+      "y": 2384.812,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505810580702732288",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1388.029,
-      "y": 1458.902
+      "y": 1458.902,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505810599270916096",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1384.361,
-      "y": 1462.046
+      "y": 1462.046,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505810617142845440",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1388.029,
-      "y": 1462.398
+      "y": 1462.398,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811482884939776",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1491.908,
-      "y": 1124.406
+      "y": 1124.406,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811502954684416",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1500.356,
-      "y": 1118.777
+      "y": 1118.777,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811522902794240",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1500.753,
-      "y": 1126.819
+      "y": 1126.819,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811631715622912",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1476.638,
-      "y": 1106.724
+      "y": 1106.724,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811650027954176",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1471.813,
-      "y": 1106.724
+      "y": 1106.724,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811812116832256",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1465.787,
-      "y": 1074.577
+      "y": 1074.577,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811830261391360",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1456.535,
-      "y": 1074.577
+      "y": 1074.577,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505811847206379520",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1463.374,
-      "y": 1076.989
+      "y": 1076.989,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812111346196480",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1402.72,
-      "y": 1073.095
+      "y": 1073.095,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812127654322176",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1401.672,
-      "y": 1077.115
+      "y": 1077.115,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812286438088704",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1399.395,
-      "y": 1086.386
+      "y": 1086.386,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812302087036928",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1403.244,
-      "y": 1084.29
+      "y": 1084.29,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812323003359232",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1400.742,
-      "y": 1080.73
+      "y": 1080.73,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812601967190016",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1490.869,
-      "y": 1111.992
+      "y": 1111.992,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812622653497344",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1484.499,
-      "y": 1112.787
+      "y": 1112.787,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812640500260864",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1487.688,
-      "y": 1115.832
+      "y": 1115.832,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812942544674816",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1240.663,
-      "y": 1088.925
+      "y": 1088.925,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505812967710498816",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1240.392,
-      "y": 1080.838
+      "y": 1080.838,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813169527824384",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 992.816,
-      "y": 1226.18
+      "y": 1226.18,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813185931747328",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 985.199,
-      "y": 1212.78
+      "y": 1212.78,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813201693941760",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1008.05,
-      "y": 1212.473
+      "y": 1212.473,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813513636913152",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1974.275,
-      "y": 1286.183
+      "y": 1286.183,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813542145597440",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1959.349,
-      "y": 1286.481
+      "y": 1286.481,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813563968561152",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1959.656,
-      "y": 1297.748
+      "y": 1297.748,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813583115558912",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 1973.968,
-      "y": 1297.143
+      "y": 1297.143,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813897394757632",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2220.116,
-      "y": 1227.409
+      "y": 1227.409,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505813916747276288",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2224.381,
-      "y": 1229.234
+      "y": 1229.234,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814146041487360",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2307.461,
-      "y": 1305.085
+      "y": 1305.085,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814162025979904",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2305.021,
-      "y": 1309.042
+      "y": 1309.042,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814180640301056",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2310.198,
-      "y": 1309.341
+      "y": 1309.341,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814382872862720",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2274.247,
-      "y": 1351.978
+      "y": 1351.978,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814399096430592",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2277.301,
-      "y": 1359.288
+      "y": 1359.288,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814678198001664",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2279.731,
-      "y": 1405.883
+      "y": 1405.883,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814697953173504",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2288.261,
-      "y": 1397.959
+      "y": 1397.959,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505814714210295808",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2291.007,
-      "y": 1411.665
+      "y": 1411.665,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815058529099776",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2221.246,
-      "y": 1486.577
+      "y": 1486.577,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815080054267904",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2226.73,
-      "y": 1490.534
+      "y": 1490.534,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815098278518784",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2220.64,
-      "y": 1494.194
+      "y": 1494.194,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815204797063168",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2215.454,
-      "y": 1545.035
+      "y": 1545.035,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815220555063296",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2219.421,
-      "y": 1551.125
+      "y": 1551.125,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815238422798336",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2211.497,
-      "y": 1551.125
+      "y": 1551.125,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815420647858176",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2279.126,
-      "y": 1587.98
+      "y": 1587.98,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815435151761408",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2287.655,
-      "y": 1583.101
+      "y": 1583.101,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815450008657920",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2297.711,
-      "y": 1596.202
+      "y": 1596.202,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815804783861760",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2491.6,
-      "y": 1303.685
+      "y": 1303.685,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815820856434688",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2501.683,
-      "y": 1302.889
+      "y": 1302.889,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815840888430592",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2492.666,
-      "y": 1311.374
+      "y": 1311.374,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505815858210234368",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2503.002,
-      "y": 1308.193
+      "y": 1308.193,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816338852306944",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2318.438,
-      "y": 1174.57
+      "y": 1174.57,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816354430623744",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2324.275,
-      "y": 1171.119
+      "y": 1171.119,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816372512268288",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 2325.332,
-      "y": 1175.365
+      "y": 1175.365,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816768249044992",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 3187.607,
-      "y": 2058.863
+      "y": 2058.863,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816784908820480",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 3183.586,
-      "y": 2071.323
+      "y": 2071.323,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816800654237696",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 3192.025,
-      "y": 2069.317
+      "y": 2069.317,
+      "levelId": "0"
     },
     {
       "id": "kuro:1505816858963451904",
       "categoryId": "310000840",
       "title": "影烁者",
       "x": 3183.143,
-      "y": 2061.682
+      "y": 2061.682,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504059799003029504",
       "categoryId": "320000600",
       "title": "冠顶苍隼",
       "x": 2278.186,
-      "y": 798.214
+      "y": 798.214,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496907640960540672",
@@ -3613,84 +4236,96 @@
       "title": "隧锚",
       "x": 2004.932,
       "y": 1643.52,
-      "description": "过往时，随着隧者的到来而被安置于此的锚点，是开启隧门的关键。我们总要推开那扇门，即便它最初是为了把危险阻隔在外。\n（可于此再次体验星海中的战斗）"
+      "description": "过往时，随着隧者的到来而被安置于此的锚点，是开启隧门的关键。我们总要推开那扇门，即便它最初是为了把危险阻隔在外。\n（可于此再次体验星海中的战斗）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1503502172305727488",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 1224.282,
-      "y": 1092.367
+      "y": 1092.367,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503502669427220480",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 1810.673,
-      "y": 884.555
+      "y": 884.555,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503760023242645504",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2324.781,
-      "y": 2280.508
+      "y": 2280.508,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503760308429479936",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2365.44,
-      "y": 2404.292
+      "y": 2404.292,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503760656263110656",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2445.854,
-      "y": 2368.151
+      "y": 2368.151,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503762095019106304",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2650.052,
-      "y": 2126.908
+      "y": 2126.908,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503762359725826048",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2638.306,
-      "y": 2055.529
+      "y": 2055.529,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503762780732612608",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2863.285,
-      "y": 2069.986
+      "y": 2069.986,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503763131070242816",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 2976.226,
-      "y": 2037.459
+      "y": 2037.459,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503763521694834688",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 3220.179,
-      "y": 1987.765
+      "y": 1987.765,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503763860854644736",
       "categoryId": "320000520",
       "title": "矿岩机麋",
       "x": 3247.285,
-      "y": 2109.741
+      "y": 2109.741,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496881163960033280",
@@ -3698,7 +4333,9 @@
       "title": "虚妄诞生之种",
       "x": 2210.033,
       "y": 1278.494,
-      "description": "Tầng 49 · 连那温柔的笑容也已失去，因阿列夫一才得以诞生的存在。\n无论是名字、身份、共鸣能力，还是人际关系……全部都是谎言。\n但世界不会沉没于无垠的黑暗，她所行道路的尽头，也一定不会是永恒的空无。"
+      "description": "Tầng 49 · 连那温柔的笑容也已失去，因阿列夫一才得以诞生的存在。\n无论是名字、身份、共鸣能力，还是人际关系……全部都是谎言。\n但世界不会沉没于无垠的黑暗，她所行道路的尽头，也一定不会是永恒的空无。",
+      "floorId": "49",
+      "levelId": "-1/49"
     },
     {
       "id": "kuro:1497749191434149888",
@@ -3706,7 +4343,8 @@
       "title": "遗患清剿",
       "x": 2187.445,
       "y": 2132.329,
-      "description": "完成挑战【虚质残秽·迷胧幻蛾】击败冰刃附近怪物后可获得奖励"
+      "description": "完成挑战【虚质残秽·迷胧幻蛾】击败冰刃附近怪物后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497750044508774400",
@@ -3714,7 +4352,8 @@
       "title": "遗患清剿",
       "x": 1511.605,
       "y": 2378.089,
-      "description": "击败冰刃附近怪物后可获得奖励"
+      "description": "击败冰刃附近怪物后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497750694609117184",
@@ -3722,7 +4361,8 @@
       "title": "遗患清剿",
       "x": 1211.633,
       "y": 1203.501,
-      "description": "击败冰刃附近怪物后可获得奖励"
+      "description": "击败冰刃附近怪物后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497751446639435776",
@@ -3730,7 +4370,8 @@
       "title": "遗患清剿",
       "x": 2296.772,
       "y": 1490.824,
-      "description": "需先完成其余三处遗患清剿，之后来到此处击败怪物后可获得奖励和成就"
+      "description": "需先完成其余三处遗患清剿，之后来到此处击败怪物后可获得奖励和成就",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497742553527967744",
@@ -3738,7 +4379,8 @@
       "title": "摩托-飞行赛道",
       "x": 2932.856,
       "y": 2217.261,
-      "description": "完成挑战所有目标后可获得2个朴素+1个基准宝箱"
+      "description": "完成挑战所有目标后可获得2个朴素+1个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497743166898790400",
@@ -3746,7 +4388,8 @@
       "title": "摩托-飞行赛道",
       "x": 2265.148,
       "y": 2368.151,
-      "description": "完成挑战所有目标后可获得2个朴素+1个基准宝箱"
+      "description": "完成挑战所有目标后可获得2个朴素+1个基准宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497744326527377408",
@@ -3754,7 +4397,8 @@
       "title": "摩托-飞行赛道",
       "x": 1380.593,
       "y": 2039.266,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497745297181597696",
@@ -3762,7 +4406,8 @@
       "title": "摩托-飞行赛道",
       "x": 1301.082,
       "y": 1693.214,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497746327944388608",
@@ -3770,42 +4415,48 @@
       "title": "摩托-飞行赛道",
       "x": 2065.468,
       "y": 1683.275,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1504054855504060416",
       "categoryId": "320000570",
       "title": "霜鳞蜃甲",
       "x": 1169.456,
-      "y": 1920.398
+      "y": 1920.398,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055191313293312",
       "categoryId": "320000570",
       "title": "霜鳞蜃甲",
       "x": 1198.089,
-      "y": 2134.832
+      "y": 2134.832,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055873999183872",
       "categoryId": "320000570",
       "title": "霜鳞蜃甲",
       "x": 1198.848,
-      "y": 2156.399
+      "y": 2156.399,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504056316292063232",
       "categoryId": "320000570",
       "title": "霜鳞蜃甲",
       "x": 1447.517,
-      "y": 2008.618
+      "y": 2008.618,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504056673945231360",
       "categoryId": "320000570",
       "title": "霜鳞蜃甲",
       "x": 1576.55,
-      "y": 2243.762
+      "y": 2243.762,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498047592813387776",
@@ -3813,7 +4464,8 @@
       "title": "藏宝地",
       "x": 2320.173,
       "y": 1369.949,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498048188916932608",
@@ -3821,7 +4473,8 @@
       "title": "藏宝地",
       "x": 2342.743,
       "y": 1144.194,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498048637631291392",
@@ -3829,7 +4482,8 @@
       "title": "藏宝地",
       "x": 2080.982,
       "y": 1345.545,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498050681738600448",
@@ -3837,7 +4491,8 @@
       "title": "藏宝地",
       "x": 1452.451,
       "y": 1134.517,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498050999981416448",
@@ -3845,7 +4500,8 @@
       "title": "藏宝地",
       "x": 1222.629,
       "y": 1093.795,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498051468195766272",
@@ -3853,7 +4509,8 @@
       "title": "藏宝地",
       "x": 1136.631,
       "y": 1776.745,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498052114114387968",
@@ -3861,7 +4518,8 @@
       "title": "藏宝地",
       "x": 1165.842,
       "y": 2195.875,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498052424505466880",
@@ -3869,7 +4527,8 @@
       "title": "藏宝地",
       "x": 1286.391,
       "y": 2112.714,
-      "description": "该藏宝地共计3个宝箱"
+      "description": "该藏宝地共计3个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498052840072912896",
@@ -3877,7 +4536,8 @@
       "title": "藏宝地",
       "x": 1499.425,
       "y": 2559.618,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498053283670220800",
@@ -3885,7 +4545,8 @@
       "title": "藏宝地",
       "x": 1961.3,
       "y": 2187.734,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498053740207628288",
@@ -3893,7 +4554,8 @@
       "title": "藏宝地",
       "x": 2036.989,
       "y": 2345.562,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498055013099872256",
@@ -3901,7 +4563,8 @@
       "title": "藏宝地",
       "x": 2144.69,
       "y": 2419.471,
-      "description": "该藏宝地共计4个宝箱（该藏宝区位置比较难找，建议追踪前往并推荐使用鹰眼无人机获取该藏宝地宝箱）"
+      "description": "该藏宝地共计4个宝箱（该藏宝区位置比较难找，建议追踪前往并推荐使用鹰眼无人机获取该藏宝地宝箱）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498055507666362368",
@@ -3909,7 +4572,8 @@
       "title": "藏宝地",
       "x": 2747.199,
       "y": 2084.226,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498055940934443008",
@@ -3917,7 +4581,8 @@
       "title": "藏宝地",
       "x": 2805.378,
       "y": 2318.402,
-      "description": "该藏宝地共计3个宝箱"
+      "description": "该藏宝地共计3个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498056384268181504",
@@ -3925,7 +4590,8 @@
       "title": "藏宝地",
       "x": 3150.752,
       "y": 2171.913,
-      "description": "该藏宝地共计4个宝箱"
+      "description": "该藏宝地共计4个宝箱",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497743970359664640",
@@ -3933,7 +4599,8 @@
       "title": "摩托-固定赛道",
       "x": 2408.809,
       "y": 2452.179,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497744711707762688",
@@ -3941,7 +4608,8 @@
       "title": "摩托-固定赛道",
       "x": 1133.026,
       "y": 2133.233,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497746594559516672",
@@ -3949,7 +4617,8 @@
       "title": "摩托-固定赛道",
       "x": 1946.202,
       "y": 1194.466,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499198811665686528",
@@ -3957,7 +4626,8 @@
       "title": "潮汐之遗·金",
       "x": 1230.065,
       "y": 1415.767,
-      "description": "完成“黯原·虚质磁暴II区”后出现"
+      "description": "完成“黯原·虚质磁暴II区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499204896430579712",
@@ -3965,28 +4635,32 @@
       "title": "潮汐之遗·金",
       "x": 1492.025,
       "y": 2698.183,
-      "description": "完成“黯原·虚质磁暴III区”后出现"
+      "description": "完成“黯原·虚质磁暴III区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499227683845136384",
       "categoryId": "cx_03",
       "title": "潮汐之遗·金",
       "x": 1036.664,
-      "y": 2235.44
+      "y": 2235.44,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499232149273141248",
       "categoryId": "cx_03",
       "title": "潮汐之遗·金",
       "x": 1471.75,
-      "y": 1999.565
+      "y": 1999.565,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499234727633444864",
       "categoryId": "cx_03",
       "title": "潮汐之遗·金",
       "x": 2064.465,
-      "y": 2148.539
+      "y": 2148.539,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499235725009575936",
@@ -3994,7 +4668,8 @@
       "title": "潮汐之遗·金",
       "x": 2057.273,
       "y": 2235.774,
-      "description": "一只重工铁蹄，一只锯袭铁影，各为120级"
+      "description": "一只重工铁蹄，一只锯袭铁影，各为120级",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499237330966634496",
@@ -4002,7 +4677,8 @@
       "title": "潮汐之遗·金",
       "x": 2390.739,
       "y": 2343.882,
-      "description": "完成“黯原·虚质磁暴I区”后出现"
+      "description": "完成“黯原·虚质磁暴I区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499239615180398592",
@@ -4010,14 +4686,16 @@
       "title": "潮汐之遗·金",
       "x": 2226.757,
       "y": 2561.063,
-      "description": "标记偏了"
+      "description": "标记偏了",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499246480991805440",
       "categoryId": "cx_03",
       "title": "潮汐之遗·金",
       "x": 2702.619,
-      "y": 1971.393
+      "y": 1971.393,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499254979315081216",
@@ -4025,7 +4703,8 @@
       "title": "潮汐之遗·金",
       "x": 3076.807,
       "y": 1972.423,
-      "description": "一只星升辉铳，一只渊陨重锋，各120级"
+      "description": "一只星升辉铳，一只渊陨重锋，各120级",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499262843068178432",
@@ -4033,84 +4712,96 @@
       "title": "潮汐之遗·金",
       "x": 2135.194,
       "y": 1025.099,
-      "description": "两只120级的流民"
+      "description": "两只120级的流民",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499764549065465856",
       "categoryId": "cx_03",
       "title": "潮汐之遗·金",
       "x": 2497.048,
-      "y": 1572.376
+      "y": 1572.376,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496882503557816320",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2791.002,
-      "y": 2195.576
+      "y": 2195.576,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496883209119440896",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2625.656,
-      "y": 2020.292
+      "y": 2020.292,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496897234217033728",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2438.626,
-      "y": 2285.026
+      "y": 2285.026,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496897828998701056",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2233.525,
-      "y": 2382.607
+      "y": 2382.607,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496898507339964416",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2122.391,
-      "y": 2085.346
+      "y": 2085.346,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496899426332942336",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1441.129,
-      "y": 2388.932
+      "y": 2388.932,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496899862430834688",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1328.188,
-      "y": 2231.718
+      "y": 2231.718,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496903793647788032",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1393.242,
-      "y": 1410.409
+      "y": 1410.409,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496904344439595008",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1195.369,
-      "y": 1318.249
+      "y": 1318.249,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496904829426294784",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 1625.449,
-      "y": 869.195
+      "y": 869.195,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496905259099856896",
@@ -4118,28 +4809,32 @@
       "title": "小型信标",
       "x": 2147.744,
       "y": 802.732,
-      "description": "完成前置任务：完美飞行日途中可解锁"
+      "description": "完成前置任务：完美飞行日途中可解锁",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496905665611128832",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2125.101,
-      "y": 1308.311
+      "y": 1308.311,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496907001140436992",
       "categoryId": "CS_02",
       "title": "小型信标",
       "x": 2218.165,
-      "y": 1567.624
+      "y": 1567.624,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499189698646859776",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 1402.278,
-      "y": 1512.174
+      "y": 1512.174,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499198738073100288",
@@ -4147,7 +4842,8 @@
       "title": "潮汐之遗·紫",
       "x": 1236.001,
       "y": 1418.234,
-      "description": "完成“黯原·虚质磁暴II区”后出现"
+      "description": "完成“黯原·虚质磁暴II区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499198769626177536",
@@ -4155,7 +4851,8 @@
       "title": "潮汐之遗·紫",
       "x": 1242.931,
       "y": 1416.752,
-      "description": "完成“黯原·虚质磁暴II区”后出现"
+      "description": "完成“黯原·虚质磁暴II区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499204831193047040",
@@ -4163,7 +4860,8 @@
       "title": "潮汐之遗·紫",
       "x": 1492.025,
       "y": 2683.817,
-      "description": "完成“黯原·虚质磁暴III区”后出现"
+      "description": "完成“黯原·虚质磁暴III区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499204860355371008",
@@ -4171,14 +4869,16 @@
       "title": "潮汐之遗·紫",
       "x": 1491.375,
       "y": 2689.69,
-      "description": "完成“黯原·虚质磁暴III区”后出现"
+      "description": "完成“黯原·虚质磁暴III区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499205729868144640",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 1537.057,
-      "y": 2467.051
+      "y": 2467.051,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499237220119568384",
@@ -4186,7 +4886,8 @@
       "title": "潮汐之遗·紫",
       "x": 2381.64,
       "y": 2342.834,
-      "description": "完成“黯原·虚质磁暴I区”后出现"
+      "description": "完成“黯原·虚质磁暴I区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499237245843234816",
@@ -4194,560 +4895,640 @@
       "title": "潮汐之遗·紫",
       "x": 2385.489,
       "y": 2343.538,
-      "description": "完成“黯原·虚质磁暴I区”后出现"
+      "description": "完成“黯原·虚质磁暴I区”后出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1499254150536716288",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 3222.772,
-      "y": 1998.155
+      "y": 1998.155,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499257433460400128",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 2293.402,
-      "y": 1631.033
+      "y": 1631.033,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499259132795920384",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 2394.949,
-      "y": 1373.491
+      "y": 1373.491,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499764570268344320",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 2506.147,
-      "y": 1566.693
+      "y": 1566.693,
+      "levelId": "0"
     },
     {
       "id": "kuro:1499764584268259328",
       "categoryId": "cx_02",
       "title": "潮汐之遗·紫",
       "x": 2518.651,
-      "y": 1567.822
+      "y": 1567.822,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496819685436776448",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1827.84,
-      "y": 2183.831
+      "y": 2183.831,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496819845231370240",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1826.936,
-      "y": 2182.927
+      "y": 2182.927,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496822834629271552",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1798.024,
-      "y": 2216.358
+      "y": 2216.358,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496822834813820928",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1798.024,
-      "y": 2215.454
+      "y": 2215.454,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496822835019341824",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1797.12,
-      "y": 2214.551
+      "y": 2214.551,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496822835195502592",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1796.216,
-      "y": 2213.647
+      "y": 2213.647,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496834160441253888",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1759.172,
-      "y": 2204.612
+      "y": 2204.612,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496834160609026048",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1758.268,
-      "y": 2202.805
+      "y": 2202.805,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496834160785186816",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1757.365,
-      "y": 2202.805
+      "y": 2202.805,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496835791850020864",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1784.471,
-      "y": 2182.024
+      "y": 2182.024,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496835791954878464",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1786.278,
-      "y": 2182.927
+      "y": 2182.927,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496835792055541760",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1788.085,
-      "y": 2182.024
+      "y": 2182.024,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496835792156205056",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1788.085,
-      "y": 2181.12
+      "y": 2181.12,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496835792256868352",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1788.988,
-      "y": 2180.216
+      "y": 2180.216,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496836340791468032",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1792.602,
-      "y": 2182.024
+      "y": 2182.024,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496838504347688960",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1396.856,
-      "y": 2273.28
+      "y": 2273.28,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496838504536432640",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1395.953,
-      "y": 2273.28
+      "y": 2273.28,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496840131469205504",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1410.409,
-      "y": 2266.955
+      "y": 2266.955,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496840741501362176",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1414.024,
-      "y": 2265.148
+      "y": 2265.148,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496841463529824256",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1414.024,
-      "y": 2269.666
+      "y": 2269.666,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496841463718567936",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1413.12,
-      "y": 2271.473
+      "y": 2271.473,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496842239048916992",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1421.252,
-      "y": 2285.026
+      "y": 2285.026,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496842239166357504",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1419.445,
-      "y": 2284.122
+      "y": 2284.122,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496842239275409408",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1417.638,
-      "y": 2284.122
+      "y": 2284.122,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496842546268430336",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1423.962,
-      "y": 2284.122
+      "y": 2284.122,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496843387150884864",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1429.384,
-      "y": 2269.666
+      "y": 2269.666,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496843387343822848",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1430.287,
-      "y": 2268.762
+      "y": 2268.762,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496843387528372224",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1431.191,
-      "y": 2268.762
+      "y": 2268.762,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496843387717115904",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1431.191,
-      "y": 2266.955
+      "y": 2266.955,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496845556222615552",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1222.475,
-      "y": 2287.736
+      "y": 2287.736,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496845556407164928",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1220.668,
-      "y": 2288.64
+      "y": 2288.64,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496854478556471296",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1216.151,
-      "y": 2283.219
+      "y": 2283.219,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496854478669717504",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1217.958,
-      "y": 2284.122
+      "y": 2284.122,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496854478778769408",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1218.861,
-      "y": 2283.219
+      "y": 2283.219,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496855599660376064",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1207.115,
-      "y": 2327.492
+      "y": 2327.492,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496855599769427968",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1204.405,
-      "y": 2328.395
+      "y": 2328.395,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496855924986699776",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1202.598,
-      "y": 2328.395
+      "y": 2328.395,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496856035384975360",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1201.694,
-      "y": 2328.395
+      "y": 2328.395,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496856432137445376",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1209.826,
-      "y": 2324.781
+      "y": 2324.781,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496857633314136064",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1180.009,
-      "y": 2259.727
+      "y": 2259.727,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496857633494491136",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1182.72,
-      "y": 2260.631
+      "y": 2260.631,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496857633670651904",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1183.624,
-      "y": 2257.92
+      "y": 2257.92,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496857633846812672",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1181.816,
-      "y": 2256.113
+      "y": 2256.113,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496857634022973440",
       "categoryId": "42601490",
       "title": "赤铃兰",
       "x": 1184.527,
-      "y": 2255.209
+      "y": 2255.209,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496808787637411840",
       "categoryId": "CS_01",
       "title": "中枢信标",
       "x": 3107.238,
-      "y": 2060.951
+      "y": 2060.951,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496812419812401152",
       "categoryId": "CS_01",
       "title": "中枢信标",
       "x": 1577.562,
-      "y": 2116.969
+      "y": 2116.969,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496814278983786496",
       "categoryId": "CS_01",
       "title": "中枢信标",
       "x": 1260.424,
-      "y": 1575.755
+      "y": 1575.755,
+      "levelId": "0"
     },
     {
       "id": "kuro:1496815011786743808",
       "categoryId": "CS_01",
       "title": "中枢信标",
       "x": 1982.344,
-      "y": 1024.602
+      "y": 1024.602,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516173647025651712",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2296.121,
-      "y": 1638.027
+      "y": 1638.027,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516173695620857856",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2312.891,
-      "y": 1606.195
+      "y": 1606.195,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516173851292450816",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2255.056,
-      "y": 1550.059
+      "y": 1550.059,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516174626240446464",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2265.781,
-      "y": 1652.375
+      "y": 1652.375,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516175043531751424",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2242.271,
-      "y": 1531.32
+      "y": 1531.32,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516175663763804160",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2308.075,
-      "y": 1392.682
+      "y": 1392.682,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516175820060348416",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2297.205,
-      "y": 1375.976
+      "y": 1375.976,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516176805969903616",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2251.369,
-      "y": 1239.145
+      "y": 1239.145,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516176834512142336",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2264.299,
-      "y": 1238.91
+      "y": 1238.91,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516176988896083968",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2267.759,
-      "y": 1223.912
+      "y": 1223.912,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516181283674636288",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2240.979,
-      "y": 1156.734
+      "y": 1156.734,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516181349919473664",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2236.597,
-      "y": 1136.188
+      "y": 1136.188,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516181378331688960",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2255.526,
-      "y": 1136.423
+      "y": 1136.423,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516182252927959040",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2205.452,
-      "y": 1083.63
+      "y": 1083.63,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516182647142203392",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2188.484,
-      "y": 1075.814
+      "y": 1075.814,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516183166220877824",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2103.633,
-      "y": 1072.625
+      "y": 1072.625,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516183537509056512",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2099.911,
-      "y": 986.988
+      "y": 986.988,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516183613954441216",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2118.081,
-      "y": 975.712
+      "y": 975.712,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516183741046046720",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2130.676,
-      "y": 1022.118
+      "y": 1022.118,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516184636177629184",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2056.83,
-      "y": 978.757
+      "y": 978.757,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516184670411538432",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2063.724,
-      "y": 985.389
+      "y": 985.389,
+      "levelId": "0"
     },
     {
       "id": "kuro:1516184759578247168",
       "categoryId": "310000810",
       "title": "雷杖流民",
       "x": 2057.626,
-      "y": 1009.125
+      "y": 1009.125,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503771734351781888",
       "categoryId": "320000530",
       "title": "重工铁蹄",
       "x": 2226.296,
-      "y": 2251.595
+      "y": 2251.595,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503772206361305088",
       "categoryId": "320000530",
       "title": "重工铁蹄",
       "x": 2746.729,
-      "y": 2048.301
+      "y": 2048.301,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055922996371456",
       "categoryId": "SP_IconMonsterHead_035_UI",
       "title": "惊蛰猎手",
       "x": 1198.559,
-      "y": 2159.526
+      "y": 2159.526,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055945214271488",
       "categoryId": "SP_IconMonsterHead_035_UI",
       "title": "惊蛰猎手",
       "x": 1206.239,
-      "y": 2152.984
+      "y": 2152.984,
+      "levelId": "0"
     },
     {
       "id": "kuro:1497745899580792832",
@@ -4755,7 +5536,8 @@
       "title": "摩托-特技赛道",
       "x": 1150.193,
       "y": 1229.704,
-      "description": "完成挑战所有目标后可获得所有奖励"
+      "description": "完成挑战所有目标后可获得所有奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498363283719036928",
@@ -4763,7 +5545,8 @@
       "title": "铸光仪",
       "x": 3157.835,
       "y": 1936.264,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498364441120448512",
@@ -4771,7 +5554,9 @@
       "title": "铸光仪",
       "x": 2613.911,
       "y": 2094.381,
-      "description": "Tầng 53 · 完成挑战后可获得奖励"
+      "description": "Tầng 53 · 完成挑战后可获得奖励",
+      "floorId": "53",
+      "levelId": "-1/53"
     },
     {
       "id": "kuro:1498365322775060480",
@@ -4779,7 +5564,8 @@
       "title": "铸光仪",
       "x": 2294.061,
       "y": 2299.482,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498366058980270080",
@@ -4787,7 +5573,8 @@
       "title": "铸光仪",
       "x": 2281.412,
       "y": 2399.774,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498366697328173056",
@@ -4795,7 +5582,8 @@
       "title": "铸光仪",
       "x": 2809.073,
       "y": 1795.313,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498367245670506496",
@@ -4803,7 +5591,8 @@
       "title": "铸光仪",
       "x": 1443.84,
       "y": 2262.438,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498368414082637824",
@@ -4811,7 +5600,8 @@
       "title": "铸光仪",
       "x": 1196.273,
       "y": 1789.892,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498368926723055616",
@@ -4819,7 +5609,9 @@
       "title": "铸光仪",
       "x": 1331.802,
       "y": 1498.052,
-      "description": "Tầng 52 · 完成挑战后可获得奖励"
+      "description": "Tầng 52 · 完成挑战后可获得奖励",
+      "floorId": "52",
+      "levelId": "-1/52"
     },
     {
       "id": "kuro:1498370221148184576",
@@ -4827,7 +5619,8 @@
       "title": "铸光仪",
       "x": 1316.442,
       "y": 1395.953,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498371291760386048",
@@ -4835,14 +5628,16 @@
       "title": "铸光仪",
       "x": 1002.918,
       "y": 1170.071,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498371849078530048",
       "categoryId": "61",
       "title": "铸光仪",
       "x": 2200.998,
-      "y": 1107.727
+      "y": 1107.727,
+      "levelId": "0"
     },
     {
       "id": "kuro:1498372582532276224",
@@ -4850,7 +5645,8 @@
       "title": "铸光仪",
       "x": 2255.209,
       "y": 1577.562,
-      "description": "完成挑战后可获得奖励"
+      "description": "完成挑战后可获得奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497963311109857280",
@@ -4858,7 +5654,8 @@
       "title": "虚质方块",
       "x": 1389.99,
       "y": 1488.258,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可。随机关卡尽情挑战"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可。随机关卡尽情挑战",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497965476129890304",
@@ -4866,7 +5663,8 @@
       "title": "虚质方块",
       "x": 2076.392,
       "y": 988.452,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战，本关要让方块竖过来尽量插在空隙如图二所示"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战，本关要让方块竖过来尽量插在空隙如图二所示",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497966502048931840",
@@ -4874,7 +5672,8 @@
       "title": "虚质方块",
       "x": 1120.25,
       "y": 1858.533,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497967937527832576",
@@ -4882,7 +5681,8 @@
       "title": "虚质方块",
       "x": 1082.302,
       "y": 2303.855,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497969856519053312",
@@ -4890,7 +5690,8 @@
       "title": "虚质方块",
       "x": 1283.572,
       "y": 2383.538,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497971314387148800",
@@ -4898,7 +5699,8 @@
       "title": "虚质方块",
       "x": 1925.421,
       "y": 2264.525,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战。本关难点在于无法消除已有粉色方块，尽量让新方块填补空隙不要架空"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战。本关难点在于无法消除已有粉色方块，尽量让新方块填补空隙不要架空",
+      "levelId": "0"
     },
     {
       "id": "kuro:1497972456446468096",
@@ -4906,7 +5708,8 @@
       "title": "虚质方块",
       "x": 2687.874,
       "y": 1947.296,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战"
+      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "levelId": "0"
     },
     {
       "id": "kuro:1500971224166391808",
@@ -4914,266 +5717,304 @@
       "title": "虚质方块",
       "x": 2225.538,
       "y": 1585.631,
-      "description": "此处位于铸光仪的房间内，完成外面的铸光仪后进入，此关卡为无尽模式，500分拿到全部奖励"
+      "description": "此处位于铸光仪的房间内，完成外面的铸光仪后进入，此关卡为无尽模式，500分拿到全部奖励",
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055252051009536",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1196.869,
-      "y": 2126.908
+      "y": 2126.908,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055277492985856",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1204.793,
-      "y": 2135.438
+      "y": 2135.438,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055383454359552",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1169.574,
-      "y": 1918.238
+      "y": 1918.238,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504055737905930240",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1175.257,
-      "y": 1904.884
+      "y": 1904.884,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504056709818441728",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1573.713,
-      "y": 2248.026
+      "y": 2248.026,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504056730118873088",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1580.815,
-      "y": 2243.192
+      "y": 2243.192,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504056750494801920",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1573.424,
-      "y": 2234.103
+      "y": 2234.103,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057095572774912",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1589.399,
-      "y": 2346.529
+      "y": 2346.529,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057113809608704",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1595.281,
-      "y": 2352.411
+      "y": 2352.411,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057278587035648",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1594.639,
-      "y": 2401.482
+      "y": 2401.482,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057354055147520",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1595.29,
-      "y": 2407.517
+      "y": 2407.517,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057550885445632",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1545.315,
-      "y": 2458.133
+      "y": 2458.133,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057576621694976",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1550.059,
-      "y": 2458.775
+      "y": 2458.775,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057594845945856",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1543.382,
-      "y": 2463.301
+      "y": 2463.301,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057610876575744",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1548.984,
-      "y": 2462.226
+      "y": 2462.226,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057861519794176",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1298.706,
-      "y": 2321.917
+      "y": 2321.917,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504057880176058368",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1305.808,
-      "y": 2324.935
+      "y": 2324.935,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058099060006912",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1263.812,
-      "y": 2396.44
+      "y": 2396.44,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058117493972992",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1268.122,
-      "y": 2394.931
+      "y": 2394.931,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058153447546880",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1269.414,
-      "y": 2398.6
+      "y": 2398.6,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058427659231232",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1070.619,
-      "y": 2312.873
+      "y": 2312.873,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058450785951744",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1071.261,
-      "y": 2300.386
+      "y": 2300.386,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058472622170112",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1078.796,
-      "y": 2306.629
+      "y": 2306.629,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058617887023104",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1026.464,
-      "y": 2220.902
+      "y": 2220.902,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058635389853696",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1031.415,
-      "y": 2216.385
+      "y": 2216.385,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058950310780928",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1073.845,
-      "y": 2169.428
+      "y": 2169.428,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058969055797248",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1068.677,
-      "y": 2166.42
+      "y": 2166.42,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504058988269232128",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1068.677,
-      "y": 2170.296
+      "y": 2170.296,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504059016291377152",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1072.119,
-      "y": 2170.079
+      "y": 2170.079,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504059431217094656",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 1149.009,
-      "y": 2212.509
+      "y": 2212.509,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504060185613000704",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 2313.207,
-      "y": 875.945
+      "y": 875.945,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504060204894887936",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 2308.03,
-      "y": 872.9
+      "y": 872.9,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504060221214253056",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 2307.415,
-      "y": 877.472
+      "y": 877.472,
+      "levelId": "0"
     },
     {
       "id": "kuro:1504060238096326656",
       "categoryId": "310000830",
       "title": "冰盈舞者",
       "x": 2311.68,
-      "y": 878.691
+      "y": 878.691,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503777567974334464",
       "categoryId": "320000610",
       "title": "格洛犸图",
       "x": 1442.936,
-      "y": 1994.993
+      "y": 1994.993,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503777843849814016",
       "categoryId": "320000610",
       "title": "格洛犸图",
       "x": 1370.654,
-      "y": 2161.242
+      "y": 2161.242,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503778228862427136",
       "categoryId": "320000610",
       "title": "格洛犸图",
       "x": 1245.064,
-      "y": 1844.104
+      "y": 1844.104,
+      "levelId": "0"
     },
     {
       "id": "kuro:1500358344023449600",
@@ -5181,70 +6022,80 @@
       "title": "完美飞行日",
       "x": 2694.569,
       "y": 1475.753,
-      "description": "需完成“危行任务”完美飞行日，任务完成时获得成就【极光远境】"
+      "description": "需完成“危行任务”完美飞行日，任务完成时获得成就【极光远境】",
+      "levelId": "0"
     },
     {
       "id": "kuro:1503764371800563712",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 2716.009,
-      "y": 2066.372
+      "y": 2066.372,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503764726931611648",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 2313.939,
-      "y": 2388.932
+      "y": 2388.932,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503765110866288640",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 2214.551,
-      "y": 2473.864
+      "y": 2473.864,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503765655240138752",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 1293.854,
-      "y": 1485.402
+      "y": 1485.402,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503767102421819392",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 1193.562,
-      "y": 1507.991
+      "y": 1507.991,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503767412335419392",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 1369.751,
-      "y": 1329.092
+      "y": 1329.092,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503767701351653376",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 1407.699,
-      "y": 1296.565
+      "y": 1296.565,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503768056269463552",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 1193.562,
-      "y": 1260.424
+      "y": 1260.424,
+      "levelId": "0"
     },
     {
       "id": "kuro:1503768369273593856",
       "categoryId": "320000510",
       "title": "莳植机麋",
       "x": 1401.374,
-      "y": 1045.384
+      "y": 1045.384,
+      "levelId": "0"
     },
     {
       "id": "kuro:1500358441780092928",
@@ -5252,7 +6103,8 @@
       "title": "破碎黯原之心",
       "x": 2150.508,
       "y": 2357.39,
-      "description": "需完成“危行任务”破碎黯原之心"
+      "description": "需完成“危行任务”破碎黯原之心",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498427257667280896",
@@ -5260,7 +6112,8 @@
       "title": "日灵",
       "x": 2692.4,
       "y": 2126.619,
-      "description": "往大树方向走，日灵在悬崖大石头边，给它拍照"
+      "description": "往大树方向走，日灵在悬崖大石头边，给它拍照",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498427872082485248",
@@ -5268,7 +6121,8 @@
       "title": "日灵",
       "x": 2586.181,
       "y": 2176.304,
-      "description": "日灵困在紫色方块内（如图一），打碎方块救出日灵"
+      "description": "日灵困在紫色方块内（如图一），打碎方块救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498428906155253760",
@@ -5276,7 +6130,8 @@
       "title": "日灵",
       "x": 2290.736,
       "y": 2421.106,
-      "description": "日灵在树枝上，无需爬上树枝，走到附近出现拍照提示后给它拍照即可"
+      "description": "日灵在树枝上，无需爬上树枝，走到附近出现拍照提示后给它拍照即可",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498429518095818752",
@@ -5284,7 +6139,8 @@
       "title": "日灵",
       "x": 2264.958,
       "y": 2487.127,
-      "description": "不在顶层，在半山腰，直接抱起即可"
+      "description": "不在顶层，在半山腰，直接抱起即可",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498430344754716672",
@@ -5292,7 +6148,8 @@
       "title": "日灵",
       "x": 2215.499,
       "y": 2555.678,
-      "description": "在下面一层，驱逐呜咔咔后救出日灵"
+      "description": "在下面一层，驱逐呜咔咔后救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498431044088471552",
@@ -5300,7 +6157,8 @@
       "title": "日灵",
       "x": 2158.703,
       "y": 2430.322,
-      "description": "两只日灵在草地上转圈，站在圈中心后出现第三只日灵（如图二）"
+      "description": "两只日灵在草地上转圈，站在圈中心后出现第三只日灵（如图二）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498431894940786688",
@@ -5308,7 +6166,8 @@
       "title": "日灵",
       "x": 1929.261,
       "y": 1277.247,
-      "description": "日灵在大鸟嘴里，注意有日灵的鸟嘴比其他鸟要大，与鸟互动后救出日灵"
+      "description": "日灵在大鸟嘴里，注意有日灵的鸟嘴比其他鸟要大，与鸟互动后救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498432603027382272",
@@ -5316,7 +6175,8 @@
       "title": "日灵",
       "x": 2534.337,
       "y": 1422.083,
-      "description": "破坏紫色方块帮日灵救出小野猪"
+      "description": "破坏紫色方块帮日灵救出小野猪",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498434348705095680",
@@ -5324,7 +6184,8 @@
       "title": "日灵",
       "x": 2298.425,
       "y": 1036.529,
-      "description": "在下层有紫色光波（如图一），使用声骸显像—迷胧幻蛾救出日灵（如没有此声骸附近西南方下去有两只可刷取，如图二）"
+      "description": "在下层有紫色光波（如图一），使用声骸显像—迷胧幻蛾救出日灵（如没有此声骸附近西南方下去有两只可刷取，如图二）",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498435193554690048",
@@ -5332,7 +6193,8 @@
       "title": "日灵",
       "x": 1345.798,
       "y": 1535.774,
-      "description": "日灵在大鸟嘴里，注意有日灵的鸟嘴比其他鸟要大，与鸟互动后救出日灵"
+      "description": "日灵在大鸟嘴里，注意有日灵的鸟嘴比其他鸟要大，与鸟互动后救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498435858306408448",
@@ -5340,7 +6202,8 @@
       "title": "日灵",
       "x": 1320.391,
       "y": 1236.896,
-      "description": "在紫色光波处使用声骸显像—迷胧幻蛾，救出日灵"
+      "description": "在紫色光波处使用声骸显像—迷胧幻蛾，救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498436451720732672",
@@ -5348,7 +6211,8 @@
       "title": "日灵",
       "x": 1567.795,
       "y": 1062.885,
-      "description": "在巨日灵旁边，直接抱起即可"
+      "description": "在巨日灵旁边，直接抱起即可",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498436909788389376",
@@ -5356,7 +6220,8 @@
       "title": "日灵",
       "x": 1374.521,
       "y": 2282.939,
-      "description": "打碎冰晶救出日灵"
+      "description": "打碎冰晶救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498437654915555328",
@@ -5364,7 +6229,8 @@
       "title": "日灵",
       "x": 1078.588,
       "y": 2315.24,
-      "description": "在最顶层悬崖边眺望，直接抱起即可"
+      "description": "在最顶层悬崖边眺望，直接抱起即可",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498438136337096704",
@@ -5372,7 +6238,8 @@
       "title": "日灵",
       "x": 1137.164,
       "y": 1977.961,
-      "description": "跟两只小肥啾在一块，直接抱起即可"
+      "description": "跟两只小肥啾在一块，直接抱起即可",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498438751574384640",
@@ -5380,7 +6247,8 @@
       "title": "日灵",
       "x": 1326.706,
       "y": 1754.392,
-      "description": "打碎冰晶救出日灵"
+      "description": "打碎冰晶救出日灵",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498439091082321920",
@@ -5388,7 +6256,8 @@
       "title": "日灵",
       "x": 1152.678,
       "y": 1646.267,
-      "description": "站在石头上，可直接抱起"
+      "description": "站在石头上，可直接抱起",
+      "levelId": "0"
     },
     {
       "id": "kuro:1498439957299044352",
@@ -5396,7 +6265,8 @@
       "title": "日灵",
       "x": 3062.594,
       "y": 2100.697,
-      "description": "跳入瀑布下的圈内后日灵出现"
+      "description": "跳入瀑布下的圈内后日灵出现",
+      "levelId": "0"
     },
     {
       "id": "kuro:1502786418895724544",
@@ -5404,7 +6274,8 @@
       "title": "日灵",
       "x": 2294.82,
       "y": 2393.802,
-      "description": "先完成此处的铸光仪挑战，开启房间后拍摄左上方站在雕像上的日灵，拍完后可互动"
+      "description": "先完成此处的铸光仪挑战，开启房间后拍摄左上方站在雕像上的日灵，拍完后可互动",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496988565975834624",
@@ -5412,7 +6283,8 @@
       "title": "虚质磁暴区",
       "x": 2397.651,
       "y": 2334.024,
-      "description": "做好准备挑战吧！"
+      "description": "做好准备挑战吧！",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496989588689756160",
@@ -5420,7 +6292,8 @@
       "title": "虚质磁暴区",
       "x": 1506.021,
       "y": 2686.916,
-      "description": "做好准备挑战吧！"
+      "description": "做好准备挑战吧！",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496990516746625024",
@@ -5428,7 +6301,8 @@
       "title": "虚质磁暴区",
       "x": 1212.573,
       "y": 1430.694,
-      "description": "做好准备挑战吧！"
+      "description": "做好准备挑战吧！",
+      "levelId": "0"
     },
     {
       "id": "kuro:1496991995842093056",
@@ -5436,7 +6310,8 @@
       "title": "虚质磁暴区",
       "x": 2509.978,
       "y": 1565.301,
-      "description": "做好准备挑战吧！"
+      "description": "做好准备挑战吧！",
+      "levelId": "0"
     }
   ]
 }

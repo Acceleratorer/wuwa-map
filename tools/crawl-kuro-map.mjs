@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import {
   existsSync,
   mkdirSync,
@@ -228,6 +229,71 @@ function markerDescription(location) {
   return parts.length > 0 ? parts.join(" · ") : undefined;
 }
 
+function iconFileName(iconPath) {
+  return `${createHash("sha256").update(iconPath).digest("hex").slice(0, 20)}.webp`;
+}
+
+export function parseLayerTilePath(tilePath, layout) {
+  const match = /^\/([^/]+)\/([^/]+)\/(-?\d+)_(-?\d+)\.png$/.exec(
+    tilePath,
+  );
+  if (!match) {
+    throw new Error(`Layer tile không hợp lệ: ${tilePath}`);
+  }
+  const sourceX = Number(match[3]);
+  const sourceY = Number(match[4]);
+  return {
+    groupPath: match[1],
+    floorPath: match[2],
+    sourceX,
+    sourceY,
+    column: sourceX - layout.minSourceX,
+    leafletY: layout.maxSourceY - sourceY - layout.rows,
+  };
+}
+
+export function buildLayerEntries({
+  stateId,
+  layerData,
+  layout,
+  tileSize,
+  tileExtension,
+}) {
+  const entries = [];
+  for (const group of layerData) {
+    for (const floor of group.floors ?? []) {
+      const parsedTiles = (floor.tiles ?? []).map((tilePath) => ({
+        tilePath,
+        ...parseLayerTilePath(tilePath, layout),
+      }));
+      if (parsedTiles.length === 0) {
+        continue;
+      }
+      const directoryName = String(floor.id).replaceAll("/", "_");
+      entries.push({
+        id: String(floor.id),
+        label: floor.name?.trim() || String(floor.id),
+        groupId: String(group.id),
+        groupLabel: group.name?.trim() || String(group.id),
+        directoryName,
+        sourceTiles: parsedTiles,
+        tiles: {
+          src:
+            `map-packs/private/layers/${stateId}/${directoryName}` +
+            `/{x}_{y}.${tileExtension}`,
+          tileSize,
+          columns: layout.columns,
+          rows: layout.rows,
+          availableTiles: parsedTiles.map(
+            (tile) => `${tile.column},${tile.leafletY}`,
+          ),
+        },
+      });
+    }
+  }
+  return entries;
+}
+
 export function buildKuroMapPack({
   stateId,
   stateName,
@@ -236,6 +302,8 @@ export function buildKuroMapPack({
   tileWebPrefix,
   layout,
   positionData,
+  iconWebPathBySource = new Map(),
+  layerEntries = [],
   retrievedAt,
 }) {
   const width = layout.columns * tileSize;
@@ -287,6 +355,8 @@ export function buildKuroMapPack({
         x: Math.round(pixel.x * 1000) / 1000,
         y: Math.round(pixel.y * 1000) / 1000,
         description: markerDescription(location),
+        floorId: location.floorId?.trim() || undefined,
+        levelId: location.level?.trim() || undefined,
       });
     }
   }
@@ -339,8 +409,23 @@ export function buildKuroMapPack({
           : "•",
         groupId: group.id,
         icon: itemId.startsWith("qzx_") ? "chest" : group.icon,
+        imageSrc:
+          typeof item.icon === "string"
+            ? iconWebPathBySource.get(item.icon)
+            : undefined,
       };
     }),
+    layers: layerEntries.length > 0
+      ? layerEntries.map(
+          ({ id, label, groupId, groupLabel, tiles }) => ({
+            id,
+            label,
+            groupId,
+            groupLabel,
+            tiles,
+          }),
+        )
+      : undefined,
     markers,
   };
 }
@@ -390,6 +475,17 @@ function removeStaleTiles(directory, expectedNames) {
       /^-?\d+_-?\d+\.(?:png|webp)$/.test(name) &&
       !expectedNames.has(name)
     ) {
+      unlinkSync(join(directory, name));
+    }
+  }
+}
+
+function removeStaleIcons(directory, expectedNames) {
+  if (!existsSync(directory)) {
+    return;
+  }
+  for (const name of readdirSync(directory)) {
+    if (/^[a-f0-9]{20}\.webp$/.test(name) && !expectedNames.has(name)) {
       unlinkSync(join(directory, name));
     }
   }
@@ -505,7 +601,11 @@ async function main() {
 
   const names = stateNames(selection);
   const catalogEntries = [];
+  const iconOutputDirectory = join(outputDirectory, "icons");
+  const iconWebPathBySource = new Map();
+  const expectedIconNames = new Set();
   let totalMarkers = 0;
+  let totalLayerTiles = 0;
 
   for (const stateId of stateIds) {
     console.log(`State ${stateId}: tải metadata...`);
@@ -519,7 +619,7 @@ async function main() {
     const layerUrl =
       `${CDN_ORIGIN}/mcmap/layer/${resourceHash}/${stateId}/layer.json`;
 
-    const [positionData] = await Promise.all([
+    const [positionData, , layerData] = await Promise.all([
       fetchJsonWithCache(positionUrl, positionPath),
       fetchJsonWithCache(catalogUrl, catalogPath),
       fetchJsonWithCache(layerUrl, layerPath),
@@ -532,6 +632,13 @@ async function main() {
       String(stateId),
     );
     const tileWebPrefix = `map-packs/private/maps/${stateId}`;
+    const layerEntries = buildLayerEntries({
+      stateId,
+      layerData,
+      layout,
+      tileSize,
+      tileExtension,
+    });
     const expectedTileNames = new Set(
       layout.tiles.map(
         (tile) => `${tile.column}_${tile.leafletY}.${tileExtension}`,
@@ -553,6 +660,62 @@ async function main() {
       );
     });
     removeStaleTiles(tileOutputDirectory, expectedTileNames);
+
+    for (const item of positionData) {
+      if (
+        typeof item.icon !== "string" ||
+        iconWebPathBySource.has(item.icon)
+      ) {
+        continue;
+      }
+      const fileName = iconFileName(item.icon);
+      expectedIconNames.add(fileName);
+      iconWebPathBySource.set(
+        item.icon,
+        `map-packs/private/icons/${fileName}`,
+      );
+      tasks.push(async () => {
+        await downloadFile(
+          `${CDN_ORIGIN}/${item.icon}` +
+            "?x-oss-process=image/format,webp/resize,w_96,h_96",
+          join(iconOutputDirectory, fileName),
+          refreshTiles,
+        );
+      });
+    }
+
+    for (const layer of layerEntries) {
+      const layerOutputDirectory = join(
+        outputDirectory,
+        "layers",
+        String(stateId),
+        layer.directoryName,
+      );
+      const expectedLayerTiles = new Set(
+        layer.sourceTiles.map(
+          (tile) => `${tile.column}_${tile.leafletY}.${tileExtension}`,
+        ),
+      );
+      removeStaleTiles(layerOutputDirectory, expectedLayerTiles);
+      for (const tile of layer.sourceTiles) {
+        tasks.push(async () => {
+          await downloadFile(
+            `${CDN_ORIGIN}/mcmap/tiles/${resourceHash}/${stateId}` +
+              `${tile.tilePath}` +
+              (tileSize === 768
+                ? "?x-oss-process=image/format,webp/resize,w_768,h_768"
+                : ""),
+            join(
+              layerOutputDirectory,
+              `${tile.column}_${tile.leafletY}.${tileExtension}`,
+            ),
+            refreshTiles,
+          );
+        });
+      }
+      totalLayerTiles += layer.sourceTiles.length;
+    }
+
     let lastReported = 0;
     await runPool(tasks, concurrency, (completed, total) => {
       const percentage = Math.floor((completed / total) * 100);
@@ -570,6 +733,8 @@ async function main() {
       tileWebPrefix,
       layout,
       positionData,
+      iconWebPathBySource,
+      layerEntries,
       retrievedAt,
     });
     writeJson(join(outputDirectory, "maps", `${stateId}.json`), mapPack);
@@ -583,6 +748,10 @@ async function main() {
       `State ${stateId}: ${mapPack.markers.length} marker, ` +
         `${mapPack.categories.length} loại điểm.`,
     );
+  }
+
+  if (stateIds.length === availableStateIds.length) {
+    removeStaleIcons(iconOutputDirectory, expectedIconNames);
   }
 
   catalogEntries.sort((left, right) => {
@@ -602,11 +771,12 @@ async function main() {
     resourceHash,
     retrievedAt,
     tileSize,
+    iconSize: 96,
     states: stateIds,
   });
   console.log(
     `Hoàn tất: ${stateIds.length} map, ${totalMarkers} marker, ` +
-      `${outputDirectory}`,
+      `${totalLayerTiles} layer tile, ${outputDirectory}`,
   );
 }
 

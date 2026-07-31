@@ -25,6 +25,7 @@ export interface MapCategory {
   symbol: string;
   groupId?: string;
   icon?: MapIconName;
+  imageSrc?: string;
 }
 
 export interface MapMarker {
@@ -34,6 +35,8 @@ export interface MapMarker {
   x: number;
   y: number;
   description?: string;
+  floorId?: string;
+  levelId?: string;
 }
 
 export interface MapImageSource {
@@ -50,6 +53,14 @@ export interface MapTileSource {
   availableTiles?: string[];
 }
 
+export interface MapFloorLayer {
+  id: string;
+  label: string;
+  groupId: string;
+  groupLabel: string;
+  tiles: MapTileSource;
+}
+
 export interface MapPack {
   schemaVersion: SchemaVersion;
   id: string;
@@ -61,6 +72,7 @@ export interface MapPack {
   categoryGroups?: MapCategoryGroup[];
   categories: MapCategory[];
   defaultVisibleCategoryIds?: string[];
+  layers?: MapFloorLayer[];
   markers: MapMarker[];
 }
 

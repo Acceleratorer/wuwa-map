@@ -274,6 +274,20 @@ host full map ngay. Raw JSON/cache trong `data/private/kuro/` vẫn nằm trong 
 Chỉ deploy hoặc phân phối các file này khi permission của bạn cho phép; attribution trong map
 pack không đồng nghĩa với việc KURO phát hành asset dưới một giấy phép nguồn mở.
 
+### Icon và tầng bản đồ
+
+Bundle KURO hiện có thêm:
+
+- `public/map-packs/private/icons/`: icon danh mục đã mirror ở kích thước 96 px.
+- `public/map-packs/private/layers/<state-id>/<floor-id>/`: tile overlay cho từng tầng.
+- `categories[].imageSrc`: đường dẫn icon local được map pack sử dụng.
+- `markers[].levelId`: ID tầng exact để lọc marker theo floor.
+- `layers[]`: metadata, selector và tile source của từng tầng.
+
+Khi chọn một tầng trong ô `Tầng bản đồ`, ứng dụng sẽ phủ tile tầng lên basemap và chỉ
+hiển thị marker có cùng `levelId`. Chọn `Tất cả tầng` để quay về chế độ xem toàn bộ marker.
+Lựa chọn tầng được lưu riêng cho từng khu vực trong IndexedDB.
+
 ## Local profile link
 
 Khi chưa bật backend, vẫn có thể chọn profile local bằng:
