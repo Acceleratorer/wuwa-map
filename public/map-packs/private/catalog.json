@@ -4,42 +4,42 @@
   "maps": [
     {
       "id": "wuwa-kuro-state-906",
-      "title": "罗伊冰原",
+      "title": "Băng nguyên Roya",
       "pack": "map-packs/private/maps/906.json"
     },
     {
       "id": "wuwa-kuro-state-8",
-      "title": "瑝珑、黑海岸群岛、黎那汐塔、罗伊冰原",
+      "title": "Hoàng Long, Quần đảo Bờ Đen, Rinascita và Băng nguyên Roya",
       "pack": "map-packs/private/maps/8.json"
     },
     {
       "id": "wuwa-kuro-state-900",
-      "title": "泰缇斯之底",
+      "title": "Vực sâu Tethys",
       "pack": "map-packs/private/maps/900.json"
     },
     {
       "id": "wuwa-kuro-state-902",
-      "title": "下层金库",
+      "title": "Kho bạc ngầm",
       "pack": "map-packs/private/maps/902.json"
     },
     {
       "id": "wuwa-kuro-state-903",
-      "title": "阿维纽林",
+      "title": "Avinoleum",
       "pack": "map-packs/private/maps/903.json"
     },
     {
       "id": "wuwa-kuro-state-905",
-      "title": "隐海试验场",
+      "title": "Bãi thử Biển Ẩn",
       "pack": "map-packs/private/maps/905.json"
     },
     {
       "id": "wuwa-kuro-state-909",
-      "title": "黯原",
+      "title": "Đồng bằng Dimmr",
       "pack": "map-packs/private/maps/909.json"
     },
     {
       "id": "wuwa-kuro-state-910",
-      "title": "时隙废都",
+      "title": "Đô thị Chronorift",
       "pack": "map-packs/private/maps/910.json"
     }
   ]

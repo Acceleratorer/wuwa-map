@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "wuwa-kuro-state-905",
-  "title": "隐海试验场",
+  "title": "Bãi thử Biển Ẩn",
   "subtitle": "236 vị trí · 35 loại điểm",
   "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-07-31.",
   "tiles": {
@@ -163,7 +163,7 @@
   "categories": [
     {
       "id": "SP_IconMonsterHead_31043_UI",
-      "label": "幽翎火",
+      "label": "ngọn lửa thanh tao",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -172,7 +172,7 @@
     },
     {
       "id": "340000160",
-      "label": "梦魇·赫卡忒",
+      "label": "Cơn ác mộng Hecate",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "bosses",
@@ -181,7 +181,7 @@
     },
     {
       "id": "T_IconC_053_UI",
-      "label": "暗渊引灯",
+      "label": "Ánh sáng từ vực thẳm tối tăm",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
@@ -190,7 +190,7 @@
     },
     {
       "id": "lqtl",
-      "label": "乐曲调律",
+      "label": "điều chỉnh",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "exploration",
@@ -199,7 +199,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31053_UI",
-      "label": "赦罪节使",
+      "label": "Sứ giả của sự xá tội",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -226,7 +226,7 @@
     },
     {
       "id": "sxxw",
-      "label": "圣箱寻物",
+      "label": "Nhiệm vụ rương thánh",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "exploration",
@@ -244,7 +244,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31055_UI",
-      "label": "小翼龙·气动",
+      "label": "Thằn lằn bay nhỏ·khí nén",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -253,7 +253,7 @@
     },
     {
       "id": "SP_IconMap_Play_46_UI",
-      "label": "彼岸之镜",
+      "label": "Gương bờ bên kia",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "locations",
@@ -262,7 +262,7 @@
     },
     {
       "id": "FCRK",
-      "label": "分层入口",
+      "label": "Lối vào theo tầng",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
@@ -280,7 +280,7 @@
     },
     {
       "id": "320000420",
-      "label": "裁夺者",
+      "label": "trọng tài",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -289,7 +289,7 @@
     },
     {
       "id": "SP_IconMap_Shop_08_UI_2",
-      "label": "「服事人」物资站",
+      "label": "Trạm cung cấp \"Phục vụ mọi người\"",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "locations",
@@ -298,7 +298,7 @@
     },
     {
       "id": "SP_IconMonsterHead_32031_UI",
-      "label": "重塑雕像的拳砾",
+      "label": "Định hình lại sỏi của bức tượng",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -307,7 +307,7 @@
     },
     {
       "id": "SP_IconMonsterHead_32033_UI",
-      "label": "荣光节使",
+      "label": "Đại sứ vinh quang",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -316,7 +316,7 @@
     },
     {
       "id": "310000620",
-      "label": "残星·深海造匠",
+      "label": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -325,7 +325,7 @@
     },
     {
       "id": "myjl",
-      "label": "梦魇聚落",
+      "label": "Giải quyết cơn ác mộng",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "activities",
@@ -334,7 +334,7 @@
     },
     {
       "id": "ynwh",
-      "label": "运能维护",
+      "label": "Bảo trì công suất",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "exploration",
@@ -343,7 +343,7 @@
     },
     {
       "id": "310000640",
-      "label": "梦魇·破霜猎手",
+      "label": "Ác mộng·Thợ săn băng giá",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
@@ -352,7 +352,7 @@
     },
     {
       "id": "cx_03",
-      "label": "潮汐之遗·金",
+      "label": "Di sản của thủy triều·Vàng",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "collection",
@@ -361,7 +361,7 @@
     },
     {
       "id": "340000150",
-      "label": "芬莱克",
+      "label": "Finlake",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "bosses",
@@ -370,7 +370,7 @@
     },
     {
       "id": "CS_02",
-      "label": "小型信标",
+      "label": "ngọn hải đăng nhỏ",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
@@ -379,7 +379,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31044_UI",
-      "label": "云海妖精",
+      "label": "Nàng Tiên Biển Mây",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -388,7 +388,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31057_UI",
-      "label": "小翼龙·冷凝",
+      "label": "Little Pterosaur·Ngưng tụ",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -397,7 +397,7 @@
     },
     {
       "id": "T_IconC_054_UI",
-      "label": "“来生”",
+      "label": "\"Đời sau\"",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
@@ -406,7 +406,7 @@
     },
     {
       "id": "SP_IconMonsterHead_972_UI",
-      "label": "残星·重锤造匠",
+      "label": "Ngôi sao vỡ · Thợ rèn",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -415,7 +415,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31049_UI",
-      "label": "愚金幼岩",
+      "label": "Đá Vàng Ngu Ngốc",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -424,7 +424,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31050_UI",
-      "label": "釉变幼岩",
+      "label": "đá non tráng men",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -433,7 +433,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31056_UI",
-      "label": "小翼龙·导电",
+      "label": "Thằn lằn bay nhỏ·dẫn điện",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -442,7 +442,7 @@
     },
     {
       "id": "SP_IconMonsterHead_31052_UI",
-      "label": "卫冕节使",
+      "label": "Đại sứ bảo vệ",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -451,7 +451,7 @@
     },
     {
       "id": "320000430",
-      "label": "梦魇·振铎乐师",
+      "label": "Nhạc sĩ Zhenduo ác mộng",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
@@ -460,7 +460,7 @@
     },
     {
       "id": "SP_IconMonsterHead_32032_UI",
-      "label": "飓力熊",
+      "label": "gấu bão",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -469,7 +469,7 @@
     },
     {
       "id": "310000630",
-      "label": "梦魇·审判战士",
+      "label": "Ác mộng·Chiến binh phán xét",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -480,9 +480,9 @@
   "layers": [
     {
       "id": "-1/22",
-      "label": "蓄能中枢下层",
+      "label": "Tầng dưới của trung tâm lưu trữ năng lượng",
       "groupId": "22",
-      "groupLabel": "蓄能中枢下层",
+      "groupLabel": "Tầng dưới của trung tâm lưu trữ năng lượng",
       "tiles": {
         "src": "map-packs/private/layers/905/-1_22/{x}_{y}.webp",
         "tileSize": 768,
@@ -501,142 +501,142 @@
     {
       "id": "kuro:1417920620236451840",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 7066.729,
       "y": 5340.681,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417920674619760640",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 7076.271,
       "y": 5334.582,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417920706794303488",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 7076.804,
       "y": 5343.861,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417921356693319680",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6798.887,
       "y": 5098.752,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417921405523406848",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6815.738,
       "y": 5099.213,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417921452600274944",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6811.121,
       "y": 5084.901,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417921488474157056",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6808.582,
       "y": 5092.057,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417921923884855296",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6942.268,
       "y": 5003.791,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417921986950410240",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6943.262,
       "y": 4994.385,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417922371127685120",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6885.337,
       "y": 5226.095,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417922446155395072",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 6884.686,
       "y": 5232.619,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417922729489018880",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 7252.405,
       "y": 5152.476,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417922797646458880",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 7263.039,
       "y": 5152.358,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417922849307664384",
       "categoryId": "SP_IconMonsterHead_31043_UI",
-      "title": "幽翎火",
+      "title": "ngọn lửa thanh tao",
       "x": 7257.97,
       "y": 5154.708,
-      "description": "该敌人湮灭伤害抗性提高。\n出没于悲叹墓岛的异鸟残象，能够在晦暗的环境下隐匿身形，仅余头部燃烧的假面幽幽悬浮，如同传说中的鬼火。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh còn sót lại của loài chim kỳ lạ ám ảnh Đảo Mộ Than Thở có thể giấu hình dáng của nó trong môi trường tối tăm, chỉ để lại chiếc mặt nạ cháy trên đầu lơ lửng mờ nhạt, giống như ma trơi huyền thoại.",
       "levelId": "0"
     },
     {
       "id": "kuro:1396977943255089152",
       "categoryId": "340000160",
-      "title": "梦魇·赫卡忒",
+      "title": "Cơn ác mộng Hecate",
       "x": 7164.988,
       "y": 5330.824,
-      "description": "凡人皆是命运的囚徒，此世的种种不过虚妄的幻影。月相更迭，唯有死亡与湮灭亘古不变。\n于彼岸花编织而成的舞台之上，她将与弗洛洛的指挥相伴，一同谱写「完美」的交响乐章。",
+      "description": "Tất cả người phàm đều là tù nhân của số phận, và mọi thứ trên thế giới này chỉ là ảo ảnh. Các tuần trăng thay đổi nhưng cái chết và sự hủy diệt vẫn giữ nguyên.\nTrên sân khấu phủ đầy hoa, cô sẽ cùng nhạc trưởng Frollo sáng tác nên một bản giao hưởng “hoàn hảo”.",
       "levelId": "0"
     },
     {
       "id": "kuro:1395424710622920704",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7192.998,
       "y": 5071.511,
       "levelId": "0"
@@ -644,7 +644,7 @@
     {
       "id": "kuro:1395426954009329664",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7211.972,
       "y": 5103.134,
       "levelId": "0"
@@ -652,7 +652,7 @@
     {
       "id": "kuro:1395427747169730560",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7221.911,
       "y": 5152.828,
       "levelId": "0"
@@ -660,7 +660,7 @@
     {
       "id": "kuro:1395428523363434496",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7235.464,
       "y": 5156.442,
       "levelId": "0"
@@ -668,7 +668,7 @@
     {
       "id": "kuro:1395429734120587264",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7239.981,
       "y": 5144.696,
       "levelId": "0"
@@ -676,7 +676,7 @@
     {
       "id": "kuro:1395441677069139968",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7187.576,
       "y": 5174.513,
       "levelId": "0"
@@ -684,7 +684,7 @@
     {
       "id": "kuro:1395511070084726784",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 6817.129,
       "y": 5228.725,
       "levelId": "0"
@@ -692,7 +692,7 @@
     {
       "id": "kuro:1395511797464383488",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 6840.621,
       "y": 5198.005,
       "levelId": "0"
@@ -700,7 +700,7 @@
     {
       "id": "kuro:1395518101730525184",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7060.179,
       "y": 5206.136,
       "levelId": "0"
@@ -708,7 +708,7 @@
     {
       "id": "kuro:1395525311109955584",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7060.179,
       "y": 5133.854,
       "levelId": "0"
@@ -716,7 +716,7 @@
     {
       "id": "kuro:1395526275287433216",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7090.899,
       "y": 5070.607,
       "levelId": "0"
@@ -724,7 +724,7 @@
     {
       "id": "kuro:1395526942576771072",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7077.346,
       "y": 4996.518,
       "levelId": "0"
@@ -732,7 +732,7 @@
     {
       "id": "kuro:1395527948466601984",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7011.388,
       "y": 5007.36,
       "levelId": "0"
@@ -740,7 +740,7 @@
     {
       "id": "kuro:1396115716020322304",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7202.936,
       "y": 5272.094,
       "levelId": "0"
@@ -748,7 +748,7 @@
     {
       "id": "kuro:1396116985048940544",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7189.384,
       "y": 5255.831,
       "levelId": "0"
@@ -756,7 +756,7 @@
     {
       "id": "kuro:1396135845361827840",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8303.435,
       "y": 3868.913,
       "levelId": "0"
@@ -764,7 +764,7 @@
     {
       "id": "kuro:1396986164334198784",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8309.76,
       "y": 3868.009,
       "levelId": "0"
@@ -772,7 +772,7 @@
     {
       "id": "kuro:1396987250247892992",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8401.92,
       "y": 3767.718,
       "levelId": "0"
@@ -780,7 +780,7 @@
     {
       "id": "kuro:1396988323826139136",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8398.306,
       "y": 3747.84,
       "levelId": "0"
@@ -788,7 +788,7 @@
     {
       "id": "kuro:1396988700608118784",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8430.833,
       "y": 3756.875,
       "levelId": "0"
@@ -796,7 +796,7 @@
     {
       "id": "kuro:1396990780446031872",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8459.746,
       "y": 3774.946,
       "levelId": "0"
@@ -804,7 +804,7 @@
     {
       "id": "kuro:1396991713075429376",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8475.106,
       "y": 3764.104,
       "levelId": "0"
@@ -812,7 +812,7 @@
     {
       "id": "kuro:1396992130252750848",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8489.562,
       "y": 3793.92,
       "levelId": "0"
@@ -820,7 +820,7 @@
     {
       "id": "kuro:1396992600023187456",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8513.958,
       "y": 3821.026,
       "levelId": "0"
@@ -828,7 +828,7 @@
     {
       "id": "kuro:1397004734018830336",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8537.449,
       "y": 3872.527,
       "levelId": "0"
@@ -836,7 +836,7 @@
     {
       "id": "kuro:1397693290333503488",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8540.16,
       "y": 3895.115,
       "levelId": "0"
@@ -844,7 +844,7 @@
     {
       "id": "kuro:1397694425609224192",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8519.379,
       "y": 3912.282,
       "levelId": "0"
@@ -852,7 +852,7 @@
     {
       "id": "kuro:1397695218048204800",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8550.099,
       "y": 3916.8,
       "levelId": "0"
@@ -860,7 +860,7 @@
     {
       "id": "kuro:1397695517232103424",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8542.871,
       "y": 3936.678,
       "levelId": "0"
@@ -868,7 +868,7 @@
     {
       "id": "kuro:1397696029523656704",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8595.275,
       "y": 3946.616,
       "levelId": "0"
@@ -876,7 +876,7 @@
     {
       "id": "kuro:1397696822730194944",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8640.452,
       "y": 3906.861,
       "levelId": "0"
@@ -884,7 +884,7 @@
     {
       "id": "kuro:1397697499267235840",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8626.899,
       "y": 3886.984,
       "levelId": "0"
@@ -892,7 +892,7 @@
     {
       "id": "kuro:1397697988792107008",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8610.635,
       "y": 3870.72,
       "levelId": "0"
@@ -900,7 +900,7 @@
     {
       "id": "kuro:1397698410369990656",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8605.214,
       "y": 3836.386,
       "levelId": "0"
@@ -908,7 +908,7 @@
     {
       "id": "kuro:1397698777971376128",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8591.661,
       "y": 3795.727,
       "levelId": "0"
@@ -916,7 +916,7 @@
     {
       "id": "kuro:1397699365745098752",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8581.722,
       "y": 3779.464,
       "levelId": "0"
@@ -924,7 +924,7 @@
     {
       "id": "kuro:1397701655830151168",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8556.424,
       "y": 3743.322,
       "levelId": "0"
@@ -932,7 +932,7 @@
     {
       "id": "kuro:1397702324449083392",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8547.388,
       "y": 3722.541,
       "levelId": "0"
@@ -940,7 +940,7 @@
     {
       "id": "kuro:1397702858316873728",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8561.845,
       "y": 3710.795,
       "levelId": "0"
@@ -948,7 +948,7 @@
     {
       "id": "kuro:1397708110642446336",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8600.696,
       "y": 3699.049,
       "levelId": "0"
@@ -956,7 +956,7 @@
     {
       "id": "kuro:1397710722209054720",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8688.492,
       "y": 3786.005,
       "levelId": "0"
@@ -964,7 +964,7 @@
     {
       "id": "kuro:1397710734733246464",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8661.233,
       "y": 3723.445,
       "levelId": "0"
@@ -972,7 +972,7 @@
     {
       "id": "kuro:1397711283344015360",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8647.68,
       "y": 3761.393,
       "levelId": "0"
@@ -980,7 +980,7 @@
     {
       "id": "kuro:1397713896844197888",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8701.892,
       "y": 3780.367,
       "levelId": "0"
@@ -988,7 +988,7 @@
     {
       "id": "kuro:1397725943249453056",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8716.348,
       "y": 3779.464,
       "levelId": "0"
@@ -996,7 +996,7 @@
     {
       "id": "kuro:1397726591471484928",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8728.998,
       "y": 3757.779,
       "levelId": "0"
@@ -1004,7 +1004,7 @@
     {
       "id": "kuro:1397729345136918528",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8700.988,
       "y": 3748.744,
       "levelId": "0"
@@ -1012,7 +1012,7 @@
     {
       "id": "kuro:1397730033908006912",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8691.049,
       "y": 3736.998,
       "levelId": "0"
@@ -1020,7 +1020,7 @@
     {
       "id": "kuro:1397731352773345280",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8697.374,
       "y": 3706.278,
       "levelId": "0"
@@ -1028,7 +1028,7 @@
     {
       "id": "kuro:1397731843464970240",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8703.699,
       "y": 3685.496,
       "levelId": "0"
@@ -1036,7 +1036,7 @@
     {
       "id": "kuro:1397732425035317248",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8755.2,
       "y": 3665.619,
       "levelId": "0"
@@ -1044,7 +1044,7 @@
     {
       "id": "kuro:1397734168535449600",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8544.678,
       "y": 3699.049,
       "levelId": "0"
@@ -1052,7 +1052,7 @@
     {
       "id": "kuro:1416768393866158080",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 8523.896,
       "y": 3932.16,
       "levelId": "0"
@@ -1060,7 +1060,7 @@
     {
       "id": "kuro:1416773443107725312",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 7085.478,
       "y": 5143.793,
       "levelId": "0"
@@ -1068,7 +1068,7 @@
     {
       "id": "kuro:1416775002621292544",
       "categoryId": "T_IconC_053_UI",
-      "title": "暗渊引灯",
+      "title": "Ánh sáng từ vực thẳm tối tăm",
       "x": 6989.704,
       "y": 5334.438,
       "levelId": "0"
@@ -1076,182 +1076,182 @@
     {
       "id": "kuro:1398059283729596416",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 8303.48,
       "y": 3889.486,
-      "description": "点击地图，乐曲调律可以直接追踪。这是主线中的调律装置。",
+      "description": "Nhấp vào bản đồ và giai điệu của âm nhạc có thể được theo dõi trực tiếp. Đây là thiết bị điều chỉnh trong đường dây chính.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398061188388601856",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 6844.235,
       "y": 5054.344,
-      "description": "点击地图，乐曲调律可以直接追踪，此为主线已完成调律装置。（图二是解法）",
+      "description": "Bằng cách nhấp vào bản đồ, giai điệu của âm nhạc có thể được theo dõi trực tiếp. Dòng chính này đã hoàn thành thiết bị điều chỉnh. (Hình 2 là lời giải)",
       "levelId": "0"
     },
     {
       "id": "kuro:1398062183646609408",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 6819.849,
       "y": 5159.894,
-      "description": "点击地图，乐曲调律可以直接追踪，第二张图是解密方法。",
+      "description": "Bấm vào bản đồ để theo dõi giai điệu của âm nhạc trực tiếp. Hình ảnh thứ hai là phương pháp giải mã.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398062975132745728",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 7049.318,
       "y": 5389.535,
-      "description": "点击地图，乐曲调律可以直接追踪，第二张图是解密方法。",
+      "description": "Bấm vào bản đồ để theo dõi giai điệu của âm nhạc trực tiếp. Hình ảnh thứ hai là phương pháp giải mã.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398063563815895040",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 5228.933,
       "y": 3871.118,
-      "description": "点击地图，乐曲调律可以直接追踪，第二张图是解密方法。",
+      "description": "Bấm vào bản đồ để theo dõi giai điệu của âm nhạc trực tiếp. Hình ảnh thứ hai là phương pháp giải mã.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398064384687325184",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 5160.861,
       "y": 3598.36,
-      "description": "点击地图，乐曲调律可以直接追踪，此为主线已解锁调律装置。",
+      "description": "Bấm vào bản đồ để theo dõi giai điệu của âm nhạc trực tiếp. Thiết bị điều chỉnh đã được mở khóa cho đường dây chính.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398064916545650688",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 3362.114,
       "y": 3677.166,
-      "description": "点击地图，乐曲调律可以直接追踪，第二张图是解密方法。",
+      "description": "Bấm vào bản đồ để theo dõi giai điệu của âm nhạc trực tiếp. Hình ảnh thứ hai là phương pháp giải mã.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398073727004557312",
       "categoryId": "lqtl",
-      "title": "乐曲调律",
+      "title": "điều chỉnh",
       "x": 8561.845,
       "y": 3758.682,
-      "description": "点击地图，乐曲调律可以直接追踪，第二张图是解密方法。",
+      "description": "Bấm vào bản đồ để theo dõi giai điệu của âm nhạc trực tiếp. Hình ảnh thứ hai là phương pháp giải mã.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419090634280873984",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5280.976,
       "y": 3470.393,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nBức tượng trang bị cung tên, vừa giám sát thành phố Laguna vừa đảm nhận nhiệm vụ liên lạc với Hội Tu Sĩ.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419093201010372608",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5266.348,
       "y": 3418.504,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nBức tượng trang bị cung tên, vừa giám sát thành phố Laguna vừa đảm nhận nhiệm vụ liên lạc với Hội Tu Sĩ.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419093345327984640",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5261.27,
       "y": 3428.659,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nBức tượng trang bị cung tên, vừa giám sát thành phố Laguna vừa đảm nhận nhiệm vụ liên lạc với Hội Tu Sĩ.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419096983140118528",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5231.724,
       "y": 3218.453,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nBức tượng trang bị cung tên, vừa giám sát thành phố Laguna vừa đảm nhận nhiệm vụ liên lạc với Hội Tu Sĩ.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419098007477198848",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5286.894,
       "y": 3136.774,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nBức tượng trang bị cung tên, vừa giám sát thành phố Laguna vừa đảm nhận nhiệm vụ liên lạc với Hội Tu Sĩ.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419098246896496640",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5279.738,
       "y": 3134.47,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nBức tượng trang bị cung tên, vừa giám sát thành phố Laguna vừa đảm nhận nhiệm vụ liên lạc với Hội Tu Sĩ.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419102803370258432",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5358.327,
       "y": 3253.356,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。该敌人衍射伤害抗性提高。\n配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần phải đi đến vị trí ở Hình 2 và tương tác với cánh cổng bên phải của Hình 3 để truyền đến khu vực này trước khi có thể tiến tới. Kẻ địch này có khả năng kháng sát thương nhiễu xạ tăng lên.\nBức tượng có cung tên, vừa giám sát thành phố Laguna vừa đảm nhiệm trách nhiệm liên lạc với Hội Tu sửa.\nMột khi phát hiện người khả nghi hoặc xương thanh âm, sẽ ngay lập tức bắt giữ và đưa họ đến Viện Giới Lệnh để xét xử, đảm bảo sự yên bình trong thành phố không bị quấy phá.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419103005032394752",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5355.409,
       "y": 3259.907,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。该敌人衍射伤害抗性提高。 配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。 一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Chú ý! Cần phải đến vị trí trong Hình 2 trước và tương tác với cổng bên phải của Hình 3 để truyền tới khu vực này trước khi có thể tiến đến. Kẻ địch này có kháng sát thương khúc xạ tăng lên. Tượng có cung tên, vừa giám sát thành Lagúna vừa đảm nhận trách nhiệm liên lạc với hội. Một khi phát hiện người đáng ngờ hoặc xác sống, sẽ lập tức bắt giữ và đưa tới Viện Cảnh Tĩnh để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419294495432024064",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5381.06,
       "y": 3244.809,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往，标点所在区域需从走廊左侧钩锁进入。该敌人衍射伤害抗性提高。 配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần đi đến vị trí hình 2 và tương tác với cánh cửa bên phải hình 3 để dịch chuyển đến khu vực này mới có thể tiến vào, khu vực có dấu chấm cần vào từ công khóa bên trái hành lang. Kẻ thù này gia tăng kháng sát thương khúc xạ. Tượng cung tên, vừa giám sát thành Laguna vừa đảm nhiệm nhiệm vụ liên lạc với Hội tu sửa.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419294990187929600",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5377.138,
       "y": 3263.539,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。该敌人衍射伤害抗性提高。 配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。 一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Chú ý! Cần phải đến vị trí trong Hình 2 trước và tương tác với cổng bên phải của Hình 3 để truyền tới khu vực này trước khi có thể tiến đến. Kẻ địch này có kháng sát thương khúc xạ tăng lên. Tượng có cung tên, vừa giám sát thành Lagúna vừa đảm nhận trách nhiệm liên lạc với hội. Một khi phát hiện người đáng ngờ hoặc xác sống, sẽ lập tức bắt giữ và đưa tới Viện Cảnh Tĩnh để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419296843843805184",
       "categoryId": "SP_IconMonsterHead_31053_UI",
-      "title": "赦罪节使",
+      "title": "Sứ giả của sự xá tội",
       "x": 5404.145,
       "y": 3288.224,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。该敌人衍射伤害抗性提高。 配有弓矢的塑像，在监视拉古那城的同时也肩负着与修会联络的职责。 一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Chú ý! Cần phải đến vị trí trong Hình 2 trước và tương tác với cổng bên phải của Hình 3 để truyền tới khu vực này trước khi có thể tiến đến. Kẻ địch này có kháng sát thương khúc xạ tăng lên. Tượng có cung tên, vừa giám sát thành Lagúna vừa đảm nhận trách nhiệm liên lạc với hội. Một khi phát hiện người đáng ngờ hoặc xác sống, sẽ lập tức bắt giữ và đưa tới Viện Cảnh Tĩnh để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
@@ -1261,7 +1261,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 8700.085,
       "y": 3785.788,
-      "description": "传送到千殁沉岛右方的信标（殁，mo，四声，本意是死亡、终止，现在大多表示隐没），旁边的墙不能攀爬，顺着眼前的道路一直走，也就是第二张图弗洛洛正对的位置一直走，就能找到。过剧情的时候会经过这里。",
+      "description": "Dịch chuyển đến ngọn hải đăng ở phía bên phải của Đảo Thousand Dead (dy, mo, bốn âm thanh, ban đầu có nghĩa là cái chết, chấm dứt, bây giờ chủ yếu có nghĩa là biến mất). Bức tường bên cạnh không thể leo lên được. Chỉ cần đi theo con đường phía trước bạn, nơi Frollo đang đối mặt trong bức tranh thứ hai, và bạn có thể tìm thấy nó. Bạn sẽ đi qua đây khi đi qua cốt truyện.",
       "levelId": "0"
     },
     {
@@ -1270,7 +1270,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 8597.986,
       "y": 3881.562,
-      "description": "这个宝箱，在主线任务的必经道路上，在一个斜坡拐角上方。总之，传送到千殁沉岛左方向的信标，然后沿着道路走，肯定能找到。",
+      "description": "Chiếc rương này nằm trên con đường phải đi của nhiệm vụ chính, phía trên một góc dốc. Tóm lại, đèn hiệu chiếu sáng bên trái đảo Qianlang Sinking, và sau đó đi dọc theo con đường, chắc chắn nó sẽ được tìm thấy.",
       "levelId": "0"
     },
     {
@@ -1279,7 +1279,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 7193.901,
       "y": 5089.581,
-      "description": "信标传送过来就可以看到。主线宝箱",
+      "description": "Bạn có thể nhìn thấy nó khi đèn hiệu được gửi qua. Rương kho báu dòng chính",
       "levelId": "0"
     },
     {
@@ -1288,7 +1288,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 7206.551,
       "y": 5253.12,
-      "description": "主线从运输轨道滑过来，宝箱在左手边",
+      "description": "Tuyến chính trượt qua từ các tuyến đường quá cảnh, với ngực ở phía bên trái",
       "levelId": "0"
     },
     {
@@ -1297,7 +1297,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 7195.708,
       "y": 5209.751,
-      "description": "在拐角外面的悬崖边上",
+      "description": "Ở rìa vách đá bên ngoài góc",
       "levelId": "0"
     },
     {
@@ -1306,7 +1306,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 3186.748,
       "y": 3662.005,
-      "description": "小型信标传送过来就可以看到宝箱，在信标的上方（北方），石柱边。",
+      "description": "Khi đèn hiệu nhỏ được dịch chuyển tức thời, bạn có thể nhìn thấy rương kho báu nằm phía trên đèn hiệu (phía bắc) và bên cạnh cột đá.",
       "levelId": "0"
     },
     {
@@ -1323,7 +1323,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 5486.231,
       "y": 3713.506,
-      "description": "利用弗洛洛给的彼岸花的减缓时间，通过转盘和电球；也可以直接飞过来，然后卡好时间直接开。",
+      "description": "Tận dụng thời gian chạy chậm do Frollo đưa ra để sử dụng bàn xoay và bóng điện; bạn cũng có thể trực tiếp bay qua, sau đó đặt giờ và lái xe trực tiếp.",
       "levelId": "0"
     },
     {
@@ -1332,7 +1332,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 5180.838,
       "y": 3357.515,
-      "description": "Tầng 22 · 蓄能中枢地下地图的宝箱，我强烈建议各位在剧情时候就直接拿了，传送点见图二，从步骤2图片中左侧路口进入。（感谢玩家“三顾喵房”提供图片。）",
+      "description": "Tầng 22 · Rương báu bản đồ dưới lòng đất của trung tâm tích năng lượng, tôi mạnh mẽ khuyên mọi người nên lấy trực tiếp trong lúc làm nhiệm vụ cốt truyện, điểm truyền tới xem hình 2, vào cổng phía bên trái trong hình bước 2. (Cảm ơn người chơi \"Ba lần đến nhà mèo\" cung cấp hình ảnh.)",
       "floorId": "22",
       "levelId": "-1/22"
     },
@@ -1342,7 +1342,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 5241.374,
       "y": 3229.214,
-      "description": "Tầng 22 · 蓄能中枢地下地图的宝箱，我强烈建议各位在剧情时候就直接拿了，单独操作主角的时，在帮助弗洛洛通过长廊的时候可遇见。传送点见图二。（感谢玩家“三顾喵房”提供图片。）",
+      "description": "Tầng 22 · Rương trên bản đồ ngầm Trung tâm Tích Năng. Nên lấy ngay khi làm cốt truyện; có thể gặp khi điều khiển nhân vật hỗ trợ Floro đi qua hành lang. Điểm dịch chuyển xem hình 2. Cảm ơn người chơi SanguMiaofang đã cung cấp ảnh.",
       "floorId": "22",
       "levelId": "-1/22"
     },
@@ -1352,7 +1352,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 5286.551,
       "y": 3223.793,
-      "description": "Tầng 22 · 蓄能中枢地下地图的宝箱，我强烈建议各位在剧情时候就直接拿了，传送点见图二。（感谢玩家“三顾喵房”提供图片。）",
+      "description": "Tầng 22 · Rương trên bản đồ ngầm Trung tâm Tích Năng. Nên lấy ngay khi làm cốt truyện; điểm dịch chuyển xem hình 2. Cảm ơn người chơi SanguMiaofang đã cung cấp ảnh.",
       "floorId": "22",
       "levelId": "-1/22"
     },
@@ -1362,7 +1362,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 3377.393,
       "y": 3675.558,
-      "description": "在标点与附近装置互动，朝拜完成后出现宝箱，装置是图二小卡面前的台子（标点由玩家kirsly提供）",
+      "description": "Tương tác với thiết bị lân cận tại dấu chấm câu. Sau khi cuộc hành hương hoàn thành, một hộp kho báu sẽ xuất hiện. Thiết bị là bệ phía trước thẻ trong Hình 2 (dấu chấm câu do người chơi Kirsly cung cấp)",
       "levelId": "0"
     },
     {
@@ -1371,7 +1371,7 @@
       "title": "Rương tinh xảo",
       "x": 8288.075,
       "y": 3905.958,
-      "description": "剧情过到这里就会看到，千殁沉岛右方向信标，传送过来就可以看到。",
+      "description": "Bạn sẽ thấy nó khi bạn đi đến điểm này trong cốt truyện. Bạn có thể nhìn thấy đèn hiệu ở phía bên phải của Thousand Dead Island. Bạn có thể nhìn thấy nó bằng cách dịch chuyển tức thời.",
       "levelId": "0"
     },
     {
@@ -1380,7 +1380,7 @@
       "title": "Rương tinh xảo",
       "x": 6876.762,
       "y": 5092.292,
-      "description": "如果标点有地下标志，是因为我手动调过位置。过剧情的时候会路过这个宝箱，小型信标传送过后，在小型星标的右下角（东南方）。",
+      "description": "Nếu có biển báo ngầm ở các dấu câu là do tôi đã tự tay điều chỉnh vị trí. Bạn sẽ vượt qua rương kho báu này khi đi qua cốt truyện. Sau khi đèn hiệu nhỏ được dịch chuyển tức thời, nó sẽ ở góc dưới bên phải (phía đông nam) của ngôi sao nhỏ.",
       "levelId": "0"
     },
     {
@@ -1389,7 +1389,7 @@
       "title": "Rương tinh xảo",
       "x": 5465.449,
       "y": 3610.504,
-      "description": "这个宝箱走过来的时候，肯定会看到一个传电装置，启动它，并且使用彼岸花，否则这个宝箱的大门是封住的。",
+      "description": "Khi rương kho báu này đến, nó chắc chắn sẽ thấy một thiết bị truyền tải điện, kích hoạt nó và sử dụng bông hoa bên bờ kia, nếu không cánh cửa của rương kho báu này sẽ bị niêm phong.",
       "levelId": "0"
     },
     {
@@ -1398,7 +1398,7 @@
       "title": "Rương tinh xảo",
       "x": 5430.212,
       "y": 3254.513,
-      "description": "Tầng 22 · 蓄能中枢地下地图的宝箱，我强烈建议各位在剧情时候就直接拿了，剧情中单独操作弗洛洛的时候，经过类似通风管的通道之后，在出通风管的房间。传送点见图二。（感谢玩家“三顾喵房”提供图片。）",
+      "description": "Tầng 22 · Rương trên bản đồ ngầm Trung tâm Tích Năng. Nên lấy ngay khi làm cốt truyện: lúc điều khiển riêng Floro, đi qua đường ống thông gió và vào căn phòng ở đầu ra. Điểm dịch chuyển xem hình 2. Cảm ơn người chơi SanguMiaofang đã cung cấp ảnh.",
       "floorId": "22",
       "levelId": "-1/22"
     },
@@ -1408,58 +1408,58 @@
       "title": "Rương tinh xảo",
       "x": 2305.807,
       "y": 5783.492,
-      "description": "完成主线任务途中可获得（标点由玩家kirsly提供）",
+      "description": "Nhận được khi hoàn thành nhiệm vụ chính (dấu câu do người chơi Kirsly cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1398048570080477184",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 7170.409,
       "y": 5068.8,
-      "description": "地图可以直接追踪老虎机，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Bản đồ có thể theo dõi trực tiếp máy đánh bạc, đồng thời có thể được giải mã bằng cách sử dụng hoa dâm bụt do Frollo tặng trong dòng chính.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398049354549936128",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 7147.821,
       "y": 5281.129,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398050125861470208",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 7062.474,
       "y": 5404.416,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398050917829558272",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 6926.42,
       "y": 5223.267,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398051398710706176",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 6847.389,
       "y": 5110.76,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398051740555264000",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5365.465,
       "y": 3828.363,
       "levelId": "0"
@@ -1467,74 +1467,74 @@
     {
       "id": "kuro:1398052246186606592",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5164.538,
       "y": 3833.829,
-      "description": "在废水中间，可以直接飞过来，用弗洛洛给的彼岸花进行时间减速，攻击同时出现的三个图案",
+      "description": "Ở giữa dòng nước thải, bạn có thể trực tiếp bay tới, sử dụng Higanbana do Frollo đưa ra để làm chậm thời gian và tấn công ba hình mẫu xuất hiện cùng lúc.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398054295993696256",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5149.07,
       "y": 3653.493,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398054960882761728",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5389.625,
       "y": 3482.284,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。这三个雷电球，在解密之后就会消失，三个控能装置也要用弗洛洛的彼岸花去控制。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó. Ba quả cầu sét này sẽ biến mất sau khi được giải mã, đồng thời ba thiết bị điều khiển năng lượng cũng phải được điều khiển bằng Higanbana của Frollo.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398055542842834944",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5041.342,
       "y": 3669.495,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398056599375036416",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 3376.625,
       "y": 3696.095,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。旁边的NPC【「服事人」巴德勒】可以兑换物资，星声和周本材料之类的。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó. NPC [\"Người hầu\" Badler] bên cạnh anh ta có thể đổi lấy vật tư, âm thanh của ngôi sao, nguyên liệu Chu Bản và những thứ tương tự.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398057845717057536",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5456.468,
       "y": 3624.4,
-      "description": "点击地图，圣箱寻物可以直接追踪，同时，使用主线中弗洛洛给的彼岸花可以解密。这个位置的箱子，需要传送一下电力才能开门，用彼岸花就很方便。",
+      "description": "Nhấp vào bản đồ để theo dõi trực tiếp các đồ vật được tìm thấy trong Hộp Thánh. Đồng thời, bạn có thể sử dụng Hoa dâm bụt do Frollo tặng ở tuyến chính để giải mã nó. Hộp ở vị trí này cần truyền điện để mở cửa. Nó rất thuận tiện để sử dụng Bianhua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1399444274875187200",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5193.487,
       "y": 3284.329,
-      "description": "Tầng 22 · 在主线过程中单独操作主角时可遇到，用弗洛洛给的彼岸花让时间暂停之后，看到三个同样的攻击就可（标点由玩家雲开提供）",
+      "description": "Tầng 22 · Trong quá trình cốt truyện chính, gặp khi điều khiển nhân vật chính một mình, dùng bông hoa bên bờ Flolo đưa để tạm dừng thời gian, thấy ba công kích giống nhau thì có thể thực hiện (dấu câu do người chơi Vân Khai cung cấp)",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1399444274967461888",
       "categoryId": "sxxw",
-      "title": "圣箱寻物",
+      "title": "Nhiệm vụ rương thánh",
       "x": 5280.226,
       "y": 3127.115,
-      "description": "Tầng 22 · 在主线过程中单独操控主角时可遇到，使用弗洛洛给的彼岸花时间变慢之后攻击三个相同图案可打开（标点由玩家雲开提供）",
+      "description": "Tầng 22 · Trong quá trình cốt truyện chính, có thể gặp khi điều khiển nhân vật chính một mình, sử dụng bông hoa bên bờ mà Flolo trao để làm chậm thời gian rồi tấn công ba hình giống nhau có thể mở ra (dấu câu do người chơi Vân Khai cung cấp)",
       "floorId": "22",
       "levelId": "-1/22"
     },
@@ -1544,43 +1544,43 @@
       "title": "Rương đơn sơ",
       "x": 8543.774,
       "y": 3682.786,
-      "description": "路线图请看第二张图，画圈位置是个小分岔路，千万别走歪了。",
+      "description": "Vui lòng xem hình ảnh thứ hai để biết bản đồ tuyến đường. Vị trí được khoanh tròn là một ngã ba nhỏ trên đường nên đừng đi lạc nhé.",
       "levelId": "0"
     },
     {
       "id": "kuro:1420096159424487424",
       "categoryId": "SP_IconMonsterHead_31055_UI",
-      "title": "小翼龙·气动",
+      "title": "Thằn lằn bay nhỏ·khí nén",
       "x": 8572.94,
       "y": 3780.665,
-      "description": "该敌人气动伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间回旋着迅疾气流，多以群居的形式活跃于野外。",
+      "description": "Khả năng chống chịu sát thương khí động học của kẻ thù này được tăng lên.\nTàn tích của loài thằn lằn bay bắt chước thô sơ, với các luồng không khí nhanh xoáy giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.",
       "levelId": "0"
     },
     {
       "id": "kuro:1420096290517495808",
       "categoryId": "SP_IconMonsterHead_31055_UI",
-      "title": "小翼龙·气动",
+      "title": "Thằn lằn bay nhỏ·khí nén",
       "x": 8577.385,
       "y": 3775.714,
-      "description": "该敌人气动伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间回旋着迅疾气流，多以群居的形式活跃于野外。",
+      "description": "Khả năng chống chịu sát thương khí động học của kẻ thù này được tăng lên.\nTàn tích của loài thằn lằn bay bắt chước thô sơ, với các luồng không khí nhanh xoáy giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.",
       "levelId": "0"
     },
     {
       "id": "kuro:1410070551658893312",
       "categoryId": "SP_IconMap_Play_46_UI",
-      "title": "彼岸之镜",
+      "title": "Gương bờ bên kia",
       "x": 2637.294,
       "y": 7311.486,
-      "description": "完成主线任务第二章第七幕后更佳...... \n未能达成完美的彼岸暂时消失在了世界上，可破碎的镜片仍在海水下倒映着来自过去的偏执与希望。无论何时走进去，重生的欢声笑语都将环绕在耳畔，昭示着这片往生岸所能走向的永恒。",
+      "description": "Thậm chí còn tuyệt vời hơn sau khi hoàn thành cảnh thứ bảy của Chương 2 của nhiệm vụ chính...\nPhía bên kia không đạt được sự hoàn hảo đã tạm thời biến mất khỏi thế giới, và cặp kính vỡ vẫn phản chiếu nỗi hoang tưởng và hy vọng từ quá khứ dưới làn nước biển. Bất cứ khi nào bạn bước vào, tiếng cười và tiếng cười của sự tái sinh sẽ vây quanh tai bạn, cho thấy bờ cõi chết này có thể dẫn tới sự vĩnh hằng.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419080842380353536",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 5189.493,
       "y": 3630.435,
-      "description": "Tầng 22 · 蓄能中枢下层入口",
+      "description": "Tầng 22 · Lối vào tầng dưới Trung tâm tích năng",
       "floorId": "22",
       "levelId": "-1000000/22"
     },
@@ -1590,13 +1590,13 @@
       "title": "Rương huy quang",
       "x": 5024.527,
       "y": 3841.807,
-      "description": "剧情做到这里时会出现",
+      "description": "Nó sẽ xuất hiện khi cốt truyện đạt đến điểm này",
       "levelId": "0"
     },
     {
       "id": "kuro:1397712275929513984",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 8524.213,
       "y": 3912.237,
       "levelId": "0"
@@ -1604,7 +1604,7 @@
     {
       "id": "kuro:1397714058684874752",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 7245.122,
       "y": 5139.176,
       "levelId": "0"
@@ -1612,7 +1612,7 @@
     {
       "id": "kuro:1397714698014244864",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 7194.76,
       "y": 5260.131,
       "levelId": "0"
@@ -1620,7 +1620,7 @@
     {
       "id": "kuro:1397715216972021760",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 6967.965,
       "y": 5257.565,
       "levelId": "0"
@@ -1628,7 +1628,7 @@
     {
       "id": "kuro:1397715242100097024",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 6971.66,
       "y": 5261.83,
       "levelId": "0"
@@ -1636,7 +1636,7 @@
     {
       "id": "kuro:1397715980142411776",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 6829.562,
       "y": 5168.902,
       "levelId": "0"
@@ -1644,7 +1644,7 @@
     {
       "id": "kuro:1397718570782900224",
       "categoryId": "320000420",
-      "title": "裁夺者",
+      "title": "trọng tài",
       "x": 5161.15,
       "y": 3718.168,
       "levelId": "0"
@@ -1652,103 +1652,103 @@
     {
       "id": "kuro:1395426205393911808",
       "categoryId": "SP_IconMap_Shop_08_UI_2",
-      "title": "「服事人」物资站",
+      "title": "Trạm cung cấp \"Phục vụ mọi người\"",
       "x": 3372.875,
       "y": 3694.532,
-      "description": "位于隐海试验场-朝拜圣所",
+      "description": "Tọa lạc tại Địa điểm thử nghiệm Hidden Sea-Thánh địa hành hương",
       "levelId": "0"
     },
     {
       "id": "kuro:1418202115811352576",
       "categoryId": "SP_IconMonsterHead_32031_UI",
-      "title": "重塑雕像的拳砾",
+      "title": "Định hình lại sỏi của bức tượng",
       "x": 7202.539,
       "y": 5048.579,
-      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nĐó là một tác phẩm điêu khắc bằng đá bắt chước tượng trưng cho sự giải cấu trúc và tái thiết. Chuyển động của nó cồng kềnh và chậm chạp, nhưng sức mạnh đấm của nó thật đáng kinh ngạc. Nó có thể ném đá và đá non từ khoảng cách xa và sử dụng nó như một trong những phương tiện tấn công.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418202820567707648",
       "categoryId": "SP_IconMonsterHead_32031_UI",
-      "title": "重塑雕像的拳砾",
+      "title": "Định hình lại sỏi của bức tượng",
       "x": 6981.933,
       "y": 5322.439,
-      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nĐó là một tác phẩm điêu khắc bằng đá bắt chước tượng trưng cho sự giải cấu trúc và tái thiết. Chuyển động của nó cồng kềnh và chậm chạp, nhưng sức mạnh đấm của nó thật đáng kinh ngạc. Nó có thể ném đá và đá non từ khoảng cách xa và sử dụng nó như một trong những phương tiện tấn công.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418203367345528832",
       "categoryId": "SP_IconMonsterHead_32031_UI",
-      "title": "重塑雕像的拳砾",
+      "title": "Định hình lại sỏi của bức tượng",
       "x": 8504.181,
       "y": 3772.904,
-      "description": "该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nĐó là một tác phẩm điêu khắc bằng đá bắt chước tượng trưng cho sự giải cấu trúc và tái thiết. Chuyển động của nó cồng kềnh và chậm chạp, nhưng sức mạnh đấm của nó thật đáng kinh ngạc. Nó có thể ném đá và đá non từ khoảng cách xa và sử dụng nó như một trong những phương tiện tấn công.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419090990528278528",
       "categoryId": "SP_IconMonsterHead_32033_UI",
-      "title": "荣光节使",
+      "title": "Đại sứ vinh quang",
       "x": 5284.382,
       "y": 3471.387,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n拥有指挥调度其他节使的权限，遵从修会的指令对所有忤逆者进行清除。\n权威不可侵犯，修会不容质疑。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nCó quyền chỉ huy và điều phối các sứ giả khác, tuân theo lệnh của Hội Tu Sĩ để loại bỏ tất cả kẻ phản nghịch.\nQuyền uy không thể xâm phạm, Hội Tu Sĩ không chịu nghi ngờ.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419096785575817216",
       "categoryId": "SP_IconMonsterHead_32033_UI",
-      "title": "荣光节使",
+      "title": "Đại sứ vinh quang",
       "x": 5232.42,
       "y": 3222.149,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n拥有指挥调度其他节使的权限，遵从修会的指令对所有忤逆者进行清除。\n权威不可侵犯，修会不容质疑。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nCó quyền chỉ huy và điều phối các sứ giả khác, tuân theo lệnh của Hội Tu Sĩ để loại bỏ tất cả kẻ phản nghịch.\nQuyền uy không thể xâm phạm, Hội Tu Sĩ không chịu nghi ngờ.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419097826216194048",
       "categoryId": "SP_IconMonsterHead_32033_UI",
-      "title": "荣光节使",
+      "title": "Đại sứ vinh quang",
       "x": 5282.738,
       "y": 3134.696,
-      "description": "Tầng 22 · 该敌人衍射伤害抗性提高。\n拥有指挥调度其他节使的权限，遵从修会的指令对所有忤逆者进行清除。\n权威不可侵犯，修会不容质疑。",
+      "description": "Tầng 22 · Sát thương tán xạ của kẻ thù này được tăng sức chống.\nCó quyền chỉ huy và điều phối các sứ giả khác, tuân theo lệnh của Hội Tu Sĩ để loại bỏ tất cả kẻ phản nghịch.\nQuyền uy không thể xâm phạm, Hội Tu Sĩ không chịu nghi ngờ.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419103490103652352",
       "categoryId": "SP_IconMonsterHead_32033_UI",
-      "title": "荣光节使",
+      "title": "Đại sứ vinh quang",
       "x": 5361.598,
       "y": 3259.04,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。该敌人衍射伤害抗性提高。\n拥有指挥调度其他节使的权限，遵从修会的指令对所有忤逆者进行清除。\n权威不可侵犯，修会不容质疑。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần phải đi đến vị trí ở Hình 2 và tương tác với cổng bên phải của Hình 3 để truyền đến khu vực này trước khi có thể tiến tới. Kẻ địch này có khả năng kháng sát thương nhiễu xạ tăng lên.\nCó quyền chỉ huy và điều động các sứ giả khác, tuân theo chỉ thị của Hội Tu sửa để tiêu diệt tất cả kẻ phản nghịch.\nQuyền uy không thể xâm phạm, Hội Tu sửa không thể bị chất vấn.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419292898857623552",
       "categoryId": "SP_IconMonsterHead_32033_UI",
-      "title": "荣光节使",
+      "title": "Đại sứ vinh quang",
       "x": 5348.533,
       "y": 3219.275,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往，标点所在区域需从走廊左侧钩锁进入。该敌人衍射伤害抗性提高。 拥有指挥调度其他节使的权限，遵从修会的指令对所有忤逆者进行清除。 权威不可侵犯，修会不容质疑。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần đi đến vị trí hình 2 và tương tác với cánh cửa bên phải hình 3 để dịch chuyển đến khu vực này mới có thể tiến vào, khu vực có dấu chấm cần vào từ công khóa bên trái hành lang. Kẻ thù này gia tăng kháng sát thương khúc xạ. Có quyền chỉ huy điều động các triều sứ khác, tuân theo chỉ thị của Hội để loại bỏ tất cả những kẻ bất phục tùng. Quyền lực không thể xâm phạm, Hội không cho phép bị nghi ngờ.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419293791875276800",
       "categoryId": "SP_IconMonsterHead_32033_UI",
-      "title": "荣光节使",
+      "title": "Đại sứ vinh quang",
       "x": 5385.957,
       "y": 3243.228,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往，标点所在区域需从走廊左侧钩锁进入。该敌人衍射伤害抗性提高。 拥有指挥调度其他节使的权限，遵从修会的指令对所有忤逆者进行清除。 权威不可侵犯，修会不容质疑。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần đi đến vị trí hình 2 và tương tác với cánh cửa bên phải hình 3 để dịch chuyển đến khu vực này mới có thể tiến vào, khu vực có dấu chấm cần vào từ công khóa bên trái hành lang. Kẻ thù này gia tăng kháng sát thương khúc xạ. Có quyền chỉ huy điều động các triều sứ khác, tuân theo chỉ thị của Hội để loại bỏ tất cả những kẻ bất phục tùng. Quyền lực không thể xâm phạm, Hội không cho phép bị nghi ngờ.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1397712408403148800",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 8521.737,
       "y": 3907.783,
       "levelId": "0"
@@ -1756,7 +1756,7 @@
     {
       "id": "kuro:1397712425805316096",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 8529.652,
       "y": 3909.518,
       "levelId": "0"
@@ -1764,7 +1764,7 @@
     {
       "id": "kuro:1397712478167007232",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 8529.164,
       "y": 3916.195,
       "levelId": "0"
@@ -1772,7 +1772,7 @@
     {
       "id": "kuro:1397714111671517184",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 7243.397,
       "y": 5140.034,
       "levelId": "0"
@@ -1780,7 +1780,7 @@
     {
       "id": "kuro:1397714640519462912",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 7190.206,
       "y": 5261.83,
       "levelId": "0"
@@ -1788,7 +1788,7 @@
     {
       "id": "kuro:1397714658130608128",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 7198.735,
       "y": 5261.261,
       "levelId": "0"
@@ -1796,7 +1796,7 @@
     {
       "id": "kuro:1397715296092635136",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 6963.42,
       "y": 5261.261,
       "levelId": "0"
@@ -1804,7 +1804,7 @@
     {
       "id": "kuro:1397715313424236544",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 6975.925,
       "y": 5263.538,
       "levelId": "0"
@@ -1812,7 +1812,7 @@
     {
       "id": "kuro:1397715338388733952",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 6970.242,
       "y": 5266.944,
       "levelId": "0"
@@ -1820,7 +1820,7 @@
     {
       "id": "kuro:1397715907609575424",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 6825.867,
       "y": 5175.435,
       "levelId": "0"
@@ -1828,7 +1828,7 @@
     {
       "id": "kuro:1397715946260824064",
       "categoryId": "310000620",
-      "title": "残星·深海造匠",
+      "title": "Ngôi sao vỡ ·Thợ thủ công biển sâu",
       "x": 6838.371,
       "y": 5169.471,
       "levelId": "0"
@@ -1836,88 +1836,88 @@
     {
       "id": "kuro:1407774241597771776",
       "categoryId": "myjl",
-      "title": "梦魇聚落",
+      "title": "Giải quyết cơn ác mộng",
       "x": 8540.16,
       "y": 3671.944,
-      "description": "该地区每日将会固定刷新一定数量的梦魇残象，击败梦魇残象后，可以获取独特的梦魇声骸",
+      "description": "Một số lượng nhất định tàn dư của cơn ác mộng sẽ được làm mới ở khu vực này mỗi ngày. Sau khi đánh bại tàn dư của cơn ác mộng, bạn có thể thu được những bộ xương có âm thanh ác mộng độc đáo.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398067164780675072",
       "categoryId": "ynwh",
-      "title": "运能维护",
+      "title": "Bảo trì công suất",
       "x": 4979.351,
       "y": 3624.056,
-      "description": "地图上可以直接追踪，开启机关之后依次从左往右踩石板，速度快可以直接踩，慢点可以配合弗洛洛给的彼岸花进行时间减速进行操作，完成之后会获得精密宝箱。",
+      "description": "Nó có thể được theo dõi trực tiếp trên bản đồ. Sau khi bật cơ, bước lên các phiến đá theo thứ tự từ trái sang phải. Nếu nhanh tay có thể dẫm trực tiếp lên đó. Nếu chậm chân, bạn có thể phối hợp với Higanbana do Frollo đưa ra để làm thời gian chậm lại. Sau khi hoàn thành, bạn sẽ nhận được một hộp kho báu chính xác.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398067993093193728",
       "categoryId": "ynwh",
-      "title": "运能维护",
+      "title": "Bảo trì công suất",
       "x": 5433.293,
       "y": 3759.866,
-      "description": "地图可以追踪运能维护的挑战，完成之后有基准宝箱。在上面，从信标跑过来后要爬上去才能见到，开启机关之后踩到前面的石板就可以",
+      "description": "Bản đồ có thể theo dõi những thách thức trong việc bảo trì phương tiện giao thông và sẽ có rương kho báu chuẩn sau khi hoàn thành. Trên đỉnh, bạn phải leo lên sau khi chạy từ đèn hiệu để xem nó. Sau khi bật cơ, chỉ cần bước lên phiến đá phía trước.",
       "levelId": "0"
     },
     {
       "id": "kuro:1398069105615159296",
       "categoryId": "ynwh",
-      "title": "运能维护",
+      "title": "Bảo trì công suất",
       "x": 5321.391,
       "y": 3554.458,
-      "description": "大地图可以追踪运能维护挑战，完成之后有一个精密宝箱。（先开启开关，然后用弗洛洛给的彼岸花能力让时间变慢，先去踩到右边的石板之后取消能力，等电过了之后在去踩左边的石板即可完成）",
+      "description": "Bản đồ lớn có thể theo dõi các thách thức bảo trì phương tiện giao thông và có rương kho báu chính xác sau khi hoàn thành chúng. (Đầu tiên hãy bật công tắc, sau đó sử dụng khả năng Higanbana do Frollo ban tặng để làm chậm thời gian. Đầu tiên bước lên phiến đá bên phải rồi hủy bỏ khả năng. Sau khi hết điện, bước lên phiến đá bên trái để hoàn thành)",
       "levelId": "0"
     },
     {
       "id": "kuro:1397720992335691776",
       "categoryId": "310000640",
-      "title": "梦魇·破霜猎手",
+      "title": "Ác mộng·Thợ săn băng giá",
       "x": 8539.988,
       "y": 3674.591,
-      "description": "千殁沉岛梦魇聚落掉落，该敌人冷凝伤害抗性提高。\n隐藏在梦境节点所构建的网络中的特殊残象，汇聚了某种负面情感的频率。",
+      "description": "Rơi ra từ Khu định cư Ác mộng trên Quần đảo Thousand Dead, khả năng chống sát thương ngưng tụ của kẻ địch được tăng lên.\nNhững dư ảnh đặc biệt ẩn trong mạng lưới được xây dựng bởi các nút giấc mơ tập hợp tần số của những cảm xúc tiêu cực nhất định.",
       "levelId": "0"
     },
     {
       "id": "kuro:1397609351736623104",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 6890.315,
       "y": 5011.878,
-      "description": "在标点附近击败怪物后解锁",
+      "description": "Mở khóa sau khi đánh bại quái vật gần dấu chấm câu",
       "levelId": "0"
     },
     {
       "id": "kuro:1397610453865496576",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 8562.748,
       "y": 3706.278,
-      "description": "在标点附近击败怪物后解锁，位置在通道内",
+      "description": "Mở khóa sau khi đánh bại quái vật gần dấu chấm câu, nằm trong đoạn văn",
       "levelId": "0"
     },
     {
       "id": "kuro:1397611232844218368",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 5004.649,
       "y": 3805.666,
-      "description": "击败标点附近怪物后解锁",
+      "description": "Mở khóa sau khi tiêu diệt quái vật gần dấu chấm câu",
       "levelId": "0"
     },
     {
       "id": "kuro:1396982016847020032",
       "categoryId": "340000150",
-      "title": "芬莱克",
+      "title": "Finlake",
       "x": 2028.424,
       "y": 5782.588,
-      "description": "当黑潮从脸上剥离，行至末路的他终于恢复清明——即使形殁，仍可留下希望与救赎。\n他将永眠于幽暗的海底，那里亦是归途。",
+      "description": "Khi làn sóng đen tối bóc tách khỏi khuôn mặt, anh cuối cùng cũng lấy lại được sự tỉnh táo ở cuối hành trình - dù đã chết nhưng anh vẫn có thể để lại hy vọng và sự cứu chuộc.\nAnh sẽ ngủ mãi dưới đáy biển tối tăm, nơi anh sẽ trở về.",
       "levelId": "0"
     },
     {
       "id": "kuro:1395359646930911232",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 8316.988,
       "y": 3886.08,
       "levelId": "0"
@@ -1925,7 +1925,7 @@
     {
       "id": "kuro:1395362783075663872",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 8761.525,
       "y": 3656.584,
       "levelId": "0"
@@ -1933,7 +1933,7 @@
     {
       "id": "kuro:1395365911002300416",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 6860.499,
       "y": 5084.16,
       "levelId": "0"
@@ -1941,7 +1941,7 @@
     {
       "id": "kuro:1395401543825915904",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 7195.708,
       "y": 5107.652,
       "levelId": "0"
@@ -1949,7 +1949,7 @@
     {
       "id": "kuro:1395408963390308352",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 3186.748,
       "y": 3686.4,
       "levelId": "0"
@@ -1957,7 +1957,7 @@
     {
       "id": "kuro:1395419444577779712",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 5061.454,
       "y": 3861.893,
       "levelId": "0"
@@ -1965,7 +1965,7 @@
     {
       "id": "kuro:1395419817921904640",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 5376.461,
       "y": 3803.226,
       "levelId": "0"
@@ -1973,88 +1973,88 @@
     {
       "id": "kuro:1417629816016117760",
       "categoryId": "SP_IconMonsterHead_31044_UI",
-      "title": "云海妖精",
+      "title": "Nàng Tiên Biển Mây",
       "x": 7043.915,
       "y": 5231.435,
-      "description": "本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "description": "Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417630275686670336",
       "categoryId": "SP_IconMonsterHead_31044_UI",
-      "title": "云海妖精",
+      "title": "Nàng Tiên Biển Mây",
       "x": 7043.915,
       "y": 5235.953,
-      "description": "本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "description": "Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417630916370837504",
       "categoryId": "SP_IconMonsterHead_31044_UI",
-      "title": "云海妖精",
+      "title": "Nàng Tiên Biển Mây",
       "x": 7080.96,
       "y": 5228.725,
-      "description": "本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "description": "Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417631235842584576",
       "categoryId": "SP_IconMonsterHead_31044_UI",
-      "title": "云海妖精",
+      "title": "Nàng Tiên Biển Mây",
       "x": 7090.899,
       "y": 5225.111,
-      "description": "本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "description": "Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417631555368857600",
       "categoryId": "SP_IconMonsterHead_31044_UI",
-      "title": "云海妖精",
+      "title": "Nàng Tiên Biển Mây",
       "x": 7087.285,
       "y": 5233.242,
-      "description": "本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "description": "Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417631884500049920",
       "categoryId": "SP_IconMonsterHead_31044_UI",
-      "title": "云海妖精",
+      "title": "Nàng Tiên Biển Mây",
       "x": 7086.381,
       "y": 5226.918,
-      "description": "本是云海中的回音生物，因频率的衰变成为了残象，为此终日忧伤。",
+      "description": "Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419673797944188928",
       "categoryId": "SP_IconMonsterHead_31057_UI",
-      "title": "小翼龙·冷凝",
+      "title": "Little Pterosaur·Ngưng tụ",
       "x": 6830.971,
       "y": 5229.764,
-      "description": "该敌人冷凝伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间凝结着刺骨寒霜，多以群居的形式活跃于野外。\n拥有着与身形不相匹配的领地意识，利用吐息与撕咬进行攻击，在将擅闯者驱离前绝不善罢甘休。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nNhững tàn dư thô sơ của loài thằn lằn bay bắt chước, với sương giá dày đặc ngưng tụ giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.\nNó có cảm giác về lãnh thổ không phù hợp với kích thước cơ thể, sử dụng hơi thở và vết cắn để tấn công và sẽ không nghỉ ngơi cho đến khi xua đuổi được những kẻ xâm nhập.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419674000742981632",
       "categoryId": "SP_IconMonsterHead_31057_UI",
-      "title": "小翼龙·冷凝",
+      "title": "Little Pterosaur·Ngưng tụ",
       "x": 6834.549,
       "y": 5234.372,
-      "description": "该敌人冷凝伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间凝结着刺骨寒霜，多以群居的形式活跃于野外。\n拥有着与身形不相匹配的领地意识，利用吐息与撕咬进行攻击，在将擅闯者驱离前绝不善罢甘休。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nNhững tàn dư thô sơ của loài thằn lằn bay bắt chước, với sương giá dày đặc ngưng tụ giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.\nNó có cảm giác về lãnh thổ không phù hợp với kích thước cơ thể, sử dụng hơi thở và vết cắn để tấn công và sẽ không nghỉ ngơi cho đến khi xua đuổi được những kẻ xâm nhập.",
       "levelId": "0"
     },
     {
       "id": "kuro:1420096662099238912",
       "categoryId": "SP_IconMonsterHead_31057_UI",
-      "title": "小翼龙·冷凝",
+      "title": "Little Pterosaur·Ngưng tụ",
       "x": 8583.575,
       "y": 3778.434,
-      "description": "该敌人冷凝伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间凝结着刺骨寒霜，多以群居的形式活跃于野外。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nNhững tàn dư thô sơ của loài thằn lằn bay bắt chước, với sương giá dày đặc ngưng tụ giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.",
       "levelId": "0"
     },
     {
       "id": "kuro:1396588084668874752",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8767.849,
       "y": 3671.04,
       "levelId": "0"
@@ -2062,7 +2062,7 @@
     {
       "id": "kuro:1396588482679701504",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8769.656,
       "y": 3673.751,
       "levelId": "0"
@@ -2070,7 +2070,7 @@
     {
       "id": "kuro:1396588614220726272",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8764.235,
       "y": 3675.558,
       "levelId": "0"
@@ -2078,7 +2078,7 @@
     {
       "id": "kuro:1396588724590379008",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8752.489,
       "y": 3668.329,
       "levelId": "0"
@@ -2086,7 +2086,7 @@
     {
       "id": "kuro:1396588833701003264",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8750.682,
       "y": 3670.136,
       "levelId": "0"
@@ -2094,7 +2094,7 @@
     {
       "id": "kuro:1396588943050702848",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8757.911,
       "y": 3657.487,
       "levelId": "0"
@@ -2102,7 +2102,7 @@
     {
       "id": "kuro:1396589044048805888",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8760.621,
       "y": 3652.969,
       "levelId": "0"
@@ -2110,7 +2110,7 @@
     {
       "id": "kuro:1396589120247463936",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8765.139,
       "y": 3656.584,
       "levelId": "0"
@@ -2118,7 +2118,7 @@
     {
       "id": "kuro:1396589225309847552",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8772.367,
       "y": 3661.101,
       "levelId": "0"
@@ -2126,7 +2126,7 @@
     {
       "id": "kuro:1396589315425206272",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8774.174,
       "y": 3661.101,
       "levelId": "0"
@@ -2134,7 +2134,7 @@
     {
       "id": "kuro:1396589403446870016",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8776.885,
       "y": 3663.812,
       "levelId": "0"
@@ -2142,7 +2142,7 @@
     {
       "id": "kuro:1396589478129909760",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 8775.981,
       "y": 3665.619,
       "levelId": "0"
@@ -2150,7 +2150,7 @@
     {
       "id": "kuro:1396589547323342848",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7192.094,
       "y": 5104.038,
       "levelId": "0"
@@ -2158,7 +2158,7 @@
     {
       "id": "kuro:1396589619557646336",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7186.673,
       "y": 5099.52,
       "levelId": "0"
@@ -2166,7 +2166,7 @@
     {
       "id": "kuro:1396589695923339264",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7184.866,
       "y": 5096.809,
       "levelId": "0"
@@ -2174,7 +2174,7 @@
     {
       "id": "kuro:1396589768489730048",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7189.384,
       "y": 5094.099,
       "levelId": "0"
@@ -2182,7 +2182,7 @@
     {
       "id": "kuro:1396589869710131200",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7198.419,
       "y": 5095.002,
       "levelId": "0"
@@ -2190,7 +2190,7 @@
     {
       "id": "kuro:1396590054532874240",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7196.612,
       "y": 5099.52,
       "levelId": "0"
@@ -2198,7 +2198,7 @@
     {
       "id": "kuro:1396590125466943488",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7200.226,
       "y": 5101.327,
       "levelId": "0"
@@ -2206,7 +2206,7 @@
     {
       "id": "kuro:1396590204785426432",
       "categoryId": "T_IconC_054_UI",
-      "title": "“来生”",
+      "title": "\"Đời sau\"",
       "x": 7204.744,
       "y": 5101.327,
       "levelId": "0"
@@ -2214,7 +2214,7 @@
     {
       "id": "kuro:1397712502133260288",
       "categoryId": "SP_IconMonsterHead_972_UI",
-      "title": "残星·重锤造匠",
+      "title": "Ngôi sao vỡ · Thợ rèn",
       "x": 8522.731,
       "y": 3913.719,
       "levelId": "0"
@@ -2222,336 +2222,336 @@
     {
       "id": "kuro:1418205518247534592",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 8503.377,
       "y": 3779.997,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418209081128464384",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 8455.834,
       "y": 3757.146,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418209175114391552",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 8458.833,
       "y": 3765.233,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418210216723689472",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 7204.698,
       "y": 5051.181,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418213207497322496",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 7155.519,
       "y": 5233.622,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418213453375774720",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 6986.559,
       "y": 5329.812,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418213493011984384",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 6982.873,
       "y": 5314.804,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418213539228983296",
       "categoryId": "SP_IconMonsterHead_31049_UI",
-      "title": "愚金幼岩",
+      "title": "Đá Vàng Ngu Ngốc",
       "x": 6975.482,
       "y": 5324.734,
-      "description": "该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nTàn tích của những tảng đá non bắt chước mang theo vàng ngu ngốc thường bị nhầm lẫn với các mỏ vàng thô chưa được khai thác. Trong suốt cuộc đời của mình, Ngu Ngốc Kim Yên vẫn kiên trì đánh bóng Điên Vàng mà anh mang trên lưng, chỉ để làm cho nó tỏa sáng rực rỡ hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418204731341615104",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 8493.935,
       "y": 3770.997,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418205026935189504",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 8510.768,
       "y": 3769.615,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418205418200801280",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 8510.994,
       "y": 3776.997,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418209352751591424",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 8466.676,
       "y": 3764.302,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418209410943365120",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 8453.521,
       "y": 3766.615,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418209879417724928",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 7195.238,
       "y": 5053.72,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418209934803546112",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 7198.473,
       "y": 5057.19,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418210029561225216",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 7198.925,
       "y": 5050.72,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418212428518563840",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 7160.751,
       "y": 5242.865,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418212488069292032",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 7160.949,
       "y": 5246.28,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1418213064832266240",
       "categoryId": "SP_IconMonsterHead_31050_UI",
-      "title": "釉变幼岩",
+      "title": "đá non tráng men",
       "x": 7163.561,
       "y": 5230.206,
-      "description": "该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường. Sau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419673590120620032",
       "categoryId": "SP_IconMonsterHead_31056_UI",
-      "title": "小翼龙·导电",
+      "title": "Thằn lằn bay nhỏ·dẫn điện",
       "x": 6823.653,
       "y": 5230.36,
-      "description": "该敌人导电伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间游离着轰鸣雷霆，多以群居的形式活跃于野外。",
+      "description": "Khả năng chống lại sát thương dẫn điện của kẻ thù này được tăng lên.\nTàn tích của loài thằn lằn bay bắt chước thô sơ, với tiếng sấm ầm ầm nổi lên giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.",
       "levelId": "0"
     },
     {
       "id": "kuro:1420096489793036288",
       "categoryId": "SP_IconMonsterHead_31056_UI",
-      "title": "小翼龙·导电",
+      "title": "Thằn lằn bay nhỏ·dẫn điện",
       "x": 8580.602,
       "y": 3776.211,
-      "description": "该敌人导电伤害抗性提高。\n雏形的拟态翼龙残象，鳞爪间游离着轰鸣雷霆，多以群居的形式活跃于野外。",
+      "description": "Khả năng chống lại sát thương dẫn điện của kẻ thù này được tăng lên.\nTàn tích của loài thằn lằn bay bắt chước thô sơ, với tiếng sấm ầm ầm nổi lên giữa vảy và móng vuốt của nó, chủ yếu hoạt động theo nhóm trong tự nhiên.",
       "levelId": "0"
     },
     {
       "id": "kuro:1419091147810484224",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5287.084,
       "y": 3471.387,
-      "description": "Tầng 22 · 平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Thường ngày như bức tượng cầm kiếm uy nghiêm, lặng lẽ hỗ trợ Hội Tu Sĩ duy trì hòa hợp và trật tự thành phố Laguna.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419092147313127424",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5255.731,
       "y": 3412.739,
-      "description": "Tầng 22 · 平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Thường ngày như bức tượng cầm kiếm uy nghiêm, lặng lẽ hỗ trợ Hội Tu Sĩ duy trì hòa hợp và trật tự thành phố Laguna.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419092930867834880",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5250.653,
       "y": 3422.895,
-      "description": "Tầng 22 · 平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Thường ngày như bức tượng cầm kiếm uy nghiêm, lặng lẽ hỗ trợ Hội Tu Sĩ duy trì hòa hợp và trật tự thành phố Laguna.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419095386708324352",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5215.334,
       "y": 3245.451,
-      "description": "Tầng 22 · 平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Thường ngày như bức tượng cầm kiếm uy nghiêm, lặng lẽ hỗ trợ Hội Tu Sĩ duy trì hòa hợp và trật tự thành phố Laguna.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419095522217897984",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5221.795,
       "y": 3248.224,
-      "description": "Tầng 22 · 平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Thường ngày như bức tượng cầm kiếm uy nghiêm, lặng lẽ hỗ trợ Hội Tu Sĩ duy trì hòa hợp và trật tự thành phố Laguna.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419095907699601408",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5238.185,
       "y": 3222.383,
-      "description": "Tầng 22 · 平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Thường ngày như bức tượng cầm kiếm uy nghiêm, lặng lẽ hỗ trợ Hội Tu Sĩ duy trì hòa hợp và trật tự thành phố Laguna.\nNgay khi phát hiện người khả nghi hoặc bộ xương âm thanh, sẽ lập tức bắt giữ và đưa vào Viện Minh Trừng để xét xử, đảm bảo an ninh thành phố không bị làm phiền hay phá hoại.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419103831507415040",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5362.339,
       "y": 3258.055,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần phải đến vị trí trong Hình 2 trước, sau đó tương tác với cánh cổng bên phải của Hình 3 để truyền đến khu vực này mới có thể tiếp tục. Vào những ngày bình thường, giống như bức tượng cầm kiếm trang nghiêm, yên lặng hỗ trợ hội tu duy trì sự hòa hợp và an ninh của thành phố Laguna.\nMột khi phát hiện người khả nghi hoặc âm xương, sẽ lập tức bắt giữ và đưa vào Viện Cấm để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị quấy phá.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419104033266020352",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5360.974,
       "y": 3260.774,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。\n一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần phải đến vị trí trong Hình 2 trước, sau đó tương tác với cánh cổng bên phải của Hình 3 để truyền đến khu vực này mới có thể tiếp tục. Vào những ngày bình thường, giống như bức tượng cầm kiếm trang nghiêm, yên lặng hỗ trợ hội tu duy trì sự hòa hợp và an ninh của thành phố Laguna.\nMột khi phát hiện người khả nghi hoặc âm xương, sẽ lập tức bắt giữ và đưa vào Viện Cấm để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị quấy phá.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419293247261679616",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5349.933,
       "y": 3222.42,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往，标点所在区域需从走廊左侧钩锁进入。平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。 一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần đi đến vị trí hình 2 và tương tác với cánh cửa bên phải hình 3 để dịch chuyển đến khu vực này mới có thể tiến vào, khu vực có dấu chấm cần vào từ công khóa bên trái hành lang. Bình thường như tượng cầm kiếm uy nghiêm, yên tĩnh hỗ trợ Hội duy trì hòa bình và trật tự của thành Laguna. Một khi phát hiện người đáng ngờ hoặc âm hồn, sẽ ngay lập tức bắt giữ và đưa vào Viện Cấm để xét xử, nhằm đảm bảo yên bình trong thành không bị quấy phá.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419295228155961344",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5380.599,
       "y": 3264.922,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。 一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần đi đến vị trí trong Hình 2 trước và tương tác với cổng bên phải Hình 3 để truyền tới khu vực này mới có thể tiếp tục. Vào những ngày bình thường, giống như bức tượng cầm kiếm uy nghiêm, yên lặng giúp đỡ Hội duy trì hòa bình và trật tự của thành phố Laguna. Khi phát hiện người khả nghi hoặc âm hồn, sẽ lập tức bắt giữ và đưa vào Viện Giới Lệnh để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị quấy phá.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1419297041370394624",
       "categoryId": "SP_IconMonsterHead_31052_UI",
-      "title": "卫冕节使",
+      "title": "Đại sứ bảo vệ",
       "x": 5408.301,
       "y": 3290.537,
-      "description": "Tầng 22 · 一定要注意！需先前往图2位置处与图3右侧大门交互传送到该区域后才能前往。平日如同庄严的持剑塑像，静谧协助着修会维护拉古那城的和谐与治安。 一旦发现可疑人员或是声骸，会立刻对其进行抓捕并带入诫令院进行审判，以确保城内的安宁不被打扰破坏。",
+      "description": "Tầng 22 · Nhất định phải chú ý! Cần đi đến vị trí trong Hình 2 trước và tương tác với cổng bên phải Hình 3 để truyền tới khu vực này mới có thể tiếp tục. Vào những ngày bình thường, giống như bức tượng cầm kiếm uy nghiêm, yên lặng giúp đỡ Hội duy trì hòa bình và trật tự của thành phố Laguna. Khi phát hiện người khả nghi hoặc âm hồn, sẽ lập tức bắt giữ và đưa vào Viện Giới Lệnh để xét xử, nhằm đảm bảo sự yên bình trong thành phố không bị quấy phá.",
       "floorId": "22",
       "levelId": "-1/22"
     },
     {
       "id": "kuro:1397720804011442176",
       "categoryId": "320000430",
-      "title": "梦魇·振铎乐师",
+      "title": "Nhạc sĩ Zhenduo ác mộng",
       "x": 8533.094,
       "y": 3665.113,
-      "description": "千殁沉岛梦魇聚落掉落，该敌人湮灭伤害抗性提高。\n隐藏在梦境节点所构建的网络中的特殊残象，汇聚了某种负面情感的频率。",
+      "description": "Rơi ra từ Khu định cư Ác mộng trên Quần đảo Thousand Dead, khả năng kháng sát thương hủy diệt của kẻ địch được tăng lên.\nNhững dư ảnh đặc biệt ẩn trong mạng lưới được xây dựng bởi các nút giấc mơ tập hợp tần số của những cảm xúc tiêu cực nhất định.",
       "levelId": "0"
     },
     {
       "id": "kuro:1416180578891636736",
       "categoryId": "SP_IconMonsterHead_32032_UI",
-      "title": "飓力熊",
+      "title": "gấu bão",
       "x": 7067.624,
       "y": 5019.323,
-      "description": "凶残的拟态熊类残象，头颈和肩臂覆盖着箭簇状的尖利黑石，其挥击的力量犹如飓风骤袭。",
+      "description": "Một tàn tích giống như con gấu hung dữ, đầu, cổ, vai và cánh tay của nó được bao phủ bởi những viên đá đen nhọn hình chùm mũi tên. Sức mạnh của cú vung của nó giống như một cơn bão bất ngờ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1416180726149455872",
       "categoryId": "SP_IconMonsterHead_32032_UI",
-      "title": "飓力熊",
+      "title": "gấu bão",
       "x": 7003.654,
       "y": 5010.784,
-      "description": "凶残的拟态熊类残象，头颈和肩臂覆盖着箭簇状的尖利黑石，其挥击的力量犹如飓风骤袭。",
+      "description": "Một tàn tích giống như con gấu hung dữ, đầu, cổ, vai và cánh tay của nó được bao phủ bởi những viên đá đen nhọn hình chùm mũi tên. Sức mạnh của cú vung của nó giống như một cơn bão bất ngờ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1397720872831582208",
       "categoryId": "310000630",
-      "title": "梦魇·审判战士",
+      "title": "Ác mộng·Chiến binh phán xét",
       "x": 8547.741,
       "y": 3663.396,
-      "description": "千殁沉岛梦魇聚落掉落，该敌人湮灭伤害抗性提高。\n隐藏在梦境节点所构建的网络中的特殊残象，汇聚了某种负面情感的频率。",
+      "description": "Rơi ra từ Khu định cư Ác mộng trên Quần đảo Thousand Dead, khả năng kháng sát thương hủy diệt của kẻ địch được tăng lên.\nNhững dư ảnh đặc biệt ẩn trong mạng lưới được xây dựng bởi các nút giấc mơ tập hợp tần số của những cảm xúc tiêu cực nhất định.",
       "levelId": "0"
     }
   ]

@@ -19,6 +19,7 @@
     "convert:9268": "node tools/convert-9268-map.mjs",
     "catalog:9268": "node tools/build-9268-catalog.mjs",
     "crawl:kuro": "node tools/crawl-kuro-map.mjs",
+    "translate:kuro": "node tools/translate-kuro-map.mjs",
     "test:server": "node --test server/*.test.mjs",
     "test:tools": "node --test tools/*.test.mjs",
     "test": "pnpm test:server && pnpm test:tools && pnpm build"

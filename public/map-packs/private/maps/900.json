@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "wuwa-kuro-state-900",
-  "title": "泰缇斯之底",
+  "title": "Vực sâu Tethys",
   "subtitle": "415 vị trí · 40 loại điểm",
   "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-07-31.",
   "tiles": {
@@ -66,7 +66,7 @@
   "categories": [
     {
       "id": "SP_IconMonsterHead_985_UI",
-      "label": "雪鬃狼",
+      "label": "sói tuyết",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -75,7 +75,7 @@
     },
     {
       "id": "T_IconC_Sep_061_UI",
-      "label": "紫珊瑚",
+      "label": "San hô tím",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "resources",
@@ -84,7 +84,7 @@
     },
     {
       "id": "SP_IconMonsterHead_205_UI",
-      "label": "振铎乐师",
+      "label": "Nhạc sĩ Zhenduo",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
@@ -93,7 +93,7 @@
     },
     {
       "id": "SP_IconMonsterHead_045_UI",
-      "label": "鸣泣战士",
+      "label": "Chiến binh khóc",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -102,7 +102,7 @@
     },
     {
       "id": "SP_IconMonsterHead_970_UI",
-      "label": "车刃镰",
+      "label": "Liềm",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -111,7 +111,7 @@
     },
     {
       "id": "SP_IconMonsterHead_265_UI",
-      "label": "碎獠猪",
+      "label": "lợn đất",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -120,7 +120,7 @@
     },
     {
       "id": "yldzscs",
-      "label": "约兰的战术测试",
+      "label": "Bài kiểm tra chiến thuật của Joram",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
@@ -156,7 +156,7 @@
     },
     {
       "id": "SP_IconMonsterHead_055_UI",
-      "label": "审判战士",
+      "label": "Chiến binh phán xét",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -165,7 +165,7 @@
     },
     {
       "id": "SP_IconMonsterHead_969_UI",
-      "label": "寒霜陆龟",
+      "label": "Rùa băng giá",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -174,7 +174,7 @@
     },
     {
       "id": "T_IconTask_Task_084_UI",
-      "label": "暂星",
+      "label": "ngôi sao tạm thời",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "resources",
@@ -192,7 +192,7 @@
     },
     {
       "id": "FCRK",
-      "label": "分层入口",
+      "label": "Lối vào theo tầng",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
@@ -201,7 +201,7 @@
     },
     {
       "id": "SP_IconMonsterHead_329_UI",
-      "label": "踏光兽",
+      "label": "Quái vật bước đi nhẹ nhàng",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -210,7 +210,7 @@
     },
     {
       "id": "SP_IconMonsterHead_1003_UI",
-      "label": "巡哨机傀",
+      "label": "máy bay không người lái tuần tra",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -219,7 +219,7 @@
     },
     {
       "id": "SP_IconMonsterHead_235_UI",
-      "label": "巡徊猎手",
+      "label": "thợ săn lưu động",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -228,7 +228,7 @@
     },
     {
       "id": "SP_IconMonsterHead_105_UI",
-      "label": "破霜猎手",
+      "label": "Thợ săn phá băng",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -237,7 +237,7 @@
     },
     {
       "id": "SP_IconMonsterHead_330_UI",
-      "label": "游鳞机枢",
+      "label": "Cơ chế quy mô du lịch",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -246,7 +246,7 @@
     },
     {
       "id": "jyys",
-      "label": "嗟怨乐师",
+      "label": "Nhạc sĩ khiếu nại",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "elite-enemies",
@@ -255,7 +255,7 @@
     },
     {
       "id": "smhw",
-      "label": "山脉护卫",
+      "label": "người bảo vệ núi",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "elite-enemies",
@@ -264,7 +264,7 @@
     },
     {
       "id": "SP_IconMonsterHead_275_UI",
-      "label": "遁地鼠",
+      "label": "Chuột trốn thoát",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -273,7 +273,7 @@
     },
     {
       "id": "cx_01",
-      "label": "潮汐之遗·绿",
+      "label": "Di sản của thủy triều·Xanh",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "collection",
@@ -282,7 +282,7 @@
     },
     {
       "id": "SP_IconMonsterHead_015_UI",
-      "label": "先锋幼岩",
+      "label": "nhạc rock trẻ tiên phong",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -291,7 +291,7 @@
     },
     {
       "id": "SP_IconMonsterHead_315_UI",
-      "label": "刺玫菇",
+      "label": "Nấm tầm xuân",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -300,7 +300,7 @@
     },
     {
       "id": "5032",
-      "label": "无归的谬误",
+      "label": "sai lầm không trở lại",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "bosses",
@@ -309,7 +309,7 @@
     },
     {
       "id": "SP_IconMonsterHead_195_UI",
-      "label": "奏谕乐师",
+      "label": "Nhạc sĩ dàn nhạc",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -318,7 +318,7 @@
     },
     {
       "id": "yyfb",
-      "label": "游弋风暴",
+      "label": "Điều hướng cơn bão",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "elite-enemies",
@@ -327,7 +327,7 @@
     },
     {
       "id": "cx_03",
-      "label": "潮汐之遗·金",
+      "label": "Di sản của thủy triều·Vàng",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "collection",
@@ -336,7 +336,7 @@
     },
     {
       "id": "CS_02",
-      "label": "小型信标",
+      "label": "ngọn hải đăng nhỏ",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
@@ -345,7 +345,7 @@
     },
     {
       "id": "cx_02",
-      "label": "潮汐之遗·紫",
+      "label": "Di sản thủy triều·Tím",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "collection",
@@ -354,7 +354,7 @@
     },
     {
       "id": "T_IconC_SM_Gat_01B_UI",
-      "label": "香苏",
+      "label": "Su thơm",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
@@ -363,7 +363,7 @@
     },
     {
       "id": "SP_IconMonsterHead_305_UI",
-      "label": "刺玫菇（稚形）",
+      "label": "Nấm tầm xuân (dạng non)",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -372,7 +372,7 @@
     },
     {
       "id": "SP_IconMonsterHead_025_UI",
-      "label": "裂变幼岩",
+      "label": "đá non phân hạch",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -381,7 +381,7 @@
     },
     {
       "id": "SP_IconMonsterHead_326_UI",
-      "label": "融火虫",
+      "label": "Giun lửa nóng chảy",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -390,7 +390,7 @@
     },
     {
       "id": "SP_IconMonsterHead_215_UI",
-      "label": "冥渊守卫",
+      "label": "Người bảo vệ vực thẳm",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -399,7 +399,7 @@
     },
     {
       "id": "T_IconTask_Task_085_UI",
-      "label": "伪贝母",
+      "label": "giả fritillary",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "resources",
@@ -408,7 +408,7 @@
     },
     {
       "id": "SP_IconMonsterHead_035_UI",
-      "label": "惊蛰猎手",
+      "label": "Thợ săn kinh triết",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
@@ -417,7 +417,7 @@
     },
     {
       "id": "SP_IconMonsterHead_1000_UI",
-      "label": "通行灯偶",
+      "label": "đèn giao thông",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -428,9 +428,9 @@
   "layers": [
     {
       "id": "-1/4",
-      "label": "金枝地·二层",
+      "label": "Tầng Nhánh Vàng·Tầng 2",
       "groupId": "4",
-      "groupLabel": "金枝地",
+      "groupLabel": "đất cành vàng",
       "tiles": {
         "src": "map-packs/private/layers/900/-1_4/{x}_{y}.webp",
         "tileSize": 768,
@@ -444,9 +444,9 @@
     },
     {
       "id": "-2/4",
-      "label": "金枝地·一层",
+      "label": "Tầng 1 Chi Nhánh Vàng",
       "groupId": "4",
-      "groupLabel": "金枝地",
+      "groupLabel": "đất cành vàng",
       "tiles": {
         "src": "map-packs/private/layers/900/-2_4/{x}_{y}.webp",
         "tileSize": 768,
@@ -460,9 +460,9 @@
     },
     {
       "id": "-1/5",
-      "label": "一层·谬误收容所",
+      "label": "Cấp độ 1: Nơi ẩn náu của những sai sót",
       "groupId": "5",
-      "groupLabel": "谬误收容所",
+      "groupLabel": "Nơi tị nạn của những sai lầm",
       "tiles": {
         "src": "map-packs/private/layers/900/-1_5/{x}_{y}.webp",
         "tileSize": 768,
@@ -475,9 +475,9 @@
     },
     {
       "id": "-2/5",
-      "label": "地下一层·谬误收容所",
+      "label": "Tầng hầm·Nhà tị nạn giả",
       "groupId": "5",
-      "groupLabel": "谬误收容所",
+      "groupLabel": "Nơi tị nạn của những sai lầm",
       "tiles": {
         "src": "map-packs/private/layers/900/-2_5/{x}_{y}.webp",
         "tileSize": 768,
@@ -490,9 +490,9 @@
     },
     {
       "id": "-1/6",
-      "label": "艾多斯之镜·神秘房间",
+      "label": "Chiếc gương của Aidos·Căn phòng bí ẩn",
       "groupId": "6",
-      "groupLabel": "艾多斯之镜",
+      "groupLabel": "Tấm gương của Aidos",
       "tiles": {
         "src": "map-packs/private/layers/900/-1_6/{x}_{y}.webp",
         "tileSize": 768,
@@ -508,16 +508,16 @@
     {
       "id": "kuro:1290475550692941824",
       "categoryId": "SP_IconMonsterHead_985_UI",
-      "title": "雪鬃狼",
+      "title": "sói tuyết",
       "x": 2797.119,
       "y": 1752.187,
-      "description": "这个近景实在是不太好拍，拍得总是不那么好看。",
+      "description": "Ảnh cận cảnh này thực sự không tốt lắm, nó luôn không đẹp lắm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290475642802593792",
       "categoryId": "SP_IconMonsterHead_985_UI",
-      "title": "雪鬃狼",
+      "title": "sói tuyết",
       "x": 2797.869,
       "y": 1762.307,
       "levelId": "0"
@@ -525,7 +525,7 @@
     {
       "id": "kuro:1290428162443403264",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2404.626,
       "y": 2281.602,
       "levelId": "0"
@@ -533,7 +533,7 @@
     {
       "id": "kuro:1290428162552455168",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2435.721,
       "y": 2346.081,
       "levelId": "0"
@@ -541,7 +541,7 @@
     {
       "id": "kuro:1290428162644729856",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2374.141,
       "y": 2429.175,
       "levelId": "0"
@@ -549,7 +549,7 @@
     {
       "id": "kuro:1290428162741198848",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2325.278,
       "y": 2567.37,
       "levelId": "0"
@@ -557,7 +557,7 @@
     {
       "id": "kuro:1290428162825084928",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2317.332,
       "y": 2586.981,
       "levelId": "0"
@@ -565,7 +565,7 @@
     {
       "id": "kuro:1290428162908971008",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2192.73,
       "y": 2514.025,
       "levelId": "0"
@@ -573,7 +573,7 @@
     {
       "id": "kuro:1290428162992857088",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2196.344,
       "y": 2491.174,
       "levelId": "0"
@@ -581,7 +581,7 @@
     {
       "id": "kuro:1290428163076743168",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2182.087,
       "y": 2462.931,
       "levelId": "0"
@@ -589,7 +589,7 @@
     {
       "id": "kuro:1290428163160629248",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2180.108,
       "y": 2461.205,
       "levelId": "0"
@@ -597,7 +597,7 @@
     {
       "id": "kuro:1290428163244515328",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2206.825,
       "y": 2417.574,
       "levelId": "0"
@@ -605,7 +605,7 @@
     {
       "id": "kuro:1290428163336790016",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2237.869,
       "y": 2371.669,
       "levelId": "0"
@@ -613,7 +613,7 @@
     {
       "id": "kuro:1290428163437453312",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2223.866,
       "y": 2363.109,
       "levelId": "0"
@@ -621,7 +621,7 @@
     {
       "id": "kuro:1290428163521339392",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2244.403,
       "y": 2351.67,
       "levelId": "0"
@@ -629,7 +629,7 @@
     {
       "id": "kuro:1290428163622002688",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2296.718,
       "y": 2181.301,
       "levelId": "0"
@@ -637,7 +637,7 @@
     {
       "id": "kuro:1290428163718471680",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2233.154,
       "y": 2158.622,
       "levelId": "0"
@@ -645,7 +645,7 @@
     {
       "id": "kuro:1290428163819134976",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2239.697,
       "y": 2167.752,
       "levelId": "0"
@@ -653,7 +653,7 @@
     {
       "id": "kuro:1290428163919798272",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2238.169,
       "y": 2183.478,
       "levelId": "0"
@@ -661,7 +661,7 @@
     {
       "id": "kuro:1290428164016267264",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2234.193,
       "y": 2184.111,
       "levelId": "0"
@@ -669,7 +669,7 @@
     {
       "id": "kuro:1290428164108541952",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2212.274,
       "y": 2232.522,
       "levelId": "0"
@@ -677,7 +677,7 @@
     {
       "id": "kuro:1290428164217593856",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2228.573,
       "y": 2043.07,
       "levelId": "0"
@@ -685,7 +685,7 @@
     {
       "id": "kuro:1290428164305674240",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2143.551,
       "y": 2021.584,
       "levelId": "0"
@@ -693,7 +693,7 @@
     {
       "id": "kuro:1290428164414726144",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2143.47,
       "y": 2025.487,
       "levelId": "0"
@@ -701,7 +701,7 @@
     {
       "id": "kuro:1290428164532166656",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2131.218,
       "y": 2016.56,
       "levelId": "0"
@@ -709,7 +709,7 @@
     {
       "id": "kuro:1290428164616052736",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2068.92,
       "y": 2335.109,
       "levelId": "0"
@@ -717,7 +717,7 @@
     {
       "id": "kuro:1290428164699938816",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2012.214,
       "y": 2334.106,
       "levelId": "0"
@@ -725,7 +725,7 @@
     {
       "id": "kuro:1290428164800602112",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2051.735,
       "y": 2206.979,
       "levelId": "0"
@@ -733,7 +733,7 @@
     {
       "id": "kuro:1290428164892876800",
       "categoryId": "T_IconC_Sep_061_UI",
-      "title": "紫珊瑚",
+      "title": "San hô tím",
       "x": 2047.578,
       "y": 2208.054,
       "levelId": "0"
@@ -741,34 +741,34 @@
     {
       "id": "kuro:1417900024798720000",
       "categoryId": "SP_IconMonsterHead_205_UI",
-      "title": "振铎乐师",
+      "title": "Nhạc sĩ Zhenduo",
       "x": 2044.913,
       "y": 1978.775,
-      "description": "该敌人湮灭伤害抗性提高。\n凭借乐器施展异能的类人残象，模仿着人类摇铃祝祷的行为，但其口中吟诵的并非祝福，而是咒诅。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh tàn dư hình người sử dụng nhạc cụ để phát huy sức mạnh siêu nhiên bắt chước hành vi rung chuông và cầu nguyện của con người, nhưng những gì nó hô vang không phải là một lời chúc phúc mà là một lời nguyền.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417900104083648512",
       "categoryId": "SP_IconMonsterHead_205_UI",
-      "title": "振铎乐师",
+      "title": "Nhạc sĩ Zhenduo",
       "x": 1891.15,
       "y": 1934.872,
-      "description": "该敌人湮灭伤害抗性提高。\n凭借乐器施展异能的类人残象，模仿着人类摇铃祝祷的行为，但其口中吟诵的并非祝福，而是咒诅。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nHình ảnh tàn dư hình người sử dụng nhạc cụ để phát huy sức mạnh siêu nhiên bắt chước hành vi rung chuông và cầu nguyện của con người, nhưng những gì nó hô vang không phải là một lời chúc phúc mà là một lời nguyền.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417903832941539328",
       "categoryId": "SP_IconMonsterHead_205_UI",
-      "title": "振铎乐师",
+      "title": "Nhạc sĩ Zhenduo",
       "x": 2360.055,
       "y": 2517.486,
-      "description": "该敌人湮灭伤害抗性提高。凭借乐器施展异能的类人残象，模仿着人类摇铃祝祷的行为，但其口中吟诵的并非祝福，而是咒诅。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên. Hình ảnh tàn dư hình người sử dụng nhạc cụ để phát huy sức mạnh siêu nhiên bắt chước hành vi rung chuông và cầu nguyện của con người, nhưng những gì nó hô vang không phải là một lời chúc phúc mà là một lời nguyền.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290464994060328960",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2370.861,
       "y": 2461.214,
       "levelId": "0"
@@ -776,7 +776,7 @@
     {
       "id": "kuro:1290465556730404864",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2263.341,
       "y": 2578.673,
       "levelId": "0"
@@ -784,7 +784,7 @@
     {
       "id": "kuro:1290465556784930816",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2266.955,
       "y": 2577.769,
       "levelId": "0"
@@ -792,7 +792,7 @@
     {
       "id": "kuro:1290466393514119168",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2193.634,
       "y": 2516.049,
       "levelId": "0"
@@ -800,7 +800,7 @@
     {
       "id": "kuro:1290466872772071424",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2209.12,
       "y": 2393.702,
       "levelId": "0"
@@ -808,7 +808,7 @@
     {
       "id": "kuro:1290467239465656320",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2041.507,
       "y": 2341.731,
       "levelId": "0"
@@ -816,7 +816,7 @@
     {
       "id": "kuro:1290467572375445504",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 1992.282,
       "y": 2322.071,
       "levelId": "0"
@@ -824,16 +824,16 @@
     {
       "id": "kuro:1290469312475242496",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 1863.078,
       "y": 2341.045,
-      "description": "这个位置不太好来，先传送到能源中心下方的信标，信标的旁边有个机器人，和它对话，可以传送到红名BOSS的地点，到了这里，就容易找到这个鸣泣战士了。",
+      "description": "Vị trí này không tốt lắm. Đầu tiên, truyền đến đèn hiệu bên dưới trung tâm năng lượng. Có một robot bên cạnh đèn hiệu. Nói chuyện với nó, bạn có thể truyền đến vị trí của ông chủ màu đỏ. Khi bạn đến đây, thật dễ dàng để tìm thấy chiến binh đang khóc này.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290470104814653440",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 1761.882,
       "y": 2236.235,
       "levelId": "0"
@@ -841,7 +841,7 @@
     {
       "id": "kuro:1290470749500149760",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 1901.929,
       "y": 1938.974,
       "levelId": "0"
@@ -849,7 +849,7 @@
     {
       "id": "kuro:1290471379608608768",
       "categoryId": "SP_IconMonsterHead_045_UI",
-      "title": "鸣泣战士",
+      "title": "Chiến binh khóc",
       "x": 2064.565,
       "y": 2172.085,
       "levelId": "0"
@@ -857,43 +857,43 @@
     {
       "id": "kuro:1417908367558782976",
       "categoryId": "SP_IconMonsterHead_970_UI",
-      "title": "车刃镰",
+      "title": "Liềm",
       "x": 2056.279,
       "y": 2219.737,
-      "description": "该敌人气动伤害抗性提高。\n寄居在废弃车辆中的残象，以车壳作为蛰居的伪装。一旦受到了惊扰，便会展露出可怖的姿态。",
+      "description": "Khả năng chống chịu sát thương khí động học của kẻ thù này được tăng lên.\nDư ảnh sống trong một chiếc xe bị bỏ hoang, sử dụng vỏ xe để ngụy trang cho giấc ngủ đông của nó. Một khi bị quấy rầy, nó sẽ hiện ra một tư thế đáng sợ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417908483921358848",
       "categoryId": "SP_IconMonsterHead_970_UI",
-      "title": "车刃镰",
+      "title": "Liềm",
       "x": 2110.916,
       "y": 2219.258,
-      "description": "该敌人气动伤害抗性提高。\n寄居在废弃车辆中的残象，以车壳作为蛰居的伪装。一旦受到了惊扰，便会展露出可怖的姿态。",
+      "description": "Khả năng chống chịu sát thương khí động học của kẻ thù này được tăng lên.\nDư ảnh sống trong một chiếc xe bị bỏ hoang, sử dụng vỏ xe để ngụy trang cho giấc ngủ đông của nó. Một khi bị quấy rầy, nó sẽ hiện ra một tư thế đáng sợ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417908563504082944",
       "categoryId": "SP_IconMonsterHead_970_UI",
-      "title": "车刃镰",
+      "title": "Liềm",
       "x": 2122.851,
       "y": 2218.12,
-      "description": "该敌人气动伤害抗性提高。\n寄居在废弃车辆中的残象，以车壳作为蛰居的伪装。一旦受到了惊扰，便会展露出可怖的姿态。",
+      "description": "Khả năng chống chịu sát thương khí động học của kẻ thù này được tăng lên.\nDư ảnh sống trong một chiếc xe bị bỏ hoang, sử dụng vỏ xe để ngụy trang cho giấc ngủ đông của nó. Một khi bị quấy rầy, nó sẽ hiện ra một tư thế đáng sợ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417900704036892672",
       "categoryId": "SP_IconMonsterHead_265_UI",
-      "title": "碎獠猪",
+      "title": "lợn đất",
       "x": 2471.56,
       "y": 2265.058,
-      "description": "林地常见的拟态野猪，性情敏感暴躁。锋利的獠牙是碎獠猪解决一切问题的手腕——旦有生物踏入其领地，碎獠猪便会不顾一切地冲撞入侵者。瑝珑地区也常用“横冲彘撞”形容冒进、鲁莽性格之人。",
+      "description": "Một loài lợn rừng bắt chước phổ biến trong rừng với tính khí nhạy cảm và cáu kỉnh. Những chiếc ngà sắc nhọn chính là chiếc ngà mà loài ngà dùng để giải quyết mọi vấn đề - một khi sinh vật bước vào lãnh thổ của nó, những chiếc ngà sẽ lao vào những kẻ xâm nhập bằng mọi giá. “Hung hăng” cũng thường được sử dụng ở vùng Huyền Long để mô tả những người có tính cách hung hãn và liều lĩnh.",
       "levelId": "0"
     },
     {
       "id": "kuro:1399131514064846848",
       "categoryId": "yldzscs",
-      "title": "约兰的战术测试",
+      "title": "Bài kiểm tra chiến thuật của Joram",
       "x": 2791.319,
       "y": 1758.539,
       "levelId": "0"
@@ -901,7 +901,7 @@
     {
       "id": "kuro:1399132089649577984",
       "categoryId": "yldzscs",
-      "title": "约兰的战术测试",
+      "title": "Bài kiểm tra chiến thuật của Joram",
       "x": 2087.478,
       "y": 1933.887,
       "levelId": "0"
@@ -909,7 +909,7 @@
     {
       "id": "kuro:1399132591896117248",
       "categoryId": "yldzscs",
-      "title": "约兰的战术测试",
+      "title": "Bài kiểm tra chiến thuật của Joram",
       "x": 2139.305,
       "y": 2264.19,
       "levelId": "0"
@@ -917,7 +917,7 @@
     {
       "id": "kuro:1399133769896148992",
       "categoryId": "yldzscs",
-      "title": "约兰的战术测试",
+      "title": "Bài kiểm tra chiến thuật của Joram",
       "x": 2471.063,
       "y": 2265.573,
       "levelId": "0"
@@ -928,7 +928,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2196.182,
       "y": 2632.017,
-      "description": "楼梯下方",
+      "description": "dưới cầu thang",
       "levelId": "0"
     },
     {
@@ -937,7 +937,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2200.79,
       "y": 2556.311,
-      "description": "击败此处精英怪（数据中心等级3解锁）后获得三个奇藏箱，其一为基准",
+      "description": "Sau khi đánh bại quái vật ưu tú tại đây (được mở khóa ở trung tâm dữ liệu cấp 3), bạn sẽ nhận được ba rương kho báu, một trong số đó là rương cơ sở.",
       "levelId": "0"
     },
     {
@@ -946,7 +946,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2175.41,
       "y": 2533.686,
-      "description": "山崖上",
+      "description": "Trên vách đá",
       "levelId": "0"
     },
     {
@@ -955,7 +955,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2283.354,
       "y": 2456.651,
-      "description": "Tầng 4 · 路边靠墙",
+      "description": "Tầng 4 · Bên đường dựa vào tường",
       "floorId": "4",
       "levelId": "-2/4"
     },
@@ -965,7 +965,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2299.79,
       "y": 2431.587,
-      "description": "Tầng 4 · 盆栽间",
+      "description": "Tầng 4 · Giữa các chậu cây",
       "floorId": "4",
       "levelId": "-2/4"
     },
@@ -975,7 +975,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2288.55,
       "y": 2367.843,
-      "description": "平台底部",
+      "description": "đáy nền tảng",
       "levelId": "0"
     },
     {
@@ -984,7 +984,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2377.105,
       "y": 2260.477,
-      "description": "海边",
+      "description": "bờ biển",
       "levelId": "0"
     },
     {
@@ -993,7 +993,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2263.956,
       "y": 2197.429,
-      "description": "山崖下方凸起平台处",
+      "description": "Trên bục cao bên dưới vách đá",
       "levelId": "0"
     },
     {
@@ -1002,7 +1002,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2224.48,
       "y": 2148.015,
-      "description": "悬崖处",
+      "description": "vách đá",
       "levelId": "0"
     },
     {
@@ -1011,7 +1011,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2090.424,
       "y": 2078.38,
-      "description": "石头堆上",
+      "description": "trên đống đá",
       "levelId": "0"
     },
     {
@@ -1020,7 +1020,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2099.468,
       "y": 2168.01,
-      "description": "Tầng 5 · 位于上层，靠墙边，泰提斯之底，收容所npc库库修左边",
+      "description": "Tầng 5 · Nằm trên tầng trên, sát tường, đáy của Tethys, bên trái NPC trong trại Kuku Xu",
       "floorId": "5",
       "levelId": "-1/5"
     },
@@ -1030,7 +1030,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2108.91,
       "y": 2171.019,
-      "description": "Tầng 5 · 位于下一层的展示栏边",
+      "description": "Tầng 5 · Nằm cạnh kệ trưng bày của tầng dưới",
       "floorId": "5",
       "levelId": "-1/5"
     },
@@ -1040,7 +1040,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2150.897,
       "y": 2184.282,
-      "description": "Tầng 5 · 位于楼梯边",
+      "description": "Tầng 5 · Nằm cạnh cầu thang",
       "floorId": "5",
       "levelId": "-1/5"
     },
@@ -1050,7 +1050,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2106.163,
       "y": 2216.809,
-      "description": "Tầng 5 · 位于谬误收容所地下一层的平台上",
+      "description": "Tầng 5 · Nằm trên nền một tầng hầm của Trại sai lầm",
       "floorId": "5",
       "levelId": "-2/5"
     },
@@ -1060,7 +1060,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1995.689,
       "y": 2208.596,
-      "description": "山间建筑的角落处",
+      "description": "Một góc của tòa nhà trên núi",
       "levelId": "0"
     },
     {
@@ -1069,7 +1069,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2055.737,
       "y": 2245.388,
-      "description": "瀑布源头处\n-传送点跳下来往后看，有个瀑布的洞，爬上去就看到了",
+      "description": "Nguồn của thác nước\n- Nhảy xuống từ điểm dịch chuyển và nhìn về phía sau. Có một hang động có thác nước. Hãy leo lên và bạn sẽ thấy nó.",
       "levelId": "0"
     },
     {
@@ -1078,7 +1078,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1889.379,
       "y": 2149.108,
-      "description": "瀑布前的一个花上",
+      "description": "Trên bông hoa trước thác nước",
       "levelId": "0"
     },
     {
@@ -1087,7 +1087,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1815.525,
       "y": 2146.108,
-      "description": "水边",
+      "description": "bờ biển",
       "levelId": "0"
     },
     {
@@ -1096,7 +1096,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1711.89,
       "y": 2122.788,
-      "description": "海边礁石上",
+      "description": "Trên những tảng đá ở bờ biển",
       "levelId": "0"
     },
     {
@@ -1105,7 +1105,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1907.974,
       "y": 2135.04,
-      "description": "平台上的花坛边",
+      "description": "Giường hoa trên sân ga",
       "levelId": "0"
     },
     {
@@ -1114,7 +1114,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1922.521,
       "y": 2102.712,
-      "description": "能源中心下方的显示屏边上",
+      "description": "Bên cạnh màn hình bên dưới trung tâm năng lượng",
       "levelId": "0"
     },
     {
@@ -1123,7 +1123,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1973.661,
       "y": 1885.259,
-      "description": "位于调律大厅顶部，需前往图一所示岛屿位置与库可可对话即可直接传送",
+      "description": "Nằm ở phía trên cùng của Tuning Hall, bạn cần đến vị trí hòn đảo như trong Hình 1 và nói chuyện với Kucoco để được dịch chuyển trực tiếp.",
       "levelId": "0"
     },
     {
@@ -1132,7 +1132,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1920.099,
       "y": 2711.085,
-      "description": "位于礁石上，可选择从上方岛屿处慢慢游过来或者从边上的山飞过来，都能稳稳到达，尽量不要开游泳冲刺哈，加速的话可以吃体力药。",
+      "description": "Nó nằm trên rạn san hô. Bạn có thể chọn bơi từ từ từ hòn đảo phía trên hoặc bay qua từ ngọn núi bên cạnh. Bạn có thể đạt được nó một cách ổn định. Cố gắng không bơi và chạy nước rút. Nếu muốn tăng tốc, bạn có thể dùng thuốc tăng sức chịu đựng.",
       "levelId": "0"
     },
     {
@@ -1141,7 +1141,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1801.638,
       "y": 1941.685,
-      "description": "击败强敌后获得，需先解锁数据中心（标点由热心玩家提供）",
+      "description": "Nhận được sau khi đánh bại kẻ thù mạnh, trước tiên bạn cần mở khóa trung tâm dữ liệu (dấu câu được cung cấp bởi những người chơi nhiệt tình)",
       "levelId": "0"
     },
     {
@@ -1150,7 +1150,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1901.026,
       "y": 2332.913,
-      "description": "击败强敌后获得，需先解锁数据中心（标点由热心玩家提供）",
+      "description": "Nhận được sau khi đánh bại kẻ thù mạnh, trước tiên bạn cần mở khóa trung tâm dữ liệu (dấu câu được cung cấp bởi những người chơi nhiệt tình)",
       "levelId": "0"
     },
     {
@@ -1159,7 +1159,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2734.984,
       "y": 1815.191,
-      "description": "完成滑水挑战后获得，可查看对应攻略获取（标点由玩家临渊处的光芒提供）图二挑战位置，是鱼围成的特殊挑战。",
+      "description": "Nhận được sau khi hoàn thành thử thách trượt nước, bạn có thể xem hướng dẫn tương ứng để lấy (dấu chấm câu được cung cấp bởi ánh sáng gần vực thẳm của người chơi). Địa điểm thử thách ở Hình 2 là một thử thách đặc biệt được bao quanh bởi cá.",
       "levelId": "0"
     },
     {
@@ -1168,7 +1168,7 @@
       "title": "Rương tinh xảo",
       "x": 2016.678,
       "y": 1943.492,
-      "description": "在瀑布中间噢",
+      "description": "Ở giữa thác nước",
       "levelId": "0"
     },
     {
@@ -1177,7 +1177,7 @@
       "title": "Rương tinh xảo",
       "x": 2042.88,
       "y": 1814.287,
-      "description": "在房子后",
+      "description": "đằng sau ngôi nhà",
       "levelId": "0"
     },
     {
@@ -1186,7 +1186,7 @@
       "title": "Rương tinh xảo",
       "x": 2199.191,
       "y": 2555.181,
-      "description": "击败强敌即可获得",
+      "description": "Có được bằng cách đánh bại kẻ thù mạnh mẽ",
       "levelId": "0"
     },
     {
@@ -1195,7 +1195,7 @@
       "title": "Rương tinh xảo",
       "x": 2221.779,
       "y": 2411.52,
-      "description": "可疑的宝箱，击败4只融火虫解锁",
+      "description": "Rương kho báu đáng ngờ, được mở khóa bằng cách đánh bại 4 con sâu lửa",
       "levelId": "0"
     },
     {
@@ -1204,7 +1204,7 @@
       "title": "Rương tinh xảo",
       "x": 2304.904,
       "y": 2387.125,
-      "description": "爬到最顶上就找到了",
+      "description": "Leo lên đỉnh và bạn sẽ tìm thấy nó",
       "levelId": "0"
     },
     {
@@ -1213,7 +1213,7 @@
       "title": "Rương tinh xảo",
       "x": 2182.024,
       "y": 2170.278,
-      "description": "爬上最顶端",
+      "description": "leo lên đỉnh",
       "levelId": "0"
     },
     {
@@ -1222,7 +1222,7 @@
       "title": "Rương tinh xảo",
       "x": 1982.344,
       "y": 2239.849,
-      "description": "在中间的贝壳上",
+      "description": "trên vỏ ở giữa.",
       "levelId": "0"
     },
     {
@@ -1231,7 +1231,7 @@
       "title": "Rương tinh xảo",
       "x": 1936.264,
       "y": 2270.569,
-      "description": "爬到顶上就好啦",
+      "description": "Chỉ cần leo lên đỉnh",
       "levelId": "0"
     },
     {
@@ -1240,7 +1240,7 @@
       "title": "Rương tinh xảo",
       "x": 2105.224,
       "y": 2217.261,
-      "description": "Tầng 5 · 在实验室内第一层（不用下楼噢）",
+      "description": "Tầng 5 · Tầng đầu tiên trong phòng thí nghiệm (không cần đi xuống lầu)",
       "floorId": "5",
       "levelId": "-1/5"
     },
@@ -1250,7 +1250,7 @@
       "title": "Rương tinh xảo",
       "x": 2296.772,
       "y": 2416.038,
-      "description": "Tầng 4 · 从电梯往上期间跳入第二层，就可以看到啦",
+      "description": "Tầng 4 · Nhảy vào tầng thứ hai khi đi lên thang máy, sẽ thấy ngay",
       "floorId": "4",
       "levelId": "-2/4"
     },
@@ -1260,7 +1260,7 @@
       "title": "Rương tinh xảo",
       "x": 2114.259,
       "y": 2153.111,
-      "description": "Tầng 5 · 在推演的边界任务中关闭正确电脑后获得，可查看对应攻略（标点由玩家星玖onlive提供）",
+      "description": "Tầng 5 · Có được sau khi tắt đúng máy tính trong nhiệm vụ Biên giới suy diễn, có thể xem hướng dẫn tương ứng (dấu câu do người chơi Xing Jiu onlive cung cấp)",
       "floorId": "5",
       "levelId": "-1/5"
     },
@@ -1270,7 +1270,7 @@
       "title": "Rương tinh xảo",
       "x": 1915.482,
       "y": 2252.499,
-      "description": "Tầng 6 · 在推演的边界任务中关闭正确电脑后获得，可查看对应攻略（标点由玩家星玖onlive提供）",
+      "description": "Tầng 6 · Nhận được sau khi tắt đúng máy tính trong nhiệm vụ Ranh Giới Suy Diễn; có thể tham khảo hướng dẫn tương ứng. Vị trí do người chơi XingjiuOnLive cung cấp.",
       "floorId": "6",
       "levelId": "-1/6"
     },
@@ -1280,7 +1280,7 @@
       "title": "Rương tinh xảo",
       "x": 1803.445,
       "y": 1938.974,
-      "description": "击败强敌后获得，需先解锁数据中心（标点由热心玩家提供）",
+      "description": "Nhận được sau khi đánh bại kẻ thù mạnh, trước tiên bạn cần mở khóa trung tâm dữ liệu (dấu câu được cung cấp bởi những người chơi nhiệt tình)",
       "levelId": "0"
     },
     {
@@ -1289,7 +1289,7 @@
       "title": "Rương tinh xảo",
       "x": 1902.833,
       "y": 2333.816,
-      "description": "击败强敌后获得，需先解锁数据中心（标点由热心玩家提供）",
+      "description": "Nhận được sau khi đánh bại kẻ thù mạnh, trước tiên bạn cần mở khóa trung tâm dữ liệu (dấu câu được cung cấp bởi những người chơi nhiệt tình)",
       "levelId": "0"
     },
     {
@@ -1298,7 +1298,7 @@
       "title": "Rương đơn sơ",
       "x": 2254.568,
       "y": 2561.154,
-      "description": "信标边上",
+      "description": "Bên cạnh ngọn hải đăng",
       "levelId": "0"
     },
     {
@@ -1307,7 +1307,7 @@
       "title": "Rương đơn sơ",
       "x": 2281.349,
       "y": 2548.459,
-      "description": "石柱上的小平台上",
+      "description": "Trên một bục nhỏ trên cột đá",
       "levelId": "0"
     },
     {
@@ -1316,7 +1316,7 @@
       "title": "Rương đơn sơ",
       "x": 2309.728,
       "y": 2511.297,
-      "description": "山崖间",
+      "description": "giữa vách đá",
       "levelId": "0"
     },
     {
@@ -1325,7 +1325,7 @@
       "title": "Rương đơn sơ",
       "x": 2321.863,
       "y": 2363.01,
-      "description": "楼梯拐角处",
+      "description": "góc cầu thang",
       "levelId": "0"
     },
     {
@@ -1334,7 +1334,7 @@
       "title": "Rương đơn sơ",
       "x": 2283.535,
       "y": 2374.34,
-      "description": "山崖角落处",
+      "description": "góc vách đá",
       "levelId": "0"
     },
     {
@@ -1343,7 +1343,7 @@
       "title": "Rương đơn sơ",
       "x": 2315.746,
       "y": 2302.048,
-      "description": "公告栏后方",
+      "description": "đằng sau bảng thông báo",
       "levelId": "0"
     },
     {
@@ -1352,7 +1352,7 @@
       "title": "Rương đơn sơ",
       "x": 2339.644,
       "y": 2295.046,
-      "description": "路边角落",
+      "description": "góc đường",
       "levelId": "0"
     },
     {
@@ -1361,7 +1361,7 @@
       "title": "Rương đơn sơ",
       "x": 2333.554,
       "y": 2267.633,
-      "description": "海边",
+      "description": "bờ biển",
       "levelId": "0"
     },
     {
@@ -1370,7 +1370,7 @@
       "title": "Rương đơn sơ",
       "x": 2220.035,
       "y": 2214.876,
-      "description": "墙角处",
+      "description": "góc",
       "levelId": "0"
     },
     {
@@ -1379,7 +1379,7 @@
       "title": "Rương đơn sơ",
       "x": 2253.005,
       "y": 2246.987,
-      "description": "楼梯边",
+      "description": "Bên cầu thang",
       "levelId": "0"
     },
     {
@@ -1388,7 +1388,7 @@
       "title": "Rương đơn sơ",
       "x": 2241.738,
       "y": 2137.263,
-      "description": "瀑布下方",
+      "description": "dưới thác nước",
       "levelId": "0"
     },
     {
@@ -1397,7 +1397,7 @@
       "title": "Rương đơn sơ",
       "x": 2244.141,
       "y": 2043.214,
-      "description": "礁石上，周围有融火虫",
+      "description": "Trên rạn san hô có giun lửa xung quanh",
       "levelId": "0"
     },
     {
@@ -1406,7 +1406,7 @@
       "title": "Rương đơn sơ",
       "x": 2121.361,
       "y": 2130.224,
-      "description": "Tầng 5 · 位于桌子后方（若无法进入此房间需和门口酷酷修对话，接取任务<推演的边界>后可进入）",
+      "description": "Tầng 5 · Nằm phía sau bàn (nếu không thể vào phòng này cần nói chuyện với nhân vật Ku Ku tại cửa, sau khi nhận nhiệm vụ <Biên giới suy diễn> mới có thể vào)",
       "floorId": "5",
       "levelId": "-1/5"
     },
@@ -1416,7 +1416,7 @@
       "title": "Rương đơn sơ",
       "x": 2182.34,
       "y": 2191.511,
-      "description": "两座山之间的谬误收容所大门顶上",
+      "description": "Trên cổng trại tị nạn giữa hai ngọn núi",
       "levelId": "0"
     },
     {
@@ -1425,7 +1425,7 @@
       "title": "Rương đơn sơ",
       "x": 2081.994,
       "y": 2146.596,
-      "description": "乱石之间",
+      "description": "giữa những tảng đá",
       "levelId": "0"
     },
     {
@@ -1434,7 +1434,7 @@
       "title": "Rương đơn sơ",
       "x": 2034.007,
       "y": 2173.81,
-      "description": "位于山崖下的大叶子上（注意高度）",
+      "description": "Nằm trên một chiếc lá lớn dưới vách đá (chú ý độ cao)",
       "levelId": "0"
     },
     {
@@ -1443,7 +1443,7 @@
       "title": "Rương đơn sơ",
       "x": 1908.697,
       "y": 2277.003,
-      "description": "Tầng 6 · 需开启任务《推演的边界》才能进入此房间（可查看相关攻略完成）",
+      "description": "Tầng 6 · Cần mở nhiệm vụ 《Ranh giới suy diễn》 mới có thể vào phòng này (có thể xem hướng dẫn liên quan để hoàn thành)",
       "floorId": "6",
       "levelId": "-1/6"
     },
@@ -1453,7 +1453,7 @@
       "title": "Rương đơn sơ",
       "x": 1899.996,
       "y": 2177.497,
-      "description": "石头后面",
+      "description": "đằng sau hòn đá",
       "levelId": "0"
     },
     {
@@ -1462,7 +1462,7 @@
       "title": "Rương đơn sơ",
       "x": 1816.907,
       "y": 2067.854,
-      "description": "山崖上",
+      "description": "Trên vách đá",
       "levelId": "0"
     },
     {
@@ -1471,7 +1471,7 @@
       "title": "Rương đơn sơ",
       "x": 1819.446,
       "y": 2044.994,
-      "description": "山间平台的楼梯尽头处",
+      "description": "Ở cuối bậc thang trên thềm núi",
       "levelId": "0"
     },
     {
@@ -1480,7 +1480,7 @@
       "title": "Rương đơn sơ",
       "x": 1904.062,
       "y": 2091.625,
-      "description": "平台边缘",
+      "description": "cạnh nền tảng",
       "levelId": "0"
     },
     {
@@ -1489,7 +1489,7 @@
       "title": "Rương đơn sơ",
       "x": 1787.299,
       "y": 2073.745,
-      "description": "位于瀑布下方一些的贝壳上，注意飞行高度",
+      "description": "Nằm trên một số vỏ sò bên dưới thác nước, chú ý đến độ cao bay",
       "levelId": "0"
     },
     {
@@ -1498,7 +1498,7 @@
       "title": "Rương đơn sơ",
       "x": 1876.603,
       "y": 1967.679,
-      "description": "位于亭子内",
+      "description": "Nằm trong gian hàng",
       "levelId": "0"
     },
     {
@@ -1507,7 +1507,7 @@
       "title": "Rương đơn sơ",
       "x": 2028.722,
       "y": 1949.166,
-      "description": "位于瀑布旁，山崖间，注意高度",
+      "description": "Nằm cạnh thác, giữa vách đá nên chú ý độ cao",
       "levelId": "0"
     },
     {
@@ -1516,7 +1516,7 @@
       "title": "Rương đơn sơ",
       "x": 2023.301,
       "y": 2153.743,
-      "description": "位于山崖间的石头里，打破石头即可解锁",
+      "description": "Nằm trong tảng đá giữa các vách đá, bạn có thể mở khóa bằng cách phá đá",
       "levelId": "0"
     },
     {
@@ -1525,7 +1525,7 @@
       "title": "Rương đơn sơ",
       "x": 1936.986,
       "y": 2272.602,
-      "description": "位于山底河流旁的石头内，打破石头即可获得",
+      "description": "Nằm ở tảng đá cạnh dòng sông dưới chân núi, bạn có thể lấy nó bằng cách đập đá",
       "levelId": "0"
     },
     {
@@ -1534,7 +1534,7 @@
       "title": "Rương đơn sơ",
       "x": 1917.226,
       "y": 2496.172,
-      "description": "位于礁石上",
+      "description": "trên rạn san hô",
       "levelId": "0"
     },
     {
@@ -1543,13 +1543,13 @@
       "title": "Rương đơn sơ",
       "x": 2263.359,
       "y": 2197.935,
-      "description": "水池边",
+      "description": "Bên hồ bơi",
       "levelId": "0"
     },
     {
       "id": "kuro:1290600220598132736",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2249.092,
       "y": 2604.552,
       "levelId": "0"
@@ -1557,7 +1557,7 @@
     {
       "id": "kuro:1290600220656852992",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2327.645,
       "y": 2538.891,
       "levelId": "0"
@@ -1565,7 +1565,7 @@
     {
       "id": "kuro:1290600220715573248",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2278.575,
       "y": 2527.343,
       "levelId": "0"
@@ -1573,7 +1573,7 @@
     {
       "id": "kuro:1290600220778487808",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2374.249,
       "y": 2456.281,
       "levelId": "0"
@@ -1581,7 +1581,7 @@
     {
       "id": "kuro:1290600220845596672",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2207.919,
       "y": 2392.07,
       "levelId": "0"
@@ -1589,7 +1589,7 @@
     {
       "id": "kuro:1290600220900122624",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2297.964,
       "y": 2341.65,
       "levelId": "0"
@@ -1597,34 +1597,34 @@
     {
       "id": "kuro:1290600220971425792",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2274.701,
       "y": 2259.568,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290600221034340352",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2270.607,
       "y": 2203.506,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290600221088866304",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2268.157,
       "y": 2203.932,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290600221147586560",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2083.584,
       "y": 2305.78,
       "levelId": "0"
@@ -1632,7 +1632,7 @@
     {
       "id": "kuro:1290600221210501120",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 1992.066,
       "y": 2325.278,
       "levelId": "0"
@@ -1640,7 +1640,7 @@
     {
       "id": "kuro:1290600221265027072",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 1951.127,
       "y": 2345.418,
       "levelId": "0"
@@ -1648,7 +1648,7 @@
     {
       "id": "kuro:1290600221323747328",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 1863.891,
       "y": 2336.626,
       "levelId": "0"
@@ -1656,7 +1656,7 @@
     {
       "id": "kuro:1290600221382467584",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2076.202,
       "y": 2178.527,
       "levelId": "0"
@@ -1664,16 +1664,16 @@
     {
       "id": "kuro:1290600221436993536",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 1947.971,
       "y": 2173.18,
-      "description": "支线任务——海风中失落的湛蓝回声，一次性剧情怪物",
+      "description": "Side Quest - Mất tiếng vang xanh trong gió biển, quái vật âm mưu dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290600221495713792",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 1861.18,
       "y": 1928.611,
       "levelId": "0"
@@ -1681,7 +1681,7 @@
     {
       "id": "kuro:1290600221550239744",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 1860.873,
       "y": 1921.753,
       "levelId": "0"
@@ -1689,7 +1689,7 @@
     {
       "id": "kuro:1290600221608960000",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2109.967,
       "y": 1843.634,
       "levelId": "0"
@@ -1697,16 +1697,16 @@
     {
       "id": "kuro:1290600221667680256",
       "categoryId": "SP_IconMonsterHead_055_UI",
-      "title": "审判战士",
+      "title": "Chiến binh phán xét",
       "x": 2275.523,
       "y": 2258.312,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290398265333583872",
       "categoryId": "SP_IconMonsterHead_969_UI",
-      "title": "寒霜陆龟",
+      "title": "Rùa băng giá",
       "x": 2090.37,
       "y": 2336.202,
       "levelId": "0"
@@ -1714,7 +1714,7 @@
     {
       "id": "kuro:1290398324412211200",
       "categoryId": "SP_IconMonsterHead_969_UI",
-      "title": "寒霜陆龟",
+      "title": "Rùa băng giá",
       "x": 2089.041,
       "y": 2338.93,
       "levelId": "0"
@@ -1722,7 +1722,7 @@
     {
       "id": "kuro:1290462398838018048",
       "categoryId": "SP_IconMonsterHead_969_UI",
-      "title": "寒霜陆龟",
+      "title": "Rùa băng giá",
       "x": 2244.367,
       "y": 2347.369,
       "levelId": "0"
@@ -1730,7 +1730,7 @@
     {
       "id": "kuro:1290462398926098432",
       "categoryId": "SP_IconMonsterHead_969_UI",
-      "title": "寒霜陆龟",
+      "title": "Rùa băng giá",
       "x": 2247.981,
       "y": 2345.562,
       "levelId": "0"
@@ -1738,7 +1738,7 @@
     {
       "id": "kuro:1290463361915494400",
       "categoryId": "SP_IconMonsterHead_969_UI",
-      "title": "寒霜陆龟",
+      "title": "Rùa băng giá",
       "x": 2374.801,
       "y": 2408.547,
       "levelId": "0"
@@ -1746,7 +1746,7 @@
     {
       "id": "kuro:1290463416195813376",
       "categoryId": "SP_IconMonsterHead_969_UI",
-      "title": "寒霜陆龟",
+      "title": "Rùa băng giá",
       "x": 2369.732,
       "y": 2409.722,
       "levelId": "0"
@@ -1754,595 +1754,595 @@
     {
       "id": "kuro:1289961983186657280",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2353.694,
       "y": 2346.466,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289961983283126272",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2355.501,
       "y": 2344.659,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289961983379595264",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2352.212,
       "y": 2348.707,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289962661938798592",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2340.141,
       "y": 2320.264,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289962662010101760",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2341.045,
       "y": 2322.071,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289963647962779648",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2284.122,
       "y": 2400.678,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289963648059248640",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2286.833,
       "y": 2400.678,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289963648151523328",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2288.64,
       "y": 2400.678,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289964046000398336",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2293.158,
       "y": 2379.896,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289964046067507200",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2294.061,
       "y": 2383.511,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289964046126227456",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2302.193,
       "y": 2383.511,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289964674799702016",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2283.219,
       "y": 2538.918,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289964674887782400",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2284.122,
       "y": 2538.014,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289964953370451968",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2275.991,
       "y": 2526.268,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289965499114655744",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2250.692,
       "y": 2599.454,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289965499198541824",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2247.078,
       "y": 2598.551,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289965499282427904",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2253.637,
       "y": 2596.084,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289966210653163520",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2232.621,
       "y": 2584.998,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289966210762215424",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2232.621,
       "y": 2584.094,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289966210879655936",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2227.2,
       "y": 2579.576,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289966718942257152",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2257.016,
       "y": 2238.042,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289966890115489792",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2246.174,
       "y": 2246.174,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289966890207764480",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2245.271,
       "y": 2247.981,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289967275249573888",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2276.894,
       "y": 2195.576,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289967275304099840",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2274.184,
       "y": 2194.673,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289967275358625792",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2272.376,
       "y": 2192.866,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289967676021346304",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2315.746,
       "y": 2195.576,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289967676109426688",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2317.553,
       "y": 2204.612,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289967676197507072",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2319.36,
       "y": 2203.708,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289968226521915392",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2235.332,
       "y": 2043.784,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289968226580635648",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2237.139,
       "y": 2038.362,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289968226635161600",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2244.367,
       "y": 2040.169,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289968226689687552",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2241.656,
       "y": 2041.073,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969129793183744",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2004.028,
       "y": 2286.833,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969129856098304",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2004.932,
       "y": 2293.158,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969129919012864",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 2003.125,
       "y": 2294.061,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969129990316032",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1997.704,
       "y": 2299.482,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969130049036288",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1998.607,
       "y": 2299.482,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969130103562240",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1996.8,
       "y": 2285.026,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969130158088192",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1990.475,
       "y": 2285.026,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969130212614144",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1991.379,
       "y": 2287.736,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969130267140096",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1986.861,
       "y": 2292.254,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969937953136640",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1987.765,
       "y": 2332.009,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969938007662592",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1974.212,
       "y": 2336.527,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969938078965760",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1972.405,
       "y": 2332.913,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289969938141880320",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1970.598,
       "y": 2332.913,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289970449582727168",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1929.939,
       "y": 2285.026,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289970449637253120",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1928.132,
       "y": 2282.315,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289970777593569280",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1832.358,
       "y": 2327.492,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289970777681649664",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1834.165,
       "y": 2329.299,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289971274869301248",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1853.139,
       "y": 2407.002,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289971274923827200",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1855.849,
       "y": 2408.809,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289971274974158848",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1853.139,
       "y": 2409.713,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289971660037890048",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1912.772,
       "y": 2454.889,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289971660096610304",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1917.289,
       "y": 2458.504,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289971847317757952",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1914.579,
       "y": 2435.915,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289972999341563904",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1871.209,
       "y": 2163.953,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289972999459004416",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1880.245,
       "y": 2178.409,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289972999555473408",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1866.692,
       "y": 2181.12,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289972999651942400",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1861.271,
       "y": 2174.795,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289973432322809856",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1854.042,
       "y": 2119.68,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289973432389918720",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1847.718,
       "y": 2116.066,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289973432457027584",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1845.007,
       "y": 2116.066,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289974069633814528",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1882.955,
       "y": 2080.828,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289974069721894912",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1884.762,
       "y": 2075.407,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
       "id": "kuro:1289974069814169600",
       "categoryId": "T_IconTask_Task_084_UI",
-      "title": "暂星",
+      "title": "ngôi sao tạm thời",
       "x": 1882.052,
       "y": 2076.311,
-      "description": "高密度的回音能量析出、凝结后的晶体，形态并不稳定。在悄然形成的同时，却又悄然升华、逸散，最终还原为无形无质的能量。它的存在，如同转瞬即逝的暂星。",
+      "description": "Dạng tinh thể hình thành sau khi năng lượng phản xạ mật độ cao bị kết tủa và ngưng tụ không ổn định. Trong khi lặng lẽ hình thành, nó lặng lẽ thăng hoa và tiêu tan, cuối cùng trở lại năng lượng vô hình và vô phẩm chất. Sự tồn tại của nó giống như một ngôi sao thoáng qua.",
       "levelId": "0"
     },
     {
@@ -2351,7 +2351,7 @@
       "title": "Rương huy quang",
       "x": 2198.287,
       "y": 2558.795,
-      "description": "击败强敌即可获得，数据中心1级解锁",
+      "description": "Nhận được bằng cách đánh bại kẻ thù mạnh mẽ, được mở khóa ở trung tâm dữ liệu cấp 1",
       "levelId": "0"
     },
     {
@@ -2360,7 +2360,7 @@
       "title": "Rương huy quang",
       "x": 2027.52,
       "y": 2182.024,
-      "description": "完成“海风中失落的湛蓝回声·下”任务奖励",
+      "description": "Phần thưởng khi hoàn thành nhiệm vụ \"Tiếng vang xanh lạc lối trong gió biển Phần 2\"",
       "levelId": "0"
     },
     {
@@ -2369,7 +2369,7 @@
       "title": "Rương huy quang",
       "x": 2680.772,
       "y": 1696.828,
-      "description": "与飞檐研究员NPC互动，参加飞檐挑战获得（标点由玩家星玖onlive提供）",
+      "description": "Tương tác với NPC nhà nghiên cứu Feiyaan và tham gia thử thách Feiyaan để nhận được (dấu câu do người chơi Xingjiu cung cấp trực tuyến)",
       "levelId": "0"
     },
     {
@@ -2378,7 +2378,7 @@
       "title": "Rương huy quang",
       "x": 1804.348,
       "y": 1937.167,
-      "description": "击败强敌后获得，需先解锁数据中心（标点由热心玩家提供）",
+      "description": "Nhận được sau khi đánh bại kẻ thù mạnh, trước tiên bạn cần mở khóa trung tâm dữ liệu (dấu câu được cung cấp bởi những người chơi nhiệt tình)",
       "levelId": "0"
     },
     {
@@ -2387,88 +2387,88 @@
       "title": "Rương huy quang",
       "x": 1904.64,
       "y": 2335.624,
-      "description": "击败强敌后获得，需先解锁数据中心（标点由热心玩家提供）",
+      "description": "Nhận được sau khi đánh bại kẻ thù mạnh, trước tiên bạn cần mở khóa trung tâm dữ liệu (dấu câu được cung cấp bởi những người chơi nhiệt tình)",
       "levelId": "0"
     },
     {
       "id": "kuro:1289282002880368640",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 2183.024,
       "y": 2191.003,
-      "description": "Tầng 5 · 谬误收容所分层入口",
+      "description": "Tầng 5 · Lối vào phân tầng Trại sai lầm",
       "floorId": "5",
       "levelId": "-1000000/5"
     },
     {
       "id": "kuro:1289282627632701440",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 2304.835,
       "y": 2372.883,
-      "description": "Tầng 4 · 金枝地分层入口",
+      "description": "Tầng 4 · Lối vào phân tầng Nhánh Vàng",
       "floorId": "4",
       "levelId": "-1000000/4"
     },
     {
       "id": "kuro:1289283315641163776",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 1915.282,
       "y": 2243.551,
-      "description": "Tầng 6 · 艾多斯之镜分层入口",
+      "description": "Tầng 6 · Lối vào phân tầng Gương Aidos",
       "floorId": "6",
       "levelId": "-1000000/6"
     },
     {
       "id": "kuro:1294375265599823872",
       "categoryId": "SP_IconMonsterHead_329_UI",
-      "title": "踏光兽",
+      "title": "Quái vật bước đi nhẹ nhàng",
       "x": 2113.355,
       "y": 2146.786,
-      "description": "乘霄山特有的啸叫种残象，以生性孤僻，踵迹留明而著称，危险度隶属于巨浪级。",
+      "description": "Dư ảnh tiếng hú là duy nhất của núi Chengxiao. Nó nổi tiếng vì tính chất đơn độc và dấu gót chân rõ ràng. Mức độ nguy hiểm thuộc cấp độ sóng khổng lồ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1294375929784131584",
       "categoryId": "SP_IconMonsterHead_329_UI",
-      "title": "踏光兽",
+      "title": "Quái vật bước đi nhẹ nhàng",
       "x": 2138.654,
       "y": 2260.631,
-      "description": "乘霄山特有的啸叫种残象，以生性孤僻，踵迹留明而著称，危险度隶属于巨浪级。",
+      "description": "Dư ảnh tiếng hú là duy nhất của núi Chengxiao. Nó nổi tiếng vì tính chất đơn độc và dấu gót chân rõ ràng. Mức độ nguy hiểm thuộc cấp độ sóng khổng lồ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417638565481062400",
       "categoryId": "SP_IconMonsterHead_1003_UI",
-      "title": "巡哨机傀",
+      "title": "máy bay không người lái tuần tra",
       "x": 2187.11,
       "y": 2048.283,
-      "description": "该敌人冷凝伤害抗性提高（与常规外观有差异是因为泰缇斯之底地图特质导致，其余无区别）\n寄生于巡哨战车的残象，以生锈破损的装甲外壳伪装自身。以“哨戒”为己任的它，监察着城市内的一切动向，并清除所有潜在的威胁。",
+      "description": "Khả năng chống sát thương ngưng tụ của kẻ địch được tăng lên (sự khác biệt so với ngoại hình thông thường là do đặc điểm của bản đồ Titis Bottom và không có sự khác biệt ở phần còn lại)\nMột tàn tích ký sinh của một chiếc xe tuần tra, ngụy trang bằng lớp vỏ bọc thép rỉ sét và hư hỏng. Với nhiệm vụ là \"người canh gác\", nó giám sát mọi chuyển động trong thành phố và loại bỏ mọi mối đe dọa tiềm ẩn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417638634825527296",
       "categoryId": "SP_IconMonsterHead_1003_UI",
-      "title": "巡哨机傀",
+      "title": "máy bay không người lái tuần tra",
       "x": 2118.388,
       "y": 2017.147,
-      "description": "该敌人冷凝伤害抗性提高（与常规外观有差异是因为泰缇斯之底地图特质导致，其余无区别）\n寄生于巡哨战车的残象，以生锈破损的装甲外壳伪装自身。以“哨戒”为己任的它，监察着城市内的一切动向，并清除所有潜在的威胁。",
+      "description": "Khả năng chống sát thương ngưng tụ của kẻ địch được tăng lên (sự khác biệt so với ngoại hình thông thường là do đặc điểm của bản đồ Titis Bottom và không có sự khác biệt ở phần còn lại)\nMột tàn tích ký sinh của một chiếc xe tuần tra, ngụy trang bằng lớp vỏ bọc thép rỉ sét và hư hỏng. Với nhiệm vụ là \"người canh gác\", nó giám sát mọi chuyển động trong thành phố và loại bỏ mọi mối đe dọa tiềm ẩn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417638690756534272",
       "categoryId": "SP_IconMonsterHead_1003_UI",
-      "title": "巡哨机傀",
+      "title": "máy bay không người lái tuần tra",
       "x": 2074.476,
       "y": 2043.305,
-      "description": "该敌人冷凝伤害抗性提高（与常规外观有差异是因为泰缇斯之底地图特质导致，其余无区别）\n寄生于巡哨战车的残象，以生锈破损的装甲外壳伪装自身。以“哨戒”为己任的它，监察着城市内的一切动向，并清除所有潜在的威胁。",
+      "description": "Khả năng chống sát thương ngưng tụ của kẻ địch được tăng lên (sự khác biệt so với ngoại hình thông thường là do đặc điểm của bản đồ Titis Bottom và không có sự khác biệt ở phần còn lại)\nMột tàn tích ký sinh của một chiếc xe tuần tra, ngụy trang bằng lớp vỏ bọc thép rỉ sét và hư hỏng. Với nhiệm vụ là \"người canh gác\", nó giám sát mọi chuyển động trong thành phố và loại bỏ mọi mối đe dọa tiềm ẩn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290598932587044864",
       "categoryId": "SP_IconMonsterHead_235_UI",
-      "title": "巡徊猎手",
+      "title": "thợ săn lưu động",
       "x": 2279.632,
       "y": 2537.083,
       "levelId": "0"
@@ -2476,7 +2476,7 @@
     {
       "id": "kuro:1290598932670930944",
       "categoryId": "SP_IconMonsterHead_235_UI",
-      "title": "巡徊猎手",
+      "title": "thợ săn lưu động",
       "x": 2200.934,
       "y": 2505.532,
       "levelId": "0"
@@ -2484,7 +2484,7 @@
     {
       "id": "kuro:1290598932750622720",
       "categoryId": "SP_IconMonsterHead_235_UI",
-      "title": "巡徊猎手",
+      "title": "thợ săn lưu động",
       "x": 2081.596,
       "y": 2298.552,
       "levelId": "0"
@@ -2492,7 +2492,7 @@
     {
       "id": "kuro:1290598932834508800",
       "categoryId": "SP_IconMonsterHead_235_UI",
-      "title": "巡徊猎手",
+      "title": "thợ săn lưu động",
       "x": 1957.343,
       "y": 2342.644,
       "levelId": "0"
@@ -2500,70 +2500,70 @@
     {
       "id": "kuro:1417901466582294528",
       "categoryId": "SP_IconMonsterHead_105_UI",
-      "title": "破霜猎手",
+      "title": "Thợ săn phá băng",
       "x": 2280.752,
       "y": 2567.74,
-      "description": "该敌人冷凝伤害抗性提高。\n手持猎具的类人残象，凝冰霜为长矛。破霜猎手的掷枪如破风的寒芒般精准，它将荒原视作恣意的围场，以逐猎为乐。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMột tàn dư hình người đang cầm một công cụ săn bắn, với băng ngưng tụ thành một ngọn giáo. Ngọn giáo ném của thợ săn phá băng chính xác như ánh sáng lạnh lẽo xuyên qua cơn gió. Nó coi vùng đất hoang như một bãi chăn thả bừa bãi và thích săn bắn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417901937464221696",
       "categoryId": "SP_IconMonsterHead_105_UI",
-      "title": "破霜猎手",
+      "title": "Thợ săn phá băng",
       "x": 2210.042,
       "y": 2392.998,
-      "description": "该敌人冷凝伤害抗性提高。\n手持猎具的类人残象，凝冰霜为长矛。破霜猎手的掷枪如破风的寒芒般精准，它将荒原视作恣意的围场，以逐猎为乐。",
+      "description": "Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMột tàn dư hình người đang cầm một công cụ săn bắn, với băng ngưng tụ thành một ngọn giáo. Ngọn giáo ném của thợ săn phá băng chính xác như ánh sáng lạnh lẽo xuyên qua cơn gió. Nó coi vùng đất hoang như một bãi chăn thả bừa bãi và thích săn bắn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1294370699714043904",
       "categoryId": "SP_IconMonsterHead_330_UI",
-      "title": "游鳞机枢",
+      "title": "Cơ chế quy mô du lịch",
       "x": 2363.633,
       "y": 2296.772,
-      "description": "分布于乘霄山各个遗迹内的守卫，因循守护岁主的指令而行动。",
+      "description": "Các lính canh phân bố ở nhiều di tích khác nhau ở núi Chengxiao hành động theo chỉ dẫn của người bảo vệ Tùy Chúa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1294371141842558976",
       "categoryId": "SP_IconMonsterHead_330_UI",
-      "title": "游鳞机枢",
+      "title": "Cơ chế quy mô du lịch",
       "x": 2360.922,
       "y": 2292.254,
-      "description": "分布于乘霄山各个遗迹内的守卫，因循守护岁主的指令而行动。",
+      "description": "Các lính canh phân bố ở nhiều di tích khác nhau ở núi Chengxiao hành động theo chỉ dẫn của người bảo vệ Tùy Chúa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1294371835143327744",
       "categoryId": "SP_IconMonsterHead_330_UI",
-      "title": "游鳞机枢",
+      "title": "Cơ chế quy mô du lịch",
       "x": 2255.209,
       "y": 2158.532,
-      "description": "分布于乘霄山各个遗迹内的守卫，因循守护岁主的指令而行动。",
+      "description": "Các lính canh phân bố ở nhiều di tích khác nhau ở núi Chengxiao hành động theo chỉ dẫn của người bảo vệ Tùy Chúa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1294373547151024128",
       "categoryId": "SP_IconMonsterHead_330_UI",
-      "title": "游鳞机枢",
+      "title": "Cơ chế quy mô du lịch",
       "x": 2121.487,
       "y": 2185.638,
-      "description": "分布于乘霄山各个遗迹内的守卫，因循守护岁主的指令而行动。",
+      "description": "Các lính canh phân bố ở nhiều di tích khác nhau ở núi Chengxiao hành động theo chỉ dẫn của người bảo vệ Tùy Chúa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1294374635479687168",
       "categoryId": "SP_IconMonsterHead_330_UI",
-      "title": "游鳞机枢",
+      "title": "Cơ chế quy mô du lịch",
       "x": 1916.386,
       "y": 2030.231,
-      "description": "分布于乘霄山各个遗迹内的守卫，因循守护岁主的指令而行动。",
+      "description": "Các lính canh phân bố ở nhiều di tích khác nhau ở núi Chengxiao hành động theo chỉ dẫn của người bảo vệ Tùy Chúa.",
       "levelId": "0"
     },
     {
       "id": "kuro:1291146285384015872",
       "categoryId": "jyys",
-      "title": "嗟怨乐师",
+      "title": "Nhạc sĩ khiếu nại",
       "x": 1773.023,
       "y": 1902.092,
       "description": "LV.120",
@@ -2572,115 +2572,115 @@
     {
       "id": "kuro:1291143233212702720",
       "categoryId": "smhw",
-      "title": "山脉护卫",
+      "title": "người bảo vệ núi",
       "x": 1892.713,
       "y": 2323.254,
-      "description": "LV.120。能源中心下方传送点附近有个库可可，对话后有传送门可直接到达",
+      "description": "LV.120. Có một ca cao gần cổng thông tin bên dưới Trung tâm Năng lượng và có một cổng thông tin có thể truy cập ngay sau cuộc trò chuyện",
       "levelId": "0"
     },
     {
       "id": "kuro:1417904315986948096",
       "categoryId": "SP_IconMonsterHead_275_UI",
-      "title": "遁地鼠",
+      "title": "Chuột trốn thoát",
       "x": 2466.021,
       "y": 2262.654,
-      "description": "该敌人湮灭伤害抗性提高。\n穿凿能力极强的拟态地鼠，即便是钢筋混凝土也不在话下。\n遁地鼠凭借着错综复杂的地洞，能够轻易地藏匿自身、戏耍敌人。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nMimic Gopher cực kỳ có khả năng khoan xuyên qua bê tông cốt thép.\nVới những chiếc hang phức tạp của mình, chuột gopher có thể dễ dàng ẩn mình và đánh lừa kẻ thù.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417904377064402944",
       "categoryId": "SP_IconMonsterHead_275_UI",
-      "title": "遁地鼠",
+      "title": "Chuột trốn thoát",
       "x": 2475.716,
       "y": 2262.889,
-      "description": "该敌人湮灭伤害抗性提高。\n穿凿能力极强的拟态地鼠，即便是钢筋混凝土也不在话下。\n遁地鼠凭借着错综复杂的地洞，能够轻易地藏匿自身、戏耍敌人。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nMimic Gopher cực kỳ có khả năng khoan xuyên qua bê tông cốt thép.\nVới những chiếc hang phức tạp của mình, chuột gopher có thể dễ dàng ẩn mình và đánh lừa kẻ thù.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417904443024027648",
       "categoryId": "SP_IconMonsterHead_275_UI",
-      "title": "遁地鼠",
+      "title": "Chuột trốn thoát",
       "x": 2471.099,
       "y": 2268.428,
-      "description": "该敌人湮灭伤害抗性提高。\n穿凿能力极强的拟态地鼠，即便是钢筋混凝土也不在话下。\n遁地鼠凭借着错综复杂的地洞，能够轻易地藏匿自身、戏耍敌人。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nMimic Gopher cực kỳ có khả năng khoan xuyên qua bê tông cốt thép.\nVới những chiếc hang phức tạp của mình, chuột gopher có thể dễ dàng ẩn mình và đánh lừa kẻ thù.",
       "levelId": "0"
     },
     {
       "id": "kuro:1295848850251669504",
       "categoryId": "cx_01",
-      "title": "潮汐之遗·绿",
+      "title": "Di sản của thủy triều·Xanh",
       "x": 2141.365,
       "y": 2281.412,
-      "description": "完成所有战术测试挑战目标后获得，需先接取相关任务（标点由热心玩家提供）击败踏光兽",
+      "description": "Nhận được sau khi hoàn thành tất cả các mục tiêu thử thách thử thách chiến thuật. Trước tiên, bạn phải chấp nhận các nhiệm vụ liên quan (dấu câu do những người chơi nhiệt tình cung cấp) và đánh bại Quái thú bước nhẹ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1295865644135833600",
       "categoryId": "cx_01",
-      "title": "潮汐之遗·绿",
+      "title": "Di sản của thủy triều·Xanh",
       "x": 2457.6,
       "y": 2262.438,
-      "description": "完成所有战术测试挑战目标后获得，需先接取相关任务（标点由玩家雲开提供）",
+      "description": "Nhận được sau khi hoàn thành tất cả các mục tiêu thử thách thử thách chiến thuật, trước tiên bạn phải chấp nhận các nhiệm vụ liên quan (dấu câu do người chơi Yunkai cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1317260485003493376",
       "categoryId": "cx_01",
-      "title": "潮汐之遗·绿",
+      "title": "Di sản của thủy triều·Xanh",
       "x": 2103.416,
       "y": 1935.36,
-      "description": "完成约兰的战术测试获得，可查看对应攻略（标点由玩家临渊处的光芒提供）",
+      "description": "Nhận được khi hoàn thành bài kiểm tra chiến thuật của Yolan, bạn có thể xem hướng dẫn tương ứng (dấu chấm câu được cung cấp bởi ánh sáng ở vực thẳm của người chơi)",
       "levelId": "0"
     },
     {
       "id": "kuro:1346859445554487296",
       "categoryId": "cx_01",
-      "title": "潮汐之遗·绿",
+      "title": "Di sản của thủy triều·Xanh",
       "x": 2811.784,
       "y": 1761.882,
-      "description": "完成约兰的战术测试获取。（标点由玩家Liner提供）",
+      "description": "Nhận được bằng cách hoàn thành Bài kiểm tra chiến thuật của Yoran. (Dấu câu do người chơi Liner cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1290795395320569856",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1950.286,
       "y": 1995.933,
-      "description": "这几个红影中，一共四只",
+      "description": "Trong số các bóng đỏ này, tổng cộng có bốn",
       "levelId": "0"
     },
     {
       "id": "kuro:1290795486701871104",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1953.376,
       "y": 2001.742,
-      "description": "这几个红影中，一共四只",
+      "description": "Trong số các bóng đỏ này, tổng cộng có bốn",
       "levelId": "0"
     },
     {
       "id": "kuro:1290795599700615168",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1955.816,
       "y": 2007.182,
-      "description": "这几个红影中，一共四只",
+      "description": "Trong số các bóng đỏ này, tổng cộng có bốn",
       "levelId": "0"
     },
     {
       "id": "kuro:1290795680143171584",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1949.292,
       "y": 1990.918,
-      "description": "这几个红影中，一共四只",
+      "description": "Trong số các bóng đỏ này, tổng cộng có bốn",
       "levelId": "0"
     },
     {
       "id": "kuro:1290795876475297792",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1941.757,
       "y": 1974.7,
       "levelId": "0"
@@ -2688,25 +2688,25 @@
     {
       "id": "kuro:1290796556674473984",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1863.078,
       "y": 2275.991,
-      "description": "传送到能源中心下方的信标，找到旁边的库洛洛机器人，对话，来到红名BOSS地点，顺着点位走。这个点位在最下方。",
+      "description": "Dịch chuyển đến đèn hiệu dưới trung tâm năng lượng, tìm robot Chrollo bên cạnh, nói chuyện với nó, đến vị trí của BOSS màu đỏ và đi theo điểm. Điểm này nằm ở phía dưới.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290796556754165760",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 1860.367,
       "y": 2275.991,
-      "description": "传送到能源中心下方的信标，找到旁边的库洛洛机器人，对话，来到红名BOSS地点，顺着点位走。这个点位在最下方。",
+      "description": "Dịch chuyển đến đèn hiệu dưới trung tâm năng lượng, tìm robot Chrollo bên cạnh, nói chuyện với nó, đến vị trí của BOSS màu đỏ và đi theo điểm. Điểm này nằm ở phía dưới.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290798214816555008",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2171.181,
       "y": 2196.48,
       "levelId": "0"
@@ -2714,7 +2714,7 @@
     {
       "id": "kuro:1290798214917218304",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2168.471,
       "y": 2198.287,
       "levelId": "0"
@@ -2722,7 +2722,7 @@
     {
       "id": "kuro:1290798215005298688",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2163.049,
       "y": 2205.515,
       "levelId": "0"
@@ -2730,7 +2730,7 @@
     {
       "id": "kuro:1290799231138865152",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2255.209,
       "y": 2278.701,
       "levelId": "0"
@@ -2738,7 +2738,7 @@
     {
       "id": "kuro:1290799231210168320",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2274.184,
       "y": 2276.894,
       "levelId": "0"
@@ -2746,7 +2746,7 @@
     {
       "id": "kuro:1290799957491654656",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2415.134,
       "y": 2299.482,
       "levelId": "0"
@@ -2754,7 +2754,7 @@
     {
       "id": "kuro:1290799957546180608",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 3359.322,
       "y": 1573.045,
       "levelId": "0"
@@ -2762,7 +2762,7 @@
     {
       "id": "kuro:1290800534807732224",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2299.482,
       "y": 2504.584,
       "levelId": "0"
@@ -2770,7 +2770,7 @@
     {
       "id": "kuro:1290800534904201216",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2302.193,
       "y": 2504.584,
       "levelId": "0"
@@ -2778,7 +2778,7 @@
     {
       "id": "kuro:1290800534996475904",
       "categoryId": "SP_IconMonsterHead_015_UI",
-      "title": "先锋幼岩",
+      "title": "nhạc rock trẻ tiên phong",
       "x": 2304.904,
       "y": 2495.548,
       "levelId": "0"
@@ -2786,7 +2786,7 @@
     {
       "id": "kuro:1290578622784659456",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 1794.4,
       "y": 2078.542,
       "levelId": "0"
@@ -2794,7 +2794,7 @@
     {
       "id": "kuro:1290578622839185408",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 2122.788,
       "y": 2077.187,
       "levelId": "0"
@@ -2802,7 +2802,7 @@
     {
       "id": "kuro:1290578622893711360",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 2128.583,
       "y": 2106.839,
       "levelId": "0"
@@ -2810,7 +2810,7 @@
     {
       "id": "kuro:1290578622948237312",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 2300.273,
       "y": 2388.567,
       "levelId": "0"
@@ -2818,7 +2818,7 @@
     {
       "id": "kuro:1290578623002763264",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 2290.42,
       "y": 2397.886,
       "levelId": "0"
@@ -2826,7 +2826,7 @@
     {
       "id": "kuro:1290578623057289216",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 2206.704,
       "y": 2462.626,
       "levelId": "0"
@@ -2834,7 +2834,7 @@
     {
       "id": "kuro:1290578623111815168",
       "categoryId": "SP_IconMonsterHead_315_UI",
-      "title": "刺玫菇",
+      "title": "Nấm tầm xuân",
       "x": 2192.92,
       "y": 2472.111,
       "levelId": "0"
@@ -2842,25 +2842,25 @@
     {
       "id": "kuro:1290457263396970496",
       "categoryId": "5032",
-      "title": "无归的谬误",
+      "title": "sai lầm không trở lại",
       "x": 2303.919,
       "y": 1536.551,
-      "description": "副本。泰缇斯系统构筑的最终防卫程序，巡弋于现实与数据空间的交界地。\n泰缇斯系统构筑的最终防卫程序，巡弋于现实与数据空间的交界地。\n即使倾尽群星的算力，甚至篡夺调律的权柄，也要不计代价地维系本机的绝对安全与稳定—这是系统赋存的核心逻辑，是观测得以存续的保证，也是泰缇斯终始弗渝的协议",
+      "description": "sao chép. Chương trình phòng thủ tối ưu do hệ thống Tatis xây dựng sẽ tuần tra giao diện giữa thực tế và không gian dữ liệu.\nChương trình phòng thủ tối ưu do hệ thống Tatis xây dựng sẽ tuần tra giao diện giữa thực tế và không gian dữ liệu.\nNgay cả khi toàn bộ sức mạnh tính toán của các ngôi sao cạn kiệt, hoặc thậm chí sức mạnh điều chỉnh bị chiếm đoạt, thì sự an toàn và ổn định tuyệt đối của máy phải được duy trì bằng mọi giá - đây là logic cốt lõi cho sự tồn tại của hệ thống, sự đảm bảo cho sự tồn tại của các quan sát và thỏa thuận không thể thay đổi của Tatis",
       "levelId": "0"
     },
     {
       "id": "kuro:1417903183277404160",
       "categoryId": "SP_IconMonsterHead_195_UI",
-      "title": "奏谕乐师",
+      "title": "Nhạc sĩ dàn nhạc",
       "x": 2039.591,
       "y": 1974.492,
-      "description": "该敌人导电伤害抗性提高。凭借乐器施展异能的类人残象，模仿着人类鸣笛传信的行为，但其吹奏的声律嘲哳刺耳，韵同报丧。",
+      "description": "Khả năng chống lại sát thương dẫn điện của kẻ thù này được tăng lên. Hình ảnh tàn dư hình người sử dụng các nhạc cụ để phát huy sức mạnh siêu nhiên bắt chước hành vi bấm còi của con người để truyền tải thông điệp, nhưng âm thanh nó phát ra mang tính chế giễu và gay gắt, và vần điệu giống như thông báo về cái chết.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290675936386945024",
       "categoryId": "yyfb",
-      "title": "游弋风暴",
+      "title": "Điều hướng cơn bão",
       "x": 2211.226,
       "y": 2567.207,
       "levelId": "0"
@@ -2868,34 +2868,34 @@
     {
       "id": "kuro:1289987635569037312",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 1928.177,
       "y": 2019.885,
-      "description": "击败游鳞机枢",
+      "description": "Đánh bại máy cân du lịch",
       "levelId": "0"
     },
     {
       "id": "kuro:1290410808936566784",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2366.551,
       "y": 2285.315,
-      "description": "击败游鳞机枢",
+      "description": "Đánh bại máy cân du lịch",
       "levelId": "0"
     },
     {
       "id": "kuro:1290412329859211264",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2304.416,
       "y": 2394.335,
-      "description": "悬崖洞穴里",
+      "description": "Trong hang vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1290413182465695744",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2189.984,
       "y": 2467.123,
       "levelId": "0"
@@ -2903,7 +2903,7 @@
     {
       "id": "kuro:1290413823439233024",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2242.397,
       "y": 2492.006,
       "levelId": "0"
@@ -2911,97 +2911,97 @@
     {
       "id": "kuro:1290416632490958848",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2260.025,
       "y": 2139.549,
-      "description": "一只游鳞机枢镇守",
+      "description": "Một cỗ máy có vảy lang thang bảo vệ",
       "levelId": "0"
     },
     {
       "id": "kuro:1290417380360527872",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 1979.407,
       "y": 2185.701,
-      "description": "在山崖谷底，击败一只踏光兽",
+      "description": "Đánh bại một con thú bước đi nhẹ nhàng dưới đáy vách đá và thung lũng",
       "levelId": "0"
     },
     {
       "id": "kuro:1290418545662550016",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2148.927,
       "y": 2184.201,
-      "description": "击败游鳞机枢",
+      "description": "Đánh bại máy cân du lịch",
       "levelId": "0"
     },
     {
       "id": "kuro:1290419290123100160",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2124.893,
       "y": 2131.272,
-      "description": "击败踏光兽",
+      "description": "Đánh bại Light Treader",
       "levelId": "0"
     },
     {
       "id": "kuro:1290421044202512384",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2087.803,
       "y": 2318.872,
-      "description": "打败怪物。",
+      "description": "Đánh bại quái vật.",
       "levelId": "0"
     },
     {
       "id": "kuro:1295845870211260416",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2137.751,
       "y": 2281.412,
-      "description": "完成所有战术测试挑战目标后获得，需先接取相关任务（标点由热心玩家提供）击败踏光兽",
+      "description": "Nhận được sau khi hoàn thành tất cả các mục tiêu thử thách thử thách chiến thuật. Trước tiên, bạn phải chấp nhận các nhiệm vụ liên quan (dấu câu do những người chơi nhiệt tình cung cấp) và đánh bại Quái thú bước nhẹ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1295865276609945600",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2457.6,
       "y": 2258.824,
-      "description": "完成所有战术测试挑战目标后获得，需先接取相关任务（标点由玩家雲开提供）",
+      "description": "Nhận được sau khi hoàn thành tất cả các mục tiêu thử thách thử thách chiến thuật, trước tiên bạn phải chấp nhận các nhiệm vụ liên quan (dấu câu do người chơi Yunkai cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1317259858378670080",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2103.416,
       "y": 1938.974,
-      "description": "完成约兰的战术测试获得，可查看对应攻略（标点由玩家临渊处的光芒提供）",
+      "description": "Nhận được khi hoàn thành bài kiểm tra chiến thuật của Yolan, bạn có thể xem hướng dẫn tương ứng (dấu chấm câu được cung cấp bởi ánh sáng ở vực thẳm của người chơi)",
       "levelId": "0"
     },
     {
       "id": "kuro:1345524276629315584",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2811.784,
       "y": 1761.882,
-      "description": "完成约兰的战术测试获取。（标点由玩家Liner提供）",
+      "description": "Nhận được bằng cách hoàn thành Bài kiểm tra chiến thuật của Yoran. (Dấu câu do người chơi Liner cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1289952107056668672",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2725.948,
       "y": 1807.059,
-      "description": "方法1：调律大厅传送点直走找到库可可对话能空间门直传到这（见图3）；\n方法2：到金枝地上方的信标，然后朝地图东北方向的小岛走（第2张图的位置），触碰这里的小鱼群，就可以来到最远的信标；",
+      "description": "Cách 1: Đi thẳng đến điểm trung chuyển ở phòng chỉnh âm để tìm Ku Keke, nói chuyện với cửa không gian rồi đi thẳng vào đây (xem hình 3);\nCách 2: Đi đến ngọn hải đăng phía trên Golden Bough Land, sau đó đi bộ về phía hòn đảo nhỏ ở hướng đông bắc của bản đồ (vị trí của bức tranh thứ hai), chạm vào con cá nhỏ ở đây và bạn có thể đến được ngọn hải đăng xa nhất;",
       "levelId": "0"
     },
     {
       "id": "kuro:1289952963955712000",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2264.245,
       "y": 1573.045,
       "levelId": "0"
@@ -3009,7 +3009,7 @@
     {
       "id": "kuro:1289953420536012800",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1943.492,
       "y": 1891.087,
       "levelId": "0"
@@ -3017,7 +3017,7 @@
     {
       "id": "kuro:1289953749768413184",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1866.692,
       "y": 2186.541,
       "levelId": "0"
@@ -3025,7 +3025,7 @@
     {
       "id": "kuro:1289954155873001472",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2029.327,
       "y": 2251.595,
       "levelId": "0"
@@ -3033,7 +3033,7 @@
     {
       "id": "kuro:1289954572299329536",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2201.901,
       "y": 2170.278,
       "levelId": "0"
@@ -3041,7 +3041,7 @@
     {
       "id": "kuro:1289955134523904000",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2345.562,
       "y": 2332.009,
       "levelId": "0"
@@ -3049,7 +3049,7 @@
     {
       "id": "kuro:1289955537000927232",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2267.859,
       "y": 2496.452,
       "description": "Tầng 4",
@@ -3059,7 +3059,7 @@
     {
       "id": "kuro:1289956735931047936",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2265.148,
       "y": 2559.699,
       "levelId": "0"
@@ -3067,25 +3067,25 @@
     {
       "id": "kuro:1289988812030271488",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2039.266,
       "y": 1980.536,
-      "description": "击败声骸即可获得",
+      "description": "Có được khi đánh bại Sound Skull",
       "levelId": "0"
     },
     {
       "id": "kuro:1290411644232208384",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2309.466,
       "y": 2343.701,
-      "description": "悬崖底部",
+      "description": "đáy vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1290414702903234560",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2279.523,
       "y": 2544.718,
       "levelId": "0"
@@ -3093,16 +3093,16 @@
     {
       "id": "kuro:1290421513175523328",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1979.371,
       "y": 2333.247,
-      "description": "击败怪物。",
+      "description": "Đánh bại quái vật.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290422514803728384",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1752.901,
       "y": 2247.764,
       "levelId": "0"
@@ -3110,52 +3110,52 @@
     {
       "id": "kuro:1295848698368040960",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2139.558,
       "y": 2281.412,
-      "description": "完成所有战术测试挑战目标后获得，需先接取相关任务（标点由热心玩家提供）击败踏光兽",
+      "description": "Nhận được sau khi hoàn thành tất cả các mục tiêu thử thách thử thách chiến thuật. Trước tiên, bạn phải chấp nhận các nhiệm vụ liên quan (dấu câu do những người chơi nhiệt tình cung cấp) và đánh bại Quái thú bước nhẹ.",
       "levelId": "0"
     },
     {
       "id": "kuro:1295865548128722944",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2457.6,
       "y": 2260.631,
-      "description": "完成所有战术测试挑战目标后获得，需先接取相关任务（标点由玩家雲开提供）",
+      "description": "Nhận được sau khi hoàn thành tất cả các mục tiêu thử thách thử thách chiến thuật, trước tiên bạn phải chấp nhận các nhiệm vụ liên quan (dấu câu do người chơi Yunkai cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1295871879025594368",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2189.252,
       "y": 2037.459,
-      "description": "击败标点附近怪物后解锁（标点由玩家星玖onlive提供）",
+      "description": "Mở khóa sau khi đánh bại quái vật gần dấu chấm câu (dấu chấm câu được cung cấp bởi người chơi Xingjiu trực tuyến)",
       "levelId": "0"
     },
     {
       "id": "kuro:1317260380914262016",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2103.416,
       "y": 1937.167,
-      "description": "完成约兰的战术测试获得，可查看对应攻略（标点由玩家临渊处的光芒提供）",
+      "description": "Nhận được khi hoàn thành bài kiểm tra chiến thuật của Yolan, bạn có thể xem hướng dẫn tương ứng (dấu chấm câu được cung cấp bởi ánh sáng ở vực thẳm của người chơi)",
       "levelId": "0"
     },
     {
       "id": "kuro:1346859122839314432",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2811.784,
       "y": 1761.882,
-      "description": "完成约兰的战术测试获取。（标点由玩家Liner提供）",
+      "description": "Nhận được bằng cách hoàn thành Bài kiểm tra chiến thuật của Yoran. (Dấu câu do người chơi Liner cung cấp)",
       "levelId": "0"
     },
     {
       "id": "kuro:1290407810156912640",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2197.6,
       "y": 2550.926,
       "levelId": "0"
@@ -3163,7 +3163,7 @@
     {
       "id": "kuro:1290407810215632896",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2292.471,
       "y": 2353.495,
       "levelId": "0"
@@ -3171,7 +3171,7 @@
     {
       "id": "kuro:1290407810270158848",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2322.811,
       "y": 2322.143,
       "levelId": "0"
@@ -3179,7 +3179,7 @@
     {
       "id": "kuro:1290407810328879104",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2338.668,
       "y": 2312.782,
       "levelId": "0"
@@ -3187,7 +3187,7 @@
     {
       "id": "kuro:1290407810383405056",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2339.454,
       "y": 2310.822,
       "levelId": "0"
@@ -3195,7 +3195,7 @@
     {
       "id": "kuro:1290407810442125312",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2358.519,
       "y": 2303.53,
       "levelId": "0"
@@ -3203,7 +3203,7 @@
     {
       "id": "kuro:1290407810496651264",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2331.784,
       "y": 2296.573,
       "levelId": "0"
@@ -3211,7 +3211,7 @@
     {
       "id": "kuro:1290407810555371520",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2246.039,
       "y": 2217.153,
       "levelId": "0"
@@ -3219,7 +3219,7 @@
     {
       "id": "kuro:1290407810609897472",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2274.202,
       "y": 2139.259,
       "levelId": "0"
@@ -3227,7 +3227,7 @@
     {
       "id": "kuro:1290407810668617728",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2169.564,
       "y": 2298.624,
       "levelId": "0"
@@ -3235,7 +3235,7 @@
     {
       "id": "kuro:1290407810739920896",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2212.319,
       "y": 2084.768,
       "levelId": "0"
@@ -3243,7 +3243,7 @@
     {
       "id": "kuro:1290407810811224064",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2161.667,
       "y": 2059.107,
       "levelId": "0"
@@ -3251,7 +3251,7 @@
     {
       "id": "kuro:1290407810890915840",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2138.184,
       "y": 2105.25,
       "levelId": "0"
@@ -3259,7 +3259,7 @@
     {
       "id": "kuro:1290407810962219008",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2115.596,
       "y": 2051.473,
       "levelId": "0"
@@ -3267,7 +3267,7 @@
     {
       "id": "kuro:1290407811041910784",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2105.901,
       "y": 2065.251,
       "levelId": "0"
@@ -3275,7 +3275,7 @@
     {
       "id": "kuro:1290407811100631040",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2051.698,
       "y": 2067.709,
       "levelId": "0"
@@ -3283,7 +3283,7 @@
     {
       "id": "kuro:1290407811159351296",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2041.886,
       "y": 2155.64,
       "levelId": "0"
@@ -3291,7 +3291,7 @@
     {
       "id": "kuro:1290407811218071552",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2028.55,
       "y": 2169.943,
       "levelId": "0"
@@ -3299,7 +3299,7 @@
     {
       "id": "kuro:1290407811272597504",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 2027.068,
       "y": 2170.82,
       "levelId": "0"
@@ -3307,7 +3307,7 @@
     {
       "id": "kuro:1290407811352289280",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1915.211,
       "y": 2313.858,
       "levelId": "0"
@@ -3315,7 +3315,7 @@
     {
       "id": "kuro:1290407811436175360",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1952.13,
       "y": 2229.188,
       "levelId": "0"
@@ -3323,7 +3323,7 @@
     {
       "id": "kuro:1290407811507478528",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1932.875,
       "y": 2195.197,
       "levelId": "0"
@@ -3331,7 +3331,7 @@
     {
       "id": "kuro:1290407811578781696",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1899.535,
       "y": 2193.67,
       "levelId": "0"
@@ -3339,7 +3339,7 @@
     {
       "id": "kuro:1290407811641696256",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1900.24,
       "y": 2179.783,
       "levelId": "0"
@@ -3347,7 +3347,7 @@
     {
       "id": "kuro:1290407811708805120",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1880.19,
       "y": 2211.406,
       "levelId": "0"
@@ -3355,7 +3355,7 @@
     {
       "id": "kuro:1290407811767525376",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1965.041,
       "y": 2111.711,
       "levelId": "0"
@@ -3363,7 +3363,7 @@
     {
       "id": "kuro:1290407811851411456",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1931.375,
       "y": 2117.421,
       "levelId": "0"
@@ -3371,7 +3371,7 @@
     {
       "id": "kuro:1290407811931103232",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1914.055,
       "y": 2095.059,
       "levelId": "0"
@@ -3379,7 +3379,7 @@
     {
       "id": "kuro:1290407811994017792",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1914.796,
       "y": 2080.738,
       "levelId": "0"
@@ -3387,7 +3387,7 @@
     {
       "id": "kuro:1290407812069515264",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1877.001,
       "y": 2028.044,
       "levelId": "0"
@@ -3395,7 +3395,7 @@
     {
       "id": "kuro:1290407812136624128",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1849.868,
       "y": 2020.978,
       "levelId": "0"
@@ -3403,7 +3403,7 @@
     {
       "id": "kuro:1290407812207927296",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1884.175,
       "y": 1987.638,
       "levelId": "0"
@@ -3411,7 +3411,7 @@
     {
       "id": "kuro:1290407812291813376",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1902.499,
       "y": 1978.847,
       "levelId": "0"
@@ -3419,7 +3419,7 @@
     {
       "id": "kuro:1290407812379893760",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 1938.215,
       "y": 1827.668,
       "levelId": "0"
@@ -3427,7 +3427,7 @@
     {
       "id": "kuro:1290580525904912384",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 1796.795,
       "y": 2078.163,
       "levelId": "0"
@@ -3435,7 +3435,7 @@
     {
       "id": "kuro:1290580525992992768",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2122.183,
       "y": 2075.407,
       "levelId": "0"
@@ -3443,7 +3443,7 @@
     {
       "id": "kuro:1290580526081073152",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2123.7,
       "y": 2078.289,
       "levelId": "0"
@@ -3451,7 +3451,7 @@
     {
       "id": "kuro:1290580526169153536",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2127.679,
       "y": 2105.385,
       "levelId": "0"
@@ -3459,7 +3459,7 @@
     {
       "id": "kuro:1290580526253039616",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2302.328,
       "y": 2387.685,
       "levelId": "0"
@@ -3467,7 +3467,7 @@
     {
       "id": "kuro:1290580526341120000",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2292.408,
       "y": 2396.359,
       "levelId": "0"
@@ -3475,7 +3475,7 @@
     {
       "id": "kuro:1290580526425006080",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2289.571,
       "y": 2397.353,
       "levelId": "0"
@@ -3483,7 +3483,7 @@
     {
       "id": "kuro:1290580526508892160",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2203.988,
       "y": 2466.509,
       "levelId": "0"
@@ -3491,7 +3491,7 @@
     {
       "id": "kuro:1290580526596972544",
       "categoryId": "SP_IconMonsterHead_305_UI",
-      "title": "刺玫菇（稚形）",
+      "title": "Nấm tầm xuân (dạng non)",
       "x": 2192.766,
       "y": 2469.237,
       "levelId": "0"
@@ -3499,43 +3499,43 @@
     {
       "id": "kuro:1291170233211494400",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 1951.624,
       "y": 1996.8,
-      "description": "碍着墙边，最右边的，是裂变幼岩",
+      "description": "Bị che khuất bởi bức tường, cái ở ngoài cùng bên phải là đá non phân hạch.",
       "levelId": "0"
     },
     {
       "id": "kuro:1291171244497768448",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 1901.929,
       "y": 2313.035,
-      "description": "传送到能源中心下方的信标，和旁边的机器人对话（在信标周围），来到红名BOSS地方，悬崖跳到最下面，最后顺着标点来，就可以找到。",
+      "description": "Dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng, nói chuyện với robot bên cạnh (xung quanh đèn hiệu), đến địa điểm BOSS màu đỏ, nhảy xuống đáy vách đá và cuối cùng đi theo dấu chấm câu để tìm thấy nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1291171244581654528",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 1897.412,
       "y": 2314.842,
-      "description": "传送到能源中心下方的信标，和旁边的机器人对话（在信标周围），来到红名BOSS地方，悬崖跳到最下面，最后顺着标点来，就可以找到。",
+      "description": "Dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng, nói chuyện với robot bên cạnh (xung quanh đèn hiệu), đến địa điểm BOSS màu đỏ, nhảy xuống đáy vách đá và cuối cùng đi theo dấu chấm câu để tìm thấy nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1291171244678123520",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 1898.315,
       "y": 2311.228,
-      "description": "传送到能源中心下方的信标，和旁边的机器人对话（在信标周围），来到红名BOSS地方，悬崖跳到最下面，最后顺着标点来，就可以找到。",
+      "description": "Dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng, nói chuyện với robot bên cạnh (xung quanh đèn hiệu), đến địa điểm BOSS màu đỏ, nhảy xuống đáy vách đá và cuối cùng đi theo dấu chấm câu để tìm thấy nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1291174757088956416",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2274.184,
       "y": 2192.866,
       "levelId": "0"
@@ -3543,7 +3543,7 @@
     {
       "id": "kuro:1291174757193814016",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2271.473,
       "y": 2191.962,
       "levelId": "0"
@@ -3551,7 +3551,7 @@
     {
       "id": "kuro:1291174757298671616",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2274.184,
       "y": 2189.252,
       "levelId": "0"
@@ -3559,7 +3559,7 @@
     {
       "id": "kuro:1291175319937048576",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2295.868,
       "y": 2204.612,
       "levelId": "0"
@@ -3567,16 +3567,16 @@
     {
       "id": "kuro:1291175764049072128",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2413.327,
       "y": 2299.482,
-      "description": "左边是裂变幼岩，右边是先锋幼岩",
+      "description": "Bên trái là đá phân hạch và bên phải là đá tiên phong.",
       "levelId": "0"
     },
     {
       "id": "kuro:1291176442055024640",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2380.8,
       "y": 2376.282,
       "levelId": "0"
@@ -3584,7 +3584,7 @@
     {
       "id": "kuro:1291176442109550592",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2382.607,
       "y": 2374.475,
       "levelId": "0"
@@ -3592,7 +3592,7 @@
     {
       "id": "kuro:1291176442172465152",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2384.414,
       "y": 2377.186,
       "levelId": "0"
@@ -3600,7 +3600,7 @@
     {
       "id": "kuro:1291177028174548992",
       "categoryId": "SP_IconMonsterHead_025_UI",
-      "title": "裂变幼岩",
+      "title": "đá non phân hạch",
       "x": 2330.202,
       "y": 2397.064,
       "levelId": "0"
@@ -3608,7 +3608,7 @@
     {
       "id": "kuro:1290781879733772288",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2011.256,
       "y": 2112.452,
       "levelId": "0"
@@ -3616,7 +3616,7 @@
     {
       "id": "kuro:1290781879809269760",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2013.064,
       "y": 2109.741,
       "levelId": "0"
@@ -3624,7 +3624,7 @@
     {
       "id": "kuro:1290781879867990016",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2012.16,
       "y": 2106.127,
       "levelId": "0"
@@ -3632,7 +3632,7 @@
     {
       "id": "kuro:1290783360532799488",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2247.078,
       "y": 2044.687,
       "levelId": "0"
@@ -3640,7 +3640,7 @@
     {
       "id": "kuro:1290783360604102656",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2237.139,
       "y": 2046.494,
       "levelId": "0"
@@ -3648,7 +3648,7 @@
     {
       "id": "kuro:1290783360667017216",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2230.814,
       "y": 2042.88,
       "levelId": "0"
@@ -3656,7 +3656,7 @@
     {
       "id": "kuro:1290784155965775872",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2341.948,
       "y": 2268.762,
       "levelId": "0"
@@ -3664,7 +3664,7 @@
     {
       "id": "kuro:1290784156020301824",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2349.176,
       "y": 2268.762,
       "levelId": "0"
@@ -3672,7 +3672,7 @@
     {
       "id": "kuro:1290784854158958592",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2369.054,
       "y": 2263.341,
       "levelId": "0"
@@ -3680,7 +3680,7 @@
     {
       "id": "kuro:1290784854242844672",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2377.186,
       "y": 2262.438,
       "levelId": "0"
@@ -3688,7 +3688,7 @@
     {
       "id": "kuro:1290784854326730752",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 2384.414,
       "y": 2266.955,
       "levelId": "0"
@@ -3696,115 +3696,115 @@
     {
       "id": "kuro:1290786602676723712",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 1863.078,
       "y": 2397.967,
-      "description": "先传送到能源中心下方的信标，信标的旁边有个库洛洛机器人，和它对话，就会出现一个传送门，之后来到红名BOSS的地方，然后朝着标点地方走，就可以了。",
+      "description": "Đầu tiên dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng. Có một robot Chrollo bên cạnh đèn hiệu. Nói chuyện với nó và một cánh cổng sẽ xuất hiện. Sau đó đến nơi có BOSS màu đỏ rồi đi về phía nơi đã đánh dấu. Thế thôi.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290786602731249664",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 1858.56,
       "y": 2412.424,
-      "description": "先传送到能源中心下方的信标，信标的旁边有个库洛洛机器人，和它对话，就会出现一个传送门，之后来到红名BOSS的地方，然后朝着标点地方走，就可以了。",
+      "description": "Đầu tiên dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng. Có một robot Chrollo bên cạnh đèn hiệu. Nói chuyện với nó và một cánh cổng sẽ xuất hiện. Sau đó đến nơi có BOSS màu đỏ rồi đi về phía nơi đã đánh dấu. Thế thôi.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290786602806747136",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 1850.428,
       "y": 2404.292,
-      "description": "先传送到能源中心下方的信标，信标的旁边有个库洛洛机器人，和它对话，就会出现一个传送门，之后来到红名BOSS的地方，然后朝着标点地方走，就可以了。",
+      "description": "Đầu tiên dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng. Có một robot Chrollo bên cạnh đèn hiệu. Nói chuyện với nó và một cánh cổng sẽ xuất hiện. Sau đó đến nơi có BOSS màu đỏ rồi đi về phía nơi đã đánh dấu. Thế thôi.",
       "levelId": "0"
     },
     {
       "id": "kuro:1290786602865467392",
       "categoryId": "SP_IconMonsterHead_326_UI",
-      "title": "融火虫",
+      "title": "Giun lửa nóng chảy",
       "x": 1853.139,
       "y": 2387.125,
-      "description": "先传送到能源中心下方的信标，信标的旁边有个库洛洛机器人，和它对话，就会出现一个传送门，之后来到红名BOSS的地方，然后朝着标点地方走，就可以了。",
+      "description": "Đầu tiên dịch chuyển đến đèn hiệu bên dưới trung tâm năng lượng. Có một robot Chrollo bên cạnh đèn hiệu. Nói chuyện với nó và một cánh cổng sẽ xuất hiện. Sau đó đến nơi có BOSS màu đỏ rồi đi về phía nơi đã đánh dấu. Thế thôi.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417905257956286464",
       "categoryId": "SP_IconMonsterHead_215_UI",
-      "title": "冥渊守卫",
+      "title": "Người bảo vệ vực thẳm",
       "x": 2304.623,
       "y": 2338.903,
-      "description": "该敌人湮灭伤害抗性提高。\n高大的残象守卫，身形如同冥渊中的玄岩。\n如同一座坚不可摧的壁垒，但冥渊守卫的天性并非守护，而是摧毁一切阻挡自身行进的障碍。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nNgười bảo vệ voi cao còn sót lại trông giống như đá bazan trong vực thẳm.\nGiống như một rào cản không thể phá hủy, bản chất của Abyss Guard không phải là bảo vệ mà là tiêu diệt mọi chướng ngại vật cản trở bước tiến của nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417905777353764864",
       "categoryId": "SP_IconMonsterHead_215_UI",
-      "title": "冥渊守卫",
+      "title": "Người bảo vệ vực thẳm",
       "x": 1990.746,
       "y": 2327.483,
-      "description": "该敌人湮灭伤害抗性提高。\n高大的残象守卫，身形如同冥渊中的玄岩。\n如同一座坚不可摧的壁垒，但冥渊守卫的天性并非守护，而是摧毁一切阻挡自身行进的障碍。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nNgười bảo vệ voi cao còn sót lại trông giống như đá bazan trong vực thẳm.\nGiống như một rào cản không thể phá hủy, bản chất của Abyss Guard không phải là bảo vệ mà là tiêu diệt mọi chướng ngại vật cản trở bước tiến của nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417906787631538176",
       "categoryId": "SP_IconMonsterHead_215_UI",
-      "title": "冥渊守卫",
+      "title": "Người bảo vệ vực thẳm",
       "x": 2081.117,
       "y": 1936.824,
-      "description": "该敌人湮灭伤害抗性提高。\n高大的残象守卫，身形如同冥渊中的玄岩。\n如同一座坚不可摧的壁垒，但冥渊守卫的天性并非守护，而是摧毁一切阻挡自身行进的障碍。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nNgười bảo vệ voi cao còn sót lại trông giống như đá bazan trong vực thẳm.\nGiống như một rào cản không thể phá hủy, bản chất của Abyss Guard không phải là bảo vệ mà là tiêu diệt mọi chướng ngại vật cản trở bước tiến của nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417907239601385472",
       "categoryId": "SP_IconMonsterHead_215_UI",
-      "title": "冥渊守卫",
+      "title": "Người bảo vệ vực thẳm",
       "x": 2278.277,
       "y": 2533,
-      "description": "该敌人湮灭伤害抗性提高。\n高大的残象守卫，身形如同冥渊中的玄岩。\n如同一座坚不可摧的壁垒，但冥渊守卫的天性并非守护，而是摧毁一切阻挡自身行进的障碍。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nNgười bảo vệ voi cao còn sót lại trông giống như đá bazan trong vực thẳm.\nGiống như một rào cản không thể phá hủy, bản chất của Abyss Guard không phải là bảo vệ mà là tiêu diệt mọi chướng ngại vật cản trở bước tiến của nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417907626693701632",
       "categoryId": "SP_IconMonsterHead_215_UI",
-      "title": "冥渊守卫",
+      "title": "Người bảo vệ vực thẳm",
       "x": 1760.509,
       "y": 2235.142,
-      "description": "该敌人湮灭伤害抗性提高。\n高大的残象守卫，身形如同冥渊中的玄岩。如同一座坚不可摧的壁垒，但冥渊守卫的天性并非守护，而是摧毁一切阻挡自身行进的障碍。",
+      "description": "Khả năng chống lại sát thương hủy diệt của kẻ thù này được tăng lên.\nNgười bảo vệ voi cao còn sót lại trông giống như đá bazan trong vực thẳm. Giống như một rào cản không thể phá hủy, bản chất của Abyss Guard không phải là bảo vệ mà là tiêu diệt mọi chướng ngại vật cản trở bước tiến của nó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292151893737005056",
       "categoryId": "T_IconTask_Task_085_UI",
-      "title": "伪贝母",
+      "title": "giả fritillary",
       "x": 2226.296,
       "y": 2182.927,
-      "description": "位于传送信标旁，可直接采集",
+      "description": "Nằm cạnh đèn hiệu truyền tải và có thể thu thập trực tiếp",
       "levelId": "0"
     },
     {
       "id": "kuro:1292151969969938432",
       "categoryId": "T_IconTask_Task_085_UI",
-      "title": "伪贝母",
+      "title": "giả fritillary",
       "x": 2217.261,
       "y": 2167.567,
-      "description": "位于传送信标旁，可直接采集",
+      "description": "Nằm cạnh đèn hiệu truyền tải và có thể thu thập trực tiếp",
       "levelId": "0"
     },
     {
       "id": "kuro:1292152010063290368",
       "categoryId": "T_IconTask_Task_085_UI",
-      "title": "伪贝母",
+      "title": "giả fritillary",
       "x": 2219.068,
       "y": 2173.892,
-      "description": "位于传送信标旁，可直接采集",
+      "description": "Nằm cạnh đèn hiệu truyền tải và có thể thu thập trực tiếp",
       "levelId": "0"
     },
     {
       "id": "kuro:1290599490675085312",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2285.362,
       "y": 2531.762,
       "levelId": "0"
@@ -3812,7 +3812,7 @@
     {
       "id": "kuro:1290599490771554304",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2355.799,
       "y": 2516.799,
       "levelId": "0"
@@ -3820,7 +3820,7 @@
     {
       "id": "kuro:1290599490872217600",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2307.551,
       "y": 2330.754,
       "levelId": "0"
@@ -3828,7 +3828,7 @@
     {
       "id": "kuro:1290599490968686592",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2089.457,
       "y": 2306.882,
       "levelId": "0"
@@ -3836,7 +3836,7 @@
     {
       "id": "kuro:1290599491065155584",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2036.113,
       "y": 2335.163,
       "levelId": "0"
@@ -3844,7 +3844,7 @@
     {
       "id": "kuro:1290599491161624576",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1989.075,
       "y": 2312.358,
       "levelId": "0"
@@ -3852,7 +3852,7 @@
     {
       "id": "kuro:1290599491258093568",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1859.382,
       "y": 2342.147,
       "levelId": "0"
@@ -3860,7 +3860,7 @@
     {
       "id": "kuro:1290599491358756864",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2071.269,
       "y": 2179.295,
       "levelId": "0"
@@ -3868,25 +3868,25 @@
     {
       "id": "kuro:1290599491459420160",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1947.217,
       "y": 2179.063,
-      "description": "支线任务——海风中失落的湛蓝回声，一次性剧情怪物",
+      "description": "Side Quest - Mất tiếng vang xanh trong gió biển, quái vật âm mưu dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290599491555889152",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1941.287,
       "y": 2176.821,
-      "description": "支线任务——海风中失落的湛蓝回声，一次性剧情怪物",
+      "description": "Side Quest - Mất tiếng vang xanh trong gió biển, quái vật âm mưu dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290599491652358144",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1760.277,
       "y": 2244.132,
       "levelId": "0"
@@ -3894,7 +3894,7 @@
     {
       "id": "kuro:1290599491748827136",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1757.412,
       "y": 2230.577,
       "levelId": "0"
@@ -3902,7 +3902,7 @@
     {
       "id": "kuro:1290599491845296128",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1855.163,
       "y": 1926.298,
       "levelId": "0"
@@ -3910,34 +3910,34 @@
     {
       "id": "kuro:1290599491941765120",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1951.719,
       "y": 1900.819,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290599492038234112",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1952.834,
       "y": 1900.157,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290599492134703104",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1953.987,
       "y": 1899.78,
-      "description": "主线剧情一次性怪物",
+      "description": "Câu chuyện chính Quái vật dùng một lần",
       "levelId": "0"
     },
     {
       "id": "kuro:1290599492231172096",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2094.743,
       "y": 1839.143,
       "levelId": "0"
@@ -3945,7 +3945,7 @@
     {
       "id": "kuro:1290599492344418304",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 2100.849,
       "y": 1863.81,
       "levelId": "0"
@@ -3953,136 +3953,136 @@
     {
       "id": "kuro:1292590175276949504",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2105.757,
       "y": 2035.561,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590182586716160",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2038.453,
       "y": 2089.511,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590192313307136",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2044.922,
       "y": 2082.59,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590199591329792",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2034.712,
       "y": 2085.644,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590207352250368",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2055.575,
       "y": 2079.355,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590430676508672",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2180.189,
       "y": 2058.592,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590444873322496",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2183.885,
       "y": 2055.367,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590451613569024",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2029.797,
       "y": 2224.372,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590461950697472",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2019.153,
       "y": 2220.216,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292590468728184832",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2025.614,
       "y": 2219.746,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292595643860836352",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2109.895,
       "y": 2035.67,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1292595653479325696",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2107.537,
       "y": 2034.459,
-      "description": "于归墟港市活跃的噪声种残象，与城市过去文明的物件有些相似，危险度隶属于轻波级。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。\n所以，请各位请务必遵守交通规则。",
+      "description": "Tàn tích của tiếng ồn hoạt động ở Thành phố Cảng Guixu có phần giống với các vật thể từ nền văn minh trong quá khứ của thành phố và mức độ rủi ro rơi vào mức sóng ánh sáng.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh.\nVì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417898293935251456",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2073.004,
       "y": 1935.568,
-      "description": "该敌人衍射伤害抗性提高。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。所以，请各位请务必遵守交通规则。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh. Vì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417898448906395648",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2087.008,
       "y": 1934.646,
-      "description": "该敌人衍射伤害抗性提高。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。所以，请各位请务必遵守交通规则。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh. Vì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     },
     {
       "id": "kuro:1417898509610594304",
       "categoryId": "SP_IconMonsterHead_1000_UI",
-      "title": "通行灯偶",
+      "title": "đèn giao thông",
       "x": 2082.156,
       "y": 1948.723,
-      "description": "该敌人衍射伤害抗性提高。\n与信号灯融合的小型残象，其异能融合了“红灯停，绿灯行”的通识，会对不讲文明的市民略施惩戒。所以，请各位请务必遵守交通规则。",
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nMột dư ảnh nhỏ hợp nhất với đèn giao thông. Khả năng đặc biệt của nó kết hợp kiến ​​thức chung về “dừng đèn đỏ, đèn xanh” và sẽ trừng phạt nhẹ những công dân thiếu văn minh. Vì vậy, hãy đảm bảo tuân thủ luật lệ giao thông.",
       "levelId": "0"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "wuwa-kuro-state-909",
-  "title": "黯原",
+  "title": "Đồng bằng Dimmr",
   "subtitle": "673 vị trí · 43 loại điểm",
   "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-07-31.",
   "tiles": {
@@ -83,7 +83,7 @@
   "categories": [
     {
       "id": "47",
-      "label": "造路悬仪挑战赛道",
+      "label": "Đường đua thử thách hệ thống treo xây dựng đường",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
@@ -92,7 +92,7 @@
     },
     {
       "id": "320000580",
-      "label": "风鳞蜃甲",
+      "label": "Ảo ảnh gió",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -101,7 +101,7 @@
     },
     {
       "id": "42601480",
-      "label": "星之梦",
+      "label": "Ngôi Sao Giấc Mơ",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
@@ -110,7 +110,7 @@
     },
     {
       "id": "42601500",
-      "label": "勿忘我",
+      "label": "đừng quên tôi",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "resources",
@@ -146,7 +146,7 @@
     },
     {
       "id": "IconMap_WYQ",
-      "label": "无音区",
+      "label": "vùng im lặng",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "activities",
@@ -155,7 +155,7 @@
     },
     {
       "id": "FCRK",
-      "label": "分层入口",
+      "label": "Lối vào theo tầng",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
@@ -173,7 +173,7 @@
     },
     {
       "id": "zscj",
-      "label": "终声残卷",
+      "label": "Tàn dư cuối cùng",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "collection",
@@ -182,7 +182,7 @@
     },
     {
       "id": "320000660",
-      "label": "迷胧幻蛾",
+      "label": "Bướm đêm ảo giác",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
@@ -191,7 +191,7 @@
     },
     {
       "id": "381037",
-      "label": "青实归还之碑",
+      "label": "Đài tưởng niệm sự trở lại của Qingshi",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "locations",
@@ -200,7 +200,7 @@
     },
     {
       "id": "SP_IconMonsterHead_105_UI",
-      "label": "破霜猎手",
+      "label": "Thợ săn phá băng",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -209,7 +209,7 @@
     },
     {
       "id": "320000560",
-      "label": "隐迹铁影",
+      "label": "Bóng sắt ẩn giấu",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
@@ -218,7 +218,7 @@
     },
     {
       "id": "310000840",
-      "label": "影烁者",
+      "label": "bóng tối",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -227,7 +227,7 @@
     },
     {
       "id": "320000600",
-      "label": "冠顶苍隼",
+      "label": "Chim ưng xanh mào",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -236,7 +236,7 @@
     },
     {
       "id": "3330003",
-      "label": "隧锚",
+      "label": "neo đường hầm",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "locations",
@@ -245,7 +245,7 @@
     },
     {
       "id": "320000520",
-      "label": "矿岩机麋",
+      "label": "Máy khai thác đá",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -254,7 +254,7 @@
     },
     {
       "id": "3330002",
-      "label": "虚妄诞生之种",
+      "label": "Hạt giống của sự giả dối",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "bosses",
@@ -263,7 +263,7 @@
     },
     {
       "id": "57",
-      "label": "遗患清剿",
+      "label": "Dọn dẹp di sản",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
@@ -272,7 +272,7 @@
     },
     {
       "id": "58",
-      "label": "摩托-飞行赛道",
+      "label": "Đường đua xe máy",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "exploration",
@@ -281,7 +281,7 @@
     },
     {
       "id": "320000570",
-      "label": "霜鳞蜃甲",
+      "label": "Ảo ảnh quy mô băng giá",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -290,7 +290,7 @@
     },
     {
       "id": "cbd",
-      "label": "藏宝地",
+      "label": "nơi kho báu",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
@@ -299,7 +299,7 @@
     },
     {
       "id": "59",
-      "label": "摩托-固定赛道",
+      "label": "Đường cố định cho xe máy",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
@@ -308,7 +308,7 @@
     },
     {
       "id": "cx_03",
-      "label": "潮汐之遗·金",
+      "label": "Di sản của thủy triều·Vàng",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "collection",
@@ -317,7 +317,7 @@
     },
     {
       "id": "CS_02",
-      "label": "小型信标",
+      "label": "ngọn hải đăng nhỏ",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
@@ -326,7 +326,7 @@
     },
     {
       "id": "cx_02",
-      "label": "潮汐之遗·紫",
+      "label": "Di sản thủy triều·Tím",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "collection",
@@ -335,7 +335,7 @@
     },
     {
       "id": "42601490",
-      "label": "赤铃兰",
+      "label": "hoa huệ đỏ của thung lũng",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "resources",
@@ -344,7 +344,7 @@
     },
     {
       "id": "CS_01",
-      "label": "中枢信标",
+      "label": "Hub Beacon",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
@@ -353,7 +353,7 @@
     },
     {
       "id": "310000810",
-      "label": "雷杖流民",
+      "label": "Người tị nạn Thunderstaff",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -362,7 +362,7 @@
     },
     {
       "id": "320000530",
-      "label": "重工铁蹄",
+      "label": "Móng sắt công nghiệp nặng",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -371,7 +371,7 @@
     },
     {
       "id": "SP_IconMonsterHead_035_UI",
-      "label": "惊蛰猎手",
+      "label": "Thợ săn kinh triết",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
@@ -380,7 +380,7 @@
     },
     {
       "id": "60",
-      "label": "摩托-特技赛道",
+      "label": "Đường đua xe máy",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "exploration",
@@ -389,7 +389,7 @@
     },
     {
       "id": "61",
-      "label": "铸光仪",
+      "label": "Máy đo độ bóng đúc",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "exploration",
@@ -398,7 +398,7 @@
     },
     {
       "id": "62",
-      "label": "虚质方块",
+      "label": "khối ảo",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
@@ -407,7 +407,7 @@
     },
     {
       "id": "310000830",
-      "label": "冰盈舞者",
+      "label": "vũ công băng",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
@@ -416,7 +416,7 @@
     },
     {
       "id": "320000610",
-      "label": "格洛犸图",
+      "label": "Bản đồ Gloma",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -425,7 +425,7 @@
     },
     {
       "id": "63",
-      "label": "完美飞行日",
+      "label": "ngày bay hoàn hảo",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
@@ -434,7 +434,7 @@
     },
     {
       "id": "320000510",
-      "label": "莳植机麋",
+      "label": "Máy trồng cây",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
@@ -443,7 +443,7 @@
     },
     {
       "id": "64",
-      "label": "破碎黯原之心",
+      "label": "Trái tim của Darkfield tan vỡ",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "exploration",
@@ -452,7 +452,7 @@
     },
     {
       "id": "42",
-      "label": "日灵",
+      "label": "Riling",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "exploration",
@@ -461,7 +461,7 @@
     },
     {
       "id": "43",
-      "label": "虚质磁暴区",
+      "label": "Vùng bão từ vật chất ảo",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "exploration",
@@ -472,9 +472,9 @@
   "layers": [
     {
       "id": "-1/49",
-      "label": "明日阈限",
+      "label": "Ngưỡng cửa ngày mai",
       "groupId": "49",
-      "groupLabel": "明日阈限",
+      "groupLabel": "Ngưỡng cửa ngày mai",
       "tiles": {
         "src": "map-packs/private/layers/909/-1_49/{x}_{y}.webp",
         "tileSize": 768,
@@ -488,9 +488,9 @@
     },
     {
       "id": "-1/50",
-      "label": "栖光岩窟",
+      "label": "Hang Kỳ Quang",
       "groupId": "50",
-      "groupLabel": "栖光岩窟",
+      "groupLabel": "Hang Kỳ Quang",
       "tiles": {
         "src": "map-packs/private/layers/909/-1_50/{x}_{y}.webp",
         "tileSize": 768,
@@ -504,9 +504,9 @@
     },
     {
       "id": "-1/51",
-      "label": "未竟残舍",
+      "label": "phần còn lại chưa hoàn thành",
       "groupId": "51",
-      "groupLabel": "未竟残舍",
+      "groupLabel": "phần còn lại chưa hoàn thành",
       "tiles": {
         "src": "map-packs/private/layers/909/-1_51/{x}_{y}.webp",
         "tileSize": 768,
@@ -519,9 +519,9 @@
     },
     {
       "id": "-1/52",
-      "label": "入口·虚妄摇篮",
+      "label": "Lối vào·Cái nôi ảo ảnh",
       "groupId": "52",
-      "groupLabel": "虚妄摇篮",
+      "groupLabel": "Cái nôi ảo tưởng",
       "tiles": {
         "src": "map-packs/private/layers/909/-1_52/{x}_{y}.webp",
         "tileSize": 768,
@@ -534,9 +534,9 @@
     },
     {
       "id": "-2/52",
-      "label": "一层·虚妄摇篮",
+      "label": "Cấp độ 1: Cái nôi ảo ảnh",
       "groupId": "52",
-      "groupLabel": "虚妄摇篮",
+      "groupLabel": "Cái nôi ảo tưởng",
       "tiles": {
         "src": "map-packs/private/layers/909/-2_52/{x}_{y}.webp",
         "tileSize": 768,
@@ -549,9 +549,9 @@
     },
     {
       "id": "-3/52",
-      "label": "二层·虚妄摇篮",
+      "label": "Tầng hai·Cái nôi ảo ảnh",
       "groupId": "52",
-      "groupLabel": "虚妄摇篮",
+      "groupLabel": "Cái nôi ảo tưởng",
       "tiles": {
         "src": "map-packs/private/layers/909/-3_52/{x}_{y}.webp",
         "tileSize": 768,
@@ -564,9 +564,9 @@
     },
     {
       "id": "-1/53",
-      "label": "锈丘",
+      "label": "đồi rỉ sét",
       "groupId": "53",
-      "groupLabel": "锈丘",
+      "groupLabel": "đồi rỉ sét",
       "tiles": {
         "src": "map-packs/private/layers/909/-1_53/{x}_{y}.webp",
         "tileSize": 768,
@@ -582,61 +582,61 @@
     {
       "id": "kuro:1496992661394251776",
       "categoryId": "47",
-      "title": "造路悬仪挑战赛道",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
       "x": 1365.233,
       "y": 1421.252,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu thử thách, bạn sẽ nhận được hai rương kho báu đơn giản + một rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1496993395934994432",
       "categoryId": "47",
-      "title": "造路悬仪挑战赛道",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
       "x": 1300.179,
       "y": 1166.456,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu thử thách, bạn sẽ nhận được hai rương kho báu đơn giản + một rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1496994683791843328",
       "categoryId": "47",
-      "title": "造路悬仪挑战赛道",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
       "x": 1554.974,
       "y": 2187.445,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu thử thách, bạn sẽ nhận được hai rương kho báu đơn giản + một rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1496995391425454080",
       "categoryId": "47",
-      "title": "造路悬仪挑战赛道",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
       "x": 2307.614,
       "y": 2453.986,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu thử thách, bạn sẽ nhận được hai rương kho báu đơn giản + một rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1496996054846234624",
       "categoryId": "47",
-      "title": "造路悬仪挑战赛道",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
       "x": 2518.136,
       "y": 2183.831,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu thử thách, bạn sẽ nhận được hai rương kho báu đơn giản + một rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1496996440592850944",
       "categoryId": "47",
-      "title": "造路悬仪挑战赛道",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
       "x": 3021.402,
       "y": 2249.788,
-      "description": "完成所有挑战目标后可获得两个朴素宝箱+一个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu thử thách, bạn sẽ nhận được hai rương kho báu đơn giản + một rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1504052856540717056",
       "categoryId": "320000580",
-      "title": "风鳞蜃甲",
+      "title": "Ảo ảnh gió",
       "x": 1431.832,
       "y": 1126.954,
       "levelId": "0"
@@ -644,7 +644,7 @@
     {
       "id": "kuro:1504053201866153984",
       "categoryId": "320000580",
-      "title": "风鳞蜃甲",
+      "title": "Ảo ảnh gió",
       "x": 1399.513,
       "y": 1292.237,
       "levelId": "0"
@@ -652,7 +652,7 @@
     {
       "id": "kuro:1504053617043529728",
       "categoryId": "320000580",
-      "title": "风鳞蜃甲",
+      "title": "Ảo ảnh gió",
       "x": 1238.395,
       "y": 1284.439,
       "levelId": "0"
@@ -660,7 +660,7 @@
     {
       "id": "kuro:1504053956916371456",
       "categoryId": "320000580",
-      "title": "风鳞蜃甲",
+      "title": "Ảo ảnh gió",
       "x": 2191.23,
       "y": 2083.06,
       "levelId": "0"
@@ -668,7 +668,7 @@
     {
       "id": "kuro:1496845457791361024",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2186.704,
       "y": 1264.715,
       "description": "Tầng 49",
@@ -678,7 +678,7 @@
     {
       "id": "kuro:1496845517911842816",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2184.698,
       "y": 1270.335,
       "description": "Tầng 49",
@@ -688,7 +688,7 @@
     {
       "id": "kuro:1496845562862198784",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2189.92,
       "y": 1268.329,
       "description": "Tầng 49",
@@ -698,7 +698,7 @@
     {
       "id": "kuro:1496845604142538752",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2189.116,
       "y": 1271.546,
       "description": "Tầng 49",
@@ -708,7 +708,7 @@
     {
       "id": "kuro:1496845647150931968",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2185.502,
       "y": 1273.154,
       "description": "Tầng 49",
@@ -718,7 +718,7 @@
     {
       "id": "kuro:1496845851153489920",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2174.253,
       "y": 1251.849,
       "description": "Tầng 49",
@@ -728,7 +728,7 @@
     {
       "id": "kuro:1496845899841642496",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2167.82,
       "y": 1244.214,
       "description": "Tầng 49",
@@ -738,7 +738,7 @@
     {
       "id": "kuro:1496845972100440064",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2165.01,
       "y": 1249.039,
       "description": "Tầng 49",
@@ -748,7 +748,7 @@
     {
       "id": "kuro:1496846023137402880",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2171.037,
       "y": 1246.627,
       "description": "Tầng 49",
@@ -758,7 +758,7 @@
     {
       "id": "kuro:1496846065541816320",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2168.218,
       "y": 1250.647,
       "description": "Tầng 49",
@@ -768,7 +768,7 @@
     {
       "id": "kuro:1496846325009178624",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2228.899,
       "y": 1230.553,
       "description": "Tầng 49",
@@ -778,7 +778,7 @@
     {
       "id": "kuro:1496846448682426368",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2238.178,
       "y": 1219.06,
       "description": "Tầng 49",
@@ -788,7 +788,7 @@
     {
       "id": "kuro:1496846487618150400",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2231.257,
       "y": 1216.756,
       "description": "Tầng 49",
@@ -798,7 +798,7 @@
     {
       "id": "kuro:1496846531717734400",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2234.717,
       "y": 1217.678,
       "description": "Tầng 49",
@@ -808,7 +808,7 @@
     {
       "id": "kuro:1496846568383668224",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2232.874,
       "y": 1222.755,
       "description": "Tầng 49",
@@ -818,7 +818,7 @@
     {
       "id": "kuro:1496846690735710208",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2231.103,
       "y": 1259.177,
       "description": "Tầng 49",
@@ -828,7 +828,7 @@
     {
       "id": "kuro:1496846727947575296",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2241.711,
       "y": 1265.004,
       "description": "Tầng 49",
@@ -838,7 +838,7 @@
     {
       "id": "kuro:1496846788363001856",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2250.728,
       "y": 1263.414,
       "description": "Tầng 49",
@@ -848,7 +848,7 @@
     {
       "id": "kuro:1496846819710558208",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2256.023,
       "y": 1260.767,
       "description": "Tầng 49",
@@ -858,7 +858,7 @@
     {
       "id": "kuro:1496846972237094912",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2243.518,
       "y": 1267.128,
       "description": "Tầng 49",
@@ -868,7 +868,7 @@
     {
       "id": "kuro:1496847022698094592",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 2248.767,
       "y": 1258.689,
       "description": "Tầng 49",
@@ -878,7 +878,7 @@
     {
       "id": "kuro:1496856604229738496",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1386.701,
       "y": 1454.158,
       "description": "Tầng 52",
@@ -888,7 +888,7 @@
     {
       "id": "kuro:1496856711402594304",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1384.117,
       "y": 1453.869,
       "description": "Tầng 52",
@@ -898,7 +898,7 @@
     {
       "id": "kuro:1496856927526690816",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1390.062,
       "y": 1452.107,
       "description": "Tầng 52",
@@ -908,7 +908,7 @@
     {
       "id": "kuro:1496856984912486400",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1388.354,
       "y": 1448.791,
       "description": "Tầng 52",
@@ -918,7 +918,7 @@
     {
       "id": "kuro:1496857027681804288",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1391.264,
       "y": 1446.578,
       "description": "Tầng 52",
@@ -928,7 +928,7 @@
     {
       "id": "kuro:1496857193378455552",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1392.267,
       "y": 1447.581,
       "description": "Tầng 52",
@@ -938,7 +938,7 @@
     {
       "id": "kuro:1496857472261922816",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1417.574,
       "y": 1407.419,
       "description": "Tầng 52",
@@ -948,7 +948,7 @@
     {
       "id": "kuro:1496857520492224512",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1416.282,
       "y": 1402.901,
       "description": "Tầng 52",
@@ -958,7 +958,7 @@
     {
       "id": "kuro:1496857559872544768",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1420.583,
       "y": 1398.808,
       "description": "Tầng 52",
@@ -968,7 +968,7 @@
     {
       "id": "kuro:1496857608912347136",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1419.291,
       "y": 1395.79,
       "description": "Tầng 52",
@@ -978,7 +978,7 @@
     {
       "id": "kuro:1496857749576720384",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1419.083,
       "y": 1380.71,
       "description": "Tầng 52",
@@ -988,7 +988,7 @@
     {
       "id": "kuro:1496857785496739840",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1414.773,
       "y": 1379.418,
       "description": "Tầng 52",
@@ -998,7 +998,7 @@
     {
       "id": "kuro:1496857820308791296",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1411.539,
       "y": 1378.994,
       "description": "Tầng 52",
@@ -1008,7 +1008,7 @@
     {
       "id": "kuro:1496857914173792256",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1411.114,
       "y": 1381.361,
       "description": "Tầng 52",
@@ -1018,7 +1018,7 @@
     {
       "id": "kuro:1496858028044951552",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1425.751,
       "y": 1382.87,
       "description": "Tầng 52",
@@ -1028,7 +1028,7 @@
     {
       "id": "kuro:1496858233008005120",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1392.158,
       "y": 1393.206,
       "description": "Tầng 52",
@@ -1038,7 +1038,7 @@
     {
       "id": "kuro:1496858307599507456",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1399.052,
       "y": 1400.742,
       "description": "Tầng 52",
@@ -1048,7 +1048,7 @@
     {
       "id": "kuro:1496858375735975936",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1382.039,
       "y": 1408.286,
       "description": "Tầng 52",
@@ -1058,7 +1058,7 @@
     {
       "id": "kuro:1496858430614249472",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1388.499,
       "y": 1407.211,
       "description": "Tầng 52",
@@ -1068,7 +1068,7 @@
     {
       "id": "kuro:1496858552642658304",
       "categoryId": "42601480",
-      "title": "星之梦",
+      "title": "Ngôi Sao Giấc Mơ",
       "x": 1385.915,
       "y": 1406.777,
       "description": "Tầng 52",
@@ -1078,7 +1078,7 @@
     {
       "id": "kuro:1498262370324406272",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1356.198,
       "y": 1966.08,
       "levelId": "0"
@@ -1086,7 +1086,7 @@
     {
       "id": "kuro:1498262370513149952",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1357.101,
       "y": 1965.176,
       "levelId": "0"
@@ -1094,7 +1094,7 @@
     {
       "id": "kuro:1498262370697699328",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1358.005,
       "y": 1963.369,
       "levelId": "0"
@@ -1102,7 +1102,7 @@
     {
       "id": "kuro:1498262370886443008",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1359.812,
       "y": 1964.273,
       "levelId": "0"
@@ -1110,7 +1110,7 @@
     {
       "id": "kuro:1498262371070992384",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1358.908,
       "y": 1962.466,
       "levelId": "0"
@@ -1118,7 +1118,7 @@
     {
       "id": "kuro:1498301586190196736",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1355.294,
       "y": 2012.16,
       "levelId": "0"
@@ -1126,7 +1126,7 @@
     {
       "id": "kuro:1498301586378940416",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1357.101,
       "y": 2013.064,
       "levelId": "0"
@@ -1134,7 +1134,7 @@
     {
       "id": "kuro:1498301586559295488",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1358.005,
       "y": 2012.16,
       "levelId": "0"
@@ -1142,7 +1142,7 @@
     {
       "id": "kuro:1498302123384070144",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1344.452,
       "y": 2018.485,
       "levelId": "0"
@@ -1150,7 +1150,7 @@
     {
       "id": "kuro:1498302123568619520",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1346.259,
       "y": 2016.678,
       "levelId": "0"
@@ -1158,7 +1158,7 @@
     {
       "id": "kuro:1498302591480979456",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1345.355,
       "y": 2041.976,
       "levelId": "0"
@@ -1166,7 +1166,7 @@
     {
       "id": "kuro:1498302591661334528",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1343.548,
       "y": 2041.976,
       "levelId": "0"
@@ -1174,7 +1174,7 @@
     {
       "id": "kuro:1498302591841689600",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1343.548,
       "y": 2043.784,
       "levelId": "0"
@@ -1182,7 +1182,7 @@
     {
       "id": "kuro:1498303037448740864",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1341.741,
       "y": 2044.687,
       "levelId": "0"
@@ -1190,7 +1190,7 @@
     {
       "id": "kuro:1498303037629095936",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1340.838,
       "y": 2045.591,
       "levelId": "0"
@@ -1198,7 +1198,7 @@
     {
       "id": "kuro:1498303796119314432",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1441.129,
       "y": 2366.344,
       "levelId": "0"
@@ -1206,7 +1206,7 @@
     {
       "id": "kuro:1498303796236754944",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1440.226,
       "y": 2367.247,
       "levelId": "0"
@@ -1214,7 +1214,7 @@
     {
       "id": "kuro:1498303796350001152",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1438.419,
       "y": 2369.054,
       "levelId": "0"
@@ -1222,7 +1222,7 @@
     {
       "id": "kuro:1498304349402537984",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1442.033,
       "y": 2362.729,
       "levelId": "0"
@@ -1230,7 +1230,7 @@
     {
       "id": "kuro:1498304349515784192",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1441.129,
       "y": 2362.729,
       "levelId": "0"
@@ -1238,7 +1238,7 @@
     {
       "id": "kuro:1498323244427485184",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1411.313,
       "y": 2351.887,
       "levelId": "0"
@@ -1246,7 +1246,7 @@
     {
       "id": "kuro:1498323244532342784",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1412.216,
       "y": 2351.887,
       "levelId": "0"
@@ -1254,7 +1254,7 @@
     {
       "id": "kuro:1498323244633006080",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1412.216,
       "y": 2349.176,
       "levelId": "0"
@@ -1262,7 +1262,7 @@
     {
       "id": "kuro:1498323244733669376",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1413.12,
       "y": 2350.08,
       "levelId": "0"
@@ -1270,7 +1270,7 @@
     {
       "id": "kuro:1498323244834332672",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1414.024,
       "y": 2350.08,
       "levelId": "0"
@@ -1278,7 +1278,7 @@
     {
       "id": "kuro:1498323658279460864",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1378.786,
       "y": 2339.238,
       "levelId": "0"
@@ -1286,7 +1286,7 @@
     {
       "id": "kuro:1498324269179166720",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1454.682,
       "y": 2304,
       "levelId": "0"
@@ -1294,7 +1294,7 @@
     {
       "id": "kuro:1498324269359521792",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1454.682,
       "y": 2303.096,
       "levelId": "0"
@@ -1302,7 +1302,7 @@
     {
       "id": "kuro:1498324269539876864",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1454.682,
       "y": 2302.193,
       "levelId": "0"
@@ -1310,7 +1310,7 @@
     {
       "id": "kuro:1498324269720231936",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1454.682,
       "y": 2301.289,
       "levelId": "0"
@@ -1318,7 +1318,7 @@
     {
       "id": "kuro:1498324269917364224",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1453.779,
       "y": 2300.386,
       "levelId": "0"
@@ -1326,7 +1326,7 @@
     {
       "id": "kuro:1498325096342724608",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1427.576,
       "y": 1269.459,
       "levelId": "0"
@@ -1334,7 +1334,7 @@
     {
       "id": "kuro:1498325096481136640",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1428.48,
       "y": 1270.362,
       "levelId": "0"
@@ -1342,7 +1342,7 @@
     {
       "id": "kuro:1498325096585994240",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1431.191,
       "y": 1270.362,
       "levelId": "0"
@@ -1350,7 +1350,7 @@
     {
       "id": "kuro:1498325096695046144",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1431.191,
       "y": 1271.266,
       "levelId": "0"
@@ -1358,7 +1358,7 @@
     {
       "id": "kuro:1498325096799903744",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1432.998,
       "y": 1270.362,
       "levelId": "0"
@@ -1366,7 +1366,7 @@
     {
       "id": "kuro:1498326201080455168",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1412.216,
       "y": 1264.941,
       "levelId": "0"
@@ -1374,7 +1374,7 @@
     {
       "id": "kuro:1498327394741624832",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1408.602,
       "y": 1227.896,
       "levelId": "0"
@@ -1382,7 +1382,7 @@
     {
       "id": "kuro:1498327394905202688",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1409.506,
       "y": 1227.896,
       "levelId": "0"
@@ -1390,7 +1390,7 @@
     {
       "id": "kuro:1498327395014254592",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1410.409,
       "y": 1227.896,
       "levelId": "0"
@@ -1398,7 +1398,7 @@
     {
       "id": "kuro:1498327395123306496",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1411.313,
       "y": 1227.896,
       "levelId": "0"
@@ -1406,7 +1406,7 @@
     {
       "id": "kuro:1498327689843793920",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1416.734,
       "y": 1234.221,
       "levelId": "0"
@@ -1414,7 +1414,7 @@
     {
       "id": "kuro:1498331755983118336",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1440.226,
       "y": 1204.405,
       "levelId": "0"
@@ -1422,7 +1422,7 @@
     {
       "id": "kuro:1498331756087975936",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1439.322,
       "y": 1203.501,
       "levelId": "0"
@@ -1430,7 +1430,7 @@
     {
       "id": "kuro:1498331756192833536",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1438.419,
       "y": 1203.501,
       "levelId": "0"
@@ -1438,7 +1438,7 @@
     {
       "id": "kuro:1498332025257435136",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1445.647,
       "y": 1204.405,
       "levelId": "0"
@@ -1446,7 +1446,7 @@
     {
       "id": "kuro:1498332025412624384",
       "categoryId": "42601500",
-      "title": "勿忘我",
+      "title": "đừng quên tôi",
       "x": 1447.454,
       "y": 1204.405,
       "levelId": "0"
@@ -1497,7 +1497,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1050.642,
       "y": 1113.862,
-      "description": "完成“路悬仪挑战赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 1\"",
       "levelId": "0"
     },
     {
@@ -1506,7 +1506,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1440.334,
       "y": 1010.507,
-      "description": "完成“路悬仪挑战赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 3\"",
       "levelId": "0"
     },
     {
@@ -1531,7 +1531,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1221.725,
       "y": 1910.115,
-      "description": "完成“路悬仪挑战赛道6”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 6\"",
       "levelId": "0"
     },
     {
@@ -1540,7 +1540,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1332.137,
       "y": 1347.18,
-      "description": "完成“摩托-飞行赛道4”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 4\"",
       "levelId": "0"
     },
     {
@@ -1549,7 +1549,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1140.525,
       "y": 2140.335,
-      "description": "完成“摩托-固定赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 2\"",
       "levelId": "0"
     },
     {
@@ -1598,7 +1598,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1228.899,
       "y": 2224.815,
-      "description": "完成“摩托-飞行赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 3\"",
       "levelId": "0"
     },
     {
@@ -1639,7 +1639,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2546.58,
       "y": 2204.539,
-      "description": "完成“摩托-固定赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 1\"",
       "levelId": "0"
     },
     {
@@ -1648,7 +1648,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2136.052,
       "y": 2449.64,
-      "description": "天空悬浮建筑上",
+      "description": "tòa nhà nổi trên bầu trời",
       "levelId": "0"
     },
     {
@@ -1657,7 +1657,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2146.388,
       "y": 2408.719,
-      "description": "天空悬浮建筑上",
+      "description": "tòa nhà nổi trên bầu trời",
       "levelId": "0"
     },
     {
@@ -1666,7 +1666,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2125.716,
       "y": 2142.937,
-      "description": "完成“摩托-飞行赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 2\"",
       "levelId": "0"
     },
     {
@@ -1675,7 +1675,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2211.858,
       "y": 2385.029,
-      "description": "完成“路悬仪挑战赛道5”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 5\"",
       "levelId": "0"
     },
     {
@@ -1684,7 +1684,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 3065.278,
       "y": 1821.317,
-      "description": "做完图二处的解密拿到里面的陷阱宝箱即可解锁",
+      "description": "Hoàn thành giải mã trong Hình 2 để đưa rương bẫy vào bên trong để mở khóa",
       "levelId": "0"
     },
     {
@@ -1693,7 +1693,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2270.895,
       "y": 2418.992,
-      "description": "完成“路悬仪挑战赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 2\"",
       "levelId": "0"
     },
     {
@@ -1734,7 +1734,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2563.683,
       "y": 2179.747,
-      "description": "完成“摩托-飞行赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 1\"",
       "levelId": "0"
     },
     {
@@ -1743,7 +1743,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2606.728,
       "y": 2112.452,
-      "description": "完成“路悬仪挑战赛道4”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 4\"",
       "levelId": "0"
     },
     {
@@ -1768,7 +1768,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2569.827,
       "y": 1504.485,
-      "description": "完成“摩托-飞行赛道5”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 5\"",
       "levelId": "0"
     },
     {
@@ -1825,7 +1825,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2537.725,
       "y": 1434.534,
-      "description": "完成“摩托-固定赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 3\"",
       "levelId": "0"
     },
     {
@@ -1834,7 +1834,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2239.371,
       "y": 1261.77,
-      "description": "在长椅坐下后出现",
+      "description": "Xuất hiện sau khi ngồi xuống băng ghế",
       "levelId": "0"
     },
     {
@@ -1843,7 +1843,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2453.128,
       "y": 1338.868,
-      "description": "与人物对话后，参加摩托车挑战出现",
+      "description": "Sau khi nói chuyện với nhân vật, việc tham gia thử thách mô tô xuất hiện.",
       "levelId": "0"
     },
     {
@@ -1852,7 +1852,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1083.91,
       "y": 1395.339,
-      "description": "触摸石像后，变身日灵完成交互后出现",
+      "description": "Sau khi chạm vào tượng đá, Thần Mặt trời biến hình sẽ xuất hiện sau khi hoàn thành tương tác.",
       "levelId": "0"
     },
     {
@@ -1861,7 +1861,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1088.536,
       "y": 1395.935,
-      "description": "触摸石像后，变身日灵完成交互后出现",
+      "description": "Sau khi chạm vào tượng đá, Thần Mặt trời biến hình sẽ xuất hiện sau khi hoàn thành tương tác.",
       "levelId": "0"
     },
     {
@@ -1870,7 +1870,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1203.619,
       "y": 2062.929,
-      "description": "山坡上，询问日灵后出现，获得成就“一杆入袋”",
+      "description": "Trên sườn đồi, sau khi hỏi Ri Ling, anh ta sẽ xuất hiện và nhận được thành tích \"Pocket with One Shot\"",
       "levelId": "0"
     },
     {
@@ -1879,7 +1879,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1113.112,
       "y": 2074.214,
-      "description": "与日灵交互后出现",
+      "description": "Xuất hiện sau khi tương tác với Ri Ling",
       "levelId": "0"
     },
     {
@@ -1888,7 +1888,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2182.123,
       "y": 2384.333,
-      "description": "需完成“危行任务”破碎黯原之心",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” Shattered Heart of the Dark Plains",
       "levelId": "0"
     },
     {
@@ -1897,7 +1897,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2364.329,
       "y": 2555.407,
-      "description": "需完成“危行任务”破碎黯原之心",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” Shattered Heart of the Dark Plains",
       "levelId": "0"
     },
     {
@@ -1906,7 +1906,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2110.825,
       "y": 2538.077,
-      "description": "需完成“危行任务”破碎黯原之心",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” Shattered Heart of the Dark Plains",
       "levelId": "0"
     },
     {
@@ -1915,7 +1915,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2146.921,
       "y": 2327.203,
-      "description": "Tầng 50 · 需完成“危行任务”破碎黯原之心",
+      "description": "Tầng 50 · Cần hoàn thành nhiệm vụ “Nguy Hành” phá vỡ Trái tim Âm Nguyên",
       "floorId": "50",
       "levelId": "-1/50"
     },
@@ -1925,7 +1925,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2126.709,
       "y": 2332.552,
-      "description": "Tầng 50 · 需完成“危行任务”破碎黯原之心",
+      "description": "Tầng 50 · Cần hoàn thành nhiệm vụ “Nguy Hành” phá vỡ Trái tim Âm Nguyên",
       "floorId": "50",
       "levelId": "-1/50"
     },
@@ -1935,7 +1935,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2143.75,
       "y": 798.088,
-      "description": "需完成“危行任务”完美飞行日",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” ngày bay hoàn hảo",
       "levelId": "0"
     },
     {
@@ -1944,7 +1944,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1102.785,
       "y": 2373.807,
-      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "description": "Cần hoàn thành hành động \"Nhiệm vụ ghi nhật ký\" và \"Săn tìm kho báu\"",
       "levelId": "0"
     },
     {
@@ -1953,7 +1953,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2149.524,
       "y": 1026.843,
-      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "description": "Cần hoàn thành hành động \"Nhiệm vụ ghi nhật ký\" và \"Săn tìm kho báu\"",
       "levelId": "0"
     },
     {
@@ -1962,7 +1962,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2091.165,
       "y": 2319.694,
-      "description": "危行任务:破碎黯原之心 最后日灵的赠礼，该宝箱在水晶后面，可根据日灵寻找",
+      "description": "Nhiệm vụ nguy hiểm: Trái tim của vùng đồng bằng tối tăm. Món quà cuối cùng từ Sun Spirit. Rương kho báu nằm phía sau viên pha lê và có thể được tìm thấy theo Thần Mặt trời.",
       "levelId": "0"
     },
     {
@@ -1971,7 +1971,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 2135.492,
       "y": 2274.003,
-      "description": "需完成“危行任务”破碎黯原之心",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” Shattered Heart of the Dark Plains",
       "levelId": "0"
     },
     {
@@ -1980,7 +1980,7 @@
       "title": "Rương tinh xảo",
       "x": 1151.124,
       "y": 1228.683,
-      "description": "完成“摩托-特技赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Moto - Stunt Track 1\"",
       "levelId": "0"
     },
     {
@@ -1989,7 +1989,7 @@
       "title": "Rương tinh xảo",
       "x": 1479.71,
       "y": 2302.319,
-      "description": "需完成“纪闻任务”拂光搁浅的旧讯",
+      "description": "“Sứ mệnh báo chí” cần hoàn thành để làm sáng tỏ tin cũ mắc kẹt",
       "levelId": "0"
     },
     {
@@ -2094,7 +2094,7 @@
       "title": "Rương đơn sơ",
       "x": 1048.528,
       "y": 1112.272,
-      "description": "完成“路悬仪挑战赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 1\"",
       "levelId": "0"
     },
     {
@@ -2103,7 +2103,7 @@
       "title": "Rương đơn sơ",
       "x": 1053.832,
       "y": 1117.838,
-      "description": "完成“路悬仪挑战赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 1\"",
       "levelId": "0"
     },
     {
@@ -2112,7 +2112,7 @@
       "title": "Rương đơn sơ",
       "x": 1145.034,
       "y": 1230.797,
-      "description": "完成“摩托-特技赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Moto - Stunt Track 1\"",
       "levelId": "0"
     },
     {
@@ -2121,7 +2121,7 @@
       "title": "Rương đơn sơ",
       "x": 1154.042,
       "y": 1231.33,
-      "description": "完成“摩托-特技赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Moto - Stunt Track 1\"",
       "levelId": "0"
     },
     {
@@ -2130,7 +2130,7 @@
       "title": "Rương đơn sơ",
       "x": 1430.441,
       "y": 1004.074,
-      "description": "完成“路悬仪挑战赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 3\"",
       "levelId": "0"
     },
     {
@@ -2139,7 +2139,7 @@
       "title": "Rương đơn sơ",
       "x": 1434.398,
       "y": 1006.55,
-      "description": "完成“路悬仪挑战赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 3\"",
       "levelId": "0"
     },
     {
@@ -2164,7 +2164,7 @@
       "title": "Rương đơn sơ",
       "x": 1224.337,
       "y": 1902.282,
-      "description": "完成“路悬仪挑战赛道6”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 6\"",
       "levelId": "0"
     },
     {
@@ -2173,7 +2173,7 @@
       "title": "Rương đơn sơ",
       "x": 1223.035,
       "y": 1906.194,
-      "description": "完成“路悬仪挑战赛道6”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 6\"",
       "levelId": "0"
     },
     {
@@ -2182,7 +2182,7 @@
       "title": "Rương đơn sơ",
       "x": 1268.89,
       "y": 1909.492,
-      "description": "完成机关解密后破冰出现（需要完成任务勘探悖论之域）",
+      "description": "Sau khi hoàn thành việc giải mã cơ chế, tàu phá băng xuất hiện (cần hoàn thành nhiệm vụ khám phá cõi nghịch lý)",
       "levelId": "0"
     },
     {
@@ -2191,7 +2191,7 @@
       "title": "Rương đơn sơ",
       "x": 1332.137,
       "y": 1341.642,
-      "description": "完成“摩托-飞行赛道4”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 4\"",
       "levelId": "0"
     },
     {
@@ -2200,7 +2200,7 @@
       "title": "Rương đơn sơ",
       "x": 1333.058,
       "y": 1344.407,
-      "description": "完成“摩托-飞行赛道4”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 4\"",
       "levelId": "0"
     },
     {
@@ -2233,7 +2233,7 @@
       "title": "Rương đơn sơ",
       "x": 1144.681,
       "y": 2135.718,
-      "description": "完成“摩托-固定赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 2\"",
       "levelId": "0"
     },
     {
@@ -2242,7 +2242,7 @@
       "title": "Rương đơn sơ",
       "x": 1144.221,
       "y": 2140.335,
-      "description": "完成“摩托-固定赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 2\"",
       "levelId": "0"
     },
     {
@@ -2275,7 +2275,7 @@
       "title": "Rương đơn sơ",
       "x": 1235.432,
       "y": 2218.942,
-      "description": "完成“摩托-飞行赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 3\"",
       "levelId": "0"
     },
     {
@@ -2284,7 +2284,7 @@
       "title": "Rương đơn sơ",
       "x": 1232.821,
       "y": 2222.203,
-      "description": "完成“摩托-飞行赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 3\"",
       "levelId": "0"
     },
     {
@@ -2373,7 +2373,7 @@
       "title": "Rương đơn sơ",
       "x": 2537.102,
       "y": 2198.938,
-      "description": "完成“摩托-固定赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 1\"",
       "levelId": "0"
     },
     {
@@ -2382,7 +2382,7 @@
       "title": "Rương đơn sơ",
       "x": 2540.978,
       "y": 2199.796,
-      "description": "完成“摩托-固定赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 1\"",
       "levelId": "0"
     },
     {
@@ -2407,7 +2407,7 @@
       "title": "Rương đơn sơ",
       "x": 2136.486,
       "y": 2430.684,
-      "description": "天空悬浮建筑上",
+      "description": "tòa nhà nổi trên bầu trời",
       "levelId": "0"
     },
     {
@@ -2416,7 +2416,7 @@
       "title": "Rương đơn sơ",
       "x": 2145.096,
       "y": 2410.869,
-      "description": "天空悬浮建筑上",
+      "description": "tòa nhà nổi trên bầu trời",
       "levelId": "0"
     },
     {
@@ -2425,7 +2425,7 @@
       "title": "Rương đơn sơ",
       "x": 2124.424,
       "y": 2143.804,
-      "description": "完成“摩托-飞行赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 2\"",
       "levelId": "0"
     },
     {
@@ -2434,7 +2434,7 @@
       "title": "Rương đơn sơ",
       "x": 2123.99,
       "y": 2147.247,
-      "description": "完成“摩托-飞行赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 2\"",
       "levelId": "0"
     },
     {
@@ -2443,7 +2443,7 @@
       "title": "Rương đơn sơ",
       "x": 2203.681,
       "y": 2385.887,
-      "description": "完成“路悬仪挑战赛道5”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 5\"",
       "levelId": "0"
     },
     {
@@ -2452,7 +2452,7 @@
       "title": "Rương đơn sơ",
       "x": 2208.849,
       "y": 2387.613,
-      "description": "完成“路悬仪挑战赛道5”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 5\"",
       "levelId": "0"
     },
     {
@@ -2469,7 +2469,7 @@
       "title": "Rương đơn sơ",
       "x": 2273.551,
       "y": 2416.878,
-      "description": "完成“路悬仪挑战赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 2\"",
       "levelId": "0"
     },
     {
@@ -2478,7 +2478,7 @@
       "title": "Rương đơn sơ",
       "x": 2271.961,
       "y": 2425.886,
-      "description": "完成“路悬仪挑战赛道2”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 2\"",
       "levelId": "0"
     },
     {
@@ -2503,7 +2503,7 @@
       "title": "Rương đơn sơ",
       "x": 2564.171,
       "y": 2184.698,
-      "description": "完成“摩托-飞行赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 1\"",
       "levelId": "0"
     },
     {
@@ -2512,7 +2512,7 @@
       "title": "Rương đơn sơ",
       "x": 2566.647,
       "y": 2189.152,
-      "description": "完成“摩托-飞行赛道1”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 1\"",
       "levelId": "0"
     },
     {
@@ -2521,7 +2521,7 @@
       "title": "Rương đơn sơ",
       "x": 2604.749,
       "y": 2121.858,
-      "description": "完成“路悬仪挑战赛道4”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 4\"",
       "levelId": "0"
     },
     {
@@ -2530,7 +2530,7 @@
       "title": "Rương đơn sơ",
       "x": 2608.218,
       "y": 2109.488,
-      "description": "完成“路悬仪挑战赛道4”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Luxuanyi Challenge Track 4\"",
       "levelId": "0"
     },
     {
@@ -2563,7 +2563,7 @@
       "title": "Rương đơn sơ",
       "x": 3172.301,
       "y": 1939.769,
-      "description": "完成“铸光仪”挑战后出现",
+      "description": "Xuất hiện sau khi hoàn thành thử thách \"Lightcaster\"",
       "levelId": "0"
     },
     {
@@ -2580,7 +2580,7 @@
       "title": "Rương đơn sơ",
       "x": 2561.903,
       "y": 1500.22,
-      "description": "完成“摩托-飞行赛道5”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 5\"",
       "levelId": "0"
     },
     {
@@ -2589,7 +2589,7 @@
       "title": "Rương đơn sơ",
       "x": 2566.773,
       "y": 1503.265,
-      "description": "完成“摩托-飞行赛道5”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Flying Track 5\"",
       "levelId": "0"
     },
     {
@@ -2726,7 +2726,7 @@
       "title": "Rương đơn sơ",
       "x": 2533.876,
       "y": 1438.039,
-      "description": "完成“摩托-固定赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 3\"",
       "levelId": "0"
     },
     {
@@ -2735,7 +2735,7 @@
       "title": "Rương đơn sơ",
       "x": 2541.574,
       "y": 1437.335,
-      "description": "完成“摩托-固定赛道3”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Motorcycle - Fix Track 3\"",
       "levelId": "0"
     },
     {
@@ -2752,7 +2752,7 @@
       "title": "Rương đơn sơ",
       "x": 1363.778,
       "y": 1099.387,
-      "description": "小小的愿望 成就宝箱",
+      "description": "Hộp Kho Báu Thành Tích Điều Ước Nhỏ",
       "levelId": "0"
     },
     {
@@ -2761,7 +2761,7 @@
       "title": "Rương đơn sơ",
       "x": 2303.404,
       "y": 2581.049,
-      "description": "需完成“纪闻任务”刻于心间",
+      "description": "Nhu cầu hoàn thành “sứ mệnh ghi hình” khắc sâu trong lòng",
       "levelId": "0"
     },
     {
@@ -2770,7 +2770,7 @@
       "title": "Rương đơn sơ",
       "x": 2126.755,
       "y": 2513.754,
-      "description": "需完成“纪闻任务”刻于心间",
+      "description": "Nhu cầu hoàn thành “sứ mệnh ghi hình” khắc sâu trong lòng",
       "levelId": "0"
     },
     {
@@ -2779,7 +2779,7 @@
       "title": "Rương đơn sơ",
       "x": 2367.618,
       "y": 2292.399,
-      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "description": "Cần hoàn thành hành động \"Nhiệm vụ ghi nhật ký\" và \"Săn tìm kho báu\"",
       "levelId": "0"
     },
     {
@@ -2788,7 +2788,7 @@
       "title": "Rương đơn sơ",
       "x": 1264.218,
       "y": 1142.947,
-      "description": "需完成“纪闻任务“   寻\"宝“行动",
+      "description": "Cần hoàn thành hành động \"Nhiệm vụ ghi nhật ký\" và \"Săn tìm kho báu\"",
       "levelId": "0"
     },
     {
@@ -2797,7 +2797,7 @@
       "title": "Rương đơn sơ",
       "x": 1404.798,
       "y": 1096.894,
-      "description": "危行任务:勘探悖论之域 寂寞断崖的还原培育 追寻学生和日灵时候调查地上闪光点",
+      "description": "Nhiệm vụ nguy hiểm: Khám phá vương quốc nghịch lý, khôi phục và tu luyện Vách đá Cô độc, Truy tìm các học sinh và Ri Ling để điều tra các điểm sáng trên mặt đất",
       "levelId": "0"
     },
     {
@@ -2806,7 +2806,7 @@
       "title": "Rương đơn sơ",
       "x": 2286.092,
       "y": 2270.678,
-      "description": "成就:小小的愿望，打碎矿石解救日灵后，在打碎旁边的矿石获得",
+      "description": "Thành tích: Một điều ước nhỏ. Sau khi phá quặng để giải cứu sunling, bạn có thể lấy được nó bằng cách phá quặng bên cạnh.",
       "levelId": "0"
     },
     {
@@ -2815,55 +2815,55 @@
       "title": "Rương đơn sơ",
       "x": 1210.675,
       "y": 2211.108,
-      "description": "成就:小小的愿望，使用大象打碎矿石后获得",
+      "description": "Thành tích: Điều ước nhỏ, có được sau khi dùng voi để phá quặng",
       "levelId": "0"
     },
     {
       "id": "kuro:1496921282502959104",
       "categoryId": "IconMap_WYQ",
-      "title": "无音区",
+      "title": "vùng im lặng",
       "x": 3081.939,
       "y": 2213.647,
-      "description": "角色造成冷凝伤害提高，敌人受到衍射伤害降低",
+      "description": "Sát thương ngưng tụ của nhân vật được tăng lên và sát thương nhiễu xạ của kẻ địch giảm đi.",
       "levelId": "0"
     },
     {
       "id": "kuro:1499266823018078208",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 2781.949,
       "y": 2069.923,
-      "description": "Tầng 53 · 锈丘",
+      "description": "Tầng 53 · Đồi Gỉ",
       "floorId": "53",
       "levelId": "-1000000/53"
     },
     {
       "id": "kuro:1500353434250878976",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 2223.08,
       "y": 2371.25,
-      "description": "Tầng 50 · 栖光岩窟",
+      "description": "Tầng 50 · Hang động Tích Quang",
       "floorId": "50",
       "levelId": "-1000000/50"
     },
     {
       "id": "kuro:1500353636298219520",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 1371.106,
       "y": 2241.738,
-      "description": "Tầng 51 · 未竟残舍",
+      "description": "Tầng 51 · Tàn xá chưa hoàn thành",
       "floorId": "51",
       "levelId": "-1000000/51"
     },
     {
       "id": "kuro:1500353916456755200",
       "categoryId": "FCRK",
-      "title": "分层入口",
+      "title": "Lối vào theo tầng",
       "x": 2248.325,
       "y": 1417.52,
-      "description": "Tầng 49 · 明日阈限",
+      "description": "Tầng 49 · Ngưỡng cửa ngày mai",
       "floorId": "49",
       "levelId": "-1000000/49"
     },
@@ -2881,7 +2881,7 @@
       "title": "Rương huy quang",
       "x": 2174.199,
       "y": 2379.779,
-      "description": "需完成“危行任务”破碎黯原之心",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” Shattered Heart of the Dark Plains",
       "levelId": "0"
     },
     {
@@ -2890,7 +2890,7 @@
       "title": "Rương huy quang",
       "x": 2687.178,
       "y": 1492.802,
-      "description": "需完成“危行任务”完美飞行日",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” ngày bay hoàn hảo",
       "levelId": "0"
     },
     {
@@ -2899,733 +2899,733 @@
       "title": "Rương huy quang",
       "x": 2692.861,
       "y": 1492.802,
-      "description": "涡纹奇藏箱  需完成“危行任务”完美飞行日",
+      "description": "Để hoàn thành “nhiệm vụ nguy hiểm” cho một ngày bay hoàn hảo trong rương kho báu cuộn tròn",
       "levelId": "0"
     },
     {
       "id": "kuro:1497542833669644288",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1326.381,
       "y": 2297.675,
-      "description": "位于山体的夹缝中",
+      "description": "Nằm trong kẽ nứt của núi",
       "levelId": "0"
     },
     {
       "id": "kuro:1497543840150937600",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1222.475,
       "y": 2040.169,
-      "description": "位于标点正下方的冰窟中",
+      "description": "Nằm trong hang băng ngay dưới dấu chấm câu",
       "levelId": "0"
     },
     {
       "id": "kuro:1497545352131092480",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1476.367,
       "y": 2577.769,
-      "description": "位于洞窟内",
+      "description": "Nằm bên trong hang động",
       "levelId": "0"
     },
     {
       "id": "kuro:1497548175261917184",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1042.673,
       "y": 2208.226,
-      "description": "位于树枝尖端",
+      "description": "ở đầu cành",
       "levelId": "0"
     },
     {
       "id": "kuro:1497550033880326144",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2275.087,
       "y": 2075.407,
-      "description": "位于山崖边",
+      "description": "Nằm ở rìa của một vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497552457327534080",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2055.529,
       "y": 2153.111,
-      "description": "位于标点正下方一段距离的的山体平台上，从标点处的北面飞下山崖，回头即可看到对应平台",
+      "description": "Nó nằm trên một nền núi cách xa điểm đánh dấu một khoảng. Bay xuống vách đá từ phía bắc của điểm đánh dấu. Khi bạn quay lại, bạn có thể thấy nền tảng tương ứng.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497555027694166016",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1991.379,
       "y": 2403.388,
-      "description": "位于山崖边",
+      "description": "Nằm ở rìa của một vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497560552477532160",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2193.769,
       "y": 2594.936,
-      "description": "位于树枝尖端",
+      "description": "ở đầu cành",
       "levelId": "0"
     },
     {
       "id": "kuro:1497562324965236736",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2474.767,
       "y": 2311.228,
-      "description": "位于半空中",
+      "description": "giữa không trung",
       "levelId": "0"
     },
     {
       "id": "kuro:1497564298209107968",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2177.506,
       "y": 2241.656,
-      "description": "位于山崖边半空中",
+      "description": "Nằm giữa không trung ở rìa vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497568096343646208",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2247.078,
       "y": 2404.292,
-      "description": "位于山崖边半空中",
+      "description": "Nằm giữa không trung ở rìa vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497571684059684864",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2381.704,
       "y": 2360.019,
-      "description": "到达标点后，先往西南方向走到小湖泊，再把视角转到东北方向，终声残卷在视线前方的瀑布洞窟内",
+      "description": "Sau khi đến điểm đánh dấu, đầu tiên đi về phía tây nam đến hồ nước nhỏ, sau đó xoay góc nhìn về phía đông bắc, cuối cùng âm thanh vẫn đọng lại trong hang động thác nước trước tầm mắt.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497577690696605696",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2640.113,
       "y": 2035.652,
-      "description": "位于顶部山崖的半空中",
+      "description": "Nằm giữa không trung trên đỉnh vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497609542728392704",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2753.054,
       "y": 2177.506,
-      "description": "位于标点正下方的山体半空中",
+      "description": "Nằm giữa không trung trên ngọn núi ngay dưới dấu chấm câu",
       "levelId": "0"
     },
     {
       "id": "kuro:1497611544296398848",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 3239.153,
       "y": 1967.887,
-      "description": "位于山崖边",
+      "description": "Nằm ở rìa của một vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497612784123600896",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 3062.965,
       "y": 2241.656,
-      "description": "位于山崖边半空中",
+      "description": "Nằm giữa không trung ở rìa vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497613712986447872",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 3000.621,
       "y": 2204.612,
-      "description": "位于标点下层的山体半空中",
+      "description": "Nằm giữa núi dưới dấu chấm câu",
       "levelId": "0"
     },
     {
       "id": "kuro:1497616142323130368",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2991.586,
       "y": 1810.673,
-      "description": "位于山崖边的半空中",
+      "description": "Nằm giữa không trung ở rìa vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497709602392743936",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1414.024,
       "y": 1439.322,
-      "description": "位于标点正下方的山体平台半空中",
+      "description": "Nằm giữa không trung trên nền núi ngay dưới dấu chấm câu",
       "levelId": "0"
     },
     {
       "id": "kuro:1497911586080514048",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1163.746,
       "y": 1312.828,
-      "description": "位于半山腰的平台上，到达标点附近的山崖边后将镜头下移可以看见",
+      "description": "Nó nằm trên một nền tảng ở lưng chừng núi. Sau khi đến mép vách đá gần điểm đánh dấu, bạn có thể nhìn thấy nó bằng cách di chuyển camera xuống.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497913822223360000",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1202.598,
       "y": 1357.101,
-      "description": "位于山洞中",
+      "description": "Nằm trong một hang động",
       "levelId": "0"
     },
     {
       "id": "kuro:1497914762238861312",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1082.428,
       "y": 1095.078,
-      "description": "位于石头顶端",
+      "description": "trên đỉnh đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497915320281948160",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1475.464,
       "y": 1054.419,
-      "description": "位于半空的石头夹缝中",
+      "description": "Nằm trong các vết nứt của đá giữa không trung",
       "levelId": "0"
     },
     {
       "id": "kuro:1497918574717919232",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1877.534,
       "y": 1130.315,
-      "description": "位于树枝尖端的半空中，在附近山崖用钩索拉取即可",
+      "description": "Nó nằm ở giữa không trung ở đầu cành. Bạn có thể dùng móc để kéo nó từ vách đá gần đó.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497921794324389888",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2320.264,
       "y": 1491.727,
-      "description": "位于树枝尖端的半空中",
+      "description": "giữa không trung ở đầu cành",
       "levelId": "0"
     },
     {
       "id": "kuro:1497929924601683968",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2277.798,
       "y": 1102.306,
-      "description": "位于树枝上",
+      "description": "nằm trên cành",
       "levelId": "0"
     },
     {
       "id": "kuro:1497946743386759168",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1693.214,
       "y": 732.762,
-      "description": "位于石头顶端",
+      "description": "trên đỉnh đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497955888484294656",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 2226.296,
       "y": 1674.24,
-      "description": "位于树枝中间",
+      "description": "nằm ở giữa các nhánh",
       "levelId": "0"
     },
     {
       "id": "kuro:1498101683183394816",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1407.699,
       "y": 1338.127,
-      "description": "位于半空漂浮的石头堆中，可能会被漂浮的石头挡住",
+      "description": "Nằm giữa những đống đá lơ lửng giữa không trung, có thể bị chặn lại bởi những tảng đá trôi",
       "levelId": "0"
     },
     {
       "id": "kuro:1498102510493081600",
       "categoryId": "zscj",
-      "title": "终声残卷",
+      "title": "Tàn dư cuối cùng",
       "x": 1466.428,
       "y": 1329.995,
-      "description": "在破碎的漂浮建筑废墟靠近顶端的位置，可在图2位置找到一台无人机，骑摩托飞上去然后用万向锚拉取，也可以沿着建筑废墟往上爬靠近目标终声残卷",
+      "description": "Gần phía trên tàn tích của tòa nhà nổi bị hỏng, bạn có thể tìm thấy một chiếc máy bay không người lái trong Hình 2. Bay lên trên một chiếc mô tô và kéo nó bằng một chiếc mỏ neo đa năng. Bạn cũng có thể leo lên dọc theo tàn tích của tòa nhà để đến gần mục tiêu hơn.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497361974324862976",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2696.294,
       "y": 1982.316,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497362416626130944",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2846.542,
       "y": 2109.904,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497362862300291072",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2579.179,
       "y": 2093.261,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497364202896990208",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2512.905,
       "y": 2157.565,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497365790910144512",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2192.649,
       "y": 2258.119,
-      "description": "不在地图最顶层，在悬崖下方一层山上",
+      "description": "Không phải trên đỉnh bản đồ, trên núi một lớp dưới vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497366217269534720",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2115.28,
       "y": 2251.912,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497367824749797376",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2028.767,
       "y": 2229.061,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497369441800118272",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2056.849,
       "y": 2154.629,
-      "description": "在最顶层一层守护潮汐之遗",
+      "description": "Bảo vệ phần còn lại của thủy triều ở tầng trên cùng",
       "levelId": "0"
     },
     {
       "id": "kuro:1497371926879772672",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2119.852,
       "y": 2109.579,
-      "description": "在最下层的平台",
+      "description": "trên nền tảng thấp nhất",
       "levelId": "0"
     },
     {
       "id": "kuro:1497373275004575744",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2024.204,
       "y": 2368.133,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497376157087014912",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2114.629,
       "y": 2461.503,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497376636168134656",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2223.667,
       "y": 2540.499,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497376809930432512",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2236.073,
       "y": 2534.626,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497377222146629632",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2174.696,
       "y": 2529.729,
-      "description": "在瀑布底的河川",
+      "description": "dòng sông dưới chân thác",
       "levelId": "0"
     },
     {
       "id": "kuro:1497378230574080000",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2066.309,
       "y": 2610.034,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497382136347713536",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2296.139,
       "y": 2462.479,
-      "description": "在最顶层位置",
+      "description": "Nằm ở cấp cao nhất",
       "levelId": "0"
     },
     {
       "id": "kuro:1497382804399677440",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2846.642,
       "y": 2314.951,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497383419767660544",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2830.225,
       "y": 1809.236,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497383704971943936",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2873.964,
       "y": 1768.108,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497384100317978624",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2530.153,
       "y": 1377.801,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497384263828725760",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2547.131,
       "y": 1374.214,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497385267127214080",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2451.799,
       "y": 1328.179,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497385771983675392",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2477.649,
       "y": 1278.756,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497386307906674688",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2445.33,
       "y": 1207.26,
-      "description": "在悬崖下方一层",
+      "description": "Một tầng dưới vách đá",
       "levelId": "0"
     },
     {
       "id": "kuro:1497387253642534912",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2356.206,
       "y": 1131.526,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497388115521003520",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2300.052,
       "y": 1139.685,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497388340105682944",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2300.052,
       "y": 1077.658,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497388560516358144",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2258.272,
       "y": 1075.046,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497388726815645696",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2263.386,
       "y": 1060.87,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497389909928812544",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2202.217,
       "y": 1136.044,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497390226187051008",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2318.737,
       "y": 1241.151,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497390518060277760",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2389.871,
       "y": 1369.796,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497390799897206784",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2331.702,
       "y": 1435.817,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497391022203707392",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2288.306,
       "y": 1410.888,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497391341696425984",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2023.761,
       "y": 1244.684,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497391477159862272",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2009.91,
       "y": 1246.066,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497391655434559488",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2026.535,
       "y": 1188.819,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497392410405085184",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1963.695,
       "y": 1289.327,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497393756986384384",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1900.041,
       "y": 1080.043,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497393960598872064",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1903.7,
       "y": 1081.335,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497394719331688448",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1536.045,
       "y": 1098.782,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497395086705909760",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1488.836,
       "y": 1113.193,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497395476776181760",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1365.251,
       "y": 1128.056,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497396312886190080",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 988.624,
       "y": 1205.209,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497396845625040896",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1389.303,
       "y": 1510.52,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497397565350830080",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1161.758,
       "y": 1811.622,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497398012887261184",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1111.133,
       "y": 1765.496,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497398325442600960",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1404.753,
       "y": 2051.617,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497398733804904448",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1033.132,
       "y": 2218.869,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497399600766869504",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 1440.614,
       "y": 2582.983,
-      "description": "黯原地区的独特残象，常出没于虚质侵蚀严重的区域，形似飞蛾",
+      "description": "Một dư ảnh độc nhất vô nhị ở khu vực Dark Plains, thường được tìm thấy ở những khu vực có vật chất trống bị xói mòn nghiêm trọng. Nó trông giống như một con sâu bướm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1498325825337925632",
       "categoryId": "320000660",
-      "title": "迷胧幻蛾",
+      "title": "Bướm đêm ảo giác",
       "x": 2846.118,
       "y": 2069.986,
       "levelId": "0"
@@ -3633,7 +3633,7 @@
     {
       "id": "kuro:1531771257350078464",
       "categoryId": "381037",
-      "title": "青实归还之碑",
+      "title": "Đài tưởng niệm sự trở lại của Qingshi",
       "x": 2948.469,
       "y": 2183.451,
       "levelId": "0"
@@ -3641,7 +3641,7 @@
     {
       "id": "kuro:1504056122959814656",
       "categoryId": "SP_IconMonsterHead_105_UI",
-      "title": "破霜猎手",
+      "title": "Thợ săn phá băng",
       "x": 1203.393,
       "y": 2159.806,
       "levelId": "0"
@@ -3649,7 +3649,7 @@
     {
       "id": "kuro:1503774223931252736",
       "categoryId": "320000560",
-      "title": "隐迹铁影",
+      "title": "Bóng sắt ẩn giấu",
       "x": 2134.136,
       "y": 2245.271,
       "levelId": "0"
@@ -3657,7 +3657,7 @@
     {
       "id": "kuro:1503775090575122432",
       "categoryId": "320000560",
-      "title": "隐迹铁影",
+      "title": "Bóng sắt ẩn giấu",
       "x": 2162.146,
       "y": 1349.873,
       "levelId": "0"
@@ -3665,7 +3665,7 @@
     {
       "id": "kuro:1503775466212794368",
       "categoryId": "320000560",
-      "title": "隐迹铁影",
+      "title": "Bóng sắt ẩn giấu",
       "x": 2122.391,
       "y": 1257.713,
       "levelId": "0"
@@ -3673,7 +3673,7 @@
     {
       "id": "kuro:1503775784505270272",
       "categoryId": "320000560",
-      "title": "隐迹铁影",
+      "title": "Bóng sắt ẩn giấu",
       "x": 2033.845,
       "y": 1267.652,
       "levelId": "0"
@@ -3681,7 +3681,7 @@
     {
       "id": "kuro:1503776129017683968",
       "categoryId": "320000560",
-      "title": "隐迹铁影",
+      "title": "Bóng sắt ẩn giấu",
       "x": 2338.334,
       "y": 1247.774,
       "levelId": "0"
@@ -3689,7 +3689,7 @@
     {
       "id": "kuro:1505809225393086464",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2071.287,
       "y": 2600.05,
       "levelId": "0"
@@ -3697,7 +3697,7 @@
     {
       "id": "kuro:1505809260213526528",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2057.499,
       "y": 2605.616,
       "levelId": "0"
@@ -3705,7 +3705,7 @@
     {
       "id": "kuro:1505809281626120192",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2067.311,
       "y": 2620.994,
       "levelId": "0"
@@ -3713,7 +3713,7 @@
     {
       "id": "kuro:1505809838998790144",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1164.911,
       "y": 2418.369,
       "levelId": "0"
@@ -3721,7 +3721,7 @@
     {
       "id": "kuro:1505809861811609600",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1156.075,
       "y": 2421.983,
       "levelId": "0"
@@ -3729,7 +3729,7 @@
     {
       "id": "kuro:1505809891964461056",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1163.303,
       "y": 2426.401,
       "levelId": "0"
@@ -3737,7 +3737,7 @@
     {
       "id": "kuro:1505810110311538688",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1106.227,
       "y": 2392.248,
       "levelId": "0"
@@ -3745,7 +3745,7 @@
     {
       "id": "kuro:1505810130753904640",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1113.067,
       "y": 2395.862,
       "levelId": "0"
@@ -3753,7 +3753,7 @@
     {
       "id": "kuro:1505810149570224128",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1116.076,
       "y": 2384.812,
       "levelId": "0"
@@ -3761,7 +3761,7 @@
     {
       "id": "kuro:1505810580702732288",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1388.029,
       "y": 1458.902,
       "levelId": "0"
@@ -3769,7 +3769,7 @@
     {
       "id": "kuro:1505810599270916096",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1384.361,
       "y": 1462.046,
       "levelId": "0"
@@ -3777,7 +3777,7 @@
     {
       "id": "kuro:1505810617142845440",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1388.029,
       "y": 1462.398,
       "levelId": "0"
@@ -3785,7 +3785,7 @@
     {
       "id": "kuro:1505811482884939776",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1491.908,
       "y": 1124.406,
       "levelId": "0"
@@ -3793,7 +3793,7 @@
     {
       "id": "kuro:1505811502954684416",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1500.356,
       "y": 1118.777,
       "levelId": "0"
@@ -3801,7 +3801,7 @@
     {
       "id": "kuro:1505811522902794240",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1500.753,
       "y": 1126.819,
       "levelId": "0"
@@ -3809,7 +3809,7 @@
     {
       "id": "kuro:1505811631715622912",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1476.638,
       "y": 1106.724,
       "levelId": "0"
@@ -3817,7 +3817,7 @@
     {
       "id": "kuro:1505811650027954176",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1471.813,
       "y": 1106.724,
       "levelId": "0"
@@ -3825,7 +3825,7 @@
     {
       "id": "kuro:1505811812116832256",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1465.787,
       "y": 1074.577,
       "levelId": "0"
@@ -3833,7 +3833,7 @@
     {
       "id": "kuro:1505811830261391360",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1456.535,
       "y": 1074.577,
       "levelId": "0"
@@ -3841,7 +3841,7 @@
     {
       "id": "kuro:1505811847206379520",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1463.374,
       "y": 1076.989,
       "levelId": "0"
@@ -3849,7 +3849,7 @@
     {
       "id": "kuro:1505812111346196480",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1402.72,
       "y": 1073.095,
       "levelId": "0"
@@ -3857,7 +3857,7 @@
     {
       "id": "kuro:1505812127654322176",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1401.672,
       "y": 1077.115,
       "levelId": "0"
@@ -3865,7 +3865,7 @@
     {
       "id": "kuro:1505812286438088704",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1399.395,
       "y": 1086.386,
       "levelId": "0"
@@ -3873,7 +3873,7 @@
     {
       "id": "kuro:1505812302087036928",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1403.244,
       "y": 1084.29,
       "levelId": "0"
@@ -3881,7 +3881,7 @@
     {
       "id": "kuro:1505812323003359232",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1400.742,
       "y": 1080.73,
       "levelId": "0"
@@ -3889,7 +3889,7 @@
     {
       "id": "kuro:1505812601967190016",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1490.869,
       "y": 1111.992,
       "levelId": "0"
@@ -3897,7 +3897,7 @@
     {
       "id": "kuro:1505812622653497344",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1484.499,
       "y": 1112.787,
       "levelId": "0"
@@ -3905,7 +3905,7 @@
     {
       "id": "kuro:1505812640500260864",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1487.688,
       "y": 1115.832,
       "levelId": "0"
@@ -3913,7 +3913,7 @@
     {
       "id": "kuro:1505812942544674816",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1240.663,
       "y": 1088.925,
       "levelId": "0"
@@ -3921,7 +3921,7 @@
     {
       "id": "kuro:1505812967710498816",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1240.392,
       "y": 1080.838,
       "levelId": "0"
@@ -3929,7 +3929,7 @@
     {
       "id": "kuro:1505813169527824384",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 992.816,
       "y": 1226.18,
       "levelId": "0"
@@ -3937,7 +3937,7 @@
     {
       "id": "kuro:1505813185931747328",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 985.199,
       "y": 1212.78,
       "levelId": "0"
@@ -3945,7 +3945,7 @@
     {
       "id": "kuro:1505813201693941760",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1008.05,
       "y": 1212.473,
       "levelId": "0"
@@ -3953,7 +3953,7 @@
     {
       "id": "kuro:1505813513636913152",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1974.275,
       "y": 1286.183,
       "levelId": "0"
@@ -3961,7 +3961,7 @@
     {
       "id": "kuro:1505813542145597440",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1959.349,
       "y": 1286.481,
       "levelId": "0"
@@ -3969,7 +3969,7 @@
     {
       "id": "kuro:1505813563968561152",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1959.656,
       "y": 1297.748,
       "levelId": "0"
@@ -3977,7 +3977,7 @@
     {
       "id": "kuro:1505813583115558912",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 1973.968,
       "y": 1297.143,
       "levelId": "0"
@@ -3985,7 +3985,7 @@
     {
       "id": "kuro:1505813897394757632",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2220.116,
       "y": 1227.409,
       "levelId": "0"
@@ -3993,7 +3993,7 @@
     {
       "id": "kuro:1505813916747276288",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2224.381,
       "y": 1229.234,
       "levelId": "0"
@@ -4001,7 +4001,7 @@
     {
       "id": "kuro:1505814146041487360",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2307.461,
       "y": 1305.085,
       "levelId": "0"
@@ -4009,7 +4009,7 @@
     {
       "id": "kuro:1505814162025979904",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2305.021,
       "y": 1309.042,
       "levelId": "0"
@@ -4017,7 +4017,7 @@
     {
       "id": "kuro:1505814180640301056",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2310.198,
       "y": 1309.341,
       "levelId": "0"
@@ -4025,7 +4025,7 @@
     {
       "id": "kuro:1505814382872862720",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2274.247,
       "y": 1351.978,
       "levelId": "0"
@@ -4033,7 +4033,7 @@
     {
       "id": "kuro:1505814399096430592",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2277.301,
       "y": 1359.288,
       "levelId": "0"
@@ -4041,7 +4041,7 @@
     {
       "id": "kuro:1505814678198001664",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2279.731,
       "y": 1405.883,
       "levelId": "0"
@@ -4049,7 +4049,7 @@
     {
       "id": "kuro:1505814697953173504",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2288.261,
       "y": 1397.959,
       "levelId": "0"
@@ -4057,7 +4057,7 @@
     {
       "id": "kuro:1505814714210295808",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2291.007,
       "y": 1411.665,
       "levelId": "0"
@@ -4065,7 +4065,7 @@
     {
       "id": "kuro:1505815058529099776",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2221.246,
       "y": 1486.577,
       "levelId": "0"
@@ -4073,7 +4073,7 @@
     {
       "id": "kuro:1505815080054267904",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2226.73,
       "y": 1490.534,
       "levelId": "0"
@@ -4081,7 +4081,7 @@
     {
       "id": "kuro:1505815098278518784",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2220.64,
       "y": 1494.194,
       "levelId": "0"
@@ -4089,7 +4089,7 @@
     {
       "id": "kuro:1505815204797063168",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2215.454,
       "y": 1545.035,
       "levelId": "0"
@@ -4097,7 +4097,7 @@
     {
       "id": "kuro:1505815220555063296",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2219.421,
       "y": 1551.125,
       "levelId": "0"
@@ -4105,7 +4105,7 @@
     {
       "id": "kuro:1505815238422798336",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2211.497,
       "y": 1551.125,
       "levelId": "0"
@@ -4113,7 +4113,7 @@
     {
       "id": "kuro:1505815420647858176",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2279.126,
       "y": 1587.98,
       "levelId": "0"
@@ -4121,7 +4121,7 @@
     {
       "id": "kuro:1505815435151761408",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2287.655,
       "y": 1583.101,
       "levelId": "0"
@@ -4129,7 +4129,7 @@
     {
       "id": "kuro:1505815450008657920",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2297.711,
       "y": 1596.202,
       "levelId": "0"
@@ -4137,7 +4137,7 @@
     {
       "id": "kuro:1505815804783861760",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2491.6,
       "y": 1303.685,
       "levelId": "0"
@@ -4145,7 +4145,7 @@
     {
       "id": "kuro:1505815820856434688",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2501.683,
       "y": 1302.889,
       "levelId": "0"
@@ -4153,7 +4153,7 @@
     {
       "id": "kuro:1505815840888430592",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2492.666,
       "y": 1311.374,
       "levelId": "0"
@@ -4161,7 +4161,7 @@
     {
       "id": "kuro:1505815858210234368",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2503.002,
       "y": 1308.193,
       "levelId": "0"
@@ -4169,7 +4169,7 @@
     {
       "id": "kuro:1505816338852306944",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2318.438,
       "y": 1174.57,
       "levelId": "0"
@@ -4177,7 +4177,7 @@
     {
       "id": "kuro:1505816354430623744",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2324.275,
       "y": 1171.119,
       "levelId": "0"
@@ -4185,7 +4185,7 @@
     {
       "id": "kuro:1505816372512268288",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 2325.332,
       "y": 1175.365,
       "levelId": "0"
@@ -4193,7 +4193,7 @@
     {
       "id": "kuro:1505816768249044992",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 3187.607,
       "y": 2058.863,
       "levelId": "0"
@@ -4201,7 +4201,7 @@
     {
       "id": "kuro:1505816784908820480",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 3183.586,
       "y": 2071.323,
       "levelId": "0"
@@ -4209,7 +4209,7 @@
     {
       "id": "kuro:1505816800654237696",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 3192.025,
       "y": 2069.317,
       "levelId": "0"
@@ -4217,7 +4217,7 @@
     {
       "id": "kuro:1505816858963451904",
       "categoryId": "310000840",
-      "title": "影烁者",
+      "title": "bóng tối",
       "x": 3183.143,
       "y": 2061.682,
       "levelId": "0"
@@ -4225,7 +4225,7 @@
     {
       "id": "kuro:1504059799003029504",
       "categoryId": "320000600",
-      "title": "冠顶苍隼",
+      "title": "Chim ưng xanh mào",
       "x": 2278.186,
       "y": 798.214,
       "levelId": "0"
@@ -4233,16 +4233,16 @@
     {
       "id": "kuro:1496907640960540672",
       "categoryId": "3330003",
-      "title": "隧锚",
+      "title": "neo đường hầm",
       "x": 2004.932,
       "y": 1643.52,
-      "description": "过往时，随着隧者的到来而被安置于此的锚点，是开启隧门的关键。我们总要推开那扇门，即便它最初是为了把危险阻隔在外。\n（可于此再次体验星海中的战斗）",
+      "description": "Trước đây, điểm neo được đặt ở đây cùng với sự xuất hiện của thợ đào hầm là chìa khóa để mở đường hầm. Chúng ta luôn phải đẩy cửa mở ra, ngay cả khi ban đầu nó nhằm mục đích ngăn chặn nguy hiểm.\n(Bạn có thể trải nghiệm lại trận chiến trên biển sao tại đây)",
       "levelId": "0"
     },
     {
       "id": "kuro:1503502172305727488",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 1224.282,
       "y": 1092.367,
       "levelId": "0"
@@ -4250,7 +4250,7 @@
     {
       "id": "kuro:1503502669427220480",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 1810.673,
       "y": 884.555,
       "levelId": "0"
@@ -4258,7 +4258,7 @@
     {
       "id": "kuro:1503760023242645504",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2324.781,
       "y": 2280.508,
       "levelId": "0"
@@ -4266,7 +4266,7 @@
     {
       "id": "kuro:1503760308429479936",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2365.44,
       "y": 2404.292,
       "levelId": "0"
@@ -4274,7 +4274,7 @@
     {
       "id": "kuro:1503760656263110656",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2445.854,
       "y": 2368.151,
       "levelId": "0"
@@ -4282,7 +4282,7 @@
     {
       "id": "kuro:1503762095019106304",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2650.052,
       "y": 2126.908,
       "levelId": "0"
@@ -4290,7 +4290,7 @@
     {
       "id": "kuro:1503762359725826048",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2638.306,
       "y": 2055.529,
       "levelId": "0"
@@ -4298,7 +4298,7 @@
     {
       "id": "kuro:1503762780732612608",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2863.285,
       "y": 2069.986,
       "levelId": "0"
@@ -4306,7 +4306,7 @@
     {
       "id": "kuro:1503763131070242816",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 2976.226,
       "y": 2037.459,
       "levelId": "0"
@@ -4314,7 +4314,7 @@
     {
       "id": "kuro:1503763521694834688",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 3220.179,
       "y": 1987.765,
       "levelId": "0"
@@ -4322,7 +4322,7 @@
     {
       "id": "kuro:1503763860854644736",
       "categoryId": "320000520",
-      "title": "矿岩机麋",
+      "title": "Máy khai thác đá",
       "x": 3247.285,
       "y": 2109.741,
       "levelId": "0"
@@ -4330,98 +4330,98 @@
     {
       "id": "kuro:1496881163960033280",
       "categoryId": "3330002",
-      "title": "虚妄诞生之种",
+      "title": "Hạt giống của sự giả dối",
       "x": 2210.033,
       "y": 1278.494,
-      "description": "Tầng 49 · 连那温柔的笑容也已失去，因阿列夫一才得以诞生的存在。\n无论是名字、身份、共鸣能力，还是人际关系……全部都是谎言。\n但世界不会沉没于无垠的黑暗，她所行道路的尽头，也一定不会是永恒的空无。",
+      "description": "Tầng 49 · Ngay cả nụ cười dịu dàng ấy cũng đã mất, vì Aleph mới có thể tồn tại.\nDù là tên gọi, thân phận, khả năng cộng hưởng hay mối quan hệ giữa người với người… tất cả đều là dối trá.\nNhưng thế giới sẽ không chìm trong bóng tối vô tận, con đường mà cô đi tới cuối cùng cũng sẽ không là hư vô vĩnh cửu.",
       "floorId": "49",
       "levelId": "-1/49"
     },
     {
       "id": "kuro:1497749191434149888",
       "categoryId": "57",
-      "title": "遗患清剿",
+      "title": "Dọn dẹp di sản",
       "x": 2187.445,
       "y": 2132.329,
-      "description": "完成挑战【虚质残秽·迷胧幻蛾】击败冰刃附近怪物后可获得奖励",
+      "description": "Hoàn thành thử thách [Void Residual·Misted Phantom Moth] để nhận phần thưởng sau khi đánh bại quái vật gần lưỡi kiếm băng.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497750044508774400",
       "categoryId": "57",
-      "title": "遗患清剿",
+      "title": "Dọn dẹp di sản",
       "x": 1511.605,
       "y": 2378.089,
-      "description": "击败冰刃附近怪物后可获得奖励",
+      "description": "Bạn có thể nhận được phần thưởng sau khi đánh bại quái vật ở gần Ice Blade.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497750694609117184",
       "categoryId": "57",
-      "title": "遗患清剿",
+      "title": "Dọn dẹp di sản",
       "x": 1211.633,
       "y": 1203.501,
-      "description": "击败冰刃附近怪物后可获得奖励",
+      "description": "Bạn có thể nhận được phần thưởng sau khi đánh bại quái vật ở gần Ice Blade.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497751446639435776",
       "categoryId": "57",
-      "title": "遗患清剿",
+      "title": "Dọn dẹp di sản",
       "x": 2296.772,
       "y": 1490.824,
-      "description": "需先完成其余三处遗患清剿，之后来到此处击败怪物后可获得奖励和成就",
+      "description": "Bạn cần phải dọn sạch ba tàn tích còn lại trước, sau đó đến đây và đánh bại lũ quái vật để nhận phần thưởng và thành tích.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497742553527967744",
       "categoryId": "58",
-      "title": "摩托-飞行赛道",
+      "title": "Đường đua xe máy",
       "x": 2932.856,
       "y": 2217.261,
-      "description": "完成挑战所有目标后可获得2个朴素+1个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu của thử thách, bạn sẽ nhận được 2 rương kho báu thường + 1 rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1497743166898790400",
       "categoryId": "58",
-      "title": "摩托-飞行赛道",
+      "title": "Đường đua xe máy",
       "x": 2265.148,
       "y": 2368.151,
-      "description": "完成挑战所有目标后可获得2个朴素+1个基准宝箱",
+      "description": "Sau khi hoàn thành tất cả các mục tiêu của thử thách, bạn sẽ nhận được 2 rương kho báu thường + 1 rương kho báu cơ bản",
       "levelId": "0"
     },
     {
       "id": "kuro:1497744326527377408",
       "categoryId": "58",
-      "title": "摩托-飞行赛道",
+      "title": "Đường đua xe máy",
       "x": 1380.593,
       "y": 2039.266,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1497745297181597696",
       "categoryId": "58",
-      "title": "摩托-飞行赛道",
+      "title": "Đường đua xe máy",
       "x": 1301.082,
       "y": 1693.214,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1497746327944388608",
       "categoryId": "58",
-      "title": "摩托-飞行赛道",
+      "title": "Đường đua xe máy",
       "x": 2065.468,
       "y": 1683.275,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1504054855504060416",
       "categoryId": "320000570",
-      "title": "霜鳞蜃甲",
+      "title": "Ảo ảnh quy mô băng giá",
       "x": 1169.456,
       "y": 1920.398,
       "levelId": "0"
@@ -4429,7 +4429,7 @@
     {
       "id": "kuro:1504055191313293312",
       "categoryId": "320000570",
-      "title": "霜鳞蜃甲",
+      "title": "Ảo ảnh quy mô băng giá",
       "x": 1198.089,
       "y": 2134.832,
       "levelId": "0"
@@ -4437,7 +4437,7 @@
     {
       "id": "kuro:1504055873999183872",
       "categoryId": "320000570",
-      "title": "霜鳞蜃甲",
+      "title": "Ảo ảnh quy mô băng giá",
       "x": 1198.848,
       "y": 2156.399,
       "levelId": "0"
@@ -4445,7 +4445,7 @@
     {
       "id": "kuro:1504056316292063232",
       "categoryId": "320000570",
-      "title": "霜鳞蜃甲",
+      "title": "Ảo ảnh quy mô băng giá",
       "x": 1447.517,
       "y": 2008.618,
       "levelId": "0"
@@ -4453,7 +4453,7 @@
     {
       "id": "kuro:1504056673945231360",
       "categoryId": "320000570",
-      "title": "霜鳞蜃甲",
+      "title": "Ảo ảnh quy mô băng giá",
       "x": 1576.55,
       "y": 2243.762,
       "levelId": "0"
@@ -4461,187 +4461,187 @@
     {
       "id": "kuro:1498047592813387776",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2320.173,
       "y": 1369.949,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498048188916932608",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2342.743,
       "y": 1144.194,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498048637631291392",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2080.982,
       "y": 1345.545,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498050681738600448",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1452.451,
       "y": 1134.517,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498050999981416448",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1222.629,
       "y": 1093.795,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498051468195766272",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1136.631,
       "y": 1776.745,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498052114114387968",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1165.842,
       "y": 2195.875,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498052424505466880",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1286.391,
       "y": 2112.714,
-      "description": "该藏宝地共计3个宝箱",
+      "description": "Có tổng cộng 3 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498052840072912896",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1499.425,
       "y": 2559.618,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498053283670220800",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 1961.3,
       "y": 2187.734,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498053740207628288",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2036.989,
       "y": 2345.562,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498055013099872256",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2144.69,
       "y": 2419.471,
-      "description": "该藏宝地共计4个宝箱（该藏宝区位置比较难找，建议追踪前往并推荐使用鹰眼无人机获取该藏宝地宝箱）",
+      "description": "Có tổng cộng 4 rương kho báu trong khu vực kho báu này (vị trí của khu vực kho báu này rất khó tìm, nên theo dõi và sử dụng máy bay không người lái mắt đại bàng để lấy rương kho báu trong khu vực kho báu này)",
       "levelId": "0"
     },
     {
       "id": "kuro:1498055507666362368",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2747.199,
       "y": 2084.226,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498055940934443008",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 2805.378,
       "y": 2318.402,
-      "description": "该藏宝地共计3个宝箱",
+      "description": "Có tổng cộng 3 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1498056384268181504",
       "categoryId": "cbd",
-      "title": "藏宝地",
+      "title": "nơi kho báu",
       "x": 3150.752,
       "y": 2171.913,
-      "description": "该藏宝地共计4个宝箱",
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này",
       "levelId": "0"
     },
     {
       "id": "kuro:1497743970359664640",
       "categoryId": "59",
-      "title": "摩托-固定赛道",
+      "title": "Đường cố định cho xe máy",
       "x": 2408.809,
       "y": 2452.179,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1497744711707762688",
       "categoryId": "59",
-      "title": "摩托-固定赛道",
+      "title": "Đường cố định cho xe máy",
       "x": 1133.026,
       "y": 2133.233,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1497746594559516672",
       "categoryId": "59",
-      "title": "摩托-固定赛道",
+      "title": "Đường cố định cho xe máy",
       "x": 1946.202,
       "y": 1194.466,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1499198811665686528",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 1230.065,
       "y": 1415.767,
-      "description": "完成“黯原·虚质磁暴II区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Zone II\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499204896430579712",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 1492.025,
       "y": 2698.183,
-      "description": "完成“黯原·虚质磁暴III区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Zone III\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499227683845136384",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 1036.664,
       "y": 2235.44,
       "levelId": "0"
@@ -4649,7 +4649,7 @@
     {
       "id": "kuro:1499232149273141248",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 1471.75,
       "y": 1999.565,
       "levelId": "0"
@@ -4657,7 +4657,7 @@
     {
       "id": "kuro:1499234727633444864",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2064.465,
       "y": 2148.539,
       "levelId": "0"
@@ -4665,34 +4665,34 @@
     {
       "id": "kuro:1499235725009575936",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2057.273,
       "y": 2235.774,
-      "description": "一只重工铁蹄，一只锯袭铁影，各为120级",
+      "description": "Móng sắt công nghiệp hạng nặng và lưỡi cưa tấn công bóng sắt, mỗi chiếc đều cấp 120",
       "levelId": "0"
     },
     {
       "id": "kuro:1499237330966634496",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2390.739,
       "y": 2343.882,
-      "description": "完成“黯原·虚质磁暴I区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Area I\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499239615180398592",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2226.757,
       "y": 2561.063,
-      "description": "标记偏了",
+      "description": "Dấu hiệu đã tắt",
       "levelId": "0"
     },
     {
       "id": "kuro:1499246480991805440",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2702.619,
       "y": 1971.393,
       "levelId": "0"
@@ -4700,25 +4700,25 @@
     {
       "id": "kuro:1499254979315081216",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 3076.807,
       "y": 1972.423,
-      "description": "一只星升辉铳，一只渊陨重锋，各120级",
+      "description": "Một khẩu súng vinh quang thăng sao và một mặt trận hạng nặng Yuan-Yu, mỗi cấp 120.",
       "levelId": "0"
     },
     {
       "id": "kuro:1499262843068178432",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2135.194,
       "y": 1025.099,
-      "description": "两只120级的流民",
+      "description": "Hai người tị nạn cấp 120",
       "levelId": "0"
     },
     {
       "id": "kuro:1499764549065465856",
       "categoryId": "cx_03",
-      "title": "潮汐之遗·金",
+      "title": "Di sản của thủy triều·Vàng",
       "x": 2497.048,
       "y": 1572.376,
       "levelId": "0"
@@ -4726,7 +4726,7 @@
     {
       "id": "kuro:1496882503557816320",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2791.002,
       "y": 2195.576,
       "levelId": "0"
@@ -4734,7 +4734,7 @@
     {
       "id": "kuro:1496883209119440896",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2625.656,
       "y": 2020.292,
       "levelId": "0"
@@ -4742,7 +4742,7 @@
     {
       "id": "kuro:1496897234217033728",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2438.626,
       "y": 2285.026,
       "levelId": "0"
@@ -4750,7 +4750,7 @@
     {
       "id": "kuro:1496897828998701056",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2233.525,
       "y": 2382.607,
       "levelId": "0"
@@ -4758,7 +4758,7 @@
     {
       "id": "kuro:1496898507339964416",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2122.391,
       "y": 2085.346,
       "levelId": "0"
@@ -4766,7 +4766,7 @@
     {
       "id": "kuro:1496899426332942336",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1441.129,
       "y": 2388.932,
       "levelId": "0"
@@ -4774,7 +4774,7 @@
     {
       "id": "kuro:1496899862430834688",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1328.188,
       "y": 2231.718,
       "levelId": "0"
@@ -4782,7 +4782,7 @@
     {
       "id": "kuro:1496903793647788032",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1393.242,
       "y": 1410.409,
       "levelId": "0"
@@ -4790,7 +4790,7 @@
     {
       "id": "kuro:1496904344439595008",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1195.369,
       "y": 1318.249,
       "levelId": "0"
@@ -4798,7 +4798,7 @@
     {
       "id": "kuro:1496904829426294784",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 1625.449,
       "y": 869.195,
       "levelId": "0"
@@ -4806,16 +4806,16 @@
     {
       "id": "kuro:1496905259099856896",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2147.744,
       "y": 802.732,
-      "description": "完成前置任务：完美飞行日途中可解锁",
+      "description": "Hoàn thành nhiệm vụ tiên quyết: Ngày bay hoàn hảo để mở khóa trên đường đi",
       "levelId": "0"
     },
     {
       "id": "kuro:1496905665611128832",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2125.101,
       "y": 1308.311,
       "levelId": "0"
@@ -4823,7 +4823,7 @@
     {
       "id": "kuro:1496907001140436992",
       "categoryId": "CS_02",
-      "title": "小型信标",
+      "title": "ngọn hải đăng nhỏ",
       "x": 2218.165,
       "y": 1567.624,
       "levelId": "0"
@@ -4831,7 +4831,7 @@
     {
       "id": "kuro:1499189698646859776",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1402.278,
       "y": 1512.174,
       "levelId": "0"
@@ -4839,43 +4839,43 @@
     {
       "id": "kuro:1499198738073100288",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1236.001,
       "y": 1418.234,
-      "description": "完成“黯原·虚质磁暴II区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Zone II\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499198769626177536",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1242.931,
       "y": 1416.752,
-      "description": "完成“黯原·虚质磁暴II区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Zone II\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499204831193047040",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1492.025,
       "y": 2683.817,
-      "description": "完成“黯原·虚质磁暴III区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Zone III\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499204860355371008",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1491.375,
       "y": 2689.69,
-      "description": "完成“黯原·虚质磁暴III区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Zone III\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499205729868144640",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 1537.057,
       "y": 2467.051,
       "levelId": "0"
@@ -4883,25 +4883,25 @@
     {
       "id": "kuro:1499237220119568384",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2381.64,
       "y": 2342.834,
-      "description": "完成“黯原·虚质磁暴I区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Area I\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499237245843234816",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2385.489,
       "y": 2343.538,
-      "description": "完成“黯原·虚质磁暴I区”后出现",
+      "description": "Xuất hiện sau khi hoàn thành \"Darkfield·Void From Storm Area I\"",
       "levelId": "0"
     },
     {
       "id": "kuro:1499254150536716288",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 3222.772,
       "y": 1998.155,
       "levelId": "0"
@@ -4909,7 +4909,7 @@
     {
       "id": "kuro:1499257433460400128",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2293.402,
       "y": 1631.033,
       "levelId": "0"
@@ -4917,7 +4917,7 @@
     {
       "id": "kuro:1499259132795920384",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2394.949,
       "y": 1373.491,
       "levelId": "0"
@@ -4925,7 +4925,7 @@
     {
       "id": "kuro:1499764570268344320",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2506.147,
       "y": 1566.693,
       "levelId": "0"
@@ -4933,7 +4933,7 @@
     {
       "id": "kuro:1499764584268259328",
       "categoryId": "cx_02",
-      "title": "潮汐之遗·紫",
+      "title": "Di sản thủy triều·Tím",
       "x": 2518.651,
       "y": 1567.822,
       "levelId": "0"
@@ -4941,7 +4941,7 @@
     {
       "id": "kuro:1496819685436776448",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1827.84,
       "y": 2183.831,
       "levelId": "0"
@@ -4949,7 +4949,7 @@
     {
       "id": "kuro:1496819845231370240",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1826.936,
       "y": 2182.927,
       "levelId": "0"
@@ -4957,7 +4957,7 @@
     {
       "id": "kuro:1496822834629271552",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1798.024,
       "y": 2216.358,
       "levelId": "0"
@@ -4965,7 +4965,7 @@
     {
       "id": "kuro:1496822834813820928",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1798.024,
       "y": 2215.454,
       "levelId": "0"
@@ -4973,7 +4973,7 @@
     {
       "id": "kuro:1496822835019341824",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1797.12,
       "y": 2214.551,
       "levelId": "0"
@@ -4981,7 +4981,7 @@
     {
       "id": "kuro:1496822835195502592",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1796.216,
       "y": 2213.647,
       "levelId": "0"
@@ -4989,7 +4989,7 @@
     {
       "id": "kuro:1496834160441253888",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1759.172,
       "y": 2204.612,
       "levelId": "0"
@@ -4997,7 +4997,7 @@
     {
       "id": "kuro:1496834160609026048",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1758.268,
       "y": 2202.805,
       "levelId": "0"
@@ -5005,7 +5005,7 @@
     {
       "id": "kuro:1496834160785186816",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1757.365,
       "y": 2202.805,
       "levelId": "0"
@@ -5013,7 +5013,7 @@
     {
       "id": "kuro:1496835791850020864",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1784.471,
       "y": 2182.024,
       "levelId": "0"
@@ -5021,7 +5021,7 @@
     {
       "id": "kuro:1496835791954878464",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1786.278,
       "y": 2182.927,
       "levelId": "0"
@@ -5029,7 +5029,7 @@
     {
       "id": "kuro:1496835792055541760",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1788.085,
       "y": 2182.024,
       "levelId": "0"
@@ -5037,7 +5037,7 @@
     {
       "id": "kuro:1496835792156205056",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1788.085,
       "y": 2181.12,
       "levelId": "0"
@@ -5045,7 +5045,7 @@
     {
       "id": "kuro:1496835792256868352",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1788.988,
       "y": 2180.216,
       "levelId": "0"
@@ -5053,7 +5053,7 @@
     {
       "id": "kuro:1496836340791468032",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1792.602,
       "y": 2182.024,
       "levelId": "0"
@@ -5061,7 +5061,7 @@
     {
       "id": "kuro:1496838504347688960",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1396.856,
       "y": 2273.28,
       "levelId": "0"
@@ -5069,7 +5069,7 @@
     {
       "id": "kuro:1496838504536432640",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1395.953,
       "y": 2273.28,
       "levelId": "0"
@@ -5077,7 +5077,7 @@
     {
       "id": "kuro:1496840131469205504",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1410.409,
       "y": 2266.955,
       "levelId": "0"
@@ -5085,7 +5085,7 @@
     {
       "id": "kuro:1496840741501362176",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1414.024,
       "y": 2265.148,
       "levelId": "0"
@@ -5093,7 +5093,7 @@
     {
       "id": "kuro:1496841463529824256",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1414.024,
       "y": 2269.666,
       "levelId": "0"
@@ -5101,7 +5101,7 @@
     {
       "id": "kuro:1496841463718567936",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1413.12,
       "y": 2271.473,
       "levelId": "0"
@@ -5109,7 +5109,7 @@
     {
       "id": "kuro:1496842239048916992",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1421.252,
       "y": 2285.026,
       "levelId": "0"
@@ -5117,7 +5117,7 @@
     {
       "id": "kuro:1496842239166357504",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1419.445,
       "y": 2284.122,
       "levelId": "0"
@@ -5125,7 +5125,7 @@
     {
       "id": "kuro:1496842239275409408",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1417.638,
       "y": 2284.122,
       "levelId": "0"
@@ -5133,7 +5133,7 @@
     {
       "id": "kuro:1496842546268430336",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1423.962,
       "y": 2284.122,
       "levelId": "0"
@@ -5141,7 +5141,7 @@
     {
       "id": "kuro:1496843387150884864",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1429.384,
       "y": 2269.666,
       "levelId": "0"
@@ -5149,7 +5149,7 @@
     {
       "id": "kuro:1496843387343822848",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1430.287,
       "y": 2268.762,
       "levelId": "0"
@@ -5157,7 +5157,7 @@
     {
       "id": "kuro:1496843387528372224",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1431.191,
       "y": 2268.762,
       "levelId": "0"
@@ -5165,7 +5165,7 @@
     {
       "id": "kuro:1496843387717115904",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1431.191,
       "y": 2266.955,
       "levelId": "0"
@@ -5173,7 +5173,7 @@
     {
       "id": "kuro:1496845556222615552",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1222.475,
       "y": 2287.736,
       "levelId": "0"
@@ -5181,7 +5181,7 @@
     {
       "id": "kuro:1496845556407164928",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1220.668,
       "y": 2288.64,
       "levelId": "0"
@@ -5189,7 +5189,7 @@
     {
       "id": "kuro:1496854478556471296",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1216.151,
       "y": 2283.219,
       "levelId": "0"
@@ -5197,7 +5197,7 @@
     {
       "id": "kuro:1496854478669717504",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1217.958,
       "y": 2284.122,
       "levelId": "0"
@@ -5205,7 +5205,7 @@
     {
       "id": "kuro:1496854478778769408",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1218.861,
       "y": 2283.219,
       "levelId": "0"
@@ -5213,7 +5213,7 @@
     {
       "id": "kuro:1496855599660376064",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1207.115,
       "y": 2327.492,
       "levelId": "0"
@@ -5221,7 +5221,7 @@
     {
       "id": "kuro:1496855599769427968",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1204.405,
       "y": 2328.395,
       "levelId": "0"
@@ -5229,7 +5229,7 @@
     {
       "id": "kuro:1496855924986699776",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1202.598,
       "y": 2328.395,
       "levelId": "0"
@@ -5237,7 +5237,7 @@
     {
       "id": "kuro:1496856035384975360",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1201.694,
       "y": 2328.395,
       "levelId": "0"
@@ -5245,7 +5245,7 @@
     {
       "id": "kuro:1496856432137445376",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1209.826,
       "y": 2324.781,
       "levelId": "0"
@@ -5253,7 +5253,7 @@
     {
       "id": "kuro:1496857633314136064",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1180.009,
       "y": 2259.727,
       "levelId": "0"
@@ -5261,7 +5261,7 @@
     {
       "id": "kuro:1496857633494491136",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1182.72,
       "y": 2260.631,
       "levelId": "0"
@@ -5269,7 +5269,7 @@
     {
       "id": "kuro:1496857633670651904",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1183.624,
       "y": 2257.92,
       "levelId": "0"
@@ -5277,7 +5277,7 @@
     {
       "id": "kuro:1496857633846812672",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1181.816,
       "y": 2256.113,
       "levelId": "0"
@@ -5285,7 +5285,7 @@
     {
       "id": "kuro:1496857634022973440",
       "categoryId": "42601490",
-      "title": "赤铃兰",
+      "title": "hoa huệ đỏ của thung lũng",
       "x": 1184.527,
       "y": 2255.209,
       "levelId": "0"
@@ -5293,7 +5293,7 @@
     {
       "id": "kuro:1496808787637411840",
       "categoryId": "CS_01",
-      "title": "中枢信标",
+      "title": "Hub Beacon",
       "x": 3107.238,
       "y": 2060.951,
       "levelId": "0"
@@ -5301,7 +5301,7 @@
     {
       "id": "kuro:1496812419812401152",
       "categoryId": "CS_01",
-      "title": "中枢信标",
+      "title": "Hub Beacon",
       "x": 1577.562,
       "y": 2116.969,
       "levelId": "0"
@@ -5309,7 +5309,7 @@
     {
       "id": "kuro:1496814278983786496",
       "categoryId": "CS_01",
-      "title": "中枢信标",
+      "title": "Hub Beacon",
       "x": 1260.424,
       "y": 1575.755,
       "levelId": "0"
@@ -5317,7 +5317,7 @@
     {
       "id": "kuro:1496815011786743808",
       "categoryId": "CS_01",
-      "title": "中枢信标",
+      "title": "Hub Beacon",
       "x": 1982.344,
       "y": 1024.602,
       "levelId": "0"
@@ -5325,7 +5325,7 @@
     {
       "id": "kuro:1516173647025651712",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2296.121,
       "y": 1638.027,
       "levelId": "0"
@@ -5333,7 +5333,7 @@
     {
       "id": "kuro:1516173695620857856",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2312.891,
       "y": 1606.195,
       "levelId": "0"
@@ -5341,7 +5341,7 @@
     {
       "id": "kuro:1516173851292450816",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2255.056,
       "y": 1550.059,
       "levelId": "0"
@@ -5349,7 +5349,7 @@
     {
       "id": "kuro:1516174626240446464",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2265.781,
       "y": 1652.375,
       "levelId": "0"
@@ -5357,7 +5357,7 @@
     {
       "id": "kuro:1516175043531751424",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2242.271,
       "y": 1531.32,
       "levelId": "0"
@@ -5365,7 +5365,7 @@
     {
       "id": "kuro:1516175663763804160",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2308.075,
       "y": 1392.682,
       "levelId": "0"
@@ -5373,7 +5373,7 @@
     {
       "id": "kuro:1516175820060348416",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2297.205,
       "y": 1375.976,
       "levelId": "0"
@@ -5381,7 +5381,7 @@
     {
       "id": "kuro:1516176805969903616",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2251.369,
       "y": 1239.145,
       "levelId": "0"
@@ -5389,7 +5389,7 @@
     {
       "id": "kuro:1516176834512142336",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2264.299,
       "y": 1238.91,
       "levelId": "0"
@@ -5397,7 +5397,7 @@
     {
       "id": "kuro:1516176988896083968",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2267.759,
       "y": 1223.912,
       "levelId": "0"
@@ -5405,7 +5405,7 @@
     {
       "id": "kuro:1516181283674636288",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2240.979,
       "y": 1156.734,
       "levelId": "0"
@@ -5413,7 +5413,7 @@
     {
       "id": "kuro:1516181349919473664",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2236.597,
       "y": 1136.188,
       "levelId": "0"
@@ -5421,7 +5421,7 @@
     {
       "id": "kuro:1516181378331688960",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2255.526,
       "y": 1136.423,
       "levelId": "0"
@@ -5429,7 +5429,7 @@
     {
       "id": "kuro:1516182252927959040",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2205.452,
       "y": 1083.63,
       "levelId": "0"
@@ -5437,7 +5437,7 @@
     {
       "id": "kuro:1516182647142203392",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2188.484,
       "y": 1075.814,
       "levelId": "0"
@@ -5445,7 +5445,7 @@
     {
       "id": "kuro:1516183166220877824",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2103.633,
       "y": 1072.625,
       "levelId": "0"
@@ -5453,7 +5453,7 @@
     {
       "id": "kuro:1516183537509056512",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2099.911,
       "y": 986.988,
       "levelId": "0"
@@ -5461,7 +5461,7 @@
     {
       "id": "kuro:1516183613954441216",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2118.081,
       "y": 975.712,
       "levelId": "0"
@@ -5469,7 +5469,7 @@
     {
       "id": "kuro:1516183741046046720",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2130.676,
       "y": 1022.118,
       "levelId": "0"
@@ -5477,7 +5477,7 @@
     {
       "id": "kuro:1516184636177629184",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2056.83,
       "y": 978.757,
       "levelId": "0"
@@ -5485,7 +5485,7 @@
     {
       "id": "kuro:1516184670411538432",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2063.724,
       "y": 985.389,
       "levelId": "0"
@@ -5493,7 +5493,7 @@
     {
       "id": "kuro:1516184759578247168",
       "categoryId": "310000810",
-      "title": "雷杖流民",
+      "title": "Người tị nạn Thunderstaff",
       "x": 2057.626,
       "y": 1009.125,
       "levelId": "0"
@@ -5501,7 +5501,7 @@
     {
       "id": "kuro:1503771734351781888",
       "categoryId": "320000530",
-      "title": "重工铁蹄",
+      "title": "Móng sắt công nghiệp nặng",
       "x": 2226.296,
       "y": 2251.595,
       "levelId": "0"
@@ -5509,7 +5509,7 @@
     {
       "id": "kuro:1503772206361305088",
       "categoryId": "320000530",
-      "title": "重工铁蹄",
+      "title": "Móng sắt công nghiệp nặng",
       "x": 2746.729,
       "y": 2048.301,
       "levelId": "0"
@@ -5517,7 +5517,7 @@
     {
       "id": "kuro:1504055922996371456",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1198.559,
       "y": 2159.526,
       "levelId": "0"
@@ -5525,7 +5525,7 @@
     {
       "id": "kuro:1504055945214271488",
       "categoryId": "SP_IconMonsterHead_035_UI",
-      "title": "惊蛰猎手",
+      "title": "Thợ săn kinh triết",
       "x": 1206.239,
       "y": 2152.984,
       "levelId": "0"
@@ -5533,108 +5533,108 @@
     {
       "id": "kuro:1497745899580792832",
       "categoryId": "60",
-      "title": "摩托-特技赛道",
+      "title": "Đường đua xe máy",
       "x": 1150.193,
       "y": 1229.704,
-      "description": "完成挑战所有目标后可获得所有奖励",
+      "description": "Hoàn thành mọi thử thách để nhận được tất cả phần thưởng",
       "levelId": "0"
     },
     {
       "id": "kuro:1498363283719036928",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 3157.835,
       "y": 1936.264,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498364441120448512",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 2613.911,
       "y": 2094.381,
-      "description": "Tầng 53 · 完成挑战后可获得奖励",
+      "description": "Tầng 53 · Có thể nhận phần thưởng sau khi hoàn thành thử thách",
       "floorId": "53",
       "levelId": "-1/53"
     },
     {
       "id": "kuro:1498365322775060480",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 2294.061,
       "y": 2299.482,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498366058980270080",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 2281.412,
       "y": 2399.774,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498366697328173056",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 2809.073,
       "y": 1795.313,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498367245670506496",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 1443.84,
       "y": 2262.438,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498368414082637824",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 1196.273,
       "y": 1789.892,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498368926723055616",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 1331.802,
       "y": 1498.052,
-      "description": "Tầng 52 · 完成挑战后可获得奖励",
+      "description": "Tầng 52 · Có thể nhận phần thưởng sau khi hoàn thành thử thách",
       "floorId": "52",
       "levelId": "-1/52"
     },
     {
       "id": "kuro:1498370221148184576",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 1316.442,
       "y": 1395.953,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498371291760386048",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 1002.918,
       "y": 1170.071,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1498371849078530048",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 2200.998,
       "y": 1107.727,
       "levelId": "0"
@@ -5642,88 +5642,88 @@
     {
       "id": "kuro:1498372582532276224",
       "categoryId": "61",
-      "title": "铸光仪",
+      "title": "Máy đo độ bóng đúc",
       "x": 2255.209,
       "y": 1577.562,
-      "description": "完成挑战后可获得奖励",
+      "description": "Nhận phần thưởng sau khi hoàn thành thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1497963311109857280",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 1389.99,
       "y": 1488.258,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可。随机关卡尽情挑战",
+      "description": "Kiểm soát điểm hạ cánh của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Chỉ cần không vượt quá khu vực hạn chế trước khi đếm ngược. Thử thách bản thân với các cấp độ ngẫu nhiên",
       "levelId": "0"
     },
     {
       "id": "kuro:1497965476129890304",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 2076.392,
       "y": 988.452,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战，本关要让方块竖过来尽量插在空隙如图二所示",
+      "description": "Kiểm soát vị trí của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Không vượt quá khu vực hạn chế trước khi đếm ngược. Thử thách các cấp độ ngẫu nhiên theo ý muốn của bạn. Ở cấp độ này, khối phải được dựng thẳng đứng và chèn vào khoảng trống càng nhiều càng tốt, như trong Hình 2.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497966502048931840",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 1120.25,
       "y": 1858.533,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "description": "Kiểm soát vị trí của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Chỉ cần đừng vượt ra ngoài khu vực cấm trước khi đếm ngược. Thưởng thức các cấp độ ngẫu nhiên để thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1497967937527832576",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 1082.302,
       "y": 2303.855,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "description": "Kiểm soát vị trí của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Chỉ cần đừng vượt ra ngoài khu vực cấm trước khi đếm ngược. Thưởng thức các cấp độ ngẫu nhiên để thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1497969856519053312",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 1283.572,
       "y": 2383.538,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "description": "Kiểm soát vị trí của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Chỉ cần đừng vượt ra ngoài khu vực cấm trước khi đếm ngược. Thưởng thức các cấp độ ngẫu nhiên để thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1497971314387148800",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 1925.421,
       "y": 2264.525,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战。本关难点在于无法消除已有粉色方块，尽量让新方块填补空隙不要架空",
+      "description": "Kiểm soát vị trí của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Chỉ cần không vượt quá khu vực hạn chế trước khi đếm ngược. Thưởng thức các cấp độ ngẫu nhiên để thử thách. Độ khó của màn này là không thể loại bỏ được các khối màu hồng hiện có. Cố gắng để các khối mới lấp đầy khoảng trống và không để trống.",
       "levelId": "0"
     },
     {
       "id": "kuro:1497972456446468096",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 2687.874,
       "y": 1947.296,
-      "description": "通过控制小人移动来控制方块的落点位置，在方块下落前可按EQ旋转方块，在倒计时前不要超出限制区即可，随机关卡尽情挑战",
+      "description": "Kiểm soát vị trí của khối bằng cách điều khiển chuyển động của nhân vật phản diện. Trước khi khối rơi xuống, bạn có thể nhấn EQ để xoay khối. Chỉ cần đừng vượt ra ngoài khu vực cấm trước khi đếm ngược. Thưởng thức các cấp độ ngẫu nhiên để thử thách",
       "levelId": "0"
     },
     {
       "id": "kuro:1500971224166391808",
       "categoryId": "62",
-      "title": "虚质方块",
+      "title": "khối ảo",
       "x": 2225.538,
       "y": 1585.631,
-      "description": "此处位于铸光仪的房间内，完成外面的铸光仪后进入，此关卡为无尽模式，500分拿到全部奖励",
+      "description": "Cái này nằm trong phòng của người điều khiển ánh sáng. Nhập sau khi hoàn thành caster ánh sáng bên ngoài. Cấp độ này ở chế độ vô tận. Nhận tất cả phần thưởng với 500 điểm.",
       "levelId": "0"
     },
     {
       "id": "kuro:1504055252051009536",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1196.869,
       "y": 2126.908,
       "levelId": "0"
@@ -5731,7 +5731,7 @@
     {
       "id": "kuro:1504055277492985856",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1204.793,
       "y": 2135.438,
       "levelId": "0"
@@ -5739,7 +5739,7 @@
     {
       "id": "kuro:1504055383454359552",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1169.574,
       "y": 1918.238,
       "levelId": "0"
@@ -5747,7 +5747,7 @@
     {
       "id": "kuro:1504055737905930240",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1175.257,
       "y": 1904.884,
       "levelId": "0"
@@ -5755,7 +5755,7 @@
     {
       "id": "kuro:1504056709818441728",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1573.713,
       "y": 2248.026,
       "levelId": "0"
@@ -5763,7 +5763,7 @@
     {
       "id": "kuro:1504056730118873088",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1580.815,
       "y": 2243.192,
       "levelId": "0"
@@ -5771,7 +5771,7 @@
     {
       "id": "kuro:1504056750494801920",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1573.424,
       "y": 2234.103,
       "levelId": "0"
@@ -5779,7 +5779,7 @@
     {
       "id": "kuro:1504057095572774912",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1589.399,
       "y": 2346.529,
       "levelId": "0"
@@ -5787,7 +5787,7 @@
     {
       "id": "kuro:1504057113809608704",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1595.281,
       "y": 2352.411,
       "levelId": "0"
@@ -5795,7 +5795,7 @@
     {
       "id": "kuro:1504057278587035648",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1594.639,
       "y": 2401.482,
       "levelId": "0"
@@ -5803,7 +5803,7 @@
     {
       "id": "kuro:1504057354055147520",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1595.29,
       "y": 2407.517,
       "levelId": "0"
@@ -5811,7 +5811,7 @@
     {
       "id": "kuro:1504057550885445632",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1545.315,
       "y": 2458.133,
       "levelId": "0"
@@ -5819,7 +5819,7 @@
     {
       "id": "kuro:1504057576621694976",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1550.059,
       "y": 2458.775,
       "levelId": "0"
@@ -5827,7 +5827,7 @@
     {
       "id": "kuro:1504057594845945856",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1543.382,
       "y": 2463.301,
       "levelId": "0"
@@ -5835,7 +5835,7 @@
     {
       "id": "kuro:1504057610876575744",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1548.984,
       "y": 2462.226,
       "levelId": "0"
@@ -5843,7 +5843,7 @@
     {
       "id": "kuro:1504057861519794176",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1298.706,
       "y": 2321.917,
       "levelId": "0"
@@ -5851,7 +5851,7 @@
     {
       "id": "kuro:1504057880176058368",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1305.808,
       "y": 2324.935,
       "levelId": "0"
@@ -5859,7 +5859,7 @@
     {
       "id": "kuro:1504058099060006912",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1263.812,
       "y": 2396.44,
       "levelId": "0"
@@ -5867,7 +5867,7 @@
     {
       "id": "kuro:1504058117493972992",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1268.122,
       "y": 2394.931,
       "levelId": "0"
@@ -5875,7 +5875,7 @@
     {
       "id": "kuro:1504058153447546880",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1269.414,
       "y": 2398.6,
       "levelId": "0"
@@ -5883,7 +5883,7 @@
     {
       "id": "kuro:1504058427659231232",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1070.619,
       "y": 2312.873,
       "levelId": "0"
@@ -5891,7 +5891,7 @@
     {
       "id": "kuro:1504058450785951744",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1071.261,
       "y": 2300.386,
       "levelId": "0"
@@ -5899,7 +5899,7 @@
     {
       "id": "kuro:1504058472622170112",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1078.796,
       "y": 2306.629,
       "levelId": "0"
@@ -5907,7 +5907,7 @@
     {
       "id": "kuro:1504058617887023104",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1026.464,
       "y": 2220.902,
       "levelId": "0"
@@ -5915,7 +5915,7 @@
     {
       "id": "kuro:1504058635389853696",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1031.415,
       "y": 2216.385,
       "levelId": "0"
@@ -5923,7 +5923,7 @@
     {
       "id": "kuro:1504058950310780928",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1073.845,
       "y": 2169.428,
       "levelId": "0"
@@ -5931,7 +5931,7 @@
     {
       "id": "kuro:1504058969055797248",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1068.677,
       "y": 2166.42,
       "levelId": "0"
@@ -5939,7 +5939,7 @@
     {
       "id": "kuro:1504058988269232128",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1068.677,
       "y": 2170.296,
       "levelId": "0"
@@ -5947,7 +5947,7 @@
     {
       "id": "kuro:1504059016291377152",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1072.119,
       "y": 2170.079,
       "levelId": "0"
@@ -5955,7 +5955,7 @@
     {
       "id": "kuro:1504059431217094656",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 1149.009,
       "y": 2212.509,
       "levelId": "0"
@@ -5963,7 +5963,7 @@
     {
       "id": "kuro:1504060185613000704",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 2313.207,
       "y": 875.945,
       "levelId": "0"
@@ -5971,7 +5971,7 @@
     {
       "id": "kuro:1504060204894887936",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 2308.03,
       "y": 872.9,
       "levelId": "0"
@@ -5979,7 +5979,7 @@
     {
       "id": "kuro:1504060221214253056",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 2307.415,
       "y": 877.472,
       "levelId": "0"
@@ -5987,7 +5987,7 @@
     {
       "id": "kuro:1504060238096326656",
       "categoryId": "310000830",
-      "title": "冰盈舞者",
+      "title": "vũ công băng",
       "x": 2311.68,
       "y": 878.691,
       "levelId": "0"
@@ -5995,7 +5995,7 @@
     {
       "id": "kuro:1503777567974334464",
       "categoryId": "320000610",
-      "title": "格洛犸图",
+      "title": "Bản đồ Gloma",
       "x": 1442.936,
       "y": 1994.993,
       "levelId": "0"
@@ -6003,7 +6003,7 @@
     {
       "id": "kuro:1503777843849814016",
       "categoryId": "320000610",
-      "title": "格洛犸图",
+      "title": "Bản đồ Gloma",
       "x": 1370.654,
       "y": 2161.242,
       "levelId": "0"
@@ -6011,7 +6011,7 @@
     {
       "id": "kuro:1503778228862427136",
       "categoryId": "320000610",
-      "title": "格洛犸图",
+      "title": "Bản đồ Gloma",
       "x": 1245.064,
       "y": 1844.104,
       "levelId": "0"
@@ -6019,16 +6019,16 @@
     {
       "id": "kuro:1500358344023449600",
       "categoryId": "63",
-      "title": "完美飞行日",
+      "title": "ngày bay hoàn hảo",
       "x": 2694.569,
       "y": 1475.753,
-      "description": "需完成“危行任务”完美飞行日，任务完成时获得成就【极光远境】",
+      "description": "Bạn cần hoàn thành “Nhiệm vụ hành trình nguy hiểm” để có một ngày bay hoàn hảo. Khi nhiệm vụ hoàn thành, bạn sẽ nhận được thành tích [Aurora Far Land]",
       "levelId": "0"
     },
     {
       "id": "kuro:1503764371800563712",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 2716.009,
       "y": 2066.372,
       "levelId": "0"
@@ -6036,7 +6036,7 @@
     {
       "id": "kuro:1503764726931611648",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 2313.939,
       "y": 2388.932,
       "levelId": "0"
@@ -6044,7 +6044,7 @@
     {
       "id": "kuro:1503765110866288640",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 2214.551,
       "y": 2473.864,
       "levelId": "0"
@@ -6052,7 +6052,7 @@
     {
       "id": "kuro:1503765655240138752",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 1293.854,
       "y": 1485.402,
       "levelId": "0"
@@ -6060,7 +6060,7 @@
     {
       "id": "kuro:1503767102421819392",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 1193.562,
       "y": 1507.991,
       "levelId": "0"
@@ -6068,7 +6068,7 @@
     {
       "id": "kuro:1503767412335419392",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 1369.751,
       "y": 1329.092,
       "levelId": "0"
@@ -6076,7 +6076,7 @@
     {
       "id": "kuro:1503767701351653376",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 1407.699,
       "y": 1296.565,
       "levelId": "0"
@@ -6084,7 +6084,7 @@
     {
       "id": "kuro:1503768056269463552",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 1193.562,
       "y": 1260.424,
       "levelId": "0"
@@ -6092,7 +6092,7 @@
     {
       "id": "kuro:1503768369273593856",
       "categoryId": "320000510",
-      "title": "莳植机麋",
+      "title": "Máy trồng cây",
       "x": 1401.374,
       "y": 1045.384,
       "levelId": "0"
@@ -6100,217 +6100,217 @@
     {
       "id": "kuro:1500358441780092928",
       "categoryId": "64",
-      "title": "破碎黯原之心",
+      "title": "Trái tim của Darkfield tan vỡ",
       "x": 2150.508,
       "y": 2357.39,
-      "description": "需完成“危行任务”破碎黯原之心",
+      "description": "Cần hoàn thành “nhiệm vụ nguy hiểm” Shattered Heart of the Dark Plains",
       "levelId": "0"
     },
     {
       "id": "kuro:1498427257667280896",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2692.4,
       "y": 2126.619,
-      "description": "往大树方向走，日灵在悬崖大石头边，给它拍照",
+      "description": "Đi về phía cái cây lớn, Ri Ling đang chụp ảnh nó bên tảng đá lớn trên vách đá.",
       "levelId": "0"
     },
     {
       "id": "kuro:1498427872082485248",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2586.181,
       "y": 2176.304,
-      "description": "日灵困在紫色方块内（如图一），打碎方块救出日灵",
+      "description": "Sun Ling bị mắc kẹt trong khối màu tím (như hình 1), phá khối để giải cứu Sun Ling",
       "levelId": "0"
     },
     {
       "id": "kuro:1498428906155253760",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2290.736,
       "y": 2421.106,
-      "description": "日灵在树枝上，无需爬上树枝，走到附近出现拍照提示后给它拍照即可",
+      "description": "Tinh thần mặt trời ở trên cành. Không cần phải trèo lên cành. Chỉ cần đi bộ đến gần và chụp ảnh khi lời nhắc chụp ảnh xuất hiện.",
       "levelId": "0"
     },
     {
       "id": "kuro:1498429518095818752",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2264.958,
       "y": 2487.127,
-      "description": "不在顶层，在半山腰，直接抱起即可",
+      "description": "Không phải tầng cao nhất mà là lưng chừng núi, cứ nhặt lên",
       "levelId": "0"
     },
     {
       "id": "kuro:1498430344754716672",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2215.499,
       "y": 2555.678,
-      "description": "在下面一层，驱逐呜咔咔后救出日灵",
+      "description": "Ở tầng dưới, giải cứu Ri Ling sau khi trục xuất Wu Kaka.",
       "levelId": "0"
     },
     {
       "id": "kuro:1498431044088471552",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2158.703,
       "y": 2430.322,
-      "description": "两只日灵在草地上转圈，站在圈中心后出现第三只日灵（如图二）",
+      "description": "Hai thần mặt trời bay vòng tròn trên bãi cỏ và thần mặt trời thứ ba xuất hiện sau khi đứng ở giữa vòng tròn (ảnh 2)",
       "levelId": "0"
     },
     {
       "id": "kuro:1498431894940786688",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1929.261,
       "y": 1277.247,
-      "description": "日灵在大鸟嘴里，注意有日灵的鸟嘴比其他鸟要大，与鸟互动后救出日灵",
+      "description": "Ri Ling ở trong miệng con chim lớn. Lưu ý rằng mỏ của Ri Ling lớn hơn các loài chim khác. Giải cứu Ri Ling sau khi tương tác với chú chim.",
       "levelId": "0"
     },
     {
       "id": "kuro:1498432603027382272",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2534.337,
       "y": 1422.083,
-      "description": "破坏紫色方块帮日灵救出小野猪",
+      "description": "Phá hủy các khối màu tím để giúp Ri Ling giải cứu chú lợn rừng nhỏ",
       "levelId": "0"
     },
     {
       "id": "kuro:1498434348705095680",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2298.425,
       "y": 1036.529,
-      "description": "在下层有紫色光波（如图一），使用声骸显像—迷胧幻蛾救出日灵（如没有此声骸附近西南方下去有两只可刷取，如图二）",
+      "description": "Ở tầng dưới có sóng ánh sáng màu tím (hình 1), dùng bộ xương âm thanh để lộ ra - con bướm ma mờ ảo để giải cứu linh hồn mặt trời (nếu không có bộ xương âm thanh như vậy, có thể lấy được hai bộ xương ở phía Tây Nam gần bộ xương âm thanh, như trong hình 2)",
       "levelId": "0"
     },
     {
       "id": "kuro:1498435193554690048",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1345.798,
       "y": 1535.774,
-      "description": "日灵在大鸟嘴里，注意有日灵的鸟嘴比其他鸟要大，与鸟互动后救出日灵",
+      "description": "Ri Ling ở trong miệng con chim lớn. Lưu ý rằng mỏ của Ri Ling lớn hơn các loài chim khác. Giải cứu Ri Ling sau khi tương tác với chú chim.",
       "levelId": "0"
     },
     {
       "id": "kuro:1498435858306408448",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1320.391,
       "y": 1236.896,
-      "description": "在紫色光波处使用声骸显像—迷胧幻蛾，救出日灵",
+      "description": "Sử dụng hình ảnh Vocaloid tại Purple Light Waves — Mesmerizing Moths, Rescue Sun Spirits",
       "levelId": "0"
     },
     {
       "id": "kuro:1498436451720732672",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1567.795,
       "y": 1062.885,
-      "description": "在巨日灵旁边，直接抱起即可",
+      "description": "Bên cạnh thần mặt trời khổng lồ, hãy nhặt nó lên",
       "levelId": "0"
     },
     {
       "id": "kuro:1498436909788389376",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1374.521,
       "y": 2282.939,
-      "description": "打碎冰晶救出日灵",
+      "description": "Phá vỡ tinh thể băng và giải cứu Ri Ling",
       "levelId": "0"
     },
     {
       "id": "kuro:1498437654915555328",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1078.588,
       "y": 2315.24,
-      "description": "在最顶层悬崖边眺望，直接抱起即可",
+      "description": "Chỉ cần nhìn vào những vách đá ở tầng trên cùng và nhặt nó lên",
       "levelId": "0"
     },
     {
       "id": "kuro:1498438136337096704",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1137.164,
       "y": 1977.961,
-      "description": "跟两只小肥啾在一块，直接抱起即可",
+      "description": "Cùng với hai đứa nhỏ, hãy bế chúng lên",
       "levelId": "0"
     },
     {
       "id": "kuro:1498438751574384640",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1326.706,
       "y": 1754.392,
-      "description": "打碎冰晶救出日灵",
+      "description": "Phá vỡ tinh thể băng và giải cứu Ri Ling",
       "levelId": "0"
     },
     {
       "id": "kuro:1498439091082321920",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 1152.678,
       "y": 1646.267,
-      "description": "站在石头上，可直接抱起",
+      "description": "Đứng trên đá, bạn có thể nhặt trực tiếp",
       "levelId": "0"
     },
     {
       "id": "kuro:1498439957299044352",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 3062.594,
       "y": 2100.697,
-      "description": "跳入瀑布下的圈内后日灵出现",
+      "description": "Sau khi nhảy vào vòng tròn dưới thác nước, Ri Ling xuất hiện.",
       "levelId": "0"
     },
     {
       "id": "kuro:1502786418895724544",
       "categoryId": "42",
-      "title": "日灵",
+      "title": "Riling",
       "x": 2294.82,
       "y": 2393.802,
-      "description": "先完成此处的铸光仪挑战，开启房间后拍摄左上方站在雕像上的日灵，拍完后可互动",
+      "description": "Đầu tiên hãy hoàn thành thử thách người điều khiển ánh sáng tại đây, mở phòng và chụp ảnh Riling đứng trên bức tượng ở góc trên bên trái. Bạn có thể tương tác với nó sau khi chụp ảnh.",
       "levelId": "0"
     },
     {
       "id": "kuro:1496988565975834624",
       "categoryId": "43",
-      "title": "虚质磁暴区",
+      "title": "Vùng bão từ vật chất ảo",
       "x": 2397.651,
       "y": 2334.024,
-      "description": "做好准备挑战吧！",
+      "description": "Hãy sẵn sàng cho thử thách!",
       "levelId": "0"
     },
     {
       "id": "kuro:1496989588689756160",
       "categoryId": "43",
-      "title": "虚质磁暴区",
+      "title": "Vùng bão từ vật chất ảo",
       "x": 1506.021,
       "y": 2686.916,
-      "description": "做好准备挑战吧！",
+      "description": "Hãy sẵn sàng cho thử thách!",
       "levelId": "0"
     },
     {
       "id": "kuro:1496990516746625024",
       "categoryId": "43",
-      "title": "虚质磁暴区",
+      "title": "Vùng bão từ vật chất ảo",
       "x": 1212.573,
       "y": 1430.694,
-      "description": "做好准备挑战吧！",
+      "description": "Hãy sẵn sàng cho thử thách!",
       "levelId": "0"
     },
     {
       "id": "kuro:1496991995842093056",
       "categoryId": "43",
-      "title": "虚质磁暴区",
+      "title": "Vùng bão từ vật chất ảo",
       "x": 2509.978,
       "y": 1565.301,
-      "description": "做好准备挑战吧！",
+      "description": "Hãy sẵn sàng cho thử thách!",
       "levelId": "0"
     }
   ]

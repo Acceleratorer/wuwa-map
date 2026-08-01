@@ -11,3 +11,7 @@ interactive map at `https://www.kurobbs.com/mc/map/`.
 
 The repository's software license does not relicense KURO's data or assets. Keep this notice and
 the attribution embedded in each generated map pack when deploying the bundle.
+
+Vietnamese map names, marker labels, floor labels, and community notes in this bundle are
+community-maintained machine translations with manual corrections. They are not an official
+KURO localization and may require terminology review.

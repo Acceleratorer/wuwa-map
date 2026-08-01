@@ -11,6 +11,10 @@ import {
 } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
+import {
+  loadKuroTranslations,
+  localizeKuroText,
+} from "./kuro-localization.mjs";
 
 const API_ORIGIN = "https://api.kurobbs.com";
 const CDN_ORIGIN = "https://web-static.kurobbs.com";
@@ -218,13 +222,15 @@ function itemGroup(item) {
     : FALLBACK_GROUP;
 }
 
-function markerDescription(location) {
+function markerDescription(location, translations) {
   const parts = [];
   if (location.floorId?.trim()) {
     parts.push(`Tầng ${location.floorId.trim()}`);
   }
   if (location.description?.trim()) {
-    parts.push(location.description.trim());
+    parts.push(
+      localizeKuroText(location.description.trim(), translations),
+    );
   }
   return parts.length > 0 ? parts.join(" · ") : undefined;
 }
@@ -258,6 +264,7 @@ export function buildLayerEntries({
   layout,
   tileSize,
   tileExtension,
+  translations = new Map(),
 }) {
   const entries = [];
   for (const group of layerData) {
@@ -272,9 +279,15 @@ export function buildLayerEntries({
       const directoryName = String(floor.id).replaceAll("/", "_");
       entries.push({
         id: String(floor.id),
-        label: floor.name?.trim() || String(floor.id),
+        label: localizeKuroText(
+          floor.name?.trim() || String(floor.id),
+          translations,
+        ),
         groupId: String(group.id),
-        groupLabel: group.name?.trim() || String(group.id),
+        groupLabel: localizeKuroText(
+          group.name?.trim() || String(group.id),
+          translations,
+        ),
         directoryName,
         sourceTiles: parsedTiles,
         tiles: {
@@ -305,6 +318,7 @@ export function buildKuroMapPack({
   iconWebPathBySource = new Map(),
   layerEntries = [],
   retrievedAt,
+  translations = new Map(),
 }) {
   const width = layout.columns * tileSize;
   const height = layout.rows * tileSize;
@@ -325,7 +339,10 @@ export function buildKuroMapPack({
 
   for (const item of items) {
     const itemId = String(item.id);
-    const title = CHEST_LABELS.get(itemId) ?? item.name?.trim() ?? itemId;
+    const title = localizeKuroText(
+      CHEST_LABELS.get(itemId) ?? item.name?.trim() ?? itemId,
+      translations,
+    );
     for (const location of item.location) {
       if (
         location.stateId !== stateId ||
@@ -354,7 +371,7 @@ export function buildKuroMapPack({
         title,
         x: Math.round(pixel.x * 1000) / 1000,
         y: Math.round(pixel.y * 1000) / 1000,
-        description: markerDescription(location),
+        description: markerDescription(location, translations),
         floorId: location.floorId?.trim() || undefined,
         levelId: location.level?.trim() || undefined,
       });
@@ -375,7 +392,10 @@ export function buildKuroMapPack({
   return {
     schemaVersion: 1,
     id: `wuwa-kuro-state-${stateId}`,
-    title: stateName || `Khu vực ${stateId}`,
+    title: localizeKuroText(
+      stateName || `Khu vực ${stateId}`,
+      translations,
+    ),
     subtitle: `${markers.length} vị trí · ${items.length} loại điểm`,
     attribution:
       `Dữ liệu và tile bản đồ: KURO GAMES official interactive map; ` +
@@ -402,7 +422,10 @@ export function buildKuroMapPack({
       const group = groupByItemId.get(itemId);
       return {
         id: itemId,
-        label: CHEST_LABELS.get(itemId) ?? item.name?.trim() ?? itemId,
+        label: localizeKuroText(
+          CHEST_LABELS.get(itemId) ?? item.name?.trim() ?? itemId,
+          translations,
+        ),
         color: CATEGORY_COLORS[index % CATEGORY_COLORS.length],
         symbol: CHEST_LABELS.has(itemId)
           ? String(["qzx_01", "qzx_02", "qzx_03", "qzx_04"].indexOf(itemId) + 1)
@@ -522,7 +545,8 @@ function printUsage() {
   );
   console.log(
     "    [--tile-size 768|1024] [--concurrency 6] " +
-      "[--default-state 906] [--refresh-tiles true|false]",
+      "[--default-state 906] [--refresh-tiles true|false] " +
+      "[--translations tools/kuro-map-translations.vi.json]",
   );
 }
 
@@ -558,6 +582,12 @@ async function main() {
   const tileExtension = tileSize === 768 ? "webp" : "png";
   const previousManifest = readJsonIfPresent(
     join(rawOutputDirectory, "manifest.json"),
+  );
+  const translations = loadKuroTranslations(
+    resolve(
+      argumentsMap.get("--translations") ??
+        "tools/kuro-map-translations.vi.json",
+    ),
   );
 
   const [resourceHash, mapIdList, selection] = await Promise.all([
@@ -638,6 +668,7 @@ async function main() {
       layout,
       tileSize,
       tileExtension,
+      translations,
     });
     const expectedTileNames = new Set(
       layout.tiles.map(
@@ -736,6 +767,7 @@ async function main() {
       iconWebPathBySource,
       layerEntries,
       retrievedAt,
+      translations,
     });
     writeJson(join(outputDirectory, "maps", `${stateId}.json`), mapPack);
     catalogEntries.push({

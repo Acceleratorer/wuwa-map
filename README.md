@@ -262,6 +262,8 @@ Crawler:
 - Tự tải lại toàn bộ tile khi KURO đổi resource hash hoặc khi đổi kích thước tile.
 - Giữ raw JSON trong `data/private/kuro/` để audit và build lại.
 - Sinh `catalog.json` cùng một map pack cho mỗi state.
+- Đọc cache Việt hóa trong `tools/kuro-map-translations.vi.json` để lần crawl sau
+  không đưa tên tiếng Trung trở lại bundle.
 
 Muốn ép refresh tile dù resource hash chưa đổi:
 
@@ -273,6 +275,26 @@ Bundle deploy trong `public/map-packs/private/` được commit để clone repo
 host full map ngay. Raw JSON/cache trong `data/private/kuro/` vẫn nằm trong `.gitignore`.
 Chỉ deploy hoặc phân phối các file này khi permission của bạn cho phép; attribution trong map
 pack không đồng nghĩa với việc KURO phát hành asset dưới một giấy phép nguồn mở.
+
+### Việt hóa dữ liệu KURO
+
+Sau khi crawl có thêm label hoặc ghi chú mới, cập nhật cache và áp bản dịch vào
+toàn bộ map pack:
+
+```bash
+pnpm translate:kuro \
+  --input public/map-packs/private \
+  --include-descriptions true \
+  --apply true
+```
+
+Tool chỉ gọi dịch cho chuỗi chưa có trong cache, checkpoint định kỳ và có provider
+dự phòng khi bị rate-limit. Ứng dụng khi chạy chỉ đọc JSON đã dịch, không gọi dịch
+và không gửi nội dung marker ra ngoài. Những tên riêng khó được chỉnh bằng manual
+override trong `tools/kuro-localization.mjs`.
+
+Có thể truyền cache khác cho crawler bằng `--translations <path>`. Dùng
+`--retry-untranslated true` khi cần thử dịch lại những kết quả vẫn còn ký tự Hán.
 
 ### Icon và tầng bản đồ
 

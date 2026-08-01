@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "wuwa-kuro-state-910",
-  "title": "时隙废都",
+  "title": "Đô thị Chronorift",
   "subtitle": "59 vị trí · 9 loại điểm",
   "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-07-31.",
   "tiles": {
@@ -56,7 +56,7 @@
   "categories": [
     {
       "id": "SP_IconMap_Activity_HonamiStory_UI",
-      "label": "作战准备",
+      "label": "Sẵn sàng hoạt động",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "locations",
@@ -65,7 +65,7 @@
     },
     {
       "id": "320000480",
-      "label": "梦魇·刺玫菇",
+      "label": "Cơn ác mộng: Nấm hồng gai",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -74,7 +74,7 @@
     },
     {
       "id": "CS_01",
-      "label": "中枢信标",
+      "label": "Hub Beacon",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "exploration",
@@ -83,7 +83,7 @@
     },
     {
       "id": "T_IconC_SM_Gat_25A_UI",
-      "label": "香柠草",
+      "label": "sả",
       "color": "#f07e83",
       "symbol": "•",
       "groupId": "resources",
@@ -92,7 +92,7 @@
     },
     {
       "id": "310000760",
-      "label": "梦魇·侏侏鸵",
+      "label": "Ác mộng đà điểu lùn",
       "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
@@ -101,7 +101,7 @@
     },
     {
       "id": "T_IconC_SM_Gat_01B_UI",
-      "label": "香苏",
+      "label": "Su thơm",
       "color": "#9fdb72",
       "symbol": "•",
       "groupId": "resources",
@@ -110,7 +110,7 @@
     },
     {
       "id": "myjl",
-      "label": "梦魇聚落",
+      "label": "Giải quyết cơn ác mộng",
       "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "activities",
@@ -119,7 +119,7 @@
     },
     {
       "id": "310000750",
-      "label": "梦魇·呜咔咔",
+      "label": "Ác mộng·Wukaka",
       "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
@@ -128,7 +128,7 @@
     },
     {
       "id": "T_IconC_060_UI",
-      "label": "长夏花",
+      "label": "Hoa Changxia",
       "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "resources",
@@ -140,7 +140,7 @@
     {
       "id": "kuro:1437866586385195008",
       "categoryId": "SP_IconMap_Activity_HonamiStory_UI",
-      "title": "作战准备",
+      "title": "Sẵn sàng hoạt động",
       "x": 797.816,
       "y": 820.405,
       "levelId": "0"
@@ -148,34 +148,34 @@
     {
       "id": "kuro:1440114482467074048",
       "categoryId": "320000480",
-      "title": "梦魇·刺玫菇",
+      "title": "Cơn ác mộng: Nấm hồng gai",
       "x": 761.675,
       "y": 695.718,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1440114676952756224",
       "categoryId": "320000480",
-      "title": "梦魇·刺玫菇",
+      "title": "Cơn ác mộng: Nấm hồng gai",
       "x": 761.675,
       "y": 693.007,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1440115218227687424",
       "categoryId": "320000480",
-      "title": "梦魇·刺玫菇",
+      "title": "Cơn ác mộng: Nấm hồng gai",
       "x": 763.482,
       "y": 693.007,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1440316870595473408",
       "categoryId": "CS_01",
-      "title": "中枢信标",
+      "title": "Hub Beacon",
       "x": 773.421,
       "y": 802.334,
       "levelId": "0"
@@ -183,7 +183,7 @@
     {
       "id": "kuro:1438873179090145280",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 856.546,
       "y": 753.544,
       "levelId": "0"
@@ -191,7 +191,7 @@
     {
       "id": "kuro:1438873996251131904",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 694.814,
       "y": 740.894,
       "levelId": "0"
@@ -199,7 +199,7 @@
     {
       "id": "kuro:1438873996360183808",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 696.621,
       "y": 739.991,
       "levelId": "0"
@@ -207,7 +207,7 @@
     {
       "id": "kuro:1438873996460847104",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 694.814,
       "y": 738.184,
       "levelId": "0"
@@ -215,7 +215,7 @@
     {
       "id": "kuro:1438876790827806720",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 739.991,
       "y": 753.544,
       "levelId": "0"
@@ -223,7 +223,7 @@
     {
       "id": "kuro:1438876790932664320",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 738.184,
       "y": 750.833,
       "levelId": "0"
@@ -231,7 +231,7 @@
     {
       "id": "kuro:1438877175290294272",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 749.026,
       "y": 701.139,
       "levelId": "0"
@@ -239,7 +239,7 @@
     {
       "id": "kuro:1438877175390957568",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 749.929,
       "y": 700.235,
       "levelId": "0"
@@ -247,7 +247,7 @@
     {
       "id": "kuro:1438877872210137088",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 821.308,
       "y": 708.367,
       "levelId": "0"
@@ -255,7 +255,7 @@
     {
       "id": "kuro:1438878265712865280",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 830.344,
       "y": 695.718,
       "levelId": "0"
@@ -263,7 +263,7 @@
     {
       "id": "kuro:1438878747403513856",
       "categoryId": "T_IconC_SM_Gat_25A_UI",
-      "title": "香柠草",
+      "title": "sả",
       "x": 777.939,
       "y": 731.859,
       "levelId": "0"
@@ -271,25 +271,25 @@
     {
       "id": "kuro:1440113139902402560",
       "categoryId": "310000760",
-      "title": "梦魇·侏侏鸵",
+      "title": "Ác mộng đà điểu lùn",
       "x": 765.289,
       "y": 695.718,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1440113821019623424",
       "categoryId": "310000760",
-      "title": "梦魇·侏侏鸵",
+      "title": "Ác mộng đà điểu lùn",
       "x": 762.579,
       "y": 696.621,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1438868567666806784",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 777.035,
       "y": 831.247,
       "levelId": "0"
@@ -297,7 +297,7 @@
     {
       "id": "kuro:1438871562770477056",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 835.765,
       "y": 786.974,
       "levelId": "0"
@@ -305,7 +305,7 @@
     {
       "id": "kuro:1438871919821672448",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 874.616,
       "y": 817.694,
       "levelId": "0"
@@ -313,7 +313,7 @@
     {
       "id": "kuro:1438872257777717248",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 851.125,
       "y": 806.852,
       "levelId": "0"
@@ -321,7 +321,7 @@
     {
       "id": "kuro:1438872257958072320",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 848.414,
       "y": 803.238,
       "levelId": "0"
@@ -329,7 +329,7 @@
     {
       "id": "kuro:1438872623332282368",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 926.118,
       "y": 753.544,
       "levelId": "0"
@@ -337,7 +337,7 @@
     {
       "id": "kuro:1438877653872963584",
       "categoryId": "T_IconC_SM_Gat_01B_UI",
-      "title": "香苏",
+      "title": "Su thơm",
       "x": 805.948,
       "y": 749.929,
       "levelId": "0"
@@ -345,34 +345,34 @@
     {
       "id": "kuro:1439988171407446016",
       "categoryId": "myjl",
-      "title": "梦魇聚落",
+      "title": "Giải quyết cơn ác mộng",
       "x": 764.386,
       "y": 669.515,
-      "description": "该地区每日将会固定刷新一定数量的梦魇残象，击败梦魇残象后，可以获取独特的梦魇声骸。",
+      "description": "Một số lượng nhất định tàn dư của cơn ác mộng sẽ được làm mới ở khu vực này mỗi ngày. Sau khi đánh bại tàn dư của cơn ác mộng, bạn có thể thu được những bộ xương có âm thanh ác mộng độc đáo.",
       "levelId": "0"
     },
     {
       "id": "kuro:1440115411157282816",
       "categoryId": "310000750",
-      "title": "梦魇·呜咔咔",
+      "title": "Ác mộng·Wukaka",
       "x": 763.482,
       "y": 693.911,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1440115560306733056",
       "categoryId": "310000750",
-      "title": "梦魇·呜咔咔",
+      "title": "Ác mộng·Wukaka",
       "x": 764.386,
       "y": 695.718,
-      "description": "时隙废都梦魇聚落中掉落（请注意该坐标位置仅代表梦魇聚落内声骸位置，与梦魇聚落外地图坐标位置无关）",
+      "description": "Rơi vào Khu định cư Ác mộng ở Thành phố Bị bỏ hoang trong Khe thời gian (xin lưu ý rằng vị trí tọa độ này chỉ đại diện cho vị trí của bộ xương âm thanh trong Khu định cư Ác mộng và không liên quan gì đến vị trí tọa độ bản đồ bên ngoài Khu định cư Ác mộng)",
       "levelId": "0"
     },
     {
       "id": "kuro:1438959520290729984",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 770.711,
       "y": 826.729,
       "levelId": "0"
@@ -380,7 +380,7 @@
     {
       "id": "kuro:1438962449605226496",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 769.075,
       "y": 829.25,
       "levelId": "0"
@@ -388,7 +388,7 @@
     {
       "id": "kuro:1438966553570791424",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 768,
       "y": 829.44,
       "levelId": "0"
@@ -396,7 +396,7 @@
     {
       "id": "kuro:1438984289404874752",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 761.675,
       "y": 814.08,
       "levelId": "0"
@@ -404,7 +404,7 @@
     {
       "id": "kuro:1438984289522315264",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 759.868,
       "y": 814.984,
       "levelId": "0"
@@ -412,7 +412,7 @@
     {
       "id": "kuro:1438984289635561472",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 759.868,
       "y": 817.694,
       "levelId": "0"
@@ -420,7 +420,7 @@
     {
       "id": "kuro:1438985432918945792",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 698.428,
       "y": 757.158,
       "levelId": "0"
@@ -428,7 +428,7 @@
     {
       "id": "kuro:1438985433048969216",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 699.332,
       "y": 757.158,
       "levelId": "0"
@@ -436,7 +436,7 @@
     {
       "id": "kuro:1438985433174798336",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 700.235,
       "y": 757.158,
       "levelId": "0"
@@ -444,7 +444,7 @@
     {
       "id": "kuro:1438986234513354752",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 712.885,
       "y": 758.965,
       "levelId": "0"
@@ -452,7 +452,7 @@
     {
       "id": "kuro:1438986234630795264",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 720.113,
       "y": 764.386,
       "levelId": "0"
@@ -460,7 +460,7 @@
     {
       "id": "kuro:1438986234744041472",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 719.209,
       "y": 765.289,
       "levelId": "0"
@@ -468,7 +468,7 @@
     {
       "id": "kuro:1438986234861481984",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 720.113,
       "y": 767.096,
       "levelId": "0"
@@ -476,7 +476,7 @@
     {
       "id": "kuro:1438987033702912000",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 713.788,
       "y": 774.325,
       "levelId": "0"
@@ -484,7 +484,7 @@
     {
       "id": "kuro:1438987033904238592",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 711.981,
       "y": 774.325,
       "levelId": "0"
@@ -492,7 +492,7 @@
     {
       "id": "kuro:1438987034092982272",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 711.981,
       "y": 775.228,
       "levelId": "0"
@@ -500,7 +500,7 @@
     {
       "id": "kuro:1438987587608408064",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 710.174,
       "y": 768.904,
       "levelId": "0"
@@ -508,7 +508,7 @@
     {
       "id": "kuro:1438988132702834688",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 674.936,
       "y": 778.842,
       "levelId": "0"
@@ -516,7 +516,7 @@
     {
       "id": "kuro:1438988947586314240",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 815.887,
       "y": 758.061,
       "levelId": "0"
@@ -524,7 +524,7 @@
     {
       "id": "kuro:1438988947712143360",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 814.984,
       "y": 757.158,
       "levelId": "0"
@@ -532,7 +532,7 @@
     {
       "id": "kuro:1438988947837972480",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 815.887,
       "y": 756.254,
       "levelId": "0"
@@ -540,7 +540,7 @@
     {
       "id": "kuro:1438989629616377856",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 835.765,
       "y": 755.351,
       "levelId": "0"
@@ -548,7 +548,7 @@
     {
       "id": "kuro:1438989629796732928",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 835.765,
       "y": 754.447,
       "levelId": "0"
@@ -556,7 +556,7 @@
     {
       "id": "kuro:1438989629977088000",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 834.861,
       "y": 755.351,
       "levelId": "0"
@@ -564,7 +564,7 @@
     {
       "id": "kuro:1438990245350109184",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 830.344,
       "y": 743.605,
       "levelId": "0"
@@ -572,7 +572,7 @@
     {
       "id": "kuro:1438990245454966784",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 824.922,
       "y": 767.096,
       "levelId": "0"
@@ -580,7 +580,7 @@
     {
       "id": "kuro:1438991118279725056",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 869.195,
       "y": 796.913,
       "levelId": "0"
@@ -588,7 +588,7 @@
     {
       "id": "kuro:1438991118460080128",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 867.388,
       "y": 800.527,
       "levelId": "0"
@@ -596,7 +596,7 @@
     {
       "id": "kuro:1438991915189096448",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 855.642,
       "y": 823.115,
       "levelId": "0"
@@ -604,7 +604,7 @@
     {
       "id": "kuro:1438991915382034432",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 854.739,
       "y": 822.212,
       "levelId": "0"
@@ -612,7 +612,7 @@
     {
       "id": "kuro:1438991915570778112",
       "categoryId": "T_IconC_060_UI",
-      "title": "长夏花",
+      "title": "Hoa Changxia",
       "x": 855.642,
       "y": 820.405,
       "levelId": "0"
