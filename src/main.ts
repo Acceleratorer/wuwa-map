@@ -8,6 +8,7 @@ import L, {
 import "leaflet/dist/leaflet.css";
 import "./style.css";
 import demoMapPackJson from "./data/demo-map-pack.json";
+import { createCanvasIconMarker } from "./canvas-marker-icons";
 import { createFilterIcon } from "./filter-icons";
 import { uiIcon } from "./ui-icons";
 import {
@@ -36,6 +37,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 };
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+const MAX_DOM_ICON_MARKERS = 2500;
 
 const DEFAULT_PROFILES: Profile[] = [
   {
@@ -1089,29 +1091,37 @@ function renderMarkers(): void {
       !(hideCompleted && isDone)
     );
   });
-  const useImageMarkers = visibleMarkers.length <= 1500;
+  const useDomIconMarkers = visibleMarkers.length <= MAX_DOM_ICON_MARKERS;
 
   for (const marker of visibleMarkers) {
     const category = findCategory(marker.categoryId);
     const isDone = completedMarkerIds.has(marker.id);
     const renderedMarker =
-      useImageMarkers && category.imageSrc
-        ? createImageMarker(marker, category, isDone)
-        : L.circleMarker(markerLatLng(marker), {
-            radius: isDone ? 8 : 10,
-            color: isDone ? "#d9fff6" : "#f7fffc",
-            weight: isDone ? 1 : 2,
-            fillColor: category.color,
-            fillOpacity: isDone ? 0.28 : 0.94,
-            opacity: isDone ? 0.48 : 1,
-            className: isDone ? "progress-marker is-done" : "progress-marker",
-          });
+      useDomIconMarkers
+        ? createDomIconMarker(marker, category, isDone)
+        : createCanvasIconMarker(
+            markerLatLng(marker),
+            {
+              radius: isDone ? 8 : 10,
+              color: isDone ? "#d9fff6" : "#f7fffc",
+              weight: isDone ? 1 : 2,
+              fillColor: category.color,
+              fillOpacity: isDone ? 0.28 : 0.94,
+              opacity: isDone ? 0.48 : 1,
+              className: isDone
+                ? "progress-marker is-done"
+                : "progress-marker",
+            },
+            category.imageSrc,
+            category.symbol,
+            isDone,
+          );
 
     const tooltipContent = document.createElement("span");
     tooltipContent.textContent = marker.title;
     renderedMarker.bindTooltip(tooltipContent, {
       direction: "top",
-      offset: [0, useImageMarkers && category.imageSrc ? -18 : -8],
+      offset: [0, useDomIconMarkers ? -4 : -8],
       opacity: 0.95,
     });
     renderedMarker.bindPopup(createMarkerPopup(marker, category, isDone), {
@@ -1127,7 +1137,7 @@ function renderMarkers(): void {
   updateProgressDisplay();
 }
 
-function createImageMarker(
+function createDomIconMarker(
   marker: MapMarker,
   category: MapCategory,
   isDone: boolean,
@@ -1140,10 +1150,27 @@ function createImageMarker(
 
   const frame = document.createElement("span");
   frame.className = "map-marker-frame";
-  const image = document.createElement("img");
-  image.src = category.imageSrc ?? "";
-  image.alt = "";
-  frame.append(image);
+  const categoryGroup = categoryGroupById.get(categoryGroupId(category)) ??
+    FALLBACK_CATEGORY_GROUP;
+  const fallbackIcon = () =>
+    createFilterIcon(
+      category.icon ?? categoryGroup.icon,
+      category.symbol,
+    );
+
+  if (category.imageSrc) {
+    const image = document.createElement("img");
+    image.src = category.imageSrc;
+    image.alt = "";
+    image.addEventListener(
+      "error",
+      () => frame.replaceChildren(fallbackIcon()),
+      { once: true },
+    );
+    frame.append(image);
+  } else {
+    frame.append(fallbackIcon());
+  }
   wrapper.append(frame);
 
   if (isDone) {
@@ -1157,10 +1184,10 @@ function createImageMarker(
     icon: L.divIcon({
       className: "progress-icon-marker",
       html: wrapper,
-      iconSize: [38, 44],
-      iconAnchor: [19, 40],
-      popupAnchor: [0, -36],
-      tooltipAnchor: [0, -30],
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -17],
+      tooltipAnchor: [0, -16],
     }),
     opacity: isDone ? 0.52 : 1,
     riseOnHover: true,
