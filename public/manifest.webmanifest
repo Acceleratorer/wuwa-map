@@ -1,12 +1,12 @@
 {
-  "name": "Wayfinder Map",
-  "short_name": "Wayfinder",
+  "name": "Wuwa Wayfinder by Accelra",
+  "short_name": "Wuwa Map",
   "description": "Bản đồ tiến trình local-first dành cho nhóm nhỏ.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#071416",
-  "theme_color": "#071416",
+  "background_color": "#07080c",
+  "theme_color": "#07080c",
   "icons": [
     {
       "src": "icon.svg",

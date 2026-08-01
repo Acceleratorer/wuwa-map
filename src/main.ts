@@ -9,6 +9,7 @@ import "leaflet/dist/leaflet.css";
 import "./style.css";
 import demoMapPackJson from "./data/demo-map-pack.json";
 import { createFilterIcon } from "./filter-icons";
+import { uiIcon } from "./ui-icons";
 import {
   mapPackDimensions,
   parseBackup,
@@ -57,41 +58,56 @@ if (!app) {
 app.innerHTML = `
   <div class="app-shell">
     <header class="topbar">
-      <button class="icon-button mobile-only" id="sidebar-toggle" type="button" aria-label="Mở bộ lọc">
-        <span></span><span></span><span></span>
+      <button class="icon-button mobile-only" id="sidebar-toggle" type="button" aria-label="Mở bộ lọc" aria-expanded="false">
+        ${uiIcon("menu")}
       </button>
       <div class="brand">
-        <img src="${import.meta.env.BASE_URL}icon.svg" alt="" />
-        <div>
+        <span class="brand-mark">
+          <img src="${import.meta.env.BASE_URL}icon.svg" alt="" />
+        </span>
+        <div class="brand-copy">
+          <span class="brand-kicker">ACCELRA / WUWA</span>
           <strong>Wayfinder</strong>
-          <span>Bản đồ tiến trình cá nhân</span>
         </div>
       </div>
       <div class="topbar-spacer"></div>
       <div class="top-progress" aria-live="polite">
-        <span id="top-progress-count">0 / 0</span>
-        <small>đã hoàn thành</small>
+        ${uiIcon("check")}
+        <div>
+          <span id="top-progress-count">0 / 0</span>
+          <small>đã hoàn thành</small>
+        </div>
       </div>
       <label class="profile-picker">
-        <span>Hồ sơ</span>
-        <select id="profile-select" aria-label="Chọn profile"></select>
+        ${uiIcon("user")}
+        <div>
+          <span>Hồ sơ</span>
+          <select id="profile-select" aria-label="Chọn profile"></select>
+        </div>
       </label>
-      <button class="icon-button settings-button" id="settings-button" type="button" aria-label="Mở cài đặt">⚙</button>
+      <button class="icon-button settings-button" id="settings-button" type="button" aria-label="Mở cài đặt">
+        ${uiIcon("settings")}
+      </button>
     </header>
 
     <aside class="sidebar" id="sidebar">
       <section class="map-intro">
-        <div class="eyebrow">BẢN ĐỒ ĐANG DÙNG</div>
+        <div class="map-intro-heading">
+          <div class="eyebrow">BẢN ĐỒ ĐANG DÙNG</div>
+          <span class="live-badge"><i></i> LIVE DATA</span>
+        </div>
         <h1 id="map-title"></h1>
         <p id="map-subtitle"></p>
-        <label class="map-picker" id="map-picker" hidden>
-          <span>Khu vực</span>
-          <select id="map-select" aria-label="Chọn khu vực"></select>
-        </label>
-        <label class="map-picker" id="floor-picker" hidden>
-          <span>Tầng bản đồ</span>
-          <select id="floor-select" aria-label="Chọn tầng bản đồ"></select>
-        </label>
+        <div class="map-picker-grid">
+          <label class="map-picker" id="map-picker" hidden>
+            <span class="field-label">${uiIcon("map")} Khu vực</span>
+            <select id="map-select" aria-label="Chọn khu vực"></select>
+          </label>
+          <label class="map-picker" id="floor-picker" hidden>
+            <span class="field-label">${uiIcon("layers")} Tầng bản đồ</span>
+            <select id="floor-select" aria-label="Chọn tầng bản đồ"></select>
+          </label>
+        </div>
         <div class="demo-notice" id="demo-notice">
           <span>DEMO</span>
           Dữ liệu giả lập, không phải dữ liệu trong game.
@@ -100,9 +116,12 @@ app.innerHTML = `
 
       <section class="progress-card">
         <div class="progress-card-row">
-          <div>
-            <span class="eyebrow">TIẾN TRÌNH</span>
-            <strong id="progress-percentage">0%</strong>
+          <div class="progress-copy">
+            <span class="progress-card-icon">${uiIcon("sparkles")}</span>
+            <div>
+              <span class="eyebrow">TIẾN TRÌNH</span>
+              <strong id="progress-percentage">0%</strong>
+            </div>
           </div>
           <span id="progress-fraction">0 / 0 điểm</span>
         </div>
@@ -112,12 +131,12 @@ app.innerHTML = `
       </section>
 
       <label class="search-box">
-        <span aria-hidden="true">⌕</span>
+        ${uiIcon("search")}
         <input id="search-input" type="search" placeholder="Tìm tên hoặc ID..." autocomplete="off" />
       </label>
 
       <div class="section-heading category-heading">
-        <span>Bộ lọc điểm</span>
+        <span>${uiIcon("layers")} Bộ lọc điểm</span>
         <button id="toggle-all-categories" type="button">Chọn tất cả</button>
       </div>
       <div class="category-browser">
@@ -149,23 +168,39 @@ app.innerHTML = `
       </label>
 
       <div class="sidebar-actions">
-        <button class="secondary-button" id="fit-map" type="button">Căn toàn bản đồ</button>
-        <button class="secondary-button" id="open-settings" type="button">Dữ liệu & backup</button>
+        <button class="secondary-button" id="fit-map" type="button">
+          ${uiIcon("fit")} Căn toàn bản đồ
+        </button>
+        <button class="secondary-button" id="open-settings" type="button">
+          ${uiIcon("database")} Dữ liệu & backup
+        </button>
       </div>
 
       <footer class="sidebar-footer">
+        <span class="accelra-signature">ACCELRA SYSTEM / PERSONAL BUILD</span>
         <p id="map-attribution"></p>
         <span class="sync-status" id="sync-status">Chỉ lưu trên thiết bị này.</span>
       </footer>
     </aside>
+    <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="Đóng bộ lọc"></button>
 
     <main class="map-stage">
+      <div class="mobile-map-controls" id="mobile-map-controls" hidden>
+        <label class="mobile-map-picker" id="mobile-map-picker" hidden>
+          <span>${uiIcon("map")} Khu vực</span>
+          <select id="mobile-map-select" aria-label="Chọn khu vực nhanh"></select>
+        </label>
+        <label class="mobile-map-picker" id="mobile-floor-picker" hidden>
+          <span>${uiIcon("layers")} Tầng</span>
+          <select id="mobile-floor-select" aria-label="Chọn tầng nhanh"></select>
+        </label>
+      </div>
       <div id="map" aria-label="Bản đồ tương tác"></div>
       <div class="map-hud">
-        <span class="status-dot"></span>
+        ${uiIcon("signal")}
         <span id="visible-count">0 điểm đang hiển thị</span>
       </div>
-      <div class="map-hint">Kéo để di chuyển · Cuộn để phóng to</div>
+      <div class="map-hint">${uiIcon("fit")} Kéo để di chuyển · Cuộn để phóng to</div>
     </main>
   </div>
 
@@ -176,7 +211,9 @@ app.innerHTML = `
           <span class="eyebrow">THIẾT LẬP THIẾT BỊ</span>
           <h2>Dữ liệu và profile</h2>
         </div>
-        <button class="icon-button" value="cancel" aria-label="Đóng">×</button>
+        <button class="icon-button" value="cancel" aria-label="Đóng">
+          ${uiIcon("close")}
+        </button>
       </div>
 
       <section class="dialog-section">
@@ -184,7 +221,7 @@ app.innerHTML = `
         <p id="profile-mode-description">Hồ sơ đang lưu trên thiết bị này.</p>
         <div class="inline-form">
           <input id="profile-name-input" type="text" maxlength="40" aria-label="Tên profile" />
-          <button id="rename-profile" class="primary-button" type="button">Lưu tên</button>
+          <button id="rename-profile" class="primary-button" type="button">${uiIcon("check")} Lưu tên</button>
         </div>
         <button id="copy-friend-link" class="secondary-button full-width" type="button">
           Sao chép link profile local
@@ -198,8 +235,8 @@ app.innerHTML = `
         <h3>Backup tiến trình</h3>
         <p>Export định kỳ để tránh mất dữ liệu khi xóa storage của trình duyệt.</p>
         <div class="button-grid">
-          <button id="export-backup" class="secondary-button" type="button">Export JSON</button>
-          <button id="import-backup" class="secondary-button" type="button">Import JSON</button>
+          <button id="export-backup" class="secondary-button" type="button">${uiIcon("download")} Export JSON</button>
+          <button id="import-backup" class="secondary-button" type="button">${uiIcon("upload")} Import JSON</button>
         </div>
       </section>
 
@@ -207,14 +244,14 @@ app.innerHTML = `
         <h3>Gói bản đồ</h3>
         <p>Chỉ import dữ liệu và basemap mà bạn có quyền sử dụng.</p>
         <div class="button-grid">
-          <button id="import-map-pack" class="secondary-button" type="button">Import gói bản đồ</button>
-          <button id="use-demo-map" class="secondary-button" type="button">Dùng bản đồ demo</button>
+          <button id="import-map-pack" class="secondary-button" type="button">${uiIcon("package")} Import gói bản đồ</button>
+          <button id="use-demo-map" class="secondary-button" type="button">${uiIcon("map")} Dùng bản đồ demo</button>
         </div>
       </section>
 
       <div class="dialog-footer">
         <span id="storage-status">IndexedDB đang hoạt động</span>
-        <button class="primary-button" value="cancel">Xong</button>
+        <button class="primary-button" value="cancel">${uiIcon("check")} Xong</button>
       </div>
     </form>
   </dialog>
@@ -235,12 +272,18 @@ function mustQuery<T extends Element>(selector: string): T {
 const elements = {
   sidebar: mustQuery<HTMLElement>("#sidebar"),
   sidebarToggle: mustQuery<HTMLButtonElement>("#sidebar-toggle"),
+  sidebarScrim: mustQuery<HTMLButtonElement>("#sidebar-scrim"),
   settingsButton: mustQuery<HTMLButtonElement>("#settings-button"),
   openSettings: mustQuery<HTMLButtonElement>("#open-settings"),
   settingsDialog: mustQuery<HTMLDialogElement>("#settings-dialog"),
   mapTitle: mustQuery<HTMLElement>("#map-title"),
   mapSubtitle: mustQuery<HTMLElement>("#map-subtitle"),
   mapAttribution: mustQuery<HTMLElement>("#map-attribution"),
+  mobileMapControls: mustQuery<HTMLElement>("#mobile-map-controls"),
+  mobileMapPicker: mustQuery<HTMLElement>("#mobile-map-picker"),
+  mobileMapSelect: mustQuery<HTMLSelectElement>("#mobile-map-select"),
+  mobileFloorPicker: mustQuery<HTMLElement>("#mobile-floor-picker"),
+  mobileFloorSelect: mustQuery<HTMLSelectElement>("#mobile-floor-select"),
   mapPicker: mustQuery<HTMLElement>("#map-picker"),
   mapSelect: mustQuery<HTMLSelectElement>("#map-select"),
   floorPicker: mustQuery<HTMLElement>("#floor-picker"),
@@ -660,30 +703,51 @@ function renderMapSelector(): void {
     });
   }
 
-  elements.mapSelect.replaceChildren();
-  for (const mapOption of options) {
-    const option = document.createElement("option");
-    option.value = mapOption.id;
-    option.textContent = mapOption.title;
-    option.selected = mapOption.id === activeMapPack.id;
-    elements.mapSelect.append(option);
+  for (const select of [elements.mapSelect, elements.mobileMapSelect]) {
+    select.replaceChildren();
+    for (const mapOption of options) {
+      const option = document.createElement("option");
+      option.value = mapOption.id;
+      option.textContent = mapOption.title;
+      option.selected = mapOption.id === activeMapPack.id;
+      select.append(option);
+    }
   }
-  elements.mapPicker.hidden = options.length <= 1;
+  const pickerHidden = options.length <= 1;
+  elements.mapPicker.hidden = pickerHidden;
+  elements.mobileMapPicker.hidden = pickerHidden;
+  updateMobileMapControlsVisibility();
 }
 
 function renderFloorSelector(): void {
   const layers = activeMapPack.layers ?? [];
-  elements.floorSelect.replaceChildren();
   if (layers.length === 0) {
     elements.floorPicker.hidden = true;
+    elements.mobileFloorPicker.hidden = true;
+    elements.floorSelect.replaceChildren();
+    elements.mobileFloorSelect.replaceChildren();
+    updateMobileMapControlsVisibility();
     return;
   }
 
+  for (const select of [elements.floorSelect, elements.mobileFloorSelect]) {
+    populateFloorSelect(select, layers);
+  }
+  elements.floorPicker.hidden = false;
+  elements.mobileFloorPicker.hidden = false;
+  updateMobileMapControlsVisibility();
+}
+
+function populateFloorSelect(
+  select: HTMLSelectElement,
+  layers: MapFloorLayer[],
+): void {
+  select.replaceChildren();
   const allFloors = document.createElement("option");
   allFloors.value = "";
   allFloors.textContent = "Tất cả tầng";
   allFloors.selected = activeFloorId === "";
-  elements.floorSelect.append(allFloors);
+  select.append(allFloors);
 
   const layersByGroup = new Map<string, MapFloorLayer[]>();
   for (const layer of layers) {
@@ -701,9 +765,13 @@ function renderFloorSelector(): void {
       option.selected = layer.id === activeFloorId;
       group.append(option);
     }
-    elements.floorSelect.append(group);
+    select.append(group);
   }
-  elements.floorPicker.hidden = false;
+}
+
+function updateMobileMapControlsVisibility(): void {
+  elements.mobileMapControls.hidden =
+    elements.mobileMapPicker.hidden && elements.mobileFloorPicker.hidden;
 }
 
 function renderProfiles(): void {
@@ -1282,13 +1350,21 @@ async function syncRemoteProgress(): Promise<void> {
   }
 }
 
+function setSidebarOpen(open: boolean): void {
+  elements.sidebar.classList.toggle("is-open", open);
+  elements.sidebarToggle.setAttribute("aria-expanded", String(open));
+}
+
 function bindEvents(): void {
   window.addEventListener("online", () => {
     void syncRemoteProgress();
   });
 
   elements.sidebarToggle.addEventListener("click", () => {
-    elements.sidebar.classList.toggle("is-open");
+    setSidebarOpen(!elements.sidebar.classList.contains("is-open"));
+  });
+  elements.sidebarScrim.addEventListener("click", () => {
+    setSidebarOpen(false);
   });
 
   for (const button of [
@@ -1296,7 +1372,7 @@ function bindEvents(): void {
     elements.openSettings,
   ]) {
     button.addEventListener("click", () => {
-      elements.sidebar.classList.remove("is-open");
+      setSidebarOpen(false);
       elements.settingsDialog.showModal();
     });
   }
@@ -1339,16 +1415,20 @@ function bindEvents(): void {
 
   elements.fitMap.addEventListener("click", () => {
     map.fitBounds(imageBounds);
-    elements.sidebar.classList.remove("is-open");
+    setSidebarOpen(false);
   });
 
-  elements.mapSelect.addEventListener("change", async () => {
-    await database.putSetting("activeMapPackId", elements.mapSelect.value);
-    window.location.reload();
-  });
+  for (const select of [elements.mapSelect, elements.mobileMapSelect]) {
+    select.addEventListener("change", async () => {
+      await database.putSetting("activeMapPackId", select.value);
+      window.location.reload();
+    });
+  }
 
-  elements.floorSelect.addEventListener("change", async () => {
-    activeFloorId = elements.floorSelect.value;
+  const changeFloor = async (value: string): Promise<void> => {
+    activeFloorId = value;
+    elements.floorSelect.value = value;
+    elements.mobileFloorSelect.value = value;
     await database.putSetting(
       `activeFloor:${activeMapPack.id}`,
       activeFloorId,
@@ -1359,8 +1439,15 @@ function bindEvents(): void {
       ? activeMapPack.layers?.find((layer) => layer.id === activeFloorId)
           ?.label
       : "Tất cả tầng";
+    setSidebarOpen(false);
     showToast(`Đã chuyển sang ${floorLabel ?? "tầng bản đồ"}.`);
-  });
+  };
+
+  for (const select of [elements.floorSelect, elements.mobileFloorSelect]) {
+    select.addEventListener("change", () => {
+      void changeFloor(select.value);
+    });
+  }
 
   elements.profileSelect.addEventListener("change", async () => {
     activeProfileId = elements.profileSelect.value;
