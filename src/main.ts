@@ -403,7 +403,7 @@ if (initialSyncMessage) {
 void syncRemoteProgress();
 
 if ("serviceWorker" in navigator && import.meta.env.PROD) {
-  window.addEventListener("load", () => {
+  const registerServiceWorker = () => {
     navigator.serviceWorker
       .register(`${import.meta.env.BASE_URL}sw.js`, {
         scope: import.meta.env.BASE_URL,
@@ -411,7 +411,12 @@ if ("serviceWorker" in navigator && import.meta.env.PROD) {
       .catch(() => {
         showToast("Không thể bật chế độ offline.", "error");
       });
-  });
+  };
+  if (document.readyState === "complete") {
+    registerServiceWorker();
+  } else {
+    window.addEventListener("load", registerServiceWorker, { once: true });
+  }
 }
 
 async function bootstrapRemoteSession(): Promise<RemoteSession | undefined> {
