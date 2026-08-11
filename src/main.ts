@@ -405,9 +405,12 @@ void syncRemoteProgress();
 if ("serviceWorker" in navigator && import.meta.env.PROD) {
   const registerServiceWorker = () => {
     navigator.serviceWorker
-      .register(`${import.meta.env.BASE_URL}sw.js`, {
-        scope: import.meta.env.BASE_URL,
-      })
+      .register(
+        `${import.meta.env.BASE_URL}sw.js?v=${MAP_DATA_VERSION}`,
+        {
+          scope: import.meta.env.BASE_URL,
+        },
+      )
       .catch(() => {
         showToast("Không thể bật chế độ offline.", "error");
       });
