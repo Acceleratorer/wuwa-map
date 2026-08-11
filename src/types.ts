@@ -77,6 +77,7 @@ export interface MapPack {
   attribution: string;
   image?: MapImageSource;
   tiles?: MapTileSource;
+  bounds?: MapViewBounds;
   initialView?: MapViewBounds;
   categoryGroups?: MapCategoryGroup[];
   categories: MapCategory[];

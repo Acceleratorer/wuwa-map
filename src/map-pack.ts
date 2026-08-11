@@ -285,6 +285,9 @@ export function parseMapPack(value: unknown): MapPack {
     mapHeight = tiles.tileSize * tiles.rows;
   }
 
+  if (value.bounds !== undefined) {
+    assertInitialView(value.bounds, mapWidth, mapHeight);
+  }
   if (value.initialView !== undefined) {
     assertInitialView(value.initialView, mapWidth, mapHeight);
   }

@@ -65,6 +65,20 @@ export const STATE_REGION_SPLITS = new Map([
         outputName: "8-country-1",
         title: "Hoàng Long",
         progressMapId: "wuwa-kuro-state-8",
+        tileRegions: [
+          {
+            minColumn: 0,
+            maxColumn: 8,
+            minRow: 10,
+            maxRow: 20,
+          },
+          {
+            minColumn: 9,
+            maxColumn: 18,
+            minRow: 10,
+            maxRow: 23,
+          },
+        ],
         initialView: {
           minX: 7500,
           minY: 9500,
@@ -78,6 +92,14 @@ export const STATE_REGION_SPLITS = new Map([
         outputName: "8-country-900",
         title: "Quần đảo Bờ Đen",
         progressMapId: "wuwa-kuro-state-8",
+        tileRegions: [
+          {
+            minColumn: 15,
+            maxColumn: 18,
+            minRow: 13,
+            maxRow: 18,
+          },
+        ],
         initialView: {
           minX: 11900,
           minY: 10800,
@@ -91,6 +113,14 @@ export const STATE_REGION_SPLITS = new Map([
         outputName: "8-country-3",
         title: "Rinascita",
         progressMapId: "wuwa-kuro-state-8",
+        tileRegions: [
+          {
+            minColumn: 19,
+            maxColumn: 29,
+            minRow: 16,
+            maxRow: 30,
+          },
+        ],
         initialView: {
           minX: 15000,
           minY: 12300,
@@ -376,12 +406,84 @@ function scaleInitialView(initialView, tileSize, width, height) {
   };
 }
 
+function tileMatchesRegions(tile, tileRegions) {
+  return (
+    tileRegions === undefined ||
+    tileRegions.some(
+      (region) =>
+        tile.column >= region.minColumn &&
+        tile.column <= region.maxColumn &&
+        tile.row >= region.minRow &&
+        tile.row <= region.maxRow,
+    )
+  );
+}
+
+function pixelMatchesRegions(pixel, tileSize, tileRegions) {
+  return tileMatchesRegions(
+    {
+      column: Math.floor(pixel.x / tileSize),
+      row: Math.floor(pixel.y / tileSize),
+    },
+    tileRegions,
+  );
+}
+
+function tileRegionBounds(tileRegions, tileSize, width, height) {
+  if (tileRegions === undefined) {
+    return undefined;
+  }
+  return {
+    minX: Math.max(
+      0,
+      Math.min(...tileRegions.map((region) => region.minColumn)) * tileSize,
+    ),
+    minY: Math.max(
+      0,
+      Math.min(...tileRegions.map((region) => region.minRow)) * tileSize,
+    ),
+    maxX: Math.min(
+      width,
+      (Math.max(...tileRegions.map((region) => region.maxColumn)) + 1) *
+        tileSize,
+    ),
+    maxY: Math.min(
+      height,
+      (Math.max(...tileRegions.map((region) => region.maxRow)) + 1) *
+        tileSize,
+    ),
+  };
+}
+
+function filterTileSourceToRegions(source, tileRegions) {
+  if (tileRegions === undefined || source.availableTiles === undefined) {
+    return source;
+  }
+  return {
+    ...source,
+    availableTiles: source.availableTiles.filter((tile) => {
+      const match = /^(-?\d+),(-?\d+)$/.exec(tile);
+      if (!match) {
+        return false;
+      }
+      return tileMatchesRegions(
+        {
+          column: Number(match[1]),
+          row: Number(match[2]) + source.rows,
+        },
+        tileRegions,
+      );
+    }),
+  };
+}
+
 export function buildKuroMapPack({
   stateId,
   stateName,
   countryId,
   mapId,
   progressMapId,
+  tileRegions,
   initialView,
   tileSize,
   tileExtension,
@@ -395,7 +497,7 @@ export function buildKuroMapPack({
 }) {
   const width = layout.columns * tileSize;
   const height = layout.rows * tileSize;
-  const items = positionData.filter(
+  const candidateItems = positionData.filter(
     (item) =>
       Array.isArray(item.location) &&
       item.location.some(
@@ -403,11 +505,11 @@ export function buildKuroMapPack({
       ),
   );
   const groupByItemId = new Map(
-    items.map((item) => [String(item.id), itemGroup(item)]),
+    candidateItems.map((item) => [String(item.id), itemGroup(item)]),
   );
   const markers = [];
 
-  for (const item of items) {
+  for (const item of candidateItems) {
     const itemId = String(item.id);
     const title = localizeKuroText(
       CHEST_LABELS.get(itemId) ?? item.name?.trim() ?? itemId,
@@ -427,7 +529,8 @@ export function buildKuroMapPack({
         pixel.x < 0 ||
         pixel.x > width ||
         pixel.y < 0 ||
-        pixel.y > height
+        pixel.y > height ||
+        !pixelMatchesRegions(pixel, tileSize, tileRegions)
       ) {
         continue;
       }
@@ -448,6 +551,10 @@ export function buildKuroMapPack({
     throw new Error(`State ${stateId} không có marker hợp lệ.`);
   }
 
+  const usedItemIds = new Set(markers.map((marker) => marker.categoryId));
+  const items = candidateItems.filter((item) =>
+    usedItemIds.has(String(item.id)),
+  );
   const usedGroupIds = new Set(
     items.map((item) => groupByItemId.get(String(item.id)).id),
   );
@@ -459,9 +566,16 @@ export function buildKuroMapPack({
       .map((marker) => marker.levelId)
       .filter((levelId) => levelId && levelId !== "0"),
   );
-  const selectedLayerEntries = layerEntries.filter((layer) =>
-    usedLayerIds.has(layer.id),
-  );
+  const selectedLayerEntries = layerEntries
+    .filter((layer) => usedLayerIds.has(layer.id))
+    .map((layer) => ({
+      ...layer,
+      tiles: filterTileSourceToRegions(layer.tiles, tileRegions),
+    }))
+    .filter((layer) => layer.tiles.availableTiles?.length !== 0);
+  const availableTiles = layout.tiles
+    .filter((tile) => tileMatchesRegions(tile, tileRegions))
+    .map((tile) => `${tile.column},${tile.leafletY}`);
 
   return {
     schemaVersion: 1,
@@ -481,10 +595,9 @@ export function buildKuroMapPack({
       tileSize,
       columns: layout.columns,
       rows: layout.rows,
-      availableTiles: layout.tiles.map(
-        (tile) => `${tile.column},${tile.leafletY}`,
-      ),
+      availableTiles,
     },
+    bounds: tileRegionBounds(tileRegions, tileSize, width, height),
     initialView: scaleInitialView(initialView, tileSize, width, height),
     categoryGroups: [...CATEGORY_GROUPS, FALLBACK_GROUP]
       .filter((group) => usedGroupIds.has(group.id))
@@ -847,6 +960,7 @@ async function main() {
         countryId: definition.countryId,
         mapId: definition.id,
         progressMapId: definition.progressMapId,
+        tileRegions: definition.tileRegions,
         initialView: definition.initialView,
         tileSize,
         tileExtension,

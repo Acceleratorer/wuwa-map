@@ -38,6 +38,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
+const MAP_DATA_VERSION = "region-split-v2";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);
@@ -378,6 +379,7 @@ let activeFloorId =
     : "";
 let map: LeafletMap;
 let imageBounds: L.LatLngBounds;
+let mapContentBounds: L.LatLngBounds;
 let mapViewBounds: L.LatLngBounds;
 let markerLayer: LayerGroup;
 let floorTileLayer: TileLayer | undefined;
@@ -465,9 +467,14 @@ async function resolveActiveProfileId(availableProfiles: Profile[]): Promise<str
 
 async function loadBundledMapCatalog(): Promise<MapCatalog | undefined> {
   try {
-    const response = await fetch(
+    const catalogUrl = new URL(
       `${import.meta.env.BASE_URL}map-packs/private/catalog.json`,
-      { cache: "no-cache" },
+      document.baseURI,
+    );
+    catalogUrl.searchParams.set("v", MAP_DATA_VERSION);
+    const response = await fetch(
+      catalogUrl,
+      { cache: "no-store" },
     );
     if (!response.ok) {
       return undefined;
@@ -482,9 +489,11 @@ async function loadMapPackResource(
   path: string,
 ): Promise<MapPack | undefined> {
   try {
+    const packUrl = new URL(path, document.baseURI);
+    packUrl.searchParams.set("v", MAP_DATA_VERSION);
     const response = await fetch(
-      new URL(path, document.baseURI),
-      { cache: "no-cache" },
+      packUrl,
+      { cache: "no-store" },
     );
     if (!response.ok) {
       return undefined;
@@ -996,11 +1005,18 @@ function initializeMap(): void {
     [0, 0],
     [dimensions.height, dimensions.width],
   );
-  const view = activeMapPack.initialView ?? {
+  const content = activeMapPack.bounds ?? {
     minX: 0,
     minY: 0,
     maxX: dimensions.width,
     maxY: dimensions.height,
+  };
+  mapContentBounds = L.latLngBounds(
+    [dimensions.height - content.maxY, content.minX],
+    [dimensions.height - content.minY, content.maxX],
+  );
+  const view = activeMapPack.initialView ?? {
+    ...content,
   };
   mapViewBounds = L.latLngBounds(
     [dimensions.height - view.maxY, view.minX],
@@ -1032,7 +1048,7 @@ function initializeMap(): void {
       animate: false,
     });
   }
-  map.setMaxBounds(imageBounds.pad(0.18));
+  map.setMaxBounds(mapContentBounds.pad(0.18));
 }
 
 function createTileLayer(
@@ -1047,7 +1063,7 @@ function createTileLayer(
     minZoom: -2,
     maxZoom: 2.5,
     noWrap: true,
-    bounds: imageBounds,
+    bounds: mapContentBounds,
     keepBuffer: 2,
     updateWhenZooming: false,
     className,

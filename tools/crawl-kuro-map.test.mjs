@@ -123,11 +123,19 @@ test("KURO state regions filter countries, categories, and floor layers", () => 
     countryId: 1,
     mapId: "wuwa-kuro-state-8-country-1",
     progressMapId: "wuwa-kuro-state-8",
+    tileRegions: [
+      {
+        minColumn: 1,
+        maxColumn: 1,
+        minRow: 0,
+        maxRow: 0,
+      },
+    ],
     initialView: {
-      minX: 100,
-      minY: 200,
-      maxX: 1000,
-      maxY: 1200,
+      minX: 800,
+      minY: 100,
+      maxX: 1400,
+      maxY: 700,
     },
     tileSize: 768,
     tileExtension: "webp",
@@ -145,7 +153,7 @@ test("KURO state regions filter countries, categories, and floor layers", () => 
           tileSize: 768,
           columns: 2,
           rows: 2,
-          availableTiles: ["0,-1"],
+          availableTiles: ["1,-2"],
         },
       },
       {
@@ -186,6 +194,20 @@ test("KURO state regions filter countries, categories, and floor layers", () => 
         ],
       },
       {
+        id: "huanglong-outside",
+        name: "Huanglong outside",
+        location: [
+          {
+            id: "huanglong-outside-marker",
+            stateId: 8,
+            countryId: 1,
+            level: "0",
+            x: -170000,
+            y: -85000,
+          },
+        ],
+      },
+      {
         id: "rinascita-only",
         name: "Rinascita only",
         location: [
@@ -204,13 +226,20 @@ test("KURO state regions filter countries, categories, and floor layers", () => 
 
   assert.equal(pack.id, "wuwa-kuro-state-8-country-1");
   assert.equal(pack.progressMapId, "wuwa-kuro-state-8");
+  assert.deepEqual(pack.bounds, {
+    minX: 768,
+    minY: 0,
+    maxX: 1536,
+    maxY: 768,
+  });
   assert.equal(pack.title, "Hoàng Long");
   assert.deepEqual(pack.initialView, {
-    minX: 100,
-    minY: 200,
-    maxX: 1000,
-    maxY: 1200,
+    minX: 800,
+    minY: 100,
+    maxX: 1400,
+    maxY: 700,
   });
+  assert.deepEqual(pack.tiles.availableTiles, ["1,-2"]);
   assert.deepEqual(
     pack.markers.map((marker) => marker.id),
     ["kuro:huanglong-marker"],
@@ -223,6 +252,7 @@ test("KURO state regions filter countries, categories, and floor layers", () => 
     pack.layers.map((layer) => layer.id),
     ["-1/1"],
   );
+  assert.deepEqual(pack.layers[0].tiles.availableTiles, ["1,-2"]);
 });
 
 test("KURO layered tile paths use the same normalized grid as basemap tiles", () => {
