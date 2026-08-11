@@ -17,9 +17,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Khu_vực-8-9fe870?style=for-the-badge" alt="8 khu vực" />
-    <img src="https://img.shields.io/badge/Marker-23%2C777-7c5cfc?style=for-the-badge" alt="23.777 marker" />
-    <img src="https://img.shields.io/badge/Tầng_bản_đồ-90-00c2ff?style=for-the-badge" alt="90 tầng bản đồ" />
+    <img src="https://img.shields.io/badge/Khu_vực-10-9fe870?style=for-the-badge" alt="10 khu vực" />
+    <img src="https://img.shields.io/badge/Marker-22%2C616-7c5cfc?style=for-the-badge" alt="22.616 marker" />
+    <img src="https://img.shields.io/badge/Tầng_bản_đồ-85-00c2ff?style=for-the-badge" alt="85 tầng bản đồ" />
     <img src="https://img.shields.io/badge/Ngôn_ngữ-Tiếng_Việt-f5c451?style=for-the-badge" alt="Tiếng Việt" />
   </p>
 
@@ -61,14 +61,16 @@ community-maintained.
 | Khu vực | Marker | Danh mục | Tầng |
 | --- | ---: | ---: | ---: |
 | Băng nguyên Roya | 2.530 | 74 | 23 |
-| Hoàng Long, Quần đảo Bờ Đen, Rinascita và Băng nguyên Roya | 19.179 | 429 | 44 |
+| Hoàng Long | 10.712 | 241 | 23 |
+| Quần đảo Bờ Đen | 352 | 40 | 0 |
+| Rinascita | 6.954 | 185 | 16 |
 | Vực sâu Tethys | 415 | 40 | 5 |
 | Kho bạc ngầm | 231 | 37 | 10 |
 | Avinoleum | 454 | 31 | 0 |
 | Bãi thử Biển Ẩn | 236 | 35 | 1 |
 | Đồng bằng Dimmr | 673 | 43 | 7 |
 | Đô thị Chronorift | 59 | 9 | 0 |
-| **Tổng** | **23.777** | **698** | **90** |
+| **Tổng** | **22.616** | **735** | **85** |
 
 > Số liệu trên phản ánh bundle hiện đang được commit trong repository và có thể
 > thay đổi sau những lần cập nhật dữ liệu tiếp theo.

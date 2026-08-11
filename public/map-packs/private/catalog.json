@@ -8,9 +8,19 @@
       "pack": "map-packs/private/maps/906.json"
     },
     {
-      "id": "wuwa-kuro-state-8",
-      "title": "Hoàng Long, Quần đảo Bờ Đen, Rinascita và Băng nguyên Roya",
-      "pack": "map-packs/private/maps/8.json"
+      "id": "wuwa-kuro-state-8-country-1",
+      "title": "Hoàng Long",
+      "pack": "map-packs/private/maps/8-country-1.json"
+    },
+    {
+      "id": "wuwa-kuro-state-8-country-900",
+      "title": "Quần đảo Bờ Đen",
+      "pack": "map-packs/private/maps/8-country-900.json"
+    },
+    {
+      "id": "wuwa-kuro-state-8-country-3",
+      "title": "Rinascita",
+      "pack": "map-packs/private/maps/8-country-3.json"
     },
     {
       "id": "wuwa-kuro-state-900",

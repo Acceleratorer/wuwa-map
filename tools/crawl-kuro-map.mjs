@@ -55,6 +55,53 @@ const CHEST_LABELS = new Map([
   ["qzx_04", "Rương huy quang"],
 ]);
 
+export const STATE_REGION_SPLITS = new Map([
+  [
+    8,
+    [
+      {
+        countryId: 1,
+        id: "wuwa-kuro-state-8-country-1",
+        outputName: "8-country-1",
+        title: "Hoàng Long",
+        progressMapId: "wuwa-kuro-state-8",
+        initialView: {
+          minX: 1500,
+          minY: 3200,
+          maxX: 13700,
+          maxY: 15000,
+        },
+      },
+      {
+        countryId: 900,
+        id: "wuwa-kuro-state-8-country-900",
+        outputName: "8-country-900",
+        title: "Quần đảo Bờ Đen",
+        progressMapId: "wuwa-kuro-state-8",
+        initialView: {
+          minX: 11900,
+          minY: 10800,
+          maxX: 13700,
+          maxY: 12800,
+        },
+      },
+      {
+        countryId: 3,
+        id: "wuwa-kuro-state-8-country-3",
+        outputName: "8-country-3",
+        title: "Rinascita",
+        progressMapId: "wuwa-kuro-state-8",
+        initialView: {
+          minX: 15000,
+          minY: 12300,
+          maxX: 23040,
+          maxY: 23808,
+        },
+      },
+    ],
+  ],
+]);
+
 function parseArguments(argv) {
   const values = new Map();
   for (let index = 0; index < argv.length; index += 2) {
@@ -307,9 +354,35 @@ export function buildLayerEntries({
   return entries;
 }
 
+function locationMatchesRegion(location, stateId, countryId) {
+  return (
+    location.stateId === stateId &&
+    (countryId === undefined || Number(location.countryId) === countryId) &&
+    Number.isFinite(location.x) &&
+    Number.isFinite(location.y)
+  );
+}
+
+function scaleInitialView(initialView, tileSize, width, height) {
+  if (!initialView) {
+    return undefined;
+  }
+  const scale = tileSize / DEFAULT_TILE_SIZE;
+  return {
+    minX: Math.max(0, initialView.minX * scale),
+    minY: Math.max(0, initialView.minY * scale),
+    maxX: Math.min(width, initialView.maxX * scale),
+    maxY: Math.min(height, initialView.maxY * scale),
+  };
+}
+
 export function buildKuroMapPack({
   stateId,
   stateName,
+  countryId,
+  mapId,
+  progressMapId,
+  initialView,
   tileSize,
   tileExtension,
   tileWebPrefix,
@@ -326,10 +399,7 @@ export function buildKuroMapPack({
     (item) =>
       Array.isArray(item.location) &&
       item.location.some(
-        (location) =>
-          location.stateId === stateId &&
-          Number.isFinite(location.x) &&
-          Number.isFinite(location.y),
+        (location) => locationMatchesRegion(location, stateId, countryId),
       ),
   );
   const groupByItemId = new Map(
@@ -344,11 +414,7 @@ export function buildKuroMapPack({
       translations,
     );
     for (const location of item.location) {
-      if (
-        location.stateId !== stateId ||
-        !Number.isFinite(location.x) ||
-        !Number.isFinite(location.y)
-      ) {
+      if (!locationMatchesRegion(location, stateId, countryId)) {
         continue;
       }
       const pixel = gameToLocalPixel(
@@ -388,10 +454,19 @@ export function buildKuroMapPack({
   const chestIds = items
     .map((item) => String(item.id))
     .filter((itemId) => itemId.startsWith("qzx_"));
+  const usedLayerIds = new Set(
+    markers
+      .map((marker) => marker.levelId)
+      .filter((levelId) => levelId && levelId !== "0"),
+  );
+  const selectedLayerEntries = layerEntries.filter((layer) =>
+    usedLayerIds.has(layer.id),
+  );
 
   return {
     schemaVersion: 1,
-    id: `wuwa-kuro-state-${stateId}`,
+    id: mapId ?? `wuwa-kuro-state-${stateId}`,
+    progressMapId,
     title: localizeKuroText(
       stateName || `Khu vực ${stateId}`,
       translations,
@@ -410,6 +485,7 @@ export function buildKuroMapPack({
         (tile) => `${tile.column},${tile.leafletY}`,
       ),
     },
+    initialView: scaleInitialView(initialView, tileSize, width, height),
     categoryGroups: [...CATEGORY_GROUPS, FALLBACK_GROUP]
       .filter((group) => usedGroupIds.has(group.id))
       .map(({ id, label, icon }) => ({ id, label, icon })),
@@ -438,8 +514,8 @@ export function buildKuroMapPack({
             : undefined,
       };
     }),
-    layers: layerEntries.length > 0
-      ? layerEntries.map(
+    layers: selectedLayerEntries.length > 0
+      ? selectedLayerEntries.map(
           ({ id, label, groupId, groupLabel, tiles }) => ({
             id,
             label,
@@ -756,29 +832,67 @@ async function main() {
       }
     });
 
-    const mapPack = buildKuroMapPack({
-      stateId,
-      stateName: names.get(stateId),
-      tileSize,
-      tileExtension,
-      tileWebPrefix,
-      layout,
-      positionData,
-      iconWebPathBySource,
-      layerEntries,
-      retrievedAt,
-      translations,
-    });
-    writeJson(join(outputDirectory, "maps", `${stateId}.json`), mapPack);
-    catalogEntries.push({
-      id: mapPack.id,
-      title: mapPack.title,
-      pack: `map-packs/private/maps/${stateId}.json`,
-    });
-    totalMarkers += mapPack.markers.length;
+    const splitDefinitions = STATE_REGION_SPLITS.get(stateId);
+    const mapDefinitions = splitDefinitions ?? [
+      {
+        id: `wuwa-kuro-state-${stateId}`,
+        outputName: String(stateId),
+        title: names.get(stateId),
+      },
+    ];
+    const mapPacks = mapDefinitions.map((definition) =>
+      buildKuroMapPack({
+        stateId,
+        stateName: definition.title,
+        countryId: definition.countryId,
+        mapId: definition.id,
+        progressMapId: definition.progressMapId,
+        initialView: definition.initialView,
+        tileSize,
+        tileExtension,
+        tileWebPrefix,
+        layout,
+        positionData,
+        iconWebPathBySource,
+        layerEntries,
+        retrievedAt,
+        translations,
+      })
+    );
+
+    for (let index = 0; index < mapPacks.length; index += 1) {
+      const mapPack = mapPacks[index];
+      const outputName = mapDefinitions[index].outputName;
+      writeJson(
+        join(outputDirectory, "maps", `${outputName}.json`),
+        mapPack,
+      );
+      catalogEntries.push({
+        id: mapPack.id,
+        title: mapPack.title,
+        pack: `map-packs/private/maps/${outputName}.json`,
+      });
+      totalMarkers += mapPack.markers.length;
+    }
+    const legacyMapPath = join(
+      outputDirectory,
+      "maps",
+      `${stateId}.json`,
+    );
+    if (splitDefinitions && existsSync(legacyMapPath)) {
+      unlinkSync(legacyMapPath);
+    }
+    const markerTotal = mapPacks.reduce(
+      (total, pack) => total + pack.markers.length,
+      0,
+    );
+    const categoryTotal = mapPacks.reduce(
+      (total, pack) => total + pack.categories.length,
+      0,
+    );
     console.log(
-      `State ${stateId}: ${mapPack.markers.length} marker, ` +
-        `${mapPack.categories.length} loại điểm.`,
+      `State ${stateId}: ${markerTotal} marker, ` +
+        `${categoryTotal} loại điểm.`,
     );
   }
 
@@ -786,10 +900,22 @@ async function main() {
     removeStaleIcons(iconOutputDirectory, expectedIconNames);
   }
 
+  const splitOrder = new Map(
+    [...STATE_REGION_SPLITS.values()]
+      .flat()
+      .map((definition, index) => [definition.id, index]),
+  );
   catalogEntries.sort((left, right) => {
     const defaultMapId = `wuwa-kuro-state-${defaultStateId}`;
     if (left.id === defaultMapId) return -1;
     if (right.id === defaultMapId) return 1;
+    const leftSplitOrder = splitOrder.get(left.id);
+    const rightSplitOrder = splitOrder.get(right.id);
+    if (leftSplitOrder !== undefined && rightSplitOrder !== undefined) {
+      return leftSplitOrder - rightSplitOrder;
+    }
+    if (leftSplitOrder !== undefined) return -1;
+    if (rightSplitOrder !== undefined) return 1;
     return left.id.localeCompare(right.id, "vi", { numeric: true });
   });
   writeJson(join(outputDirectory, "catalog.json"), {

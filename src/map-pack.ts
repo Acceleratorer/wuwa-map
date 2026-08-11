@@ -215,11 +215,35 @@ function assertFloorLayer(
   assertTileSource(value.tiles, `Tile của tầng "${value.label}"`);
 }
 
+function assertInitialView(
+  value: unknown,
+  width: number,
+  height: number,
+): void {
+  if (
+    !isRecord(value) ||
+    !isFiniteNumber(value.minX) ||
+    !isFiniteNumber(value.minY) ||
+    !isFiniteNumber(value.maxX) ||
+    !isFiniteNumber(value.maxY) ||
+    value.minX < 0 ||
+    value.minY < 0 ||
+    value.maxX > width ||
+    value.maxY > height ||
+    value.minX >= value.maxX ||
+    value.minY >= value.maxY
+  ) {
+    throw new Error("Initial map view bounds are invalid.");
+  }
+}
+
 export function parseMapPack(value: unknown): MapPack {
   if (
     !isRecord(value) ||
     value.schemaVersion !== 1 ||
     !isNonEmptyString(value.id) ||
+    (value.progressMapId !== undefined &&
+      !isNonEmptyString(value.progressMapId)) ||
     !isNonEmptyString(value.title) ||
     !isNonEmptyString(value.attribution) ||
     !Array.isArray(value.categories) ||
@@ -259,6 +283,10 @@ export function parseMapPack(value: unknown): MapPack {
     assertTileSource(tiles, "Thông tin basemap tile");
     mapWidth = tiles.tileSize * tiles.columns;
     mapHeight = tiles.tileSize * tiles.rows;
+  }
+
+  if (value.initialView !== undefined) {
+    assertInitialView(value.initialView, mapWidth, mapHeight);
   }
 
   value.categories.forEach(assertCategory);

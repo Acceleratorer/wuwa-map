@@ -61,14 +61,23 @@ export interface MapFloorLayer {
   tiles: MapTileSource;
 }
 
+export interface MapViewBounds {
+  minX: number;
+  minY: number;
+  maxX: number;
+  maxY: number;
+}
+
 export interface MapPack {
   schemaVersion: SchemaVersion;
   id: string;
+  progressMapId?: string;
   title: string;
   subtitle?: string;
   attribution: string;
   image?: MapImageSource;
   tiles?: MapTileSource;
+  initialView?: MapViewBounds;
   categoryGroups?: MapCategoryGroup[];
   categories: MapCategory[];
   defaultVisibleCategoryIds?: string[];

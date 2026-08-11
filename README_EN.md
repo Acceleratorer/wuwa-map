@@ -17,9 +17,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Regions-8-9fe870?style=for-the-badge" alt="8 regions" />
-    <img src="https://img.shields.io/badge/Markers-23%2C777-7c5cfc?style=for-the-badge" alt="23,777 markers" />
-    <img src="https://img.shields.io/badge/Map_layers-90-00c2ff?style=for-the-badge" alt="90 map layers" />
+    <img src="https://img.shields.io/badge/Regions-10-9fe870?style=for-the-badge" alt="10 regions" />
+    <img src="https://img.shields.io/badge/Markers-22%2C616-7c5cfc?style=for-the-badge" alt="22,616 markers" />
+    <img src="https://img.shields.io/badge/Map_layers-85-00c2ff?style=for-the-badge" alt="85 map layers" />
     <img src="https://img.shields.io/badge/Localization-Vietnamese-f5c451?style=for-the-badge" alt="Vietnamese localization" />
   </p>
 
@@ -61,14 +61,16 @@ community-maintained translation pipeline.
 | Region | Markers | Categories | Floors |
 | --- | ---: | ---: | ---: |
 | Roya Frostlands | 2,530 | 74 | 23 |
-| Huanglong, Black Shores, Rinascita, and Roya Frostlands | 19,179 | 429 | 44 |
+| Huanglong | 10,712 | 241 | 23 |
+| Black Shores | 352 | 40 | 0 |
+| Rinascita | 6,954 | 185 | 16 |
 | Tethys Deep | 415 | 40 | 5 |
 | Underground Treasury | 231 | 37 | 10 |
 | Avinoleum | 454 | 31 | 0 |
 | Hidden Sea Proving Ground | 236 | 35 | 1 |
 | Dimmr Plains | 673 | 43 | 7 |
 | Chronorift Metropolis | 59 | 9 | 0 |
-| **Total** | **23,777** | **698** | **90** |
+| **Total** | **22,616** | **735** | **85** |
 
 > These numbers describe the generated bundle currently committed to this
 > repository and may change after future data refreshes.

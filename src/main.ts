@@ -38,6 +38,9 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
+const MAP_ID_ALIASES = new Map<string, string>([
+  ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
+]);
 
 const DEFAULT_PROFILES: Profile[] = [
   {
@@ -375,6 +378,7 @@ let activeFloorId =
     : "";
 let map: LeafletMap;
 let imageBounds: L.LatLngBounds;
+let mapViewBounds: L.LatLngBounds;
 let markerLayer: LayerGroup;
 let floorTileLayer: TileLayer | undefined;
 let markerReferences = new Map<string, Layer>();
@@ -514,10 +518,12 @@ async function resolveActiveMapPack(
   bundledPack: MapPack | undefined,
 ): Promise<MapPack> {
   const storedMapPackId = await database.getSetting<unknown>("activeMapPackId");
-  const activeMapPackId =
+  const requestedMapPackId =
     typeof storedMapPackId === "string"
       ? storedMapPackId
       : catalog?.defaultMapId ?? bundledPack?.id ?? demoMapPack.id;
+  const activeMapPackId =
+    MAP_ID_ALIASES.get(requestedMapPackId) ?? requestedMapPackId;
 
   if (activeMapPackId === demoMapPack.id) {
     return demoMapPack;
@@ -668,8 +674,15 @@ function defaultVisibleCategoryIds(pack: MapPack): Set<string> {
   );
 }
 
+function progressMapId(pack: MapPack): string {
+  return pack.progressMapId ?? pack.id;
+}
+
 async function reloadProgress(): Promise<void> {
-  const records = await database.getProgress(activeProfileId, activeMapPack.id);
+  const records = await database.getProgress(
+    activeProfileId,
+    progressMapId(activeMapPack),
+  );
   completedMarkerIds = new Set(
     records.filter((record) => record.done).map((record) => record.markerId),
   );
@@ -983,6 +996,16 @@ function initializeMap(): void {
     [0, 0],
     [dimensions.height, dimensions.width],
   );
+  const view = activeMapPack.initialView ?? {
+    minX: 0,
+    minY: 0,
+    maxX: dimensions.width,
+    maxY: dimensions.height,
+  };
+  mapViewBounds = L.latLngBounds(
+    [dimensions.height - view.maxY, view.minX],
+    [dimensions.height - view.minY, view.maxX],
+  );
 
   map = L.map("map", {
     crs: L.CRS.Simple,
@@ -1003,7 +1026,7 @@ function initializeMap(): void {
   }
   updateFloorLayer();
   markerLayer = L.layerGroup().addTo(map);
-  map.fitBounds(imageBounds, { animate: false });
+  map.fitBounds(mapViewBounds, { animate: false });
   if (window.matchMedia("(max-width: 820px)").matches) {
     map.setZoom(Math.min(map.getZoom() + 0.75, map.getMaxZoom()), {
       animate: false,
@@ -1240,10 +1263,11 @@ function createMarkerPopup(
 }
 
 async function setMarkerDone(markerId: string, done: boolean): Promise<void> {
+  const mapId = progressMapId(activeMapPack);
   await database.putProgress({
-    id: progressRecordId(activeProfileId, activeMapPack.id, markerId),
+    id: progressRecordId(activeProfileId, mapId, markerId),
     profileId: activeProfileId,
-    mapId: activeMapPack.id,
+    mapId,
     markerId,
     done,
     updatedAt: new Date().toISOString(),
@@ -1309,9 +1333,10 @@ async function syncRemoteProgress(): Promise<void> {
   let syncSucceeded = false;
 
   try {
+    const mapId = progressMapId(activeMapPack);
     const localRecords = await database.getProgress(
       activeProfileId,
-      activeMapPack.id,
+      mapId,
     );
     const pending = localRecords.filter(
       (record) => record.pendingSync !== false,
@@ -1325,7 +1350,7 @@ async function syncRemoteProgress(): Promise<void> {
       const canonical = await syncClient.pushProgress(batch);
       const latestLocal = new Map(
         (
-          await database.getProgress(activeProfileId, activeMapPack.id)
+          await database.getProgress(activeProfileId, mapId)
         ).map((record) => [record.id, record]),
       );
 
@@ -1337,10 +1362,10 @@ async function syncRemoteProgress(): Promise<void> {
       }
     }
 
-    const remoteRecords = await syncClient.pullProgress(activeMapPack.id);
+    const remoteRecords = await syncClient.pullProgress(mapId);
     const currentLocal = new Map(
       (
-        await database.getProgress(activeProfileId, activeMapPack.id)
+        await database.getProgress(activeProfileId, mapId)
       ).map((record) => [record.id, record]),
     );
     for (const record of remoteRecords) {
@@ -1369,7 +1394,10 @@ async function syncRemoteProgress(): Promise<void> {
   } finally {
     syncInFlight = false;
     const remaining = (
-      await database.getProgress(activeProfileId, activeMapPack.id)
+      await database.getProgress(
+        activeProfileId,
+        progressMapId(activeMapPack),
+      )
     ).some((record) => record.pendingSync !== false);
     if (syncSucceeded && remaining && remoteSession) {
       window.setTimeout(() => void syncRemoteProgress(), 600);
@@ -1441,7 +1469,7 @@ function bindEvents(): void {
   });
 
   elements.fitMap.addEventListener("click", () => {
-    map.fitBounds(imageBounds);
+    map.fitBounds(mapViewBounds);
     setSidebarOpen(false);
   });
 
