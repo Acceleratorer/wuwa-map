@@ -66,10 +66,10 @@ export const STATE_REGION_SPLITS = new Map([
         title: "Hoàng Long",
         progressMapId: "wuwa-kuro-state-8",
         initialView: {
-          minX: 1500,
-          minY: 3200,
-          maxX: 13700,
-          maxY: 15000,
+          minX: 7500,
+          minY: 9500,
+          maxX: 12800,
+          maxY: 14500,
         },
       },
       {

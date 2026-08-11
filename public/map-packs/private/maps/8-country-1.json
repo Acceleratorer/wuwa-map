@@ -352,10 +352,10 @@
     ]
   },
   "initialView": {
-    "minX": 1500,
-    "minY": 3200,
-    "maxX": 13700,
-    "maxY": 15000
+    "minX": 7500,
+    "minY": 9500,
+    "maxX": 12800,
+    "maxY": 14500
   },
   "categoryGroups": [
     {
