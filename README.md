@@ -61,16 +61,17 @@ community-maintained.
 | Khu vực | Marker | Danh mục | Tầng |
 | --- | ---: | ---: | ---: |
 | Băng nguyên Roya | 2.530 | 74 | 23 |
-| Hoàng Long | 10.712 | 241 | 23 |
+| Hoàng Long | 8.761 | 184 | 8 |
+| Hoàng Long 2 | 1.478 | 49 | 7 |
 | Quần đảo Bờ Đen | 352 | 40 | 0 |
-| Rinascita | 6.954 | 185 | 16 |
+| Rinascita | 6.953 | 184 | 16 |
 | Vực sâu Tethys | 415 | 40 | 5 |
 | Kho bạc ngầm | 231 | 37 | 10 |
 | Avinoleum | 454 | 31 | 0 |
 | Bãi thử Biển Ẩn | 236 | 35 | 1 |
 | Đồng bằng Dimmr | 673 | 43 | 7 |
 | Đô thị Chronorift | 59 | 9 | 0 |
-| **Tổng** | **22.616** | **735** | **85** |
+| **Tổng** | **22.142** | **726** | **77** |
 
 > Số liệu trên phản ánh bundle hiện đang được commit trong repository và có thể
 > thay đổi sau những lần cập nhật dữ liệu tiếp theo.

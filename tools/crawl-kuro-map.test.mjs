@@ -1,12 +1,44 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
+  STATE_REGION_SPLITS,
   buildLayerEntries,
   buildKuroMapPack,
   gameToLocalPixel,
   parseLayerTilePath,
   parseTileLayout,
 } from "./crawl-kuro-map.mjs";
+
+test("state 8 keeps both Huanglong atlases separate with shared progress", () => {
+  const definitions = STATE_REGION_SPLITS.get(8);
+  const huanglong = definitions.find(
+    (definition) => definition.id === "wuwa-kuro-state-8-country-1",
+  );
+  const huanglong2 = definitions.find(
+    (definition) => definition.id === "wuwa-kuro-state-8-country-1-2",
+  );
+
+  assert.equal(huanglong.progressMapId, "wuwa-kuro-state-8");
+  assert.equal(huanglong2.progressMapId, "wuwa-kuro-state-8");
+  assert.equal(huanglong.countryId, 1);
+  assert.equal(huanglong2.countryId, 1);
+  assert.deepEqual(huanglong.tileRegions, [
+    {
+      minColumn: 9,
+      maxColumn: 18,
+      minRow: 10,
+      maxRow: 22,
+    },
+  ]);
+  assert.deepEqual(huanglong2.tileRegions, [
+    {
+      minColumn: 0,
+      maxColumn: 8,
+      minRow: 10,
+      maxRow: 16,
+    },
+  ]);
+});
 
 test("KURO tile layout normalizes source coordinates into a local grid", () => {
   const layout = parseTileLayout(

@@ -67,16 +67,10 @@ export const STATE_REGION_SPLITS = new Map([
         progressMapId: "wuwa-kuro-state-8",
         tileRegions: [
           {
-            minColumn: 0,
-            maxColumn: 8,
-            minRow: 10,
-            maxRow: 20,
-          },
-          {
             minColumn: 9,
             maxColumn: 18,
             minRow: 10,
-            maxRow: 23,
+            maxRow: 22,
           },
         ],
         initialView: {
@@ -84,6 +78,27 @@ export const STATE_REGION_SPLITS = new Map([
           minY: 9500,
           maxX: 12800,
           maxY: 14500,
+        },
+      },
+      {
+        countryId: 1,
+        id: "wuwa-kuro-state-8-country-1-2",
+        outputName: "8-country-1-2",
+        title: "Hoàng Long 2",
+        progressMapId: "wuwa-kuro-state-8",
+        tileRegions: [
+          {
+            minColumn: 0,
+            maxColumn: 8,
+            minRow: 10,
+            maxRow: 16,
+          },
+        ],
+        initialView: {
+          minX: 0,
+          minY: 7680,
+          maxX: 6912,
+          maxY: 13056,
         },
       },
       {

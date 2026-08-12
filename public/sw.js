@@ -1,4 +1,4 @@
-const CACHE_NAME = "wayfinder-runtime-v6";
+const CACHE_NAME = "wayfinder-runtime-v7";
 const APP_SHELL = ["./", "./demo-map.svg", "./icon.svg", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {

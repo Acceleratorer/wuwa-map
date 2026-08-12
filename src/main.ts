@@ -38,7 +38,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
-const MAP_DATA_VERSION = "region-split-v2";
+const MAP_DATA_VERSION = "region-split-v3";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);

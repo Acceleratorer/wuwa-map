@@ -61,16 +61,17 @@ community-maintained translation pipeline.
 | Region | Markers | Categories | Floors |
 | --- | ---: | ---: | ---: |
 | Roya Frostlands | 2,530 | 74 | 23 |
-| Huanglong | 10,712 | 241 | 23 |
+| Huanglong | 8,761 | 184 | 8 |
+| Huanglong 2 | 1,478 | 49 | 7 |
 | Black Shores | 352 | 40 | 0 |
-| Rinascita | 6,954 | 185 | 16 |
+| Rinascita | 6,953 | 184 | 16 |
 | Tethys Deep | 415 | 40 | 5 |
 | Underground Treasury | 231 | 37 | 10 |
 | Avinoleum | 454 | 31 | 0 |
 | Hidden Sea Proving Ground | 236 | 35 | 1 |
 | Dimmr Plains | 673 | 43 | 7 |
 | Chronorift Metropolis | 59 | 9 | 0 |
-| **Total** | **22,616** | **735** | **85** |
+| **Total** | **22,142** | **726** | **77** |
 
 > These numbers describe the generated bundle currently committed to this
 > repository and may change after future data refreshes.
