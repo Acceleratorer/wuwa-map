@@ -17,6 +17,7 @@ import {
   parseMapCatalog,
   parseMapPack,
 } from "./map-pack";
+import { summarizeProgressForCategories } from "./progress";
 import { LocalDatabase, progressRecordId } from "./storage";
 import { SyncApiError, SyncClient, type RemoteSession } from "./sync";
 import type {
@@ -1313,11 +1314,11 @@ async function setMarkerDone(markerId: string, done: boolean): Promise<void> {
 }
 
 function updateProgressDisplay(): void {
-  const total = activeMapPack.markers.length;
-  const completed = activeMapPack.markers.filter((marker) =>
-    completedMarkerIds.has(marker.id),
-  ).length;
-  const percentage = total === 0 ? 0 : Math.round((completed / total) * 100);
+  const { completed, total, percentage } = summarizeProgressForCategories(
+    activeMapPack.markers,
+    completedMarkerIds,
+    visibleCategoryIds,
+  );
 
   elements.topProgressCount.textContent = `${completed} / ${total}`;
   elements.progressPercentage.textContent = `${percentage}%`;

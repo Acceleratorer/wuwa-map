@@ -44,7 +44,7 @@
 | --- | --- |
 | 🗺️ | Multi-region tiled maps with smooth Leaflet pan and zoom |
 | 🧭 | Region and floor switching on both desktop and mobile |
-| ✅ | Toggle collected markers with live overall and per-category progress |
+| ✅ | Toggle collected markers with live progress scoped to selected categories |
 | 🔎 | Search by name/ID, filter categories, and hide completed markers |
 | 🇻🇳 | Vietnamese UI and a pre-localized map data bundle |
 | 💾 | IndexedDB storage for progress, profiles, settings, and map packs |
