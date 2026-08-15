@@ -1,4 +1,5 @@
 import L, {
+  type ImageOverlay,
   type Layer,
   type LayerGroup,
   type Map as LeafletMap,
@@ -384,6 +385,7 @@ let mapContentBounds: L.LatLngBounds;
 let mapViewBounds: L.LatLngBounds;
 let markerLayer: LayerGroup;
 let floorTileLayer: TileLayer | undefined;
+let floorScrimLayer: ImageOverlay;
 let markerReferences = new Map<string, Layer>();
 let toastTimer: number | undefined;
 let syncInFlight = false;
@@ -1042,13 +1044,33 @@ function initializeMap(): void {
     attributionControl: false,
   });
 
+  const baseMapPane = map.createPane("base-map-pane");
+  baseMapPane.style.zIndex = "200";
+  const floorScrimPane = map.createPane("floor-scrim-pane");
+  floorScrimPane.style.zIndex = "220";
+  floorScrimPane.classList.add("floor-scrim-pane");
+  const floorMapPane = map.createPane("floor-map-pane");
+  floorMapPane.style.zIndex = "240";
+
   if (activeMapPack.image) {
     L.imageOverlay(activeMapPack.image.src, imageBounds, {
-      className: "map-image",
+      className: "map-image base-map-image",
+      pane: "base-map-pane",
     }).addTo(map);
   } else if (activeMapPack.tiles) {
-    createTileLayer(activeMapPack.tiles, "map-image", 200).addTo(map);
+    createTileLayer(
+      activeMapPack.tiles,
+      "map-image base-map-image",
+      200,
+      "base-map-pane",
+    ).addTo(map);
   }
+  floorScrimLayer = L.imageOverlay(TRANSPARENT_TILE, imageBounds, {
+    className: "floor-map-scrim",
+    interactive: false,
+    opacity: 0,
+    pane: "floor-scrim-pane",
+  }).addTo(map);
   updateFloorLayer();
   markerLayer = L.layerGroup().addTo(map);
   map.fitBounds(mapViewBounds, { animate: false });
@@ -1064,6 +1086,7 @@ function createTileLayer(
   source: MapTileSource,
   className: string,
   zIndex: number,
+  pane: string,
 ): TileLayer {
   const tileLayer = L.tileLayer(source.src, {
     tileSize: source.tileSize,
@@ -1076,6 +1099,7 @@ function createTileLayer(
     keepBuffer: 2,
     updateWhenZooming: false,
     className,
+    pane,
     zIndex,
   });
   if (source.availableTiles) {
@@ -1094,6 +1118,8 @@ function updateFloorLayer(): void {
     map.removeLayer(floorTileLayer);
     floorTileLayer = undefined;
   }
+  floorScrimLayer.setOpacity(0);
+  map.getContainer().classList.remove("is-floor-focused");
   if (!activeFloorId) {
     return;
   }
@@ -1101,10 +1127,13 @@ function updateFloorLayer(): void {
     (layer) => layer.id === activeFloorId,
   );
   if (floor) {
+    map.getContainer().classList.add("is-floor-focused");
+    floorScrimLayer.setOpacity(0.34);
     floorTileLayer = createTileLayer(
       floor.tiles,
       "map-image floor-map-image",
       240,
+      "floor-map-pane",
     ).addTo(map);
   }
 }

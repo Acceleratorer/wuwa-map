@@ -1191,6 +1191,23 @@ input:focus-visible {
   filter: saturate(0.92) contrast(1.03);
 }
 
+.base-map-image {
+  transition: filter 180ms ease;
+}
+
+.floor-scrim-pane {
+  pointer-events: none;
+}
+
+.floor-map-scrim {
+  background: #02070b;
+  transition: opacity 180ms ease;
+}
+
+#map.is-floor-focused .base-map-image {
+  filter: saturate(0.58) brightness(0.72) contrast(1.02);
+}
+
 .map-hud,
 .map-hint {
   position: absolute;
@@ -1361,6 +1378,13 @@ input:focus-visible {
 
 .floor-map-image {
   filter: saturate(0.96) contrast(1.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .base-map-image,
+  .floor-map-scrim {
+    transition: none;
+  }
 }
 
 .marker-popup .leaflet-popup-content-wrapper,
