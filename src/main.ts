@@ -9,6 +9,7 @@ import L, {
 import "leaflet/dist/leaflet.css";
 import "./style.css";
 import demoMapPackJson from "./data/demo-map-pack.json";
+import { createBackupFilename } from "./backup-filename";
 import { createCanvasIconMarker } from "./canvas-marker-icons";
 import { createFilterIcon } from "./filter-icons";
 import { uiIcon } from "./ui-icons";
@@ -1615,9 +1616,17 @@ function bindEvents(): void {
   });
 
   elements.exportBackup.addEventListener("click", async () => {
+    const activeProfile = profiles.find(
+      (profile) => profile.id === activeProfileId,
+    );
+    if (!activeProfile) {
+      showToast("Không tìm thấy profile đang dùng.", "error");
+      return;
+    }
+
     const backup = await database.exportBackup();
     downloadJson(
-      `wayfinder-backup-${new Date().toISOString().slice(0, 10)}.json`,
+      createBackupFilename(activeProfile, new Date(backup.exportedAt)),
       backup,
     );
     showToast("Đã export backup.");
