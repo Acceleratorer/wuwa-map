@@ -9,7 +9,7 @@ import {
   unlinkSync,
   writeFileSync,
 } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { basename, dirname, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import {
   loadKuroTranslations,
@@ -55,97 +55,344 @@ const CHEST_LABELS = new Map([
   ["qzx_04", "Rương huy quang"],
 ]);
 
-export const STATE_REGION_SPLITS = new Map([
-  [
-    8,
-    [
-      {
-        countryId: 1,
-        id: "wuwa-kuro-state-8-country-1",
-        outputName: "8-country-1",
-        title: "Hoàng Long",
-        progressMapId: "wuwa-kuro-state-8",
-        tileRegions: [
-          {
-            minColumn: 9,
-            maxColumn: 18,
-            minRow: 10,
-            maxRow: 22,
-          },
-        ],
-        initialView: {
-          minX: 7500,
-          minY: 9500,
-          maxX: 12800,
-          maxY: 14500,
-        },
-      },
-      {
-        countryId: 1,
-        id: "wuwa-kuro-state-8-country-1-2",
-        outputName: "8-country-1-2",
-        title: "Hoàng Long 2",
-        progressMapId: "wuwa-kuro-state-8",
-        tileRegions: [
-          {
-            minColumn: 0,
-            maxColumn: 8,
-            minRow: 10,
-            maxRow: 16,
-          },
-        ],
-        initialView: {
-          minX: 0,
-          minY: 7680,
-          maxX: 6912,
-          maxY: 13056,
-        },
-      },
-      {
-        countryId: 900,
-        id: "wuwa-kuro-state-8-country-900",
-        outputName: "8-country-900",
-        title: "Quần đảo Bờ Đen",
-        progressMapId: "wuwa-kuro-state-8",
-        tileRegions: [
-          {
-            minColumn: 15,
-            maxColumn: 18,
-            minRow: 13,
-            maxRow: 18,
-          },
-        ],
-        initialView: {
-          minX: 11900,
-          minY: 10800,
-          maxX: 13700,
-          maxY: 12800,
-        },
-      },
-      {
-        countryId: 3,
-        id: "wuwa-kuro-state-8-country-3",
-        outputName: "8-country-3",
-        title: "Rinascita",
-        progressMapId: "wuwa-kuro-state-8",
-        tileRegions: [
-          {
-            minColumn: 19,
-            maxColumn: 29,
-            minRow: 16,
-            maxRow: 30,
-          },
-        ],
-        initialView: {
-          minX: 15000,
-          minY: 12300,
-          maxX: 23040,
-          maxY: 23808,
-        },
-      },
-    ],
-  ],
+export const OFFICIAL_REALM_GROUPS = [
+  {
+    id: "roya-frostlands",
+    sourceCountryId: 4,
+    title: "Băng nguyên Roya",
+    order: 0,
+  },
+  {
+    id: "rinascita",
+    sourceCountryId: 3,
+    title: "Rinascita",
+    order: 1,
+  },
+  {
+    id: "black-shores",
+    sourceCountryId: 900,
+    title: "Quần đảo Bờ Đen",
+    order: 2,
+  },
+  {
+    id: "huanglong",
+    sourceCountryId: 1,
+    title: "Hoàng Long",
+    order: 3,
+  },
+];
+
+const REALM_GROUP_BY_COUNTRY_ID = new Map(
+  OFFICIAL_REALM_GROUPS.map((group) => [group.sourceCountryId, group]),
+);
+
+const OFFICIAL_MAP_STATE_SECTIONS = [
+  {
+    realmId: "roya-frostlands",
+    mapState: "7",
+    id: "dimmr-plains",
+    title: "Dimmr Plains",
+    order: 0,
+  },
+  {
+    realmId: "roya-frostlands",
+    mapState: "6",
+    id: "frostlands-surface",
+    title: "Frostlands Surface",
+    order: 1,
+  },
+  {
+    realmId: "roya-frostlands",
+    mapState: "5",
+    id: "lahai-roi",
+    title: "Lahai-Roi",
+    order: 2,
+  },
+  {
+    realmId: "rinascita",
+    mapState: "4",
+    id: "septimont",
+    title: "Septimont",
+    order: 0,
+  },
+  {
+    realmId: "rinascita",
+    mapState: "3",
+    id: "ragunna",
+    title: "Ragunna",
+    order: 1,
+  },
+  {
+    realmId: "huanglong",
+    mapState: "8",
+    id: "mengzhou",
+    title: "Mengzhou",
+    order: 0,
+  },
+  {
+    realmId: "huanglong",
+    mapState: "1",
+    id: "jinzhou",
+    title: "Jinzhou",
+    order: 1,
+  },
+];
+
+const OFFICIAL_MAP_STATE_SECTION_BY_KEY = new Map(
+  OFFICIAL_MAP_STATE_SECTIONS.map((section) => [
+    `${section.realmId}/${section.mapState}`,
+    section,
+  ]),
+);
+
+const LEGACY_MAP_IDS = new Map([
+  ["8/1/1/2", "wuwa-kuro-state-8-country-1"],
+  ["8/1/8/12", "wuwa-kuro-state-8-country-1-2"],
+  ["8/3/3/1", "wuwa-kuro-state-8-country-3"],
+  ["8/4/6/1", "wuwa-kuro-state-8-country-4"],
+  ["8/900//1", "wuwa-kuro-state-8-country-900"],
+  ["900/900//2", "wuwa-kuro-state-900"],
+  ["902/3/3/9", "wuwa-kuro-state-902"],
+  ["903/3/3/11", "wuwa-kuro-state-903"],
+  ["905/3/3/14", "wuwa-kuro-state-905"],
+  ["906/4/5/6", "wuwa-kuro-state-906"],
+  ["909/4/7/6", "wuwa-kuro-state-909"],
+  ["910/900//3", "wuwa-kuro-state-910"],
 ]);
+
+function officialDefinitionKey({
+  stateId,
+  countryId,
+  mapState,
+  order,
+}) {
+  return `${stateId}/${countryId}/${mapState ?? ""}/${order}`;
+}
+
+function generatedMapOutputName(id, groupId, stateId, mapState, order) {
+  if (id.startsWith("wuwa-kuro-state-")) {
+    return id.slice("wuwa-kuro-state-".length);
+  }
+  return `atlas-${groupId}-${stateId}-${mapState || "base"}-${order}`;
+}
+
+function officialAreaId(index) {
+  return `official-area-${index + 1}`;
+}
+
+export function buildOfficialMapDefinitions(
+  countryData,
+  translations = new Map(),
+) {
+  if (!Array.isArray(countryData)) {
+    throw new Error("country.json của KURO không đúng định dạng.");
+  }
+
+  const definitions = [];
+  for (const [realmIndex, realm] of countryData.entries()) {
+    const group = REALM_GROUP_BY_COUNTRY_ID.get(Number(realm.countryId));
+    if (!group || !Array.isArray(realm.countrys)) {
+      continue;
+    }
+
+    for (const [entryIndex, entry] of realm.countrys.entries()) {
+      const stateId = Number(entry.stateId);
+      const countryId = Number(entry.countryId ?? realm.countryId);
+      const order = Number.isInteger(Number(entry.order))
+        ? Number(entry.order)
+        : entryIndex + 1;
+      const mapState = String(entry.mapState ?? "");
+      const key = officialDefinitionKey({
+        stateId,
+        countryId,
+        mapState,
+        order,
+      });
+      const legacyId = LEGACY_MAP_IDS.get(key);
+      const id =
+        legacyId ??
+        `wuwa-kuro-atlas-${group.id}-${stateId}-${mapState || "base"}-${order}`;
+      const sourceName = String(entry.name ?? `Atlas ${order}`);
+      const areas = (entry.children ?? [])
+        .filter(
+          (child) =>
+            Number.isFinite(Number(child.xPosition)) &&
+            Number.isFinite(Number(child.yPosition)),
+        )
+        .map((child, childIndex) => ({
+          id: officialAreaId(childIndex),
+          sourceName: String(child.name ?? `Khu ${childIndex + 1}`),
+          label: localizeKuroText(
+            String(child.name ?? `Khu ${childIndex + 1}`),
+            translations,
+          ),
+          anchor: {
+            x: Number(child.xPosition),
+            y: Number(child.yPosition),
+          },
+        }));
+
+      definitions.push({
+        id,
+        outputName: generatedMapOutputName(
+          id,
+          group.id,
+          stateId,
+          mapState,
+          order,
+        ),
+        realmId: group.id,
+        realmTitle: group.title,
+        realmOrder: group.order,
+        realmSourceName: String(realm.name ?? group.title),
+        stateId,
+        countryId,
+        mapState,
+        order,
+        sourceName,
+        title: localizeKuroText(sourceName, translations),
+        progressMapId:
+          stateId === 8 ? "wuwa-kuro-state-8" : `wuwa-kuro-state-${stateId}`,
+        areas,
+        atlasAnchor: {
+          x: Number(entry.xPosition),
+          y: Number(entry.yPosition),
+        },
+        sourceIndex: `${realmIndex}-${entryIndex}`,
+      });
+    }
+  }
+
+  if (definitions.length === 0) {
+    throw new Error("country.json không có atlas map hợp lệ.");
+  }
+  return definitions;
+}
+
+function squaredDistanceToAtlas(location, definition) {
+  return (
+    (location.x - definition.atlasAnchor.x) ** 2 +
+    (location.y - definition.atlasAnchor.y) ** 2
+  );
+}
+
+export function assignOfficialLocationIds(positionData, definitions) {
+  const assignments = new Map(
+    definitions.map((definition) => [definition.id, new Set()]),
+  );
+  const peerGroups = new Map();
+  const stateGroups = new Map();
+  for (const definition of definitions) {
+    const key = `${definition.stateId}/${definition.countryId}`;
+    const peers = peerGroups.get(key) ?? [];
+    peers.push(definition);
+    peerGroups.set(key, peers);
+    const statePeers = stateGroups.get(definition.stateId) ?? [];
+    statePeers.push(definition);
+    stateGroups.set(definition.stateId, statePeers);
+  }
+
+  for (const item of positionData) {
+    for (const location of item.location ?? []) {
+      if (
+        !Number.isFinite(Number(location.x)) ||
+        !Number.isFinite(Number(location.y))
+      ) {
+        continue;
+      }
+      const exactPeers = peerGroups.get(
+        `${Number(location.stateId)}/${Number(location.countryId)}`,
+      );
+      const peers =
+        exactPeers ?? stateGroups.get(Number(location.stateId));
+      if (!peers || peers.length === 0) {
+        continue;
+      }
+      let closest = peers[0];
+      let closestDistance = squaredDistanceToAtlas(location, closest);
+      for (const peer of peers.slice(1)) {
+        const distance = squaredDistanceToAtlas(location, peer);
+        if (
+          distance < closestDistance ||
+          (
+            distance === closestDistance &&
+            peer.sourceIndex.localeCompare(closest.sourceIndex) < 0
+          )
+        ) {
+          closest = peer;
+          closestDistance = distance;
+        }
+      }
+      assignments.get(closest.id).add(String(location.id));
+    }
+  }
+  return assignments;
+}
+
+export function buildCatalogGroups(entries, definitions = []) {
+  const availableMapIds = new Set(entries.map((entry) => entry.id));
+  const definitionsByMapId = new Map(
+    definitions.map((definition) => [definition.id, definition]),
+  );
+  return OFFICIAL_REALM_GROUPS
+    .map((group) => {
+      const groupDefinitions = definitions
+        .filter((definition) => definition.realmId === group.id)
+        .sort(
+          (left, right) =>
+            left.realmOrder - right.realmOrder ||
+            left.order - right.order ||
+            left.sourceIndex.localeCompare(right.sourceIndex),
+        )
+        .filter((definition) => availableMapIds.has(definition.id));
+      const sectionByKey = new Map();
+      for (const definition of groupDefinitions) {
+        const configuredSection = OFFICIAL_MAP_STATE_SECTION_BY_KEY.get(
+          `${definition.realmId}/${definition.mapState}`,
+        );
+        const section = configuredSection ?? {
+          id: `${group.id}-${definition.mapState || "base"}`,
+          title: definition.mapState
+            ? `Cụm bản đồ ${definition.mapState}`
+            : group.title,
+          order: Number.MAX_SAFE_INTEGER,
+        };
+        const sectionMaps = sectionByKey.get(section.id) ?? {
+          id: section.id,
+          title: section.title,
+          order: section.order,
+          mapIds: [],
+        };
+        sectionMaps.mapIds.push(definition.id);
+        sectionByKey.set(section.id, sectionMaps);
+      }
+      const sections = [...sectionByKey.values()]
+        .sort(
+          (left, right) =>
+            left.order - right.order ||
+            left.title.localeCompare(right.title, "en"),
+        )
+        .map(({ id, title, mapIds }) => ({ id, title, mapIds }));
+      const catalogGroup = {
+        id: group.id,
+        title: group.title,
+        mapIds:
+          sections.length > 1
+            ? sections.flatMap((section) => section.mapIds)
+            : groupDefinitions.map((definition) => definition.id),
+      };
+      if (sections.length > 1) {
+        catalogGroup.sections = sections;
+      }
+      return catalogGroup;
+    })
+    .filter((group) => group.mapIds.length > 0)
+    .map((group) => ({
+      ...group,
+      mapIds: group.mapIds.filter((mapId) => definitionsByMapId.has(mapId)),
+    }))
+    .filter((group) => group.mapIds.length > 0);
+}
 
 function parseArguments(argv) {
   const values = new Map();
@@ -399,10 +646,15 @@ export function buildLayerEntries({
   return entries;
 }
 
-function locationMatchesRegion(location, stateId, countryId) {
+function locationMatchesRegion(location, stateId, countryId, locationIds) {
   return (
-    location.stateId === stateId &&
-    (countryId === undefined || Number(location.countryId) === countryId) &&
+    Number(location.stateId) === stateId &&
+    (
+      locationIds !== undefined ||
+      countryId === undefined ||
+      Number(location.countryId) === countryId
+    ) &&
+    (locationIds === undefined || locationIds.has(String(location.id))) &&
     Number.isFinite(location.x) &&
     Number.isFinite(location.y)
   );
@@ -419,6 +671,252 @@ function scaleInitialView(initialView, tileSize, width, height) {
     maxX: Math.min(width, initialView.maxX * scale),
     maxY: Math.min(height, initialView.maxY * scale),
   };
+}
+
+function scaleAreas(areas, tileSize, width, height) {
+  return areas?.map((area) => ({
+    ...area,
+    bounds: scaleInitialView(area.bounds, tileSize, width, height),
+  }));
+}
+
+function scalePoint(point, tileSize) {
+  const scale = tileSize / DEFAULT_TILE_SIZE;
+  return {
+    x: point.x * scale,
+    y: point.y * scale,
+  };
+}
+
+function clampAreaBounds(bounds, limits) {
+  const width = Math.min(
+    limits.maxX - limits.minX,
+    Math.max(1, bounds.maxX - bounds.minX),
+  );
+  const height = Math.min(
+    limits.maxY - limits.minY,
+    Math.max(1, bounds.maxY - bounds.minY),
+  );
+  const minX = Math.max(limits.minX, Math.min(bounds.minX, limits.maxX - width));
+  const minY = Math.max(limits.minY, Math.min(bounds.minY, limits.maxY - height));
+  return {
+    minX,
+    minY,
+    maxX: minX + width,
+    maxY: minY + height,
+  };
+}
+
+function boundsForRouteMarkers(markers, limits, tileSize) {
+  const padding = tileSize * 0.42;
+  const minX = Math.min(...markers.map((marker) => marker.x)) - padding;
+  const minY = Math.min(...markers.map((marker) => marker.y)) - padding;
+  const maxX = Math.max(...markers.map((marker) => marker.x)) + padding;
+  const maxY = Math.max(...markers.map((marker) => marker.y)) + padding;
+  return clampAreaBounds({
+    minX: Math.max(limits.minX, minX),
+    minY: Math.max(limits.minY, minY),
+    maxX: Math.min(limits.maxX, maxX),
+    maxY: Math.min(limits.maxY, maxY),
+  }, limits);
+}
+
+function boundsForAreaAnchor(anchor, limits, tileSize) {
+  const padding = tileSize * 0.65;
+  return clampAreaBounds(
+    {
+      minX: anchor.x - padding,
+      minY: anchor.y - padding,
+      maxX: anchor.x + padding,
+      maxY: anchor.y + padding,
+    },
+    limits,
+  );
+}
+
+function tileRegionsForBounds(bounds, tileSize, columns, rows) {
+  return [
+    {
+      minColumn: Math.max(
+        0,
+        Math.floor(bounds.minX / tileSize) - 1,
+      ),
+      maxColumn: Math.min(
+        columns - 1,
+        Math.max(
+          0,
+          Math.ceil(bounds.maxX / tileSize),
+        ),
+      ),
+      minRow: Math.max(
+        0,
+        Math.floor(bounds.minY / tileSize) - 1,
+      ),
+      maxRow: Math.min(
+        rows - 1,
+        Math.max(
+          0,
+          Math.ceil(bounds.maxY / tileSize),
+        ),
+      ),
+    },
+  ];
+}
+
+function routeCountForMarkers(markerCount) {
+  if (markerCount < 160) {
+    return 1;
+  }
+  if (markerCount < 500) {
+    return 2;
+  }
+  if (markerCount < 1200) {
+    return 3;
+  }
+  if (markerCount < 2500) {
+    return 4;
+  }
+  return 5;
+}
+
+function routeLabel(axis, index, count) {
+  const labels = axis === "x"
+    ? {
+        2: ["Phía Tây", "Phía Đông"],
+        3: ["Phía Tây", "Trung tâm", "Phía Đông"],
+        4: ["Phía Tây", "Tây trung tâm", "Đông trung tâm", "Phía Đông"],
+        5: [
+          "Phía Tây",
+          "Tây trung tâm",
+          "Trung tâm",
+          "Đông trung tâm",
+          "Phía Đông",
+        ],
+      }
+    : {
+        2: ["Phía Bắc", "Phía Nam"],
+        3: ["Phía Bắc", "Trung tâm", "Phía Nam"],
+        4: ["Phía Bắc", "Bắc trung tâm", "Nam trung tâm", "Phía Nam"],
+        5: [
+          "Phía Bắc",
+          "Bắc trung tâm",
+          "Trung tâm",
+          "Nam trung tâm",
+          "Phía Nam",
+        ],
+      };
+  return labels[count]?.[index] ?? `Khu ${index + 1}`;
+}
+
+export function deriveRouteAreas(markers, tileSize, bounds) {
+  const routeCount = routeCountForMarkers(markers.length);
+  if (routeCount <= 1) {
+    return [
+      {
+        id: "whole-map",
+        label: "Toàn khu vực",
+        bounds: boundsForRouteMarkers(markers, bounds, tileSize),
+        markerIds: markers.map((marker) => marker.id),
+      },
+    ];
+  }
+
+  const xValues = markers.map((marker) => marker.x);
+  const yValues = markers.map((marker) => marker.y);
+  const xSpan = Math.max(...xValues) - Math.min(...xValues);
+  const ySpan = Math.max(...yValues) - Math.min(...yValues);
+  const axis = xSpan > ySpan ? "x" : "y";
+  const sortedMarkers = [...markers].sort((left, right) =>
+    left[axis] - right[axis] ||
+    left[axis === "x" ? "y" : "x"] - right[axis === "x" ? "y" : "x"] ||
+    left.id.localeCompare(right.id),
+  );
+  const routeMarkers = Array.from(
+    { length: routeCount },
+    (_, index) => {
+      const start = Math.floor(index * sortedMarkers.length / routeCount);
+      const end = Math.floor(
+        (index + 1) * sortedMarkers.length / routeCount,
+      );
+      return sortedMarkers.slice(start, Math.max(start + 1, end));
+    },
+  );
+
+  return routeMarkers.map((areaMarkers, index) => ({
+    id: `route-${index + 1}`,
+    label: routeLabel(axis, index, routeCount),
+    bounds: boundsForRouteMarkers(areaMarkers, bounds, tileSize),
+    markerIds: areaMarkers.map((marker) => marker.id),
+  }));
+}
+
+function buildRouteAreas(
+  areas,
+  markers,
+  tileSize,
+  bounds,
+  { anchorsAreLocal = false } = {},
+) {
+  const normalizedAreas = areas?.length > 0 ? areas : undefined;
+  const derivedAreas = normalizedAreas === undefined
+    ? deriveRouteAreas(markers, tileSize, bounds)
+    : undefined;
+  const routeDefinitions = normalizedAreas ?? derivedAreas;
+  if (!routeDefinitions) {
+    return undefined;
+  }
+  if (normalizedAreas === undefined) {
+    return routeDefinitions;
+  }
+  if (!normalizedAreas.every((area) => area.anchor)) {
+    return scaleAreas(
+      normalizedAreas,
+      tileSize,
+      bounds.maxX,
+      bounds.maxY,
+    );
+  }
+
+  const scaledAreas = routeDefinitions.map((area) => ({
+    ...area,
+    anchor: anchorsAreLocal
+      ? area.anchor
+      : scalePoint(area.anchor, tileSize),
+  }));
+  const markersByAreaId = new Map(
+    scaledAreas.map((area) => [area.id, []]),
+  );
+
+  for (const marker of markers) {
+    let closestArea;
+    let closestDistance = Number.POSITIVE_INFINITY;
+    for (const area of scaledAreas) {
+      const distance =
+        (marker.x - area.anchor.x) ** 2 +
+        (marker.y - area.anchor.y) ** 2;
+      if (distance < closestDistance) {
+        closestArea = area;
+        closestDistance = distance;
+      }
+    }
+    if (!closestArea) {
+      throw new Error("Không thể gán marker vào khu chạy map.");
+    }
+    markersByAreaId.get(closestArea.id).push(marker);
+  }
+
+  return scaledAreas.map((area) => {
+    const areaMarkers = markersByAreaId.get(area.id) ?? [];
+    return {
+      id: area.id,
+      label: area.label,
+      bounds:
+        areaMarkers.length > 0
+          ? boundsForRouteMarkers(areaMarkers, bounds, tileSize)
+          : boundsForAreaAnchor(area.anchor, bounds, tileSize),
+      markerIds: areaMarkers.map((marker) => marker.id),
+    };
+  });
 }
 
 function tileMatchesRegions(tile, tileRegions) {
@@ -499,7 +997,10 @@ export function buildKuroMapPack({
   mapId,
   progressMapId,
   tileRegions,
+  locationIds,
   initialView,
+  areas,
+  areasUseLocalAnchors = false,
   tileSize,
   tileExtension,
   tileWebPrefix,
@@ -512,11 +1013,18 @@ export function buildKuroMapPack({
 }) {
   const width = layout.columns * tileSize;
   const height = layout.rows * tileSize;
+  const fullBounds = {
+    minX: 0,
+    minY: 0,
+    maxX: width,
+    maxY: height,
+  };
   const candidateItems = positionData.filter(
     (item) =>
       Array.isArray(item.location) &&
       item.location.some(
-        (location) => locationMatchesRegion(location, stateId, countryId),
+        (location) =>
+          locationMatchesRegion(location, stateId, countryId, locationIds),
       ),
   );
   const groupByItemId = new Map(
@@ -531,7 +1039,14 @@ export function buildKuroMapPack({
       translations,
     );
     for (const location of item.location) {
-      if (!locationMatchesRegion(location, stateId, countryId)) {
+      if (
+        !locationMatchesRegion(
+          location,
+          stateId,
+          countryId,
+          locationIds,
+        )
+      ) {
         continue;
       }
       const pixel = gameToLocalPixel(
@@ -566,6 +1081,19 @@ export function buildKuroMapPack({
     throw new Error(`State ${stateId} không có marker hợp lệ.`);
   }
 
+  const markerBounds = boundsForRouteMarkers(markers, fullBounds, tileSize);
+  const effectiveTileRegions =
+    tileRegions ??
+    tileRegionsForBounds(
+      markerBounds,
+      tileSize,
+      layout.columns,
+      layout.rows,
+    );
+  const contentBounds =
+    tileRegionBounds(effectiveTileRegions, tileSize, width, height) ??
+    markerBounds;
+  const routeBounds = contentBounds;
   const usedItemIds = new Set(markers.map((marker) => marker.categoryId));
   const items = candidateItems.filter((item) =>
     usedItemIds.has(String(item.id)),
@@ -585,11 +1113,11 @@ export function buildKuroMapPack({
     .filter((layer) => usedLayerIds.has(layer.id))
     .map((layer) => ({
       ...layer,
-      tiles: filterTileSourceToRegions(layer.tiles, tileRegions),
+      tiles: filterTileSourceToRegions(layer.tiles, effectiveTileRegions),
     }))
     .filter((layer) => layer.tiles.availableTiles?.length !== 0);
   const availableTiles = layout.tiles
-    .filter((tile) => tileMatchesRegions(tile, tileRegions))
+    .filter((tile) => tileMatchesRegions(tile, effectiveTileRegions))
     .map((tile) => `${tile.column},${tile.leafletY}`);
 
   return {
@@ -612,8 +1140,16 @@ export function buildKuroMapPack({
       rows: layout.rows,
       availableTiles,
     },
-    bounds: tileRegionBounds(tileRegions, tileSize, width, height),
-    initialView: scaleInitialView(initialView, tileSize, width, height),
+    bounds: contentBounds,
+    initialView:
+      scaleInitialView(initialView, tileSize, width, height) ?? markerBounds,
+    areas: buildRouteAreas(
+      areas,
+      markers,
+      tileSize,
+      routeBounds,
+      { anchorsAreLocal: areasUseLocalAnchors },
+    ),
     categoryGroups: [...CATEGORY_GROUPS, FALLBACK_GROUP]
       .filter((group) => usedGroupIds.has(group.id))
       .map(({ id, label, icon }) => ({ id, label, icon })),
@@ -812,6 +1348,26 @@ async function main() {
       return payload.data;
     }),
   ]);
+  const countryPath = join(rawOutputDirectory, "country.json");
+  const areaPath = join(rawOutputDirectory, "area.json");
+  const catalogRelationPath = join(
+    rawOutputDirectory,
+    "catalogRelation.json",
+  );
+  const [countryData, areaData, catalogRelationData] = await Promise.all([
+    fetchJsonWithCache(
+      `${CDN_ORIGIN}/mcmap/country/${resourceHash}/country.json`,
+      countryPath,
+    ),
+    fetchJsonWithCache(
+      `${CDN_ORIGIN}/mcmap/area/${resourceHash}/area.json`,
+      areaPath,
+    ),
+    fetchJsonWithCache(
+      `${CDN_ORIGIN}/mcmap/catalog/${resourceHash}/catalogRelation.json`,
+      catalogRelationPath,
+    ),
+  ]);
   const refreshTiles =
     argumentsMap.get("--refresh-tiles") === "true" ||
     previousManifest?.resourceHash !== resourceHash ||
@@ -832,9 +1388,21 @@ async function main() {
   mkdirSync(rawOutputDirectory, { recursive: true });
   writeJson(join(rawOutputDirectory, "map-id-list.json"), mapIdList);
   writeJson(join(rawOutputDirectory, "state-selection.json"), selection);
+  writeJson(countryPath, countryData);
+  writeJson(areaPath, areaData);
+  writeJson(catalogRelationPath, catalogRelationData);
 
-  const names = stateNames(selection);
+  const mapDefinitions = buildOfficialMapDefinitions(countryData, translations);
+  const previousCatalog = readJsonIfPresent(
+    join(outputDirectory, "catalog.json"),
+  );
+  const previousMapFileNames = new Set(
+    (previousCatalog?.maps ?? [])
+      .map((entry) => basename(String(entry.pack ?? "")))
+      .filter((fileName) => fileName.endsWith(".json")),
+  );
   const catalogEntries = [];
+  const expectedMapFileNames = new Set();
   const iconOutputDirectory = join(outputDirectory, "icons");
   const iconWebPathBySource = new Map();
   const expectedIconNames = new Set();
@@ -960,23 +1528,36 @@ async function main() {
       }
     });
 
-    const splitDefinitions = STATE_REGION_SPLITS.get(stateId);
-    const mapDefinitions = splitDefinitions ?? [
-      {
-        id: `wuwa-kuro-state-${stateId}`,
-        outputName: String(stateId),
-        title: names.get(stateId),
-      },
-    ];
-    const mapPacks = mapDefinitions.map((definition) =>
-      buildKuroMapPack({
+    const stateDefinitions = mapDefinitions.filter(
+      (definition) => definition.stateId === stateId,
+    );
+    if (stateDefinitions.length === 0) {
+      throw new Error(`Không có atlas chính thức cho state ${stateId}.`);
+    }
+    const locationAssignments = assignOfficialLocationIds(
+      positionData,
+      stateDefinitions,
+    );
+    const mapPacks = stateDefinitions.map((definition) => {
+      const officialAreas = definition.areas.map((area) => ({
+        id: area.id,
+        label: area.label,
+        anchor: gameToLocalPixel(
+          area.anchor.x,
+          area.anchor.y,
+          tileSize,
+          layout,
+        ),
+      }));
+      return buildKuroMapPack({
         stateId,
         stateName: definition.title,
         countryId: definition.countryId,
         mapId: definition.id,
         progressMapId: definition.progressMapId,
-        tileRegions: definition.tileRegions,
-        initialView: definition.initialView,
+        locationIds: locationAssignments.get(definition.id),
+        areas: officialAreas,
+        areasUseLocalAnchors: true,
         tileSize,
         tileExtension,
         tileWebPrefix,
@@ -986,12 +1567,13 @@ async function main() {
         layerEntries,
         retrievedAt,
         translations,
-      })
-    );
+      });
+    });
 
     for (let index = 0; index < mapPacks.length; index += 1) {
       const mapPack = mapPacks[index];
-      const outputName = mapDefinitions[index].outputName;
+      const definition = stateDefinitions[index];
+      const outputName = definition.outputName;
       writeJson(
         join(outputDirectory, "maps", `${outputName}.json`),
         mapPack,
@@ -1000,16 +1582,14 @@ async function main() {
         id: mapPack.id,
         title: mapPack.title,
         pack: `map-packs/private/maps/${outputName}.json`,
+        areas: mapPack.areas?.map(({ id, label, bounds }) => ({
+          id,
+          label,
+          bounds,
+        })),
       });
+      expectedMapFileNames.add(`${outputName}.json`);
       totalMarkers += mapPack.markers.length;
-    }
-    const legacyMapPath = join(
-      outputDirectory,
-      "maps",
-      `${stateId}.json`,
-    );
-    if (splitDefinitions && existsSync(legacyMapPath)) {
-      unlinkSync(legacyMapPath);
     }
     const markerTotal = mapPacks.reduce(
       (total, pack) => total + pack.markers.length,
@@ -1025,32 +1605,39 @@ async function main() {
     );
   }
 
+  for (const fileName of previousMapFileNames) {
+    if (!expectedMapFileNames.has(fileName)) {
+      const stalePath = join(outputDirectory, "maps", fileName);
+      if (existsSync(stalePath)) {
+        unlinkSync(stalePath);
+      }
+    }
+  }
+
   if (stateIds.length === availableStateIds.length) {
     removeStaleIcons(iconOutputDirectory, expectedIconNames);
   }
 
-  const splitOrder = new Map(
-    [...STATE_REGION_SPLITS.values()]
-      .flat()
-      .map((definition, index) => [definition.id, index]),
+  const definitionOrder = new Map(
+    mapDefinitions.map((definition, index) => [definition.id, index]),
   );
+  const defaultMapId =
+    mapDefinitions.find((definition) => definition.stateId === defaultStateId)
+      ?.id ?? mapDefinitions[0].id;
   catalogEntries.sort((left, right) => {
-    const defaultMapId = `wuwa-kuro-state-${defaultStateId}`;
     if (left.id === defaultMapId) return -1;
     if (right.id === defaultMapId) return 1;
-    const leftSplitOrder = splitOrder.get(left.id);
-    const rightSplitOrder = splitOrder.get(right.id);
-    if (leftSplitOrder !== undefined && rightSplitOrder !== undefined) {
-      return leftSplitOrder - rightSplitOrder;
-    }
-    if (leftSplitOrder !== undefined) return -1;
-    if (rightSplitOrder !== undefined) return 1;
-    return left.id.localeCompare(right.id, "vi", { numeric: true });
+    return (
+      (definitionOrder.get(left.id) ?? Number.MAX_SAFE_INTEGER) -
+        (definitionOrder.get(right.id) ?? Number.MAX_SAFE_INTEGER) ||
+      left.id.localeCompare(right.id, "vi", { numeric: true })
+    );
   });
   writeJson(join(outputDirectory, "catalog.json"), {
     schemaVersion: 1,
-    defaultMapId: `wuwa-kuro-state-${defaultStateId}`,
+    defaultMapId,
     maps: catalogEntries,
+    groups: buildCatalogGroups(catalogEntries, mapDefinitions),
   });
   writeJson(join(rawOutputDirectory, "manifest.json"), {
     schemaVersion: 1,
@@ -1060,6 +1647,9 @@ async function main() {
     tileSize,
     iconSize: 96,
     states: stateIds,
+    maps: mapDefinitions
+      .filter((definition) => stateIds.includes(definition.stateId))
+      .map((definition) => definition.id),
   });
   console.log(
     `Hoàn tất: ${stateIds.length} map, ${totalMarkers} marker, ` +

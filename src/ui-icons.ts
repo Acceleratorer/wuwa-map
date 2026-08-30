@@ -12,6 +12,7 @@ export type UiIconName =
   | "settings"
   | "signal"
   | "sparkles"
+  | "switch"
   | "upload"
   | "user";
 
@@ -35,6 +36,8 @@ const ICON_CONTENT: Record<UiIconName, string> = {
     '<path d="M4.9 19.1a10 10 0 0 1 0-14.2M7.8 16.2a6 6 0 0 1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8a6 6 0 0 1 0 8.5M19.1 4.9a10 10 0 0 1 0 14.2"/>',
   sparkles:
     '<path d="m12 3 1.2 3.8L17 8l-3.8 1.2L12 13l-1.2-3.8L7 8l3.8-1.2L12 3ZM6 14l.8 2.2L9 17l-2.2.8L6 20l-.8-2.2L3 17l2.2-.8L6 14ZM19 13l.6 1.4L21 15l-1.4.6L19 17l-.6-1.4L17 15l1.4-.6L19 13Z"/>',
+  switch:
+    '<path d="M4 7h13m0 0-3-3m3 3-3 3M20 17H7m0 0 3 3m-3-3 3-3"/>',
   upload: '<path d="M12 16V4m0 0-4 4m4-4 4 4M5 21h14"/>',
   user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
 };

@@ -1,4 +1,6 @@
-const CACHE_NAME = "wayfinder-runtime-v7";
+const CACHE_VERSION =
+  new URL(self.location.href).searchParams.get("v") ?? "route-switcher-v9";
+const CACHE_NAME = `wayfinder-runtime-${CACHE_VERSION}`;
 const APP_SHELL = ["./", "./demo-map.svg", "./icon.svg", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
@@ -55,16 +57,21 @@ self.addEventListener("fetch", (event) => {
     url.pathname.includes("/map-packs/private/") &&
     url.pathname.endsWith(".json")
   ) {
+    const networkResponse = fetch(request).then(async (response) => {
+      if (response.ok) {
+        const cacheCopy = response.clone();
+        await caches
+          .open(CACHE_NAME)
+          .then((cache) => cache.put(request, cacheCopy))
+          .catch(() => undefined);
+      }
+      return response;
+    });
+    event.waitUntil(networkResponse.then(() => undefined, () => undefined));
     event.respondWith(
-      fetch(request)
-        .then((response) => {
-          if (response.ok) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-          }
-          return response;
-        })
-        .catch(() => caches.match(request)),
+      caches
+        .match(request)
+        .then((cached) => cached ?? networkResponse),
     );
     return;
   }

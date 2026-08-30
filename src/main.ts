@@ -1,6 +1,5 @@
 import L, {
   type ImageOverlay,
-  type Layer,
   type LayerGroup,
   type Map as LeafletMap,
   type Marker,
@@ -22,15 +21,22 @@ import {
 import { summarizeProgressForCategories } from "./progress";
 import { LocalDatabase, progressRecordId } from "./storage";
 import { SyncApiError, SyncClient, type RemoteSession } from "./sync";
+import { buildMarkerSearchIndex, normalizeSearchText } from "./marker-search";
 import type {
   MapCatalog,
+  MapCatalogEntry,
+  MapCatalogGroup,
+  MapCatalogSection,
+  MapArea,
   MapCategory,
   MapCategoryGroup,
   MapFloorLayer,
   MapMarker,
   MapPack,
   MapTileSource,
+  MapViewBounds,
   Profile,
+  ProgressRecord,
 } from "./types";
 
 const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
@@ -41,7 +47,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
-const MAP_DATA_VERSION = "region-split-v3";
+const MAP_DATA_VERSION = "route-switcher-v9";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);
@@ -100,48 +106,24 @@ app.innerHTML = `
     </header>
 
     <aside class="sidebar" id="sidebar">
-      <section class="map-intro">
-        <div class="map-intro-heading">
-          <div class="eyebrow">BẢN ĐỒ ĐANG DÙNG</div>
+      <section class="loot-console-heading">
+        <div class="loot-console-title">
+          <span class="eyebrow">ROUTE FILTER</span>
           <span class="live-badge"><i></i> LIVE DATA</span>
         </div>
-        <h1 id="map-title"></h1>
-        <p id="map-subtitle"></p>
-        <div class="map-picker-grid">
-          <label class="map-picker" id="map-picker" hidden>
-            <span class="field-label">${uiIcon("map")} Khu vực</span>
-            <select id="map-select" aria-label="Chọn khu vực"></select>
-          </label>
-          <label class="map-picker" id="floor-picker" hidden>
-            <span class="field-label">${uiIcon("layers")} Tầng bản đồ</span>
-            <select id="floor-select" aria-label="Chọn tầng bản đồ"></select>
-          </label>
-        </div>
-        <div class="demo-notice" id="demo-notice">
-          <span>DEMO</span>
-          Dữ liệu giả lập, không phải dữ liệu trong game.
-        </div>
-      </section>
-
-      <section class="progress-card">
-        <div class="progress-card-row">
-          <div class="progress-copy">
-            <span class="progress-card-icon">${uiIcon("sparkles")}</span>
-            <div>
-              <span class="eyebrow">TIẾN TRÌNH</span>
-              <strong id="progress-percentage">0%</strong>
-            </div>
-          </div>
-          <span id="progress-fraction">0 / 0 điểm</span>
-        </div>
-        <div class="progress-track" aria-hidden="true">
-          <div id="progress-bar"></div>
-        </div>
+        <h1>Vật phẩm & điểm loot</h1>
+        <p>Chọn đúng item cần chạy; bản đồ và khu vực được đổi bằng nút nổi bên dưới.</p>
       </section>
 
       <label class="search-box">
         ${uiIcon("search")}
-        <input id="search-input" type="search" placeholder="Tìm tên hoặc ID..." autocomplete="off" />
+        <input
+          id="search-input"
+          type="search"
+          aria-label="Tìm điểm theo tên hoặc ID"
+          placeholder="Tìm tên hoặc ID..."
+          autocomplete="off"
+        />
       </label>
 
       <div class="section-heading category-heading">
@@ -194,24 +176,90 @@ app.innerHTML = `
     <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="Đóng bộ lọc"></button>
 
     <main class="map-stage">
-      <div class="mobile-map-controls" id="mobile-map-controls" hidden>
-        <label class="mobile-map-picker" id="mobile-map-picker" hidden>
-          <span>${uiIcon("map")} Khu vực</span>
-          <select id="mobile-map-select" aria-label="Chọn khu vực nhanh"></select>
-        </label>
-        <label class="mobile-map-picker" id="mobile-floor-picker" hidden>
-          <span>${uiIcon("layers")} Tầng</span>
-          <select id="mobile-floor-select" aria-label="Chọn tầng nhanh"></select>
-        </label>
-      </div>
       <div id="map" aria-label="Bản đồ tương tác"></div>
+      <section class="route-overview" aria-live="polite">
+        <span class="route-realm" id="route-realm-title">Bản đồ</span>
+        <h1 id="map-title"></h1>
+        <p id="map-subtitle"></p>
+        <div class="route-progress-row">
+          <div>
+            <strong id="progress-percentage">0%</strong>
+            <span id="progress-fraction">0 / 0 điểm</span>
+          </div>
+          <span class="route-area-name" id="route-area-name">Toàn khu vực</span>
+        </div>
+        <div
+          class="progress-track"
+          id="progress-track"
+          role="progressbar"
+          aria-label="Tiến trình khu vực đang chọn"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div id="progress-bar"></div>
+        </div>
+        <div class="demo-notice" id="demo-notice">
+          <span>DEMO</span>
+          Dữ liệu giả lập.
+        </div>
+      </section>
       <div class="map-hud">
         ${uiIcon("signal")}
         <span id="visible-count">0 điểm đang hiển thị</span>
       </div>
+      <button class="map-switch-trigger" id="map-switch-trigger" type="button" aria-haspopup="dialog">
+        ${uiIcon("map")}
+        <span>Chuyển bản đồ</span>
+        ${uiIcon("switch")}
+      </button>
       <div class="map-hint">${uiIcon("fit")} Kéo để di chuyển · Cuộn để phóng to</div>
     </main>
   </div>
+
+  <dialog class="map-switch-dialog" id="map-switch-dialog">
+    <form method="dialog" class="map-switch-shell">
+      <header class="map-switch-header">
+        <div>
+          <span class="eyebrow">WAYFINDER ROUTE NETWORK</span>
+          <h2>Chuyển bản đồ</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Đóng bộ chọn bản đồ">
+          ${uiIcon("close")}
+        </button>
+      </header>
+      <div class="map-switch-grid">
+        <nav class="map-realm-list" id="map-realm-list" aria-label="Đại vùng và cụm bản đồ"></nav>
+        <section class="map-switch-column">
+          <header>
+            <span class="eyebrow">KHU VỰC</span>
+            <strong id="map-realm-heading">Bản đồ</strong>
+          </header>
+          <div class="map-atlas-list" id="map-atlas-list"></div>
+        </section>
+        <section class="map-switch-column">
+          <header>
+            <span class="eyebrow">KHU CHẠY MAP</span>
+            <strong id="map-area-heading">Toàn khu vực</strong>
+          </header>
+          <div class="map-area-list" id="map-area-list"></div>
+          <label class="switch-floor-picker" id="floor-picker" hidden>
+            <span>${uiIcon("layers")} Tầng bản đồ</span>
+            <select id="floor-select" aria-label="Chọn tầng bản đồ"></select>
+          </label>
+        </section>
+      </div>
+      <footer class="map-switch-footer">
+        <span id="map-switch-selection">Chọn atlas và khu vực muốn chạy.</span>
+        <div>
+          <button class="secondary-button" value="cancel">Hủy</button>
+          <button class="primary-button" id="confirm-map-switch" type="button">
+            ${uiIcon("map")} Mở khu vực
+          </button>
+        </div>
+      </footer>
+    </form>
+  </dialog>
 
   <dialog class="settings-dialog" id="settings-dialog">
     <form method="dialog" class="dialog-shell">
@@ -285,22 +333,27 @@ const elements = {
   settingsButton: mustQuery<HTMLButtonElement>("#settings-button"),
   openSettings: mustQuery<HTMLButtonElement>("#open-settings"),
   settingsDialog: mustQuery<HTMLDialogElement>("#settings-dialog"),
+  mapSwitchTrigger: mustQuery<HTMLButtonElement>("#map-switch-trigger"),
+  mapSwitchDialog: mustQuery<HTMLDialogElement>("#map-switch-dialog"),
+  mapRealmList: mustQuery<HTMLElement>("#map-realm-list"),
+  mapRealmHeading: mustQuery<HTMLElement>("#map-realm-heading"),
+  mapAtlasList: mustQuery<HTMLElement>("#map-atlas-list"),
+  mapAreaHeading: mustQuery<HTMLElement>("#map-area-heading"),
+  mapAreaList: mustQuery<HTMLElement>("#map-area-list"),
+  mapSwitchSelection: mustQuery<HTMLElement>("#map-switch-selection"),
+  confirmMapSwitch: mustQuery<HTMLButtonElement>("#confirm-map-switch"),
   mapTitle: mustQuery<HTMLElement>("#map-title"),
   mapSubtitle: mustQuery<HTMLElement>("#map-subtitle"),
+  routeRealmTitle: mustQuery<HTMLElement>("#route-realm-title"),
+  routeAreaName: mustQuery<HTMLElement>("#route-area-name"),
   mapAttribution: mustQuery<HTMLElement>("#map-attribution"),
-  mobileMapControls: mustQuery<HTMLElement>("#mobile-map-controls"),
-  mobileMapPicker: mustQuery<HTMLElement>("#mobile-map-picker"),
-  mobileMapSelect: mustQuery<HTMLSelectElement>("#mobile-map-select"),
-  mobileFloorPicker: mustQuery<HTMLElement>("#mobile-floor-picker"),
-  mobileFloorSelect: mustQuery<HTMLSelectElement>("#mobile-floor-select"),
-  mapPicker: mustQuery<HTMLElement>("#map-picker"),
-  mapSelect: mustQuery<HTMLSelectElement>("#map-select"),
   floorPicker: mustQuery<HTMLElement>("#floor-picker"),
   floorSelect: mustQuery<HTMLSelectElement>("#floor-select"),
   demoNotice: mustQuery<HTMLElement>("#demo-notice"),
   topProgressCount: mustQuery<HTMLElement>("#top-progress-count"),
   progressPercentage: mustQuery<HTMLElement>("#progress-percentage"),
   progressFraction: mustQuery<HTMLElement>("#progress-fraction"),
+  progressTrack: mustQuery<HTMLElement>("#progress-track"),
   progressBar: mustQuery<HTMLElement>("#progress-bar"),
   visibleCount: mustQuery<HTMLElement>("#visible-count"),
   searchInput: mustQuery<HTMLInputElement>("#search-input"),
@@ -330,28 +383,32 @@ const elements = {
   toast: mustQuery<HTMLElement>("#toast"),
 };
 
-const database = await LocalDatabase.open();
 const demoMapPack = parseMapPack(demoMapPackJson);
-const bundledMapCatalog = await loadBundledMapCatalog();
+const syncClient = new SyncClient();
+let initialSyncMessage: string | undefined;
+const remoteSessionPromise = bootstrapRemoteSession();
+const [database, bundledMapCatalog] = await Promise.all([
+  LocalDatabase.open(),
+  loadBundledMapCatalog(),
+]);
 const bundledMapPack = bundledMapCatalog
   ? undefined
   : await loadBundledMapPack();
-const syncClient = new SyncClient();
-let initialSyncMessage: string | undefined;
-let remoteSession = await bootstrapRemoteSession();
-
-let profiles = await ensureProfiles();
+const [initialRemoteSession, initialProfiles, mapPack] = await Promise.all([
+  remoteSessionPromise,
+  ensureProfiles(),
+  resolveActiveMapPack(bundledMapCatalog, bundledMapPack),
+]);
+let remoteSession = initialRemoteSession;
+let profiles = initialProfiles;
 if (remoteSession) {
   await database.putProfile(remoteSession.profile);
   profiles = await database.getAllProfiles();
 }
 let activeProfileId = remoteSession?.profile.id ??
   (await resolveActiveProfileId(profiles));
-let mapPack = await resolveActiveMapPack(
-  bundledMapCatalog,
-  bundledMapPack,
-);
-let activeMapPack = resolveBasemapSources(mapPack);
+const activeMapPack = resolveBasemapSources(mapPack);
+const activeMapDimensions = mapPackDimensions(activeMapPack);
 const categoryGroups = resolveCategoryGroups(activeMapPack);
 const categoryGroupById = new Map(
   categoryGroups.map((group) => [group.id, group]),
@@ -359,12 +416,7 @@ const categoryGroupById = new Map(
 const categoryById = new Map(
   activeMapPack.categories.map((category) => [category.id, category]),
 );
-const markersByCategory = new Map<string, MapMarker[]>();
-for (const marker of activeMapPack.markers) {
-  const categoryMarkers = markersByCategory.get(marker.categoryId) ?? [];
-  categoryMarkers.push(marker);
-  markersByCategory.set(marker.categoryId, categoryMarkers);
-}
+let markerSearchIndex: Map<string, string> | undefined;
 let completedMarkerIds = new Set<string>();
 let visibleCategoryIds = await resolveVisibleCategoryIds(activeMapPack);
 let activeCategoryGroupId = resolveInitialCategoryGroupId();
@@ -380,6 +432,18 @@ let activeFloorId =
   activeMapPack.layers?.some((layer) => layer.id === storedFloorId)
     ? storedFloorId
     : "";
+const storedAreaId = await database.getSetting<unknown>(
+  `activeArea:${activeMapPack.id}`,
+);
+let activeAreaId =
+  typeof storedAreaId === "string" &&
+  activeMapPack.areas?.some((area) => area.id === storedAreaId)
+    ? storedAreaId
+    : "";
+let switchGroupId = catalogGroupForMap(activeMapPack.id)?.id ?? "";
+let switchMapId = activeMapPack.id;
+let switchSectionId = catalogSectionForMap(activeMapPack.id)?.id ?? "";
+let switchAreaId = activeAreaId;
 let map: LeafletMap;
 let imageBounds: L.LatLngBounds;
 let mapContentBounds: L.LatLngBounds;
@@ -387,9 +451,11 @@ let mapViewBounds: L.LatLngBounds;
 let markerLayer: LayerGroup;
 let floorTileLayer: TileLayer | undefined;
 let floorScrimLayer: ImageOverlay;
-let markerReferences = new Map<string, Layer>();
 let toastTimer: number | undefined;
+let markerRenderTimer: number | undefined;
 let syncInFlight = false;
+let mapSwitchInFlight = false;
+const areaMarkerIdSets = new WeakMap<MapArea, ReadonlySet<string>>();
 
 await reloadProgress();
 renderStaticMapDetails();
@@ -398,6 +464,7 @@ renderCategories();
 initializeMap();
 renderMarkers();
 bindEvents();
+setSidebarOpen(false);
 renderSyncState(
   remoteSession ? "Đang kết nối..." : "Chỉ lưu trên thiết bị này",
 );
@@ -484,10 +551,7 @@ async function loadBundledMapCatalog(): Promise<MapCatalog | undefined> {
       document.baseURI,
     );
     catalogUrl.searchParams.set("v", MAP_DATA_VERSION);
-    const response = await fetch(
-      catalogUrl,
-      { cache: "no-store" },
-    );
+    const response = await fetch(catalogUrl);
     if (!response.ok) {
       return undefined;
     }
@@ -503,10 +567,7 @@ async function loadMapPackResource(
   try {
     const packUrl = new URL(path, document.baseURI);
     packUrl.searchParams.set("v", MAP_DATA_VERSION);
-    const response = await fetch(
-      packUrl,
-      { cache: "no-store" },
-    );
+    const response = await fetch(packUrl);
     if (!response.ok) {
       return undefined;
     }
@@ -709,69 +770,147 @@ async function reloadProgress(): Promise<void> {
   );
 }
 
-function renderStaticMapDetails(): void {
+function availableMapEntries(): MapCatalogEntry[] {
+  const entries = [...(bundledMapCatalog?.maps ?? [])];
+  if (!entries.some((entry) => entry.id === activeMapPack.id)) {
+    entries.push({
+      id: activeMapPack.id,
+      title: activeMapPack.title,
+      pack: "",
+      areas: activeMapPack.areas,
+    });
+  }
+  return entries;
+}
+
+function availableMapGroups(): MapCatalogGroup[] {
+  const entries = availableMapEntries();
+  const availableIds = new Set(entries.map((entry) => entry.id));
+  const configured: MapCatalogGroup[] = (bundledMapCatalog?.groups ?? [])
+    .map((group) => ({
+      ...group,
+      mapIds: group.mapIds.filter((mapId) => availableIds.has(mapId)),
+      sections: group.sections
+        ?.map((section) => ({
+          ...section,
+          mapIds: section.mapIds.filter((mapId) => availableIds.has(mapId)),
+        }))
+        .filter((section) => section.mapIds.length > 0),
+    }))
+    .filter((group) => group.mapIds.length > 0);
+  const configuredIds = new Set(
+    configured.flatMap((group) => group.mapIds),
+  );
+  const ungrouped = entries
+    .map((entry) => entry.id)
+    .filter((mapId) => !configuredIds.has(mapId));
+  if (ungrouped.length > 0) {
+    configured.push({
+      id: "__other_maps__",
+      title: "Bản đồ khác",
+      mapIds: ungrouped,
+    });
+  }
+  return configured.length > 0
+    ? configured
+    : [{
+        id: "__all_maps__",
+        title: "Tất cả bản đồ",
+        mapIds: entries.map((entry) => entry.id),
+      }];
+}
+
+function catalogGroupForMap(mapId: string): MapCatalogGroup | undefined {
+  return availableMapGroups().find((group) => group.mapIds.includes(mapId));
+}
+
+function catalogSectionForMap(
+  mapId: string,
+  group = catalogGroupForMap(mapId),
+): MapCatalogSection | undefined {
+  return group?.sections?.find((section) => section.mapIds.includes(mapId));
+}
+
+function catalogSectionsForGroup(
+  group: MapCatalogGroup | undefined,
+): MapCatalogSection[] {
+  return group?.sections ?? [];
+}
+
+function activeArea(): MapArea | undefined {
+  return activeMapPack.areas?.find((area) => area.id === activeAreaId);
+}
+
+function markerMatchesArea(marker: MapMarker, area: MapArea | undefined): boolean {
+  if (area?.markerIds !== undefined) {
+    let markerIds = areaMarkerIdSets.get(area);
+    if (!markerIds) {
+      markerIds = new Set(area.markerIds);
+      areaMarkerIdSets.set(area, markerIds);
+    }
+    return markerIds.has(marker.id);
+  }
+
+  return (
+    area === undefined ||
+    (
+      marker.x >= area.bounds.minX &&
+      marker.x <= area.bounds.maxX &&
+      marker.y >= area.bounds.minY &&
+      marker.y <= area.bounds.maxY
+    )
+  );
+}
+
+function markerMatchesActiveArea(marker: MapMarker): boolean {
+  return markerMatchesArea(marker, activeArea());
+}
+
+function activeRouteMarkers(): MapMarker[] {
+  return activeMapPack.markers.filter(markerMatchesActiveArea);
+}
+
+function routeBounds(bounds: MapViewBounds): L.LatLngBounds {
+  return L.latLngBounds(
+    [activeMapDimensions.height - bounds.maxY, bounds.minX],
+    [activeMapDimensions.height - bounds.minY, bounds.maxX],
+  );
+}
+
+function activeRouteBounds(): L.LatLngBounds {
+  const area = activeArea();
+  return area ? routeBounds(area.bounds) : mapViewBounds;
+}
+
+function updateRouteDetails(): void {
+  const group = catalogGroupForMap(activeMapPack.id);
+  const area = activeArea();
+  elements.routeRealmTitle.textContent = group?.title ?? "Bản đồ cá nhân";
   elements.mapTitle.textContent = activeMapPack.title;
   elements.mapSubtitle.textContent =
     activeMapPack.subtitle ?? "Bản đồ không có mô tả.";
+  elements.routeAreaName.textContent = area?.label ?? "Toàn khu vực";
+}
+
+function renderStaticMapDetails(): void {
+  updateRouteDetails();
   elements.mapAttribution.textContent = activeMapPack.attribution;
   elements.demoNotice.hidden = activeMapPack.id !== demoMapPack.id;
   elements.hideCompleted.checked = hideCompleted;
-  renderMapSelector();
   renderFloorSelector();
-}
-
-function renderMapSelector(): void {
-  const options = bundledMapCatalog?.maps.map((entry) => ({
-    id: entry.id,
-    title: entry.title,
-  })) ?? [];
-
-  if (!options.some((option) => option.id === activeMapPack.id)) {
-    options.push({
-      id: activeMapPack.id,
-      title: activeMapPack.title,
-    });
-  }
-  if (!options.some((option) => option.id === demoMapPack.id)) {
-    options.push({
-      id: demoMapPack.id,
-      title: "Bản đồ demo",
-    });
-  }
-
-  for (const select of [elements.mapSelect, elements.mobileMapSelect]) {
-    select.replaceChildren();
-    for (const mapOption of options) {
-      const option = document.createElement("option");
-      option.value = mapOption.id;
-      option.textContent = mapOption.title;
-      option.selected = mapOption.id === activeMapPack.id;
-      select.append(option);
-    }
-  }
-  const pickerHidden = options.length <= 1;
-  elements.mapPicker.hidden = pickerHidden;
-  elements.mobileMapPicker.hidden = pickerHidden;
-  updateMobileMapControlsVisibility();
+  renderMapSwitcher();
 }
 
 function renderFloorSelector(): void {
   const layers = activeMapPack.layers ?? [];
   if (layers.length === 0) {
     elements.floorPicker.hidden = true;
-    elements.mobileFloorPicker.hidden = true;
     elements.floorSelect.replaceChildren();
-    elements.mobileFloorSelect.replaceChildren();
-    updateMobileMapControlsVisibility();
     return;
   }
 
-  for (const select of [elements.floorSelect, elements.mobileFloorSelect]) {
-    populateFloorSelect(select, layers);
-  }
+  populateFloorSelect(elements.floorSelect, layers);
   elements.floorPicker.hidden = false;
-  elements.mobileFloorPicker.hidden = false;
-  updateMobileMapControlsVisibility();
 }
 
 function populateFloorSelect(
@@ -805,9 +944,287 @@ function populateFloorSelect(
   }
 }
 
-function updateMobileMapControlsVisibility(): void {
-  elements.mobileMapControls.hidden =
-    elements.mobileMapPicker.hidden && elements.mobileFloorPicker.hidden;
+function renderMapSwitcher(): void {
+  const groups = availableMapGroups();
+  const entries = availableMapEntries();
+  let selectedGroup = groups.find((group) => group.id === switchGroupId);
+  if (!selectedGroup || !selectedGroup.mapIds.includes(switchMapId)) {
+    selectedGroup =
+      groups.find((group) => group.mapIds.includes(switchMapId)) ??
+      groups[0];
+    switchGroupId = selectedGroup?.id ?? "";
+  }
+  const sections = catalogSectionsForGroup(selectedGroup);
+  let selectedSection = sections.find(
+    (section) =>
+      section.id === switchSectionId &&
+      section.mapIds.includes(switchMapId),
+  );
+  if (!selectedSection) {
+    selectedSection =
+      sections.find((section) => section.mapIds.includes(switchMapId)) ??
+      sections[0];
+    switchSectionId = selectedSection?.id ?? "";
+  }
+  if (selectedSection && !selectedSection.mapIds.includes(switchMapId)) {
+    switchMapId = selectedSection.mapIds[0] ?? activeMapPack.id;
+    switchAreaId = "";
+  } else if (
+    selectedGroup &&
+    !selectedGroup.mapIds.includes(switchMapId)
+  ) {
+    switchSectionId = sections[0]?.id ?? "";
+    switchMapId =
+      sections[0]?.mapIds[0] ??
+      selectedGroup.mapIds[0] ??
+      activeMapPack.id;
+    switchAreaId = "";
+  }
+
+  elements.mapRealmList.replaceChildren();
+  for (const group of groups) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className =
+      group.id === switchGroupId
+        ? "map-realm-option is-active"
+        : "map-realm-option";
+    button.setAttribute("aria-pressed", String(group.id === switchGroupId));
+    const title = document.createElement("strong");
+    title.textContent = group.title;
+    const count = document.createElement("span");
+    count.textContent = group.sections?.length
+      ? `${group.sections.length} cụm · ${group.mapIds.length} map`
+      : `${group.mapIds.length} map`;
+    button.append(title, count);
+    button.addEventListener("click", () => {
+      switchGroupId = group.id;
+      const firstSection = group.sections?.[0];
+      switchSectionId = firstSection?.id ?? "";
+      if (!group.mapIds.includes(switchMapId)) {
+        switchMapId =
+          firstSection?.mapIds[0] ??
+          group.mapIds[0] ??
+          activeMapPack.id;
+      }
+      switchAreaId = "";
+      renderMapSwitcher();
+    });
+    elements.mapRealmList.append(button);
+
+    if (group.id === switchGroupId && (group.sections?.length ?? 0) > 1) {
+      const sectionList = document.createElement("div");
+      sectionList.className = "map-state-list";
+      sectionList.setAttribute("aria-label", `Cụm bản đồ ${group.title}`);
+      for (const section of group.sections ?? []) {
+        const sectionButton = document.createElement("button");
+        sectionButton.type = "button";
+        sectionButton.className =
+          section.id === switchSectionId
+            ? "map-state-option is-active"
+            : "map-state-option";
+        sectionButton.setAttribute(
+          "aria-pressed",
+          String(section.id === switchSectionId),
+        );
+        const sectionTitle = document.createElement("strong");
+        sectionTitle.textContent = section.title;
+        const sectionCount = document.createElement("span");
+        sectionCount.textContent = `${section.mapIds.length}`;
+        sectionButton.append(sectionTitle, sectionCount);
+        sectionButton.addEventListener("click", () => {
+          switchGroupId = group.id;
+          switchSectionId = section.id;
+          if (!section.mapIds.includes(switchMapId)) {
+            switchMapId = section.mapIds[0] ?? activeMapPack.id;
+            switchAreaId = "";
+          }
+          renderMapSwitcher();
+        });
+        sectionList.append(sectionButton);
+      }
+      elements.mapRealmList.append(sectionList);
+    }
+  }
+
+  elements.mapRealmHeading.textContent =
+    selectedSection?.title ?? selectedGroup?.title ?? "Bản đồ";
+  elements.mapAtlasList.replaceChildren();
+  const selectedMapIds = selectedSection?.mapIds ?? selectedGroup?.mapIds ?? [];
+  const atlasEntries = selectedMapIds
+    .map((mapId) => entries.find((entry) => entry.id === mapId))
+    .filter((entry): entry is MapCatalogEntry => entry !== undefined);
+  for (const entry of atlasEntries) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className =
+      entry.id === switchMapId
+        ? "map-atlas-option is-active"
+        : "map-atlas-option";
+    button.setAttribute("aria-pressed", String(entry.id === switchMapId));
+    const title = document.createElement("strong");
+    title.textContent = entry.title;
+    const meta = document.createElement("span");
+    const areaCount = entry.areas?.length ?? 0;
+    meta.textContent =
+      entry.id === activeMapPack.id
+        ? "Đang mở"
+        : areaCount > 0
+          ? `${areaCount} khu`
+          : "Mở atlas";
+    button.append(title, meta);
+    button.addEventListener("click", () => {
+      switchMapId = entry.id;
+      switchSectionId =
+        catalogSectionForMap(entry.id, selectedGroup)?.id ?? "";
+      switchAreaId =
+        entry.id === activeMapPack.id ? activeAreaId : "";
+      renderMapSwitcher();
+    });
+    elements.mapAtlasList.append(button);
+  }
+
+  const selectedEntry = entries.find((entry) => entry.id === switchMapId);
+  const areas =
+    selectedEntry?.areas ??
+    (switchMapId === activeMapPack.id ? activeMapPack.areas : undefined) ??
+    [];
+  const wholeMapArea = areas.find((area) => area.id === "whole-map");
+  if (wholeMapArea && switchAreaId === "") {
+    switchAreaId = wholeMapArea.id;
+  }
+  elements.mapAreaHeading.textContent =
+    selectedEntry?.title ?? activeMapPack.title;
+  elements.mapAreaList.replaceChildren();
+  const allAreas: Array<{ id: string; label: string }> = wholeMapArea
+    ? areas.map((area) => ({ id: area.id, label: area.label }))
+    : [
+        { id: "", label: "Toàn khu vực" },
+        ...areas.map((area) => ({ id: area.id, label: area.label })),
+      ];
+  for (const area of allAreas) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className =
+      area.id === switchAreaId
+        ? "map-area-option is-active"
+        : "map-area-option";
+    button.setAttribute("aria-pressed", String(area.id === switchAreaId));
+    button.textContent = area.label;
+    button.addEventListener("click", () => {
+      switchAreaId = area.id;
+      renderMapSwitcher();
+    });
+    elements.mapAreaList.append(button);
+  }
+
+  elements.floorPicker.hidden =
+    switchMapId !== activeMapPack.id ||
+    (activeMapPack.layers?.length ?? 0) === 0;
+  const selectedAreaLabel =
+    areas.find((area) => area.id === switchAreaId)?.label ?? "Toàn khu vực";
+  const selectionParts = [
+    selectedGroup?.title,
+    selectedSection?.title,
+    selectedEntry?.title ?? activeMapPack.title,
+    selectedAreaLabel,
+  ].filter((value, index, values) => value && values.indexOf(value) === index);
+  elements.mapSwitchSelection.textContent =
+    selectionParts.join(" · ");
+}
+
+function updateFallbackDialogState(): void {
+  document.body.classList.toggle(
+    "dialog-fallback-open",
+    Boolean(document.querySelector("dialog.is-fallback-open[open]")),
+  );
+}
+
+function openDialog(dialog: HTMLDialogElement): void {
+  if (dialog.open) {
+    return;
+  }
+  if (typeof dialog.showModal === "function") {
+    dialog.classList.remove("is-fallback-open");
+    dialog.showModal();
+    return;
+  }
+  dialog.setAttribute("open", "");
+  dialog.classList.add("is-fallback-open");
+  updateFallbackDialogState();
+}
+
+function closeDialog(dialog: HTMLDialogElement): void {
+  if (typeof dialog.close === "function" && dialog.open) {
+    dialog.close();
+  } else {
+    dialog.removeAttribute("open");
+  }
+  dialog.classList.remove("is-fallback-open");
+  updateFallbackDialogState();
+}
+
+function openMapSwitcher(): void {
+  switchMapId = activeMapPack.id;
+  switchSectionId = catalogSectionForMap(activeMapPack.id)?.id ?? "";
+  switchAreaId = activeAreaId;
+  switchGroupId = catalogGroupForMap(activeMapPack.id)?.id ??
+    availableMapGroups()[0]?.id ??
+    "";
+  renderMapSwitcher();
+  setSidebarOpen(false);
+  openDialog(elements.mapSwitchDialog);
+}
+
+async function applyActiveArea(areaId: string): Promise<void> {
+  activeAreaId =
+    activeMapPack.areas?.some((area) => area.id === areaId)
+      ? areaId
+      : "";
+  await database.putSetting(
+    `activeArea:${activeMapPack.id}`,
+    activeAreaId,
+  );
+  updateRouteDetails();
+  renderCategories();
+  renderMarkers();
+  map.fitBounds(activeRouteBounds(), {
+    animate: !window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    padding: [24, 24],
+  });
+}
+
+async function confirmMapSwitch(): Promise<void> {
+  if (mapSwitchInFlight) {
+    return;
+  }
+
+  mapSwitchInFlight = true;
+  elements.confirmMapSwitch.disabled = true;
+  elements.confirmMapSwitch.setAttribute("aria-busy", "true");
+  try {
+    if (switchMapId !== activeMapPack.id) {
+      await Promise.all([
+        database.putSetting("activeMapPackId", switchMapId),
+        database.putSetting(`activeArea:${switchMapId}`, switchAreaId),
+      ]);
+      window.location.reload();
+      return;
+    }
+    await applyActiveArea(switchAreaId);
+    closeDialog(elements.mapSwitchDialog);
+    showToast(
+      activeArea()?.label
+        ? `Đã chuyển tới ${activeArea()?.label}.`
+        : "Đang hiển thị toàn khu vực.",
+    );
+  } catch (error) {
+    showToast(`Không lưu được lựa chọn bản đồ: ${errorMessage(error)}`, "error");
+  } finally {
+    mapSwitchInFlight = false;
+    elements.confirmMapSwitch.disabled = false;
+    elements.confirmMapSwitch.removeAttribute("aria-busy");
+  }
 }
 
 function renderProfiles(): void {
@@ -839,11 +1256,30 @@ function renderCategories(): void {
   elements.categoryGroups.replaceChildren();
   elements.categoryList.replaceChildren();
   elements.selectedCategoryList.replaceChildren();
-  const normalizedSearchTerm = searchTerm.trim().toLocaleLowerCase("vi");
+  const normalizedSearchTerm = normalizeSearchText(searchTerm);
   const isSearching = normalizedSearchTerm.length > 0;
+  const routeMarkersByCategory = new Map<string, MapMarker[]>();
+  for (const marker of activeRouteMarkers()) {
+    const categoryMarkers =
+      routeMarkersByCategory.get(marker.categoryId) ?? [];
+    categoryMarkers.push(marker);
+    routeMarkersByCategory.set(marker.categoryId, categoryMarkers);
+  }
+  const routeCategories = activeMapPack.categories.filter(
+    (category) => (routeMarkersByCategory.get(category.id)?.length ?? 0) > 0,
+  );
+  if (
+    !routeCategories.some(
+      (category) => categoryGroupId(category) === activeCategoryGroupId,
+    )
+  ) {
+    activeCategoryGroupId = routeCategories[0]
+      ? categoryGroupId(routeCategories[0])
+      : categoryGroups[0]?.id ?? FALLBACK_CATEGORY_GROUP.id;
+  }
 
   for (const group of categoryGroups) {
-    const groupCategories = activeMapPack.categories.filter(
+    const groupCategories = routeCategories.filter(
       (category) => categoryGroupId(category) === group.id,
     );
     const selectedCount = groupCategories.filter((category) =>
@@ -878,10 +1314,11 @@ function renderCategories(): void {
     elements.categoryGroups.append(button);
   }
 
-  const displayedCategories = activeMapPack.categories.filter((category) => {
+  const displayedCategories = routeCategories.filter((category) => {
     if (isSearching) {
-      const categorySearchText =
-        `${category.label} ${category.id}`.toLocaleLowerCase("vi");
+      const categorySearchText = normalizeSearchText(
+        `${category.label} ${category.id}`,
+      );
       return categorySearchText.includes(normalizedSearchTerm);
     }
     return categoryGroupId(category) === activeCategoryGroupId;
@@ -904,7 +1341,7 @@ function renderCategories(): void {
   }
 
   for (const category of displayedCategories) {
-    const categoryMarkers = markersByCategory.get(category.id) ?? [];
+    const categoryMarkers = routeMarkersByCategory.get(category.id) ?? [];
     const categoryGroup = categoryGroupById.get(categoryGroupId(category)) ??
       FALLBACK_CATEGORY_GROUP;
     const completed = categoryMarkers.filter((marker) =>
@@ -971,7 +1408,7 @@ function renderCategories(): void {
     elements.categoryList.append(card);
   }
 
-  const selectedCategories = activeMapPack.categories.filter((category) =>
+  const selectedCategories = routeCategories.filter((category) =>
     visibleCategoryIds.has(category.id),
   );
   elements.selectedCategoryCount.textContent =
@@ -1005,34 +1442,36 @@ function renderCategories(): void {
     elements.selectedCategoryList.append(chip);
   }
 
+  const allRouteCategoriesSelected =
+    routeCategories.length > 0 &&
+    routeCategories.every((category) => visibleCategoryIds.has(category.id));
   elements.toggleAllCategories.textContent =
-    visibleCategoryIds.size === activeMapPack.categories.length
+    allRouteCategoriesSelected
       ? "Bỏ chọn tất cả"
       : "Chọn tất cả";
 }
 
 function initializeMap(): void {
-  const dimensions = mapPackDimensions(activeMapPack);
   imageBounds = L.latLngBounds(
     [0, 0],
-    [dimensions.height, dimensions.width],
+    [activeMapDimensions.height, activeMapDimensions.width],
   );
   const content = activeMapPack.bounds ?? {
     minX: 0,
     minY: 0,
-    maxX: dimensions.width,
-    maxY: dimensions.height,
+    maxX: activeMapDimensions.width,
+    maxY: activeMapDimensions.height,
   };
   mapContentBounds = L.latLngBounds(
-    [dimensions.height - content.maxY, content.minX],
-    [dimensions.height - content.minY, content.maxX],
+    [activeMapDimensions.height - content.maxY, content.minX],
+    [activeMapDimensions.height - content.minY, content.maxX],
   );
   const view = activeMapPack.initialView ?? {
     ...content,
   };
   mapViewBounds = L.latLngBounds(
-    [dimensions.height - view.maxY, view.minX],
-    [dimensions.height - view.minY, view.maxX],
+    [activeMapDimensions.height - view.maxY, view.minX],
+    [activeMapDimensions.height - view.minY, view.maxX],
   );
 
   map = L.map("map", {
@@ -1042,8 +1481,10 @@ function initializeMap(): void {
     maxZoom: 2.5,
     zoomSnap: 0.25,
     zoomDelta: 0.5,
+    zoomControl: false,
     attributionControl: false,
   });
+  L.control.zoom({ position: "bottomright" }).addTo(map);
 
   const baseMapPane = map.createPane("base-map-pane");
   baseMapPane.style.zIndex = "200";
@@ -1074,7 +1515,7 @@ function initializeMap(): void {
   }).addTo(map);
   updateFloorLayer();
   markerLayer = L.layerGroup().addTo(map);
-  map.fitBounds(mapViewBounds, { animate: false });
+  map.fitBounds(activeRouteBounds(), { animate: false });
   if (window.matchMedia("(max-width: 820px)").matches) {
     map.setZoom(Math.min(map.getZoom() + 0.75, map.getMaxZoom()), {
       animate: false,
@@ -1140,8 +1581,7 @@ function updateFloorLayer(): void {
 }
 
 function markerLatLng(marker: MapMarker): L.LatLngExpression {
-  const dimensions = mapPackDimensions(activeMapPack);
-  return [dimensions.height - marker.y, marker.x];
+  return [activeMapDimensions.height - marker.y, marker.x];
 }
 
 function markerMatchesActiveFloor(marker: MapMarker): boolean {
@@ -1149,22 +1589,26 @@ function markerMatchesActiveFloor(marker: MapMarker): boolean {
 }
 
 function renderMarkers(): void {
+  window.clearTimeout(markerRenderTimer);
+  markerRenderTimer = undefined;
   markerLayer.clearLayers();
-  markerReferences = new Map<string, Layer>();
-  const normalizedSearchTerm = searchTerm.trim().toLocaleLowerCase("vi");
+  const normalizedSearchTerm = normalizeSearchText(searchTerm);
+  const activeSearchIndex =
+    normalizedSearchTerm.length > 0
+      ? markerSearchIndex ??= buildMarkerSearchIndex(activeMapPack.markers)
+      : undefined;
   const visibleMarkers = activeMapPack.markers.filter((marker) => {
     const isDone = completedMarkerIds.has(marker.id);
     const matchesCategory =
       normalizedSearchTerm.length > 0 ||
       visibleCategoryIds.has(marker.categoryId);
-    const haystack =
-      `${marker.title} ${marker.categoryId} ${marker.description ?? ""}`
-        .toLocaleLowerCase("vi");
     const matchesSearch =
-      normalizedSearchTerm.length === 0 || haystack.includes(normalizedSearchTerm);
+      normalizedSearchTerm.length === 0 ||
+      (activeSearchIndex?.get(marker.id) ?? "").includes(normalizedSearchTerm);
     return (
       matchesCategory &&
       matchesSearch &&
+      markerMatchesActiveArea(marker) &&
       markerMatchesActiveFloor(marker) &&
       !(hideCompleted && isDone)
     );
@@ -1195,24 +1639,38 @@ function renderMarkers(): void {
             isDone,
           );
 
-    const tooltipContent = document.createElement("span");
-    tooltipContent.textContent = marker.title;
-    renderedMarker.bindTooltip(tooltipContent, {
+    renderedMarker.bindTooltip(() => {
+      const tooltipContent = document.createElement("span");
+      tooltipContent.textContent = marker.title;
+      return tooltipContent;
+    }, {
       direction: "top",
       offset: [0, useDomIconMarkers ? -4 : -8],
       opacity: 0.95,
     });
-    renderedMarker.bindPopup(createMarkerPopup(marker, category, isDone), {
-      className: "marker-popup",
-      minWidth: 230,
-      closeButton: true,
-    });
+    renderedMarker.bindPopup(
+      () =>
+        createMarkerPopup(
+          marker,
+          category,
+          completedMarkerIds.has(marker.id),
+        ),
+      {
+        className: "marker-popup",
+        minWidth: 230,
+        closeButton: true,
+      },
+    );
     renderedMarker.addTo(markerLayer);
-    markerReferences.set(marker.id, renderedMarker);
   }
 
   elements.visibleCount.textContent = `${visibleMarkers.length} điểm đang hiển thị`;
   updateProgressDisplay();
+}
+
+function scheduleMarkerRender(): void {
+  window.clearTimeout(markerRenderTimer);
+  markerRenderTimer = window.setTimeout(() => renderMarkers(), 120);
 }
 
 function createDomIconMarker(
@@ -1269,6 +1727,8 @@ function createDomIconMarker(
     }),
     opacity: isDone ? 0.52 : 1,
     riseOnHover: true,
+    title: marker.title,
+    alt: marker.title,
   });
 }
 
@@ -1345,7 +1805,7 @@ async function setMarkerDone(markerId: string, done: boolean): Promise<void> {
 
 function updateProgressDisplay(): void {
   const { completed, total, percentage } = summarizeProgressForCategories(
-    activeMapPack.markers,
+    activeRouteMarkers(),
     completedMarkerIds,
     visibleCategoryIds,
   );
@@ -1353,6 +1813,7 @@ function updateProgressDisplay(): void {
   elements.topProgressCount.textContent = `${completed} / ${total}`;
   elements.progressPercentage.textContent = `${percentage}%`;
   elements.progressFraction.textContent = `${completed} / ${total} điểm`;
+  elements.progressTrack.setAttribute("aria-valuenow", String(percentage));
   elements.progressBar.style.width = `${percentage}%`;
 }
 
@@ -1409,12 +1870,15 @@ async function syncRemoteProgress(): Promise<void> {
         ).map((record) => [record.id, record]),
       );
 
+      const acknowledged: ProgressRecord[] = [];
       for (const record of canonical) {
         const current = latestLocal.get(record.id);
-        if (current?.updatedAt === submittedVersions.get(record.id)) {
-          await database.putProgress({ ...record, pendingSync: false });
+        if (current?.updatedAt !== submittedVersions.get(record.id)) {
+          continue;
         }
+        acknowledged.push({ ...record, pendingSync: false });
       }
+      await database.putProgressBatch(acknowledged);
     }
 
     const remoteRecords = await syncClient.pullProgress(mapId);
@@ -1423,12 +1887,11 @@ async function syncRemoteProgress(): Promise<void> {
         await database.getProgress(activeProfileId, mapId)
       ).map((record) => [record.id, record]),
     );
-    for (const record of remoteRecords) {
-      if (currentLocal.get(record.id)?.pendingSync === true) {
-        continue;
-      }
-      await database.putProgress({ ...record, pendingSync: false });
-    }
+    await database.putProgressBatch(
+      remoteRecords
+        .filter((record) => currentLocal.get(record.id)?.pendingSync !== true)
+        .map((record) => ({ ...record, pendingSync: false })),
+    );
 
     await reloadProgress();
     renderCategories();
@@ -1461,8 +1924,33 @@ async function syncRemoteProgress(): Promise<void> {
 }
 
 function setSidebarOpen(open: boolean): void {
-  elements.sidebar.classList.toggle("is-open", open);
-  elements.sidebarToggle.setAttribute("aria-expanded", String(open));
+  const isMobile = window.matchMedia("(max-width: 820px)").matches;
+  const isOpen = isMobile && open;
+  elements.sidebar.classList.toggle("is-open", isOpen);
+  elements.sidebarToggle.setAttribute("aria-expanded", String(isOpen));
+  elements.sidebar.setAttribute(
+    "aria-hidden",
+    isMobile ? String(!isOpen) : "false",
+  );
+  elements.sidebar.inert = isMobile && !isOpen;
+  elements.sidebarScrim.setAttribute("aria-hidden", String(!isOpen));
+  elements.sidebarScrim.inert = !isOpen;
+}
+
+async function changeFloor(value: string): Promise<void> {
+  activeFloorId = value;
+  elements.floorSelect.value = value;
+  await database.putSetting(
+    `activeFloor:${activeMapPack.id}`,
+    activeFloorId,
+  );
+  updateFloorLayer();
+  renderMarkers();
+  const floorLabel = activeFloorId
+    ? activeMapPack.layers?.find((layer) => layer.id === activeFloorId)
+        ?.label
+    : "Tất cả tầng";
+  showToast(`Đã chuyển sang ${floorLabel ?? "tầng bản đồ"}.`);
 }
 
 function bindEvents(): void {
@@ -1476,6 +1964,9 @@ function bindEvents(): void {
   elements.sidebarScrim.addEventListener("click", () => {
     setSidebarOpen(false);
   });
+  window.addEventListener("resize", () => {
+    setSidebarOpen(elements.sidebar.classList.contains("is-open"));
+  });
 
   for (const button of [
     elements.settingsButton,
@@ -1483,14 +1974,40 @@ function bindEvents(): void {
   ]) {
     button.addEventListener("click", () => {
       setSidebarOpen(false);
-      elements.settingsDialog.showModal();
+      openDialog(elements.settingsDialog);
     });
   }
+  for (const dialog of [
+    elements.mapSwitchDialog,
+    elements.settingsDialog,
+  ]) {
+    dialog.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      closeDialog(dialog);
+    });
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) {
+        closeDialog(dialog);
+      }
+    });
+    for (const button of dialog.querySelectorAll<HTMLButtonElement>(
+      "button[value='cancel']",
+    )) {
+      button.type = "button";
+      button.addEventListener("click", () => {
+        closeDialog(dialog);
+      });
+    }
+  }
+  elements.mapSwitchTrigger.addEventListener("click", openMapSwitcher);
+  elements.confirmMapSwitch.addEventListener("click", () => {
+    void confirmMapSwitch();
+  });
 
   elements.searchInput.addEventListener("input", () => {
     searchTerm = elements.searchInput.value;
     renderCategories();
-    renderMarkers();
+    scheduleMarkerRender();
   });
 
   elements.hideCompleted.addEventListener("change", async () => {
@@ -1500,12 +2017,20 @@ function bindEvents(): void {
   });
 
   elements.toggleAllCategories.addEventListener("click", async () => {
-    if (visibleCategoryIds.size === activeMapPack.categories.length) {
-      visibleCategoryIds.clear();
+    const routeCategoryIds = new Set(
+      activeRouteMarkers().map((marker) => marker.categoryId),
+    );
+    const allSelected =
+      routeCategoryIds.size > 0 &&
+      [...routeCategoryIds].every((id) => visibleCategoryIds.has(id));
+    if (allSelected) {
+      for (const categoryId of routeCategoryIds) {
+        visibleCategoryIds.delete(categoryId);
+      }
     } else {
-      visibleCategoryIds = new Set(
-        activeMapPack.categories.map((category) => category.id),
-      );
+      for (const categoryId of routeCategoryIds) {
+        visibleCategoryIds.add(categoryId);
+      }
     }
     await persistVisibleCategories();
     renderCategories();
@@ -1524,40 +2049,13 @@ function bindEvents(): void {
   });
 
   elements.fitMap.addEventListener("click", () => {
-    map.fitBounds(mapViewBounds);
+    map.fitBounds(activeRouteBounds());
     setSidebarOpen(false);
   });
 
-  for (const select of [elements.mapSelect, elements.mobileMapSelect]) {
-    select.addEventListener("change", async () => {
-      await database.putSetting("activeMapPackId", select.value);
-      window.location.reload();
-    });
-  }
-
-  const changeFloor = async (value: string): Promise<void> => {
-    activeFloorId = value;
-    elements.floorSelect.value = value;
-    elements.mobileFloorSelect.value = value;
-    await database.putSetting(
-      `activeFloor:${activeMapPack.id}`,
-      activeFloorId,
-    );
-    updateFloorLayer();
-    renderMarkers();
-    const floorLabel = activeFloorId
-      ? activeMapPack.layers?.find((layer) => layer.id === activeFloorId)
-          ?.label
-      : "Tất cả tầng";
-    setSidebarOpen(false);
-    showToast(`Đã chuyển sang ${floorLabel ?? "tầng bản đồ"}.`);
-  };
-
-  for (const select of [elements.floorSelect, elements.mobileFloorSelect]) {
-    select.addEventListener("change", () => {
-      void changeFloor(select.value);
-    });
-  }
+  elements.floorSelect.addEventListener("change", () => {
+    void changeFloor(elements.floorSelect.value);
+  });
 
   elements.profileSelect.addEventListener("change", async () => {
     activeProfileId = elements.profileSelect.value;

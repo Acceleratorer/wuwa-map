@@ -1,41 +1,162 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
-  STATE_REGION_SPLITS,
+  assignOfficialLocationIds,
+  buildOfficialMapDefinitions,
+  buildCatalogGroups,
   buildLayerEntries,
   buildKuroMapPack,
+  deriveRouteAreas,
   gameToLocalPixel,
   parseLayerTilePath,
   parseTileLayout,
 } from "./crawl-kuro-map.mjs";
 
-test("state 8 keeps both Huanglong atlases separate with shared progress", () => {
-  const definitions = STATE_REGION_SPLITS.get(8);
-  const huanglong = definitions.find(
-    (definition) => definition.id === "wuwa-kuro-state-8-country-1",
-  );
-  const huanglong2 = definitions.find(
-    (definition) => definition.id === "wuwa-kuro-state-8-country-1-2",
+test("official country metadata becomes stable atlas definitions", () => {
+  const definitions = buildOfficialMapDefinitions(
+    [
+      {
+        countryId: 4,
+        name: "罗伊冰原",
+        countrys: [
+          {
+            countryId: 4,
+            stateId: 906,
+            mapState: "5",
+            name: "蚀刻平原",
+            order: 6,
+            xPosition: 10,
+            yPosition: 20,
+            children: [
+              {
+                name: "银湍翼幕",
+                xPosition: 11,
+                yPosition: 21,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    new Map([
+      ["蚀刻平原", "Etching Plains"],
+      ["银湍翼幕", "Silver Torrent Wingveil"],
+    ]),
   );
 
-  assert.equal(huanglong.progressMapId, "wuwa-kuro-state-8");
-  assert.equal(huanglong2.progressMapId, "wuwa-kuro-state-8");
-  assert.equal(huanglong.countryId, 1);
-  assert.equal(huanglong2.countryId, 1);
-  assert.deepEqual(huanglong.tileRegions, [
+  assert.equal(definitions.length, 1);
+  assert.equal(definitions[0].id, "wuwa-kuro-state-906");
+  assert.equal(definitions[0].title, "Etching Plains");
+  assert.equal(definitions[0].progressMapId, "wuwa-kuro-state-906");
+  assert.deepEqual(definitions[0].areas, [
     {
-      minColumn: 9,
-      maxColumn: 18,
-      minRow: 10,
-      maxRow: 22,
+      id: "official-area-1",
+      sourceName: "银湍翼幕",
+      label: "Silver Torrent Wingveil",
+      anchor: { x: 11, y: 21 },
     },
   ]);
-  assert.deepEqual(huanglong2.tileRegions, [
+});
+
+test("official marker assignment partitions exact and stale country ids", () => {
+  const definitions = [
     {
-      minColumn: 0,
-      maxColumn: 8,
-      minRow: 10,
-      maxRow: 16,
+      id: "first",
+      stateId: 8,
+      countryId: 1,
+      atlasAnchor: { x: 0, y: 0 },
+      sourceIndex: "0-0",
+    },
+    {
+      id: "second",
+      stateId: 8,
+      countryId: 1,
+      atlasAnchor: { x: 100, y: 0 },
+      sourceIndex: "0-1",
+    },
+    {
+      id: "third",
+      stateId: 900,
+      countryId: 900,
+      atlasAnchor: { x: 0, y: 0 },
+      sourceIndex: "1-0",
+    },
+  ];
+  const assignments = assignOfficialLocationIds(
+    [
+      {
+        id: "loot",
+        location: [
+          { id: "near-first", stateId: 8, countryId: 1, x: 10, y: 0 },
+          { id: "near-second", stateId: 8, countryId: 999, x: 90, y: 0 },
+          { id: "third-marker", stateId: 900, countryId: 900, x: 4, y: 0 },
+        ],
+      },
+    ],
+    definitions,
+  );
+
+  assert.deepEqual([...assignments.get("first")], ["near-first"]);
+  assert.deepEqual([...assignments.get("second")], ["near-second"]);
+  assert.deepEqual([...assignments.get("third")], ["third-marker"]);
+});
+
+test("generic route areas partition dense atlases by stable spatial slices", () => {
+  const markers = Array.from({ length: 500 }, (_, index) => ({
+    id: `marker-${index}`,
+    x: 100 + index * 12,
+    y: 400 + (index % 7) * 15,
+  }));
+  const areas = deriveRouteAreas(
+    markers,
+    768,
+    { minX: 0, minY: 0, maxX: 7000, maxY: 2000 },
+  );
+
+  assert.equal(areas.length, 3);
+  const assigned = areas.flatMap((area) => area.markerIds);
+  assert.equal(assigned.length, markers.length);
+  assert.equal(new Set(assigned).size, markers.length);
+  assert.deepEqual(
+    areas.map((area) => area.label),
+    ["Phía Tây", "Trung tâm", "Phía Đông"],
+  );
+  assert.ok(areas.every((area) => area.bounds.minX < area.bounds.maxX));
+  assert.ok(areas.every((area) => area.bounds.minY < area.bounds.maxY));
+});
+
+test("catalog groups maps into the same realms used by the game switcher", () => {
+  const definitions = [
+    {
+      id: "roya-map",
+      realmId: "roya-frostlands",
+      realmOrder: 0,
+      order: 1,
+      sourceIndex: "0-0",
+    },
+    {
+      id: "rinascita-map",
+      realmId: "rinascita",
+      realmOrder: 1,
+      order: 1,
+      sourceIndex: "1-0",
+    },
+  ];
+  const groups = buildCatalogGroups([
+    { id: "roya-map" },
+    { id: "rinascita-map" },
+  ], definitions);
+
+  assert.deepEqual(groups, [
+    {
+      id: "roya-frostlands",
+      title: "Băng nguyên Roya",
+      mapIds: ["roya-map"],
+    },
+    {
+      id: "rinascita",
+      title: "Rinascita",
+      mapIds: ["rinascita-map"],
     },
   ]);
 });

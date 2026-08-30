@@ -17,9 +17,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Regions-10-9fe870?style=for-the-badge" alt="10 regions" />
-    <img src="https://img.shields.io/badge/Markers-22%2C616-7c5cfc?style=for-the-badge" alt="22,616 markers" />
-    <img src="https://img.shields.io/badge/Map_layers-85-00c2ff?style=for-the-badge" alt="85 map layers" />
+    <img src="https://img.shields.io/badge/Atlases-51-9fe870?style=for-the-badge" alt="51 atlases" />
+    <img src="https://img.shields.io/badge/Markers-23%2C811-7c5cfc?style=for-the-badge" alt="23,811 markers" />
+    <img src="https://img.shields.io/badge/Map_layers-87-00c2ff?style=for-the-badge" alt="87 map layers" />
     <img src="https://img.shields.io/badge/Localization-Vietnamese-f5c451?style=for-the-badge" alt="Vietnamese localization" />
   </p>
 
@@ -43,7 +43,7 @@
 | | Feature |
 | --- | --- |
 | 🗺️ | Multi-region tiled maps with smooth Leaflet pan and zoom |
-| 🧭 | Region and floor switching on both desktop and mobile |
+| 🧭 | Game-like switcher organized by realm, map cluster, route area, and floor |
 | ✅ | Toggle collected markers with live progress scoped to selected categories |
 | 🔎 | Search by name/ID, filter categories, and hide completed markers |
 | 🇻🇳 | Vietnamese UI and a pre-localized map data bundle |
@@ -58,20 +58,13 @@
 The current bundle was generated from public map data and localized through a
 community-maintained translation pipeline.
 
-| Region | Markers | Categories | Floors |
-| --- | ---: | ---: | ---: |
-| Roya Frostlands | 2,530 | 74 | 23 |
-| Huanglong | 8,761 | 184 | 8 |
-| Huanglong 2 | 1,478 | 49 | 7 |
-| Black Shores | 352 | 40 | 0 |
-| Rinascita | 6,953 | 184 | 16 |
-| Tethys Deep | 415 | 40 | 5 |
-| Underground Treasury | 231 | 37 | 10 |
-| Avinoleum | 454 | 31 | 0 |
-| Hidden Sea Proving Ground | 236 | 35 | 1 |
-| Dimmr Plains | 673 | 43 | 7 |
-| Chronorift Metropolis | 59 | 9 | 0 |
-| **Total** | **22,142** | **726** | **77** |
+| Realm | Map clusters | Atlases | Markers | Categories | Floors | Route areas |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Roya Frostlands | 3 | 18 | 4,393 | 541 | 33 | 48 |
+| Rinascita | 2 | 15 | 7,875 | 657 | 26 | 62 |
+| Black Shores | — | 3 | 826 | 89 | 4 | 12 |
+| Huanglong | 2 | 15 | 10,717 | 951 | 24 | 74 |
+| **Total** | **7** | **51** | **23,811** | **2,238** | **87** | **196** |
 
 > These numbers describe the generated bundle currently committed to this
 > repository and may change after future data refreshes.

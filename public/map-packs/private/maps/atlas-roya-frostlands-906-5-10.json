@@ -1,0 +1,3291 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-roya-frostlands-906-5-10",
+  "progressMapId": "wuwa-kuro-state-906",
+  "title": "Bjart Woods",
+  "subtitle": "280 vị trí · 34 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/906/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 11,
+    "rows": 10,
+    "availableTiles": [
+      "4,-7",
+      "4,-3",
+      "4,-4",
+      "4,-5",
+      "4,-6",
+      "3,-7",
+      "3,-3",
+      "3,-4",
+      "3,-5",
+      "3,-6",
+      "2,-7",
+      "2,-3",
+      "2,-4",
+      "2,-5",
+      "2,-6",
+      "1,-7",
+      "1,-3",
+      "1,-4",
+      "1,-5",
+      "1,-6",
+      "0,-7",
+      "0,-3",
+      "0,-4",
+      "0,-5",
+      "0,-6"
+    ]
+  },
+  "bounds": {
+    "minX": 0,
+    "minY": 2304,
+    "maxX": 3840,
+    "maxY": 6144
+  },
+  "initialView": {
+    "minX": 519.837,
+    "minY": 3315.049,
+    "maxX": 2985.541,
+    "maxY": 4882.673000000001
+  },
+  "areas": [
+    {
+      "id": "official-area-1",
+      "label": "Arc Collapse Valley",
+      "bounds": {
+        "minX": 519.837,
+        "minY": 3315.049,
+        "maxX": 2985.541,
+        "maxY": 4882.673000000001
+      },
+      "markerIds": [
+        "kuro:1467928065602080768",
+        "kuro:1467929310131961856",
+        "kuro:1467929602336538624",
+        "kuro:1467930207951900672",
+        "kuro:1467931017352101888",
+        "kuro:1467931372831756288",
+        "kuro:1467933386861232128",
+        "kuro:1467933387024809984",
+        "kuro:1467933954836910080",
+        "kuro:1467934379069980672",
+        "kuro:1467934379237752832",
+        "kuro:1468402148089577472",
+        "kuro:1468402660113432576",
+        "kuro:1468402975218909184",
+        "kuro:1468404434039590912",
+        "kuro:1468405190193102848",
+        "kuro:1468406180690575360",
+        "kuro:1468406180845764608",
+        "kuro:1468407653444927488",
+        "kuro:1468407931459981312",
+        "kuro:1468408850440568832",
+        "kuro:1468409328775581696",
+        "kuro:1468409745051865088",
+        "kuro:1468410734785974272",
+        "kuro:1468410895700447232",
+        "kuro:1468411273082949632",
+        "kuro:1468411660603277312",
+        "kuro:1468412115001589760",
+        "kuro:1468412733430743040",
+        "kuro:1468413293609209856",
+        "kuro:1468413631787552768",
+        "kuro:1468414217484357632",
+        "kuro:1453865704230170624",
+        "kuro:1458576179823542272",
+        "kuro:1458576536905613312",
+        "kuro:1458576896664162304",
+        "kuro:1454952212613771264",
+        "kuro:1454952212768960512",
+        "kuro:1454973776948310016",
+        "kuro:1454988286690013184",
+        "kuro:1454988286857785344",
+        "kuro:1454988287012974592",
+        "kuro:1454989425577766912",
+        "kuro:1454989425737150464",
+        "kuro:1454989425892339712",
+        "kuro:1454989426051723264",
+        "kuro:1454989864654286848",
+        "kuro:1454989864838836224",
+        "kuro:1454989865010802688",
+        "kuro:1454992050140540928",
+        "kuro:1454992050241204224",
+        "kuro:1454992050337673216",
+        "kuro:1458918273386172416",
+        "kuro:1458918273545555968",
+        "kuro:1458918273700745216",
+        "kuro:1458920124122300416",
+        "kuro:1458920124218769408",
+        "kuro:1458922126650802176",
+        "kuro:1458922126751465472",
+        "kuro:1458922126852128768",
+        "kuro:1458922126948597760",
+        "kuro:1482097007245852672",
+        "kuro:1482097007346515968",
+        "kuro:1482097991807160320",
+        "kuro:1482097991953960960",
+        "kuro:1482097992104955904",
+        "kuro:1482097992251756544",
+        "kuro:1482097992398557184",
+        "kuro:1482099554017628160",
+        "kuro:1482099554168623104",
+        "kuro:1482099554315423744",
+        "kuro:1482101586979999744",
+        "kuro:1482101587269406720",
+        "kuro:1482101587432984576",
+        "kuro:1482101587579785216",
+        "kuro:1482101587726585856",
+        "kuro:1482102634134130688",
+        "kuro:1482102634289319936",
+        "kuro:1482102634444509184",
+        "kuro:1482102634599698432",
+        "kuro:1482102634754887680",
+        "kuro:1482103477081407488",
+        "kuro:1482103477182070784",
+        "kuro:1482107582436802560",
+        "kuro:1482107582529077248",
+        "kuro:1482107582621351936",
+        "kuro:1482107582713626624",
+        "kuro:1482107582805901312",
+        "kuro:1482107582893981696",
+        "kuro:1482107582982062080",
+        "kuro:1482111263827755008",
+        "kuro:1482111263924224000",
+        "kuro:1482111264016498688",
+        "kuro:1482111264108773376",
+        "kuro:1482111264226213888",
+        "kuro:1482111264318488576",
+        "kuro:1482111264406568960",
+        "kuro:1482115798745763840",
+        "kuro:1482115798905147392",
+        "kuro:1482115799064530944",
+        "kuro:1482115799232303104",
+        "kuro:1482115799391686656",
+        "kuro:1482115799546875904",
+        "kuro:1451237458678329344",
+        "kuro:1451278218025037824",
+        "kuro:1451283940804718592",
+        "kuro:1451292747119259648",
+        "kuro:1451301457690423296",
+        "kuro:1454546909617516544",
+        "kuro:1455961545560748032",
+        "kuro:1455962516880322560",
+        "kuro:1455963503015718912",
+        "kuro:1451282615303991296",
+        "kuro:1451291068015521792",
+        "kuro:1451301552819220480",
+        "kuro:1451226702184394752",
+        "kuro:1451227352486064128",
+        "kuro:1451228882756907008",
+        "kuro:1451230630693367808",
+        "kuro:1451233958101839872",
+        "kuro:1451234423356993536",
+        "kuro:1451235249244811264",
+        "kuro:1451237711680958464",
+        "kuro:1451238014304186368",
+        "kuro:1451238395834855424",
+        "kuro:1451241022983303168",
+        "kuro:1451241675415678976",
+        "kuro:1451242771221524480",
+        "kuro:1451276019156971520",
+        "kuro:1451277986543382528",
+        "kuro:1451278649402798080",
+        "kuro:1451279005805391872",
+        "kuro:1451279944887103488",
+        "kuro:1451280566250057728",
+        "kuro:1451284700088971264",
+        "kuro:1451285585517146112",
+        "kuro:1451288460259553280",
+        "kuro:1451290528967766016",
+        "kuro:1451295009577168896",
+        "kuro:1451295927529959424",
+        "kuro:1451297578571591680",
+        "kuro:1451298358454071296",
+        "kuro:1451301356599308288",
+        "kuro:1454087936514781184",
+        "kuro:1454088428051443712",
+        "kuro:1454172613768327168",
+        "kuro:1454173376710242304",
+        "kuro:1454883074551902208",
+        "kuro:1455289847345524736",
+        "kuro:1455290017623896064",
+        "kuro:1455290157547859968",
+        "kuro:1455290285570600960",
+        "kuro:1451289887329546240",
+        "kuro:1451299422578356224",
+        "kuro:1455963997469634560",
+        "kuro:1453851101653954560",
+        "kuro:1452816833798418432",
+        "kuro:1452817255548268544",
+        "kuro:1451252233823006720",
+        "kuro:1451399638256250880",
+        "kuro:1451401021260886016",
+        "kuro:1451401327352803328",
+        "kuro:1451403345538641920",
+        "kuro:1451580023124586496",
+        "kuro:1451581096841244672",
+        "kuro:1452346439557771264",
+        "kuro:1451311428446400512",
+        "kuro:1451312051170521088",
+        "kuro:1451312762386067456",
+        "kuro:1452344683947945984",
+        "kuro:1452348141627305984",
+        "kuro:1452348804763545600",
+        "kuro:1452349357235056640",
+        "kuro:1459684801538326528",
+        "kuro:1459685024020987904",
+        "kuro:1459685611312140288",
+        "kuro:1459685611471523840",
+        "kuro:1459686637787840512",
+        "kuro:1459686637884309504",
+        "kuro:1459686637989167104",
+        "kuro:1459690055592464384",
+        "kuro:1459690151578599424",
+        "kuro:1459690396601962496",
+        "kuro:1459690396761346048",
+        "kuro:1459691010748731392",
+        "kuro:1459691010924892160",
+        "kuro:1459691163857604608",
+        "kuro:1459691549087137792",
+        "kuro:1459691549187801088",
+        "kuro:1459691845318246400",
+        "kuro:1459692067385671680",
+        "kuro:1459692841272508416",
+        "kuro:1459692841389948928",
+        "kuro:1459692998894452736",
+        "kuro:1459693243515162624",
+        "kuro:1459693406257840128",
+        "kuro:1459693854436511744",
+        "kuro:1459693854595895296",
+        "kuro:1459694081516130304",
+        "kuro:1453039457466118144",
+        "kuro:1453041289057742848",
+        "kuro:1451398740075409408",
+        "kuro:1451399220323217408",
+        "kuro:1451399561424990208",
+        "kuro:1451400018218250240",
+        "kuro:1451400628564979712",
+        "kuro:1451401266254376960",
+        "kuro:1451401292191952896",
+        "kuro:1451401670937604096",
+        "kuro:1451403111194488832",
+        "kuro:1451404001892691968",
+        "kuro:1451404078044475392",
+        "kuro:1451405474787438592",
+        "kuro:1451405504539848704",
+        "kuro:1451976458187780096",
+        "kuro:1451976490343526400",
+        "kuro:1453531342594846720",
+        "kuro:1453531666900643840",
+        "kuro:1453532100209995776",
+        "kuro:1453532606353436672",
+        "kuro:1454130060117356544",
+        "kuro:1454130924729200640",
+        "kuro:1454131425497526272",
+        "kuro:1454132847999922176",
+        "kuro:1454133327643750400",
+        "kuro:1454133661965545472",
+        "kuro:1454135073069805568",
+        "kuro:1454135847912943616",
+        "kuro:1454136994950230016",
+        "kuro:1454137438781108224",
+        "kuro:1462376572147892224",
+        "kuro:1452427541691445248",
+        "kuro:1452428098399432704",
+        "kuro:1452439942832910336",
+        "kuro:1452439942946156544",
+        "kuro:1452440532052930560",
+        "kuro:1453463240974856192",
+        "kuro:1453463241079713792",
+        "kuro:1453463241184571392",
+        "kuro:1453464484967673856",
+        "kuro:1453464485068337152",
+        "kuro:1453464485169000448",
+        "kuro:1453465155582357504",
+        "kuro:1453465155687215104",
+        "kuro:1453465155787878400",
+        "kuro:1453468263205105664",
+        "kuro:1453468802068312064",
+        "kuro:1453470326949474304",
+        "kuro:1453470327050137600",
+        "kuro:1452695534205988864",
+        "kuro:1452758197646602240",
+        "kuro:1451611169663168512",
+        "kuro:1451611209991401472",
+        "kuro:1451337059787812864",
+        "kuro:1451338353915146240",
+        "kuro:1451339164831510528",
+        "kuro:1451341318864449536",
+        "kuro:1451342137059913728",
+        "kuro:1451342960429166592",
+        "kuro:1452427300617646080",
+        "kuro:1452431881191878656",
+        "kuro:1452435373664972800",
+        "kuro:1452764623792304128",
+        "kuro:1452764882610221056",
+        "kuro:1452765243997630464",
+        "kuro:1452765354739838976",
+        "kuro:1452765931787988992",
+        "kuro:1452766627683954688",
+        "kuro:1452767000473694208",
+        "kuro:1461156889935642624",
+        "kuro:1461157015245180928",
+        "kuro:1461157404878733312",
+        "kuro:1461157581312131072",
+        "kuro:1461157687755177984",
+        "kuro:1461158159421952000",
+        "kuro:1461158277629509632",
+        "kuro:1461158388875034624",
+        "kuro:1461158649324535808",
+        "kuro:1461158764743905280",
+        "kuro:1453154289859227648"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "locations",
+      "label": "Địa điểm",
+      "icon": "location"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_02",
+    "qzx_03",
+    "qzx_01",
+    "qzx_04"
+  ],
+  "categories": [
+    {
+      "id": "42601440",
+      "label": "Mạng nhện tro bụi",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/5c626d5aa35cd7169055.webp"
+    },
+    {
+      "id": "47",
+      "label": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/992142e14fc8f8ea4838.webp"
+    },
+    {
+      "id": "48",
+      "label": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/27884400d395ddbb48f2.webp"
+    },
+    {
+      "id": "42601320",
+      "label": "nón thông",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/fee3f58b53fbebbed661.webp"
+    },
+    {
+      "id": "42601400",
+      "label": "mẹ ốc đá",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/871c2bd02a71c67de829.webp"
+    },
+    {
+      "id": "qzx_02",
+      "label": "Rương tiêu chuẩn",
+      "color": "#9fdb72",
+      "symbol": "2",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
+    },
+    {
+      "id": "qzx_03",
+      "label": "Rương tinh xảo",
+      "color": "#8bd3c7",
+      "symbol": "3",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
+    },
+    {
+      "id": "qzx_01",
+      "label": "Rương đơn sơ",
+      "color": "#f8c963",
+      "symbol": "1",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
+    },
+    {
+      "id": "FCRK",
+      "label": "Lối vào theo tầng",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/49d61d91025178ae0e67.webp"
+    },
+    {
+      "id": "qzx_04",
+      "label": "Rương huy quang",
+      "color": "#f07e83",
+      "symbol": "4",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/9fb9717a222ce68bd07e.webp"
+    },
+    {
+      "id": "50",
+      "label": "ánh sáng đến từ đâu",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/0039e7d1396bfad89773.webp"
+    },
+    {
+      "id": "320000560",
+      "label": "Bóng sắt ẩn giấu",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a076ebbea8a998c1cc94.webp"
+    },
+    {
+      "id": "381037",
+      "label": "Đài tưởng niệm sự trở lại của Qingshi",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/5cee0398d10949743710.webp"
+    },
+    {
+      "id": "320000520",
+      "label": "Máy khai thác đá",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/1decb00506d6b2fd64ae.webp"
+    },
+    {
+      "id": "cx_01",
+      "label": "Di sản của thủy triều·Xanh",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/1b956f2f5d2ab8f86ef4.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "cx_02",
+      "label": "Di sản thủy triều·Tím",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
+    },
+    {
+      "id": "42601410",
+      "label": "Mỏ đá nhiễu xạ",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/15021eaf6954d11f1371.webp"
+    },
+    {
+      "id": "320000550",
+      "label": "Saw Attack Iron Shadow",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/df896f065118dc63157d.webp"
+    },
+    {
+      "id": "320000510",
+      "label": "Máy trồng cây",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2d694c8594ee0c541b7a.webp"
+    },
+    {
+      "id": "320000580",
+      "label": "Ảo ảnh gió",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/61eabca2fa1c0fc4b40e.webp"
+    },
+    {
+      "id": "310000820",
+      "label": "tiếng nổ lách tách",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/81237a5dcf584ebddb06.webp"
+    },
+    {
+      "id": "zscj",
+      "label": "Tàn dư cuối cùng",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/ed9ef2e8c51bdc5d12e2.webp"
+    },
+    {
+      "id": "310000780",
+      "label": "Ong khoáng",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/1c81032605b71156fa15.webp"
+    },
+    {
+      "id": "320000500",
+      "label": "Lưỡng cực·Mặt trận hạng nặng Yuanyun",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/db11e370075ea75890a0.webp"
+    },
+    {
+      "id": "42601350",
+      "label": "cây dương xỉ",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/77ad3937a0a49aab2484.webp"
+    },
+    {
+      "id": "cbd",
+      "label": "nơi kho báu",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5111afe1ca71aba1d1e3.webp"
+    },
+    {
+      "id": "320000570",
+      "label": "Ảo ảnh quy mô băng giá",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/94e50aeebe9671949856.webp"
+    },
+    {
+      "id": "CS_02",
+      "label": "ngọn hải đăng nhỏ",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
+    },
+    {
+      "id": "320000490",
+      "label": "Súng mọc ngôi sao lưỡng cực",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a42014e123396b017e5e.webp"
+    },
+    {
+      "id": "CS_01",
+      "label": "Hub Beacon",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
+    },
+    {
+      "id": "320000530",
+      "label": "Móng sắt công nghiệp nặng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/90f9a0e66f0c6d41fe06.webp"
+    },
+    {
+      "id": "310000790",
+      "label": "Loại Rock Spider S4",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/30c2306bf43b2db6a700.webp"
+    },
+    {
+      "id": "42",
+      "label": "Riling",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/737a517c7fc367ccb974.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-1/39",
+      "label": "Lõi Rishu",
+      "groupId": "39",
+      "groupLabel": "Lõi Rishu",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-1_39/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5",
+          "1,-5"
+        ]
+      }
+    },
+    {
+      "id": "-1/40",
+      "label": "Tầng một·Cây ngày đầu tiên",
+      "groupId": "40",
+      "groupLabel": "cây ngày đầu tiên",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-1_40/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5"
+        ]
+      }
+    },
+    {
+      "id": "-2/40",
+      "label": "Tầng 2·Cây ngày đầu tiên",
+      "groupId": "40",
+      "groupLabel": "cây ngày đầu tiên",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-2_40/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5"
+        ]
+      }
+    },
+    {
+      "id": "-1/41",
+      "label": "Tầng một·Cây ngày thứ hai",
+      "groupId": "41",
+      "groupLabel": "cây ngày thứ hai",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-1_41/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5"
+        ]
+      }
+    },
+    {
+      "id": "-2/41",
+      "label": "Tầng 2·Cây ngày thứ 2",
+      "groupId": "41",
+      "groupLabel": "cây ngày thứ hai",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-2_41/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5"
+        ]
+      }
+    },
+    {
+      "id": "-3/41",
+      "label": "Cây ngày thứ hai ba tầng",
+      "groupId": "41",
+      "groupLabel": "cây ngày thứ hai",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-3_41/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5"
+        ]
+      }
+    },
+    {
+      "id": "-1/42",
+      "label": "Tầng Một·Cây Ngày Thứ Ba",
+      "groupId": "42",
+      "groupLabel": "cây ngày thứ ba",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-1_42/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5",
+          "1,-5"
+        ]
+      }
+    },
+    {
+      "id": "-2/42",
+      "label": "Tầng hai·Cây ngày thứ ba",
+      "groupId": "42",
+      "groupLabel": "cây ngày thứ ba",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-2_42/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "2,-5",
+          "1,-5"
+        ]
+      }
+    },
+    {
+      "id": "-1/43",
+      "label": "Tầng Một·Cây Ngày Thứ Tư",
+      "groupId": "43",
+      "groupLabel": "cây ngày thứ tư",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-1_43/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "1,-5",
+          "0,-5"
+        ]
+      }
+    },
+    {
+      "id": "-2/43",
+      "label": "Tầng hai·Cây ngày thứ tư",
+      "groupId": "43",
+      "groupLabel": "cây ngày thứ tư",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-2_43/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "1,-5",
+          "0,-5"
+        ]
+      }
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1467928065602080768",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1963.369,
+      "y": 4423.68,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467929310131961856",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1970.598,
+      "y": 4392.056,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467929602336538624",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1958.852,
+      "y": 4422.776,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467930207951900672",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1920,
+      "y": 4417.355,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467931017352101888",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1900.122,
+      "y": 4419.162,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467931372831756288",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1901.026,
+      "y": 4438.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467933386861232128",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2088.056,
+      "y": 4305.318,
+      "description": "Trên thực tế, trong bức tranh có hai mạng nhện, quá bí ẩn. Hai dấu chấm sẽ xuất hiện gần mặt đất để nhắc nhở họ, điều này sẽ rõ ràng hơn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467933387024809984",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2088.96,
+      "y": 4302.607,
+      "description": "Trên thực tế, trong bức tranh có hai mạng nhện, quá bí ẩn. Hai dấu chấm sẽ xuất hiện gần mặt đất để nhắc nhở họ, điều này sẽ rõ ràng hơn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467933954836910080",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2064.565,
+      "y": 4317.064,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467934379069980672",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2056.433,
+      "y": 4315.256,
+      "description": "Đây là hai mạng nhện xếp chồng lên nhau.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467934379237752832",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2056.433,
+      "y": 4316.16,
+      "description": "Đây là hai mạng nhện xếp chồng lên nhau.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468402148089577472",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2048.301,
+      "y": 4276.405,
+      "description": "Tuy nhìn không rõ nhưng ở đây quả thực có mạng nhện",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468402660113432576",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2021.195,
+      "y": 4271.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468402975218909184",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 2035.652,
+      "y": 4279.115,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468404434039590912",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1423.962,
+      "y": 4056.847,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468405190193102848",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1446.551,
+      "y": 4031.548,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468406180690575360",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1468.235,
+      "y": 4003.539,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468406180845764608",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1463.718,
+      "y": 4002.635,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468407653444927488",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1434.805,
+      "y": 4007.153,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468407931459981312",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1440.226,
+      "y": 4007.153,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468408850440568832",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1442.936,
+      "y": 4071.304,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468409328775581696",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1451.972,
+      "y": 4035.162,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468409745051865088",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1459.2,
+      "y": 4039.68,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468410734785974272",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1936.264,
+      "y": 3805.666,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468410895700447232",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1925.421,
+      "y": 3812.894,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468411273082949632",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1933.553,
+      "y": 3809.28,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468411660603277312",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1963.369,
+      "y": 3797.534,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468412115001589760",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1924.518,
+      "y": 3784.885,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468412733430743040",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1950.72,
+      "y": 3741.515,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468413293609209856",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1886.569,
+      "y": 3697.242,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468413631787552768",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1911.868,
+      "y": 3657.487,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468414217484357632",
+      "categoryId": "42601440",
+      "title": "Mạng nhện tro bụi",
+      "x": 1893.798,
+      "y": 3637.609,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453865704230170624",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 1625.377,
+      "y": 4062.241,
+      "description": "Tầng 39 · 完成该挑战可获得星声等奖励（该挑战需先完成前置任务【光的来处】后解锁）",
+      "floorId": "39",
+      "levelId": "-1/39"
+    },
+    {
+      "id": "kuro:1458576179823542272",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 1621.058,
+      "y": 4331.565,
+      "description": "Tầng 42 · Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "floorId": "42",
+      "levelId": "-2/42"
+    },
+    {
+      "id": "kuro:1458576536905613312",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 1840.363,
+      "y": 4375.603,
+      "description": "Tầng 41 · Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "floorId": "41",
+      "levelId": "-1/41"
+    },
+    {
+      "id": "kuro:1458576896664162304",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 1964.137,
+      "y": 4243.399,
+      "description": "Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454952212613771264",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2547.049,
+      "y": 4113.769,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454952212768960512",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2546.146,
+      "y": 4113.769,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454973776948310016",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2547.049,
+      "y": 4111.962,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454988286690013184",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2594.936,
+      "y": 4090.278,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454988286857785344",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2595.84,
+      "y": 4089.374,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454988287012974592",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2595.84,
+      "y": 4090.278,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989425577766912",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2602.165,
+      "y": 4094.344,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989425737150464",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2603.068,
+      "y": 4094.795,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989425892339712",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2602.165,
+      "y": 4094.795,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989426051723264",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2603.068,
+      "y": 4095.699,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989864654286848",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2598.551,
+      "y": 4106.541,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989864838836224",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2598.551,
+      "y": 4108.348,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454989865010802688",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2597.647,
+      "y": 4107.445,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454992050140540928",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2004.028,
+      "y": 4089.374,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454992050241204224",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2003.576,
+      "y": 4088.922,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454992050337673216",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 2003.125,
+      "y": 4089.374,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458918273386172416",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1983.247,
+      "y": 4514.033,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458918273545555968",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1980.536,
+      "y": 4513.129,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458918273700745216",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1976.019,
+      "y": 4521.261,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458920124122300416",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1974.212,
+      "y": 4530.296,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458920124218769408",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1973.317,
+      "y": 4531.2,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458922126650802176",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1939.878,
+      "y": 4546.56,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458922126751465472",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1946.202,
+      "y": 4547.464,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458922126852128768",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1948.913,
+      "y": 4541.139,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458922126948597760",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1948.009,
+      "y": 4539.332,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097007245852672",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1939.878,
+      "y": 4551.078,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097007346515968",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1937.167,
+      "y": 4552.885,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097991807160320",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1933.553,
+      "y": 4511.322,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097991953960960",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1930.842,
+      "y": 4510.419,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097992104955904",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1929.939,
+      "y": 4508.612,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097992251756544",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1927.228,
+      "y": 4504.094,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482097992398557184",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1926.325,
+      "y": 4502.287,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482099554017628160",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1976.019,
+      "y": 4177.016,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482099554168623104",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1977.826,
+      "y": 4177.92,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482099554315423744",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1977.826,
+      "y": 4180.631,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482101586979999744",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1953.431,
+      "y": 4163.464,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482101587269406720",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1953.431,
+      "y": 4161.656,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482101587432984576",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1947.106,
+      "y": 4154.428,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482101587579785216",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1948.009,
+      "y": 4154.428,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482101587726585856",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1948.009,
+      "y": 4152.621,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482102634134130688",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1948.913,
+      "y": 4207.736,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482102634289319936",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1948.913,
+      "y": 4209.544,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482102634444509184",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1943.492,
+      "y": 4206.833,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482102634599698432",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1942.588,
+      "y": 4207.736,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482102634754887680",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1940.781,
+      "y": 4207.736,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482103477081407488",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1939.878,
+      "y": 4193.28,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482103477182070784",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1939.878,
+      "y": 4191.473,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582436802560",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1778.146,
+      "y": 4158.946,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582529077248",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1778.146,
+      "y": 4157.139,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582621351936",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1779.953,
+      "y": 4153.525,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582713626624",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1781.76,
+      "y": 4152.621,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582805901312",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1784.471,
+      "y": 4147.2,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582893981696",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1783.567,
+      "y": 4146.296,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482107582982062080",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1785.374,
+      "y": 4145.393,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111263827755008",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1780.856,
+      "y": 4123.708,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111263924224000",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1779.049,
+      "y": 4122.805,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111264016498688",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1778.146,
+      "y": 4121.901,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111264108773376",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1782.664,
+      "y": 4120.998,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111264226213888",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1780.856,
+      "y": 4119.191,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111264318488576",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1783.567,
+      "y": 4118.287,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482111264406568960",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1785.374,
+      "y": 4117.384,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482115798745763840",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1788.988,
+      "y": 4093.892,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482115798905147392",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1786.278,
+      "y": 4089.374,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482115799064530944",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1785.374,
+      "y": 4088.471,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482115799232303104",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1783.567,
+      "y": 4083.953,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482115799391686656",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1781.76,
+      "y": 4084.856,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1482115799546875904",
+      "categoryId": "42601400",
+      "title": "mẹ ốc đá",
+      "x": 1780.856,
+      "y": 4085.76,
+      "description": "Trong trí nhớ của hầu hết người dân Roy, “bài học số học” đầu tiên thời thơ ấu không đến từ Học viện Star Torch mà là một phần của một chiếc vỏ sò cổ xưa. Loại hóa thạch ốc xà cừ này được gọi là “Mẹ đá ốc xà cừ”. Cấu trúc bên trong của nó tự nhiên tạo thành một vòng tròn gồm các rãnh hướng tâm, giống như một mạng lưới toán học được các vị thần chạm khắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237458678329344",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1906.447,
+      "y": 3652.969,
+      "description": "Lấy vị trí của Linnai làm chuẩn, trên phiến đá bên trái Linnai có sự đơn giản; có một sự đơn giản trên nhị hoa đối diện trực tiếp; có sự đơn giản ở giữa cột đá bên phải; khi leo lên cột đá có sự đơn giản và chuẩn mực. ! Tiếp theo là điểm mấu chốt. Nếu bạn cảm thấy mệt mỏi với việc dịch chuyển tức thời và leo trèo để tìm rương kho báu, thì có một chiếc máy bay không người lái Eagle Eye ngay phía trên đầu Linna trong bức hình thứ hai. Bạn có thể mở trực tiếp nhiều cái bằng cách nhấn nút khóa móc khi đang lái xe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451278218025037824",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 2586.805,
+      "y": 4064.075,
+      "description": "Lấy vị trí của Linnai trong bức tranh thứ hai làm điểm chuẩn, leo lên phía bên tay trái của Linnai, rồi leo lên một cột đá, sẽ có sự đơn giản; ô vuông đầu tiên bên trái Linnai, phía sau cột đá màu tím, sẽ có sự đơn giản; leo lên vị trí đối diện trực tiếp với Linnai sẽ có điểm chuẩn; rồi lại leo lên sẽ có sự đơn giản; trong trại bên phải Linnai, có sự đơn giản trên ban công tầng hai; Cuối cùng, nhìn lên ở bức tranh thứ hai, tức là ở bức tranh thứ ba, có một chiếc rương bảo vật xe máy",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451283940804718592",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1929.939,
+      "y": 4003.539,
+      "description": "Tầng 40 · 顺着危行任务“光的来处”到达第一日数第二层的时候，先别急着过任务，向后看，也就是第二张图的位置，宝箱在琳奈正面面对的建筑上方。",
+      "floorId": "40",
+      "levelId": "-2/40"
+    },
+    {
+      "id": "kuro:1451292747119259648",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1576.659,
+      "y": 4418.259,
+      "description": "Tầng 42 · 顺着危行任务“光的来处”来到第三日树的第一层，站在琳奈的位置，朝着前方一直走，最里面右拐，就能看到宝箱。",
+      "floorId": "42",
+      "levelId": "-1/42"
+    },
+    {
+      "id": "kuro:1451301457690423296",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1614.607,
+      "y": 4065.882,
+      "description": "Tầng 39 · 摩托挑战的宝箱，挑战地点就在宝箱位置，这个挑战有前置条件，需要过完危行任务“光的指引”。",
+      "floorId": "39",
+      "levelId": "-1/39"
+    },
+    {
+      "id": "kuro:1454546909617516544",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1119.473,
+      "y": 4096.602,
+      "description": "Tầng 43 · 顺着危行任务“光的来处”来到第四日树的第二层，顺着任务来到最后的横屏2D跑酷小游戏，肯定能看到，记得时不时扫描一下，这个容易漏。",
+      "floorId": "43",
+      "levelId": "-2/43"
+    },
+    {
+      "id": "kuro:1455961545560748032",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 2109.741,
+      "y": 4251.106,
+      "description": "Tiếp theo rương kho báu của nhiệm vụ 1,6 tỷ bit là địa điểm nhận nhiệm vụ. Điểm đón nằm ở lối vào khu trò chơi điện tử ở tầng dưới cùng (dấu chấm câu do người chơi Delu Mengyu cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1455962516880322560",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1938.974,
+      "y": 4382.118,
+      "description": "Rương kho báu nhiệm vụ 1,6 tỷ bit, tiếp theo là vị trí nhận nhiệm vụ (dấu chấm câu do người chơi Delu Mengyu cung cấp, dấu chấm câu này tượng trưng cho lần đầu tiên lấy được hộp kho báu và dấu chấm câu này có thể nhận được tổng cộng hai lần)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1455963503015718912",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 1938.071,
+      "y": 4381.214,
+      "description": "Rương kho báu nhiệm vụ 1,6 tỷ bit, tiếp theo là vị trí nhận nhiệm vụ (dấu chấm câu do người chơi Delu Mengyu cung cấp, dấu chấm câu này tượng trưng cho lần thứ hai lấy được hộp kho báu và tổng cộng có thể lấy được dấu chấm câu này hai lần)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451282615303991296",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 1961.562,
+      "y": 3961.976,
+      "description": "Tầng 40 · 跟随危行任务“光的来处”第一次到达这里的时候，留意一下小瀑布这里。",
+      "floorId": "40",
+      "levelId": "-1/40"
+    },
+    {
+      "id": "kuro:1451291068015521792",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 1848.621,
+      "y": 4251.106,
+      "description": "Tầng 41 · 顺着危行任务“光的来处”来到第二日树的第一层，下来之后来到再下面一点的水池里，开一下扫描，很快就能找到。",
+      "floorId": "41",
+      "levelId": "-1/41"
+    },
+    {
+      "id": "kuro:1451301552819220480",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 1613.704,
+      "y": 4063.172,
+      "description": "Tầng 39 · 摩托挑战的宝箱，挑战地点就在宝箱位置，这个挑战有前置条件，需要过完危行任务“光的指引”。",
+      "floorId": "39",
+      "levelId": "-1/39"
+    },
+    {
+      "id": "kuro:1451226702184394752",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1452.875,
+      "y": 4214.061,
+      "description": "Chỉ cần lái xe máy của bạn về phía vị trí chấm câu, thật dễ dàng để nhìn thấy.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451227352486064128",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1487.209,
+      "y": 4234.842,
+      "description": "Chiếc rương này cần sử dụng chức năng hình dung, sử dụng hình ảnh trực quan trong bức tranh thứ hai và lấy loại nhện đá S4.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451228882756907008",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2069.986,
+      "y": 4056.847,
+      "description": "Sau khi mở khóa bộ sưu tập Sun Spirit này, hãy dịch chuyển đến chỗ người đàn ông béo xanh. Rương kho báu nằm phía sau tòa nhà của người đàn ông béo xanh trong bức tranh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451230630693367808",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1995.896,
+      "y": 4088.471,
+      "description": "Chỉ cần đến đây bằng xe máy. Không có cách nào để giải mã rương kho báu bị lộ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451233958101839872",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1923.614,
+      "y": 3797.534,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451234423356993536",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1947.106,
+      "y": 3741.515,
+      "description": "Hình dáng ban đầu trông giống như trong bức ảnh thứ hai. Khi bạn đến gần, hãy sử dụng chức năng hình ảnh để hình dung con nhện đá.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451235249244811264",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1856.753,
+      "y": 3663.812,
+      "description": "Lấy vị trí của Linnai làm chuẩn, trên phiến đá bên trái Linnai có sự đơn giản; có một sự đơn giản trên nhị hoa đối diện trực tiếp; có sự đơn giản ở giữa cột đá bên phải; khi leo lên cột đá có sự đơn giản và chuẩn mực. ! Tiếp theo là điểm mấu chốt. Nếu bạn cảm thấy mệt mỏi với việc dịch chuyển tức thời và leo trèo để tìm rương kho báu, thì có một chiếc máy bay không người lái Eagle Eye ngay phía trên đầu Linna trong bức hình thứ hai. Bạn có thể mở trực tiếp nhiều cái bằng cách nhấn nút khóa móc khi đang lái xe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237711680958464",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1896.508,
+      "y": 3640.32,
+      "description": "Lấy vị trí của Linnai làm chuẩn, trên phiến đá bên trái Linnai có sự đơn giản; có một sự đơn giản trên nhị hoa đối diện trực tiếp; có sự đơn giản ở giữa cột đá bên phải; khi leo lên cột đá có sự đơn giản và chuẩn mực. ! Tiếp theo là điểm mấu chốt. Nếu bạn cảm thấy mệt mỏi với việc dịch chuyển tức thời và leo trèo để tìm rương kho báu, thì có một chiếc máy bay không người lái Eagle Eye ngay phía trên đầu Linna trong bức hình thứ hai. Bạn có thể mở trực tiếp nhiều cái bằng cách nhấn nút khóa móc khi đang lái xe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451238014304186368",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1900.122,
+      "y": 3643.934,
+      "description": "Lấy vị trí của Linnai làm chuẩn, trên phiến đá bên trái Linnai có sự đơn giản; có một sự đơn giản trên nhị hoa đối diện trực tiếp; có sự đơn giản ở giữa cột đá bên phải; khi leo lên cột đá có sự đơn giản và chuẩn mực. ! Tiếp theo là điểm mấu chốt. Nếu bạn cảm thấy mệt mỏi với việc dịch chuyển tức thời và leo trèo để tìm rương kho báu, thì có một chiếc máy bay không người lái Eagle Eye ngay phía trên đầu Linna trong bức hình thứ hai. Bạn có thể mở trực tiếp nhiều cái bằng cách nhấn nút khóa móc khi đang lái xe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451238395834855424",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1868.499,
+      "y": 3643.934,
+      "description": "Lấy vị trí của Linnai làm chuẩn, trên phiến đá bên trái Linnai có sự đơn giản; có một sự đơn giản trên nhị hoa đối diện trực tiếp; có sự đơn giản ở giữa cột đá bên phải; khi leo lên cột đá có sự đơn giản và chuẩn mực. ! Tiếp theo là điểm mấu chốt. Nếu bạn cảm thấy mệt mỏi với việc dịch chuyển tức thời và leo trèo để tìm rương kho báu, thì có một chiếc máy bay không người lái Eagle Eye ngay phía trên đầu Linna trong bức hình thứ hai. Bạn có thể mở trực tiếp nhiều cái bằng cách nhấn nút khóa móc khi đang lái xe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451241022983303168",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2012.16,
+      "y": 4370.372,
+      "description": "Leo lên theo cách cũ, có vẻ như bạn không thể leo lên bằng xe máy.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451241675415678976",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1976.019,
+      "y": 4416.452,
+      "description": "Có hai con quái vật ở bên dưới nhưng chúng không ảnh hưởng đến rương kho báu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451242771221524480",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1907.351,
+      "y": 4242.974,
+      "description": "ở những nơi cao",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451276019156971520",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2557.892,
+      "y": 4045.101,
+      "description": "Lấy vị trí của Linnai trong bức tranh thứ hai làm điểm chuẩn, leo lên phía bên tay trái của Linnai, rồi leo lên một cột đá, sẽ có sự đơn giản; ô vuông đầu tiên bên trái Linnai, phía sau cột đá màu tím, sẽ có sự đơn giản; leo lên vị trí đối diện trực tiếp với Linnai sẽ có điểm chuẩn; rồi lại leo lên sẽ có sự đơn giản; trong trại bên phải Linnai, có sự đơn giản trên ban công tầng hai; Cuối cùng, nhìn lên ở bức tranh thứ hai, tức là ở bức tranh thứ ba, có một chiếc rương bảo vật xe máy",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451277986543382528",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2596.744,
+      "y": 4043.294,
+      "description": "Lấy vị trí của Linnai trong bức tranh thứ hai làm điểm chuẩn, leo lên phía bên tay trái của Linnai, rồi leo lên một cột đá, sẽ có sự đơn giản; ô vuông đầu tiên bên trái Linnai, phía sau cột đá màu tím, sẽ có sự đơn giản; leo lên vị trí đối diện trực tiếp với Linnai sẽ có điểm chuẩn; rồi lại leo lên sẽ có sự đơn giản; trong trại bên phải Linnai, có sự đơn giản trên ban công tầng hai; Cuối cùng, nhìn lên ở bức tranh thứ hai, tức là ở bức tranh thứ ba, có một chiếc rương bảo vật xe máy",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451278649402798080",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2616.621,
+      "y": 4055.04,
+      "description": "Lấy vị trí của Linnai trong bức tranh thứ hai làm điểm chuẩn, leo lên phía bên tay trái của Linnai, rồi leo lên một cột đá, sẽ có sự đơn giản; ô vuông đầu tiên bên trái Linnai, phía sau cột đá màu tím, sẽ có sự đơn giản; leo lên vị trí đối diện trực tiếp với Linnai sẽ có điểm chuẩn; rồi lại leo lên sẽ có sự đơn giản; trong trại bên phải Linnai, có sự đơn giản trên ban công tầng hai; Cuối cùng, nhìn lên ở bức tranh thứ hai, tức là ở bức tranh thứ ba, có một chiếc rương bảo vật xe máy",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451279005805391872",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2620.235,
+      "y": 4094.795,
+      "description": "Lấy vị trí của Linnai trong bức tranh thứ hai làm điểm chuẩn, leo lên phía bên tay trái của Linnai, rồi leo lên một cột đá, sẽ có sự đơn giản; ô vuông đầu tiên bên trái Linnai, phía sau cột đá màu tím, sẽ có sự đơn giản; leo lên vị trí đối diện trực tiếp với Linnai sẽ có điểm chuẩn; rồi lại leo lên sẽ có sự đơn giản; trong trại bên phải Linnai, có sự đơn giản trên ban công tầng hai; Cuối cùng, nhìn lên ở bức tranh thứ hai, tức là ở bức tranh thứ ba, có một chiếc rương bảo vật xe máy",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451279944887103488",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2180.216,
+      "y": 4075.821,
+      "description": "Xuất hiện rương kho báu, hình ảnh âm thanh của bộ xương đá nhện.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451280566250057728",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1994.089,
+      "y": 4147.2,
+      "description": "Xuất hiện rương kho báu, hình ảnh âm thanh của bộ xương đá nhện.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451284700088971264",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1928.132,
+      "y": 3933.064,
+      "description": "Tầng 40 · 顺着危行任务“光的来处”，来到第一日树的第二层，站到第二张图琳奈的位置，宝箱在琳奈左手边白色方框位置，爬上去就能看到。",
+      "floorId": "40",
+      "levelId": "-1/40"
+    },
+    {
+      "id": "kuro:1451285585517146112",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1976.019,
+      "y": 3931.256,
+      "description": "Tầng 40 · 顺着危行任务“光的来处”来到第一日树第二层，站在第二张图琳奈的位置，朝着右手边的楼梯走，也就是第二张图黑色方框区域，上楼梯就能看到宝箱。",
+      "floorId": "40",
+      "levelId": "-2/40"
+    },
+    {
+      "id": "kuro:1451288460259553280",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1847.718,
+      "y": 4254.72,
+      "description": "Tầng 41 · 顺着危行任务“光的来处”来到第二日树的第三层，一进来开个扫描就可以看到宝箱。",
+      "floorId": "41",
+      "levelId": "-3/41"
+    },
+    {
+      "id": "kuro:1451290528967766016",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1887.473,
+      "y": 4270.984,
+      "description": "Tầng 41 · 顺着危行任务“光的来处”来到第二日树的第一层，下来之后的视角正对面就能看到这个宝箱，开一下扫描更快哦。",
+      "floorId": "41",
+      "levelId": "-1/41"
+    },
+    {
+      "id": "kuro:1451295009577168896",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 963.162,
+      "y": 4093.892,
+      "description": "Tầng 43 · 顺着危行任务“光的来处”来到第四日树的第一层，顺着任务走，必然可以看到这个宝箱。",
+      "floorId": "43",
+      "levelId": "-1/43"
+    },
+    {
+      "id": "kuro:1451295927529959424",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 925.214,
+      "y": 4123.708,
+      "description": "Tầng 43 · 顺着危行任务“光的来处”来到第四日树的第二层，用日灵把笼子打破，就能拿到。",
+      "floorId": "43",
+      "levelId": "-2/43"
+    },
+    {
+      "id": "kuro:1451297578571591680",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 893.591,
+      "y": 4036.066,
+      "description": "Tầng 43 · 顺着危行任务“光的来处”来到第四日树的第二层，走过跳跳乐，就能看到。",
+      "floorId": "43",
+      "levelId": "-2/43"
+    },
+    {
+      "id": "kuro:1451298358454071296",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1066.165,
+      "y": 4095.699,
+      "description": "Tầng 43 · 顺着危行任务“光的来处”来到第四日树的第二层，顺着任务来到最后的横屏2D跑酷小游戏，肯定能看到。",
+      "floorId": "43",
+      "levelId": "-2/43"
+    },
+    {
+      "id": "kuro:1451301356599308288",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1615.511,
+      "y": 4067.689,
+      "description": "Tầng 39 · 摩托挑战的宝箱，挑战地点就在宝箱位置，这个挑战有前置条件，需要过完危行任务“光的指引”。",
+      "floorId": "39",
+      "levelId": "-1/39"
+    },
+    {
+      "id": "kuro:1454087936514781184",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1931.746,
+      "y": 4216.772,
+      "description": "Bạn cần sử dụng chức năng hình ảnh để hình dung bộ xương nhện đá.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454088428051443712",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2041.976,
+      "y": 4301.704,
+      "description": "Bạn cần sử dụng chức năng hình ảnh để hình dung bộ xương nhện đá.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454172613768327168",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 2089.864,
+      "y": 4095.699,
+      "description": "Bạn cần sử dụng chức năng hình ảnh để hình dung bộ xương nhện đá.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454173376710242304",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1998.607,
+      "y": 4270.08,
+      "description": "Bạn cần sử dụng chức năng hình ảnh để hình dung bộ xương nhện đá.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454883074551902208",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 1900.122,
+      "y": 4318.871,
+      "description": "Rương kho báu xuất hiện sau khi hiện ra Bộ xương Nhện Đá ở gần dấu chấm câu (dấu chấm câu được người chơi cung cấp khi thay đổi tập tin)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1455289847345524736",
+      "categoryId": "FCRK",
+      "title": "Lối vào theo tầng",
+      "x": 842.397,
+      "y": 4086.718,
+      "description": "Tầng 43 · 第四日树分层入口",
+      "floorId": "43",
+      "levelId": "-1000000/43"
+    },
+    {
+      "id": "kuro:1455290017623896064",
+      "categoryId": "FCRK",
+      "title": "Lối vào theo tầng",
+      "x": 1685.977,
+      "y": 4426.589,
+      "description": "Tầng 42 · 第三日树分层入口",
+      "floorId": "42",
+      "levelId": "-1000000/42"
+    },
+    {
+      "id": "kuro:1455290157547859968",
+      "categoryId": "FCRK",
+      "title": "Lối vào theo tầng",
+      "x": 1855.208,
+      "y": 4348.425,
+      "description": "Tầng 41 · 第二日树分层入口",
+      "floorId": "41",
+      "levelId": "-1000000/41"
+    },
+    {
+      "id": "kuro:1455290285570600960",
+      "categoryId": "FCRK",
+      "title": "Lối vào theo tầng",
+      "x": 2022.442,
+      "y": 3968.961,
+      "description": "Tầng 40 · 第一日树分层入口",
+      "floorId": "40",
+      "levelId": "-1000000/40"
+    },
+    {
+      "id": "kuro:1451289887329546240",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 1812.48,
+      "y": 4275.501,
+      "description": "Tầng 41 · 顺着危行任务“光的来处”来到第二日树的第二层，一开门就能看到这个涡纹宝箱。",
+      "floorId": "41",
+      "levelId": "-2/41"
+    },
+    {
+      "id": "kuro:1451299422578356224",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 1143.868,
+      "y": 4095.699,
+      "description": "Tầng 43 · 顺着危行任务“光的来处”来到第四日树的第二层，顺着任务来到最后的横屏2D跑酷小游戏，肯定能看到，记得时不时开一下扫描，不然很容易漏宝箱。",
+      "floorId": "43",
+      "levelId": "-2/43"
+    },
+    {
+      "id": "kuro:1455963997469634560",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 1825.129,
+      "y": 4327.002,
+      "description": "Hộp kho báu nhiệm vụ 1,6 tỷ bit, tiếp theo là địa điểm nhận nhiệm vụ (dấu chấm câu do người chơi Delu Mengyu cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453851101653954560",
+      "categoryId": "50",
+      "title": "ánh sáng đến từ đâu",
+      "x": 2247.349,
+      "y": 4080.8,
+      "description": "Sau khi nhận được tin nhắn ở Feixun và tìm thấy NPC trong ảnh, hãy nhận nhiệm vụ \"Nơi ánh sáng đến\" (dấu chấm câu chỉ là vị trí hiển thị trong trò chơi, nên hoàn thành nó kết hợp với các chiến lược liên quan)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452816833798418432",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 1983.636,
+      "y": 4408.022,
+      "description": "Một (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452817255548268544",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 1362.432,
+      "y": 4042.589,
+      "description": "Một (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451252233823006720",
+      "categoryId": "381037",
+      "title": "Đài tưởng niệm sự trở lại của Qingshi",
+      "x": 2065.812,
+      "y": 4069.126,
+      "description": "Hãy giúp Ryusolot tìm thấy Nichiling bị mất và trả lại Aomi đã thu thập được cho Nichiling khổng lồ ở Aomihara. Linh hồn mặt trời khổng lồ sẽ biến chất rắn màu xanh lá cây thành năng lượng và đưa nó trở lại Rừng Kinh tuyến Mặt trời... nơi một linh hồn mặt trời mới sẽ được sinh ra.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451399638256250880",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 1765.695,
+      "y": 4185.817,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451401021260886016",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 1830.135,
+      "y": 4016.568,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451401327352803328",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 1835.439,
+      "y": 3958.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451403345538641920",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 1967.218,
+      "y": 4018.375,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451580023124586496",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 2075.046,
+      "y": 4282.178,
+      "description": "Trong số các loài thực vật trong ao",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451581096841244672",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 1678.387,
+      "y": 4252.633,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452346439557771264",
+      "categoryId": "cx_01",
+      "title": "Di sản của thủy triều·Xanh",
+      "x": 1762.786,
+      "y": 4349.591,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451311428446400512",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 1688.227,
+      "y": 4191.672,
+      "description": "Mở khóa sau khi tiêu diệt quái vật gần dấu chấm câu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451312051170521088",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 1692.509,
+      "y": 4017.959,
+      "description": "Mở khóa sau khi tiêu diệt quái vật gần dấu chấm câu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451312762386067456",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 1902.779,
+      "y": 4165.442,
+      "description": "Mở khóa sau khi tiêu diệt quái vật gần dấu chấm câu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452344683947945984",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 1360.715,
+      "y": 4042.391,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452348141627305984",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 1894.701,
+      "y": 3952.941,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452348804763545600",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 1929.035,
+      "y": 4273.694,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452349357235056640",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 1905.544,
+      "y": 4167.981,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459684801538326528",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1484.499,
+      "y": 3941.195,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459685024020987904",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1486.306,
+      "y": 3941.195,
+      "description": "Quặng lớn, nghiền nát để thu được nhiều quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459685611312140288",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1489.016,
+      "y": 3934.871,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459685611471523840",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1489.92,
+      "y": 3934.871,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459686637787840512",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1472.753,
+      "y": 3966.494,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459686637884309504",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1473.656,
+      "y": 3966.494,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459686637989167104",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1474.56,
+      "y": 3968.301,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459690055592464384",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1457.393,
+      "y": 3979.144,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459690151578599424",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1459.2,
+      "y": 3978.24,
+      "description": "Quặng lớn, nghiền nát để thu được nhiều quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459690396601962496",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1455.586,
+      "y": 3982.758,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459690396761346048",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1454.682,
+      "y": 3981.854,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459691010748731392",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1445.647,
+      "y": 3948.424,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459691010924892160",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1446.551,
+      "y": 3948.424,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459691163857604608",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1450.165,
+      "y": 3947.52,
+      "description": "Quặng lớn, nghiền nát để thu được nhiều quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459691549087137792",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1454.682,
+      "y": 3937.581,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459691549187801088",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1453.779,
+      "y": 3937.581,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459691845318246400",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1458.296,
+      "y": 3943.906,
+      "description": "Quặng lớn, nghiền nát để thu được nhiều quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459692067385671680",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1455.586,
+      "y": 3945.713,
+      "description": "Tại Riling Point, sử dụng Sound Skeleton Vision để triệu hồi con nai sừng tấm máy đá khoáng để nghiền nát đá nhiễu xạ đặc biệt để thu được nhiều mỏ đá nhiễu xạ (nó sẽ không được làm mới)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459692841272508416",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1472.753,
+      "y": 3931.256,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459692841389948928",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1477.271,
+      "y": 3932.16,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459692998894452736",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1474.56,
+      "y": 3932.16,
+      "description": "Quặng lớn, nghiền nát để thu được nhiều quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459693243515162624",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1485.402,
+      "y": 3928.546,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459693406257840128",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1483.595,
+      "y": 3929.449,
+      "description": "Quặng lớn, nghiền nát để thu được nhiều quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459693854436511744",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1507.087,
+      "y": 3936.678,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459693854595895296",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1507.991,
+      "y": 3935.774,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459694081516130304",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 1505.28,
+      "y": 3929.449,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453039457466118144",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 1361.104,
+      "y": 4043.15,
+      "description": "Di tích thủy triều một",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453041289057742848",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 1961.346,
+      "y": 4409.513,
+      "description": "Một cái ở ven đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451398740075409408",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 2070.447,
+      "y": 4287.102,
+      "description": "Đánh nhau với ong khiến cây dễ mắc kẹt",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451399220323217408",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1845.468,
+      "y": 4259.12,
+      "description": "trên đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451399561424990208",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1770.592,
+      "y": 4185.645,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451400018218250240",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1765.966,
+      "y": 4365.276,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451400628564979712",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1828.68,
+      "y": 4030.356,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451401266254376960",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1834.644,
+      "y": 3964.877,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451401292191952896",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1838.89,
+      "y": 3963.025,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451401670937604096",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1948.66,
+      "y": 3898.178,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451403111194488832",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1951.578,
+      "y": 4021.871,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451404001892691968",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 2289.571,
+      "y": 4079.788,
+      "description": "Nó sẽ đi hết con đường về hướng Tây và dừng lại ở cuối hình 2",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451404078044475392",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 2294.82,
+      "y": 4079.408,
+      "description": "Nó sẽ đi hết con đường về hướng Tây và dừng lại ở cuối hình 2",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451405474787438592",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1383.864,
+      "y": 4120.13,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451405504539848704",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 1383.999,
+      "y": 4123.311,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451976458187780096",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 1925.53,
+      "y": 4272.429,
+      "description": "di sản của thủy triều hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451976490343526400",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 1929.623,
+      "y": 4272.321,
+      "description": "di sản của thủy triều hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453531342594846720",
+      "categoryId": "310000820",
+      "title": "tiếng nổ lách tách",
+      "x": 1981.44,
+      "y": 4298.993,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453531666900643840",
+      "categoryId": "310000820",
+      "title": "tiếng nổ lách tách",
+      "x": 2094.381,
+      "y": 4098.409,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453532100209995776",
+      "categoryId": "310000820",
+      "title": "tiếng nổ lách tách",
+      "x": 1856.753,
+      "y": 4008.96,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453532606353436672",
+      "categoryId": "310000820",
+      "title": "tiếng nổ lách tách",
+      "x": 1492.631,
+      "y": 4240.264,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454130060117356544",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1978.729,
+      "y": 4092.988,
+      "description": "Nằm trên đỉnh núi. Sau khi dịch chuyển từ đèn hiệu trung tâm, bạn có thể nhìn thấy nó bằng cách nhìn lên phía tây bắc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454130924729200640",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1966.08,
+      "y": 3924.932,
+      "description": "Nằm trên đỉnh núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454131425497526272",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1885.666,
+      "y": 4026.127,
+      "description": "Nằm trên đỉnh núi, bạn có thể lái mô tô và sử dụng máy bay không người lái điểm neo bên cạnh để kéo nó vào, sau đó sử dụng mỏ neo vạn năng để lấy nó.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454132847999922176",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1455.586,
+      "y": 4111.962,
+      "description": "Ở lối vào hang động trên bề mặt",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454133327643750400",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1479.078,
+      "y": 4238.456,
+      "description": "trên những tảng đá lề đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454133661965545472",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1425.769,
+      "y": 4010.767,
+      "description": "Nằm trên đỉnh những tảng đá bên đường, bạn có thể lấy được nếu đến gần",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454135073069805568",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1899.219,
+      "y": 3647.548,
+      "description": "Nằm trên cột đá ở giữa võ đài",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454135847912943616",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1899.219,
+      "y": 4310.739,
+      "description": "Nằm ở phần trên cùng của tàn tích của tòa nhà hình vòm tròn cao nhất.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454136994950230016",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1896.508,
+      "y": 4441.751,
+      "description": "Nằm trên một tảng đá lớn bên đường.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454137438781108224",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 1944.395,
+      "y": 4560.113,
+      "description": "Nằm trên đỉnh một tảng đá lớn ven bờ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1462376572147892224",
+      "categoryId": "310000780",
+      "title": "Ong khoáng",
+      "x": 2005.835,
+      "y": 4277.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452427541691445248",
+      "categoryId": "320000500",
+      "title": "Lưỡng cực·Mặt trận hạng nặng Yuanyun",
+      "x": 1915.482,
+      "y": 4160.753,
+      "description": "Mặt trận hạng nặng lưỡng cực Yuan Yuan được trang bị mô-đun chiến đấu hợp tác hàng đầu. Khi kết hợp với Súng thăng sao lưỡng cực, tư thế chiến đấu lộng lẫy như một điệu nhảy, chiến thuật tấn công rất phong phú và có thể thay đổi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452428098399432704",
+      "categoryId": "320000500",
+      "title": "Lưỡng cực·Mặt trận hạng nặng Yuanyun",
+      "x": 1703.153,
+      "y": 4012.574,
+      "description": "Mặt trận hạng nặng lưỡng cực Yuan Yuan được trang bị mô-đun chiến đấu hợp tác hàng đầu. Khi kết hợp với Súng thăng sao lưỡng cực, tư thế chiến đấu lộng lẫy như một điệu nhảy, chiến thuật tấn công rất phong phú và có thể thay đổi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452439942832910336",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2579.576,
+      "y": 4158.946,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452439942946156544",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2579.576,
+      "y": 4158.042,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452440532052930560",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2600.358,
+      "y": 4146.296,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453463240974856192",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2594.936,
+      "y": 4142.682,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453463241079713792",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2594.936,
+      "y": 4149.911,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453463241184571392",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2594.936,
+      "y": 4149.007,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453464484967673856",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2593.129,
+      "y": 4162.56,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453464485068337152",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2590.419,
+      "y": 4163.464,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453464485169000448",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2590.419,
+      "y": 4162.56,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453465155582357504",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2566.927,
+      "y": 4158.042,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453465155687215104",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2566.024,
+      "y": 4158.042,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453465155787878400",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2565.12,
+      "y": 4158.946,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453468263205105664",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2560.602,
+      "y": 4164.367,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453468802068312064",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2558.795,
+      "y": 4166.174,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453470326949474304",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2563.313,
+      "y": 4167.078,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453470327050137600",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 2563.313,
+      "y": 4167.981,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452695534205988864",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 2585.757,
+      "y": 4069.397,
+      "description": "Lấy vị trí của Linnai trong bức ảnh đầu tiên làm chuẩn, nếu Linnai leo lên phía bên tay trái rồi leo lên cột đá thì sẽ có sự đơn giản; ở ô đầu tiên bên trái Linnai, phía sau cột đá màu tím sẽ có sự đơn giản; nếu cô ấy leo lên vị trí đối diện trực tiếp với Linnai thì sẽ có điểm chuẩn; sau đó, nếu cô ấy leo lên lần nữa, sẽ có sự đơn giản; trong trại ở phía bên phải Linnai, sẽ có sự đơn giản trên ban công tầng hai; Cuối cùng, nếu góc nhìn của bức thứ hai hướng lên trên, tức là bức thứ ba, thì có một chiếc rương đựng báu vật bằng mô tô.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452758197646602240",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 1881.699,
+      "y": 3658.544,
+      "description": "Lấy vị trí của Linnai làm chuẩn, trên phiến đá bên trái Linnai có sự đơn giản; có một sự đơn giản trên nhị hoa đối diện trực tiếp; có sự đơn giản ở giữa cột đá bên phải; khi leo lên cột đá có sự đơn giản và chuẩn mực. ! Tiếp theo là điểm mấu chốt. Nếu bạn cảm thấy mệt mỏi với việc dịch chuyển tức thời và leo trèo để tìm rương kho báu, có một chiếc máy bay không người lái Eagle Eye ngay trên đầu Linnai. Bạn có thể mở trực tiếp nhiều cái bằng cách nhấn nút khóa móc khi đang lái xe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451611169663168512",
+      "categoryId": "320000570",
+      "title": "Ảo ảnh quy mô băng giá",
+      "x": 1892.759,
+      "y": 3953.348,
+      "description": "Di sản của thủy triều thứ hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451611209991401472",
+      "categoryId": "320000570",
+      "title": "Ảo ảnh quy mô băng giá",
+      "x": 1898.722,
+      "y": 3954.766,
+      "description": "Di sản của thủy triều thứ hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451337059787812864",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 2662.981,
+      "y": 4164.674,
+      "description": "Roy Icefield-Khu rừng ánh sáng nổi-Hellius",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451338353915146240",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 1926.523,
+      "y": 4354.867,
+      "description": "Sân băng Roy-Rừng Fuguang-Qingshiyuan",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451339164831510528",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 1758.693,
+      "y": 4120.582,
+      "description": "Sân băng Roy-Rừng Fuguang",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451341318864449536",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 1672.505,
+      "y": 4051.561,
+      "description": "Tầng 39 · 罗伊冰原-日脉悬林-日树核心",
+      "floorId": "39",
+      "levelId": "-1/39"
+    },
+    {
+      "id": "kuro:1451342137059913728",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 1975.883,
+      "y": 3972.34,
+      "description": "Tầng 40 · 罗伊冰原-日脉悬林-第一日树·一层",
+      "floorId": "40",
+      "levelId": "-1/40"
+    },
+    {
+      "id": "kuro:1451342960429166592",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 918.564,
+      "y": 4149.143,
+      "description": "Tầng 43 · 罗伊冰原-日脉悬林-第四日树·一层",
+      "floorId": "43",
+      "levelId": "-1/43"
+    },
+    {
+      "id": "kuro:1452427300617646080",
+      "categoryId": "320000490",
+      "title": "Súng mọc ngôi sao lưỡng cực",
+      "x": 1915.482,
+      "y": 4167.078,
+      "description": "Súng tăng sao lưỡng cực được trang bị mô-đun chiến đấu hợp tác đỉnh cao. Khi kết hợp với Mặt trận hạng nặng lưỡng cực Star-Rising, tư thế chiến đấu lộng lẫy như một vũ điệu, chiến thuật tấn công rất phong phú và có thể thay đổi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452431881191878656",
+      "categoryId": "320000490",
+      "title": "Súng mọc ngôi sao lưỡng cực",
+      "x": 1697.732,
+      "y": 4195.087,
+      "description": "Súng tăng sao lưỡng cực được trang bị mô-đun chiến đấu hợp tác đỉnh cao. Khi kết hợp với Mặt trận hạng nặng lưỡng cực Star-Rising, tư thế chiến đấu lộng lẫy như một vũ điệu, chiến thuật tấn công rất phong phú và có thể thay đổi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452435373664972800",
+      "categoryId": "CS_01",
+      "title": "Hub Beacon",
+      "x": 2036.555,
+      "y": 4127.322,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452764623792304128",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 2094.381,
+      "y": 4391.153,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452764882610221056",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 2080.828,
+      "y": 4375.793,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452765243997630464",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 2090.767,
+      "y": 4209.544,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452765354739838976",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 2096.188,
+      "y": 4203.219,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452765931787988992",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 1924.518,
+      "y": 3745.129,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452766627683954688",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 1465.525,
+      "y": 4075.821,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452767000473694208",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 1593.826,
+      "y": 4264.659,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461156889935642624",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 2166.664,
+      "y": 4083.953,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461157015245180928",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 2170.278,
+      "y": 4078.532,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461157404878733312",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1951.624,
+      "y": 3884.273,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461157581312131072",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1932.649,
+      "y": 3868.913,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461157687755177984",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1933.553,
+      "y": 3864.395,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461158159421952000",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1838.682,
+      "y": 4340.555,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461158277629509632",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1843.2,
+      "y": 4335.134,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461158388875034624",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1845.911,
+      "y": 4327.906,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461158649324535808",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1770.014,
+      "y": 4350.494,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461158764743905280",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 1769.111,
+      "y": 4356.819,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453154289859227648",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 1452.875,
+      "y": 3946.616,
+      "description": "Cần phải hình ảnh thân âm thanh và hình ảnh máy đá quặng. Bên cạnh quặng là bộ xương âm thanh cần thiết.",
+      "levelId": "0"
+    }
+  ]
+}

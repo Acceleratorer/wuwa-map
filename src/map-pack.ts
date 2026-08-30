@@ -3,6 +3,8 @@ import type {
   MapCategory,
   MapCategoryGroup,
   MapCatalog,
+  MapCatalogSection,
+  MapArea,
   MapFloorLayer,
   MapIconName,
   MapMarker,
@@ -215,10 +217,11 @@ function assertFloorLayer(
   assertTileSource(value.tiles, `Tile của tầng "${value.label}"`);
 }
 
-function assertInitialView(
+function assertViewBounds(
   value: unknown,
   width: number,
   height: number,
+  label = "Initial map view",
 ): void {
   if (
     !isRecord(value) ||
@@ -233,7 +236,69 @@ function assertInitialView(
     value.minX >= value.maxX ||
     value.minY >= value.maxY
   ) {
-    throw new Error("Initial map view bounds are invalid.");
+    throw new Error(`${label} bounds are invalid.`);
+  }
+}
+
+function assertCatalogSections(
+  value: unknown,
+  groupIndex: number,
+  groupMapIds: Set<string>,
+): asserts value is MapCatalogSection[] {
+  if (
+    !Array.isArray(value) ||
+    value.length === 0 ||
+    !value.every(
+      (section) =>
+        isRecord(section) &&
+        isNonEmptyString(section.id) &&
+        isNonEmptyString(section.title) &&
+        Array.isArray(section.mapIds) &&
+        section.mapIds.length > 0 &&
+        section.mapIds.every(
+          (mapId) => isNonEmptyString(mapId) && groupMapIds.has(mapId),
+        ) &&
+        new Set(section.mapIds).size === section.mapIds.length,
+    )
+  ) {
+    throw new Error(`Cụm bản đồ của nhóm #${groupIndex + 1} không hợp lệ.`);
+  }
+
+  const sectionMapIds = value.flatMap((section) => section.mapIds);
+  if (
+    new Set(sectionMapIds).size !== sectionMapIds.length ||
+    sectionMapIds.length !== groupMapIds.size ||
+    sectionMapIds.some((mapId) => !groupMapIds.has(mapId))
+  ) {
+    throw new Error(
+      `Cụm bản đồ của nhóm #${groupIndex + 1} không phủ đủ danh sách map.`,
+    );
+  }
+}
+
+function assertMapArea(
+  value: unknown,
+  index: number,
+  width: number,
+  height: number,
+): asserts value is MapArea {
+  if (
+    !isRecord(value) ||
+    !isNonEmptyString(value.id) ||
+    !isNonEmptyString(value.label)
+  ) {
+    throw new Error(`Khu chạy map #${index + 1} không hợp lệ.`);
+  }
+  assertViewBounds(value.bounds, width, height, `Khu "${value.label}"`);
+  if (
+    value.markerIds !== undefined &&
+    (
+      !Array.isArray(value.markerIds) ||
+      !value.markerIds.every(isNonEmptyString) ||
+      new Set(value.markerIds).size !== value.markerIds.length
+    )
+  ) {
+    throw new Error(`Danh sách marker của khu "${value.label}" không hợp lệ.`);
   }
 }
 
@@ -286,10 +351,21 @@ export function parseMapPack(value: unknown): MapPack {
   }
 
   if (value.bounds !== undefined) {
-    assertInitialView(value.bounds, mapWidth, mapHeight);
+    assertViewBounds(value.bounds, mapWidth, mapHeight, "Map content");
   }
   if (value.initialView !== undefined) {
-    assertInitialView(value.initialView, mapWidth, mapHeight);
+    assertViewBounds(value.initialView, mapWidth, mapHeight);
+  }
+  if (value.areas !== undefined) {
+    if (!Array.isArray(value.areas) || value.areas.length === 0) {
+      throw new Error("Danh sách khu chạy map không hợp lệ.");
+    }
+    value.areas.forEach((area, index) =>
+      assertMapArea(area, index, mapWidth, mapHeight),
+    );
+    if (new Set(value.areas.map((area) => area.id)).size !== value.areas.length) {
+      throw new Error("Map pack có area id bị trùng.");
+    }
   }
 
   value.categories.forEach(assertCategory);
@@ -351,6 +427,32 @@ export function parseMapPack(value: unknown): MapPack {
     throw new Error("Map pack có marker id bị trùng.");
   }
 
+  const areas = value.areas as MapArea[] | undefined;
+  if (areas?.some((area) => area.markerIds !== undefined)) {
+    if (!areas.every((area) => area.markerIds !== undefined)) {
+      throw new Error(
+        "Các khu chạy map phải cùng dùng danh sách marker hoặc cùng dùng bounds.",
+      );
+    }
+
+    const assignedMarkerIds = new Set<string>();
+    for (const area of areas) {
+      for (const markerId of area.markerIds ?? []) {
+        if (!markerIds.has(markerId) || assignedMarkerIds.has(markerId)) {
+          throw new Error(
+            `Marker của khu "${area.label}" không hợp lệ hoặc bị gán trùng.`,
+          );
+        }
+        assignedMarkerIds.add(markerId);
+      }
+    }
+    if (assignedMarkerIds.size !== markerIds.size) {
+      throw new Error(
+        "Các khu chạy map có marker chưa được gán vào khu vực nào.",
+      );
+    }
+  }
+
   if (
     value.defaultVisibleCategoryIds !== undefined &&
     (
@@ -382,7 +484,28 @@ export function parseMapCatalog(value: unknown): MapCatalog {
         isNonEmptyString(entry.id) &&
         isNonEmptyString(entry.title) &&
         isNonEmptyString(entry.pack) &&
-        isAllowedResourceSource(entry.pack),
+        isAllowedResourceSource(entry.pack) &&
+        (
+          entry.areas === undefined ||
+          (
+            Array.isArray(entry.areas) &&
+            entry.areas.every(
+              (area) =>
+                isRecord(area) &&
+                isNonEmptyString(area.id) &&
+                isNonEmptyString(area.label) &&
+                isRecord(area.bounds) &&
+                isFiniteNumber(area.bounds.minX) &&
+                isFiniteNumber(area.bounds.minY) &&
+                isFiniteNumber(area.bounds.maxX) &&
+                isFiniteNumber(area.bounds.maxY) &&
+                area.bounds.minX >= 0 &&
+                area.bounds.minY >= 0 &&
+                area.bounds.minX < area.bounds.maxX &&
+                area.bounds.minY < area.bounds.maxY,
+            )
+          )
+        ),
     )
   ) {
     throw new Error("Map catalog không đúng schema version 1.");
@@ -394,6 +517,43 @@ export function parseMapCatalog(value: unknown): MapCatalog {
     !mapIds.has(value.defaultMapId)
   ) {
     throw new Error("Map catalog có id bị trùng hoặc defaultMapId không tồn tại.");
+  }
+
+  if (value.groups !== undefined) {
+    if (
+      !Array.isArray(value.groups) ||
+      value.groups.length === 0 ||
+      !value.groups.every(
+        (group) =>
+          isRecord(group) &&
+          isNonEmptyString(group.id) &&
+          isNonEmptyString(group.title) &&
+          Array.isArray(group.mapIds) &&
+          group.mapIds.length > 0 &&
+          group.mapIds.every(
+            (mapId) => isNonEmptyString(mapId) && mapIds.has(mapId),
+          ) &&
+          new Set(group.mapIds).size === group.mapIds.length,
+      )
+    ) {
+      throw new Error("Nhóm bản đồ không hợp lệ.");
+    }
+    if (new Set(value.groups.map((group) => group.id)).size !== value.groups.length) {
+      throw new Error("Map catalog có group id bị trùng.");
+    }
+    for (const [groupIndex, group] of value.groups.entries()) {
+      if (group.sections !== undefined) {
+        assertCatalogSections(
+          group.sections,
+          groupIndex,
+          new Set(group.mapIds),
+        );
+      }
+    }
+    const groupedMapIds = value.groups.flatMap((group) => group.mapIds);
+    if (new Set(groupedMapIds).size !== groupedMapIds.length) {
+      throw new Error("Một bản đồ đang thuộc nhiều nhóm.");
+    }
   }
 
   return value as unknown as MapCatalog;

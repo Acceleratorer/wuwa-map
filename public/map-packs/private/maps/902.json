@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "wuwa-kuro-state-902",
-  "title": "Kho bạc ngầm",
-  "subtitle": "231 vị trí · 37 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-07-31.",
+  "progressMapId": "wuwa-kuro-state-902",
+  "title": "Lower Vault",
+  "subtitle": "231 vị trí · 36 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
   "tiles": {
     "src": "map-packs/private/maps/902/{x}_{y}.webp",
     "tileSize": 768,
@@ -21,6 +22,311 @@
       "2,-3"
     ]
   },
+  "bounds": {
+    "minX": 0,
+    "minY": 0,
+    "maxX": 2304,
+    "maxY": 2304
+  },
+  "initialView": {
+    "minX": 539.9580000000001,
+    "minY": 0,
+    "maxX": 2069.082,
+    "maxY": 1901.315
+  },
+  "areas": [
+    {
+      "id": "official-area-1",
+      "label": "Fisher Tower",
+      "bounds": {
+        "minX": 641.5150000000001,
+        "minY": 442.431,
+        "maxX": 1596.536,
+        "maxY": 1228.8
+      },
+      "markerIds": [
+        "kuro:1348745360908460032",
+        "kuro:1399138046361976832"
+      ]
+    },
+    {
+      "id": "official-area-2",
+      "label": "Precious Metals and Art Gallery",
+      "bounds": {
+        "minX": 881.845,
+        "minY": 1038.155,
+        "maxX": 1824.2259999999999,
+        "maxY": 1901.315
+      },
+      "markerIds": [
+        "kuro:1415816068381057024",
+        "kuro:1415816419326861312",
+        "kuro:1415819727517032448",
+        "kuro:1415819780080050176",
+        "kuro:1415820549596422144",
+        "kuro:1415820591388504064",
+        "kuro:1415820626897444864",
+        "kuro:1415820661290737664",
+        "kuro:1415821995456897024",
+        "kuro:1415822031817318400",
+        "kuro:1415815972646105088",
+        "kuro:1415819581051936768",
+        "kuro:1415819649167433728",
+        "kuro:1401676382150574080",
+        "kuro:1341764541466599424",
+        "kuro:1341765834075594752",
+        "kuro:1341770776249163776",
+        "kuro:1342158556839256064",
+        "kuro:1343637094124544000",
+        "kuro:1344419077394063360",
+        "kuro:1344419695147933696",
+        "kuro:1341763859908976640",
+        "kuro:1341765491771285504",
+        "kuro:1341770125502898176",
+        "kuro:1347679848191467520",
+        "kuro:1347679848266964992",
+        "kuro:1341765617896972288",
+        "kuro:1341765744019693568",
+        "kuro:1342167433513246720",
+        "kuro:1347673895706533888",
+        "kuro:1348743501854515200",
+        "kuro:1348744011855486976",
+        "kuro:1348744237174726656",
+        "kuro:1348744470741704704",
+        "kuro:1415820937666011136",
+        "kuro:1418706969910652928",
+        "kuro:1418709194762432512",
+        "kuro:1332391277076246528",
+        "kuro:1415817433111146496",
+        "kuro:1415817527885602816",
+        "kuro:1415817599243296768",
+        "kuro:1415819432376442880",
+        "kuro:1415821343104212992",
+        "kuro:1415822259991687168",
+        "kuro:1409587538164584448",
+        "kuro:1409552856349806592",
+        "kuro:1343934603826012160",
+        "kuro:1415816367619481600",
+        "kuro:1418644386826498048",
+        "kuro:1418645670354825216",
+        "kuro:1418645894552920064",
+        "kuro:1409550530562101248",
+        "kuro:1415816125092241408",
+        "kuro:1415816484305055744",
+        "kuro:1415819866168139776",
+        "kuro:1415819914293583872",
+        "kuro:1343935022521180160",
+        "kuro:1339271556119740416",
+        "kuro:1343934847543205888",
+        "kuro:1415814675347841024",
+        "kuro:1415814832550391808",
+        "kuro:1419068151335038976",
+        "kuro:1343009141104812032",
+        "kuro:1343009141205475328",
+        "kuro:1415817284964134912",
+        "kuro:1415817328857526272",
+        "kuro:1415817945571172352"
+      ]
+    },
+    {
+      "id": "official-area-3",
+      "label": "Talent Archive",
+      "bounds": {
+        "minX": 964.066,
+        "minY": 0,
+        "maxX": 2069.082,
+        "maxY": 891.7840000000001
+      },
+      "markerIds": [
+        "kuro:1401676764742795264",
+        "kuro:1341779244473442304",
+        "kuro:1341777937579876352",
+        "kuro:1341778331901943808",
+        "kuro:1341778761767772160",
+        "kuro:1341777060608401408",
+        "kuro:1341778961560477696",
+        "kuro:1341779063443087360",
+        "kuro:1348744932149927936",
+        "kuro:1415824215988543488",
+        "kuro:1416181433728540672",
+        "kuro:1418711406641192960",
+        "kuro:1418712740530528256",
+        "kuro:1343001783392591872",
+        "kuro:1343001783426146304",
+        "kuro:1343001783459700736",
+        "kuro:1343004960145858560",
+        "kuro:1343005100589162496",
+        "kuro:1343005194062192640",
+        "kuro:1343018155786952704",
+        "kuro:1343018155820507136",
+        "kuro:1332392078378614784",
+        "kuro:1340435756829958144",
+        "kuro:1342596870817947648",
+        "kuro:1342598944757440512",
+        "kuro:1409551234018185216",
+        "kuro:1339271767042035712",
+        "kuro:1339271841133719552",
+        "kuro:1415824531630891008",
+        "kuro:1419075984843681792",
+        "kuro:1419067387053158400",
+        "kuro:1343006382674649088",
+        "kuro:1343019262835744768",
+        "kuro:1343019262890270720",
+        "kuro:1342596072973246464",
+        "kuro:1342596073040355328",
+        "kuro:1342597349898510336",
+        "kuro:1342597349936259072",
+        "kuro:1342597349969813504",
+        "kuro:1342597350007562240",
+        "kuro:1340436078567858176",
+        "kuro:1340436078630772736",
+        "kuro:1342596324819001344",
+        "kuro:1342596454628515840",
+        "kuro:1342596625089224704",
+        "kuro:1342597843802972160",
+        "kuro:1342598017484906496",
+        "kuro:1415823808335749120"
+      ]
+    },
+    {
+      "id": "official-area-4",
+      "label": "Echo Archive",
+      "bounds": {
+        "minX": 1061.268,
+        "minY": 757.1580000000001,
+        "maxX": 1852.777,
+        "maxY": 1570.3339999999998
+      },
+      "markerIds": [
+        "kuro:1415385822104166400",
+        "kuro:1415351216369868800",
+        "kuro:1415380912738443264",
+        "kuro:1415380957193908224",
+        "kuro:1415383542239895552",
+        "kuro:1415384826498031616",
+        "kuro:1415384913949306880",
+        "kuro:1415384964163514368",
+        "kuro:1341772198874423296",
+        "kuro:1341772951666876416",
+        "kuro:1341773467562074112",
+        "kuro:1341775766158106624",
+        "kuro:1341776139347533824",
+        "kuro:1344424060604702720",
+        "kuro:1344424665810444288",
+        "kuro:1342156042788986880",
+        "kuro:1344427779804340224",
+        "kuro:1344428325406564352",
+        "kuro:1415381676944826368",
+        "kuro:1415383902081818624",
+        "kuro:1341773031112417280",
+        "kuro:1341773125021655040",
+        "kuro:1344423670819643392",
+        "kuro:1343011224095612928",
+        "kuro:1343011224129167360",
+        "kuro:1343014228954947584",
+        "kuro:1343014229022056448",
+        "kuro:1343015631260540928",
+        "kuro:1343015631294095360",
+        "kuro:1343016574095171584",
+        "kuro:1332390971321434112",
+        "kuro:1415351425548197888",
+        "kuro:1415384757619208192",
+        "kuro:1419061768652926976",
+        "kuro:1419062994358579200",
+        "kuro:1409587329602818048",
+        "kuro:1409552720013955072",
+        "kuro:1343931195600461824",
+        "kuro:1418646966336004096",
+        "kuro:1409549845716144128",
+        "kuro:1415385742974427136",
+        "kuro:1341420541027082240",
+        "kuro:1343931909567471616",
+        "kuro:1339271687458615296",
+        "kuro:1343931741951729664",
+        "kuro:1343013166079336448",
+        "kuro:1343013166112890880",
+        "kuro:1417633908771860480",
+        "kuro:1417634360137654272",
+        "kuro:1415379080796479488",
+        "kuro:1415379281368133632",
+        "kuro:1415379752250023936",
+        "kuro:1415380249568649216",
+        "kuro:1415380326911614976",
+        "kuro:1419074765517529088",
+        "kuro:1339992979189403648",
+        "kuro:1343013665928355840",
+        "kuro:1415349445975121920",
+        "kuro:1415349446113533952",
+        "kuro:1415381513509576704",
+        "kuro:1415381555905638400",
+        "kuro:1415383780056969216",
+        "kuro:1415383819697336320",
+        "kuro:1418717698265001984",
+        "kuro:1418717821283901440",
+        "kuro:1415380802860298240",
+        "kuro:1417601100959526912",
+        "kuro:1417604682907725824",
+        "kuro:1417605290775621632",
+        "kuro:1417607320952975360",
+        "kuro:1415349930299793408",
+        "kuro:1415349930442399744",
+        "kuro:1415380682890584064",
+        "kuro:1415380739870203904",
+        "kuro:1415383341894770688",
+        "kuro:1415383387935682560",
+        "kuro:1415384399245291520",
+        "kuro:1415385062305996800",
+        "kuro:1415382118806364160",
+        "kuro:1415382171981787136",
+        "kuro:1415382861865066496",
+        "kuro:1415382915648626688",
+        "kuro:1415386148072927232"
+      ]
+    },
+    {
+      "id": "official-area-5",
+      "label": "Echo Platform",
+      "bounds": {
+        "minX": 539.9580000000001,
+        "minY": 918.8890000000001,
+        "maxX": 1514.315,
+        "maxY": 1716.245
+      },
+      "markerIds": [
+        "kuro:1348742913708236800",
+        "kuro:1348744738540855296",
+        "kuro:1332391669638758400",
+        "kuro:1352437067972509696",
+        "kuro:1352437078408224768",
+        "kuro:1352437088293912576",
+        "kuro:1352437109169250304",
+        "kuro:1352437120552304640",
+        "kuro:1352437134876139520",
+        "kuro:1409587242336129024",
+        "kuro:1339606671685402624",
+        "kuro:1339606923166617600",
+        "kuro:1339606954754048000",
+        "kuro:1339607014568890368",
+        "kuro:1339271609337069568",
+        "kuro:1415348667789123584",
+        "kuro:1415348667931729920",
+        "kuro:1416179282788786176",
+        "kuro:1352437233626832896",
+        "kuro:1352437242460037120",
+        "kuro:1352437250907078656",
+        "kuro:1353553174376644608",
+        "kuro:1353553185969700864",
+        "kuro:1353555466307928064",
+        "kuro:1353555466379231232",
+        "kuro:1353555466446340096",
+        "kuro:1353556223098781696",
+        "kuro:1353556223174279168",
+        "kuro:1353556223245582336",
+        "kuro:1353556223316885504",
+        "kuro:1353556223392382976"
+      ]
+    }
+  ],
   "categoryGroups": [
     {
       "id": "collection",
@@ -308,18 +614,9 @@
       "imageSrc": "map-packs/private/icons/d0a3984d7ad0693de158.webp"
     },
     {
-      "id": "T_IconC_SM_Gat_01B_UI",
-      "label": "Su thơm",
-      "color": "#6cc8ee",
-      "symbol": "•",
-      "groupId": "resources",
-      "icon": "resource",
-      "imageSrc": "map-packs/private/icons/73c5aaac487261afb42d.webp"
-    },
-    {
       "id": "SP_IconMonsterHead_32024_UI",
       "label": "hiệp sĩ bóng đêm",
-      "color": "#9fdb72",
+      "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "enemies",
       "icon": "enemy",
@@ -328,7 +625,7 @@
     {
       "id": "jlxw",
       "label": "Vua gấu bão",
-      "color": "#8bd3c7",
+      "color": "#9fdb72",
       "symbol": "•",
       "groupId": "elite-enemies",
       "icon": "elite",
@@ -337,7 +634,7 @@
     {
       "id": "SP_IconMonsterHead_31050_UI",
       "label": "đá non tráng men",
-      "color": "#f8c963",
+      "color": "#8bd3c7",
       "symbol": "•",
       "groupId": "enemies",
       "icon": "enemy",
@@ -346,7 +643,7 @@
     {
       "id": "SP_IconMonsterHead_31049_UI",
       "label": "Đá Vàng Ngu Ngốc",
-      "color": "#b8a1ff",
+      "color": "#f8c963",
       "symbol": "•",
       "groupId": "enemies",
       "icon": "enemy",
@@ -355,7 +652,7 @@
     {
       "id": "SP_IconMonsterHead_32030_UI",
       "label": "Ragdoll khổng lồ",
-      "color": "#f07e83",
+      "color": "#b8a1ff",
       "symbol": "•",
       "groupId": "enemies",
       "icon": "enemy",
@@ -364,7 +661,7 @@
     {
       "id": "SP_IconMonsterHead_31047_UI",
       "label": "Quản đốc Ragdoll",
-      "color": "#6cc8ee",
+      "color": "#f07e83",
       "symbol": "•",
       "groupId": "enemies",
       "icon": "enemy",
@@ -373,7 +670,7 @@
     {
       "id": "T_IconC_047_UI",
       "label": "đánh lừa vàng",
-      "color": "#9fdb72",
+      "color": "#6cc8ee",
       "symbol": "•",
       "groupId": "resources",
       "icon": "resource",
@@ -382,7 +679,7 @@
     {
       "id": "SP_IconMonsterHead_32032_UI",
       "label": "gấu bão",
-      "color": "#8bd3c7",
+      "color": "#9fdb72",
       "symbol": "•",
       "groupId": "enemies",
       "icon": "enemy",
@@ -463,21 +760,6 @@
         "availableTiles": [
           "1,-3",
           "2,-3"
-        ]
-      }
-    },
-    {
-      "id": "-1/14",
-      "label": "Bên trong nền tảng",
-      "groupId": "14",
-      "groupLabel": "Bên trong nền tảng",
-      "tiles": {
-        "src": "map-packs/private/layers/902/-1_14/{x}_{y}.webp",
-        "tileSize": 768,
-        "columns": 3,
-        "rows": 3,
-        "availableTiles": [
-          "1,-2"
         ]
       }
     },
@@ -763,7 +1045,7 @@
       "title": "Thử thách xương âm thanh · Kiểm soát Daoling",
       "x": 1316.099,
       "y": 1483.722,
-      "description": "Tầng 15 · Nằm ở tầng 2 của bảo tàng",
+      "description": "Tầng 15 · 位于该藏馆2层",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -773,7 +1055,7 @@
       "title": "Thử thách xương âm thanh · Kiểm soát Daoling",
       "x": 1502.235,
       "y": 364.692,
-      "description": "Tầng 17 · Nằm bên trong \"Khu vực kho bạc chưa biết\"",
+      "description": "Tầng 17 · 位于《金库未知区域》内部",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -783,7 +1065,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1417.638,
       "y": 1493.534,
-      "description": "Tầng 15 · Tầng 3, dùng quyền Mortari tấn công ba camera này là có thể mở khóa",
+      "description": "Tầng 15 · 3楼，用莫塔里权限攻击这三个摄像头即可解锁",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -793,7 +1075,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1461.007,
       "y": 1549.553,
-      "description": "Tầng 15 · Kho báu ở tầng 3 nhé",
+      "description": "Tầng 15 · 藏宝地在三楼噢",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -803,7 +1085,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1381.496,
       "y": 1497.148,
-      "description": "Tầng 15 · Ở tầng 3, phía trước bức tượng; có thể dùng Jué bay tới.",
+      "description": "Tầng 15 · 3楼，在雕像前面，可以用角飞过来",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -813,7 +1095,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1498.052,
       "y": 1247.774,
-      "description": "Tầng 16 · Tầng 2, dùng quyền Motari tấn công camera là có thể mở khóa",
+      "description": "Tầng 16 · 二楼，莫塔里权限攻击摄像头即可解锁",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -823,7 +1105,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1494.438,
       "y": 1140.254,
-      "description": "Tầng 16 · Hộp kho báu của nơi cất giữ, đối diện projection của gấu giông",
+      "description": "Tầng 16 · 藏宝地的宝箱，在飓力熊投影对面",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -833,7 +1115,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1489.92,
       "y": 1097.788,
-      "description": "Tầng 16 · Tầng 3, chỉ cần dùng quyền Motari tấn công camera theo thứ tự là có thể mở khóa",
+      "description": "Tầng 16 · 3楼，按顺序用莫塔里权限攻击摄像头即可解锁",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -843,7 +1125,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1427.576,
       "y": 1185.431,
-      "description": "Tầng 16 · Bên cạnh thiết bị giám sát tầng 3",
+      "description": "Tầng 16 · 在三楼监视器隔壁",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -853,7 +1135,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1490.824,
       "y": 1079.718,
-      "description": "Tầng 16 · Tầng 2, theo thứ tự dùng quyền Motari tắt camera là được",
+      "description": "Tầng 16 · 二楼，按顺序莫塔里权限关闭摄像头即可",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -873,7 +1155,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1311.021,
       "y": 1498.955,
-      "description": "Tầng 15 · Tầng 2, vào cửa nói chuyện lần lượt với 4 robot, robot đầu tiên cần nói hai lần, chọn tùy chọn đầu tiên với mỗi robot là có thể nhận rương ẩn",
+      "description": "Tầng 15 · 二楼，从进门依次跟4个机器人对话，第一个要对话两次，每个机器人都选第一个选项即可获得隐藏宝箱",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -883,7 +1165,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1310.118,
       "y": 1539.614,
-      "description": "Tầng 15 · Đánh bại quái vật để mở khóa, ở tầng hai. (Dấu câu do người chơi Vân Khai cung cấp)",
+      "description": "Tầng 15 · 击败怪物解锁，在二楼。（标点由玩家雲开提供）",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -893,7 +1175,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1346.259,
       "y": 1500.762,
-      "description": "Tầng 15 · Nằm ở tầng trên, có thể mở trực tiếp (dấu câu do người chơi Vân Khai cung cấp)",
+      "description": "Tầng 15 · 位于楼上，可直接开启（标点由玩家雲开提供）",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -903,7 +1185,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1424.866,
       "y": 1563.106,
-      "description": "Tầng 15 · Nằm ở cửa tầng trên, bên cạnh là thang máy, có thể mở trực tiếp (dấu câu do người chơi Vân Khai cung cấp)",
+      "description": "Tầng 15 · 位于楼上进门处，旁边就是电梯，可直接开启（标点由玩家雲开提供）",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -913,7 +1195,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1484.499,
       "y": 1086.042,
-      "description": "Tầng 16 · Theo nhiệm vụ, sau khi hoàn thành trò chơi nhỏ Kỹ Sĩ Lưỡng Lý Im lặng thứ hai, rương kho báu sẽ xuất hiện sau khi lật ngược căn phòng (dấu câu được cung cấp bởi người chơi Vân Khai)",
+      "description": "Tầng 16 · 跟随任务，在完成第二个沉默的刀伶小游戏后，反转房间后出现宝箱（标点由玩家雲开提供）",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -923,7 +1205,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 1506.184,
       "y": 1103.209,
-      "description": "Tầng 16 · Theo nhiệm vụ, sau khi hoàn thành trò chơi nhỏ Kỹ Sĩ Lưỡng Lý Im lặng thứ ba, rương kho báu sẽ xuất hiện sau khi lật ngược căn phòng (dấu câu được cung cấp bởi người chơi Vân Khai)",
+      "description": "Tầng 16 · 跟随任务，在完成第三个沉默的刀伶小游戏后，反转房间后出现宝箱（标点由玩家雲开提供）",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -933,7 +1215,7 @@
       "title": "Rương tinh xảo",
       "x": 1320.96,
       "y": 1468.235,
-      "description": "Tầng 15 · Vào từ cửa chính (đừng đi thang máy), ở tầng 2 bên trong, hoàn thành thử thách Dao Lính là được",
+      "description": "Tầng 15 · 从正门进去（不要坐电梯），在里面的二楼，完成刀伶挑战即可",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -943,7 +1225,7 @@
       "title": "Rương tinh xảo",
       "x": 1461.007,
       "y": 1527.868,
-      "description": "Tầng 15 · Ở khu vực kho báu tầng 3, đánh bại quái vật bên cạnh là xong",
+      "description": "Tầng 15 · 在三楼藏宝地，击败旁边怪物即可",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -953,7 +1235,7 @@
       "title": "Rương tinh xảo",
       "x": 1390.532,
       "y": 1537.807,
-      "description": "Tầng 15 · Theo thứ tự trong hình nhảy lên tầng trên (có thể đứng ở mép cột), nhảy từ trên xuống là có thể nhận, xung quanh có kính chắn, chỉ có thể nhảy từ trên vào, sau khi nhảy vào kính sẽ mở ra và có thể ra ngay lập tức (xin phân biệt với các rương tinh xảo xung quanh)",
+      "description": "Tầng 15 · 按照图中顺序跳上上层（柱子边边可以站），通过顶部跳入即可获得，周围有玻璃挡着，只能从上面跳进去，跳进去之后玻璃打开直接可以出来（请与周围的精密宝箱进行区分）",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -963,7 +1245,7 @@
       "title": "Rương tinh xảo",
       "x": 1444.744,
       "y": 381.289,
-      "description": "Tầng 17 · Dưới bức tượng",
+      "description": "Tầng 17 · 雕像下面",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -973,7 +1255,7 @@
       "title": "Rương tinh xảo",
       "x": 1501.666,
       "y": 354.184,
-      "description": "Tầng 17 · Hoàn thành thử thách Đao Linh là được",
+      "description": "Tầng 17 · 完成刀伶挑战即可",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -993,7 +1275,7 @@
       "title": "Rương tinh xảo",
       "x": 1498.955,
       "y": 1125.798,
-      "description": "Tầng 16 · Tầng 3, trên đèn chùm, nhảy từ tủ trưng bày bên cạnh là được (hộp kho báu này có thể phát hiện được)",
+      "description": "Tầng 16 · 3楼，吊灯上，从旁边的展柜跳上去即可（这个宝箱可以探测到）",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1003,7 +1285,7 @@
       "title": "Rương tinh xảo",
       "x": 1509.798,
       "y": 1111.341,
-      "description": "Tầng 16 · Hộp kho báu của nơi cất giữ, ở góc Đông Bắc phòng, trước chiếu projection của cơ cấu vảy bơi",
+      "description": "Tầng 16 · 藏宝地的宝箱，房间东北角，在游鳞机枢投影的前方",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1013,7 +1295,7 @@
       "title": "Rương tinh xảo",
       "x": 1431.191,
       "y": 1191.755,
-      "description": "Tầng 16 · Ở tầng 4, mở rương cạnh vị trí đã lấy quyền hạn cấp 3",
+      "description": "Tầng 16 · 在第四层，在取得第三阶权限的位置旁开启宝箱",
       "floorId": "16",
       "levelId": "-4/16"
     },
@@ -1023,7 +1305,7 @@
       "title": "Rương tinh xảo",
       "x": 1401.374,
       "y": 1540.518,
-      "description": "Tầng 15 · Nằm ở khu trưng bày kim loại quý và tác phẩm nghệ thuật tầng 3, có thể mở trực tiếp (dấu câu do người chơi Vạn Hoa Kính cung cấp, và hãy phân biệt với các rương chính xác khác xung quanh)",
+      "description": "Tầng 15 · 在贵金属与艺术品藏区3楼，可直接开启（标点由玩家万华镜提供，并请与周围其他的精密宝箱进行区分）",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1033,7 +1315,7 @@
       "title": "Rương tinh xảo",
       "x": 1388.725,
       "y": 1497.148,
-      "description": "Tầng 15 · Nằm ở khu trưng bày kim loại quý và tác phẩm nghệ thuật tầng 4, có thể mở trực tiếp",
+      "description": "Tầng 15 · 位于贵金属与艺术品藏区4楼，可直接开启，位置在电梯门口",
       "floorId": "15",
       "levelId": "-4/15"
     },
@@ -1063,7 +1345,7 @@
       "title": "Rương đơn sơ",
       "x": 1454.682,
       "y": 1517.026,
-      "description": "Tầng 15 · Ở khu vực kho báu tầng 3",
+      "description": "Tầng 15 · 在三楼藏宝地",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1073,7 +1355,7 @@
       "title": "Rương đơn sơ",
       "x": 1467.332,
       "y": 1534.193,
-      "description": "Tầng 15 · Nơi cất giữ kho báu tầng ba",
+      "description": "Tầng 15 · 三楼藏宝地",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1083,7 +1365,7 @@
       "title": "Rương đơn sơ",
       "x": 1488.113,
       "y": 1132.122,
-      "description": "Tầng 16 · Nơi chứa kho báu tầng 3",
+      "description": "Tầng 16 · 3楼藏宝地",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1093,7 +1375,7 @@
       "title": "Rương đơn sơ",
       "x": 1507.991,
       "y": 1129.412,
-      "description": "Tầng 16 · Nơi chứa kho báu tầng 3",
+      "description": "Tầng 16 · 3楼藏宝地",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1132,7 +1414,7 @@
       "title": "Rương đơn sơ",
       "x": 1386.918,
       "y": 1509.798,
-      "description": "Tầng 15 · Nằm ở sảnh chính tầng 1 kho bạc ngầm, ở góc đông nam của sảnh, dùng linh kiện quyền hạn phá camera để nhận được (dấu chấm câu do người chơi Altria, Vân Khai cung cấp)",
+      "description": "Tầng 15 · 位于地下金库1楼大厅，在大厅的东南角，用权限组件打掉摄像头后获得（标点由玩家阿尔托莉雅、雲开提供）",
       "floorId": "15",
       "levelId": "-1/15"
     },
@@ -1142,7 +1424,7 @@
       "title": "Rương đơn sơ",
       "x": 1457.393,
       "y": 1179.106,
-      "description": "Tầng 16 · Theo nhiệm vụ đi thang máy lên tầng 3, mở cửa thang máy là thấy rương kho báu ngay (dấu câu được cung cấp bởi người chơi Vân Khai)",
+      "description": "Tầng 16 · 跟随任务坐电梯到3楼，一开电梯门就能看到宝箱（标点由玩家雲开提供）",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1152,7 +1434,7 @@
       "title": "Rương đơn sơ",
       "x": 1367.04,
       "y": 1537.807,
-      "description": "Tầng 15 · Nằm ở khu trưng bày kim loại quý và tác phẩm nghệ thuật tầng 2, sau khi đi qua cổng tròn thì về bên trái, rương kho báu hở, đối diện rương có một con rô-bốt (dấu câu do người chơi Vạn Hoa Kính cung cấp)",
+      "description": "Tầng 15 · 位于贵金属与艺术品藏区2楼，进入圆形大门之后左手边，裸露宝箱，宝箱对面有个机器人（标点由玩家万华镜提供）",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -1234,7 +1516,7 @@
       "title": "Kho báu lừa đảo",
       "x": 1460.953,
       "y": 1537.554,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nTàn tượng mô phỏng hòm kho báu phát sáng, bẫy này, lừa gạt và nuốt chửng tất cả những con người khao khát kho báu.",
+      "description": "Tầng 15 · 位于藏馆三层，该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1244,7 +1526,7 @@
       "title": "Kho báu lừa đảo",
       "x": 1503.608,
       "y": 335.128,
-      "description": "Tầng 17 · Nằm trong bảo tàng, kẻ thù này có kháng sát thương nhiễu xạ tăng.\nMô phỏng theo hình tháp sáng hiếm cổ, là ảo ảnh bẫy, dụ dỗ và nuốt chửng tất cả những con người khao khát kho báu.",
+      "description": "Tầng 17 · 位于藏馆内，该敌人衍射伤害抗性提高。\n拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -1272,7 +1554,7 @@
       "title": "Kho báu lừa đảo",
       "x": 1445.231,
       "y": 1528.853,
-      "description": "Tầng 15 · Nằm ở tầng trên của tầng 3 bảo tàng (khuyên đi trước tủ trưng bày trong sơ đồ p2), kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng. Tàn tượng mô phỏng hòm kho báu phát sáng, bẫy này, lừa gạt và nuốt chửng tất cả những con người khao khát kho báu.",
+      "description": "Tầng 15 · 位于藏馆三层上层（推荐踩p2图中展示柜前往）该敌人衍射伤害抗性提高。拟态为辉光奇藏箱的陷阱残象，诱捕、吞噬着一切渴求奇藏的人类。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1333,7 +1615,7 @@
       "title": "Lăng kính khí nén",
       "x": 1499.47,
       "y": 380.856,
-      "description": "Tầng 17 · Tổng cộng có ba cái, chỉ cần xem vị trí đánh dấu là được, khi đến đây bốn món hàng này đã được xử lý, tọa độ chính xác không xác định được",
+      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。",
       "floorId": "17",
       "levelId": "0"
     },
@@ -1343,7 +1625,7 @@
       "title": "Lăng kính khí nén",
       "x": 1498.675,
       "y": 388.283,
-      "description": "Tầng 17 · Tổng cộng có ba cái, chỉ cần xem vị trí đánh dấu là được, khi đến đây bốn món hàng này đã được xử lý, tọa độ chính xác không xác định được",
+      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。",
       "floorId": "17",
       "levelId": "0"
     },
@@ -1353,7 +1635,7 @@
       "title": "Lăng kính khí nén",
       "x": 1489.396,
       "y": 382.581,
-      "description": "Tầng 17 · Tổng cộng có ba cái, chỉ cần xem vị trí đánh dấu là được, khi đến đây bốn món hàng này đã được xử lý, tọa độ chính xác không xác định được",
+      "description": "Tầng 17 · 此处一共三个，标点位置看看就行，到这这四个货就已经干上了，具体坐标没办法确定。",
       "floorId": "17",
       "levelId": "0"
     },
@@ -1491,7 +1773,7 @@
       "title": "cô đơn",
       "x": 1458.296,
       "y": 1170.071,
-      "description": "Tầng 16 · Nằm ở tầng 1 của kho lưu trữ.",
+      "description": "Tầng 16 · 位于藏馆一层。",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -1529,7 +1811,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1422.155,
       "y": 382.193,
-      "description": "Tầng 17 · Nằm trong bảo tàng, kẻ thù này có kháng sát thương nhiễu xạ tăng.\nHình tháp đá mô phỏng tượng trưng cho sự giải cấu và tái cấu, hành động vụng về và chậm chạp nhưng lực đấm cực mạnh,\ncó thể ném đá và những mảnh đá nhỏ từ xa, và sử dụng chúng như một phương tiện tấn công.",
+      "description": "Tầng 17 · 位于藏馆内，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -1539,7 +1821,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1394.814,
       "y": 1467.232,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nTượng đá mô phỏng còn sót lại thể hiện sự phân giải và tái cấu trúc, hành động vụng về và chậm chạp, nhưng lực đấm cực kỳ ấn tượng,\ncó thể ném đá và nham thạch từ xa, và dùng đó làm một trong các phương pháp tấn công.",
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1549,7 +1831,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1395.095,
       "y": 1455.134,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nTượng đá mô phỏng còn sót lại thể hiện sự phân giải và tái cấu trúc, hành động vụng về và chậm chạp, nhưng lực đấm cực kỳ ấn tượng,\ncó thể ném đá và nham thạch từ xa, và dùng đó làm một trong các phương pháp tấn công.",
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1559,7 +1841,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1395.239,
       "y": 1478.111,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nTượng đá mô phỏng còn sót lại thể hiện sự phân giải và tái cấu trúc, hành động vụng về và chậm chạp, nhưng lực đấm cực kỳ ấn tượng,\ncó thể ném đá và nham thạch từ xa, và dùng đó làm một trong các phương pháp tấn công.",
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1569,7 +1851,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1424.062,
       "y": 1537.635,
-      "description": "Tầng 15 · Nằm ở tầng 2 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nTượng đá mô phỏng còn sót lại thể hiện sự phân giải và tái cấu trúc, hành động vụng về và chậm chạp, nhưng lực đấm cực kỳ ấn tượng,\ncó thể ném đá và nham thạch từ xa, và dùng đó làm một trong các phương pháp tấn công.",
+      "description": "Tầng 15 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -1579,7 +1861,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1435.32,
       "y": 1513.981,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nTượng đá mô phỏng còn sót lại thể hiện sự phân giải và tái cấu trúc, hành động vụng về và chậm chạp, nhưng lực đấm cực kỳ ấn tượng,\ncó thể ném đá và nham thạch từ xa, và dùng đó làm một trong các phương pháp tấn công.",
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1589,7 +1871,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1372.823,
       "y": 1570.171,
-      "description": "Tầng 15 · Nằm ở tầng 4 của bảo tàng, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nTượng đá tàn tượng mô phỏng biểu tượng giải cấu trúc và tái cấu trúc, chuyển động nặng nề và chậm chạp, nhưng lực đấm khủng khiếp,\ncó thể ném đá và đá non từ xa, và dùng chúng làm một trong các phương cách tấn công.",
+      "description": "Tầng 15 · 位于藏馆4层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "15",
       "levelId": "-4/15"
     },
@@ -1599,7 +1881,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1497.23,
       "y": 1216.485,
-      "description": "Tầng 16 · Nằm ở tầng 2 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nTàn tích điêu khắc đá mô phỏng biểu tượng cho việc giải cấu trúc và tái cấu trúc, di chuyển vụng về chậm chạp nhưng sức đấm kinh khủng,\ncó thể ném đá và nhũ đá từ xa, và sử dụng đó như một phương thức tấn công.",
+      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -1609,7 +1891,7 @@
       "title": "Định hình lại sỏi của bức tượng",
       "x": 1467.522,
       "y": 1121.741,
-      "description": "Tầng 16 · Nằm ở tầng 3 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nTàn tích điêu khắc đá mô phỏng biểu tượng cho việc giải cấu trúc và tái cấu trúc, di chuyển vụng về chậm chạp nhưng sức đấm kinh khủng,\ncó thể ném đá và nhũ đá từ xa, và sử dụng đó như một phương thức tấn công.",
+      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n象征解构与重构的拟态石雕残象，动作笨重而迟缓，但拳力惊人，\n能远距离投掷岩石与幼岩，并以此作为进攻手段之一。",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1685,7 +1967,7 @@
       "title": "âm nhạc đom đóm bay",
       "x": 1361.971,
       "y": 1490.968,
-      "description": "Tầng 15 · Lạc đà bay lang thang xung quanh dấu câu, hãy bắt nó! (dấu câu nằm ở tầng 1 của khu vực này) Nhận được \"Cảnh Giác Toàn Kim Loại\"",
+      "description": "Tầng 15 · 在标点周围游荡的飞萤 漂泊者，捕捉它吧！（标点位于该区域一楼）获得《全金属警戒》",
       "floorId": "15",
       "levelId": "-1/15"
     },
@@ -1695,7 +1977,7 @@
       "title": "Giấc mơ hành hương",
       "x": 1505.587,
       "y": 1195.089,
-      "description": "Tầng 16 · Hoàn thành lần đầu ba mục tiêu điểm sẽ nhận được ba phần thưởng Di tích Thủy Triều",
+      "description": "Tầng 16 · Sau khi hoàn thành ba mục tiêu nút lần đầu tiên, bạn sẽ nhận được ba phần thưởng Legacy of Tides.",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -1705,7 +1987,7 @@
       "title": "Giấc mơ hành hương",
       "x": 1362.721,
       "y": 1546.833,
-      "description": "Tầng 15 · Hoàn thành ba mục tiêu nút lần đầu nhận được ba phần thưởng Di sản Thuỷ triều",
+      "description": "Tầng 15 · Sau khi hoàn thành ba mục tiêu nút lần đầu tiên, bạn sẽ nhận được ba phần thưởng Legacy of Tides.",
       "floorId": "15",
       "levelId": "-1/15"
     },
@@ -1751,7 +2033,7 @@
       "title": "Di sản của thủy triều·Xanh",
       "x": 1504.376,
       "y": 1185.431,
-      "description": "Tầng 16 · Nhận sau khi hoàn thành tất cả mục tiêu thử thách của Lễ hội điểm chấm.",
+      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -1761,7 +2043,7 @@
       "title": "Di sản của thủy triều·Xanh",
       "x": 1365.233,
       "y": 1557.685,
-      "description": "Tầng 15 · Hoàn thành tất cả mục tiêu thử thách ở Dấu chấm được nhận trong Giấc mơ Hành hương",
+      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得",
       "floorId": "15",
       "levelId": "-1/15"
     },
@@ -1771,7 +2053,7 @@
       "title": "búp bê hyde",
       "x": 1320.192,
       "y": 1499.064,
-      "description": "Tầng 15 · Nằm ở tầng 2 của bảo tàng. Những tàn tượng không ngừng tìm kiếm \"thân thể\" phù hợp.",
+      "description": "Tầng 15 · 位于藏馆二层。不断寻找着合适「身躯」的残象们",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -1781,7 +2063,7 @@
       "title": "búp bê hyde",
       "x": 1312.657,
       "y": 1540.12,
-      "description": "Tầng 15 · Nằm ở tầng 2 của bảo tàng. Những tàn tượng không ngừng tìm kiếm \"thân thể\" phù hợp.",
+      "description": "Tầng 15 · 位于藏馆二层。不断寻找着合适「身躯」的残象们",
       "floorId": "15",
       "levelId": "-2/15"
     },
@@ -1791,7 +2073,7 @@
       "title": "búp bê hyde",
       "x": 1431.416,
       "y": 1530.208,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng. Những tàn tượng không ngừng tìm kiếm \"thân thể\" phù hợp.",
+      "description": "Tầng 15 · 位于藏馆三层。不断寻找着合适「身躯」的残象们",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1801,7 +2083,7 @@
       "title": "búp bê hyde",
       "x": 1431.877,
       "y": 1555.137,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng. Những tàn tượng không ngừng tìm kiếm \"thân thể\" phù hợp.",
+      "description": "Tầng 15 · 位于藏馆三层。不断寻找着合适「身躯」的残象们",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1811,7 +2093,7 @@
       "title": "búp bê hyde",
       "x": 1525.338,
       "y": 1194.267,
-      "description": "Tầng 16 · Nằm ở tầng 4 của kho lưu trữ, chỉ xuất hiện khi gần vị trí điểm chấm, xin chú ý — những tàn tích liên tục tìm kiếm \"thân xác\" phù hợp.",
+      "description": "Tầng 16 · 位于藏馆四层，靠近标点位置时才出现请注意——不断寻找着合适「身躯」的残象们",
       "floorId": "16",
       "levelId": "-4/16"
     },
@@ -1821,7 +2103,7 @@
       "title": "nơi kho báu",
       "x": 1499.208,
       "y": 1124.975,
-      "description": "Tầng 16 · Nơi kho báu này có tổng cộng 5 rương, có thể tìm thấy thông qua bản đồ lớn hoặc trong game dùng 【Cảm nhận】 (nơi kho báu này nằm ở tầng 3 của khu vực)",
+      "description": "Tầng 16 · 该藏宝地共5处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域3楼）",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -1831,7 +2113,7 @@
       "title": "nơi kho báu",
       "x": 1460.582,
       "y": 1529.585,
-      "description": "Tầng 15 · Khu kho báu này có tổng cộng 4 rương, có thể tìm kiếm qua bản đồ lớn hoặc dùng [Cảm nhận] trong game (khu kho báu này ở tầng 3 của khu vực)",
+      "description": "Tầng 15 · 该藏宝地共4处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域3楼）",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -1841,7 +2123,7 @@
       "title": "nơi kho báu",
       "x": 1507.837,
       "y": 335.986,
-      "description": "Tầng 17 · Khu kho báu này có tổng cộng 4 rương, có thể tìm qua bản đồ lớn hoặc sử dụng【Cảm Biến】trong game (khu kho báu nằm trong khu vực này)",
+      "description": "Tầng 17 · 该藏宝地共4处宝箱 可通过大地图或游戏内通过【感知】查找（该藏宝地位于该区域内部）",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -1901,7 +2183,7 @@
       "title": "Di sản của thủy triều·Vàng",
       "x": 1530.217,
       "y": 1160.439,
-      "description": "Tầng 16 · Mở khóa sau khi đánh bại “Vua Gấu Bão Lốc”\nMô tả vị trí: Tại điểm truyền Tử Âm Khu Trữ, vào cửa rồi rẽ trái, đi thang máy lên tầng 4, sau đó rẽ trái vào hành lang và đi thẳng hết hành lang (không vào phòng triển lãm bên trái), đến cuối hành lang sẽ có thang máy xuống để đến nơi",
+      "description": "Tầng 16 · 击败“飓力熊王”后解锁\n位置描述：在声骸藏区传送点进门左转电梯上四楼，然后左转进走廊沿着路一直往前走到底（不要进左边的展厅），到尽头后有电梯下去后到达",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -1911,7 +2193,7 @@
       "title": "Di sản của thủy triều·Vàng",
       "x": 1507.087,
       "y": 1185.431,
-      "description": "Tầng 16 · Nhận sau khi hoàn thành tất cả mục tiêu thử thách của Lễ hội điểm chấm.",
+      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -1921,7 +2203,7 @@
       "title": "Di sản của thủy triều·Vàng",
       "x": 1362.522,
       "y": 1557.685,
-      "description": "Tầng 15 · Hoàn thành tất cả mục tiêu thử thách ở Dấu chấm được nhận trong Giấc mơ Hành hương",
+      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得",
       "floorId": "15",
       "levelId": "-1/15"
     },
@@ -1971,7 +2253,7 @@
       "title": "Di sản thủy triều·Tím",
       "x": 1509.798,
       "y": 1185.431,
-      "description": "Tầng 16 · Nhận sau khi hoàn thành tất cả mục tiêu thử thách của Lễ hội điểm chấm.",
+      "description": "Tầng 16 · 完成标点处巡礼之梦所有挑战目标后获得",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -1981,7 +2263,7 @@
       "title": "Di sản thủy triều·Tím",
       "x": 1359.812,
       "y": 1557.685,
-      "description": "Tầng 15 · Hoàn thành tất cả mục tiêu thử thách ở Dấu chấm được nhận trong Giấc mơ Hành hương",
+      "description": "Tầng 15 · 完成标点处巡礼之梦所有挑战目标后获得",
       "floorId": "15",
       "levelId": "-1/15"
     },
@@ -2011,7 +2293,7 @@
       "title": "Nàng Tiên Biển Mây",
       "x": 1507.087,
       "y": 1192.659,
-      "description": "Tầng 16 · Ban đầu là sinh vật phản âm trong biển mây, vì tần số suy giảm nên trở thành hình ảnh tàn dư, vì vậy ngày ngày đều buồn bã.",
+      "description": "Tầng 16 · Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2021,7 +2303,7 @@
       "title": "Nàng Tiên Biển Mây",
       "x": 1506.184,
       "y": 1196.273,
-      "description": "Tầng 16 · Ban đầu là sinh vật phản âm trong biển mây, vì tần số suy giảm nên trở thành hình ảnh tàn dư, vì vậy ngày ngày đều buồn bã.",
+      "description": "Tầng 16 · Vốn là một sinh vật vang vọng trong biển mây, nó trở thành dư ảnh do tần số suy giảm, khiến tôi buồn suốt cả ngày.",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2051,7 +2333,7 @@
       "title": "Lưu Ly Đạo Lăng",
       "x": 1439.295,
       "y": 1177.507,
-      "description": "Tầng 16 · Kháng sát thương điện của kẻ địch này tăng.\nHình tượng nhân dạng còn sót lại được xây dựng từ những khung cửa kính vỡ vụn, từng cử động đều phản chiếu ánh sáng chói mắt mê hoặc, toát lên vẻ đẹp kiên cường qua phá vỡ.\nCác cửa sổ màu tạo nên từng Kỹ Sĩ Lưỡng Lý với vô số hình dạng và màu sắc khác nhau, khiến mỗi Kỹ Sĩ Lưỡng Lý trở nên độc đáo riêng biệt.",
+      "description": "Tầng 16 · Khả năng chống lại sát thương dẫn điện của kẻ thù này được tăng lên.\nDư ảnh bắt chước hình người được tạo nên từ những ô cửa sổ kính màu vỡ của khu di tích phản chiếu ánh sáng chói lóa trong mỗi bước di chuyển, toát lên vẻ đẹp của sự kiên trì sau khi phá vỡ và đứng vững trở lại.\nCó hàng ngàn cửa sổ đầy màu sắc tạo nên Glazed Dao Ling, mỗi cửa sổ đều có chất lượng riêng, khiến mỗi Dao Ling trở nên độc đáo.",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2061,7 +2343,7 @@
       "title": "Lưu Ly Đạo Lăng",
       "x": 1436.856,
       "y": 1195.505,
-      "description": "Tầng 16 · Kháng sát thương điện của kẻ địch này tăng.\nHình tượng nhân dạng còn sót lại được xây dựng từ những khung cửa kính vỡ vụn, từng cử động đều phản chiếu ánh sáng chói mắt mê hoặc, toát lên vẻ đẹp kiên cường qua phá vỡ.\nCác cửa sổ màu tạo nên từng Kỹ Sĩ Lưỡng Lý với vô số hình dạng và màu sắc khác nhau, khiến mỗi Kỹ Sĩ Lưỡng Lý trở nên độc đáo riêng biệt.",
+      "description": "Tầng 16 · Khả năng chống lại sát thương dẫn điện của kẻ thù này được tăng lên.\nDư ảnh bắt chước hình người được tạo nên từ những ô cửa sổ kính màu vỡ của khu di tích phản chiếu ánh sáng chói lóa trong mỗi bước di chuyển, toát lên vẻ đẹp của sự kiên trì sau khi phá vỡ và đứng vững trở lại.\nCó hàng ngàn cửa sổ đầy màu sắc tạo nên Glazed Dao Ling, mỗi cửa sổ đều có chất lượng riêng, khiến mỗi Dao Ling trở nên độc đáo.",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2099,7 +2381,7 @@
       "title": "Lưu Ly Đạo Lăng",
       "x": 1560.097,
       "y": 354.373,
-      "description": "Tầng 17 · Nằm trong bảo tàng, kẻ thù này có kháng sát thương dẫn điện tăng.\nHình tháp mô phỏng con người được cấu thành từ các cửa sổ màu vụn vỡ của di tích, từng cử động đều phản chiếu ánh sáng chói mắt,\ntỏa ra vẻ đẹp kiên cường từ sự phá vỡ để tái xây dựng.\nNhững cánh cửa sổ tạo nên Lưu Ly Đao Linh, mỗi cánh một màu sắc, khiến mỗi Đao Linh trở nên độc nhất vô nhị.",
+      "description": "Tầng 17 · 位于藏馆内部，该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
       "floorId": "17",
       "levelId": "-1/17"
     },
@@ -2109,7 +2391,7 @@
       "title": "Lưu Ly Đạo Lăng",
       "x": 1452.604,
       "y": 1105.152,
-      "description": "Tầng 16 · Nằm ở tầng 2 của Cang Quang, kẻ địch này có khả năng kháng sát thương dẫn điện tăng cao.\nNhững hình dạng nhân vật mô phỏng tạo thành từ các cửa sổ kính vỡ vụn của tàn tích, mỗi cử động đều có thể phản chiếu ánh sáng chói mắt, tỏa ra vẻ đẹp kiên cường từ sự phá vỡ và tái sinh.\nNhững cửa sổ màu tạo nên Lưu Li Đao Linh có hàng nghìn hình dạng và màu sắc khác nhau, khiến mỗi Đao Linh trở thành một tồn tại độc nhất vô nhị.",
+      "description": "Tầng 16 · 位于藏光2层，该敌人导电伤害抗性提高。\n破碎的遗迹彩窗构筑而成的人形拟态残象，一举一动皆能折射出令人目眩神迷的光芒，散发着破而后立的坚毅之美。\n构成琉璃刀伶的彩窗千扇千面、各有成色，使得每一个刀伶都成为了独一无二的存在。",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2137,7 +2419,7 @@
       "title": "hiệp sĩ bóng đêm",
       "x": 1363.354,
       "y": 1498.775,
-      "description": "Tầng 15 · Nằm ở tầng 4 của bảo tàng, kẻ thù này có khả năng kháng sát thương hủy diệt tăng.\nTrang phục lộng lẫy, nhân hình tượng nhân cầm lưỡi dao sắc, chỉ xuất hiện dưới ánh trăng tối.\nNgười ta nói đây là bóng dáng của những anh hùng xưa, dù là tàn tượng, vẫn giữ được cử chỉ thanh lịch.\nLà kỵ sĩ, đã quên đi tên gọi được ban; mất vật để bảo vệ, chỉ còn lại đam mê với vinh quang.",
+      "description": "Tầng 15 · 位于藏馆4层，该敌人湮灭伤害抗性提高。\n装束华贵，手执利刃的人形拟态残象，只会在暗月的清辉下现身。\n据说是昔日英雄们的影子，即便身为残象，却还是保留着优雅的举止。\n身为骑士，早已忘却了被授予的名讳；失去了守护之物，空余对荣耀的偏执。",
       "floorId": "15",
       "levelId": "-4/15"
     },
@@ -2147,7 +2429,7 @@
       "title": "Vua gấu bão",
       "x": 1519.736,
       "y": 1161.035,
-      "description": "Tầng 16 · Đi thẳng vào cổng điểm truyền tại khu vực âm hồn, rẽ trái lên thang máy đến tầng 4, sau đó rẽ trái vào hành lang đi thẳng hết lối (không vào phòng triển lãm bên trái), cuối hành lang có thang máy xuống để đến",
+      "description": "Tầng 16 · 在声骸藏区传送点进门左转电梯上四楼，然后左转进走廊沿着路一直往前走到底（不要进左边的展厅），到尽头后有电梯下去后到达",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2166,7 +2448,7 @@
       "title": "đá non tráng men",
       "x": 1437.515,
       "y": 1516.122,
-      "description": "Tầng 15 · Kháng sát thương ngưng tụ của kẻ thù này tăng lên.\nMang trên vai tảng nham thạch kiểu ngọc bích giả dạng, năng lượng biển mây trôi chảy trong nham thạch, tựa như ánh ngọc biến ảo khó lường.\nMột khi bị kích thích, thân đá trên lưng nham thạch biến đổi sẽ phát ra ánh sáng chói mắt.",
+      "description": "Tầng 15 · Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường.\nSau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -2176,7 +2458,7 @@
       "title": "đá non tráng men",
       "x": 1432.998,
       "y": 1516.122,
-      "description": "Tầng 15 · Kháng sát thương ngưng tụ của kẻ thù này tăng lên.\nMang trên vai tảng nham thạch kiểu ngọc bích giả dạng, năng lượng biển mây trôi chảy trong nham thạch, tựa như ánh ngọc biến ảo khó lường.\nMột khi bị kích thích, thân đá trên lưng nham thạch biến đổi sẽ phát ra ánh sáng chói mắt.",
+      "description": "Tầng 15 · Khả năng chống lại sát thương ngưng tụ của kẻ thù này được tăng lên.\nMang theo tàn dư đá non bắt chước của đá tráng men mica, năng lượng của biển mây chảy trong đá tráng men giống như ánh sáng ngọc trai khó lường.\nSau khi được kích thích, khối đá phía sau tảng đá non được tráng men sẽ phun trào với ánh sáng chói lóa.",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -2186,7 +2468,7 @@
       "title": "đá non tráng men",
       "x": 1497.148,
       "y": 1214.344,
-      "description": "Tầng 16 · Nằm ở tầng 2 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương ngưng tụ tăng.\nMang trên lưng tàn tích nhũ đá mô phỏng, năng lượng biển mây chảy trong nhũ đá, như ánh ngọc biến đổi không ngừng.\nMột khi bị kích thích, khối đá trên lưng nhũ đá biến đổi sẽ phát ra ánh sáng chói mắt.",
+      "description": "Tầng 16 · 位于藏馆2层，该敌人冷凝伤害抗性提高。\n背负着云母釉岩的拟态幼岩残象，釉岩中流动的云海能量，宛若变幻莫测的珠光。\n一旦受到刺激，釉变幼岩背上的岩体便会爆发出刺目的眩光。",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2303,7 +2585,7 @@
       "title": "Đá Vàng Ngu Ngốc",
       "x": 1493.155,
       "y": 1216.666,
-      "description": "Tầng 16 · Nằm ở tầng 2 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nMang trên lưng tàn tích nhũ đá mô phỏng bằng vàng ngu ngốc, thường bị nhầm là mỏ vàng thô chưa khai thác.\nNhũ đá vàng ngu ngốc suốt đời kiên trì mài dũa vàng ngu trên lưng mình, chỉ để nó tỏa sáng rực rỡ hơn.",
+      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2313,7 +2595,7 @@
       "title": "Đá Vàng Ngu Ngốc",
       "x": 1502.036,
       "y": 1216.539,
-      "description": "Tầng 16 · Nằm ở tầng 2 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nMang trên lưng tàn tích nhũ đá mô phỏng bằng vàng ngu ngốc, thường bị nhầm là mỏ vàng thô chưa khai thác.\nNhũ đá vàng ngu ngốc suốt đời kiên trì mài dũa vàng ngu trên lưng mình, chỉ để nó tỏa sáng rực rỡ hơn.",
+      "description": "Tầng 16 · 位于藏馆2层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
       "floorId": "16",
       "levelId": "-2/16"
     },
@@ -2323,7 +2605,7 @@
       "title": "Đá Vàng Ngu Ngốc",
       "x": 1467.522,
       "y": 1120.494,
-      "description": "Tầng 16 · Nằm ở tầng 3 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nMang trên lưng tàn tích nhũ đá mô phỏng bằng vàng ngu ngốc, thường bị nhầm là mỏ vàng thô chưa khai thác.\nNhũ đá vàng ngu ngốc suốt đời kiên trì mài dũa vàng ngu trên lưng mình, chỉ để nó tỏa sáng rực rỡ hơn.",
+      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -2333,7 +2615,7 @@
       "title": "Đá Vàng Ngu Ngốc",
       "x": 1467.377,
       "y": 1124.334,
-      "description": "Tầng 16 · Nằm ở tầng 3 của kho lưu trữ, kẻ thù này có khả năng kháng sát thương nhiễu xạ tăng.\nMang trên lưng tàn tích nhũ đá mô phỏng bằng vàng ngu ngốc, thường bị nhầm là mỏ vàng thô chưa khai thác.\nNhũ đá vàng ngu ngốc suốt đời kiên trì mài dũa vàng ngu trên lưng mình, chỉ để nó tỏa sáng rực rỡ hơn.",
+      "description": "Tầng 16 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -2343,7 +2625,7 @@
       "title": "Đá Vàng Ngu Ngốc",
       "x": 1391.02,
       "y": 1465.353,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nMang trên vai nham thạch kiểu vàng ngốc nghệ, thường bị nhầm là quặng vàng thô chưa khai thác.\nNham thạch vàng ngốc cả đời miệt mài mài giũa vàng ngốc trên lưng, chỉ để nó tỏa sáng rực rỡ hơn.",
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -2353,7 +2635,7 @@
       "title": "Đá Vàng Ngu Ngốc",
       "x": 1390.875,
       "y": 1469.012,
-      "description": "Tầng 15 · Nằm ở tầng 3 của bảo tàng, kháng sát thương nhiễu xạ của kẻ thù này tăng lên.\nMang trên vai nham thạch kiểu vàng ngốc nghệ, thường bị nhầm là quặng vàng thô chưa khai thác.\nNham thạch vàng ngốc cả đời miệt mài mài giũa vàng ngốc trên lưng, chỉ để nó tỏa sáng rực rỡ hơn.",
+      "description": "Tầng 15 · 位于藏馆3层，该敌人衍射伤害抗性提高。\n背负着愚惑金的拟态幼岩残象，常被误认成未经开采的粗质金矿。\n愚金幼岩终其一生，执着地打磨背负的愚惑金，只为让其散发更加耀眼的光芒。",
       "floorId": "15",
       "levelId": "-3/15"
     },
@@ -2400,7 +2682,7 @@
       "title": "Ragdoll khổng lồ",
       "x": 1509.798,
       "y": 1122.184,
-      "description": "Tầng 16 · Hình dạng còn sót lại vô chất ký sinh trong búp bê, bắt chước hình dáng búp bê lớn rách nát khó chống cự.",
+      "description": "Tầng 16 · Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
       "floorId": "16",
       "levelId": "-3/16"
     },
@@ -2410,7 +2692,7 @@
       "title": "Ragdoll khổng lồ",
       "x": 1445.647,
       "y": 1191.755,
-      "description": "Tầng 16 · Hình dạng còn sót lại vô chất ký sinh trong búp bê, bắt chước hình dáng búp bê lớn rách nát khó chống cự.",
+      "description": "Tầng 16 · Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -2420,7 +2702,7 @@
       "title": "Ragdoll khổng lồ",
       "x": 1445.647,
       "y": 1197.176,
-      "description": "Tầng 16 · Hình dạng còn sót lại vô chất ký sinh trong búp bê, bắt chước hình dáng búp bê lớn rách nát khó chống cự.",
+      "description": "Tầng 16 · Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
       "floorId": "16",
       "levelId": "-1/16"
     },
@@ -2430,7 +2712,7 @@
       "title": "Ragdoll khổng lồ",
       "x": 1451.068,
       "y": 1140.254,
-      "description": "Tầng 16 · Hình dạng còn sót lại vô chất ký sinh trong búp bê, bắt chước hình dáng búp bê lớn rách nát khó chống cự.",
+      "description": "Tầng 16 · Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
       "floorId": "16",
       "levelId": "-3/16"
     },

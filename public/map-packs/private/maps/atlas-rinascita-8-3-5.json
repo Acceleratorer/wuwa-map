@@ -1,0 +1,5358 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-rinascita-8-3-5",
+  "progressMapId": "wuwa-kuro-state-8",
+  "title": "Whisperwind Haven",
+  "subtitle": "511 vị trí · 44 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/8/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 30,
+    "rows": 31,
+    "availableTiles": [
+      "22,-13",
+      "22,-12",
+      "22,-11",
+      "22,-10",
+      "22,-9",
+      "23,-13",
+      "23,-12",
+      "23,-11",
+      "23,-10",
+      "23,-9",
+      "19,-14",
+      "19,-13",
+      "19,-12",
+      "19,-11",
+      "19,-10",
+      "19,-9",
+      "20,-14",
+      "20,-13",
+      "20,-12",
+      "20,-11",
+      "20,-10",
+      "20,-9",
+      "21,-14",
+      "21,-13",
+      "21,-12",
+      "21,-11",
+      "21,-10",
+      "21,-9",
+      "22,-14"
+    ]
+  },
+  "bounds": {
+    "minX": 14592,
+    "minY": 13056,
+    "maxX": 18432,
+    "maxY": 17664
+  },
+  "initialView": {
+    "minX": 15608.471000000001,
+    "minY": 14453.76,
+    "maxX": 17462.829,
+    "maxY": 16589.704
+  },
+  "areas": [
+    {
+      "id": "official-area-1",
+      "label": "Whitemoon Woods",
+      "bounds": {
+        "minX": 15608.471000000001,
+        "minY": 14453.76,
+        "maxX": 17152.16,
+        "maxY": 15766.588
+      },
+      "markerIds": [
+        "kuro:1321979679473029120",
+        "kuro:1321995005247287296",
+        "kuro:1321995329827491840",
+        "kuro:1321995551581192192",
+        "kuro:1321995954450485248",
+        "kuro:1321996393074020352",
+        "kuro:1319974896922939392",
+        "kuro:1319974897015214080",
+        "kuro:1319974897107488768",
+        "kuro:1319974897203957760",
+        "kuro:1319974897292038144",
+        "kuro:1319974897384312832",
+        "kuro:1319974897476587520",
+        "kuro:1319974897568862208",
+        "kuro:1319974897661136896",
+        "kuro:1319975865728618496",
+        "kuro:1319975865791533056",
+        "kuro:1319975865850253312",
+        "kuro:1319975865913167872",
+        "kuro:1319975865971888128",
+        "kuro:1319975866030608384",
+        "kuro:1319975866093522944",
+        "kuro:1319975866152243200",
+        "kuro:1319975866210963456",
+        "kuro:1319975866273878016",
+        "kuro:1319975866332598272",
+        "kuro:1319975866395512832",
+        "kuro:1319975866454233088",
+        "kuro:1319975866512953344",
+        "kuro:1319975866575867904",
+        "kuro:1319975866634588160",
+        "kuro:1319975866693308416",
+        "kuro:1319975866756222976",
+        "kuro:1319975866814943232",
+        "kuro:1319975866877857792",
+        "kuro:1319975866944966656",
+        "kuro:1319975867003686912",
+        "kuro:1319975867066601472",
+        "kuro:1319975867125321728",
+        "kuro:1319975867188236288",
+        "kuro:1319976594863079424",
+        "kuro:1319976594925993984",
+        "kuro:1319976594988908544",
+        "kuro:1319976595051823104",
+        "kuro:1319976595114737664",
+        "kuro:1319976595177652224",
+        "kuro:1319976595240566784",
+        "kuro:1319976595316064256",
+        "kuro:1319976595378978816",
+        "kuro:1319976595441893376",
+        "kuro:1319976595504807936",
+        "kuro:1340712651267219456",
+        "kuro:1340713308702171136",
+        "kuro:1340716064938713088",
+        "kuro:1320425479037304832",
+        "kuro:1320425479096025088",
+        "kuro:1320425479158939648",
+        "kuro:1320425479217659904",
+        "kuro:1320425479276380160",
+        "kuro:1320425479335100416",
+        "kuro:1320425479410597888",
+        "kuro:1320425479473512448",
+        "kuro:1320425479549009920",
+        "kuro:1320425479624507392",
+        "kuro:1320425479700004864",
+        "kuro:1320425479779696640",
+        "kuro:1320425479855194112",
+        "kuro:1320425479934885888",
+        "kuro:1320425916067004416",
+        "kuro:1320425916146696192",
+        "kuro:1320425916222193664",
+        "kuro:1320425916306079744",
+        "kuro:1320425916385771520",
+        "kuro:1320425916473851904",
+        "kuro:1320425916570320896",
+        "kuro:1320425916658401280",
+        "kuro:1320425916721315840",
+        "kuro:1320425916780036096",
+        "kuro:1320425916851339264",
+        "kuro:1320425916914253824",
+        "kuro:1320136907872845824",
+        "kuro:1320137325964414976",
+        "kuro:1323823318977110016",
+        "kuro:1410326378014089216",
+        "kuro:1320124087923949568",
+        "kuro:1320124411643678720",
+        "kuro:1330220453505425408",
+        "kuro:1330220453564145664",
+        "kuro:1330220453622865920",
+        "kuro:1330220453664808960",
+        "kuro:1330220937661931520",
+        "kuro:1330220937750011904",
+        "kuro:1330221372268515328",
+        "kuro:1330221372306264064",
+        "kuro:1330225110580367360",
+        "kuro:1330225110613921792",
+        "kuro:1330225110647476224",
+        "kuro:1330225110681030656",
+        "kuro:1340707863287619584",
+        "kuro:1342665673891356672",
+        "kuro:1342665673954271232",
+        "kuro:1342665674012991488",
+        "kuro:1340712423751393280",
+        "kuro:1340713043807936512",
+        "kuro:1340716277419188224",
+        "kuro:1339990612909887488",
+        "kuro:1320423691630460928",
+        "kuro:1320429873971642368",
+        "kuro:1365674247666081792",
+        "kuro:1365674308613513216",
+        "kuro:1365674372069138432",
+        "kuro:1340708186483908608",
+        "kuro:1358865104431030272",
+        "kuro:1341131280316080128",
+        "kuro:1341131691177517056",
+        "kuro:1341132020441735168",
+        "kuro:1341132235777302528",
+        "kuro:1322984773580640256",
+        "kuro:1340705676985688064",
+        "kuro:1340717181329448960",
+        "kuro:1320452064402522112",
+        "kuro:1340704901703376896",
+        "kuro:1409560241755787264",
+        "kuro:1325998342440116224",
+        "kuro:1327765408733749248",
+        "kuro:1327765537491685376",
+        "kuro:1329213656012066816",
+        "kuro:1334660576609046528",
+        "kuro:1326947615778168832",
+        "kuro:1331642918854725632",
+        "kuro:1325997767618748416",
+        "kuro:1325998023297359872",
+        "kuro:1340487486405926912",
+        "kuro:1340490592356376576",
+        "kuro:1340490746459299840",
+        "kuro:1327764062506999808",
+        "kuro:1327764906042613760",
+        "kuro:1410050502596366336",
+        "kuro:1409569096480985088",
+        "kuro:1340706257104068608",
+        "kuro:1340717794791317504",
+        "kuro:1340706532444577792",
+        "kuro:1340717467706908672",
+        "kuro:1325246963169779712",
+        "kuro:1324882821266825216",
+        "kuro:1325243706145923072",
+        "kuro:1340435238917300224",
+        "kuro:1340435487774973952",
+        "kuro:1340435487854665728",
+        "kuro:1409155448293953536",
+        "kuro:1320055794926243840",
+        "kuro:1319705661319565312",
+        "kuro:1410774116392579072"
+      ]
+    },
+    {
+      "id": "official-area-2",
+      "label": "Cyclopean Windmills",
+      "bounds": {
+        "minX": 16359.819000000001,
+        "minY": 15334.701000000001,
+        "maxX": 17462.829,
+        "maxY": 16446.042
+      },
+      "markerIds": [
+        "kuro:1321280022520315904",
+        "kuro:1321280633566851072",
+        "kuro:1321849015017918464",
+        "kuro:1321849635660517376",
+        "kuro:1321850281306509312",
+        "kuro:1321850575349338112",
+        "kuro:1321851380710436864",
+        "kuro:1321851859892891648",
+        "kuro:1321852191301423104",
+        "kuro:1321852660950224896",
+        "kuro:1321852661008945152",
+        "kuro:1321853299557027840",
+        "kuro:1321853758818533376",
+        "kuro:1321854555014873088",
+        "kuro:1321854830827466752",
+        "kuro:1321855383804301312",
+        "kuro:1321855383879798784",
+        "kuro:1321855383938519040",
+        "kuro:1321855632640622592",
+        "kuro:1321856173453332480",
+        "kuro:1321856173512052736",
+        "kuro:1321856173566578688",
+        "kuro:1321856816075231232",
+        "kuro:1321857037123645440",
+        "kuro:1321858430085353472",
+        "kuro:1321861233666052096",
+        "kuro:1321861477700399104",
+        "kuro:1321862270969114624",
+        "kuro:1321863291816366080",
+        "kuro:1321876011396415488",
+        "kuro:1321876645813407744",
+        "kuro:1321877817719570432",
+        "kuro:1321880702317948928",
+        "kuro:1321880702410223616",
+        "kuro:1321881021043752960",
+        "kuro:1321882534096130048",
+        "kuro:1321882737994678272",
+        "kuro:1321883033625153536",
+        "kuro:1321886907803095040",
+        "kuro:1321887420849213440",
+        "kuro:1321888203091103744",
+        "kuro:1321888425155686400",
+        "kuro:1321888652000423936",
+        "kuro:1321888861890433024",
+        "kuro:1321890442635530240",
+        "kuro:1321890736385605632",
+        "kuro:1321892044209541120",
+        "kuro:1321892340973326336",
+        "kuro:1321892571798458368",
+        "kuro:1321892795708329984",
+        "kuro:1321893784964493312",
+        "kuro:1321894072320454656",
+        "kuro:1321895546841251840",
+        "kuro:1321896244620447744",
+        "kuro:1321927608797282304",
+        "kuro:1321928074683150336",
+        "kuro:1321929831425232896",
+        "kuro:1321930258539597824",
+        "kuro:1321931010740736000",
+        "kuro:1321931420062863360",
+        "kuro:1321931705057431552",
+        "kuro:1321933100260454400",
+        "kuro:1321933959808204800",
+        "kuro:1321933959866925056",
+        "kuro:1321933959925645312",
+        "kuro:1321933959984365568",
+        "kuro:1321933960038891520",
+        "kuro:1321934890373267456",
+        "kuro:1321935184446509056",
+        "kuro:1321935736469241856",
+        "kuro:1323033010515525632",
+        "kuro:1325547125798494208",
+        "kuro:1325548437462212608",
+        "kuro:1325548924661948416",
+        "kuro:1325549410106892288",
+        "kuro:1319974057179136000",
+        "kuro:1319974057237856256",
+        "kuro:1319974057300770816",
+        "kuro:1319974057359491072",
+        "kuro:1319974057434988544",
+        "kuro:1319974057506291712",
+        "kuro:1319974057565011968",
+        "kuro:1319974057627926528",
+        "kuro:1319974057703424000",
+        "kuro:1319974057778921472",
+        "kuro:1319974057837641728",
+        "kuro:1319974896260239360",
+        "kuro:1319974896352514048",
+        "kuro:1319974896444788736",
+        "kuro:1319974896537063424",
+        "kuro:1319974896633532416",
+        "kuro:1319974896734195712",
+        "kuro:1319974896830664704",
+        "kuro:1324368283589173248",
+        "kuro:1324377058527318016",
+        "kuro:1324379715174305792",
+        "kuro:1324379837682573312",
+        "kuro:1324383473081946112",
+        "kuro:1324446990758731776",
+        "kuro:1324447010822053888",
+        "kuro:1324447039591178240",
+        "kuro:1324447375270514688",
+        "kuro:1324447451665567744",
+        "kuro:1324447489375756288",
+        "kuro:1324447520262217728",
+        "kuro:1324510762696347648",
+        "kuro:1324510808371126272",
+        "kuro:1320425916972974080",
+        "kuro:1320425917052665856",
+        "kuro:1320425917111386112",
+        "kuro:1320425917316907008",
+        "kuro:1320425917375627264",
+        "kuro:1320425917434347520",
+        "kuro:1320425917493067776",
+        "kuro:1320427031432458240",
+        "kuro:1320427031528927232",
+        "kuro:1320427031612813312",
+        "kuro:1320427031700893696",
+        "kuro:1320427031801556992",
+        "kuro:1320427031885443072",
+        "kuro:1320427031973523456",
+        "kuro:1320427032078381056",
+        "kuro:1320427032166461440",
+        "kuro:1320427032250347520",
+        "kuro:1320427582207283200",
+        "kuro:1320427582291169280",
+        "kuro:1320427582375055360",
+        "kuro:1320427582433775616",
+        "kuro:1320427582513467392",
+        "kuro:1320427582588964864",
+        "kuro:1320427582647685120",
+        "kuro:1320427582706405376",
+        "kuro:1320427582781902848",
+        "kuro:1320427582857400320",
+        "kuro:1320427582941286400",
+        "kuro:1320427583016783872",
+        "kuro:1320427583092281344",
+        "kuro:1320427583151001600",
+        "kuro:1320427583209721856",
+        "kuro:1320427583276830720",
+        "kuro:1320427583343939584",
+        "kuro:1320427583411048448",
+        "kuro:1320427583490740224",
+        "kuro:1320427583566237696",
+        "kuro:1320427583641735168",
+        "kuro:1320427583717232640",
+        "kuro:1320052747564412928",
+        "kuro:1320054322835738624",
+        "kuro:1320056205948211200",
+        "kuro:1320057748442103808",
+        "kuro:1320058022861983744",
+        "kuro:1320058714073747456",
+        "kuro:1320059536576761856",
+        "kuro:1320059536702590976",
+        "kuro:1320060343233695744",
+        "kuro:1320052152779194368",
+        "kuro:1320054883144626176",
+        "kuro:1320055525700059136",
+        "kuro:1320055525762973696",
+        "kuro:1320057370005983232",
+        "kuro:1320058521777491968",
+        "kuro:1320059872139853824",
+        "kuro:1320060531065012224",
+        "kuro:1319676103117553664",
+        "kuro:1319681987041546240",
+        "kuro:1319698059585114112",
+        "kuro:1319703501006893056",
+        "kuro:1320055364043194368",
+        "kuro:1320136217618436096",
+        "kuro:1323814676208836608",
+        "kuro:1323815228872495104",
+        "kuro:1323816478699589632",
+        "kuro:1323816774980231168",
+        "kuro:1323817223938531328",
+        "kuro:1323817513166987264",
+        "kuro:1323817808101019648",
+        "kuro:1410322986944471040",
+        "kuro:1410324089249505280",
+        "kuro:1320053947332284416",
+        "kuro:1327967470801543168",
+        "kuro:1327967470835097600",
+        "kuro:1327967470868652032",
+        "kuro:1327981620908679168",
+        "kuro:1327981620967399424",
+        "kuro:1327982456491499520",
+        "kuro:1327982456592162816",
+        "kuro:1327984212355211264",
+        "kuro:1327984742534373376",
+        "kuro:1327984742567927808",
+        "kuro:1327986433598853120",
+        "kuro:1327986433670156288",
+        "kuro:1327986433720487936",
+        "kuro:1327986966683344896",
+        "kuro:1327986966767230976",
+        "kuro:1327987554199441408",
+        "kuro:1327987554438516736",
+        "kuro:1327987840376004608",
+        "kuro:1327988344103133184",
+        "kuro:1327988344166047744",
+        "kuro:1327988912565542912",
+        "kuro:1327989745201995776",
+        "kuro:1327989745273298944",
+        "kuro:1330215796170842112",
+        "kuro:1319825725748199424",
+        "kuro:1319826650268422144",
+        "kuro:1319826889122299904",
+        "kuro:1339190173278498816",
+        "kuro:1339190263817441280",
+        "kuro:1339190804686389248",
+        "kuro:1339190881453871104",
+        "kuro:1339191007240351744",
+        "kuro:1339191211457515520",
+        "kuro:1339191302272585728",
+        "kuro:1339191335613108224",
+        "kuro:1339191374167277568",
+        "kuro:1339191461711527936",
+        "kuro:1339191498586288128",
+        "kuro:1339191895493971968",
+        "kuro:1339192028146528256",
+        "kuro:1339192064351760384",
+        "kuro:1324368248031055872",
+        "kuro:1324370638290444288",
+        "kuro:1324371262653501440",
+        "kuro:1324372670636253184",
+        "kuro:1324373835767767040",
+        "kuro:1324374028879683584",
+        "kuro:1324375085267705856",
+        "kuro:1324375783743315968",
+        "kuro:1324377414116216832",
+        "kuro:1324379982656856064",
+        "kuro:1324380130406207488",
+        "kuro:1324380266141081600",
+        "kuro:1324380428583473152",
+        "kuro:1365678920777949184",
+        "kuro:1365678968148418560",
+        "kuro:1365678986835337216",
+        "kuro:1365679010705121280",
+        "kuro:1365679077867216896",
+        "kuro:1365679090933768192",
+        "kuro:1365679113331351552",
+        "kuro:1365679160276901888",
+        "kuro:1365679176640176128",
+        "kuro:1365679210503692288",
+        "kuro:1320017394941808640",
+        "kuro:1320017584650383360",
+        "kuro:1320018184934772736",
+        "kuro:1377989670691491840",
+        "kuro:1319836009774759936",
+        "kuro:1339697333620834304",
+        "kuro:1401181891660988416",
+        "kuro:1401182792005697536",
+        "kuro:1319764178451611648",
+        "kuro:1319764192435421184",
+        "kuro:1319765072582955008",
+        "kuro:1322984619544825856",
+        "kuro:1322985161507622912",
+        "kuro:1322985345143787520",
+        "kuro:1322985872414785536",
+        "kuro:1322985872473505792",
+        "kuro:1322986129378177024",
+        "kuro:1322986249338114048",
+        "kuro:1320449190644928512",
+        "kuro:1320449349072384000",
+        "kuro:1320449349194018816",
+        "kuro:1320450027816271872",
+        "kuro:1320450165510230016",
+        "kuro:1320450829983305728",
+        "kuro:1320451189608271872",
+        "kuro:1409558778451202048",
+        "kuro:1325715940778074112",
+        "kuro:1325718070460702720",
+        "kuro:1325853042766155776",
+        "kuro:1326930406687268864",
+        "kuro:1325715165159788544",
+        "kuro:1325716757760991232",
+        "kuro:1325718676811452416",
+        "kuro:1325853662938947584",
+        "kuro:1326942090441154560",
+        "kuro:1326953110411841536",
+        "kuro:1321120972553895936",
+        "kuro:1321121750915411968",
+        "kuro:1321122666112339968",
+        "kuro:1321123163612168192",
+        "kuro:1321124089814306816",
+        "kuro:1321126545387208704",
+        "kuro:1321127455986741248",
+        "kuro:1321127456074821632",
+        "kuro:1321128264353599488",
+        "kuro:1325717871111856128",
+        "kuro:1325855139497533440",
+        "kuro:1410050582606909440",
+        "kuro:1409568617046872064",
+        "kuro:1409569650284302336",
+        "kuro:1323039593328209920",
+        "kuro:1323039713837600768",
+        "kuro:1323039843124822016",
+        "kuro:1323040584482836480",
+        "kuro:1323048484989091840",
+        "kuro:1323048485052006400",
+        "kuro:1324138454784696320",
+        "kuro:1324139647099887616",
+        "kuro:1324140222121795584",
+        "kuro:1319260036913111040",
+        "kuro:1325246963228499968",
+        "kuro:1325246963287220224",
+        "kuro:1324884476902412288",
+        "kuro:1324887573824692224",
+        "kuro:1325243702433964032",
+        "kuro:1325243702605930496",
+        "kuro:1409153853011398656",
+        "kuro:1409154067008983040",
+        "kuro:1409154341392175104",
+        "kuro:1320192327890227200",
+        "kuro:1320192974148792320",
+        "kuro:1320514862578974720",
+        "kuro:1320514862641889280",
+        "kuro:1320514862700609536",
+        "kuro:1320514862767718400",
+        "kuro:1320515659491897344",
+        "kuro:1320515659600949248",
+        "kuro:1320515659705806848",
+        "kuro:1320524619456376832",
+        "kuro:1320524619552845824",
+        "kuro:1320525482409054208",
+        "kuro:1320525482476163072",
+        "kuro:1320525762517463040",
+        "kuro:1320526330644123648",
+        "kuro:1320526330702843904",
+        "kuro:1320526330761564160",
+        "kuro:1320526820677447680",
+        "kuro:1320527304125304832",
+        "kuro:1320527304188219392",
+        "kuro:1410771791397560320",
+        "kuro:1410772637527089152",
+        "kuro:1410772866011799552"
+      ]
+    },
+    {
+      "id": "official-area-3",
+      "label": "Egra Town",
+      "bounds": {
+        "minX": 16471.341,
+        "minY": 15829.835000000001,
+        "maxX": 17335.115,
+        "maxY": 16589.704
+      },
+      "markerIds": [
+        "kuro:1319689253755965440",
+        "kuro:1319825592971317248",
+        "kuro:1320017185747550208",
+        "kuro:1320021900896026624",
+        "kuro:1320022060938084352",
+        "kuro:1319834950966857728",
+        "kuro:1319835078919442432",
+        "kuro:1319841009191342080",
+        "kuro:1320450723117780992",
+        "kuro:1323040437238747136",
+        "kuro:1324140073057423360",
+        "kuro:1325246963350134784",
+        "kuro:1325168637676523520",
+        "kuro:1325243702773702656",
+        "kuro:1320513495789518848",
+        "kuro:1320513495848239104",
+        "kuro:1320513495906959360",
+        "kuro:1320517669902139392",
+        "kuro:1320517669981831168",
+        "kuro:1320517670061522944",
+        "kuro:1320517670141214720",
+        "kuro:1320523122328719360",
+        "kuro:1320523122433576960"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "bosses",
+      "label": "Boss",
+      "icon": "boss"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_02",
+    "qzx_03",
+    "qzx_01",
+    "qzx_04"
+  ],
+  "categories": [
+    {
+      "id": "T_IconC_036_UI",
+      "label": "hoa cúc corona",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/e7dfa62a8e60288f48f8.webp"
+    },
+    {
+      "id": "T_IconC_047_UI",
+      "label": "đánh lừa vàng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/e2b73b956293dc2c2293.webp"
+    },
+    {
+      "id": "T_IconC_035_UI",
+      "label": "Guishi",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/89e85583cd229cd8a892.webp"
+    },
+    {
+      "id": "T_IconC_046_UI",
+      "label": "Đá men mica",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/3f40fc234fbc24b328a1.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31042_UI",
+      "label": "búp bê Wright",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/c4f1d32b7dab3741c1a9.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31041_UI",
+      "label": "Con rối nổi·Leif",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/b5d976bb86a8458428a6.webp"
+    },
+    {
+      "id": "sx·lgn",
+      "label": "Hộp Thoại·Laguna",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/98b660d12cb6fb1dac6c.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_32028_UI",
+      "label": "con rối nổi",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/145ee317554070226e39.webp"
+    },
+    {
+      "id": "xlzm",
+      "label": "Giấc mơ hành hương",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/da33ca06eb9548216814.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31040_UI",
+      "label": "búp bê hyde",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/6cef3f708d7f5b0b3f83.webp"
+    },
+    {
+      "id": "T_IconC_049_UI",
+      "label": "Vuốt ngón tay trộm vàng",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/3b6ba7216cc39c3008c7.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31039_UI",
+      "label": "Sói Băng Giá",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/88e57c73dcbbd00e4f87.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31051_UI",
+      "label": "Lăng kính khí nén",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/0d4ec6a6e1703223b873.webp"
+    },
+    {
+      "id": "T_IconC_048_UI",
+      "label": "lá quế",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/693d33f4a2dc9a720f11.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_32031_UI",
+      "label": "Định hình lại sỏi của bức tượng",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/71885f12b2bf2868d6e3.webp"
+    },
+    {
+      "id": "T_IconC_042_UI",
+      "label": "ủng hộ ô liu",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/2fdfd3590e9575194c1d.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31038_UI",
+      "label": "Sói sấm sét",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/bb1cb8e597c126751f37.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_YZ_33016_UI",
+      "label": "Cơn ác mộng·Quy mô đám mây",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "bosses",
+      "icon": "boss",
+      "imageSrc": "map-packs/private/icons/a7956c5415c5f4c3fcd8.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31037_UI",
+      "label": "Sói gió",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/d247184db8a7cce87c89.webp"
+    },
+    {
+      "id": "GDLZT",
+      "label": "sàn gondola",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/4f26653ebda7d4af7ddd.webp"
+    },
+    {
+      "id": "ych",
+      "label": "Những bức tranh đầy màu sắc",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/a882a011b8c926eaf7ed.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_32029_UI",
+      "label": "Lưu Ly Đạo Lăng",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/d0a3984d7ad0693de158.webp"
+    },
+    {
+      "id": "T_IconC_040_UI",
+      "label": "Cua Đăng Đăng",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/d551eba50eaddb66bb53.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31047_UI",
+      "label": "Quản đốc Ragdoll",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/0158cdc6eff1a800071b.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_32030_UI",
+      "label": "Ragdoll khổng lồ",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/676061c1fef60b0b9d35.webp"
+    },
+    {
+      "id": "qxzl·dlzw",
+      "label": "Chiến lược ba chiều·Vũ điệu Đạo Lăng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ab254a255053ca4d8cb9.webp"
+    },
+    {
+      "id": "qzx_02",
+      "label": "Rương tiêu chuẩn",
+      "color": "#b8a1ff",
+      "symbol": "2",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
+    },
+    {
+      "id": "qzx_03",
+      "label": "Rương tinh xảo",
+      "color": "#f07e83",
+      "symbol": "3",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
+    },
+    {
+      "id": "qzx_01",
+      "label": "Rương đơn sơ",
+      "color": "#6cc8ee",
+      "symbol": "1",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
+    },
+    {
+      "id": "qzx_04",
+      "label": "Rương huy quang",
+      "color": "#9fdb72",
+      "symbol": "4",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/9fb9717a222ce68bd07e.webp"
+    },
+    {
+      "id": "ylfy",
+      "label": "âm nhạc đom đóm bay",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/f25645bab686c5bd36b2.webp"
+    },
+    {
+      "id": "byfy",
+      "label": "Bạch Nguyệt? Phi Nhạc?",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/da33f8273d31e57c407c.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31046_UI",
+      "label": "cô đơn",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/96e617e0880213a1269d.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31045_UI",
+      "label": "ông phép thuật",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/671a9cb0299ebfe722be.webp"
+    },
+    {
+      "id": "FCRK",
+      "label": "Lối vào theo tầng",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/49d61d91025178ae0e67.webp"
+    },
+    {
+      "id": "cx_01",
+      "label": "Di sản của thủy triều·Xanh",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/1b956f2f5d2ab8f86ef4.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "cx_02",
+      "label": "Di sản thủy triều·Tím",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_32032_UI",
+      "label": "gấu bão",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/f242311f0bd14f2a3853.webp"
+    },
+    {
+      "id": "cbd",
+      "label": "nơi kho báu",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5111afe1ca71aba1d1e3.webp"
+    },
+    {
+      "id": "CS_02",
+      "label": "ngọn hải đăng nhỏ",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
+    },
+    {
+      "id": "SP_IconMonsterHead_31044_UI",
+      "label": "Nàng Tiên Biển Mây",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/9e511c8d358166759ece.webp"
+    },
+    {
+      "id": "CS_01",
+      "label": "Hub Beacon",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
+    },
+    {
+      "id": "sxdtz",
+      "label": "Thử thách ba anh em",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/126c86cc5d390706ea29.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-1/11",
+      "label": "Tàn tích của môi trường sống đá",
+      "groupId": "11",
+      "groupLabel": "Tàn tích của môi trường sống đá",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-1_11/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "22,-11"
+        ]
+      }
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1321280022520315904",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16970.993,
+      "y": 15771.106,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321280633566851072",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16968.282,
+      "y": 15776.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321849015017918464",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16942.984,
+      "y": 15776.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321849635660517376",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16933.045,
+      "y": 15777.431,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321850281306509312",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16941.176,
+      "y": 15817.186,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321850575349338112",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16969.186,
+      "y": 15841.581,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321851380710436864",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16974.607,
+      "y": 15843.388,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321851859892891648",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16998.099,
+      "y": 15833.449,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321852191301423104",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17003.52,
+      "y": 15849.713,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321852660950224896",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17008.038,
+      "y": 15832.546,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321852661008945152",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17008.941,
+      "y": 15834.353,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321853299557027840",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17027.915,
+      "y": 15837.064,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321853758818533376",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17036.047,
+      "y": 15844.292,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321854555014873088",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17044.179,
+      "y": 15833.449,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321854830827466752",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17059.539,
+      "y": 15828.932,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321855383804301312",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17053.214,
+      "y": 15802.729,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321855383879798784",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17055.021,
+      "y": 15803.633,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321855383938519040",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17056.828,
+      "y": 15803.633,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321855632640622592",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17055.925,
+      "y": 15799.115,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321856173453332480",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17028.819,
+      "y": 15806.344,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321856173512052736",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17030.626,
+      "y": 15806.344,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321856173566578688",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17032.433,
+      "y": 15806.344,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321856816075231232",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17051.407,
+      "y": 15776.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321857037123645440",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17053.214,
+      "y": 15766.588,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321858430085353472",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16898.711,
+      "y": 15795.501,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321861233666052096",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16969.186,
+      "y": 15726.833,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321861477700399104",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16976.414,
+      "y": 15745.807,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321862270969114624",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16893.289,
+      "y": 15815.379,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321863291816366080",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16890.579,
+      "y": 15833.449,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321876011396415488",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16868.894,
+      "y": 15839.774,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321876645813407744",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16870.701,
+      "y": 15849.713,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321877817719570432",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16921.299,
+      "y": 15856.038,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321880702317948928",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16937.562,
+      "y": 15865.976,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321880702410223616",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16936.659,
+      "y": 15866.88,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321881021043752960",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16889.675,
+      "y": 15857.845,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321882534096130048",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16854.438,
+      "y": 15824.414,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321882737994678272",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16843.595,
+      "y": 15843.388,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321883033625153536",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16841.788,
+      "y": 15817.186,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321886907803095040",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16818.296,
+      "y": 15846.099,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321887420849213440",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16756.856,
+      "y": 15889.468,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321888203091103744",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16751.435,
+      "y": 15868.687,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321888425155686400",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16746.014,
+      "y": 15872.301,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321888652000423936",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16740.593,
+      "y": 15880.433,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321888861890433024",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16744.207,
+      "y": 15884.951,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321890442635530240",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16749.628,
+      "y": 15884.951,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321890736385605632",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16752.339,
+      "y": 15895.793,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321892044209541120",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16735.172,
+      "y": 15920.188,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321892340973326336",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16745.111,
+      "y": 15915.671,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321892571798458368",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16745.111,
+      "y": 15930.127,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321892795708329984",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16742.4,
+      "y": 15932.838,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321893784964493312",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16753.242,
+      "y": 15944.584,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321894072320454656",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16756.856,
+      "y": 15958.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321895546841251840",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16954.729,
+      "y": 15897.6,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321896244620447744",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16876.122,
+      "y": 16027.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321927608797282304",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17015.266,
+      "y": 15730.447,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321928074683150336",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16989.064,
+      "y": 15715.991,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321929831425232896",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16984.546,
+      "y": 15704.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321930258539597824",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17033.336,
+      "y": 15707.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321931010740736000",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17021.591,
+      "y": 15680.753,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321931420062863360",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17045.082,
+      "y": 15682.56,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321931705057431552",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17063.153,
+      "y": 15695.209,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321933100260454400",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16972.8,
+      "y": 15930.127,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321933959808204800",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16985.449,
+      "y": 15945.487,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321933959866925056",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16987.256,
+      "y": 15946.391,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321933959925645312",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16987.256,
+      "y": 15948.198,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321933959984365568",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16985.449,
+      "y": 15948.198,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321933960038891520",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16984.546,
+      "y": 15947.294,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321934890373267456",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16958.344,
+      "y": 15950.005,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321935184446509056",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16943.887,
+      "y": 15948.198,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321935736469241856",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16941.176,
+      "y": 15964.461,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321979679473029120",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16638.494,
+      "y": 15258.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321995005247287296",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16596.932,
+      "y": 15275.068,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321995329827491840",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16532.781,
+      "y": 15291.332,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321995551581192192",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16504.772,
+      "y": 15256.998,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321995954450485248",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16493.929,
+      "y": 15286.814,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321996393074020352",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16632.169,
+      "y": 15285.007,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323033010515525632",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16826.428,
+      "y": 16104.508,
+      "description": "Hai cây cạnh nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325547125798494208",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 17062.249,
+      "y": 15741.289,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325548437462212608",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16970.089,
+      "y": 15952.715,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325548924661948416",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16896.904,
+      "y": 16045.779,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325549410106892288",
+      "categoryId": "T_IconC_036_UI",
+      "title": "hoa cúc corona",
+      "x": 16826.428,
+      "y": 16103.605,
+      "description": "Hai cây cạnh nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057179136000",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16723.317,
+      "y": 16062.033,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057237856256",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16724.619,
+      "y": 16067.012,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057300770816",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16742.517,
+      "y": 15979.144,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057359491072",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16743.837,
+      "y": 15977.517,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057434988544",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16745.065,
+      "y": 15977.671,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057506291712",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16748.951,
+      "y": 15978.231,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057565011968",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16750.758,
+      "y": 15979.315,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057627926528",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16752.357,
+      "y": 15979.514,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057703424000",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16751.119,
+      "y": 15978.547,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057778921472",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16751.227,
+      "y": 15975.99,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974057837641728",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16749.963,
+      "y": 15975.846,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896260239360",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17138.155,
+      "y": 15819.887,
+      "description": "Nằm trong hang động, đi vào từ cổng phía Bắc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896352514048",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17129.3,
+      "y": 15680.545,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896444788736",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17129.273,
+      "y": 15683.482,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896537063424",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17128.243,
+      "y": 15682.741,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896633532416",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17125.569,
+      "y": 15682.443,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896734195712",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17127.584,
+      "y": 15684.475,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896830664704",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 17128.668,
+      "y": 15686.201,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974896922939392",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16776.201,
+      "y": 15117.475,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897015214080",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16773.807,
+      "y": 15118.053,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897107488768",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16771.376,
+      "y": 15117.321,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897203957760",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16770.798,
+      "y": 15118.441,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897292038144",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16769.063,
+      "y": 15118.974,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897384312832",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16778.284,
+      "y": 15124.216,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897476587520",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16776.328,
+      "y": 15122.923,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897568862208",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16776.138,
+      "y": 15124.405,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319974897661136896",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16775.514,
+      "y": 15123.863,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975865728618496",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16777.43,
+      "y": 15130.702,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975865791533056",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16776.897,
+      "y": 15131.913,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975865850253312",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16777.764,
+      "y": 15133.277,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975865913167872",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16778.198,
+      "y": 15133.557,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975865971888128",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16779.562,
+      "y": 15134.976,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866030608384",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16789.456,
+      "y": 15149.017,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866093522944",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16791.245,
+      "y": 15149.505,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866152243200",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16793.567,
+      "y": 15151.086,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866210963456",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16795.229,
+      "y": 15151.176,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866273878016",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16754.001,
+      "y": 15160.591,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866332598272",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16752.438,
+      "y": 15160.013,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866395512832",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16753.215,
+      "y": 15162.922,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866454233088",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16648.704,
+      "y": 15215.517,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866512953344",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16647.927,
+      "y": 15217.233,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866575867904",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16641.991,
+      "y": 15224.642,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866634588160",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16642.623,
+      "y": 15225.157,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866693308416",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16647.647,
+      "y": 15280.318,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866756222976",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16644.936,
+      "y": 15281.194,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866814943232",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16645.37,
+      "y": 15282.802,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866877857792",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16644.891,
+      "y": 15284.266,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975866944966656",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16568.76,
+      "y": 15267.153,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975867003686912",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16567.956,
+      "y": 15268.997,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975867066601472",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16569.501,
+      "y": 15269.99,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975867125321728",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16570.323,
+      "y": 15270.578,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319975867188236288",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16571.796,
+      "y": 15272.656,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976594863079424",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16570.504,
+      "y": 15299.617,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976594925993984",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16568.453,
+      "y": 15302.364,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976594988908544",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16569.455,
+      "y": 15303.114,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595051823104",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16568.154,
+      "y": 15303.837,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595114737664",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16568.913,
+      "y": 15307.279,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595177652224",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16567.847,
+      "y": 15308.689,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595240566784",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16568.733,
+      "y": 15309.574,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595316064256",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16566.799,
+      "y": 15310.179,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595378978816",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16567.73,
+      "y": 15310.74,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595441893376",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16564.965,
+      "y": 15320.507,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319976595504807936",
+      "categoryId": "T_IconC_047_UI",
+      "title": "đánh lừa vàng",
+      "x": 16567.142,
+      "y": 15320.733,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324368283589173248",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16715.249,
+      "y": 16026.967,
+      "description": "Một dưới hai cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324377058527318016",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16724.998,
+      "y": 15969.548,
+      "description": "Cái ở phía trước bụi cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324379715174305792",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16969.168,
+      "y": 15892.558,
+      "description": "Cái ở phía trước bụi cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324379837682573312",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16962.708,
+      "y": 15906.409,
+      "description": "Cái ở phía trước bụi cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324383473081946112",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17032.984,
+      "y": 15827.811,
+      "description": "Một trong vườn hoa",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324446990758731776",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17127.52,
+      "y": 15995.244,
+      "description": "Ba dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324447010822053888",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17133.149,
+      "y": 15995.624,
+      "description": "Ba dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324447039591178240",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17140.269,
+      "y": 15996.184,
+      "description": "Ba dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324447375270514688",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17045.643,
+      "y": 16010.65,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324447451665567744",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17026.352,
+      "y": 15996.184,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324447489375756288",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17015.103,
+      "y": 15984.122,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324447520262217728",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17031.846,
+      "y": 15977.598,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324510762696347648",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 17000.05,
+      "y": 16020.426,
+      "description": "Hai người trên bãi cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324510808371126272",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16996.391,
+      "y": 16041.108,
+      "description": "Hai người trên bãi cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340712651267219456",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16226.485,
+      "y": 14824.207,
+      "description": "trên rìa vách đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340713308702171136",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 16250.88,
+      "y": 14873.901,
+      "description": "Bên cạnh bãi cỏ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340716064938713088",
+      "categoryId": "T_IconC_035_UI",
+      "title": "Guishi",
+      "x": 15969.882,
+      "y": 14825.111,
+      "description": "bên cạnh những tảng đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479037304832",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16699.835,
+      "y": 15212.246,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479096025088",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16698.335,
+      "y": 15213.393,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479158939648",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16699.258,
+      "y": 15213.406,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479217659904",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16702.872,
+      "y": 15212.449,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479276380160",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16702.039,
+      "y": 15214.225,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479335100416",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16701.515,
+      "y": 15214.523,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479410597888",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16703.539,
+      "y": 15215.065,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479473512448",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16705.603,
+      "y": 15216.252,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479549009920",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16718.944,
+      "y": 15225.193,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479624507392",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16719.848,
+      "y": 15226.675,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479700004864",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16718.438,
+      "y": 15228.555,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479779696640",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16720.851,
+      "y": 15231.446,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479855194112",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16718.682,
+      "y": 15232.367,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425479934885888",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16718.99,
+      "y": 15234.174,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916067004416",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16572.22,
+      "y": 15277.932,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916146696192",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16571.525,
+      "y": 15279.667,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916222193664",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16574.036,
+      "y": 15280.399,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916306079744",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16574.786,
+      "y": 15281.393,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916385771520",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16572.907,
+      "y": 15281.538,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916473851904",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16546.307,
+      "y": 15276.622,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916570320896",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16543.714,
+      "y": 15280.354,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916658401280",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16543.407,
+      "y": 15281.845,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916721315840",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16546.921,
+      "y": 15294.16,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916780036096",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16544.888,
+      "y": 15294.16,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916851339264",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16546.181,
+      "y": 15294.856,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916914253824",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16547.626,
+      "y": 15295.714,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425916972974080",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17134.74,
+      "y": 15779.075,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425917052665856",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17135.851,
+      "y": 15781.939,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425917111386112",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17136.375,
+      "y": 15782.825,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425917316907008",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17130.782,
+      "y": 15816.4,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425917375627264",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17130.05,
+      "y": 15817.231,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425917434347520",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17129.788,
+      "y": 15819.381,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320425917493067776",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17129.743,
+      "y": 15820.954,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031432458240",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16982.197,
+      "y": 15765.215,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031528927232",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16983.534,
+      "y": 15766.389,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031612813312",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16981.221,
+      "y": 15766.904,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031700893696",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16983.95,
+      "y": 15769.199,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031801556992",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16981.709,
+      "y": 15769.615,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031885443072",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16982.468,
+      "y": 15770.329,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427031973523456",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16979.64,
+      "y": 15771.639,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427032078381056",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16977.887,
+      "y": 15771.016,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427032166461440",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16977.643,
+      "y": 15772.642,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427032250347520",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16973.369,
+      "y": 15775.208,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582207283200",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17008.697,
+      "y": 15789.999,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582291169280",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17006.484,
+      "y": 15789.872,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582375055360",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17005.86,
+      "y": 15790.577,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582433775616",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17006.095,
+      "y": 15792.474,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582513467392",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 17005.39,
+      "y": 15795.601,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582588964864",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16968.77,
+      "y": 15804.898,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582647685120",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16969.683,
+      "y": 15807.419,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582706405376",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16972.158,
+      "y": 15808.187,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582781902848",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16972.683,
+      "y": 15809.217,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582857400320",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16995.994,
+      "y": 15833.224,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427582941286400",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16988.537,
+      "y": 15841.916,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583016783872",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16988.305,
+      "y": 15844.208,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583092281344",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16921.561,
+      "y": 16014.155,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583151001600",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16920.422,
+      "y": 16014.517,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583209721856",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16921.308,
+      "y": 16014.86,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583276830720",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16921.145,
+      "y": 16016.261,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583343939584",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16917.63,
+      "y": 16017.327,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583411048448",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16919.383,
+      "y": 16018.429,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583490740224",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16683.427,
+      "y": 16016.812,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583566237696",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16682.379,
+      "y": 16028.63,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583641735168",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16683.806,
+      "y": 16035.406,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320427583717232640",
+      "categoryId": "T_IconC_046_UI",
+      "title": "Đá men mica",
+      "x": 16683.183,
+      "y": 16036.4,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320052747564412928",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 16838.174,
+      "y": 16015.962,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320054322835738624",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 16896,
+      "y": 15841.581,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320056205948211200",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 16969.186,
+      "y": 15808.151,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320057748442103808",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 17001.713,
+      "y": 15842.485,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320058022861983744",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 17021.591,
+      "y": 15845.195,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320058714073747456",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 17015.266,
+      "y": 15813.572,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320059536576761856",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 17036.047,
+      "y": 15817.186,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320059536702590976",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 17060.442,
+      "y": 15817.186,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320060343233695744",
+      "categoryId": "SP_IconMonsterHead_31042_UI",
+      "title": "búp bê Wright",
+      "x": 17055.925,
+      "y": 15766.588,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay phải” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320052152779194368",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 16842.692,
+      "y": 16017.769,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320054883144626176",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 16905.035,
+      "y": 15853.327,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320055525700059136",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 16907.746,
+      "y": 15766.588,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320055525762973696",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 16913.167,
+      "y": 15767.492,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320057370005983232",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 16992.678,
+      "y": 15846.099,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320058521777491968",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 17012.555,
+      "y": 15818.089,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320059872139853824",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 17057.732,
+      "y": 15806.344,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320060531065012224",
+      "categoryId": "SP_IconMonsterHead_31041_UI",
+      "title": "Con rối nổi·Leif",
+      "x": 17048.696,
+      "y": 15763.878,
+      "description": "Không ngừng tìm kiếm một “cơ thể” phù hợp, đảm nhận chức năng “tay trái” của búp bê lơ lửng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319676103117553664",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 16716.198,
+      "y": 16026.805,
+      "description": "Dịch chuyển đến đèn hiệu ở phía bên phải của Hidden Sea Order và bạn có thể nhìn thấy nó trực tiếp.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319681987041546240",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 17041.468,
+      "y": 15808.151,
+      "description": "Trên mái nhà cao nhất phía trên bên phải của nhóm cối xay gió một mắt.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319689253755965440",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 16820.104,
+      "y": 16185.826,
+      "description": "Dưới gầm cầu tọa độ này",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319698059585114112",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 17110.136,
+      "y": 15917.478,
+      "description": "Khi lộ trình nhiệm vụ chính đã lỗi thời, nó sẽ không được hiển thị. Bạn có thể hoàn thành nó và quay lại để lấy nó. Nó ở cổng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319703501006893056",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 16995.388,
+      "y": 15761.167,
+      "description": "Ở cửa hang, phía dưới tọa độ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320055364043194368",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 17023.398,
+      "y": 16092.762,
+      "description": "Bên trong nhà ga",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320136217618436096",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 16957.44,
+      "y": 15932.838,
+      "description": "Dịch chuyển đến đèn hiệu ở bên cạnh, quay lại và nhìn lên để xem nó.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320136907872845824",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 16795.708,
+      "y": 15401.562,
+      "description": "Trên đỉnh tòa nhà phía nam điểm dịch chuyển (bạn phải đánh bại hiệp sĩ lười biếng ở đây trước, nếu không hộp thoại này sẽ không xuất hiện) (Lưu ý: Cũng có những trường hợp bạn có thể lấy nó trực tiếp mà không cần chiến đấu. Việc tránh hiệp sĩ lười biếng là khả thi)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320137325964414976",
+      "categoryId": "sx·lgn",
+      "title": "Hộp Thoại·Laguna",
+      "x": 16647.529,
+      "y": 15220.856,
+      "description": "Sau khi dịch chuyển đến đèn hiệu ở bên cạnh, hãy nhìn xuống. Hộp âm thanh nằm giữa vách đá của đèn hiệu và vách đá đối diện. Bạn có thể điều chỉnh nó theo tàn tích trước. Hình 2 có thể được sử dụng làm tài liệu tham khảo",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323814676208836608",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 16863.473,
+      "y": 15834.353,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323815228872495104",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 16937.562,
+      "y": 15657.261,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323816478699589632",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 16959.247,
+      "y": 15880.433,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323816774980231168",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 16913.167,
+      "y": 15764.781,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323817223938531328",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 17055.021,
+      "y": 15778.334,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323817513166987264",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 17103.812,
+      "y": 15759.36,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323817808101019648",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 17133.628,
+      "y": 15790.984,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323823318977110016",
+      "categoryId": "SP_IconMonsterHead_32028_UI",
+      "title": "con rối nổi",
+      "x": 16700.838,
+      "y": 15214.532,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410322986944471040",
+      "categoryId": "xlzm",
+      "title": "Giấc mơ hành hương",
+      "x": 16988.648,
+      "y": 15790.143,
+      "description": "Tầng 11 · 首次完成三个节点目标后可获得三个潮汐之遗奖励（该标点位于地下区域，游戏内可追踪隐秘入口进入）",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1410324089249505280",
+      "categoryId": "xlzm",
+      "title": "Giấc mơ hành hương",
+      "x": 16806.867,
+      "y": 15795.311,
+      "description": "Sau khi hoàn thành ba mục tiêu nút lần đầu tiên, bạn sẽ nhận được ba phần thưởng Legacy of Tides.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410326378014089216",
+      "categoryId": "xlzm",
+      "title": "Giấc mơ hành hương",
+      "x": 16574.967,
+      "y": 15217.974,
+      "description": "Sau khi hoàn thành ba mục tiêu nút lần đầu tiên, bạn sẽ nhận được ba phần thưởng Legacy of Tides.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320053947332284416",
+      "categoryId": "SP_IconMonsterHead_31040_UI",
+      "title": "búp bê hyde",
+      "x": 16901.421,
+      "y": 15845.195,
+      "description": "Những dư ảnh không ngừng tìm kiếm \"cơ thể\" phù hợp.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320124087923949568",
+      "categoryId": "SP_IconMonsterHead_31040_UI",
+      "title": "búp bê hyde",
+      "x": 16683.671,
+      "y": 15236.216,
+      "description": "Những dư ảnh không ngừng tìm kiếm \"cơ thể\" phù hợp.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320124411643678720",
+      "categoryId": "SP_IconMonsterHead_31040_UI",
+      "title": "búp bê hyde",
+      "x": 16661.082,
+      "y": 15257.901,
+      "description": "Những dư ảnh không ngừng tìm kiếm \"cơ thể\" phù hợp.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327967470801543168",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16957.44,
+      "y": 15932.838,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Có một hộp thoại bên cạnh nó. Khi bạn nhận được hộp thoại lần đầu tiên, hãy dọa nó đi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327967470835097600",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16961.958,
+      "y": 15933.741,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Có một hộp thoại bên cạnh nó. Khi bạn nhận được hộp thoại lần đầu tiên, hãy dọa nó đi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327967470868652032",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16961.958,
+      "y": 15934.645,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327981620908679168",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16980.028,
+      "y": 15856.941,
+      "description": "Tầng 11 · 惊飞或击杀星币伏翼获得。在洞窟入口处",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327981620967399424",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16980.028,
+      "y": 15855.134,
+      "description": "Tầng 11 · 惊飞或击杀星币伏翼获得。在洞窟入口处",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327982456491499520",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16982.739,
+      "y": 15830.739,
+      "description": "Tầng 11 · 惊飞或击杀星币伏翼获得。在洞窟顶部",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327982456592162816",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16982.739,
+      "y": 15831.642,
+      "description": "Tầng 11 · 惊飞或击杀星币伏翼获得。在洞窟顶部",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327984212355211264",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16994.485,
+      "y": 15821.704,
+      "description": "Tầng 11 · Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327984742534373376",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16984.546,
+      "y": 15779.238,
+      "description": "Tầng 11 · 惊飞或击杀星币伏翼获得。洞窟内树上",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327984742567927808",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16983.642,
+      "y": 15778.334,
+      "description": "Tầng 11 · 惊飞或击杀星币伏翼获得。洞窟内树上",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1327986433598853120",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17092.066,
+      "y": 15965.365,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327986433670156288",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17091.162,
+      "y": 15967.172,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327986433720487936",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17099.294,
+      "y": 15975.304,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327986966683344896",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17122.786,
+      "y": 15874.108,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Trên trần tòa nhà",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327986966767230976",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17123.689,
+      "y": 15874.108,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Trên trần tòa nhà",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327987554199441408",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17126.4,
+      "y": 15863.266,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Trên trần tòa nhà",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327987554438516736",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17127.304,
+      "y": 15863.266,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Trên trần tòa nhà",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327987840376004608",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17121.882,
+      "y": 15858.748,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh. Trên trần tòa nhà",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327988344103133184",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17139.049,
+      "y": 15840.678,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327988344166047744",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17139.049,
+      "y": 15839.774,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327988912565542912",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17128.207,
+      "y": 15819.896,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327989745201995776",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17135.435,
+      "y": 15824.414,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327989745273298944",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 17136.339,
+      "y": 15825.318,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330215796170842112",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16818.296,
+      "y": 15737.675,
+      "description": "Nhận Star Coins từ Wings bằng cách dọa chúng bỏ chạy hoặc giết chúng khi chúng đang nằm trên cát.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330220453505425408",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16652.951,
+      "y": 15267.84,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330220453564145664",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16652.951,
+      "y": 15266.033,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330220453622865920",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16651.144,
+      "y": 15264.226,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330220453664808960",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16651.144,
+      "y": 15263.322,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330220937661931520",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16694.513,
+      "y": 15224.471,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330220937750011904",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16693.609,
+      "y": 15223.567,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330221372268515328",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16704.452,
+      "y": 15210.014,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330221372306264064",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16703.548,
+      "y": 15210.014,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330225110580367360",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16647.529,
+      "y": 15289.525,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330225110613921792",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16648.433,
+      "y": 15289.525,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330225110647476224",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16652.047,
+      "y": 15282.296,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1330225110681030656",
+      "categoryId": "T_IconC_049_UI",
+      "title": "Vuốt ngón tay trộm vàng",
+      "x": 16651.144,
+      "y": 15281.393,
+      "description": "Tiền sao có được bằng cách bay hoặc giết Cánh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319825592971317248",
+      "categoryId": "SP_IconMonsterHead_31039_UI",
+      "title": "Sói Băng Giá",
+      "x": 16956.536,
+      "y": 16231.906,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319825725748199424",
+      "categoryId": "SP_IconMonsterHead_31039_UI",
+      "title": "Sói Băng Giá",
+      "x": 16773.12,
+      "y": 16114.447,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319826650268422144",
+      "categoryId": "SP_IconMonsterHead_31039_UI",
+      "title": "Sói Băng Giá",
+      "x": 17104.715,
+      "y": 15662.682,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319826889122299904",
+      "categoryId": "SP_IconMonsterHead_31039_UI",
+      "title": "Sói Băng Giá",
+      "x": 17118.268,
+      "y": 15666.296,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340707863287619584",
+      "categoryId": "SP_IconMonsterHead_31039_UI",
+      "title": "Sói Băng Giá",
+      "x": 16275.275,
+      "y": 14781.741,
+      "description": "Loài sói bắt chước hoành hành ở những vùng băng giá được biết đến với bản tính nham hiểm và máu lạnh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1342665673891356672",
+      "categoryId": "SP_IconMonsterHead_31051_UI",
+      "title": "Lăng kính khí nén",
+      "x": 16325.873,
+      "y": 14823.304,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1342665673954271232",
+      "categoryId": "SP_IconMonsterHead_31051_UI",
+      "title": "Lăng kính khí nén",
+      "x": 16329.487,
+      "y": 14831.435,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1342665674012991488",
+      "categoryId": "SP_IconMonsterHead_31051_UI",
+      "title": "Lăng kính khí nén",
+      "x": 16336.715,
+      "y": 14826.918,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339190173278498816",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16725.125,
+      "y": 15969.096,
+      "description": "Cái ở phía trước bụi cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339190263817441280",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16715.33,
+      "y": 16026.552,
+      "description": "Một dưới hai cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339190804686389248",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17033.318,
+      "y": 15828.805,
+      "description": "Một trong vườn hoa",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339190881453871104",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16969.114,
+      "y": 15892.143,
+      "description": "Cái ở phía trước bụi cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191007240351744",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16962.68,
+      "y": 15906.608,
+      "description": "Cái ở phía trước bụi cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191211457515520",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17031.349,
+      "y": 15976.867,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191302272585728",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17014.859,
+      "y": 15983.995,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191335613108224",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17026.289,
+      "y": 15994.684,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191374167277568",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17045.597,
+      "y": 16008.743,
+      "description": "Có bốn đồng cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191461711527936",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16999.698,
+      "y": 16020.796,
+      "description": "Hai người trên bãi cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191498586288128",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16995.542,
+      "y": 16040.809,
+      "description": "Hai người trên bãi cỏ dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339191895493971968",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17140.034,
+      "y": 15995.85,
+      "description": "Ba dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339192028146528256",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17133.276,
+      "y": 15995.561,
+      "description": "Ba dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339192064351760384",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 17128.171,
+      "y": 15994.223,
+      "description": "Ba dưới chân núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340712423751393280",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16226.485,
+      "y": 14824.207,
+      "description": "trên rìa vách đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340713043807936512",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 16250.88,
+      "y": 14873.901,
+      "description": "Bên cạnh bãi cỏ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340716277419188224",
+      "categoryId": "T_IconC_048_UI",
+      "title": "lá quế",
+      "x": 15969.882,
+      "y": 14825.111,
+      "description": "bên cạnh những tảng đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339990612909887488",
+      "categoryId": "SP_IconMonsterHead_32031_UI",
+      "title": "Định hình lại sỏi của bức tượng",
+      "x": 16094.569,
+      "y": 14866.673,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320423691630460928",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16676.027,
+      "y": 15176.999,
+      "description": "Một trên vách đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320429873971642368",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16646.156,
+      "y": 15196.597,
+      "description": "Dưới chân đồi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324368248031055872",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16722.098,
+      "y": 16028.639,
+      "description": "Một dưới hai cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324370638290444288",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16746.466,
+      "y": 15999.247,
+      "description": "Một cái ở ven đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324371262653501440",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16695.76,
+      "y": 15977.318,
+      "description": "Một dưới gốc cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324372670636253184",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16714.942,
+      "y": 16019.197,
+      "description": "Một cái ở ven đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324373835767767040",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16707.939,
+      "y": 15975.186,
+      "description": "Hai bên tảng đá lớn",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324374028879683584",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16712.963,
+      "y": 15963.765,
+      "description": "Hai bên tảng đá lớn",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324375085267705856",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16729.561,
+      "y": 15960.721,
+      "description": "Một trên bãi cỏ (vô tình nhặt được)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324375783743315968",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16755.601,
+      "y": 16009.909,
+      "description": "Một dưới gốc cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324377414116216832",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16773.87,
+      "y": 15962.997,
+      "description": "Đống đổ nát ở ngã tư",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324379982656856064",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16989.244,
+      "y": 15891.872,
+      "description": "Cái trước tảng đá lớn",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324380130406207488",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 17001.017,
+      "y": 15904.331,
+      "description": "Kẻ đứng sau thùng bên đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324380266141081600",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 17017.389,
+      "y": 15895.133,
+      "description": "Trước những tảng đá ven đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324380428583473152",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 17074.203,
+      "y": 15877.099,
+      "description": "Một dưới gốc cây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365674247666081792",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16100.397,
+      "y": 14860.375,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365674308613513216",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16198.06,
+      "y": 14829.023,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365674372069138432",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16257.141,
+      "y": 14796.062,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365678920777949184",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 17049.031,
+      "y": 15705.546,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365678968148418560",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16796.666,
+      "y": 15883.451,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365678986835337216",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16754.598,
+      "y": 15882.321,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679010705121280",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16747.116,
+      "y": 15853.499,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679077867216896",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16800.642,
+      "y": 16009.638,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679090933768192",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16784.73,
+      "y": 16031.232,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679113331351552",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16736.979,
+      "y": 16079.553,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679160276901888",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16812.577,
+      "y": 16057.949,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679176640176128",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16764.835,
+      "y": 16093.756,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1365679210503692288",
+      "categoryId": "T_IconC_042_UI",
+      "title": "ủng hộ ô liu",
+      "x": 16744.939,
+      "y": 16110.246,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320017185747550208",
+      "categoryId": "SP_IconMonsterHead_31038_UI",
+      "title": "Sói sấm sét",
+      "x": 16949.308,
+      "y": 16234.616,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320017394941808640",
+      "categoryId": "SP_IconMonsterHead_31038_UI",
+      "title": "Sói sấm sét",
+      "x": 16769.506,
+      "y": 16123.482,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320017584650383360",
+      "categoryId": "SP_IconMonsterHead_31038_UI",
+      "title": "Sói sấm sét",
+      "x": 16757.76,
+      "y": 15994.278,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320018184934772736",
+      "categoryId": "SP_IconMonsterHead_31038_UI",
+      "title": "Sói sấm sét",
+      "x": 17121.882,
+      "y": 15661.779,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320021900896026624",
+      "categoryId": "SP_IconMonsterHead_31038_UI",
+      "title": "Sói sấm sét",
+      "x": 16830.042,
+      "y": 16197.572,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320022060938084352",
+      "categoryId": "SP_IconMonsterHead_31038_UI",
+      "title": "Sói sấm sét",
+      "x": 16796.612,
+      "y": 16170.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1377989670691491840",
+      "categoryId": "SP_IconMonsterHead_YZ_33016_UI",
+      "title": "Cơn ác mộng·Quy mô đám mây",
+      "x": 16877.026,
+      "y": 15937.355,
+      "description": "Dư ảnh đặc biệt ẩn trong mạng lưới được xây dựng bởi các nút giấc mơ tập hợp tần số của những cảm xúc tiêu cực nhất định trên khắp Laguna.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319834950966857728",
+      "categoryId": "SP_IconMonsterHead_31037_UI",
+      "title": "Sói gió",
+      "x": 16950.212,
+      "y": 16231.906,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319835078919442432",
+      "categoryId": "SP_IconMonsterHead_31037_UI",
+      "title": "Sói gió",
+      "x": 16954.729,
+      "y": 16230.099,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319836009774759936",
+      "categoryId": "SP_IconMonsterHead_31037_UI",
+      "title": "Sói gió",
+      "x": 17118.268,
+      "y": 15663.586,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319841009191342080",
+      "categoryId": "SP_IconMonsterHead_31037_UI",
+      "title": "Sói gió",
+      "x": 16834.56,
+      "y": 16196.668,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340708186483908608",
+      "categoryId": "SP_IconMonsterHead_31037_UI",
+      "title": "Sói gió",
+      "x": 16276.179,
+      "y": 14787.162,
+      "description": "Loài sói bắt chước lang thang vùng cao nổi tiếng với bản tính săn mồi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1339697333620834304",
+      "categoryId": "GDLZT",
+      "title": "sàn gondola",
+      "x": 17022.494,
+      "y": 16094.569,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1358865104431030272",
+      "categoryId": "GDLZT",
+      "title": "sàn gondola",
+      "x": 16829.6,
+      "y": 15320.913,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1401181891660988416",
+      "categoryId": "ych",
+      "title": "Những bức tranh đầy màu sắc",
+      "x": 17031.529,
+      "y": 15668.104,
+      "description": "Giải pháp có thể được tìm thấy trong Hình 2, chỉ cần nhấp vào vị trí được chỉ định bởi mũi tên theo thứ tự màu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1401182792005697536",
+      "categoryId": "ych",
+      "title": "Những bức tranh đầy màu sắc",
+      "x": 16830.042,
+      "y": 15919.285,
+      "description": "Giải pháp có thể được tìm thấy trong Hình 2, chỉ cần nhấp vào vị trí được chỉ định bởi mũi tên theo thứ tự màu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319764178451611648",
+      "categoryId": "SP_IconMonsterHead_32029_UI",
+      "title": "Lưu Ly Đạo Lăng",
+      "x": 17083.112,
+      "y": 16002.554,
+      "description": "Hai bên nhau trên bậc thềm phía dưới hành lang đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319764192435421184",
+      "categoryId": "SP_IconMonsterHead_32029_UI",
+      "title": "Lưu Ly Đạo Lăng",
+      "x": 17093.015,
+      "y": 16007.722,
+      "description": "Trên bậc thềm phía dưới hành lang đá, hai người đứng cạnh nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319765072582955008",
+      "categoryId": "SP_IconMonsterHead_32029_UI",
+      "title": "Lưu Ly Đạo Lăng",
+      "x": 16968.68,
+      "y": 16075.523,
+      "description": "Đứng ở lối vào khu di tích",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1341131280316080128",
+      "categoryId": "T_IconC_040_UI",
+      "title": "Cua Đăng Đăng",
+      "x": 16363.821,
+      "y": 14806.136,
+      "description": "Một con cua xanh sống trong chuông. Cua Đang Đang thì ẩn nấp dưới xác tàu đổ nát, thối rữa để tránh thu hút kẻ săn mồi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1341131691177517056",
+      "categoryId": "T_IconC_040_UI",
+      "title": "Cua Đăng Đăng",
+      "x": 16369.242,
+      "y": 14817.882,
+      "description": "Một con cua xanh sống trong chuông. Cua Đang Đang thì ẩn nấp dưới xác tàu đổ nát, thối rữa để tránh thu hút kẻ săn mồi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1341132020441735168",
+      "categoryId": "T_IconC_040_UI",
+      "title": "Cua Đăng Đăng",
+      "x": 16397.252,
+      "y": 14778.127,
+      "description": "Một con cua xanh sống trong chuông. Cua Đang Đang thì ẩn nấp dưới xác tàu đổ nát, thối rữa để tránh thu hút kẻ săn mồi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1341132235777302528",
+      "categoryId": "T_IconC_040_UI",
+      "title": "Cua Đăng Đăng",
+      "x": 16395.445,
+      "y": 14776.32,
+      "description": "Một con cua xanh sống trong chuông. Cua Đang Đang thì ẩn nấp dưới xác tàu đổ nát, thối rữa để tránh thu hút kẻ săn mồi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322984619544825856",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 16708.969,
+      "y": 16026.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322984773580640256",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 16792.998,
+      "y": 15444.028,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322985161507622912",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 16834.56,
+      "y": 15957.233,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322985345143787520",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 16826.428,
+      "y": 16105.412,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322985872414785536",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 17034.24,
+      "y": 16032.226,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322985872473505792",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 17036.047,
+      "y": 16033.129,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322986129378177024",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 17036.951,
+      "y": 16036.744,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1322986249338114048",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 17060.442,
+      "y": 15965.365,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340705676985688064",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 16247.266,
+      "y": 14859.445,
+      "description": "Hình ảnh còn sót lại phi vật chất ký sinh trong con rối mô phỏng dáng vẻ của một con rối tầm thường và cần cù.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340717181329448960",
+      "categoryId": "SP_IconMonsterHead_31047_UI",
+      "title": "Quản đốc Ragdoll",
+      "x": 16098.184,
+      "y": 14808.847,
+      "description": "Hình ảnh còn sót lại phi vật chất ký sinh trong con rối mô phỏng dáng vẻ của một con rối tầm thường và cần cù.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320449190644928512",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16709.873,
+      "y": 16025.901,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320449349072384000",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16792.094,
+      "y": 16093.666,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320449349194018816",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16792.998,
+      "y": 16093.666,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320450027816271872",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16838.174,
+      "y": 15955.426,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320450165510230016",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16834.56,
+      "y": 16115.351,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320450723117780992",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16997.195,
+      "y": 16153.299,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320450829983305728",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 17032.433,
+      "y": 16035.84,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320451189608271872",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 17063.153,
+      "y": 15965.365,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320452064402522112",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16650.24,
+      "y": 15293.139,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340704901703376896",
+      "categoryId": "SP_IconMonsterHead_32030_UI",
+      "title": "Ragdoll khổng lồ",
+      "x": 16248.169,
+      "y": 14866.673,
+      "description": "Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409558778451202048",
+      "categoryId": "qxzl·dlzw",
+      "title": "Chiến lược ba chiều·Vũ điệu Đạo Lăng",
+      "x": 16871.09,
+      "y": 16080.086,
+      "description": "Bạn có thể hoàn thành thử thách bằng cách tránh Liuli Daoling trong thời gian giới hạn. Sau khi hoàn thành lần đầu tiên, bạn sẽ nhận được rương kho báu cơ bản.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409560241755787264",
+      "categoryId": "qxzl·dlzw",
+      "title": "Chiến lược ba chiều·Vũ điệu Đạo Lăng",
+      "x": 16754.986,
+      "y": 15095.004,
+      "description": "Bạn có thể hoàn thành thử thách bằng cách tránh Liuli Daoling trong thời gian giới hạn. Sau khi hoàn thành lần đầu tiên, bạn sẽ nhận được rương kho báu cơ bản.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325715940778074112",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16960.882,
+      "y": 15932.765,
+      "description": "Có thể mở trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325718070460702720",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16963.765,
+      "y": 16065.656,
+      "description": "Có thể mở trực tiếp, nằm ở tầng trên lối vào tòa nhà",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325853042766155776",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 17017.073,
+      "y": 15827.125,
+      "description": "Mở ra sau khi đánh bại kẻ thù (dấu câu được cung cấp bởi người chơi Xingjiu trực tuyến)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325998342440116224",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16695.236,
+      "y": 15218.074,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1326930406687268864",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16868.894,
+      "y": 16076.499,
+      "description": "Hoàn thành chiến lược ba chiều gần dấu câu để mở khóa Vũ điệu thương hại và tương tác với cây cột ở giữa để bắt đầu thử thách (điểm chấm câu do người chơi Yunkai cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327765408733749248",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16689.092,
+      "y": 15267.84,
+      "description": "Thu thập năm thanh kiếm hiệp sĩ và cắm chúng xung quanh Hồ rừng thờ trăng. Có được nó sau khi đánh bại các hiệp sĩ trong hồ. Bạn có thể kiểm tra hướng dẫn tương ứng để lấy nó (dấu chấm câu là vị trí của rương kho báu và dấu chấm câu do người chơi Seyra cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327765537491685376",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16691.802,
+      "y": 15265.129,
+      "description": "Thu thập năm thanh kiếm hiệp sĩ và cắm chúng xung quanh Hồ rừng thờ trăng. Có được nó sau khi đánh bại các hiệp sĩ trong hồ. Bạn có thể kiểm tra hướng dẫn tương ứng để lấy nó (dấu chấm câu là vị trí của rương kho báu và dấu chấm câu do người chơi Seyra cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1329213656012066816",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16655.661,
+      "y": 15214.532,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1334660576609046528",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 16755.049,
+      "y": 15088.038,
+      "description": "Một rương kho báu sẽ xuất hiện sau khi hoàn thành chiến lược ba chiều-Dance of the Blades gần dấu câu (dấu chấm câu được cung cấp bởi người chơi có ID Kakalo, bộ cộng hưởng mạnh nhất ở Solaris). Vị trí an toàn: Đèo không đau quanh góc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325715165159788544",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 16987.256,
+      "y": 15947.294,
+      "description": "Mở khóa sau khi đánh bại quái vật xung quanh rương kho báu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325716757760991232",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 16921.037,
+      "y": 16047.351,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325718676811452416",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 16962.861,
+      "y": 16076.499,
+      "description": "Đánh bại quái vật xung quanh để mở khóa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325853662938947584",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 17049.6,
+      "y": 15811.765,
+      "description": "Phía sau tòa tháp, mở khóa sau khi đánh bại những quái vật xung quanh (hai con rối nổi, một con rối nổi Wright và một con rối nổi Lev) (dấu câu do người chơi Xingjiu cung cấp trực tuyến)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1326942090441154560",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 16953.826,
+      "y": 15708.762,
+      "description": "Nói chuyện với Wardelgo trong hình gần dấu câu và sau khi hoàn thành Thử thách đầu lâu âm thanh·Cú đấm rối kỳ lạ, một rương kho báu sẽ xuất hiện (dấu chấm câu do người chơi Yunkai cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1326947615778168832",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 16637.591,
+      "y": 15217.242,
+      "description": "Đầu tiên hãy nói chuyện với NPC Wardelgo (Hình 2) tại vị trí trong Hình 3. Sau khi hoàn thành thử thách giới hạn thời gian, một hộp kho báu sẽ xuất hiện. Dấu chấm câu là vị trí của hộp kho báu (Hình 1) (dấu chấm câu do người chơi Yunkai cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1326953110411841536",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 17107.426,
+      "y": 15911.153,
+      "description": "Đầu tiên, kéo ba viên đá gần dấu chấm câu lên đế (như hình 2), sau đó biến hóa, ấn và giữ chiêu thức nhỏ để hấp thụ đám mây ác mộng. Sau khi hấp thụ xong hãy đến hộp kho báu và nói chuyện với Wardgo, hộp kho báu sẽ xuất hiện (dấu chấm câu do người chơi Yunkai cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1331642918854725632",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 16515.614,
+      "y": 15306.692,
+      "description": "Nhận được sau khi hoàn thành Thử thách bộ xương tại đây và thu thập Sách thất lạc. (Dấu câu do người chơi Yunkai cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321120972553895936",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 17033.336,
+      "y": 15828.932,
+      "description": "Có nhiều điều kỳ lạ hơn xung quanh ngôi nhà này. Nên làm sạch tất cả chúng trước khi mở tất cả các rương kho báu, hoặc bạn có thể chỉ cần đi qua và mở chúng và chạy. Rương kho báu đồng bằng sau đó đi lên bậc trung tâm và rẽ phải trên đỉnh tháp nhỏ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321121750915411968",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16790.287,
+      "y": 15768.395,
+      "description": "Dịch chuyển đến địa điểm thử thách ở bên cạnh hoặc dịch chuyển đến đèn hiệu phía trên nhóm cối xay gió đang thống trị; nếu bạn dịch chuyển đến thử thách, hãy đi bộ về phía tây bắc một chút và tìm một cái cây lớn; nếu bạn dịch chuyển đến ngọn hải đăng, hãy lướt về phía tây, nhưng hãy cẩn thận đừng đi ra sông, vì bạn đang ở đây để tìm vị trí của cái cây lớn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321122666112339968",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16951.115,
+      "y": 15924.706,
+      "description": "Thống trị đèn hiệu bên dưới nhóm cối xay gió. Sau khi dịch chuyển tức thời, có thể nhìn thấy hướng bắc của đèn hiệu. Có một ngọn tháp nhỏ ngắn ở phía tây bắc của tòa tháp cao nhất. Nó không có sẵn khi làm dòng chính. Hãy quay lại sau khi đường chính hoàn thành.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321123163612168192",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16924.913,
+      "y": 15894.889,
+      "description": "Giữa những cột đá đổ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321124089814306816",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16855.341,
+      "y": 15929.224,
+      "description": "Dịch chuyển đến ngọn hải đăng bên dưới nhóm cối xay gió một mắt, sau đó đi thẳng về phía hồ bơi cho đến khi đến chân thác sẽ nhìn thấy.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321126545387208704",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16967.379,
+      "y": 16051.2,
+      "description": "Vị trí rất dễ tìm. Sau khi đến đây các bạn hãy đến địa điểm ở hình thứ 2, đi vào cổng đá rồi rẽ phải sẽ thấy rương kho báu. Rẽ trái và bạn sẽ thấy một rương kho báu lừa đảo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321127455986741248",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16923.106,
+      "y": 16044.875,
+      "description": "Dịch chuyển đến ngọn hải đăng phía trên bờ kè sương mù trắng và đi về phía dấu chấm câu để tìm nó. Khi đến đây lần đầu tiên, bạn cần phải đánh bại bốn thành viên của Broken Star Society. Sau khi chạm vào rương kho báu đầu tiên, sẽ có một [Hiệp sĩ tham lam] với một nhiệm vụ ẩn giấu. Sau khi giết nó, bạn sẽ nhận được Greedy Knight Sword, sau đó có thể mở rương kho báu một cách bình thường.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321127456074821632",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16918.588,
+      "y": 16046.682,
+      "description": "Dịch chuyển đến ngọn hải đăng phía trên bờ kè sương mù trắng và đi về phía dấu chấm câu để tìm nó. Khi đến đây lần đầu tiên, bạn cần phải đánh bại bốn thành viên của Broken Star Society. Sau khi chạm vào rương kho báu đầu tiên, sẽ có một [Hiệp sĩ tham lam] với một nhiệm vụ ẩn giấu. Sau khi giết nó, bạn sẽ nhận được Greedy Knight Sword, sau đó có thể mở rương kho báu một cách bình thường.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1321128264353599488",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16855.341,
+      "y": 16090.052,
+      "description": "Điều này không cần phải nói, nơi này rất dễ tìm, và rương kho báu không được giấu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325717871111856128",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16952.922,
+      "y": 16067.464,
+      "description": "Nằm trên một bệ nhỏ bên dưới đỉnh tòa nhà, có thể mở trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325855139497533440",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 17041.468,
+      "y": 15806.344,
+      "description": "Có thể mở trực tiếp, nằm trên đỉnh tháp (dấu câu do người chơi Xingjiuonlive cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325997767618748416",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16659.465,
+      "y": 15235.358,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325998023297359872",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16697.648,
+      "y": 15218.074,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340487486405926912",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16137.035,
+      "y": 14805.233,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340490592356376576",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16123.482,
+      "y": 14876.612,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340490746459299840",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 16029.515,
+      "y": 14927.209,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327764062506999808",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 16493.026,
+      "y": 15380.781,
+      "description": "Rương kho báu phần thưởng sau khi hoàn thành nhiệm vụ phụ Skyrim Journey từ thuyền trưởng cũ David, bạn có thể xem hướng dẫn tương ứng để nhận (dấu câu do người chơi Seyra cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1327764906042613760",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 16690.899,
+      "y": 15266.936,
+      "description": "Thu thập năm thanh kiếm hiệp sĩ và cắm chúng xung quanh Hồ rừng thờ trăng. Có được nó sau khi đánh bại các hiệp sĩ trong hồ. Bạn có thể kiểm tra hướng dẫn tương ứng để lấy nó (dấu chấm câu là vị trí của rương kho báu và dấu chấm câu do người chơi Seyra cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410050502596366336",
+      "categoryId": "ylfy",
+      "title": "âm nhạc đom đóm bay",
+      "x": 16775.849,
+      "y": 15334.403,
+      "description": "Con đom đóm bay lang thang quanh điểm đánh dấu. Kẻ lang thang, bắt lấy nó!",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410050582606909440",
+      "categoryId": "ylfy",
+      "title": "âm nhạc đom đóm bay",
+      "x": 16745.373,
+      "y": 15921.001,
+      "description": "Con đom đóm bay lang thang quanh điểm đánh dấu. Kẻ lang thang, bắt lấy nó!",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409568617046872064",
+      "categoryId": "byfy",
+      "title": "Bạch Nguyệt? Phi Nhạc?",
+      "x": 16916.411,
+      "y": 16036.617,
+      "description": "Nhiệm vụ ẩn cần được hoàn thành với sự trợ giúp của các chiến lược liên quan (điểm này cần đánh bại quái vật trước và mở rương kho báu để xuất hiện. Sau thất bại cuối cùng, nhiệm vụ điểm sẽ hoàn thành)\nHiệp sĩ bí ẩn sống gần túp lều dưới cối xay gió có kế hoạch đưa tất cả kho báu trên thế giới vào rương kho báu của mình.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409569096480985088",
+      "categoryId": "byfy",
+      "title": "Bạch Nguyệt? Phi Nhạc?",
+      "x": 16794.38,
+      "y": 15424.169,
+      "description": "Nhiệm vụ ẩn cần được hoàn thành với sự trợ giúp của các chiến lược phù hợp\nHiệp sĩ đặc biệt lạc vào Rừng Trăng Trắng dường như đã tìm ra câu trả lời nhưng lại quên mất câu hỏi là gì...",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409569650284302336",
+      "categoryId": "byfy",
+      "title": "Bạch Nguyệt? Phi Nhạc?",
+      "x": 16770.735,
+      "y": 16057.841,
+      "description": "Nhiệm vụ ẩn cần được hoàn thành với sự trợ giúp của các chiến lược phù hợp\nHiệp sĩ tàn bạo gây hỗn loạn phía tây bờ kè Baiwu được biết đến là người tàn nhẫn với kẻ thù, nhưng đồng minh của nó là ai?",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323039593328209920",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16711.68,
+      "y": 16024.998,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323039713837600768",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16835.464,
+      "y": 15958.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323039843124822016",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16827.332,
+      "y": 16104.508,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323040437238747136",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16998.099,
+      "y": 16152.395,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323040584482836480",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 17063.153,
+      "y": 15947.294,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323048484989091840",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16952.922,
+      "y": 15885.854,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1323048485052006400",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16954.729,
+      "y": 15885.854,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340706257104068608",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16244.555,
+      "y": 14860.348,
+      "description": "Hình tượng còn sót lại phi vật chất ký sinh trong con rối bắt chước con rối im lặng nhưng biết lắng nghe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340717794791317504",
+      "categoryId": "SP_IconMonsterHead_31046_UI",
+      "title": "cô đơn",
+      "x": 16103.605,
+      "y": 14807.04,
+      "description": "Hình tượng còn sót lại phi vật chất ký sinh trong con rối bắt chước con rối im lặng nhưng biết lắng nghe.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324138454784696320",
+      "categoryId": "SP_IconMonsterHead_31045_UI",
+      "title": "ông phép thuật",
+      "x": 16708.969,
+      "y": 16027.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324139647099887616",
+      "categoryId": "SP_IconMonsterHead_31045_UI",
+      "title": "ông phép thuật",
+      "x": 16793.901,
+      "y": 16096.376,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324140073057423360",
+      "categoryId": "SP_IconMonsterHead_31045_UI",
+      "title": "ông phép thuật",
+      "x": 16793.901,
+      "y": 16165.948,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324140222121795584",
+      "categoryId": "SP_IconMonsterHead_31045_UI",
+      "title": "ông phép thuật",
+      "x": 16829.139,
+      "y": 16106.315,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340706532444577792",
+      "categoryId": "SP_IconMonsterHead_31045_UI",
+      "title": "ông phép thuật",
+      "x": 16242.748,
+      "y": 14863.059,
+      "description": "Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340717467706908672",
+      "categoryId": "SP_IconMonsterHead_31045_UI",
+      "title": "ông phép thuật",
+      "x": 16101.798,
+      "y": 14809.751,
+      "description": "Một công ty có thể cung cấp cho bạn một công cụ hỗ trợ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319260036913111040",
+      "categoryId": "FCRK",
+      "title": "Lối vào theo tầng",
+      "x": 16994.311,
+      "y": 15766.883,
+      "description": "Tầng 11",
+      "floorId": "11",
+      "levelId": "-1000000/11"
+    },
+    {
+      "id": "kuro:1325246963169779712",
+      "categoryId": "cx_01",
+      "title": "Di sản của thủy triều·Xanh",
+      "x": 16571.633,
+      "y": 15202.786,
+      "description": "Khi hoàn thành thử thách [Giấc mơ hành hương·Trung tâm giấc mơ bên bờ nước], Trung tâm giấc mơ có thể được mở khóa mà không bị phá hủy.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325246963228499968",
+      "categoryId": "cx_01",
+      "title": "Di sản của thủy triều·Xanh",
+      "x": 16804.744,
+      "y": 15781.948,
+      "description": "Hoàn thành mục tiêu nút của [Giấc mơ hành hương·Hiệp sĩ điều ước cuối cùng] để mở khóa nó",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325246963287220224",
+      "categoryId": "cx_01",
+      "title": "Di sản của thủy triều·Xanh",
+      "x": 16987.256,
+      "y": 15807.247,
+      "description": "Tầng 11 · 传送点东北方向山崖下进入洞窟，完成【巡礼之梦·风车之主】一个节点目标可解锁",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1325246963350134784",
+      "categoryId": "cx_01",
+      "title": "Di sản của thủy triều·Xanh",
+      "x": 16862.569,
+      "y": 16241.845,
+      "description": "Hoàn thành mục tiêu nút của [Giấc mơ hành hương·Bảo mật chuyên nghiệp] để mở khóa nó",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324882821266825216",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 16575.247,
+      "y": 15201.882,
+      "description": "Khi hoàn thành thử thách [Giấc mơ hành hương: Dream Hub bên bờ nước], Dream Hub có thể được mở khóa nếu mức độ hoàn thiện của Dream Hub lớn hơn 60%.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1324884476902412288",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 16984.546,
+      "y": 15807.247,
+      "description": "Tầng 11 · 传送点东北方向山崖下进入洞窟，完成【巡礼之梦·风车之主】的三个节点目标可解锁",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1324887573824692224",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 16808.358,
+      "y": 15782.852,
+      "description": "Hoàn thành ba mục tiêu nút của [Giấc mơ hành hương·Hiệp sĩ điều ước cuối cùng] để mở khóa",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325168637676523520",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 16861.666,
+      "y": 16245.459,
+      "description": "Hoàn thành ba mục tiêu nút của [Giấc mơ hành hương·Bảo mật chuyên nghiệp] để mở khóa",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325243702433964032",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 16811.972,
+      "y": 15783.755,
+      "description": "Hoàn thành hai mục tiêu nút của [Giấc mơ hành hương·Hiệp sĩ điều ước cuối cùng] để mở khóa",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325243702605930496",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 16981.835,
+      "y": 15806.344,
+      "description": "Tầng 11 · 传送点东北方向山崖下进入洞窟，完成【巡礼之梦·风车之主】两个节点目标可解锁",
+      "floorId": "11",
+      "levelId": "-1/11"
+    },
+    {
+      "id": "kuro:1325243702773702656",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 16859.859,
+      "y": 16248.169,
+      "description": "Hoàn thành hai mục tiêu nút của [Giấc mơ hành hương·Bảo mật chuyên nghiệp] để mở khóa",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1325243706145923072",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 16579.765,
+      "y": 15202.786,
+      "description": "Khi hoàn thành thử thách [Giấc mơ hành hương: Dream Hub bên bờ nước], Dream Hub có thể được mở khóa nếu mức độ hoàn thiện của Dream Hub lớn hơn 30%",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340435238917300224",
+      "categoryId": "SP_IconMonsterHead_32032_UI",
+      "title": "gấu bão",
+      "x": 16309.609,
+      "y": 14799.812,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340435487774973952",
+      "categoryId": "SP_IconMonsterHead_32032_UI",
+      "title": "gấu bão",
+      "x": 15941.873,
+      "y": 14895.586,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1340435487854665728",
+      "categoryId": "SP_IconMonsterHead_32032_UI",
+      "title": "gấu bão",
+      "x": 15931.031,
+      "y": 14901.007,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409153853011398656",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 16954.169,
+      "y": 15927.706,
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này, bạn có thể tìm thấy chúng qua bản đồ lớn hoặc trong trò chơi thông qua [Nhận thức].",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409154067008983040",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 17024.663,
+      "y": 15813.951,
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này, bạn có thể tìm thấy chúng qua bản đồ lớn hoặc trong trò chơi thông qua [Nhận thức].",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409154341392175104",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 16968.029,
+      "y": 16067.698,
+      "description": "Có tổng cộng 4 rương kho báu ở nơi kho báu này, bạn có thể tìm thấy chúng qua bản đồ lớn hoặc trong trò chơi thông qua [Nhận thức].",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1409155448293953536",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 16654.369,
+      "y": 15234.5,
+      "description": "Có 4 rương kho báu ở nơi kho báu này, có thể tìm thấy thông qua bản đồ lớn hoặc [Nhận thức] trong trò chơi (địa hình của nơi kho báu rất phức tạp, bạn có thể kiểm tra các chiến lược liên quan để hỗ trợ tìm kiếm)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320055794926243840",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 16635.784,
+      "y": 15223.567,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320192327890227200",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 16942.08,
+      "y": 15772.913,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320192974148792320",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 16954.729,
+      "y": 15945.487,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320513495789518848",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17010.748,
+      "y": 16156.009,
+      "description": "Khi tôi chụp ảnh, ở đây có một chú gấu ragdoll có một không hai đang chiến đấu với yêu tinh xanh, vì vậy các điểm cụ thể được đánh dấu có thể hơi khác so với thực tế. Xin hãy tha thứ cho tôi~~~",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320513495848239104",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17007.134,
+      "y": 16153.299,
+      "description": "Khi tôi chụp ảnh, ở đây có một chú gấu ragdoll có một không hai đang chiến đấu với yêu tinh xanh, vì vậy các điểm cụ thể được đánh dấu có thể hơi khác so với thực tế. Xin hãy tha thứ cho tôi~~~",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320513495906959360",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17012.555,
+      "y": 16152.395,
+      "description": "Khi tôi chụp ảnh, ở đây có một chú gấu ragdoll có một không hai đang chiến đấu với yêu tinh xanh, vì vậy các điểm cụ thể được đánh dấu có thể hơi khác so với thực tế. Xin hãy tha thứ cho tôi~~~",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320514862578974720",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17074.899,
+      "y": 16058.428,
+      "description": "Tổng cộng có bốn cái, hai cái ở cạnh hòn đá, hai cái ở ở bờ sông.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320514862641889280",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17076.706,
+      "y": 16060.235,
+      "description": "Tổng cộng có bốn cái, hai cái ở cạnh hòn đá, hai cái ở ở bờ sông.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320514862700609536",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17074.899,
+      "y": 16066.56,
+      "description": "Tổng cộng có bốn cái, hai cái ở cạnh hòn đá, hai cái ở ở bờ sông.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320514862767718400",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 17077.609,
+      "y": 16069.271,
+      "description": "Tổng cộng có bốn cái, hai cái ở cạnh hòn đá, hai cái ở ở bờ sông.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320515659491897344",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16972.8,
+      "y": 16074.692,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320515659600949248",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16973.704,
+      "y": 16072.885,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320515659705806848",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16970.993,
+      "y": 16072.885,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320517669902139392",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16872.508,
+      "y": 16162.334,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320517669981831168",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16869.798,
+      "y": 16165.045,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320517670061522944",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16867.087,
+      "y": 16163.238,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320517670141214720",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16867.991,
+      "y": 16160.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320523122328719360",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16886.965,
+      "y": 16267.144,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320523122433576960",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16886.061,
+      "y": 16259.915,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320524619456376832",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16917.685,
+      "y": 15944.584,
+      "description": "Cái hồ nhỏ này đầy yêu tinh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320524619552845824",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16918.588,
+      "y": 15943.68,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320525482409054208",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16877.929,
+      "y": 15963.558,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320525482476163072",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16879.736,
+      "y": 15962.654,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320525762517463040",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16896,
+      "y": 15960.847,
+      "description": "Những con yêu tinh ở vị trí này sẽ đi lang thang quanh vòng nước.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320526330644123648",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16882.447,
+      "y": 15927.416,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320526330702843904",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16884.254,
+      "y": 15923.802,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320526330761564160",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16880.64,
+      "y": 15924.706,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320526820677447680",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16915.878,
+      "y": 15913.864,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320527304125304832",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16822.814,
+      "y": 15932.838,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1320527304188219392",
+      "categoryId": "SP_IconMonsterHead_31044_UI",
+      "title": "Nàng Tiên Biển Mây",
+      "x": 16824.621,
+      "y": 15931.031,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1319705661319565312",
+      "categoryId": "CS_01",
+      "title": "Hub Beacon",
+      "x": 16799.322,
+      "y": 15380.781,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410771791397560320",
+      "categoryId": "sxdtz",
+      "title": "Thử thách ba anh em",
+      "x": 17110.281,
+      "y": 15915.363,
+      "description": "Bắt đầu thử thách sau khi nói chuyện với NPC ở gần dấu câu. Sau khi hoàn thành thử thách lần đầu tiên, bạn có thể nhận được hộp kho báu chính xác (địa điểm thử thách nằm ở tầng một của tòa nhà)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410772637527089152",
+      "categoryId": "sxdtz",
+      "title": "Thử thách ba anh em",
+      "x": 16921.1,
+      "y": 15743.223,
+      "description": "Nói chuyện với NPC gần dấu chấm câu và bắt đầu thử thách. Sau khi hoàn thành thử thách lần đầu tiên, bạn có thể nhận được hộp kho báu chính xác.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410772866011799552",
+      "categoryId": "sxdtz",
+      "title": "Thử thách ba anh em",
+      "x": 16950.962,
+      "y": 15713.208,
+      "description": "Nói chuyện với NPC gần dấu chấm câu và bắt đầu thử thách. Sau khi hoàn thành thử thách lần đầu tiên, bạn có thể nhận được hộp kho báu chính xác.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1410774116392579072",
+      "categoryId": "sxdtz",
+      "title": "Thử thách ba anh em",
+      "x": 16521.288,
+      "y": 15306.484,
+      "description": "Nói chuyện với NPC gần dấu chấm câu và bắt đầu thử thách. Sau khi hoàn thành thử thách lần đầu tiên, bạn có thể nhận được hộp kho báu chính xác.",
+      "levelId": "0"
+    }
+  ]
+}

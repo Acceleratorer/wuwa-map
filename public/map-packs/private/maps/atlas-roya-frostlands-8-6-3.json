@@ -1,0 +1,1967 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-roya-frostlands-8-6-3",
+  "progressMapId": "wuwa-kuro-state-8",
+  "title": "Starblind Crashsite",
+  "subtitle": "159 vị trí · 25 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/8/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 30,
+    "rows": 31,
+    "availableTiles": [
+      "11,-27",
+      "11,-28",
+      "11,-23",
+      "11,-24",
+      "11,-25",
+      "11,-26",
+      "10,-27",
+      "10,-28",
+      "10,-23",
+      "10,-24",
+      "10,-25",
+      "10,-26",
+      "9,-27",
+      "9,-28",
+      "9,-23",
+      "9,-24",
+      "9,-25",
+      "9,-26",
+      "8,-27",
+      "8,-28",
+      "8,-23",
+      "8,-24",
+      "8,-25",
+      "8,-26",
+      "12,-27",
+      "12,-28",
+      "12,-23",
+      "12,-24",
+      "12,-25",
+      "12,-26",
+      "13,-27",
+      "13,-28",
+      "13,-23",
+      "13,-24",
+      "13,-25",
+      "13,-26"
+    ]
+  },
+  "bounds": {
+    "minX": 6144,
+    "minY": 2304,
+    "maxX": 10752,
+    "maxY": 6912
+  },
+  "initialView": {
+    "minX": 7244.371999999999,
+    "minY": 3548.576,
+    "maxX": 9375.925,
+    "maxY": 5778.071000000001
+  },
+  "areas": [
+    {
+      "id": "official-area-1",
+      "label": "Frozen Old Port",
+      "bounds": {
+        "minX": 7485.759,
+        "minY": 3976.975,
+        "maxX": 9375.925,
+        "maxY": 5778.071000000001
+      },
+      "markerIds": [
+        "kuro:1469130068059607040",
+        "kuro:1469130068164464640",
+        "kuro:1469130068277710848",
+        "kuro:1469130068382568448",
+        "kuro:1469711829911257088",
+        "kuro:1469711830074834944",
+        "kuro:1469711830238412800",
+        "kuro:1469711830401990656",
+        "kuro:1469711830561374208",
+        "kuro:1469711830729146368",
+        "kuro:1469713030866128896",
+        "kuro:1469713030975180800",
+        "kuro:1469713031084232704",
+        "kuro:1469713031189090304",
+        "kuro:1469713031289753600",
+        "kuro:1469713031398805504",
+        "kuro:1469383821325094912",
+        "kuro:1469402607180697600",
+        "kuro:1469422831095562240",
+        "kuro:1468674910288920576",
+        "kuro:1468675397805264896",
+        "kuro:1468689697630441472",
+        "kuro:1468689955248979968",
+        "kuro:1468619683019739136",
+        "kuro:1468620148797390848",
+        "kuro:1467946579046219776",
+        "kuro:1467946819098820608",
+        "kuro:1466952566616739840",
+        "kuro:1466953243791314944",
+        "kuro:1468264212735840256",
+        "kuro:1490368077312753664",
+        "kuro:1468674670173212672",
+        "kuro:1468675321296965632",
+        "kuro:1468676175693467648",
+        "kuro:1466094445309894656",
+        "kuro:1466095753790390272",
+        "kuro:1466108563702063104",
+        "kuro:1466109228163956736",
+        "kuro:1466109898069803008",
+        "kuro:1467303153367633920",
+        "kuro:1467305775491305472",
+        "kuro:1469147104529924096",
+        "kuro:1469150333640495104",
+        "kuro:1469146086203244544",
+        "kuro:1466095450705534976",
+        "kuro:1466105431324786688",
+        "kuro:1466109528656478208",
+        "kuro:1469149723331514368",
+        "kuro:1469743197810446336",
+        "kuro:1469151068226895872",
+        "kuro:1479542604869599232",
+        "kuro:1490748822433583104",
+        "kuro:1490748842974314496",
+        "kuro:1490748883646480384",
+        "kuro:1490749131440541696",
+        "kuro:1490749677551505408",
+        "kuro:1490750067904020480",
+        "kuro:1490750309865029632",
+        "kuro:1490750565017124864",
+        "kuro:1490750593672609792",
+        "kuro:1467464362687774720",
+        "kuro:1490748794899202048",
+        "kuro:1490749261132615680",
+        "kuro:1490749282948415488",
+        "kuro:1490749622338912256",
+        "kuro:1490749648989519872",
+        "kuro:1490750626123939840",
+        "kuro:1490750652501917696",
+        "kuro:1466144677553143808",
+        "kuro:1466182199545069568",
+        "kuro:1466135547073429504",
+        "kuro:1467301876231426048",
+        "kuro:1467301960398524416",
+        "kuro:1467302718313451520",
+        "kuro:1467302754476740608",
+        "kuro:1467303958460092416",
+        "kuro:1467311518814687232",
+        "kuro:1470195308176199680"
+      ]
+    },
+    {
+      "id": "official-area-2",
+      "label": "Tiancha Space Station",
+      "bounds": {
+        "minX": 8078.455999999999,
+        "minY": 3918.119,
+        "maxX": 9269.118,
+        "maxY": 5140.531
+      },
+      "markerIds": [
+        "kuro:1469358308833673216",
+        "kuro:1469360669509599232",
+        "kuro:1469383060117831680",
+        "kuro:1469415384200892416",
+        "kuro:1469419705928040448",
+        "kuro:1468689038688505856",
+        "kuro:1468689394990628864",
+        "kuro:1468690876003565568",
+        "kuro:1467939509253033984",
+        "kuro:1467940247186296832",
+        "kuro:1469347166874812416",
+        "kuro:1467946035208376320",
+        "kuro:1467946313349644288",
+        "kuro:1490368417670909952",
+        "kuro:1468678187084726272",
+        "kuro:1468678411081531392",
+        "kuro:1468678888862896128",
+        "kuro:1466965650873896960",
+        "kuro:1466965871406206976",
+        "kuro:1466966228895125504",
+        "kuro:1467185313109102592",
+        "kuro:1467155000127700992",
+        "kuro:1467185588662484992",
+        "kuro:1469344326655721472",
+        "kuro:1469346873109762048",
+        "kuro:1466947806274637824",
+        "kuro:1466948434166140928",
+        "kuro:1466949934812614656",
+        "kuro:1466950621244018688",
+        "kuro:1466950894754582528",
+        "kuro:1466965004410015744",
+        "kuro:1466965325504958464",
+        "kuro:1467152210097651712",
+        "kuro:1467153048471912448",
+        "kuro:1467185105868734464",
+        "kuro:1490748269536235520",
+        "kuro:1490748327934754816",
+        "kuro:1467920629441019904",
+        "kuro:1466186928035373056",
+        "kuro:1466192379133460480",
+        "kuro:1466194997931048960",
+        "kuro:1467298671623786496",
+        "kuro:1467299298609319936",
+        "kuro:1467300965840965632",
+        "kuro:1467301125635559424",
+        "kuro:1467301199916683264",
+        "kuro:1467308207260684288",
+        "kuro:1467308240764784640"
+      ]
+    },
+    {
+      "id": "official-area-3",
+      "label": "Tunnel Threshold Observatory",
+      "bounds": {
+        "minX": 7244.371999999999,
+        "minY": 3548.576,
+        "maxX": 8939.519999999999,
+        "maxY": 4596.896000000001
+      },
+      "markerIds": [
+        "kuro:1468677718991818752",
+        "kuro:1468682270319169536",
+        "kuro:1468690321747070976",
+        "kuro:1468690600018169856",
+        "kuro:1467948500054228992",
+        "kuro:1490350565246304256",
+        "kuro:1490351168973197312",
+        "kuro:1490351374419820544",
+        "kuro:1490350627245281280",
+        "kuro:1468676507563769856",
+        "kuro:1468676771796533248",
+        "kuro:1468677049731895296",
+        "kuro:1468677541929467904",
+        "kuro:1467161527353917440",
+        "kuro:1467178988879003648",
+        "kuro:1467182771256213504",
+        "kuro:1467182871407804416",
+        "kuro:1469095360944979968",
+        "kuro:1467182648891588608",
+        "kuro:1490747475785175040",
+        "kuro:1490750850719305728",
+        "kuro:1490778026814492672",
+        "kuro:1469098222315945984",
+        "kuro:1490747164787146752",
+        "kuro:1490747186197843968",
+        "kuro:1490747405485670400",
+        "kuro:1490750798345031680",
+        "kuro:1490750819891171328",
+        "kuro:1467305374918496256",
+        "kuro:1467305447928745984",
+        "kuro:1467305469105786880",
+        "kuro:1467306372521119744",
+        "kuro:1467306549713686528"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "activities",
+      "label": "Hoạt động",
+      "icon": "activity"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_02",
+    "qzx_03",
+    "qzx_01",
+    "qzx_04"
+  ],
+  "categories": [
+    {
+      "id": "42601470",
+      "label": "rêu sao lạnh",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/267666968dc4730d7d91.webp"
+    },
+    {
+      "id": "zscj",
+      "label": "Tàn dư cuối cùng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/ed9ef2e8c51bdc5d12e2.webp"
+    },
+    {
+      "id": "320000590",
+      "label": "Chim ưng đăng quang",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/d73f145b8f91740bef20.webp"
+    },
+    {
+      "id": "320000600",
+      "label": "Chim ưng xanh mào",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/65c921fb2fc15ed48c21.webp"
+    },
+    {
+      "id": "42",
+      "label": "Riling",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/737a517c7fc367ccb974.webp"
+    },
+    {
+      "id": "44",
+      "label": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/e097e7ee241d0df585b8.webp"
+    },
+    {
+      "id": "47",
+      "label": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/992142e14fc8f8ea4838.webp"
+    },
+    {
+      "id": "320000520",
+      "label": "Máy khai thác đá",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/1decb00506d6b2fd64ae.webp"
+    },
+    {
+      "id": "55",
+      "label": "Ri Ling Liu Yin",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/b904077546cc3004d279.webp"
+    },
+    {
+      "id": "7012",
+      "label": "Những tàn tích sụp đổ của niềm hy vọng mù quáng",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/c84d9dcb41f804a31643.webp"
+    },
+    {
+      "id": "320000510",
+      "label": "Máy trồng cây",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2d694c8594ee0c541b7a.webp"
+    },
+    {
+      "id": "320000610",
+      "label": "Bản đồ Gloma",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/f2083cfacc90e048caa3.webp"
+    },
+    {
+      "id": "qzx_02",
+      "label": "Rương tiêu chuẩn",
+      "color": "#8bd3c7",
+      "symbol": "2",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
+    },
+    {
+      "id": "qzx_03",
+      "label": "Rương tinh xảo",
+      "color": "#f8c963",
+      "symbol": "3",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
+    },
+    {
+      "id": "qzx_01",
+      "label": "Rương đơn sơ",
+      "color": "#b8a1ff",
+      "symbol": "1",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
+    },
+    {
+      "id": "qzx_04",
+      "label": "Rương huy quang",
+      "color": "#f07e83",
+      "symbol": "4",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/9fb9717a222ce68bd07e.webp"
+    },
+    {
+      "id": "310000840",
+      "label": "bóng tối",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/eb4c4ae20d48c55ce78e.webp"
+    },
+    {
+      "id": "310000800",
+      "label": "Thi hành Blade VÔ gia CƯ",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a81d94866faa3b39bbab.webp"
+    },
+    {
+      "id": "FCRK",
+      "label": "Lối vào theo tầng",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/49d61d91025178ae0e67.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "310000810",
+      "label": "Người tị nạn Thunderstaff",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/b1d6f414590c651ff12f.webp"
+    },
+    {
+      "id": "cbd",
+      "label": "nơi kho báu",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5111afe1ca71aba1d1e3.webp"
+    },
+    {
+      "id": "CS_02",
+      "label": "ngọn hải đăng nhỏ",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
+    },
+    {
+      "id": "CS_01",
+      "label": "Hub Beacon",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
+    },
+    {
+      "id": "310000830",
+      "label": "vũ công băng",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/7bef31083c232e6bcedb.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-1/44",
+      "label": "Tiancha Space Station",
+      "groupId": "44",
+      "groupLabel": "Tiancha Space Station",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-1_44/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "12,-25",
+          "12,-26",
+          "11,-25",
+          "11,-26",
+          "10,-25",
+          "10,-26"
+        ]
+      }
+    },
+    {
+      "id": "-3/44",
+      "label": "Khu vực mô-đun thí nghiệm 1·Trạm vũ trụ Tiancha",
+      "groupId": "44",
+      "groupLabel": "Tiancha Space Station",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-3_44/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "11,-26",
+          "11,-25"
+        ]
+      }
+    },
+    {
+      "id": "-4/44",
+      "label": "Khu vực mô-đun thí nghiệm 2·Trạm vũ trụ Tiancha",
+      "groupId": "44",
+      "groupLabel": "Tiancha Space Station",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-4_44/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "11,-26",
+          "11,-25"
+        ]
+      }
+    },
+    {
+      "id": "-1/45",
+      "label": "hành lang quan sát",
+      "groupId": "45",
+      "groupLabel": "Phần còn lại đông lạnh vĩnh viễn",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-1_45/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "11,-25"
+        ]
+      }
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1469130068059607040",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8691.049,
+      "y": 5228.725,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469130068164464640",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8690.146,
+      "y": 5227.821,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469130068277710848",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8686.532,
+      "y": 5226.918,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469130068382568448",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8687.435,
+      "y": 5225.111,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469711829911257088",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8701.892,
+      "y": 5179.934,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469711830074834944",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8702.795,
+      "y": 5179.934,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469711830238412800",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8704.602,
+      "y": 5179.934,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469711830401990656",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8704.602,
+      "y": 5181.741,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469711830561374208",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8705.506,
+      "y": 5179.934,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469711830729146368",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8707.313,
+      "y": 5179.934,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469713030866128896",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8676.593,
+      "y": 5183.548,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469713030975180800",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8674.786,
+      "y": 5179.934,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469713031084232704",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8675.689,
+      "y": 5178.127,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469713031189090304",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8673.882,
+      "y": 5178.127,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469713031289753600",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8671.172,
+      "y": 5179.031,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469713031398805504",
+      "categoryId": "42601470",
+      "title": "rêu sao lạnh",
+      "x": 8671.172,
+      "y": 5178.127,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469358308833673216",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8841.939,
+      "y": 4728.169,
+      "description": "Nằm ở lưng chừng dải băng, bạn có thể vượt qua đèn hiệu trong Hình 2 và lái xe dọc theo bề mặt của Trạm vũ trụ Tiancha bằng xe máy đến ngọn núi nơi chứa những mảnh vỡ cuối cùng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469360669509599232",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8683.821,
+      "y": 4782.381,
+      "description": "Nằm trên rìa vách đá của tảng băng, bạn có thể vượt qua đèn hiệu như trong Hình 2, lái mô tô dọc theo bề mặt của Trạm vũ trụ Tiancha, lên ngọn núi nơi đặt Cuộn giấy cuối cùng, sau đó đi theo hướng mục tiêu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469383060117831680",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8534.739,
+      "y": 4422.776,
+      "description": "Trên đỉnh núi tuyết cao nhất",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469383821325094912",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8257.355,
+      "y": 4893.515,
+      "description": "giữa không trung trong hang động",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469402607180697600",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 9047.944,
+      "y": 5247.699,
+      "description": "Cao trên đỉnh núi phủ tuyết",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469415384200892416",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8688.339,
+      "y": 4411.031,
+      "description": "Nằm trong khoảng trống giữa một số tòa nhà ở trung tâm bề mặt của Trạm vũ trụ Tiancha",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469419705928040448",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8842.842,
+      "y": 4628.781,
+      "description": "Nằm ở giữa không trung, có thể truy cập bằng cách sử dụng Kiến trúc sư mô-đun gần đó. Ngay trục đường chính vào ga, trên con đường xanh của Kiến trúc sư.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469422831095562240",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 8358.551,
+      "y": 5215.172,
+      "description": "giữa không trung",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468674910288920576",
+      "categoryId": "320000590",
+      "title": "Chim ưng đăng quang",
+      "x": 8489.707,
+      "y": 4940.996,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468675397805264896",
+      "categoryId": "320000590",
+      "title": "Chim ưng đăng quang",
+      "x": 8387.554,
+      "y": 4877.622,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468677718991818752",
+      "categoryId": "320000590",
+      "title": "Chim ưng đăng quang",
+      "x": 8252.729,
+      "y": 3974.301,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468682270319169536",
+      "categoryId": "320000590",
+      "title": "Chim ưng đăng quang",
+      "x": 7642.973,
+      "y": 3971.021,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468689038688505856",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 8505.211,
+      "y": 4697.106,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468689394990628864",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 8413.711,
+      "y": 4519.68,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468689697630441472",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 8208.212,
+      "y": 4754.607,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468689955248979968",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 7970.864,
+      "y": 5064.671,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468690321747070976",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 7816.93,
+      "y": 4274.336,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468690600018169856",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 8072.285,
+      "y": 4203.607,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468690876003565568",
+      "categoryId": "320000600",
+      "title": "Chim ưng xanh mào",
+      "x": 8633.477,
+      "y": 4240.679,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467939509253033984",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 8690.146,
+      "y": 4415.548,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467940247186296832",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 8410.052,
+      "y": 4475.181,
+      "description": "Ngồi cạnh thần mặt trời, đứng dậy và nói chuyện với thần mặt trời sau một lúc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469347166874812416",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 8838.325,
+      "y": 4446.268,
+      "description": "Tầng 44 · 需要使用显像功能，显像格洛犸图声骸，一个精密、一个日灵。",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1468619683019739136",
+      "categoryId": "44",
+      "title": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "x": 8655.812,
+      "y": 5222.4,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468620148797390848",
+      "categoryId": "44",
+      "title": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "x": 8605.214,
+      "y": 4815.812,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467946035208376320",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 8609.732,
+      "y": 4458.918,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467946313349644288",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 8513.958,
+      "y": 4621.553,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467946579046219776",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 8510.344,
+      "y": 5095.002,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467946819098820608",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 8171.52,
+      "y": 5155.539,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467948500054228992",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 7777.581,
+      "y": 4004.442,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490350565246304256",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 8419.647,
+      "y": 4025.567,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490351168973197312",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 8129.985,
+      "y": 4058.763,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490351374419820544",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 8135.388,
+      "y": 4059.675,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466952566616739840",
+      "categoryId": "55",
+      "title": "Ri Ling Liu Yin",
+      "x": 9028.888,
+      "y": 5318.635,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466953243791314944",
+      "categoryId": "55",
+      "title": "Ri Ling Liu Yin",
+      "x": 8730.534,
+      "y": 5423.173,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468264212735840256",
+      "categoryId": "7012",
+      "title": "Những tàn tích sụp đổ của niềm hy vọng mù quáng",
+      "x": 7907.608,
+      "y": 4756.007,
+      "description": "Một số lượng tàn dư nhất định sẽ được làm mới trong khu vực này mỗi ngày. Sau khi đánh bại những kẻ còn sót lại trong khu định cư, những kẻ còn sót lại có xác suất đánh rơi bộ mảnh vỡ âm thanh tương ứng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490350627245281280",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 8425.809,
+      "y": 4024.654,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490368077312753664",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 8431.438,
+      "y": 4976.251,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490368417670909952",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 8678.933,
+      "y": 4630.507,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1468674670173212672",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8463.703,
+      "y": 4979.179,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468675321296965632",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8230.358,
+      "y": 4859.109,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468676175693467648",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 7851.363,
+      "y": 4895.259,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468676507563769856",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8137.267,
+      "y": 4061.464,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468676771796533248",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 7962.416,
+      "y": 3871.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468677049731895296",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 7713.449,
+      "y": 4017.833,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468677541929467904",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8419.828,
+      "y": 4017.363,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468678187084726272",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8608.901,
+      "y": 4257.638,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1468678411081531392",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8694.176,
+      "y": 4442.374,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1468678888862896128",
+      "categoryId": "320000610",
+      "title": "Bản đồ Gloma",
+      "x": 8672.211,
+      "y": 4605.136,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1466094445309894656",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8973.854,
+      "y": 5364.254,
+      "description": "Nhìn vào bức tranh thứ hai đầu tiên. Vách đá đối diện với Tiểu Ái, từ trái qua phải là Datum, Datum và Simplicity. Sau đó nhảy xuống từ vị trí ở hình thứ hai. Có hai rương kho báu dưới chân bạn. Sự đơn giản ở bên trái và Datum ở bên phải. Chỉ cần sử dụng máy bay không người lái Eagle Eye để mở nó, nhưng việc mở rương kho báu bằng tay thì quá rắc rối.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466095753790390272",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 9053.365,
+      "y": 5318.174,
+      "description": "Nhìn vào bức tranh thứ hai đầu tiên. Vách đá đối diện với Tiểu Ái, từ trái qua phải là Datum, Datum và Simplicity. Sau đó nhảy xuống từ vị trí ở hình thứ hai. Có hai rương kho báu dưới chân bạn. Sự đơn giản ở bên trái và Datum ở bên phải. Chỉ cần sử dụng máy bay không người lái Eagle Eye để mở nó, nhưng việc mở rương kho báu bằng tay thì quá rắc rối.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466108563702063104",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8189.591,
+      "y": 4910.682,
+      "description": "Chúng ta hãy nhìn vào bức tranh thứ hai. Có một rương kho báu đơn giản trước mặt Xiao Ai. Ở phía bên phải của hộp, nếu bạn mở quét và đi xuống, có một cái đơn giản. Ở điểm xa hướng về phía trước có một điểm chuẩn. Tại hai ô vuông bên trái có hai rương kho báu chuẩn. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Chỉ cần sử dụng máy bay không người lái Eagle Eye, nhưng việc mở rương kho báu bằng tay là quá đau đớn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466109228163956736",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8196.819,
+      "y": 4879.962,
+      "description": "Chúng ta hãy nhìn vào bức tranh thứ hai. Có một rương kho báu đơn giản trước mặt Xiao Ai. Ở phía bên phải của hộp, nếu bạn mở quét và đi xuống, có một cái đơn giản. Ở điểm xa hướng về phía trước có một điểm chuẩn. Tại hai ô vuông bên trái có hai rương kho báu chuẩn. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Chỉ cần sử dụng máy bay không người lái Eagle Eye, nhưng việc mở rương kho báu bằng tay là quá đau đớn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466109898069803008",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8256.452,
+      "y": 4916.104,
+      "description": "Chúng ta hãy nhìn vào bức tranh thứ hai. Có một rương kho báu đơn giản trước mặt Xiao Ai. Ở phía bên phải của hộp, nếu bạn mở quét và đi xuống, có một cái đơn giản. Ở điểm xa hướng về phía trước có một điểm chuẩn. Tại hai ô vuông bên trái có hai rương kho báu chuẩn. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Chỉ cần sử dụng máy bay không người lái Eagle Eye, nhưng việc mở rương kho báu bằng tay là quá đau đớn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466965650873896960",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8494.984,
+      "y": 4406.513,
+      "description": "Sự phân bố của các rương kho báu tương đối rải rác và không có cách nào để hiển thị tất cả chúng trong một bức tranh. Bạn chỉ có thể sử dụng mắt đại bàng để quét và mở chúng bằng một cú nhấp chuột. Tôi sẽ cho bạn biết vị trí cụ thể của các rương kho báu. Đầu tiên, có một khoảng trống trên bề mặt trung tâm của cây cột lớn. Trên gác lửng bên dưới đồng bằng này có một điểm chuẩn. Hãy cẩn thận để không bị ngã, như trong hình đầu tiên. Sau đó nhìn vào bức tranh thứ hai. Có một điểm chuẩn cho vị trí lỗ và vị trí vách đá. Cuối cùng, trong bức tranh thứ ba, có một khoảng trống cho vị trí lỗ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466965871406206976",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8521.186,
+      "y": 4427.294,
+      "description": "Sự phân bố của các rương kho báu tương đối rải rác và không có cách nào để hiển thị tất cả chúng trong một bức tranh. Bạn chỉ có thể sử dụng mắt đại bàng để quét và mở chúng bằng một cú nhấp chuột. Tôi sẽ cho bạn biết vị trí cụ thể của các rương kho báu. Đầu tiên, có một khoảng trống trên bề mặt trung tâm của cây cột lớn. Trên gác lửng bên dưới đồng bằng này có một điểm chuẩn. Hãy cẩn thận để không bị ngã, như trong hình đầu tiên. Sau đó nhìn vào bức tranh thứ hai. Có một điểm chuẩn cho vị trí lỗ và vị trí vách đá. Cuối cùng, trong bức tranh thứ ba, có một khoảng trống cho vị trí lỗ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466966228895125504",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8569.073,
+      "y": 4383.925,
+      "description": "Sự phân bố của các rương kho báu tương đối rải rác và không có cách nào để hiển thị tất cả chúng trong một bức tranh. Bạn chỉ có thể sử dụng mắt đại bàng để quét và mở chúng bằng một cú nhấp chuột. Tôi sẽ cho bạn biết vị trí cụ thể của các rương kho báu. Đầu tiên, có một khoảng trống trên bề mặt trung tâm của cây cột lớn. Trên gác lửng bên dưới đồng bằng này có một điểm chuẩn. Hãy cẩn thận để không bị ngã, như trong hình đầu tiên. Sau đó nhìn vào bức tranh thứ hai. Có một điểm chuẩn cho vị trí lỗ và vị trí vách đá. Cuối cùng, trong bức tranh thứ ba, có một khoảng trống cho vị trí lỗ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467161527353917440",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8574.494,
+      "y": 4113.769,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467178988879003648",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8457.939,
+      "y": 3995.407,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467182771256213504",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8136.282,
+      "y": 4191.473,
+      "description": "Rương kho báu thử thách xe máy, vui lòng xem vị trí hộp ở hình thứ hai để biết vị trí thử thách.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467185313109102592",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8869.045,
+      "y": 4688.414,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467303153367633920",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 9030.776,
+      "y": 5319.981,
+      "description": "Thử thách rương kho báu \"Sun Spirit Liuyin\".",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467305775491305472",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8733.515,
+      "y": 5419.369,
+      "description": "Thử thách rương kho báu \"Sun Spirit Liuyin\".",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469147104529924096",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8433.544,
+      "y": 5455.511,
+      "description": "Khi mới đến đây, bạn sẽ thấy một thành viên đội tiên phong trên bờ đối diện với Xiao Ai đang bị quái vật bao vây. Sau khi dọn sạch quái vật, bạn sẽ nhận được nhiệm vụ rút máy dò ra. Sau khi rút nó ra, bạn sẽ có rương kho báu này trong đoạn hội thoại.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469150333640495104",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 8763.332,
+      "y": 5125.722,
+      "description": "Tầng 45 · 此处需要用摩托跳上来，摩托跳跃地点在第三张图的位置，之后，显像格洛犸图声骸，就会出现三个宝箱。",
+      "floorId": "45",
+      "levelId": "-1/45"
+    },
+    {
+      "id": "kuro:1467155000127700992",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8618.767,
+      "y": 4367.661,
+      "description": "Rương kho báu thử thách xe máy hơi khó. Vui lòng xem hình thứ ba để biết vị trí cụ thể.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467182871407804416",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8134.475,
+      "y": 4193.28,
+      "description": "Rương kho báu thử thách xe máy, vui lòng xem vị trí hộp ở hình thứ hai để biết vị trí thử thách.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467185588662484992",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8871.755,
+      "y": 4686.607,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469095360944979968",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8616.96,
+      "y": 3978.24,
+      "description": "Đây là một sứ mệnh nhỏ. Khi bạn đến đây lần đầu tiên, sẽ có một đội tiên phong ở bãi biển đối diện với Xiao Ai, phát động nhiệm vụ theo dõi Riling, sau đó rút máy dò ra, thế là xong.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469146086203244544",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8404.631,
+      "y": 5182.645,
+      "description": "Chiếc mô tô thách thức rương kho báu. Vị trí thử thách nằm ở dấu chấm câu. Nếu bạn thất bại năm lần, bạn có thể mở khóa giải quyết bắt buộc. Nhảy thẳng tới cửa ở dốc thứ hai, cửa ở dốc thứ ba cũng vậy.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469344326655721472",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8530.221,
+      "y": 4312.546,
+      "description": "Sử dụng chức năng hình ảnh để tiết lộ phần còn lại của Gloma và mở rương kho báu để nhận nhiệm vụ Icefield Past.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469346873109762048",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 8841.939,
+      "y": 4447.172,
+      "description": "Tầng 44 · 需要使用显像功能，显像格洛犸图声骸，一个精密、一个日灵。",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1466095450705534976",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8974.758,
+      "y": 5334.438,
+      "description": "Nhìn vào bức tranh thứ hai đầu tiên. Vách đá đối diện với Tiểu Ái, từ trái qua phải là Datum, Datum và Simplicity. Sau đó nhảy xuống từ vị trí ở hình thứ hai. Có hai rương kho báu dưới chân bạn. Sự đơn giản ở bên trái và Datum ở bên phải. Chỉ cần sử dụng máy bay không người lái Eagle Eye để mở nó, nhưng việc mở rương kho báu bằng tay thì quá rắc rối.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466105431324786688",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8143.511,
+      "y": 4971.219,
+      "description": "Chúng ta hãy nhìn vào bức tranh thứ hai. Có một rương kho báu đơn giản trước mặt Xiao Ai. Ở phía bên phải của hộp, nếu bạn mở quét và đi xuống, có một cái đơn giản. Ở điểm xa hướng về phía trước có một điểm chuẩn. Tại hai ô vuông bên trái có hai rương kho báu chuẩn. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Chỉ cần sử dụng máy bay không người lái Eagle Eye, nhưng việc mở rương kho báu bằng tay là quá đau đớn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466109528656478208",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8221.214,
+      "y": 4958.569,
+      "description": "Chúng ta hãy nhìn vào bức tranh thứ hai. Có một rương kho báu đơn giản trước mặt Xiao Ai. Ở phía bên phải của hộp, nếu bạn mở quét và đi xuống, có một cái đơn giản. Ở điểm xa hướng về phía trước có một điểm chuẩn. Tại hai ô vuông bên trái có hai rương kho báu chuẩn. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Chỉ cần sử dụng máy bay không người lái Eagle Eye, nhưng việc mở rương kho báu bằng tay là quá đau đớn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466947806274637824",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8892.536,
+      "y": 4758.889,
+      "description": "Tầng 44 · 传送到第三张图方框信标，右转视角，就能看到。",
+      "floorId": "44",
+      "levelId": "-3/44"
+    },
+    {
+      "id": "kuro:1466948434166140928",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8888.922,
+      "y": 4743.529,
+      "description": "Tầng 44 · 传送到第三张图方框信标，视角右转，就能看到。",
+      "floorId": "44",
+      "levelId": "-3/44"
+    },
+    {
+      "id": "kuro:1466949934812614656",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8754.296,
+      "y": 4689.318,
+      "description": "Tầng 44 · 传送到距标点最近的信标，然后拿上第三张图方框位置的模型架构器，就可以进来这个房间。",
+      "floorId": "44",
+      "levelId": "-4/44"
+    },
+    {
+      "id": "kuro:1466950621244018688",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8746.165,
+      "y": 4688.414,
+      "description": "Tầng 44 · 传送到距标点最近的信标，然后拿上第三张图方框位置的模型架构器，就可以进来这个房间。",
+      "floorId": "44",
+      "levelId": "-4/44"
+    },
+    {
+      "id": "kuro:1466950894754582528",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8738.936,
+      "y": 4700.16,
+      "description": "Tầng 44 · 传送到距标点最近的信标，然后拿上第三张图方框位置的模型架构器，就可以进来这个房间。",
+      "floorId": "44",
+      "levelId": "-4/44"
+    },
+    {
+      "id": "kuro:1466965004410015744",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8579.915,
+      "y": 4385.732,
+      "description": "Sự phân bố của các rương kho báu tương đối rải rác và không có cách nào để hiển thị tất cả chúng trong một bức tranh. Bạn chỉ có thể sử dụng mắt đại bàng để quét và mở chúng bằng một cú nhấp chuột. Tôi sẽ cho bạn biết vị trí cụ thể của các rương kho báu. Đầu tiên, có một khoảng trống trên bề mặt trung tâm của cây cột lớn. Trên gác lửng bên dưới đồng bằng này có một điểm chuẩn. Hãy cẩn thận để không bị ngã, như trong hình đầu tiên. Sau đó nhìn vào bức tranh thứ hai. Có một điểm chuẩn cho vị trí lỗ và vị trí vách đá. Cuối cùng, trong bức tranh thứ ba, có một khoảng trống cho vị trí lỗ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466965325504958464",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8562.748,
+      "y": 4323.388,
+      "description": "Sự phân bố của các rương kho báu tương đối rải rác và không có cách nào để hiển thị tất cả chúng trong một bức tranh. Bạn chỉ có thể sử dụng mắt đại bàng để quét và mở chúng bằng một cú nhấp chuột. Tôi sẽ cho bạn biết vị trí cụ thể của các rương kho báu. Đầu tiên, có một khoảng trống trên bề mặt trung tâm của cây cột lớn. Trên gác lửng bên dưới đồng bằng này có một điểm chuẩn. Hãy cẩn thận để không bị ngã, như trong hình đầu tiên. Sau đó nhìn vào bức tranh thứ hai. Có một điểm chuẩn cho vị trí lỗ và vị trí vách đá. Cuối cùng, trong bức tranh thứ ba, có một khoảng trống cho vị trí lỗ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467152210097651712",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8716.348,
+      "y": 4343.266,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467153048471912448",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8738.936,
+      "y": 4367.661,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467182648891588608",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8137.186,
+      "y": 4188.762,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467185105868734464",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8868.141,
+      "y": 4689.318,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469149723331514368",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8771.464,
+      "y": 5129.336,
+      "description": "Tầng 45 · 此处需要用摩托跳上来，摩托跳跃地点在第三张图的位置，之后，显像格洛犸图声骸，就会出现三个宝箱。",
+      "floorId": "45",
+      "levelId": "-1/45"
+    },
+    {
+      "id": "kuro:1469743197810446336",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 8531.125,
+      "y": 5151.021,
+      "description": "Có một loạt các lựa chọn băng ở đầu ở đây. Sử dụng chức năng trực quan hóa để hình dung khung âm thanh của Groma. Sau đó, một NPC sẽ xuất hiện. Nói chuyện với cô ấy và bạn có thể nhận được rương kho báu. (Nếu hình ảnh không hoạt động, hãy lùi lại hai bước và thử lại)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1469151068226895872",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 8761.525,
+      "y": 5132.951,
+      "description": "Tầng 45 · 此处需要用摩托跳上来，摩托跳跃地点在第三张图的位置，之后，显像格洛犸图声骸，就会出现三个宝箱。",
+      "floorId": "45",
+      "levelId": "-1/45"
+    },
+    {
+      "id": "kuro:1479542604869599232",
+      "categoryId": "310000840",
+      "title": "bóng tối",
+      "x": 7958.432,
+      "y": 5088.75,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490747475785175040",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8573.672,
+      "y": 4108.366,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490748822433583104",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8436.552,
+      "y": 4699.031,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490748842974314496",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8436.417,
+      "y": 4701.877,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490748883646480384",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8449.672,
+      "y": 4710.433,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490749131440541696",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8376.748,
+      "y": 4701.497,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490749677551505408",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8222.154,
+      "y": 4539.106,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750067904020480",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 8216.434,
+      "y": 4529.257,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750309865029632",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 7958.838,
+      "y": 4576.096,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750565017124864",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 7827.754,
+      "y": 4323.497,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750593672609792",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 7829.814,
+      "y": 4325.557,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750850719305728",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 7779.84,
+      "y": 3988.134,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490778026814492672",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 7566.932,
+      "y": 3951.36,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467464362687774720",
+      "categoryId": "FCRK",
+      "title": "Lối vào theo tầng",
+      "x": 8966.174,
+      "y": 5241.058,
+      "description": "Tầng 46 · “观测廊道”分层入口",
+      "floorId": "46",
+      "levelId": "-1000000/46"
+    },
+    {
+      "id": "kuro:1469098222315945984",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 7708.009,
+      "y": 4008.056,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490747164787146752",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8462.583,
+      "y": 3994.937,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490747186197843968",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8463.658,
+      "y": 3997.422,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490747405485670400",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8573.247,
+      "y": 4111.041,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490748269536235520",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8641.97,
+      "y": 4400.45,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1490748327934754816",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8643.099,
+      "y": 4401.58,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1490748794899202048",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8432.242,
+      "y": 4700.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490749261132615680",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8379.802,
+      "y": 4703.892,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490749282948415488",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8364.152,
+      "y": 4700.973,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490749622338912256",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8220.564,
+      "y": 4542.575,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490749648989519872",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 8223.934,
+      "y": 4543.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750626123939840",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 7830.185,
+      "y": 4321.093,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750652501917696",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 7831.124,
+      "y": 4321.798,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750798345031680",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 7782.37,
+      "y": 3986.733,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1490750819891171328",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 7782.749,
+      "y": 3990.103,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467920629441019904",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 8565.757,
+      "y": 4381.314,
+      "description": "Nơi kho báu, năm rương kho báu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466144677553143808",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 8731.708,
+      "y": 5262.155,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466182199545069568",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 8584.433,
+      "y": 4779.671,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466186928035373056",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 8401.016,
+      "y": 4442.654,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1466192379133460480",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 8795.859,
+      "y": 4629.685,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-4/44"
+    },
+    {
+      "id": "kuro:1466194997931048960",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 8904.282,
+      "y": 4772.442,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-3/44"
+    },
+    {
+      "id": "kuro:1466135547073429504",
+      "categoryId": "CS_01",
+      "title": "Hub Beacon",
+      "x": 8600.696,
+      "y": 5078.739,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467298671623786496",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8946.558,
+      "y": 4623.197,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467299298609319936",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8794.26,
+      "y": 4693.302,
+      "description": "Tầng 44",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467300965840965632",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8424.635,
+      "y": 4531.525,
+      "description": "Tầng 44 · Ba cùng nhau",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467301125635559424",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8428.023,
+      "y": 4528.02,
+      "description": "Tầng 44 · Ba cùng nhau",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467301199916683264",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8428.674,
+      "y": 4533.486,
+      "description": "Tầng 44 · Ba cùng nhau",
+      "floorId": "44",
+      "levelId": "-1/44"
+    },
+    {
+      "id": "kuro:1467301876231426048",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8238.417,
+      "y": 4857.383,
+      "description": "Có hai người cùng nhau ở trong hang bên dưới",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467301960398524416",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8239.122,
+      "y": 4865.949,
+      "description": "Có hai người cùng nhau ở trong hang bên dưới",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467302718313451520",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7953.263,
+      "y": 4588.375,
+      "description": "Cả hai cùng nhau chiến đấu chống lại những người tị nạn",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467302754476740608",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7949.414,
+      "y": 4591.348,
+      "description": "Cả hai cùng nhau chiến đấu chống lại những người tị nạn",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467303958460092416",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7808.319,
+      "y": 4299.535,
+      "description": "Dưới tảng đá khổng lồ, trên đỉnh vương miện của goshawk",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467305374918496256",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7721.888,
+      "y": 4009.367,
+      "description": "Ba người họ cùng nhau bảo vệ di sản của thủy triều",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467305447928745984",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7716.557,
+      "y": 4011.779,
+      "description": "Ba người họ cùng nhau bảo vệ di sản của thủy triều",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467305469105786880",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7720.677,
+      "y": 4014.589,
+      "description": "Ba người họ cùng nhau bảo vệ di sản của thủy triều",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467306372521119744",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7658.279,
+      "y": 3963.449,
+      "description": "Ba người họ đã cùng nhau chiến đấu với chim ưng đăng quang.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467306549713686528",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 7664.631,
+      "y": 3959.573,
+      "description": "Ba người họ đã cùng nhau chiến đấu với chim ưng đăng quang.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467308207260684288",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8810.071,
+      "y": 4809.939,
+      "description": "Nửa đường lên núi băng giá, hai người ở bên nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467308240764784640",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8804.442,
+      "y": 4817.971,
+      "description": "Nửa đường lên núi băng giá, hai người ở bên nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1467311518814687232",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8416.873,
+      "y": 5371.32,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1470195308176199680",
+      "categoryId": "310000830",
+      "title": "vũ công băng",
+      "x": 8786.977,
+      "y": 5128.731,
+      "levelId": "0"
+    }
+  ]
+}

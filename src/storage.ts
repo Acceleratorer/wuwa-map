@@ -7,7 +7,8 @@ import type {
 } from "./types";
 
 const DATABASE_NAME = "wayfinder-map";
-const DATABASE_VERSION = 1;
+const DATABASE_VERSION = 2;
+const PROGRESS_PROFILE_MAP_INDEX = "byProfileMap";
 
 type StoreName = "profiles" | "progress" | "settings" | "mapPacks";
 
@@ -44,12 +45,29 @@ export class LocalDatabase {
       if (!database.objectStoreNames.contains("profiles")) {
         database.createObjectStore("profiles", { keyPath: "id" });
       }
+      let progressStore: IDBObjectStore;
       if (!database.objectStoreNames.contains("progress")) {
-        const progressStore = database.createObjectStore("progress", {
+        progressStore = database.createObjectStore("progress", {
           keyPath: "id",
         });
+      } else {
+        const transaction = request.transaction;
+        if (!transaction) {
+          throw new Error("IndexedDB upgrade transaction is unavailable");
+        }
+        progressStore = transaction.objectStore("progress");
+      }
+      if (!progressStore.indexNames.contains("byProfile")) {
         progressStore.createIndex("byProfile", "profileId");
+      }
+      if (!progressStore.indexNames.contains("byMap")) {
         progressStore.createIndex("byMap", "mapId");
+      }
+      if (!progressStore.indexNames.contains(PROGRESS_PROFILE_MAP_INDEX)) {
+        progressStore.createIndex(
+          PROGRESS_PROFILE_MAP_INDEX,
+          ["profileId", "mapId"],
+        );
       }
       if (!database.objectStoreNames.contains("settings")) {
         database.createObjectStore("settings", { keyPath: "key" });
@@ -79,10 +97,11 @@ export class LocalDatabase {
   }
 
   async getProgress(profileId: string, mapId: string): Promise<ProgressRecord[]> {
-    const all = await requestToPromise<ProgressRecord[]>(
-      this.store("progress").index("byProfile").getAll(profileId),
+    return requestToPromise<ProgressRecord[]>(
+      this.store("progress")
+        .index(PROGRESS_PROFILE_MAP_INDEX)
+        .getAll(IDBKeyRange.only([profileId, mapId])),
     );
-    return all.filter((record) => record.mapId === mapId);
   }
 
   async getAllProgress(): Promise<ProgressRecord[]> {
@@ -90,7 +109,19 @@ export class LocalDatabase {
   }
 
   async putProgress(record: ProgressRecord): Promise<void> {
-    await requestToPromise(this.store("progress", "readwrite").put(record));
+    await this.putProgressBatch([record]);
+  }
+
+  async putProgressBatch(records: readonly ProgressRecord[]): Promise<void> {
+    if (records.length === 0) {
+      return;
+    }
+    const transaction = this.database.transaction("progress", "readwrite");
+    const store = transaction.objectStore("progress");
+    for (const record of records) {
+      store.put(record);
+    }
+    await transactionToPromise(transaction);
   }
 
   async getSetting<T>(key: string): Promise<T | undefined> {

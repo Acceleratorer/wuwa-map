@@ -4,58 +4,2493 @@
   "maps": [
     {
       "id": "wuwa-kuro-state-906",
-      "title": "Băng nguyên Roya",
-      "pack": "map-packs/private/maps/906.json"
+      "title": "Etching Plains",
+      "pack": "map-packs/private/maps/906.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Silver Torrent Wingveil",
+          "bounds": {
+            "minX": 4425.486999999999,
+            "minY": 3761.393,
+            "maxX": 5228.725,
+            "maxY": 4504.094
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Atuya Camp",
+          "bounds": {
+            "minX": 3072,
+            "minY": 5201.08574117647,
+            "maxX": 4070.3999999999996,
+            "maxY": 6199.48574117647
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Aerial Roam",
+          "bounds": {
+            "minX": 4570.955,
+            "minY": 3128.922,
+            "maxX": 6824.602000000001,
+            "maxY": 5497.073
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Voidray Ridge",
+          "bounds": {
+            "minX": 3763.5614117647065,
+            "minY": 5681.103811764707,
+            "maxX": 4761.961411764706,
+            "maxY": 6679.503811764706
+          }
+        }
+      ]
     },
     {
-      "id": "wuwa-kuro-state-8-country-1",
-      "title": "Hoàng Long",
-      "pack": "map-packs/private/maps/8-country-1.json"
+      "id": "wuwa-kuro-state-8-country-4",
+      "title": "Frostlands Transit Port",
+      "pack": "map-packs/private/maps/8-country-4.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Polar Research Outpost",
+          "bounds": {
+            "minX": 3548.088,
+            "minY": 5029.044999999999,
+            "maxX": 9662.398,
+            "maxY": 10129.467999999999
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Roya Ice-free Port",
+          "bounds": {
+            "minX": 9211.482,
+            "minY": 5096.873,
+            "maxX": 10576.172999999999,
+            "maxY": 6505.8730000000005
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Nearshore Storm Monitoring Zone",
+          "bounds": {
+            "minX": 8851.372000000001,
+            "minY": 5936.387,
+            "maxX": 10292.735999999999,
+            "maxY": 7234.054
+          }
+        }
+      ]
     },
     {
-      "id": "wuwa-kuro-state-8-country-1-2",
-      "title": "Hoàng Long 2",
-      "pack": "map-packs/private/maps/8-country-1-2.json"
+      "id": "wuwa-kuro-atlas-roya-frostlands-8-6-2",
+      "title": "Mount Gjallar",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-8-6-2.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Jian Lake Storm Monitoring Zone",
+          "bounds": {
+            "minX": 8601.6,
+            "minY": 3770.428,
+            "maxX": 10425.483,
+            "maxY": 5714.5160000000005
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Jian Lake",
+          "bounds": {
+            "minX": 8566.362000000001,
+            "minY": 3210.2400000000002,
+            "maxX": 10164.949999999999,
+            "maxY": 4409.224
+          }
+        }
+      ]
     },
     {
-      "id": "wuwa-kuro-state-8-country-900",
-      "title": "Quần đảo Bờ Đen",
-      "pack": "map-packs/private/maps/8-country-900.json"
+      "id": "wuwa-kuro-atlas-roya-frostlands-8-6-3",
+      "title": "Starblind Crashsite",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-8-6-3.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Frozen Old Port",
+          "bounds": {
+            "minX": 7485.759,
+            "minY": 3976.975,
+            "maxX": 9375.925,
+            "maxY": 5778.071000000001
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Tiancha Space Station",
+          "bounds": {
+            "minX": 8078.455999999999,
+            "minY": 3918.119,
+            "maxX": 9269.118,
+            "maxY": 5140.531
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Tunnel Threshold Observatory",
+          "bounds": {
+            "minX": 7244.371999999999,
+            "minY": 3548.576,
+            "maxX": 8939.519999999999,
+            "maxY": 4596.896000000001
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-8-6-4",
+      "title": "Upphaf Forest Ruins",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-8-6-4.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Upphaf Excavation Site",
+          "bounds": {
+            "minX": 9548.571,
+            "minY": 3137.054,
+            "maxX": 10798.984,
+            "maxY": 4205.929
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Sourcewilds",
+          "bounds": {
+            "minX": 9944.669,
+            "minY": 4051.2990000000004,
+            "maxX": 11363.572,
+            "maxY": 5625.311000000001
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Upphaf Regeneration Chamber",
+          "bounds": {
+            "minX": 9650.598,
+            "minY": 3625.041,
+            "maxX": 11237.945,
+            "maxY": 5456.568
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-8-6-5",
+      "title": "Tidelost Forest",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-8-6-5.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Sleeper's Rest",
+          "bounds": {
+            "minX": 8771.861,
+            "minY": 2158.821,
+            "maxX": 10124.760999999999,
+            "maxY": 3301.777
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Cutoff Cape",
+          "bounds": {
+            "minX": 7686.035999999999,
+            "minY": 2661.192,
+            "maxX": 10258.672999999999,
+            "maxY": 4243.2
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-state-909",
+      "title": "Solisia Landing",
+      "pack": "map-packs/private/maps/909.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Dimmr Shaft",
+          "bounds": {
+            "minX": 2486.513,
+            "minY": 1445.548,
+            "maxX": 3569.845,
+            "maxY": 2536.207
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Survey Base",
+          "bounds": {
+            "minX": 2468.442,
+            "minY": 1787.344,
+            "maxX": 3385.525,
+            "maxY": 2648.769
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Rust Hills",
+          "bounds": {
+            "minX": 2116.0660000000003,
+            "minY": 1624.736,
+            "maxX": 3104.509,
+            "maxY": 2633.788
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Twilight Woodland",
+          "bounds": {
+            "minX": 1734.9389999999999,
+            "minY": 1969.839,
+            "maxX": 2768.4139999999998,
+            "maxY": 2943.554
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Lightrest Cavern",
+          "bounds": {
+            "minX": 1668.819,
+            "minY": 1752.8470000000002,
+            "maxX": 2647.341,
+            "maxY": 2725.948
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Sunvein Sourcewood",
+          "bounds": {
+            "minX": 1251.1894588235293,
+            "minY": 1198.486588235294,
+            "maxX": 2249.5894588235296,
+            "maxY": 2196.886588235294
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-7",
+      "title": "Startorch Academy",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-7.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Ridgebone",
+          "bounds": {
+            "minX": 3093.160658823529,
+            "minY": 3523.9725176470583,
+            "maxX": 4091.5606588235296,
+            "maxY": 4522.372517647058
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Spiral Abacus Hill",
+          "bounds": {
+            "minX": 3982.4590000000003,
+            "minY": 3865.2990000000004,
+            "maxX": 5915.407,
+            "maxY": 6382.740000000001
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-909-7-7",
+      "title": "Sealed Fissure",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-909-7-7.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Unfinished Ruins",
+          "bounds": {
+            "minX": 788.5730000000001,
+            "minY": 1323.707,
+            "maxX": 2297.621,
+            "maxY": 2587.085
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Stillcourt",
+          "bounds": {
+            "minX": 700.931,
+            "minY": 1655.401,
+            "maxX": 1828.581,
+            "maxY": 3020.743
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Sleeping Sakura Terrace",
+          "bounds": {
+            "minX": 1003.8210000000001,
+            "minY": 1909.158,
+            "maxX": 1917.85,
+            "maxY": 2900.3289999999997
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-8",
+      "title": "Starward Riseway",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-8.json",
+      "areas": [
+        {
+          "id": "whole-map",
+          "label": "Toàn khu vực",
+          "bounds": {
+            "minX": 2306.7110000000002,
+            "minY": 1818.8049999999998,
+            "maxX": 3739.708,
+            "maxY": 2875.717
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-909-7-8",
+      "title": "Silent Crag",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-909-7-8.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Interstellar Cascade",
+          "bounds": {
+            "minX": 761.3500000000001,
+            "minY": 1034.5410000000002,
+            "maxX": 1748.411,
+            "maxY": 1898.315
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Cradle of Delusion",
+          "bounds": {
+            "minX": 662.6389999999999,
+            "minY": 681.5139999999999,
+            "maxX": 1890.355,
+            "maxY": 1669.74
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Gleamwatch Isle",
+          "bounds": {
+            "minX": 1302.8890000000001,
+            "minY": 410.20199999999994,
+            "maxX": 2226.26,
+            "maxY": 1452.875
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-9",
+      "title": "Fangspire Chasm",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-9.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Fallen Sword Lake",
+          "bounds": {
+            "minX": 2304,
+            "minY": 1666.9936941176463,
+            "maxX": 3302.4000000000005,
+            "maxY": 2665.393694117646
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Deep Space Union",
+          "bounds": {
+            "minX": 3285.233,
+            "minY": 1604.6680000000001,
+            "maxX": 6453.911,
+            "maxY": 4427.421
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-909-7-9",
+      "title": "Dimmr Deep",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-909-7-9.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Tomorrow's Threshold",
+          "bounds": {
+            "minX": 1799.8310000000001,
+            "minY": 699.558,
+            "maxX": 3017.129,
+            "maxY": 1890.3819999999998
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Frostsilence Isle",
+          "bounds": {
+            "minX": 1795.5210000000002,
+            "minY": 475.52799999999996,
+            "maxX": 2635.767,
+            "maxY": 1301.715
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Tunnel Anchor",
+          "bounds": {
+            "minX": 1682.372,
+            "minY": 1164.017,
+            "maxX": 2819.6079999999997,
+            "maxY": 2005.835
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Endless Wastes",
+          "bounds": {
+            "minX": 1606.701,
+            "minY": 656.1969999999999,
+            "maxX": 2443.424,
+            "maxY": 1679.6879999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-10",
+      "title": "Bjart Woods",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-10.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Arc Collapse Valley",
+          "bounds": {
+            "minX": 519.837,
+            "minY": 3315.049,
+            "maxX": 2985.541,
+            "maxY": 4882.673000000001
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-11",
+      "title": "Stagnant Run",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-11.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Steleback Rampart",
+          "bounds": {
+            "minX": 5145.6,
+            "minY": 3840,
+            "maxX": 6144,
+            "maxY": 4838.4
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Falling Link Corridor",
+          "bounds": {
+            "minX": 2402.882,
+            "minY": 4796.838,
+            "maxX": 3619.5389999999998,
+            "maxY": 5879.329000000001
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Sun-drinker Gorge",
+          "bounds": {
+            "minX": 2795.122,
+            "minY": 4632.3949999999995,
+            "maxX": 4937.96,
+            "maxY": 6596.668000000001
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-12",
+      "title": "Rebirth Uplands",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-12.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Sun-guiding Hall",
+          "bounds": {
+            "minX": 1536,
+            "minY": 3662.664282352941,
+            "maxX": 2534.4000000000005,
+            "maxY": 4661.064282352941
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Verdant Fruit Plains",
+          "bounds": {
+            "minX": 1573.6319999999998,
+            "minY": 3573.62145882353,
+            "maxX": 2572.032,
+            "maxY": 4572.021458823529
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Helios",
+          "bounds": {
+            "minX": 2387.866,
+            "minY": 2993.339,
+            "maxX": 4972.122,
+            "maxY": 5529.9980000000005
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-13",
+      "title": "Mawburrow Desert",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-13.json",
+      "areas": [
+        {
+          "id": "whole-map",
+          "label": "Toàn khu vực",
+          "bounds": {
+            "minX": 4238.455999999999,
+            "minY": 5528.696,
+            "maxX": 6350.005,
+            "maxY": 6723.352000000001
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-roya-frostlands-906-5-14",
+      "title": "Giant's Gaze",
+      "pack": "map-packs/private/maps/atlas-roya-frostlands-906-5-14.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Deep Space Survey Platform",
+          "bounds": {
+            "minX": 5225.625999999999,
+            "minY": 4502.286999999999,
+            "maxX": 6929.2570000000005,
+            "maxY": 6665.273
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Orbital Fracture Valley",
+          "bounds": {
+            "minX": 6021.12,
+            "minY": 4294.474999999999,
+            "maxX": 7227.332,
+            "maxY": 6761.111000000001
+          }
+        }
+      ]
     },
     {
       "id": "wuwa-kuro-state-8-country-3",
-      "title": "Rinascita",
-      "pack": "map-packs/private/maps/8-country-3.json"
+      "title": "Ragunna City",
+      "pack": "map-packs/private/maps/8-country-3.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "City Square",
+          "bounds": {
+            "minX": 15659.068000000001,
+            "minY": 15436.800000000001,
+            "maxX": 16673.732,
+            "maxY": 16343.039999999999
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Bank Street",
+          "bounds": {
+            "minX": 15927.416000000001,
+            "minY": 15729.544,
+            "maxX": 16664.696,
+            "maxY": 16443.332000000002
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Order of the Deep",
+          "bounds": {
+            "minX": 16167.755,
+            "minY": 15677.139000000001,
+            "maxX": 17174.269,
+            "maxY": 16723.823
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Montelli Quarter",
+          "bounds": {
+            "minX": 15629.252,
+            "minY": 15391.624,
+            "maxX": 16702.645,
+            "maxY": 16238.231
+          }
+        }
+      ]
     },
     {
-      "id": "wuwa-kuro-state-900",
-      "title": "Vực sâu Tethys",
-      "pack": "map-packs/private/maps/900.json"
+      "id": "wuwa-kuro-atlas-rinascita-8-3-2",
+      "title": "Averardo Vault",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-2.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Averardo Vault",
+          "bounds": {
+            "minX": 17530.990999999998,
+            "minY": 15676.922,
+            "maxX": 19048.207000000002,
+            "maxY": 17781.034
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-3",
+      "title": "Penitent's End",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-3.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Proa Shrine",
+          "bounds": {
+            "minX": 16656.565,
+            "minY": 14441.111,
+            "maxX": 17995.595,
+            "maxY": 15696.113
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Sighing Steps",
+          "bounds": {
+            "minX": 16836.367,
+            "minY": 14951.605000000001,
+            "maxX": 18128.414,
+            "maxY": 15938.259
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Ship Burial Strand",
+          "bounds": {
+            "minX": 17384.105,
+            "minY": 14099.576000000001,
+            "maxX": 18385.920000000002,
+            "maxY": 15618.409
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-4",
+      "title": "Hallowed Reach",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-4.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Remembrance Valley",
+          "bounds": {
+            "minX": 16815.586,
+            "minY": 15202.786,
+            "maxX": 18366.946,
+            "maxY": 16422.234
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-5",
+      "title": "Whisperwind Haven",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-5.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Whitemoon Woods",
+          "bounds": {
+            "minX": 15608.471000000001,
+            "minY": 14453.76,
+            "maxX": 17152.16,
+            "maxY": 15766.588
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Cyclopean Windmills",
+          "bounds": {
+            "minX": 16359.819000000001,
+            "minY": 15334.701000000001,
+            "maxX": 17462.829,
+            "maxY": 16446.042
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Egra Town",
+          "bounds": {
+            "minX": 16471.341,
+            "minY": 15829.835000000001,
+            "maxX": 17335.115,
+            "maxY": 16589.704
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-6",
+      "title": "Nimbus Sanctum",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-6.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Port Ginner",
+          "bounds": {
+            "minX": 17330.114999999998,
+            "minY": 15746.711000000001,
+            "maxX": 18208.169,
+            "maxY": 16764.988
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Nightchant Court",
+          "bounds": {
+            "minX": 16833.656,
+            "minY": 15704.245,
+            "maxX": 18173.076,
+            "maxY": 17109.233
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "White Mist Embankment",
+          "bounds": {
+            "minX": 16596.931999999997,
+            "minY": 15680.753,
+            "maxX": 17621.805,
+            "maxY": 16770.409
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-7",
+      "title": "Fagaceae Peninsula",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-7.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Green Oak Garden",
+          "bounds": {
+            "minX": 17594.428,
+            "minY": 14941.485,
+            "maxX": 18750.946,
+            "maxY": 16310.124
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Monsha Sea",
+          "bounds": {
+            "minX": 18058.146999999997,
+            "minY": 15042.220000000001,
+            "maxX": 18955.144,
+            "maxY": 16219.770999999999
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Remnant Coast",
+          "bounds": {
+            "minX": 17623.341,
+            "minY": 14416.435000000001,
+            "maxX": 19018.391,
+            "maxY": 15649.128999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-8",
+      "title": "Thessaleo Fells",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-8.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Triple Crown Tower",
+          "bounds": {
+            "minX": 16384.602,
+            "minY": 16022.287,
+            "maxX": 17548.348,
+            "maxY": 17641.83
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Twin Peaks Ravine",
+          "bounds": {
+            "minX": 16874.315,
+            "minY": 16278.126000000002,
+            "maxX": 18061.385000000002,
+            "maxY": 17451.504
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Fort Portvino",
+          "bounds": {
+            "minX": 17292.323999999997,
+            "minY": 16604.16,
+            "maxX": 18212.442000000003,
+            "maxY": 17498.654000000002
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Lost Paradise",
+          "bounds": {
+            "minX": 17318.852,
+            "minY": 16450.559999999998,
+            "maxX": 17963.972,
+            "maxY": 17095.68
+          }
+        }
+      ]
     },
     {
       "id": "wuwa-kuro-state-902",
-      "title": "Kho bạc ngầm",
-      "pack": "map-packs/private/maps/902.json"
+      "title": "Lower Vault",
+      "pack": "map-packs/private/maps/902.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Fisher Tower",
+          "bounds": {
+            "minX": 641.5150000000001,
+            "minY": 442.431,
+            "maxX": 1596.536,
+            "maxY": 1228.8
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Precious Metals and Art Gallery",
+          "bounds": {
+            "minX": 881.845,
+            "minY": 1038.155,
+            "maxX": 1824.2259999999999,
+            "maxY": 1901.315
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Talent Archive",
+          "bounds": {
+            "minX": 964.066,
+            "minY": 0,
+            "maxX": 2069.082,
+            "maxY": 891.7840000000001
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Echo Archive",
+          "bounds": {
+            "minX": 1061.268,
+            "minY": 757.1580000000001,
+            "maxX": 1852.777,
+            "maxY": 1570.3339999999998
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Echo Platform",
+          "bounds": {
+            "minX": 539.9580000000001,
+            "minY": 918.8890000000001,
+            "maxX": 1514.315,
+            "maxY": 1716.245
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-10",
+      "title": "Riccioli Islands",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-10.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Riccioli Port",
+          "bounds": {
+            "minX": 16082.823999999999,
+            "minY": 13781.534,
+            "maxX": 17007.134000000002,
+            "maxY": 14768.188
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Helmwheel Village",
+          "bounds": {
+            "minX": 16155.106000000002,
+            "minY": 13405.666000000001,
+            "maxX": 17127.304,
+            "maxY": 14414.908
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Stillwater Bay",
+          "bounds": {
+            "minX": 15603.438,
+            "minY": 13357.779,
+            "maxX": 16544.699,
+            "maxY": 14369.732
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Reis Ruins",
+          "bounds": {
+            "minX": 10070.441,
+            "minY": 4313.477,
+            "maxX": 17166.056,
+            "maxY": 13913.448999999997
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Drake Island",
+          "bounds": {
+            "minX": 15537.932,
+            "minY": 14301.967,
+            "maxX": 16621.327,
+            "maxY": 15127.793
+          }
+        }
+      ]
     },
     {
       "id": "wuwa-kuro-state-903",
       "title": "Avinoleum",
-      "pack": "map-packs/private/maps/903.json"
+      "pack": "map-packs/private/maps/903.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Title Page Library Ruins",
+          "bounds": {
+            "minX": 1058.0330000000001,
+            "minY": 1837.779,
+            "maxX": 2360.922,
+            "maxY": 3171.388
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Swordgrant Hall Ruins",
+          "bounds": {
+            "minX": 2225.312,
+            "minY": 1977.826,
+            "maxX": 3537.3179999999998,
+            "maxY": 3424.078
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Zagong Garden Ruins",
+          "bounds": {
+            "minX": 1612.8,
+            "minY": 1047.191,
+            "maxX": 2800.941,
+            "maxY": 2201.901
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Tower of Connection",
+          "bounds": {
+            "minX": 2107.799,
+            "minY": 1470.9460000000001,
+            "maxX": 3436.122,
+            "maxY": 2379.987
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Sanctum of the Sacred Word",
+          "bounds": {
+            "minX": 1717.808,
+            "minY": 1820.594,
+            "maxX": 2877.687,
+            "maxY": 2698.969
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Tower of Ascension",
+          "bounds": {
+            "minX": 1900.4389999999999,
+            "minY": 2352.791,
+            "maxX": 3174.027,
+            "maxY": 3584.301
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Tower of Salvation",
+          "bounds": {
+            "minX": 1290.24,
+            "minY": 1424.839,
+            "maxX": 2294.965,
+            "maxY": 2594.936
+          }
+        },
+        {
+          "id": "official-area-8",
+          "label": "Hall of Sacred Grant",
+          "bounds": {
+            "minX": 1717.6090000000002,
+            "minY": 2059.1440000000002,
+            "maxX": 2855.803,
+            "maxY": 2986.165
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-3-12",
+      "title": "Beo Sea",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-3-12.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Beo Trench",
+          "bounds": {
+            "minX": 17793.204999999998,
+            "minY": 16906.21,
+            "maxX": 19312.038,
+            "maxY": 18363.332000000002
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Avinoleum Surface Ruins",
+          "bounds": {
+            "minX": 18068.781,
+            "minY": 17653.988999999998,
+            "maxX": 20287.849000000002,
+            "maxY": 19602.974000000002
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-rinascita-8-4-13",
+      "title": "Septimont",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-4-13.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Megalith Plains",
+          "bounds": {
+            "minX": 19322.879999999997,
+            "minY": 19732.702999999998,
+            "maxX": 20983.567000000003,
+            "maxY": 21373.115
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Mourning Valley",
+          "bounds": {
+            "minX": 20310.402,
+            "minY": 19847.831,
+            "maxX": 22713.067000000003,
+            "maxY": 21248.301000000003
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Border Mountains",
+          "bounds": {
+            "minX": 19694.231,
+            "minY": 20729.675,
+            "maxX": 21047.609,
+            "maxY": 22130.543
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Capitol Hill",
+          "bounds": {
+            "minX": 20583.304,
+            "minY": 20205.627999999997,
+            "maxX": 22717.440000000002,
+            "maxY": 22209.656000000003
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Minos Underground Aqueduct",
+          "bounds": {
+            "minX": 20282.618,
+            "minY": 20514.020999999997,
+            "maxX": 21536.527000000002,
+            "maxY": 22055.912
+          }
+        }
+      ]
     },
     {
       "id": "wuwa-kuro-state-905",
-      "title": "Bãi thử Biển Ẩn",
-      "pack": "map-packs/private/maps/905.json"
+      "title": "Hidden Sea Test Field",
+      "pack": "map-packs/private/maps/905.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Thousand-death Sunken Isle",
+          "bounds": {
+            "minX": 7965.515,
+            "minY": 3330.409,
+            "maxX": 9099.445,
+            "maxY": 4269.176
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Life's Manifest",
+          "bounds": {
+            "minX": 6476.326999999999,
+            "minY": 4671.825,
+            "maxX": 7585.599,
+            "maxY": 5726.976000000001
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Energy Storage Core",
+          "bounds": {
+            "minX": 4656.790999999999,
+            "minY": 2804.555,
+            "maxX": 5808.791,
+            "maxY": 4193.678
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Pilgrimage Sanctuary",
+          "bounds": {
+            "minX": 2864.188,
+            "minY": 3339.445,
+            "maxX": 3699.953,
+            "maxY": 4018.6549999999997
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Tower of Rising Light",
+          "bounds": {
+            "minX": 1705.864,
+            "minY": 5460.027999999999,
+            "maxX": 2959.854,
+            "maxY": 7634.046
+          }
+        }
+      ]
     },
     {
-      "id": "wuwa-kuro-state-909",
-      "title": "Đồng bằng Dimmr",
-      "pack": "map-packs/private/maps/909.json"
+      "id": "wuwa-kuro-atlas-rinascita-8-4-15",
+      "title": "Sanguis Plateaus",
+      "pack": "map-packs/private/maps/atlas-rinascita-8-4-15.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Atilius Pass",
+          "bounds": {
+            "minX": 20273.393,
+            "minY": 21899.746,
+            "maxX": 21263.661,
+            "maxY": 22690.533000000003
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Hunter's Camp",
+          "bounds": {
+            "minX": 20243.893,
+            "minY": 22019.798,
+            "maxX": 21326.908000000003,
+            "maxY": 22964.104000000003
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Hall of Four Directions",
+          "bounds": {
+            "minX": 19771.933999999997,
+            "minY": 22114.786,
+            "maxX": 20922.127,
+            "maxY": 23175.014000000003
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Rustrock Ridge",
+          "bounds": {
+            "minX": 19938.183999999997,
+            "minY": 22460.838,
+            "maxX": 21056.753,
+            "maxY": 23300.216
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Crimson Forest Hunting Grounds",
+          "bounds": {
+            "minX": 20011.586,
+            "minY": 22590.946,
+            "maxX": 21042.296000000002,
+            "maxY": 23788.122000000003
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Pastflower Plains",
+          "bounds": {
+            "minX": 19716.819,
+            "minY": 22532.975,
+            "maxX": 20740.518,
+            "maxY": 23808
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Eroded Lands",
+          "bounds": {
+            "minX": 20351.16,
+            "minY": 22698.466,
+            "maxX": 21163.369000000002,
+            "maxY": 23588.442000000003
+          }
+        },
+        {
+          "id": "official-area-8",
+          "label": "Whispering Town",
+          "bounds": {
+            "minX": 20455.002,
+            "minY": 22354.916999999998,
+            "maxX": 21289.864,
+            "maxY": 23293.892
+          }
+        },
+        {
+          "id": "official-area-9",
+          "label": "Earthpiercer",
+          "bounds": {
+            "minX": 20761.76,
+            "minY": 22422.248,
+            "maxX": 21507.614,
+            "maxY": 23286.664
+          }
+        },
+        {
+          "id": "official-area-10",
+          "label": "Three Kings Peak",
+          "bounds": {
+            "minX": 19391.548,
+            "minY": 22487.274999999998,
+            "maxX": 20436.932,
+            "maxY": 23751.078
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-state-8-country-900",
+      "title": "Black Shores Archipelago",
+      "pack": "map-packs/private/maps/8-country-900.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Aberration Transfer Site",
+          "bounds": {
+            "minX": 12280.772,
+            "minY": 11098.052,
+            "maxX": 13265.618999999999,
+            "maxY": 12045.276
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Tethys Hub",
+          "bounds": {
+            "minX": 12372.480000000001,
+            "minY": 11398.927,
+            "maxX": 13348.002999999999,
+            "maxY": 12430.187
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Haven of Sprouts",
+          "bounds": {
+            "minX": 12199.165,
+            "minY": 11327.087000000001,
+            "maxX": 13067.746,
+            "maxY": 12282.253999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-state-900",
+      "title": "Tethys' Deep",
+      "pack": "map-packs/private/maps/900.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Mirror of Aidos",
+          "bounds": {
+            "minX": 1509.798,
+            "minY": 1831.183,
+            "maxX": 2463.9249999999997,
+            "maxY": 3033.645
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Data Torrent",
+          "bounds": {
+            "minX": 1941.685,
+            "minY": 1213.991,
+            "maxX": 3681.882,
+            "maxY": 2137.751
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Tuning Hall",
+          "bounds": {
+            "minX": 1532.603,
+            "minY": 1491.727,
+            "maxX": 2432.527,
+            "maxY": 2303.096
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Energy Center",
+          "bounds": {
+            "minX": 1389.3300000000002,
+            "minY": 1579.5320000000002,
+            "maxX": 2335.6240000000003,
+            "maxY": 2570.324
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Fallacy Containment",
+          "bounds": {
+            "minX": 1712.152,
+            "minY": 1694,
+            "maxX": 2641.92,
+            "maxY": 2621.1839999999997
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Golden Branch Grounds",
+          "bounds": {
+            "minX": 1852.85,
+            "minY": 1936.2640000000001,
+            "maxX": 2798.276,
+            "maxY": 2954.5769999999998
+          }
+        }
+      ]
     },
     {
       "id": "wuwa-kuro-state-910",
-      "title": "Đô thị Chronorift",
-      "pack": "map-packs/private/maps/910.json"
+      "title": "Chronorift Metropolis",
+      "pack": "map-packs/private/maps/910.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Conductor's Café",
+          "bounds": {
+            "minX": 437.30800000000005,
+            "minY": 444.536,
+            "maxX": 1197.176,
+            "maxY": 1153.807
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Ripple Avenue",
+          "bounds": {
+            "minX": 352.37600000000003,
+            "minY": 377.675,
+            "maxX": 1072.489,
+            "maxY": 1101.402
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Fatebound Fountain Square",
+          "bounds": {
+            "minX": 439.11499999999995,
+            "minY": 346.955,
+            "maxX": 1248.678,
+            "maxY": 1080.621
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-1",
+      "title": "Gorges of Spirits",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-1.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Bellborne Ravine",
+          "bounds": {
+            "minX": 8230.896,
+            "minY": 11074.480000000001,
+            "maxX": 9386.350999999999,
+            "maxY": 12251.425
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Jade Dragon Terrace",
+          "bounds": {
+            "minX": 8348.128,
+            "minY": 10839.725,
+            "maxX": 9493.532,
+            "maxY": 12134.563
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Nightbright Slope",
+          "bounds": {
+            "minX": 8335.42,
+            "minY": 10507.271,
+            "maxX": 9532.109999999999,
+            "maxY": 11616.234999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-state-8-country-1",
+      "title": "Jinzhou",
+      "pack": "map-packs/private/maps/8-country-1.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Jinzhou Outskirts",
+          "bounds": {
+            "minX": 8783.652,
+            "minY": 10926.688,
+            "maxX": 10448.413999999999,
+            "maxY": 12171.707
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Lakelean Hill",
+          "bounds": {
+            "minX": 8716.538,
+            "minY": 11496.12,
+            "maxX": 10049.702,
+            "maxY": 12372.028
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Pingting Mountain",
+          "bounds": {
+            "minX": 9398.881000000001,
+            "minY": 10941.234,
+            "maxX": 10817.189999999999,
+            "maxY": 12346.610999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-3",
+      "title": "Central Plains",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-3.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Firefly Shore",
+          "bounds": {
+            "minX": 8494.30588235294,
+            "minY": 11641.172329411764,
+            "maxX": 9492.705882352942,
+            "maxY": 12639.572329411765
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Huaxie Hamlet",
+          "bounds": {
+            "minX": 8345.042823529411,
+            "minY": 11331.91228235294,
+            "maxX": 9343.442823529413,
+            "maxY": 12330.312282352941
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Dragonwatch Outskirts",
+          "bounds": {
+            "minX": 8797.097,
+            "minY": 11145.883,
+            "maxX": 9760.457999999999,
+            "maxY": 12086.270999999999
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Stone Pile Plain",
+          "bounds": {
+            "minX": 8441.43134117647,
+            "minY": 10877.174964705882,
+            "maxX": 9439.831341176472,
+            "maxY": 11875.574964705884
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Taoyuan Village",
+          "bounds": {
+            "minX": 8832.225,
+            "minY": 10799.887,
+            "maxX": 9733.722,
+            "maxY": 11802.860999999999
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Qichi Village",
+          "bounds": {
+            "minX": 8962.285,
+            "minY": 10591.944000000001,
+            "maxX": 9971.449999999999,
+            "maxY": 11795.576
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Northvale",
+          "bounds": {
+            "minX": 8865.539,
+            "minY": 10579.878,
+            "maxX": 9647.526,
+            "maxY": 11437.787999999999
+          }
+        },
+        {
+          "id": "official-area-8",
+          "label": "Tidebirth Cliff",
+          "bounds": {
+            "minX": 9292.579,
+            "minY": 10685.229000000001,
+            "maxX": 10446.607,
+            "maxY": 11805.724
+          }
+        },
+        {
+          "id": "official-area-9",
+          "label": "Origin Research Station",
+          "bounds": {
+            "minX": 9917.048470588234,
+            "minY": 11063.925458823529,
+            "maxX": 10915.448470588235,
+            "maxY": 12062.32545882353
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-4",
+      "title": "Desorock Highland",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-4.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Farwatch Camp",
+          "bounds": {
+            "minX": 9041.212000000001,
+            "minY": 9707.007,
+            "maxX": 10214.463,
+            "maxY": 10881.639
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Withering Front",
+          "bounds": {
+            "minX": 9212.196,
+            "minY": 9759.627,
+            "maxX": 10329.121,
+            "maxY": 10860.74
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Ceasefire Pass",
+          "bounds": {
+            "minX": 9562.928,
+            "minY": 9849.736,
+            "maxX": 10711.919,
+            "maxY": 11241.680999999999
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Fubo Front",
+          "bounds": {
+            "minX": 8871.981,
+            "minY": 10204.144,
+            "maxX": 10300.234999999999,
+            "maxY": 11409.769
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-5",
+      "title": "Tiger's Maw",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-5.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Longdrop River",
+          "bounds": {
+            "minX": 8849.619,
+            "minY": 11700.605000000001,
+            "maxX": 10248.734,
+            "maxY": 12594.296
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Tiger's Maw Mine",
+          "bounds": {
+            "minX": 8924.684000000001,
+            "minY": 11867.859,
+            "maxX": 10303.260999999999,
+            "maxY": 12863.91
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Distribution Center",
+          "bounds": {
+            "minX": 8946.505000000001,
+            "minY": 12181.998000000001,
+            "maxX": 10326.438,
+            "maxY": 13157.195
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-6",
+      "title": "Whining Aix's Mire",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-6.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Gun's Nest Harbor",
+          "bounds": {
+            "minX": 9774.059000000001,
+            "minY": 12456.560000000001,
+            "maxX": 11071.849,
+            "maxY": 13413.797999999999
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Awakening Forest Gorge",
+          "bounds": {
+            "minX": 10217.111,
+            "minY": 12582.524000000001,
+            "maxX": 11264.953,
+            "maxY": 13603.932999999999
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Jiting Ruins",
+          "bounds": {
+            "minX": 10145.515000000001,
+            "minY": 12959.322,
+            "maxX": 11136.903999999999,
+            "maxY": 14063.988
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Highland Ruins",
+          "bounds": {
+            "minX": 9901.779,
+            "minY": 12719.887,
+            "maxX": 10872.458999999999,
+            "maxY": 13712.911
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Dragonmount Crossing",
+          "bounds": {
+            "minX": 10495.953000000001,
+            "minY": 12777.713,
+            "maxX": 11351.681999999999,
+            "maxY": 14059.859999999999
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Egret Wetlands",
+          "bounds": {
+            "minX": 9776.640000000001,
+            "minY": 13075.970000000001,
+            "maxX": 11140.518,
+            "maxY": 14225.818
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Wuwu Storage Station",
+          "bounds": {
+            "minX": 9679.664,
+            "minY": 12582.514000000001,
+            "maxX": 10629.527,
+            "maxY": 13961.8
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-7",
+      "title": "Dim Forest",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-7.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Violetmoon Banyan",
+          "bounds": {
+            "minX": 8854.588,
+            "minY": 12438.857,
+            "maxX": 9847.512999999999,
+            "maxY": 13681.094
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Thornway Trail",
+          "bounds": {
+            "minX": 9167.391,
+            "minY": 12448.458,
+            "maxX": 10321.92,
+            "maxY": 13653.233
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Central Banyan",
+          "bounds": {
+            "minX": 8990.199,
+            "minY": 13005.310000000001,
+            "maxX": 10143.146999999999,
+            "maxY": 14136.621
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Wilderness Shore",
+          "bounds": {
+            "minX": 9463.737000000001,
+            "minY": 12809.372000000001,
+            "maxX": 10320.573999999999,
+            "maxY": 14107.707999999999
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Husi Cliff",
+          "bounds": {
+            "minX": 8619.671,
+            "minY": 12657.306,
+            "maxX": 9694.782,
+            "maxY": 13943.266
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-8",
+      "title": "Port City of Guixu",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-8.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Tidechime Coast",
+          "bounds": {
+            "minX": 8175.133999999999,
+            "minY": 11613.685000000001,
+            "maxX": 9383.794,
+            "maxY": 12801.205
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Eastern Foothill Research Station",
+          "bounds": {
+            "minX": 8593.468,
+            "minY": 11700.001,
+            "maxX": 9599.657,
+            "maxY": 13071.684
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Settled Ridge",
+          "bounds": {
+            "minX": 8574.881000000001,
+            "minY": 12351.754,
+            "maxX": 9604.628999999999,
+            "maxY": 13532.16
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Flame Sea",
+          "bounds": {
+            "minX": 8182.362,
+            "minY": 12099.459,
+            "maxX": 9319.251999999999,
+            "maxY": 13430.85
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-9",
+      "title": "Wuming Bay",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-9.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Crescent Reef",
+          "bounds": {
+            "minX": 9666.730000000001,
+            "minY": 11225.449,
+            "maxX": 10858.616,
+            "maxY": 12876.534
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Abandoned Crag",
+          "bounds": {
+            "minX": 9616.905,
+            "minY": 11712.497000000001,
+            "maxX": 10390.662999999999,
+            "maxY": 12886.561
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Lost Remnant",
+          "bounds": {
+            "minX": 9701.890000000001,
+            "minY": 12236.338,
+            "maxX": 10641.769,
+            "maxY": 13137.688
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Stonewash Plains",
+          "bounds": {
+            "minX": 9471.147670588234,
+            "minY": 12494.736564705881,
+            "maxX": 10469.547670588236,
+            "maxY": 13493.136564705883
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-10",
+      "title": "Norfall Barrens",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-10.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Norfall Gorge",
+          "bounds": {
+            "minX": 9673.156,
+            "minY": 9492.480000000001,
+            "maxX": 10859.519999999999,
+            "maxY": 10626.842999999999
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Floating Ruins",
+          "bounds": {
+            "minX": 7243.630999999999,
+            "minY": 2157.42,
+            "maxX": 11385.916,
+            "maxY": 10552.32
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-1-11",
+      "title": "Mt. Firmament",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-1-11.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Glimmering Shore",
+          "bounds": {
+            "minX": 11094.167000000001,
+            "minY": 12785.592,
+            "maxX": 12249.88,
+            "maxY": 13853.932999999999
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Xuanji Ridge",
+          "bounds": {
+            "minX": 11351.483,
+            "minY": 13178.934000000001,
+            "maxX": 12363.916,
+            "maxY": 14442.443
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Hongzhen",
+          "bounds": {
+            "minX": 11579.712000000001,
+            "minY": 13001.553,
+            "maxX": 12566.124,
+            "maxY": 14118.076
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Skyrend Tree",
+          "bounds": {
+            "minX": 11761.999,
+            "minY": 13271.79,
+            "maxX": 12855.3,
+            "maxY": 14227.408
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Wandering Dragon Ridge",
+          "bounds": {
+            "minX": 11627.321,
+            "minY": 13512.526,
+            "maxX": 21357.294,
+            "maxY": 23808
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Crouching Dragon Hill",
+          "bounds": {
+            "minX": 11669.671,
+            "minY": 11494.511,
+            "maxX": 12872.014,
+            "maxY": 13909.103
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Coiling Dragon Cliff",
+          "bounds": {
+            "minX": 12050.281,
+            "minY": 12911.480000000001,
+            "maxX": 18860.743000000002,
+            "maxY": 16428.288
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-state-8-country-1-2",
+      "title": "Xuanfang Hold",
+      "pack": "map-packs/private/maps/8-country-1-2.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Xuanfang Artificery",
+          "bounds": {
+            "minX": 3382.715,
+            "minY": 9410.259,
+            "maxX": 4108.348,
+            "maxY": 10229.76
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Xuanfang Strategy Office",
+          "bounds": {
+            "minX": 3479.492,
+            "minY": 9286.475,
+            "maxX": 4361.336,
+            "maxY": 10243.313
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Treasured Goods Quarter",
+          "bounds": {
+            "minX": 3483.106,
+            "minY": 9657.826000000001,
+            "maxX": 4249.299,
+            "maxY": 10396.912999999999
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Xuanfang Huaxu Academy",
+          "bounds": {
+            "minX": 3227.407,
+            "minY": 9610.842,
+            "maxX": 4029.741,
+            "maxY": 10418.598
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Boxwood Garden",
+          "bounds": {
+            "minX": 3088.264,
+            "minY": 9442.406,
+            "maxX": 3990.889,
+            "maxY": 10272.225999999999
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Xuanfang Square",
+          "bounds": {
+            "minX": 3378.2960000000003,
+            "minY": 9613.553,
+            "maxX": 4196.894,
+            "maxY": 10662.551
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Western Lift Slope",
+          "bounds": {
+            "minX": 2856.463,
+            "minY": 9600,
+            "maxX": 3769.525,
+            "maxY": 10645.384
+          }
+        },
+        {
+          "id": "official-area-8",
+          "label": "Eastern Secluded Pass",
+          "bounds": {
+            "minX": 3828.2540000000004,
+            "minY": 9416.023000000001,
+            "maxX": 4511.982,
+            "maxY": 10239.698999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-8-13",
+      "title": "Western Fang Peaks",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-8-13.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Thousandform Flowline",
+          "bounds": {
+            "minX": 2104.32,
+            "minY": 9871.059000000001,
+            "maxX": 3512.019,
+            "maxY": 10917.346
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Thousandform Interstructure",
+          "bounds": {
+            "minX": 1624.871,
+            "minY": 9982.193000000001,
+            "maxX": 2748.536,
+            "maxY": 11321.224
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Thousandform Ruins",
+          "bounds": {
+            "minX": 1953.024,
+            "minY": 10263.227,
+            "maxX": 3368.3579999999997,
+            "maxY": 11379.048999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-8-14",
+      "title": "Southern Yuan Hills",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-8-14.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Xuanfang Boundary Gate",
+          "bounds": {
+            "minX": 3282.522,
+            "minY": 10682.428,
+            "maxX": 4636.9130000000005,
+            "maxY": 11618.322
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Well Station",
+          "bounds": {
+            "minX": 3354.805,
+            "minY": 10477.327000000001,
+            "maxX": 4586.3150000000005,
+            "maxY": 11348.329
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Sparrowreturn Garden",
+          "bounds": {
+            "minX": 3479.492,
+            "minY": 10253.252,
+            "maxX": 4538.428000000001,
+            "maxY": 11113.412
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Featherwash Pool",
+          "bounds": {
+            "minX": 3124.405,
+            "minY": 10240.602,
+            "maxX": 4076.725,
+            "maxY": 11313.994999999999
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Autumnsong River",
+          "bounds": {
+            "minX": 2836.179,
+            "minY": 10325.534,
+            "maxX": 3914.993,
+            "maxY": 11426.936
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Kissbeak Forest",
+          "bounds": {
+            "minX": 2969.901,
+            "minY": 9991.228000000001,
+            "maxX": 3971.012,
+            "maxY": 10908.311
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Endmartial Court",
+          "bounds": {
+            "minX": 3479.492,
+            "minY": 10091.52,
+            "maxX": 4270.984,
+            "maxY": 10837.835
+          }
+        },
+        {
+          "id": "official-area-8",
+          "label": "Hundred-joint Corridor",
+          "bounds": {
+            "minX": 2876.838,
+            "minY": 10158.381000000001,
+            "maxX": 3665.619,
+            "maxY": 11059.199999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-8-8-15",
+      "title": "Eastern Xuan Peaks",
+      "pack": "map-packs/private/maps/atlas-huanglong-8-8-15.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Silent Abyss Ruins",
+          "bounds": {
+            "minX": 3711.699,
+            "minY": 9401.224,
+            "maxX": 4787.802000000001,
+            "maxY": 10825.186
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Branchlean Ridge",
+          "bounds": {
+            "minX": 4100.215999999999,
+            "minY": 9380.442000000001,
+            "maxX": 5177.224,
+            "maxY": 10477.327
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Mistveil Pavilion",
+          "bounds": {
+            "minX": 3769.525,
+            "minY": 9845.381000000001,
+            "maxX": 5073.318,
+            "maxY": 11128.771999999999
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Featherhold Village",
+          "bounds": {
+            "minX": 3888.7909999999997,
+            "minY": 10367.096000000001,
+            "maxX": 4804.969,
+            "maxY": 11190.212
+          }
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "roya-frostlands",
+      "title": "Băng nguyên Roya",
+      "mapIds": [
+        "wuwa-kuro-state-909",
+        "wuwa-kuro-atlas-roya-frostlands-909-7-7",
+        "wuwa-kuro-atlas-roya-frostlands-909-7-8",
+        "wuwa-kuro-atlas-roya-frostlands-909-7-9",
+        "wuwa-kuro-state-8-country-4",
+        "wuwa-kuro-atlas-roya-frostlands-8-6-2",
+        "wuwa-kuro-atlas-roya-frostlands-8-6-3",
+        "wuwa-kuro-atlas-roya-frostlands-8-6-4",
+        "wuwa-kuro-atlas-roya-frostlands-8-6-5",
+        "wuwa-kuro-state-906",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-7",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-8",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-9",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-10",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-11",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-12",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-13",
+        "wuwa-kuro-atlas-roya-frostlands-906-5-14"
+      ],
+      "sections": [
+        {
+          "id": "dimmr-plains",
+          "title": "Dimmr Plains",
+          "mapIds": [
+            "wuwa-kuro-state-909",
+            "wuwa-kuro-atlas-roya-frostlands-909-7-7",
+            "wuwa-kuro-atlas-roya-frostlands-909-7-8",
+            "wuwa-kuro-atlas-roya-frostlands-909-7-9"
+          ]
+        },
+        {
+          "id": "frostlands-surface",
+          "title": "Frostlands Surface",
+          "mapIds": [
+            "wuwa-kuro-state-8-country-4",
+            "wuwa-kuro-atlas-roya-frostlands-8-6-2",
+            "wuwa-kuro-atlas-roya-frostlands-8-6-3",
+            "wuwa-kuro-atlas-roya-frostlands-8-6-4",
+            "wuwa-kuro-atlas-roya-frostlands-8-6-5"
+          ]
+        },
+        {
+          "id": "lahai-roi",
+          "title": "Lahai-Roi",
+          "mapIds": [
+            "wuwa-kuro-state-906",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-7",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-8",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-9",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-10",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-11",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-12",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-13",
+            "wuwa-kuro-atlas-roya-frostlands-906-5-14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rinascita",
+      "title": "Rinascita",
+      "mapIds": [
+        "wuwa-kuro-atlas-rinascita-8-4-13",
+        "wuwa-kuro-atlas-rinascita-8-4-15",
+        "wuwa-kuro-state-8-country-3",
+        "wuwa-kuro-atlas-rinascita-8-3-2",
+        "wuwa-kuro-atlas-rinascita-8-3-3",
+        "wuwa-kuro-atlas-rinascita-8-3-4",
+        "wuwa-kuro-atlas-rinascita-8-3-5",
+        "wuwa-kuro-atlas-rinascita-8-3-6",
+        "wuwa-kuro-atlas-rinascita-8-3-7",
+        "wuwa-kuro-atlas-rinascita-8-3-8",
+        "wuwa-kuro-state-902",
+        "wuwa-kuro-atlas-rinascita-8-3-10",
+        "wuwa-kuro-state-903",
+        "wuwa-kuro-atlas-rinascita-8-3-12",
+        "wuwa-kuro-state-905"
+      ],
+      "sections": [
+        {
+          "id": "septimont",
+          "title": "Septimont",
+          "mapIds": [
+            "wuwa-kuro-atlas-rinascita-8-4-13",
+            "wuwa-kuro-atlas-rinascita-8-4-15"
+          ]
+        },
+        {
+          "id": "ragunna",
+          "title": "Ragunna",
+          "mapIds": [
+            "wuwa-kuro-state-8-country-3",
+            "wuwa-kuro-atlas-rinascita-8-3-2",
+            "wuwa-kuro-atlas-rinascita-8-3-3",
+            "wuwa-kuro-atlas-rinascita-8-3-4",
+            "wuwa-kuro-atlas-rinascita-8-3-5",
+            "wuwa-kuro-atlas-rinascita-8-3-6",
+            "wuwa-kuro-atlas-rinascita-8-3-7",
+            "wuwa-kuro-atlas-rinascita-8-3-8",
+            "wuwa-kuro-state-902",
+            "wuwa-kuro-atlas-rinascita-8-3-10",
+            "wuwa-kuro-state-903",
+            "wuwa-kuro-atlas-rinascita-8-3-12",
+            "wuwa-kuro-state-905"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "black-shores",
+      "title": "Quần đảo Bờ Đen",
+      "mapIds": [
+        "wuwa-kuro-state-8-country-900",
+        "wuwa-kuro-state-900",
+        "wuwa-kuro-state-910"
+      ]
+    },
+    {
+      "id": "huanglong",
+      "title": "Hoàng Long",
+      "mapIds": [
+        "wuwa-kuro-state-8-country-1-2",
+        "wuwa-kuro-atlas-huanglong-8-8-13",
+        "wuwa-kuro-atlas-huanglong-8-8-14",
+        "wuwa-kuro-atlas-huanglong-8-8-15",
+        "wuwa-kuro-atlas-huanglong-8-1-1",
+        "wuwa-kuro-state-8-country-1",
+        "wuwa-kuro-atlas-huanglong-8-1-3",
+        "wuwa-kuro-atlas-huanglong-8-1-4",
+        "wuwa-kuro-atlas-huanglong-8-1-5",
+        "wuwa-kuro-atlas-huanglong-8-1-6",
+        "wuwa-kuro-atlas-huanglong-8-1-7",
+        "wuwa-kuro-atlas-huanglong-8-1-8",
+        "wuwa-kuro-atlas-huanglong-8-1-9",
+        "wuwa-kuro-atlas-huanglong-8-1-10",
+        "wuwa-kuro-atlas-huanglong-8-1-11"
+      ],
+      "sections": [
+        {
+          "id": "mengzhou",
+          "title": "Mengzhou",
+          "mapIds": [
+            "wuwa-kuro-state-8-country-1-2",
+            "wuwa-kuro-atlas-huanglong-8-8-13",
+            "wuwa-kuro-atlas-huanglong-8-8-14",
+            "wuwa-kuro-atlas-huanglong-8-8-15"
+          ]
+        },
+        {
+          "id": "jinzhou",
+          "title": "Jinzhou",
+          "mapIds": [
+            "wuwa-kuro-atlas-huanglong-8-1-1",
+            "wuwa-kuro-state-8-country-1",
+            "wuwa-kuro-atlas-huanglong-8-1-3",
+            "wuwa-kuro-atlas-huanglong-8-1-4",
+            "wuwa-kuro-atlas-huanglong-8-1-5",
+            "wuwa-kuro-atlas-huanglong-8-1-6",
+            "wuwa-kuro-atlas-huanglong-8-1-7",
+            "wuwa-kuro-atlas-huanglong-8-1-8",
+            "wuwa-kuro-atlas-huanglong-8-1-9",
+            "wuwa-kuro-atlas-huanglong-8-1-10",
+            "wuwa-kuro-atlas-huanglong-8-1-11"
+          ]
+        }
+      ]
     }
   ]
 }

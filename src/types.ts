@@ -68,6 +68,13 @@ export interface MapViewBounds {
   maxY: number;
 }
 
+export interface MapArea {
+  id: string;
+  label: string;
+  bounds: MapViewBounds;
+  markerIds?: string[];
+}
+
 export interface MapPack {
   schemaVersion: SchemaVersion;
   id: string;
@@ -79,6 +86,7 @@ export interface MapPack {
   tiles?: MapTileSource;
   bounds?: MapViewBounds;
   initialView?: MapViewBounds;
+  areas?: MapArea[];
   categoryGroups?: MapCategoryGroup[];
   categories: MapCategory[];
   defaultVisibleCategoryIds?: string[];
@@ -90,12 +98,27 @@ export interface MapCatalogEntry {
   id: string;
   title: string;
   pack: string;
+  areas?: MapArea[];
+}
+
+export interface MapCatalogSection {
+  id: string;
+  title: string;
+  mapIds: string[];
+}
+
+export interface MapCatalogGroup {
+  id: string;
+  title: string;
+  mapIds: string[];
+  sections?: MapCatalogSection[];
 }
 
 export interface MapCatalog {
   schemaVersion: SchemaVersion;
   defaultMapId: string;
   maps: MapCatalogEntry[];
+  groups?: MapCatalogGroup[];
 }
 
 export interface Profile {

@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
 
 const HAN_TEXT_PATTERN = /[\u3400-\u9fff]/u;
 const MANUAL_TRANSLATIONS = new Map([
@@ -56,27 +57,56 @@ export function hasHanText(value) {
 }
 
 export function loadKuroTranslations(path) {
-  if (!path || !existsSync(path)) {
-    return new Map(MANUAL_TRANSLATIONS);
+  const translations = [];
+  if (path && existsSync(path)) {
+    const payload = JSON.parse(readFileSync(path, "utf8"));
+    if (
+      payload?.schemaVersion !== 1 ||
+      payload?.sourceLanguage !== "zh-CN" ||
+      payload?.targetLanguage !== "vi" ||
+      typeof payload?.translations !== "object" ||
+      payload.translations === null ||
+      Array.isArray(payload.translations)
+    ) {
+      throw new Error(`File bản dịch KURO không hợp lệ: ${path}`);
+    }
+    translations.push(
+      ...Object.entries(payload.translations).filter(
+        ([source, translation]) =>
+          source.trim().length > 0 &&
+          typeof translation === "string" &&
+          translation.trim().length > 0,
+      ),
+    );
   }
-  const payload = JSON.parse(readFileSync(path, "utf8"));
-  if (
-    payload?.schemaVersion !== 1 ||
-    payload?.sourceLanguage !== "zh-CN" ||
-    payload?.targetLanguage !== "vi" ||
-    typeof payload?.translations !== "object" ||
-    payload.translations === null ||
-    Array.isArray(payload.translations)
-  ) {
-    throw new Error(`File bản dịch KURO không hợp lệ: ${path}`);
+
+  const officialNamesPath = path
+    ? join(dirname(path), "kuro-official-map-translations.vi.json")
+    : undefined;
+  if (officialNamesPath && existsSync(officialNamesPath)) {
+    const payload = JSON.parse(readFileSync(officialNamesPath, "utf8"));
+    if (
+      payload?.schemaVersion !== 1 ||
+      payload?.sourceLanguage !== "zh-CN" ||
+      payload?.targetLanguage !== "vi" ||
+      typeof payload?.translations !== "object" ||
+      payload.translations === null ||
+      Array.isArray(payload.translations)
+    ) {
+      throw new Error(`File tên map KURO không hợp lệ: ${officialNamesPath}`);
+    }
+    translations.push(
+      ...Object.entries(payload.translations).filter(
+        ([source, translation]) =>
+          source.trim().length > 0 &&
+          typeof translation === "string" &&
+          translation.trim().length > 0,
+      ),
+    );
   }
+
   return new Map([
-    ...Object.entries(payload.translations).filter(
-      ([source, translation]) =>
-        source.trim().length > 0 &&
-        typeof translation === "string" &&
-        translation.trim().length > 0,
-    ),
+    ...translations,
     ...MANUAL_TRANSLATIONS,
   ]);
 }
@@ -112,6 +142,9 @@ export function collectKuroTexts(
   for (const pack of packs) {
     add(pack.title);
     add(pack.subtitle);
+    for (const area of pack.areas ?? []) {
+      add(area.label);
+    }
     for (const group of pack.categoryGroups ?? []) {
       add(group.label);
     }
@@ -140,6 +173,10 @@ export function localizeKuroMapPack(pack, translations) {
     ...pack,
     title: localizeKuroText(pack.title, translations),
     subtitle: localizeKuroText(pack.subtitle, translations),
+    areas: pack.areas?.map((area) => ({
+      ...area,
+      label: localizeKuroText(area.label, translations),
+    })),
     categoryGroups: pack.categoryGroups?.map((group) => ({
       ...group,
       label: localizeKuroText(group.label, translations),
@@ -167,6 +204,14 @@ export function localizeKuroCatalog(catalog, translations) {
     maps: catalog.maps.map((entry) => ({
       ...entry,
       title: localizeKuroText(entry.title, translations),
+      areas: entry.areas?.map((area) => ({
+        ...area,
+        label: localizeKuroText(area.label, translations),
+      })),
+    })),
+    groups: catalog.groups?.map((group) => ({
+      ...group,
+      title: localizeKuroText(group.title, translations),
     })),
   };
 }

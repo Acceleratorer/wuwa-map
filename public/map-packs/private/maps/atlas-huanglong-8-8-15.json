@@ -1,0 +1,4624 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-huanglong-8-8-15",
+  "progressMapId": "wuwa-kuro-state-8",
+  "title": "Eastern Xuan Peaks",
+  "subtitle": "446 vị trí · 32 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/8/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 30,
+    "rows": 31,
+    "availableTiles": [
+      "7,-20",
+      "6,-20",
+      "5,-16",
+      "5,-17",
+      "5,-18",
+      "5,-19",
+      "5,-20",
+      "4,-16",
+      "4,-17",
+      "4,-18",
+      "4,-19",
+      "4,-20",
+      "3,-16",
+      "3,-17",
+      "3,-18",
+      "3,-19",
+      "3,-20",
+      "7,-17",
+      "7,-18",
+      "7,-16",
+      "7,-19",
+      "6,-17",
+      "6,-18",
+      "6,-16",
+      "6,-19"
+    ]
+  },
+  "bounds": {
+    "minX": 2304,
+    "minY": 8448,
+    "maxX": 6144,
+    "maxY": 12288
+  },
+  "initialView": {
+    "minX": 3711.699,
+    "minY": 9380.442000000001,
+    "maxX": 5177.224,
+    "maxY": 11190.212
+  },
+  "areas": [
+    {
+      "id": "official-area-1",
+      "label": "Silent Abyss Ruins",
+      "bounds": {
+        "minX": 3711.699,
+        "minY": 9401.224,
+        "maxX": 4787.802000000001,
+        "maxY": 10825.186
+      },
+      "markerIds": [
+        "kuro:1526734007960326144",
+        "kuro:1526734008128098304",
+        "kuro:1526734008295870464",
+        "kuro:1526736157814407168",
+        "kuro:1526736157915070464",
+        "kuro:1526736158015733760",
+        "kuro:1526736158112202752",
+        "kuro:1526736965553471488",
+        "kuro:1526736965654134784",
+        "kuro:1528916121699598336",
+        "kuro:1528916121812844544",
+        "kuro:1529130080339869696",
+        "kuro:1529130080457310208",
+        "kuro:1529130080570556416",
+        "kuro:1529135837512843264",
+        "kuro:1529135837621895168",
+        "kuro:1529135837726752768",
+        "kuro:1529135837831610368",
+        "kuro:1526734370306899968",
+        "kuro:1526735259960070144",
+        "kuro:1526735628568088576",
+        "kuro:1526746426174590976",
+        "kuro:1528911632141762560",
+        "kuro:1528911632255008768",
+        "kuro:1528911986099077120",
+        "kuro:1528915274361458688",
+        "kuro:1529127473520562176",
+        "kuro:1529127473688334336",
+        "kuro:1529127473856106496",
+        "kuro:1523071140120346624",
+        "kuro:1523071475794690048",
+        "kuro:1523071531562156032",
+        "kuro:1523071579586936832",
+        "kuro:1523071947251236864",
+        "kuro:1528485341403922432",
+        "kuro:1528485341521362944",
+        "kuro:1528485341634609152",
+        "kuro:1528485341752049664",
+        "kuro:1528485341869490176",
+        "kuro:1528486570917351424",
+        "kuro:1528486571110289408",
+        "kuro:1528486571299033088",
+        "kuro:1528486571487776768",
+        "kuro:1528486571676520448",
+        "kuro:1528486865332326400",
+        "kuro:1528486865525264384",
+        "kuro:1528487112482340864",
+        "kuro:1528487634508959744",
+        "kuro:1528488184047321088",
+        "kuro:1528488184164761600",
+        "kuro:1528488184282202112",
+        "kuro:1528489306115264512",
+        "kuro:1528489306278842368",
+        "kuro:1528489306438225920",
+        "kuro:1528489306601803776",
+        "kuro:1528492606664065024",
+        "kuro:1528492606781505536",
+        "kuro:1528492606894751744",
+        "kuro:1528492607007997952",
+        "kuro:1528910338412888064",
+        "kuro:1528910338509357056",
+        "kuro:1528910338601631744",
+        "kuro:1528913995719495680",
+        "kuro:1528913995887267840",
+        "kuro:1528913996055040000",
+        "kuro:1528913996227006464",
+        "kuro:1528913996394778624",
+        "kuro:1528913996562550784",
+        "kuro:1528913996734517248",
+        "kuro:1528913996898095104",
+        "kuro:1528913997065867264",
+        "kuro:1528913997233639424",
+        "kuro:1528913997401411584",
+        "kuro:1529131952491974656",
+        "kuro:1529131952684912640",
+        "kuro:1529131952882044928",
+        "kuro:1529131953070788608",
+        "kuro:1529131953259532288",
+        "kuro:1529131953448275968",
+        "kuro:1529131953637019648",
+        "kuro:1529131953850929152",
+        "kuro:1526747489518735360",
+        "kuro:1526747489690701824",
+        "kuro:1528490722045837312",
+        "kuro:1528494275040104448",
+        "kuro:1528499439788609536",
+        "kuro:1528500024428449792",
+        "kuro:1528912544637763584",
+        "kuro:1528916708175892480",
+        "kuro:1529170254200819712",
+        "kuro:1524825045728608256",
+        "kuro:1524825632243302400",
+        "kuro:1524825632364937216",
+        "kuro:1524826315926786048",
+        "kuro:1524826316102946816",
+        "kuro:1524827745841168384",
+        "kuro:1524827745946025984",
+        "kuro:1524827746046689280",
+        "kuro:1524827746151546880",
+        "kuro:1524544498074763264",
+        "kuro:1524544528017248256",
+        "kuro:1524552784429826048",
+        "kuro:1524552804830920704",
+        "kuro:1524544567096229888",
+        "kuro:1524180942951137280",
+        "kuro:1524838688453148672",
+        "kuro:1524838979151970304",
+        "kuro:1524841855923769344",
+        "kuro:1524885714997985280",
+        "kuro:1524887950586531840",
+        "kuro:1524552838389547008",
+        "kuro:1522945084344352768",
+        "kuro:1524462659519107072",
+        "kuro:1524470022247137280",
+        "kuro:1524560539705659392",
+        "kuro:1524560868660727808",
+        "kuro:1524563073103675392",
+        "kuro:1524576003353726976",
+        "kuro:1524572854413541376",
+        "kuro:1524573075956027392",
+        "kuro:1524146617336975360",
+        "kuro:1524147597419991040",
+        "kuro:1524152689959358464",
+        "kuro:1524153815068823552",
+        "kuro:1531769505397686272",
+        "kuro:1524143287172845568",
+        "kuro:1524147707163955200",
+        "kuro:1524152990921641984",
+        "kuro:1524139601440788480",
+        "kuro:1524143434926243840",
+        "kuro:1524143983301480448",
+        "kuro:1524147187187699712",
+        "kuro:1524152862999564288",
+        "kuro:1524137097898479616",
+        "kuro:1524138997821722624",
+        "kuro:1524151738561187840",
+        "kuro:1522397918081171456"
+      ]
+    },
+    {
+      "id": "official-area-2",
+      "label": "Branchlean Ridge",
+      "bounds": {
+        "minX": 4100.215999999999,
+        "minY": 9380.442000000001,
+        "maxX": 5177.224,
+        "maxY": 10477.327
+      },
+      "markerIds": [
+        "kuro:1523072402521964544",
+        "kuro:1523072427854909440",
+        "kuro:1523072451805036544",
+        "kuro:1523072919825797120",
+        "kuro:1523072964265099264",
+        "kuro:1523073513010085888",
+        "kuro:1523073540528263168",
+        "kuro:1528523538669752320",
+        "kuro:1528557937516462080",
+        "kuro:1528561621104578560",
+        "kuro:1528561621280739328",
+        "kuro:1524545636064284672",
+        "kuro:1524545607233290240",
+        "kuro:1524545880416047104",
+        "kuro:1524545929879474176",
+        "kuro:1524839323596603392",
+        "kuro:1524557069745377280",
+        "kuro:1524560017217667072",
+        "kuro:1524563445385252864",
+        "kuro:1524573254234918912",
+        "kuro:1524735557865558016",
+        "kuro:1524183874413117440",
+        "kuro:1524183874513780736",
+        "kuro:1531769830846316544",
+        "kuro:1524179850687266816",
+        "kuro:1524180542746775552",
+        "kuro:1524183600621535232",
+        "kuro:1524180389869240320",
+        "kuro:1524180389974097920",
+        "kuro:1524178817977667584",
+        "kuro:1524481633250820096",
+        "kuro:1524179068906749952",
+        "kuro:1522399118591639552",
+        "kuro:1522399804586835968"
+      ]
+    },
+    {
+      "id": "official-area-3",
+      "label": "Mistveil Pavilion",
+      "bounds": {
+        "minX": 3769.525,
+        "minY": 9845.381000000001,
+        "maxX": 5073.318,
+        "maxY": 11128.771999999999
+      },
+      "markerIds": [
+        "kuro:1524182456214077440",
+        "kuro:1526653263574056960",
+        "kuro:1526653263683108864",
+        "kuro:1526653263792160768",
+        "kuro:1526672509293150208",
+        "kuro:1526672509398007808",
+        "kuro:1526672509502865408",
+        "kuro:1527469953866121216",
+        "kuro:1527469953975173120",
+        "kuro:1527469954080030720",
+        "kuro:1527470773705101312",
+        "kuro:1527470773872873472",
+        "kuro:1527470774036451328",
+        "kuro:1527471217223389184",
+        "kuro:1527471217386967040",
+        "kuro:1527471894901280768",
+        "kuro:1527471895077441536",
+        "kuro:1527473268565852160",
+        "kuro:1527473268670709760",
+        "kuro:1527474002032181248",
+        "kuro:1527474002137038848",
+        "kuro:1527474002241896448",
+        "kuro:1527475292883111936",
+        "kuro:1527475293050884096",
+        "kuro:1527478005289828352",
+        "kuro:1527478005398880256",
+        "kuro:1527478395871805440",
+        "kuro:1527478395980857344",
+        "kuro:1527478396089909248",
+        "kuro:1527478798952157184",
+        "kuro:1527478799119929344",
+        "kuro:1527478799287701504",
+        "kuro:1528420956933308416",
+        "kuro:1528420957054943232",
+        "kuro:1528421370855936000",
+        "kuro:1528421371015319552",
+        "kuro:1528421371166314496",
+        "kuro:1528421989968760832",
+        "kuro:1528421990149115904",
+        "kuro:1528421990333665280",
+        "kuro:1528421990514020352",
+        "kuro:1528423844870344704",
+        "kuro:1528423845042311168",
+        "kuro:1528425100615602176",
+        "kuro:1528425100779180032",
+        "kuro:1528425100938563584",
+        "kuro:1528425101097947136",
+        "kuro:1528425101261524992",
+        "kuro:1528425101425102848",
+        "kuro:1528433012457717760",
+        "kuro:1528433012575158272",
+        "kuro:1529137046743269376",
+        "kuro:1529137046852321280",
+        "kuro:1529137046957178880",
+        "kuro:1529137047066230784",
+        "kuro:1529138197526069248",
+        "kuro:1529139999289364480",
+        "kuro:1529139999469719552",
+        "kuro:1529139999645880320",
+        "kuro:1529151605268271104",
+        "kuro:1529151605440237568",
+        "kuro:1529151605612204032",
+        "kuro:1529151605779976192",
+        "kuro:1526735028258979840",
+        "kuro:1527472352814419968",
+        "kuro:1527472826619777024",
+        "kuro:1527475910155288576",
+        "kuro:1527476311255928832",
+        "kuro:1527476596401491968",
+        "kuro:1527476961993805824",
+        "kuro:1527477518570209280",
+        "kuro:1527477768961769472",
+        "kuro:1527479259289604096",
+        "kuro:1528417589862846464",
+        "kuro:1528418176767610880",
+        "kuro:1528418176952160256",
+        "kuro:1528423456428113920",
+        "kuro:1528424205593722880",
+        "kuro:1528424454822809600",
+        "kuro:1528433422387367936",
+        "kuro:1528433422555140096",
+        "kuro:1528433708980617216",
+        "kuro:1528434228486459392",
+        "kuro:1528435084653608960",
+        "kuro:1528435996498841600",
+        "kuro:1528437111953670144",
+        "kuro:1528437112062722048",
+        "kuro:1528437537750372352",
+        "kuro:1528437537930727424",
+        "kuro:1528482440521961472",
+        "kuro:1528482440685539328",
+        "kuro:1528484062086676480",
+        "kuro:1523070713060507648",
+        "kuro:1523074611812225024",
+        "kuro:1526646335624036352",
+        "kuro:1526646335733088256",
+        "kuro:1526646335842140160",
+        "kuro:1526646335946997760",
+        "kuro:1526646336056049664",
+        "kuro:1526646336160907264",
+        "kuro:1527479862208221184",
+        "kuro:1527480277846970368",
+        "kuro:1528493212304134144",
+        "kuro:1528493573190438912",
+        "kuro:1528558770412310528",
+        "kuro:1528559121664299008",
+        "kuro:1527451882857680896",
+        "kuro:1527451883029647360",
+        "kuro:1527454333715337216",
+        "kuro:1527454333887303680",
+        "kuro:1527454334063464448",
+        "kuro:1527454334235430912",
+        "kuro:1527454334407397376",
+        "kuro:1527457132570853376",
+        "kuro:1527457132679905280",
+        "kuro:1528396044889866240",
+        "kuro:1528396044998918144",
+        "kuro:1528396045103775744",
+        "kuro:1528396045208633344",
+        "kuro:1528396045317685248",
+        "kuro:1528415539205357568",
+        "kuro:1528415539326992384",
+        "kuro:1528417159892160512",
+        "kuro:1528417160068321280",
+        "kuro:1528417160244482048",
+        "kuro:1528417160420642816",
+        "kuro:1528417160592609280",
+        "kuro:1528417160764575744",
+        "kuro:1528417160940736512",
+        "kuro:1524544081907531776",
+        "kuro:1524553189859639296",
+        "kuro:1524544052501266432",
+        "kuro:1524544863192469504",
+        "kuro:1524544891399815168",
+        "kuro:1522919158910926848",
+        "kuro:1522919159011590144",
+        "kuro:1522919159112253440",
+        "kuro:1522919159208722432",
+        "kuro:1522919754212036608",
+        "kuro:1522919885451808768",
+        "kuro:1523133826434060288",
+        "kuro:1523133826597638144",
+        "kuro:1523134847563186176",
+        "kuro:1523134847676432384",
+        "kuro:1523134847781289984",
+        "kuro:1523135341673168896",
+        "kuro:1523135341773832192",
+        "kuro:1523135736847257600",
+        "kuro:1523135737023418368",
+        "kuro:1522939790847492096",
+        "kuro:1524886519863951360",
+        "kuro:1524886753469906944",
+        "kuro:1524887386574929920",
+        "kuro:1524887708294172672",
+        "kuro:1524888293596712960",
+        "kuro:1524903034466189312",
+        "kuro:1524544115726204928",
+        "kuro:1524553158611423232",
+        "kuro:1524181971843268608",
+        "kuro:1524471063848009728",
+        "kuro:1524561277261434880",
+        "kuro:1529907262932316160",
+        "kuro:1524577291689377792",
+        "kuro:1524096643354054656",
+        "kuro:1524117436930707456",
+        "kuro:1524118035524997120",
+        "kuro:1524145311767580672",
+        "kuro:1524157224233320448",
+        "kuro:1524517276534292480",
+        "kuro:1524522669029310464",
+        "kuro:1526609257964093440",
+        "kuro:1524117516710563840",
+        "kuro:1524519651928031232",
+        "kuro:1524117346514096128",
+        "kuro:1524135058460102656",
+        "kuro:1524488004024651776",
+        "kuro:1524512789307838464",
+        "kuro:1524515248608628736",
+        "kuro:1524516356777951232",
+        "kuro:1526608470311550976",
+        "kuro:1526609969292886016",
+        "kuro:1524472584441942016",
+        "kuro:1526600365212684288",
+        "kuro:1522398479560065024"
+      ]
+    },
+    {
+      "id": "official-area-4",
+      "label": "Featherhold Village",
+      "bounds": {
+        "minX": 3888.7909999999997,
+        "minY": 10367.096000000001,
+        "maxX": 4804.969,
+        "maxY": 11190.212
+      },
+      "markerIds": [
+        "kuro:1527367970366799872",
+        "kuro:1527368068680634368",
+        "kuro:1527368312001249280",
+        "kuro:1527368761147641856",
+        "kuro:1527368761323802624",
+        "kuro:1527368761499963392",
+        "kuro:1529141270012481536",
+        "kuro:1529141413617713152",
+        "kuro:1529144331242684416",
+        "kuro:1529144331339153408",
+        "kuro:1529144331431428096",
+        "kuro:1529144331523702784",
+        "kuro:1529144331615977472",
+        "kuro:1529144331708252160",
+        "kuro:1529145457388142592",
+        "kuro:1529146217282129920",
+        "kuro:1529146217454096384",
+        "kuro:1529146217621868544",
+        "kuro:1529146217793835008",
+        "kuro:1523069626332467200",
+        "kuro:1523069673937817600",
+        "kuro:1523070058127675392",
+        "kuro:1527119766974353408",
+        "kuro:1527365216579080192",
+        "kuro:1527365426961174528",
+        "kuro:1527366122850734080",
+        "kuro:1527366435037626368",
+        "kuro:1527366767171325952",
+        "kuro:1527367104808603648",
+        "kuro:1527367389031419904",
+        "kuro:1527441579138863104",
+        "kuro:1527441788644347904",
+        "kuro:1527442247736737792",
+        "kuro:1526614187856740352",
+        "kuro:1526614187961597952",
+        "kuro:1526614188062261248",
+        "kuro:1526614188158730240",
+        "kuro:1526614188259393536",
+        "kuro:1527362271867293696",
+        "kuro:1527362272043454464",
+        "kuro:1527362272215420928",
+        "kuro:1527362272387387392",
+        "kuro:1527362272559353856",
+        "kuro:1527364827221839872",
+        "kuro:1527364827398000640",
+        "kuro:1527364827569967104",
+        "kuro:1527364827737739264",
+        "kuro:1527364827909705728",
+        "kuro:1527444459455500288",
+        "kuro:1527444459619078144",
+        "kuro:1527444459778461696",
+        "kuro:1527444459942039552",
+        "kuro:1527444460101423104",
+        "kuro:1527445452914802688",
+        "kuro:1527445453015465984",
+        "kuro:1527445453116129280",
+        "kuro:1527446940235972608",
+        "kuro:1527446940336635904",
+        "kuro:1527446940437299200",
+        "kuro:1527446940537962496",
+        "kuro:1527446940634431488",
+        "kuro:1527446940735094784",
+        "kuro:1527446940831563776",
+        "kuro:1527448603847282688",
+        "kuro:1527448604010860544",
+        "kuro:1527448604174438400",
+        "kuro:1527448604333821952",
+        "kuro:1527448604497399808",
+        "kuro:1527448604656783360",
+        "kuro:1527448604816166912",
+        "kuro:1527448604979744768",
+        "kuro:1527451882333392896",
+        "kuro:1527451882509553664",
+        "kuro:1527451882685714432",
+        "kuro:1527457132788957184",
+        "kuro:1527457132898009088",
+        "kuro:1527457133002866688",
+        "kuro:1528414479510257664",
+        "kuro:1528414479602532352",
+        "kuro:1528414479699001344",
+        "kuro:1527362636944359424",
+        "kuro:1527362637049217024",
+        "kuro:1527363284225478656",
+        "kuro:1527363284397445120",
+        "kuro:1527363284573605888",
+        "kuro:1527363523221114880",
+        "kuro:1527363523401469952",
+        "kuro:1524556250552320000",
+        "kuro:1524116936604766208",
+        "kuro:1524116498765565952",
+        "kuro:1536148585297408000"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "elite-enemies",
+      "label": "Kẻ thù mạnh",
+      "icon": "elite"
+    },
+    {
+      "id": "bosses",
+      "label": "Boss",
+      "icon": "boss"
+    },
+    {
+      "id": "activities",
+      "label": "Hoạt động",
+      "icon": "activity"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_02",
+    "qzx_03",
+    "qzx_01"
+  ],
+  "categories": [
+    {
+      "id": "pqtj",
+      "label": "Kỵ binh vượt ngục",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "elite-enemies",
+      "icon": "elite",
+      "imageSrc": "map-packs/private/icons/060692cd86f465c6cceb.webp"
+    },
+    {
+      "id": "42601560",
+      "label": "vẻ đẹp ngọc trắng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/9be7ca1cddad897db877.webp"
+    },
+    {
+      "id": "42601570",
+      "label": "đá hội âm",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/3538e37942924ad28c60.webp"
+    },
+    {
+      "id": "42601580",
+      "label": "Ye Zhongjiang",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/292169f7cbd723a250f2.webp"
+    },
+    {
+      "id": "310000900",
+      "label": "Chiến binh hợp nhất",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/35dedf55a48061f1caee.webp"
+    },
+    {
+      "id": "42601590",
+      "label": "Min Hua Bi",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/08599bdbc25aff96a54c.webp"
+    },
+    {
+      "id": "42601530",
+      "label": "Ngọc chưa cắt",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/0e668c43caac373ec768.webp"
+    },
+    {
+      "id": "42601540",
+      "label": "Đặng Thanh Vân",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/4cae2bb12e5bcc1ab230.webp"
+    },
+    {
+      "id": "42601550",
+      "label": "Lục Hợp Doanh",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/579d96f3451caa1d4c5e.webp"
+    },
+    {
+      "id": "42601600",
+      "label": "Tề Vân Nghĩa",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/dd85a33f331c4540726a.webp"
+    },
+    {
+      "id": "310001010",
+      "label": "Jixi Beast Zun·Đầu",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a42d3e0c9a04c27d98a5.webp"
+    },
+    {
+      "id": "320000670",
+      "label": "Chúa tể quái thú Ji Breath",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/3bec2eaa7532ffbac934.webp"
+    },
+    {
+      "id": "42601620",
+      "label": "Shiraren Shigeru",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/d9132be74526295c3b42.webp"
+    },
+    {
+      "id": "4028",
+      "label": "Chiến lược ba chiều·Bài tập võ thuật",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/3a744f1490ae2d39ad94.webp"
+    },
+    {
+      "id": "pzsf",
+      "label": "Gió băng phá vỡ rào cản",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "elite-enemies",
+      "icon": "elite",
+      "imageSrc": "map-packs/private/icons/3b50e0971b6ae3a49923.webp"
+    },
+    {
+      "id": "wzdly",
+      "label": "Lương Nguyên vô chủ",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/46767840d55b6bbad3d8.webp"
+    },
+    {
+      "id": "310001000",
+      "label": "Ji Breath Beast Zun ·Thân thể",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2c615056b07730e7eaed.webp"
+    },
+    {
+      "id": "cxxj",
+      "label": "cưa tra tấn bị cắt xẻo",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "elite-enemies",
+      "icon": "elite",
+      "imageSrc": "map-packs/private/icons/d3347ffad5388e33fdac.webp"
+    },
+    {
+      "id": "3530001",
+      "label": "Tòa án của sự mất mát và rắc rối",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "bosses",
+      "icon": "boss",
+      "imageSrc": "map-packs/private/icons/3c6579b2ce5de02080a7.webp"
+    },
+    {
+      "id": "68",
+      "label": "Nhận hộp chẵn",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5297e22cb2dc206db866.webp"
+    },
+    {
+      "id": "69",
+      "label": "Fang Ting Yanwu",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/80bdacf0f4a7a7b1a5ce.webp"
+    },
+    {
+      "id": "71",
+      "label": "Kho báu ẩn giấu nguy hiểm",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ee0667ca4878f4d0a12b.webp"
+    },
+    {
+      "id": "wbwx",
+      "label": "Không có niềm vui hay nỗi buồn",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "elite-enemies",
+      "icon": "elite",
+      "imageSrc": "map-packs/private/icons/a22af33b34939fe3aab0.webp"
+    },
+    {
+      "id": "72",
+      "label": "rèm chuyển hướng",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/eea00e7a4772be5d88cb.webp"
+    },
+    {
+      "id": "73",
+      "label": "ghế thiền",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/1c0cadee6992dd608b20.webp"
+    },
+    {
+      "id": "77",
+      "label": "Thử thách cưỡi máy siêu đám mây",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/1cbf1a7061d2af76e023.webp"
+    },
+    {
+      "id": "qzx_02",
+      "label": "Rương tiêu chuẩn",
+      "color": "#b8a1ff",
+      "symbol": "2",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
+    },
+    {
+      "id": "qzx_03",
+      "label": "Rương tinh xảo",
+      "color": "#f07e83",
+      "symbol": "3",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
+    },
+    {
+      "id": "qzx_01",
+      "label": "Rương đơn sơ",
+      "color": "#6cc8ee",
+      "symbol": "1",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "cx_02",
+      "label": "Di sản thủy triều·Tím",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
+    },
+    {
+      "id": "CS_02",
+      "label": "ngọn hải đăng nhỏ",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-2/56",
+      "label": "Lớp khóa Nether·Tầng hai",
+      "groupId": "56",
+      "groupLabel": "lớp tách biệt",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-2_56/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "5,-18"
+        ]
+      }
+    },
+    {
+      "id": "-3/56",
+      "label": "lớp tách biệt",
+      "groupId": "56",
+      "groupLabel": "lớp tách biệt",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-3_56/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "5,-18"
+        ]
+      }
+    },
+    {
+      "id": "-4/56",
+      "label": "Làng Sương mù Shu",
+      "groupId": "56",
+      "groupLabel": "lớp tách biệt",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-4_56/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "5,-18"
+        ]
+      }
+    },
+    {
+      "id": "-1/57",
+      "label": "Hang Màn Ẩn",
+      "groupId": "57",
+      "groupLabel": "Hang Màn Ẩn",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-1_57/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "5,-18"
+        ]
+      }
+    },
+    {
+      "id": "-1/58",
+      "label": "Làng Sương mù·Tầng trên",
+      "groupId": "58",
+      "groupLabel": "Mistveil Pavilion",
+      "tiles": {
+        "src": "map-packs/private/layers/8/-1_58/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 30,
+        "rows": 31,
+        "availableTiles": [
+          "5,-17",
+          "5,-18"
+        ]
+      }
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1524182456214077440",
+      "categoryId": "pqtj",
+      "title": "Kỵ binh vượt ngục",
+      "x": 4604.684,
+      "y": 10167.941,
+      "description": "Bắt đầu thử thách sau khi đến gần mốc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526653263574056960",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4108.348,
+      "y": 10558.645,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526653263683108864",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4109.252,
+      "y": 10558.645,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526653263792160768",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4108.348,
+      "y": 10559.548,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526672509293150208",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4108.348,
+      "y": 10560.452,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526672509398007808",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4109.252,
+      "y": 10562.259,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526672509502865408",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4108.348,
+      "y": 10562.259,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526734007960326144",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4069.496,
+      "y": 10481.845,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526734008128098304",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4068.593,
+      "y": 10480.941,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526734008295870464",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4068.593,
+      "y": 10480.489,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526736157814407168",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4092.085,
+      "y": 10500.819,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526736157915070464",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4092.988,
+      "y": 10501.722,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526736158015733760",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4092.988,
+      "y": 10502.174,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526736158112202752",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4092.085,
+      "y": 10502.626,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526736965553471488",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4090.278,
+      "y": 10487.266,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526736965654134784",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4090.278,
+      "y": 10487.718,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527367970366799872",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4289.958,
+      "y": 10784.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527368068680634368",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4277.308,
+      "y": 10792.659,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527368312001249280",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4270.08,
+      "y": 10766.456,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527368761147641856",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4280.019,
+      "y": 10753.807,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527368761323802624",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4280.922,
+      "y": 10754.711,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527368761499963392",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4283.633,
+      "y": 10755.614,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527469953866121216",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4535.718,
+      "y": 10746.579,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527469953975173120",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4537.525,
+      "y": 10746.579,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527469954080030720",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4538.428,
+      "y": 10746.579,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527470773705101312",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4564.631,
+      "y": 10752.904,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527470773872873472",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4565.534,
+      "y": 10752.904,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527470774036451328",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4565.534,
+      "y": 10753.807,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527471217223389184",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4561.92,
+      "y": 10752,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527471217386967040",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4561.92,
+      "y": 10752.452,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527471894901280768",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4561.016,
+      "y": 10748.386,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527471895077441536",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4560.113,
+      "y": 10748.386,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527473268565852160",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4557.854,
+      "y": 10733.929,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527473268670709760",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4558.306,
+      "y": 10733.929,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527474002032181248",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4566.438,
+      "y": 10721.28,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527474002137038848",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4566.438,
+      "y": 10720.376,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527474002241896448",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4565.534,
+      "y": 10721.28,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527475292883111936",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4569.148,
+      "y": 10723.087,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527475293050884096",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4569.148,
+      "y": 10723.991,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478005289828352",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4542.042,
+      "y": 10712.696,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478005398880256",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4542.042,
+      "y": 10713.148,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478395871805440",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4545.656,
+      "y": 10714.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478395980857344",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4545.656,
+      "y": 10714.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478396089909248",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4545.656,
+      "y": 10713.6,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478798952157184",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4522.165,
+      "y": 10697.788,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478799119929344",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4521.261,
+      "y": 10697.788,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527478799287701504",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4521.261,
+      "y": 10698.692,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528420956933308416",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4591.736,
+      "y": 10724.894,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528420957054943232",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4593.544,
+      "y": 10724.894,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421370855936000",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4587.219,
+      "y": 10715.407,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421371015319552",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4587.219,
+      "y": 10715.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421371166314496",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4588.122,
+      "y": 10717.666,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421989968760832",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4592.64,
+      "y": 10717.666,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421990149115904",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4591.736,
+      "y": 10718.569,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421990333665280",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4591.285,
+      "y": 10718.569,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528421990514020352",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4591.736,
+      "y": 10716.762,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528423844870344704",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4633.299,
+      "y": 10696.885,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528423845042311168",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4633.299,
+      "y": 10697.788,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528425100615602176",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4648.659,
+      "y": 10706.824,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528425100779180032",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4649.562,
+      "y": 10707.727,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528425100938563584",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4649.562,
+      "y": 10709.534,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528425101097947136",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4649.562,
+      "y": 10710.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528425101261524992",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4651.369,
+      "y": 10709.534,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528425101425102848",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4649.562,
+      "y": 10711.341,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528433012457717760",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4621.553,
+      "y": 10665.261,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528433012575158272",
+      "categoryId": "42601560",
+      "title": "vẻ đẹp ngọc trắng",
+      "x": 4622.456,
+      "y": 10665.261,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528916121699598336",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4228.518,
+      "y": 10275.84,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528916121812844544",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4225.807,
+      "y": 10272.226,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529130080339869696",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4245.685,
+      "y": 10267.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529130080457310208",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4247.492,
+      "y": 10270.419,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529130080570556416",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4245.685,
+      "y": 10272.226,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529135837512843264",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4240.264,
+      "y": 10363.482,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529135837621895168",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4238.456,
+      "y": 10371.614,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529135837726752768",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4241.167,
+      "y": 10377.035,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529135837831610368",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4240.264,
+      "y": 10383.36,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529137046743269376",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4389.346,
+      "y": 10330.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529137046852321280",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4385.732,
+      "y": 10326.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529137046957178880",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4389.346,
+      "y": 10324.631,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529137047066230784",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4392.96,
+      "y": 10326.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529138197526069248",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4420.969,
+      "y": 10744.772,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529139999289364480",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4371.275,
+      "y": 10742.965,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529139999469719552",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4373.082,
+      "y": 10742.965,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529139999645880320",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4377.6,
+      "y": 10742.061,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529141270012481536",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4374.889,
+      "y": 10758.325,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529141413617713152",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4365.854,
+      "y": 10752.904,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529144331242684416",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4439.04,
+      "y": 10798.984,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529144331339153408",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4436.329,
+      "y": 10798.984,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529144331431428096",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4433.619,
+      "y": 10799.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529144331523702784",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4432.715,
+      "y": 10795.369,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529144331615977472",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4435.426,
+      "y": 10794.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529144331708252160",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4438.136,
+      "y": 10794.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529145457388142592",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4270.984,
+      "y": 10732.122,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529146217282129920",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4250.202,
+      "y": 10722.184,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529146217454096384",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4254.72,
+      "y": 10722.184,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529146217621868544",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4260.141,
+      "y": 10728.508,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529146217793835008",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4259.238,
+      "y": 10732.122,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529151605268271104",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4458.918,
+      "y": 10302.042,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529151605440237568",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4459.821,
+      "y": 10296.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529151605612204032",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4464.339,
+      "y": 10296.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529151605779976192",
+      "categoryId": "42601570",
+      "title": "đá hội âm",
+      "x": 4466.146,
+      "y": 10293.911,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526734370306899968",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4118.287,
+      "y": 10451.125,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526735028258979840",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4145.393,
+      "y": 10497.205,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526735259960070144",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4121.901,
+      "y": 10485.459,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526735628568088576",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4118.287,
+      "y": 10452.028,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526746426174590976",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4098.409,
+      "y": 10494.494,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527472352814419968",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4560.113,
+      "y": 10752,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527472826619777024",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4549.271,
+      "y": 10750.193,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527475910155288576",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4570.955,
+      "y": 10722.184,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527476311255928832",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4539.332,
+      "y": 10677.007,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527476596401491968",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4533.007,
+      "y": 10695.078,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527476961993805824",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4538.428,
+      "y": 10697.788,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527477518570209280",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4525.779,
+      "y": 10714.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527477768961769472",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4540.235,
+      "y": 10713.148,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527479259289604096",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4551.981,
+      "y": 10703.209,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417589862846464",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4504.094,
+      "y": 10686.042,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528418176767610880",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4495.962,
+      "y": 10638.155,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528418176952160256",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4497.769,
+      "y": 10642.673,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528423456428113920",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4623.36,
+      "y": 10697.788,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528424205593722880",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4635.106,
+      "y": 10699.595,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528424454822809600",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4635.106,
+      "y": 10719.473,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528433422387367936",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4621.553,
+      "y": 10663.454,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528433422555140096",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4623.36,
+      "y": 10664.358,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528433708980617216",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4611.614,
+      "y": 10707.727,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528434228486459392",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4653.176,
+      "y": 10679.718,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528435084653608960",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4633.299,
+      "y": 10639.962,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528435996498841600",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4675.765,
+      "y": 10592.979,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528437111953670144",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4711.002,
+      "y": 10455.642,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528437112062722048",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4709.195,
+      "y": 10452.932,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528437537750372352",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4700.16,
+      "y": 10434.861,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528437537930727424",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4701.064,
+      "y": 10433.054,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528482440521961472",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4637.816,
+      "y": 10343.605,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528482440685539328",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4633.299,
+      "y": 10340.894,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528484062086676480",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4542.042,
+      "y": 10296.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528911632141762560",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4199.605,
+      "y": 10222.532,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528911632255008768",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4199.605,
+      "y": 10224.339,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528911986099077120",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4176.113,
+      "y": 10208.075,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528915274361458688",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4168.885,
+      "y": 10253.252,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529127473520562176",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4254.72,
+      "y": 10326.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529127473688334336",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4253.816,
+      "y": 10327.341,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529127473856106496",
+      "categoryId": "42601580",
+      "title": "Ye Zhongjiang",
+      "x": 4168.885,
+      "y": 10326.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523069626332467200",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4347.847,
+      "y": 10856.972,
+      "description": "Cả hai cùng nhau chiến đấu chống lại Broken Star Society",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523069673937817600",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4339.887,
+      "y": 10861.743,
+      "description": "Cả hai cùng nhau chiến đấu chống lại Broken Star Society",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523070058127675392",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4311.516,
+      "y": 10802.625,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523070713060507648",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4213.402,
+      "y": 10568.954,
+      "description": "Trong gian hàng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523071140120346624",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4137.035,
+      "y": 10484.591,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523071475794690048",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4209.706,
+      "y": 10141.133,
+      "description": "Ba cùng nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523071531562156032",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4205.749,
+      "y": 10141.874,
+      "description": "Ba cùng nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523071579586936832",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4209.218,
+      "y": 10145.343,
+      "description": "Ba cùng nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523071947251236864",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4456.867,
+      "y": 10209.9,
+      "description": "Tuần tra dọc theo những con đường bị ngắt kết nối",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523072402521964544",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4487.55,
+      "y": 10034.281,
+      "description": "Ba người cùng nhau đi giữa đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523072427854909440",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4487.298,
+      "y": 10040.471,
+      "description": "Ba người cùng nhau đi giữa đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523072451805036544",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4492.005,
+      "y": 10037.995,
+      "description": "Ba người cùng nhau đi giữa đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523072919825797120",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4668.654,
+      "y": 9839.869,
+      "description": "Cả hai cùng nhau chiến đấu chống lại Broken Star Society",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523072964265099264",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4667.163,
+      "y": 9843.086,
+      "description": "Cả hai cùng nhau chiến đấu chống lại Broken Star Society",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523073513010085888",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4832.437,
+      "y": 9808.119,
+      "description": "Hai con sư tử cùng nhau bảo vệ di sản của thủy triều",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523073540528263168",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4840.596,
+      "y": 9809.854,
+      "description": "Hai con sư tử cùng nhau bảo vệ di sản của thủy triều",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523074611812225024",
+      "categoryId": "310000900",
+      "title": "Chiến binh hợp nhất",
+      "x": 4607.295,
+      "y": 10707.167,
+      "description": "Tuần tra dọc đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526646335624036352",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4156.235,
+      "y": 10613.76,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526646335733088256",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4157.139,
+      "y": 10613.76,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526646335842140160",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4156.235,
+      "y": 10614.664,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526646335946997760",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4155.332,
+      "y": 10614.664,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526646336056049664",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4156.235,
+      "y": 10615.567,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526646336160907264",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4156.235,
+      "y": 10616.471,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528485341403922432",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4298.993,
+      "y": 10291.2,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528485341521362944",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4298.541,
+      "y": 10291.2,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528485341634609152",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4298.993,
+      "y": 10290.296,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528485341752049664",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4298.089,
+      "y": 10291.2,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528485341869490176",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4298.089,
+      "y": 10290.296,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486570917351424",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4304.414,
+      "y": 10294.814,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486571110289408",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4303.511,
+      "y": 10294.814,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486571299033088",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4303.511,
+      "y": 10293.911,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486571487776768",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4303.511,
+      "y": 10293.007,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486571676520448",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4302.607,
+      "y": 10293.007,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486865332326400",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4307.125,
+      "y": 10296.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528486865525264384",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4306.221,
+      "y": 10296.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528487112482340864",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4305.769,
+      "y": 10296.621,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528487634508959744",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4304.414,
+      "y": 10293.911,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528488184047321088",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4397.478,
+      "y": 10172.838,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528488184164761600",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4396.574,
+      "y": 10172.838,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528488184282202112",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4396.574,
+      "y": 10172.386,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528489306115264512",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4400.188,
+      "y": 10178.259,
+      "description": "Tuy có chút không rõ ràng nhưng ở đây có tới 4 miếng Minhua Bi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528489306278842368",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4400.188,
+      "y": 10177.355,
+      "description": "Tuy có chút không rõ ràng nhưng ở đây có tới 4 miếng Minhua Bi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528489306438225920",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4400.188,
+      "y": 10176.452,
+      "description": "Tuy có chút không rõ ràng nhưng ở đây có tới 4 miếng Minhua Bi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528489306601803776",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4401.092,
+      "y": 10176.452,
+      "description": "Tuy có chút không rõ ràng nhưng ở đây có tới 4 miếng Minhua Bi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528492606664065024",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4406.513,
+      "y": 10188.198,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528492606781505536",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4405.609,
+      "y": 10188.198,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528492606894751744",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4406.513,
+      "y": 10187.294,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528492607007997952",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4405.609,
+      "y": 10187.294,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528910338412888064",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4102.927,
+      "y": 10267.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528910338509357056",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4102.927,
+      "y": 10266.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528910338601631744",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4103.831,
+      "y": 10266.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913995719495680",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4144.489,
+      "y": 10273.129,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913995887267840",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4144.038,
+      "y": 10273.129,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913996055040000",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4144.038,
+      "y": 10273.581,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913996227006464",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4143.812,
+      "y": 10274.033,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913996394778624",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4143.586,
+      "y": 10274.033,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913996562550784",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4144.489,
+      "y": 10274.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913996734517248",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4145.393,
+      "y": 10274.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913996898095104",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4145.393,
+      "y": 10275.84,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913997065867264",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4145.393,
+      "y": 10276.066,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913997233639424",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4146.296,
+      "y": 10276.292,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528913997401411584",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4145.393,
+      "y": 10276.744,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131952491974656",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4100.216,
+      "y": 10259.576,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131952684912640",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4099.313,
+      "y": 10259.576,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131952882044928",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4099.313,
+      "y": 10258.673,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131953070788608",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4098.409,
+      "y": 10257.769,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131953259532288",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4097.506,
+      "y": 10256.866,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131953448275968",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4098.409,
+      "y": 10256.866,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131953637019648",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4098.409,
+      "y": 10255.962,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529131953850929152",
+      "categoryId": "42601590",
+      "title": "Min Hua Bi",
+      "x": 4097.506,
+      "y": 10255.962,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526747489518735360",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4205.929,
+      "y": 10377.939,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526747489690701824",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4207.736,
+      "y": 10375.228,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527119766974353408",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4262.852,
+      "y": 10789.948,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527365216579080192",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4317.967,
+      "y": 10748.386,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527365426961174528",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4334.231,
+      "y": 10772.781,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527366122850734080",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4361.336,
+      "y": 10771.878,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527366435037626368",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4300.8,
+      "y": 10799.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527366767171325952",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4298.993,
+      "y": 10826.089,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527367104808603648",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4288.151,
+      "y": 10798.08,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527367389031419904",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4288.151,
+      "y": 10791.755,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527441579138863104",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4274.598,
+      "y": 10762.842,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527441788644347904",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4286.344,
+      "y": 10753.807,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527442247736737792",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4211.351,
+      "y": 10689.656,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527479862208221184",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4515.84,
+      "y": 10694.174,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527480277846970368",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4516.744,
+      "y": 10714.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528490722045837312",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4254.72,
+      "y": 10117.722,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528493212304134144",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4477.892,
+      "y": 10271.322,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528493573190438912",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4483.313,
+      "y": 10273.129,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528494275040104448",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4383.021,
+      "y": 10185.487,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528499439788609536",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4465.242,
+      "y": 10145.732,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528500024428449792",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4420.969,
+      "y": 10143.925,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528523538669752320",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4476.988,
+      "y": 9777.092,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528557937516462080",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4519.454,
+      "y": 9789.741,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528558770412310528",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4372.179,
+      "y": 10702.306,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528559121664299008",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4369.468,
+      "y": 10714.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528561621104578560",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4808.584,
+      "y": 9883.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528561621280739328",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4806.776,
+      "y": 9883.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528912544637763584",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4152.621,
+      "y": 10255.962,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528916708175892480",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4257.431,
+      "y": 10274.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529170254200819712",
+      "categoryId": "42601530",
+      "title": "Ngọc chưa cắt",
+      "x": 4390.249,
+      "y": 10136.696,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526614187856740352",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4233.939,
+      "y": 10776.395,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526614187961597952",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4233.939,
+      "y": 10775.492,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526614188062261248",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4233.939,
+      "y": 10775.944,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526614188158730240",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4234.842,
+      "y": 10777.299,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526614188259393536",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4234.842,
+      "y": 10777.751,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362271867293696",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4269.176,
+      "y": 10845.967,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362272043454464",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4269.176,
+      "y": 10846.419,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362272215420928",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4269.176,
+      "y": 10847.774,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362272387387392",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4269.176,
+      "y": 10848.226,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362272559353856",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4268.273,
+      "y": 10848.678,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527364827221839872",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4307.125,
+      "y": 10777.299,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527364827398000640",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4307.125,
+      "y": 10776.395,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527364827569967104",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4307.125,
+      "y": 10774.588,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527364827737739264",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4307.125,
+      "y": 10774.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527364827909705728",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4307.125,
+      "y": 10773.685,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527444459455500288",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4372.179,
+      "y": 10803.501,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527444459619078144",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4373.082,
+      "y": 10803.501,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527444459778461696",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4372.179,
+      "y": 10803.049,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527444459942039552",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4371.275,
+      "y": 10803.501,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527444460101423104",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4370.372,
+      "y": 10802.598,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527445452914802688",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4393.864,
+      "y": 10813.44,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527445453015465984",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4394.767,
+      "y": 10813.44,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527445453116129280",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4394.767,
+      "y": 10813.892,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940235972608",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4395.671,
+      "y": 10781.816,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940336635904",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4394.767,
+      "y": 10781.816,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940437299200",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4394.767,
+      "y": 10778.202,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940537962496",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4394.315,
+      "y": 10778.202,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940634431488",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4393.864,
+      "y": 10777.299,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940735094784",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4392.96,
+      "y": 10777.299,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527446940831563776",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4393.412,
+      "y": 10776.847,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448603847282688",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4370.372,
+      "y": 10760.132,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604010860544",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4368.565,
+      "y": 10758.325,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604174438400",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4367.661,
+      "y": 10758.325,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604333821952",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4367.661,
+      "y": 10757.421,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604497399808",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4367.661,
+      "y": 10756.518,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604656783360",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4367.209,
+      "y": 10756.518,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604816166912",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4366.758,
+      "y": 10755.614,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527448604979744768",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4366.758,
+      "y": 10754.711,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527451882333392896",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4439.944,
+      "y": 10784.979,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527451882509553664",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4439.944,
+      "y": 10784.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527451882685714432",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4439.04,
+      "y": 10784.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527451882857680896",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4441.751,
+      "y": 10781.816,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527451883029647360",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4440.847,
+      "y": 10781.816,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527454333715337216",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4453.045,
+      "y": 10761.939,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527454333887303680",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4453.496,
+      "y": 10762.391,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527454334063464448",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4453.496,
+      "y": 10761.939,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527454334235430912",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4454.4,
+      "y": 10761.035,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527454334407397376",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4454.4,
+      "y": 10760.132,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527457132570853376",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4482.409,
+      "y": 10805.308,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527457132679905280",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4482.409,
+      "y": 10806.212,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527457132788957184",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4481.958,
+      "y": 10808.019,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527457132898009088",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4482.409,
+      "y": 10808.019,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527457133002866688",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4482.409,
+      "y": 10808.471,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528396044889866240",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4461.628,
+      "y": 10745.224,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528396044998918144",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4461.628,
+      "y": 10745.675,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528396045103775744",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4462.532,
+      "y": 10746.127,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528396045208633344",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4463.435,
+      "y": 10747.482,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528396045317685248",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4463.435,
+      "y": 10746.579,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528414479510257664",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4427.294,
+      "y": 10787.238,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528414479602532352",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4428.198,
+      "y": 10787.238,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528414479699001344",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4428.198,
+      "y": 10788.141,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528415539205357568",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4467.049,
+      "y": 10748.386,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528415539326992384",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4467.953,
+      "y": 10748.386,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417159892160512",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4498.673,
+      "y": 10736.64,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417160068321280",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4498.673,
+      "y": 10735.736,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417160244482048",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4498.673,
+      "y": 10734.833,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417160420642816",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4497.769,
+      "y": 10734.833,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417160592609280",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4498.673,
+      "y": 10733.026,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417160764575744",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4498.673,
+      "y": 10732.122,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1528417160940736512",
+      "categoryId": "42601540",
+      "title": "Đặng Thanh Vân",
+      "x": 4497.769,
+      "y": 10732.122,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362636944359424",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4292.668,
+      "y": 10839.642,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527362637049217024",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4291.765,
+      "y": 10840.546,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527363284225478656",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4300.8,
+      "y": 10809.826,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527363284397445120",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4299.896,
+      "y": 10808.019,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527363284573605888",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4300.8,
+      "y": 10807.115,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527363523221114880",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4301.704,
+      "y": 10798.08,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1527363523401469952",
+      "categoryId": "42601550",
+      "title": "Lục Hợp Doanh",
+      "x": 4302.607,
+      "y": 10798.08,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524825045728608256",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4250.202,
+      "y": 9723.784,
+      "description": "Để nó trong không khí và thu thập nó",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524825632243302400",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4257.431,
+      "y": 9754.504,
+      "description": "Để nó trong không khí và thu thập nó",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524825632364937216",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4261.045,
+      "y": 9756.311,
+      "description": "Để nó trong không khí và thu thập nó",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524826315926786048",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4234.842,
+      "y": 9747.275,
+      "description": "Có thể thu thập trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524826316102946816",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4236.649,
+      "y": 9741.854,
+      "description": "Có thể thu thập trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524827745841168384",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4439.944,
+      "y": 9984,
+      "description": "Treo trong không khí, có thể được thu thập trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524827745946025984",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4441.751,
+      "y": 9989.421,
+      "description": "Treo trong không khí, có thể được thu thập trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524827746046689280",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4434.522,
+      "y": 9993.939,
+      "description": "Treo trong không khí, có thể được thu thập trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524827746151546880",
+      "categoryId": "42601600",
+      "title": "Tề Vân Nghĩa",
+      "x": 4430.908,
+      "y": 9995.746,
+      "description": "Treo trong không khí, có thể được thu thập trực tiếp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544081907531776",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4241.411,
+      "y": 10457.332,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544498074763264",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4235.475,
+      "y": 10188.695,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544528017248256",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4241.908,
+      "y": 10192.652,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524545636064284672",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4703.458,
+      "y": 9855.726,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524552784429826048",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4296.734,
+      "y": 10081.111,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524552804830920704",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4312.41,
+      "y": 10073.603,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524553189859639296",
+      "categoryId": "310001010",
+      "title": "Jixi Beast Zun·Đầu",
+      "x": 4727.591,
+      "y": 10625.714,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544052501266432",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4236.46,
+      "y": 10464.018,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544567096229888",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4234.734,
+      "y": 10193.89,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544863192469504",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4744.198,
+      "y": 10468.599,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544891399815168",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4743.349,
+      "y": 10484.799,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524545607233290240",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4707.704,
+      "y": 9851.75,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524545880416047104",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4844.806,
+      "y": 9823.118,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524545929879474176",
+      "categoryId": "320000670",
+      "title": "Chúa tể quái thú Ji Breath",
+      "x": 4846.134,
+      "y": 9807.477,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522919158910926848",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4434.522,
+      "y": 10669.779,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522919159011590144",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4434.974,
+      "y": 10669.779,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522919159112253440",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4434.522,
+      "y": 10672.489,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522919159208722432",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4435.426,
+      "y": 10672.489,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522919754212036608",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4445.365,
+      "y": 10668.875,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522919885451808768",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4448.979,
+      "y": 10670.682,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523133826434060288",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4393.864,
+      "y": 10330.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523133826597638144",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4393.864,
+      "y": 10331.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523134847563186176",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4384.828,
+      "y": 10330.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523134847676432384",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4383.925,
+      "y": 10330.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523134847781289984",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4383.925,
+      "y": 10330.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523135341673168896",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4371.275,
+      "y": 10331.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523135341773832192",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4370.824,
+      "y": 10331.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523135736847257600",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4373.082,
+      "y": 10328.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1523135737023418368",
+      "categoryId": "42601620",
+      "title": "Shiraren Shigeru",
+      "x": 4373.986,
+      "y": 10327.341,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522939790847492096",
+      "categoryId": "4028",
+      "title": "Chiến lược ba chiều·Bài tập võ thuật",
+      "x": 4620.089,
+      "y": 10470.885,
+      "description": "Nó có thể được mở khóa sau khi hoàn thành nhiệm vụ và phát lại bộ phim chiến tranh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524180942951137280",
+      "categoryId": "pzsf",
+      "title": "Gió băng phá vỡ rào cản",
+      "x": 4066.054,
+      "y": 10340.948,
+      "description": "Bắt đầu thử thách sau khi đến gần mốc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524838688453148672",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4244.781,
+      "y": 9733.722,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524838979151970304",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4246.588,
+      "y": 9994.842,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524839323596603392",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4510.419,
+      "y": 9883.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524841855923769344",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4128.226,
+      "y": 10077.064,
+      "description": "Tương tác với đầu sư tử",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524885714997985280",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4119.191,
+      "y": 10182.776,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524886519863951360",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4613.421,
+      "y": 10174.645,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524886753469906944",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4709.195,
+      "y": 10211.689,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524887386574929920",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4747.144,
+      "y": 10330.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524887708294172672",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4510.419,
+      "y": 10479.134,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524887950586531840",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4233.939,
+      "y": 10317.402,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524888293596712960",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4185.148,
+      "y": 10507.144,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524903034466189312",
+      "categoryId": "wzdly",
+      "title": "Lương Nguyên vô chủ",
+      "x": 4624.264,
+      "y": 10467.388,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524544115726204928",
+      "categoryId": "310001000",
+      "title": "Ji Breath Beast Zun ·Thân thể",
+      "x": 4240.417,
+      "y": 10464.759,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524552838389547008",
+      "categoryId": "310001000",
+      "title": "Ji Breath Beast Zun ·Thân thể",
+      "x": 4307.188,
+      "y": 10075.564,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524553158611423232",
+      "categoryId": "310001000",
+      "title": "Ji Breath Beast Zun ·Thân thể",
+      "x": 4724.619,
+      "y": 10620.762,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524181971843268608",
+      "categoryId": "cxxj",
+      "title": "cưa tra tấn bị cắt xẻo",
+      "x": 4715.692,
+      "y": 10695.918,
+      "description": "Bắt đầu thử thách sau khi đến gần mốc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522945084344352768",
+      "categoryId": "3530001",
+      "title": "Tòa án của sự mất mát và rắc rối",
+      "x": 4039.102,
+      "y": 10310.472,
+      "description": "Trong Jiu Garden ngày càng phát triển, một cơ thể to lớn gồm vô số ý chí vặn vẹo đang bị giam cầm.\nHãy lắng nghe tiếng nói thực sự của họ và mang lại sự nhẹ nhõm cho những tâm hồn trong quá khứ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524462659519107072",
+      "categoryId": "68",
+      "title": "Nhận hộp chẵn",
+      "x": 4230.325,
+      "y": 9993.035,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524470022247137280",
+      "categoryId": "68",
+      "title": "Nhận hộp chẵn",
+      "x": 4239.36,
+      "y": 10253.252,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524471063848009728",
+      "categoryId": "68",
+      "title": "Nhận hộp chẵn",
+      "x": 4622.456,
+      "y": 10297.525,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524556250552320000",
+      "categoryId": "69",
+      "title": "Fang Ting Yanwu",
+      "x": 4331.52,
+      "y": 10799.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524557069745377280",
+      "categoryId": "69",
+      "title": "Fang Ting Yanwu",
+      "x": 4563.727,
+      "y": 9858.409,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524560017217667072",
+      "categoryId": "71",
+      "title": "Kho báu ẩn giấu nguy hiểm",
+      "x": 4563.727,
+      "y": 9708.424,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524560539705659392",
+      "categoryId": "71",
+      "title": "Kho báu ẩn giấu nguy hiểm",
+      "x": 4127.322,
+      "y": 10135.793,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524560868660727808",
+      "categoryId": "71",
+      "title": "Kho báu ẩn giấu nguy hiểm",
+      "x": 4212.254,
+      "y": 10328.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524561277261434880",
+      "categoryId": "71",
+      "title": "Kho báu ẩn giấu nguy hiểm",
+      "x": 4456.207,
+      "y": 10761.035,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524563073103675392",
+      "categoryId": "71",
+      "title": "Kho báu ẩn giấu nguy hiểm",
+      "x": 4083.049,
+      "y": 10477.327,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524563445385252864",
+      "categoryId": "71",
+      "title": "Kho báu ẩn giấu nguy hiểm",
+      "x": 4628.781,
+      "y": 10062.607,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1529907262932316160",
+      "categoryId": "wbwx",
+      "title": "Không có niềm vui hay nỗi buồn",
+      "x": 4509,
+      "y": 10507.731,
+      "description": "Tầng 56 · 需完成危行任务·雾锁机伶后进入该区域进行挑战",
+      "floorId": "56",
+      "levelId": "-4/56"
+    },
+    {
+      "id": "kuro:1524576003353726976",
+      "categoryId": "72",
+      "title": "rèm chuyển hướng",
+      "x": 4234.842,
+      "y": 10317.402,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524577291689377792",
+      "categoryId": "72",
+      "title": "rèm chuyển hướng",
+      "x": 4472.471,
+      "y": 10705.92,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524572854413541376",
+      "categoryId": "73",
+      "title": "ghế thiền",
+      "x": 4034.259,
+      "y": 10357.158,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524573075956027392",
+      "categoryId": "73",
+      "title": "ghế thiền",
+      "x": 4214.965,
+      "y": 10238.795,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524573254234918912",
+      "categoryId": "73",
+      "title": "ghế thiền",
+      "x": 4579.991,
+      "y": 9715.652,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524735557865558016",
+      "categoryId": "77",
+      "title": "Thử thách cưỡi máy siêu đám mây",
+      "x": 4465.242,
+      "y": 9982.193,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524096643354054656",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4092.085,
+      "y": 10530.635,
+      "description": "Rương kho báu của nhiệm vụ nằm trong ô màu đỏ ở hình thứ hai. Sẽ có hướng dẫn nhiệm vụ khi bạn đến gần nó. NPC nhiệm vụ ở phía bên trái của rương kho báu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524116936604766208",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4336.038,
+      "y": 10867.652,
+      "description": "Không cần phải tiêu diệt quái vật, chỉ cần trực tiếp tiêu diệt chúng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524117436930707456",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4456.207,
+      "y": 10759.228,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524118035524997120",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4750.758,
+      "y": 10351.736,
+      "description": "Không cần phải tiêu diệt quái vật, chỉ cần trực tiếp tiêu diệt chúng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524145311767580672",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4203.219,
+      "y": 10452.028,
+      "description": "Không cần phải tiêu diệt quái vật, chỉ cần trực tiếp tiêu diệt chúng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524146617336975360",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4284.536,
+      "y": 10302.042,
+      "description": "Đây là rương thử thách. Địa điểm thử thách nằm trong hình ảnh thứ hai và thứ ba. Sẽ có một hướng dẫn nhiệm vụ màu tím gần đó.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524147597419991040",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4212.254,
+      "y": 10325.534,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524152689959358464",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4125.515,
+      "y": 10137.6,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524153815068823552",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4212.254,
+      "y": 9848.471,
+      "description": "Chỉ cần mang nó đi ngay lập tức, không cần phải dọn dẹp con quái vật.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524157224233320448",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4603.482,
+      "y": 10258.673,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524183874413117440",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4630.281,
+      "y": 10063.511,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524183874513780736",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4634.202,
+      "y": 10064.414,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524517276534292480",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4309.835,
+      "y": 10448.414,
+      "description": "Tầng 56 · 这个宝箱需要把雾隐阁全部支线任务搞定，然后中间位置采会开启向下的电梯，之后跟着任务一直走，走到第二张图秧秧的位置，暂时别跟着任务跑，朝前方一直走。",
+      "floorId": "56",
+      "levelId": "-2/56"
+    },
+    {
+      "id": "kuro:1524522669029310464",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4405.609,
+      "y": 10452.028,
+      "description": "Tầng 56 · 这个宝箱需要把雾隐阁全部支线任务搞定，然后中间位置采会开启向下的电梯，之后跟着任务一直走，走到第二张图电梯这个位置，先去到最下面，走下去就行，有一个基准宝箱。。",
+      "floorId": "56",
+      "levelId": "-3/56"
+    },
+    {
+      "id": "kuro:1526609257964093440",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4259.238,
+      "y": 10507.144,
+      "description": "Tầng 57 · 雾隐阁系列任务得最后，在中央区域会开放两个电梯，也就是第三张图的位置，下电梯，之后就会来到第二张图的位置，进入那个水帘洞；进到这里之后，会看到一个任务指引，需要点灯，之后这个基准宝箱就出现了。",
+      "floorId": "57",
+      "levelId": "-1/57"
+    },
+    {
+      "id": "kuro:1531769505397686272",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4156.371,
+      "y": 10248.571,
+      "description": "Rương thử thách",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1531769830846316544",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4486.683,
+      "y": 9805.309,
+      "description": "Rương thử thách",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524116498765565952",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4353.205,
+      "y": 10786.334,
+      "description": "Chơi một trò chơi nhỏ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524117516710563840",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4458.014,
+      "y": 10760.132,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524143287172845568",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4085.76,
+      "y": 10475.52,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524147707163955200",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4209.544,
+      "y": 10325.534,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524152990921641984",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4130.033,
+      "y": 10136.696,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524179850687266816",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4589.026,
+      "y": 9828.593,
+      "description": "Chơi một trò chơi nhỏ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524180542746775552",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4563.727,
+      "y": 9703.906,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524183600621535232",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4631.609,
+      "y": 10063.33,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524519651928031232",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4308.028,
+      "y": 10647.191,
+      "description": "Tầng 56 · 这个宝箱需要把雾隐阁全部支线任务搞定，然后中间位置采会开启向下的电梯，之后跟着任务一直走，走到千小妹这里，在千小妹这张图的右上角那个板子上，有个精密宝箱，帮助机器人过来，自动获取。。",
+      "floorId": "56",
+      "levelId": "-3/56"
+    },
+    {
+      "id": "kuro:1524117346514096128",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4454.4,
+      "y": 10759.228,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524135058460102656",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4508.612,
+      "y": 10479.134,
+      "description": "Mái nhà cao nhất của tòa nhà tại vị trí dấu chấm câu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524139601440788480",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4044.198,
+      "y": 10458.353,
+      "description": "Điểm cao nhất của cột thác.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524143434926243840",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4084.856,
+      "y": 10478.231,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524143983301480448",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4086.664,
+      "y": 10474.616,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524147187187699712",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4214.965,
+      "y": 10326.438,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524152862999564288",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4127.322,
+      "y": 10136.696,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524180389869240320",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4561.92,
+      "y": 9703.906,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524180389974097920",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4565.534,
+      "y": 9703.002,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524488004024651776",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4157.139,
+      "y": 10507.144,
+      "description": "Tầng 58 · 先接取雾隐阁的任务，然后从第二张图红框位置的雾隐阁入口进入，顺着任务指引走，开了第一个门就能看到。",
+      "floorId": "58",
+      "levelId": "-1/58"
+    },
+    {
+      "id": "kuro:1524512789307838464",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4196.894,
+      "y": 10579.426,
+      "description": "Tầng 56 · 这个宝箱需要把雾隐阁全部支线任务搞定，然后中间位置采会开启向下的电梯，出了电梯右拐，开一下扫描。",
+      "floorId": "56",
+      "levelId": "-3/56"
+    },
+    {
+      "id": "kuro:1524515248608628736",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4383.021,
+      "y": 10531.539,
+      "description": "Tầng 56 · 这个宝箱需要把雾隐阁全部支线任务搞定，然后中间位置采会开启向下的电梯，之后跟着任务一直走，走到第二张图秧秧的位置，暂时别跟着任务跑，朝秧秧左上交心月狐的位置走，开扫描。",
+      "floorId": "56",
+      "levelId": "-3/56"
+    },
+    {
+      "id": "kuro:1524516356777951232",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4327.906,
+      "y": 10421.308,
+      "description": "Tầng 56 · 这个宝箱需要把雾隐阁全部支线任务搞定，然后中间位置采会开启向下的电梯，之后跟着任务一直走，走到第二张图秧秧的位置，暂时别跟着任务跑，朝秧秧面前最远方的亭子，一直走。",
+      "floorId": "56",
+      "levelId": "-3/56"
+    },
+    {
+      "id": "kuro:1526608470311550976",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4243.878,
+      "y": 10489.976,
+      "description": "Tầng 57 · 雾隐阁系列任务得最后，在中央区域会开放两个电梯，也就是第三张图的位置，下电梯，之后就会来到第二张图的位置，进入那个水帘洞，然后开扫描。",
+      "floorId": "57",
+      "levelId": "-1/57"
+    },
+    {
+      "id": "kuro:1526609969292886016",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4284.536,
+      "y": 10490.88,
+      "description": "Tầng 57 · 雾隐阁系列任务得最后，在中央区域会开放两个电梯，也就是第三张图的位置，下电梯，之后就会来到第二张图的位置，进入那个引歧帘，然后开扫描。",
+      "floorId": "57",
+      "levelId": "-1/57"
+    },
+    {
+      "id": "kuro:1524137097898479616",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4074.014,
+      "y": 10294.814,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524138997821722624",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4062.268,
+      "y": 10339.087,
+      "description": "Để thách thức rương kho báu, bạn cần đánh bại quái vật màu đỏ.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524151738561187840",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4229.421,
+      "y": 10203.558,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524178817977667584",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4854.664,
+      "y": 9810.522,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524472584441942016",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4718.231,
+      "y": 10699.595,
+      "description": "Con quái vật màu đỏ thách thức rương kho báu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1524481633250820096",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4590.833,
+      "y": 10154.767,
+      "description": "Người kể chuyện: \"Chisaki! Bạn đã làm gì vậy! Làm sao chúng ta có thể chiến đấu chống lại sự tiêu diệt của quái vật màu đỏ khi không có chủ nhân!\" Chisaki cười nhạt, giọng điệu bình thản nhưng đầy kiêu ngạo: \"Đơn giản, nếu tôi làm chủ thì tốt hơn.\" Nói xong, khí chất của cô cuối cùng không còn che giấu nữa mà lộ ra. Sáu mạng tu luyện!",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526600365212684288",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4513.129,
+      "y": 10507.144,
+      "description": "Tầng 56 · 先做完“雾锁机伶”，然后再来一遍这里，就能刷新怪物。",
+      "floorId": "56",
+      "levelId": "-4/56"
+    },
+    {
+      "id": "kuro:1524179068906749952",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 4853.76,
+      "y": 9809.619,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1536148585297408000",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 4231.752,
+      "y": 10774.272,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522397918081171456",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4141.779,
+      "y": 10220.725,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522398479560065024",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4737.205,
+      "y": 10321.016,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522399118591639552",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4422.776,
+      "y": 9924.367,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1522399804586835968",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4819.426,
+      "y": 9895.454,
+      "levelId": "0"
+    }
+  ]
+}

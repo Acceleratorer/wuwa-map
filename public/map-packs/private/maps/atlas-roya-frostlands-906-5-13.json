@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-roya-frostlands-906-5-13",
+  "progressMapId": "wuwa-kuro-state-906",
+  "title": "Mawburrow Desert",
+  "subtitle": "113 vị trí · 17 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/906/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 11,
+    "rows": 10,
+    "availableTiles": [
+      "5,-1",
+      "5,-2",
+      "5,-3",
+      "5,-4",
+      "4,-1",
+      "4,-2",
+      "4,-3",
+      "4,-4",
+      "6,-1",
+      "6,-2",
+      "6,-3",
+      "6,-4",
+      "7,-1",
+      "7,-2",
+      "7,-3",
+      "7,-4",
+      "8,-1",
+      "8,-2",
+      "8,-3",
+      "8,-4",
+      "9,-1",
+      "9,-2",
+      "9,-3",
+      "9,-4"
+    ]
+  },
+  "bounds": {
+    "minX": 3072,
+    "minY": 4608,
+    "maxX": 7680,
+    "maxY": 7680
+  },
+  "initialView": {
+    "minX": 4238.455999999999,
+    "minY": 5528.696,
+    "maxX": 6350.005,
+    "maxY": 6723.352000000001
+  },
+  "areas": [
+    {
+      "id": "whole-map",
+      "label": "Toàn khu vực",
+      "bounds": {
+        "minX": 4238.455999999999,
+        "minY": 5528.696,
+        "maxX": 6350.005,
+        "maxY": 6723.352000000001
+      },
+      "markerIds": [
+        "kuro:1453139342074785792",
+        "kuro:1458601434672156672",
+        "kuro:1526360029421486080",
+        "kuro:1454512882371997696",
+        "kuro:1454512882527186944",
+        "kuro:1454512882682376192",
+        "kuro:1454512882837565440",
+        "kuro:1454512882992754688",
+        "kuro:1454512883143749632",
+        "kuro:1454512883298938880",
+        "kuro:1454512883449933824",
+        "kuro:1454515826226163712",
+        "kuro:1454515826322632704",
+        "kuro:1454515826410713088",
+        "kuro:1454515826507182080",
+        "kuro:1454515826599456768",
+        "kuro:1454516346391162880",
+        "kuro:1454516346491826176",
+        "kuro:1454517275580493824",
+        "kuro:1454517275693740032",
+        "kuro:1454517275790209024",
+        "kuro:1454517275890872320",
+        "kuro:1454517275987341312",
+        "kuro:1454517276083810304",
+        "kuro:1454520592507400192",
+        "kuro:1454520779172687872",
+        "kuro:1454522564201361408",
+        "kuro:1454522564360744960",
+        "kuro:1454522564520128512",
+        "kuro:1454522564675317760",
+        "kuro:1454522564838895616",
+        "kuro:1454522564998279168",
+        "kuro:1454522565157662720",
+        "kuro:1454522565317046272",
+        "kuro:1454522565476429824",
+        "kuro:1454522565635813376",
+        "kuro:1454522565795196928",
+        "kuro:1454522565954580480",
+        "kuro:1454522566113964032",
+        "kuro:1454522566273347584",
+        "kuro:1454524966900019200",
+        "kuro:1454524967059402752",
+        "kuro:1454524967210397696",
+        "kuro:1454524967361392640",
+        "kuro:1454524967512387584",
+        "kuro:1454524967659188224",
+        "kuro:1454524967814377472",
+        "kuro:1454524967965372416",
+        "kuro:1454524968116367360",
+        "kuro:1454524968267362304",
+        "kuro:1454524968422551552",
+        "kuro:1454524968573546496",
+        "kuro:1454524968724541440",
+        "kuro:1451574826711068672",
+        "kuro:1454165785776959488",
+        "kuro:1454168539463364608",
+        "kuro:1452804372785475584",
+        "kuro:1452804403777187840",
+        "kuro:1459705965443174400",
+        "kuro:1459705965602557952",
+        "kuro:1459705965761941504",
+        "kuro:1459706265130389504",
+        "kuro:1459706413428396032",
+        "kuro:1459706413591973888",
+        "kuro:1459706946578448384",
+        "kuro:1459706946679111680",
+        "kuro:1459707204196794368",
+        "kuro:1459707424184356864",
+        "kuro:1460065059387113472",
+        "kuro:1460065059487776768",
+        "kuro:1460066414433030144",
+        "kuro:1460066414584025088",
+        "kuro:1460066901814837248",
+        "kuro:1460066901915500544",
+        "kuro:1460067834275725312",
+        "kuro:1460068043084955648",
+        "kuro:1455274312826302464",
+        "kuro:1452687428174426112",
+        "kuro:1452687658005508096",
+        "kuro:1454508725405691904",
+        "kuro:1459324975256326144",
+        "kuro:1459324975415709696",
+        "kuro:1459324975591870464",
+        "kuro:1459325973630189568",
+        "kuro:1459325973730852864",
+        "kuro:1459327260971139072",
+        "kuro:1459327261067608064",
+        "kuro:1459327414562357248",
+        "kuro:1459336579225649152",
+        "kuro:1459336579322118144",
+        "kuro:1459336579418587136",
+        "kuro:1459336579519250432",
+        "kuro:1459336579619913728",
+        "kuro:1459337157662625792",
+        "kuro:1451986727676882944",
+        "kuro:1451986757498384384",
+        "kuro:1451222078694043648",
+        "kuro:1453876775095578624",
+        "kuro:1453891626733989888",
+        "kuro:1453912067104108544",
+        "kuro:1454083359918731264",
+        "kuro:1452433716506062848",
+        "kuro:1452769507371446272",
+        "kuro:1452769616834392064",
+        "kuro:1461152219989180416",
+        "kuro:1461152488172978176",
+        "kuro:1461152591252193280",
+        "kuro:1461152690141810688",
+        "kuro:1461152809272627200",
+        "kuro:1461154615901454336",
+        "kuro:1461154742540587008",
+        "kuro:1454147679792869376",
+        "kuro:1454147679964835840"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "activities",
+      "label": "Hoạt động",
+      "icon": "activity"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_03",
+    "qzx_01"
+  ],
+  "categories": [
+    {
+      "id": "44",
+      "label": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/e097e7ee241d0df585b8.webp"
+    },
+    {
+      "id": "48",
+      "label": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/27884400d395ddbb48f2.webp"
+    },
+    {
+      "id": "42601320",
+      "label": "nón thông",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/fee3f58b53fbebbed661.webp"
+    },
+    {
+      "id": "qzx_03",
+      "label": "Rương tinh xảo",
+      "color": "#f07e83",
+      "symbol": "3",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
+    },
+    {
+      "id": "qzx_01",
+      "label": "Rương đơn sơ",
+      "color": "#6cc8ee",
+      "symbol": "1",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
+    },
+    {
+      "id": "320000560",
+      "label": "Bóng sắt ẩn giấu",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a076ebbea8a998c1cc94.webp"
+    },
+    {
+      "id": "42601370",
+      "label": "gỗ ngọc bích",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/f3c48bc96d3e101e12a8.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "cx_02",
+      "label": "Di sản thủy triều·Tím",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
+    },
+    {
+      "id": "42601410",
+      "label": "Mỏ đá nhiễu xạ",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/15021eaf6954d11f1371.webp"
+    },
+    {
+      "id": "320000580",
+      "label": "Ảo ảnh gió",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/61eabca2fa1c0fc4b40e.webp"
+    },
+    {
+      "id": "IconMap_WYQ",
+      "label": "vùng im lặng",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/16e450d745d806079f04.webp"
+    },
+    {
+      "id": "zscj",
+      "label": "Tàn dư cuối cùng",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/ed9ef2e8c51bdc5d12e2.webp"
+    },
+    {
+      "id": "CS_01",
+      "label": "Hub Beacon",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
+    },
+    {
+      "id": "320000530",
+      "label": "Móng sắt công nghiệp nặng",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/90f9a0e66f0c6d41fe06.webp"
+    },
+    {
+      "id": "310000790",
+      "label": "Loại Rock Spider S4",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/30c2306bf43b2db6a700.webp"
+    },
+    {
+      "id": "42",
+      "label": "Riling",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/737a517c7fc367ccb974.webp"
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1453139342074785792",
+      "categoryId": "44",
+      "title": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "x": 5353.574,
+      "y": 5938.646,
+      "description": "Sau khi hoàn thành việc giải mã, bạn có thể nhận được 15 sao và các phần thưởng khác",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458601434672156672",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 5354.207,
+      "y": 5937.218,
+      "description": "Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526360029421486080",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 4589.975,
+      "y": 6188.86,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512882371997696",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5044.405,
+      "y": 5994.918,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512882527186944",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5045.308,
+      "y": 5992.207,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512882682376192",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5047.115,
+      "y": 5992.207,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512882837565440",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5046.212,
+      "y": 5994.014,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512882992754688",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5048.019,
+      "y": 5994.014,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512883143749632",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5046.212,
+      "y": 5994.918,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512883298938880",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5046.212,
+      "y": 5995.821,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454512883449933824",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5045.308,
+      "y": 5996.725,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454515826226163712",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5037.176,
+      "y": 5993.111,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454515826322632704",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5038.08,
+      "y": 5994.014,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454515826410713088",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5038.984,
+      "y": 5994.918,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454515826507182080",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5037.176,
+      "y": 5995.821,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454515826599456768",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5038.984,
+      "y": 5997.628,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454516346391162880",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4999.228,
+      "y": 6040.998,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454516346491826176",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5000.132,
+      "y": 6040.094,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454517275580493824",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5003.746,
+      "y": 6034.673,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454517275693740032",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5001.939,
+      "y": 6031.962,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454517275790209024",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5000.132,
+      "y": 6032.866,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454517275890872320",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5000.132,
+      "y": 6033.769,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454517275987341312",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4999.228,
+      "y": 6035.576,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454517276083810304",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5001.035,
+      "y": 6036.48,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454520592507400192",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4806.776,
+      "y": 6053.647,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454520779172687872",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4807.68,
+      "y": 6050.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522564201361408",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4808.584,
+      "y": 6047.322,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522564360744960",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4808.584,
+      "y": 6046.419,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522564520128512",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4806.776,
+      "y": 6046.419,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522564675317760",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4806.776,
+      "y": 6045.515,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522564838895616",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4804.969,
+      "y": 6045.515,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522564998279168",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4804.969,
+      "y": 6047.322,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522565157662720",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4803.162,
+      "y": 6045.515,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522565317046272",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4809.487,
+      "y": 6045.515,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522565476429824",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4808.584,
+      "y": 6044.612,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522565635813376",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4808.584,
+      "y": 6043.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522565795196928",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4808.584,
+      "y": 6042.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522565954580480",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4807.68,
+      "y": 6043.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522566113964032",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4806.776,
+      "y": 6043.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454522566273347584",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4810.391,
+      "y": 6043.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524966900019200",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4793.224,
+      "y": 6128.64,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967059402752",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4792.32,
+      "y": 6128.64,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967210397696",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4791.416,
+      "y": 6129.544,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967361392640",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4790.513,
+      "y": 6128.64,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967512387584",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4789.609,
+      "y": 6129.544,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967659188224",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4790.513,
+      "y": 6130.447,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967814377472",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4791.416,
+      "y": 6131.351,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524967965372416",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4790.513,
+      "y": 6132.254,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524968116367360",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4785.092,
+      "y": 6128.64,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524968267362304",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4785.995,
+      "y": 6128.64,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524968422551552",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4786.899,
+      "y": 6129.544,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524968573546496",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4785.995,
+      "y": 6130.447,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454524968724541440",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4787.802,
+      "y": 6131.351,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451574826711068672",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 5909.082,
+      "y": 6268.687,
+      "description": "Nhiệm vụ nguy hiểm \"Lost Music\", một trong những phần thưởng nhiệm vụ của \"Giúp Xiaofa tìm bạn đời\".",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454165785776959488",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5310.042,
+      "y": 5863.906,
+      "description": "Sử dụng chức năng tiết lộ để lộ bộ xương nhện đá. Có một rương kho báu ở bên trái và một con quái vật ở bên phải.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454168539463364608",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5044.658,
+      "y": 5919.916,
+      "description": "Hãy quét sạch lũ quái vật trước ngôi nhà nhỏ này và rương kho báu này sẽ xuất hiện.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452804372785475584",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4572.925,
+      "y": 6226.827,
+      "description": "Hai (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452804403777187840",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4566.23,
+      "y": 6233.838,
+      "description": "Hai (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459705965443174400",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4935.078,
+      "y": 6106.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459705965602557952",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4935.981,
+      "y": 6105.148,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459705965761941504",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4936.885,
+      "y": 6104.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459706265130389504",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4932.367,
+      "y": 6097.016,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459706413428396032",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4931.464,
+      "y": 6101.534,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459706413591973888",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4930.56,
+      "y": 6102.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459706946578448384",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4924.235,
+      "y": 6138.579,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459706946679111680",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4924.235,
+      "y": 6137.675,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459707204196794368",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4917.911,
+      "y": 6150.325,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459707424184356864",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4909.779,
+      "y": 6151.228,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460065059387113472",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4561.92,
+      "y": 6235.256,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460065059487776768",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4561.016,
+      "y": 6236.16,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460066414433030144",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4686.607,
+      "y": 6214.475,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460066414584025088",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4686.155,
+      "y": 6214.475,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460066901814837248",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4682.089,
+      "y": 6241.581,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460066901915500544",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4682.089,
+      "y": 6240.678,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460067834275725312",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4673.054,
+      "y": 6227.125,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1460068043084955648",
+      "categoryId": "42601370",
+      "title": "gỗ ngọc bích",
+      "x": 4662.212,
+      "y": 6226.221,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1455274312826302464",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 5293.779,
+      "y": 6061.779,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452687428174426112",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 4847.435,
+      "y": 6129.544,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452687658005508096",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 4935.981,
+      "y": 6099.727,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454508725405691904",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 5847.642,
+      "y": 6210.861,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459324975256326144",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5822.344,
+      "y": 6200.019,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459324975415709696",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5824.151,
+      "y": 6202.729,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459324975591870464",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5825.054,
+      "y": 6203.633,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459325973630189568",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5823.247,
+      "y": 6186.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459325973730852864",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5822.344,
+      "y": 6186.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459327260971139072",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5844.932,
+      "y": 6176.527,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459327261067608064",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5844.028,
+      "y": 6181.045,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459327414562357248",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5844.028,
+      "y": 6180.141,
+      "description": "Quặng lớn, nghiền nát để lấy 6 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459336579225649152",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5812.405,
+      "y": 6186.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459336579322118144",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5810.598,
+      "y": 6186.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459336579418587136",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5810.598,
+      "y": 6184.659,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459336579519250432",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5806.08,
+      "y": 6181.948,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459336579619913728",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5805.176,
+      "y": 6181.045,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459337157662625792",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5807.887,
+      "y": 6184.659,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451986727676882944",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 5850.705,
+      "y": 6211.177,
+      "description": "Legacy of Tides thách thức hai người này",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451986757498384384",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 5850.064,
+      "y": 6219.363,
+      "description": "Legacy of Tides thách thức hai người này",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451222078694043648",
+      "categoryId": "IconMap_WYQ",
+      "title": "vùng im lặng",
+      "x": 5939.983,
+      "y": 6400.792,
+      "description": "Vùng im lặng sâu ở bụng của Cryptobeak\nSát thương nhiễu xạ của nhân vật được tăng lên và sát thương dẫn điện của kẻ địch giảm đi.\nVùng nguy hiểm này ra đời cùng với hiện tượng nước biển xâm thực. Các dây âm thanh màu trắng và các vết âm thanh khổng lồ ở trung tâm khu vực là đặc điểm nổi bật nhất của nó. Ngoài những dư ảnh nguy hiểm, còn ẩn chứa những vật chất quý giá bên trong chúng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453876775095578624",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4898.033,
+      "y": 6072.621,
+      "description": "Nằm ở giữa không trung. Bạn có thể sử dụng mô tô nghiên cứu khoa học trên mặt đất để tương tác với máy bay không người lái neo ở phía bên phải của bức tranh. Khi bạn đến gần, hãy sử dụng Mỏ Neo Viêng Chăn để lấy cuộn giấy cuối cùng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453891626733989888",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4773.346,
+      "y": 6135.868,
+      "description": "Nằm trên cành cây trong tự nhiên",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453912067104108544",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 5882.88,
+      "y": 6209.958,
+      "description": "Nằm trên cành cây trong tự nhiên",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454083359918731264",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 5803.369,
+      "y": 6204.536,
+      "description": "Nằm trên một cành cây trong tự nhiên. Sau khi dịch chuyển từ đèn hiệu trung tâm gần đó, bạn sẽ có thể nhìn thấy nó bằng cách đi hai bước về phía tây bắc.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452433716506062848",
+      "categoryId": "CS_01",
+      "title": "Hub Beacon",
+      "x": 5876.555,
+      "y": 6275.915,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452769507371446272",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 6027.445,
+      "y": 6252.424,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452769616834392064",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 6023.831,
+      "y": 6256.941,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461152219989180416",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5937.092,
+      "y": 6177.431,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461152488172978176",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5928.96,
+      "y": 6231.642,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461152591252193280",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5924.442,
+      "y": 6238.871,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461152690141810688",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5928.96,
+      "y": 6246.099,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461152809272627200",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5934.381,
+      "y": 6240.678,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461154615901454336",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5323.595,
+      "y": 5851.256,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461154742540587008",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5319.078,
+      "y": 5871.134,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454147679792869376",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 5928.056,
+      "y": 6282.24,
+      "description": "Điểm này chính là vị trí đứng thực tế của Thần Mặt trời. Sau khi sử dụng Sound Skeleton Rock Spider, một Sun Spirit sẽ xuất hiện và đứng cạnh Sun Spirit vốn đã nằm ở đây. (Ở đây có hai tinh linh mặt trời nên có hai điểm.)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454147679964835840",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 5925.346,
+      "y": 6284.047,
+      "description": "Điểm này chính là vị trí đứng thực tế của Thần Mặt trời. Sau khi sử dụng Sound Skeleton Rock Spider, một Sun Spirit sẽ xuất hiện và đứng cạnh Sun Spirit vốn đã nằm ở đây. (Ở đây có hai tinh linh mặt trời nên có hai điểm.)",
+      "levelId": "0"
+    }
+  ]
+}

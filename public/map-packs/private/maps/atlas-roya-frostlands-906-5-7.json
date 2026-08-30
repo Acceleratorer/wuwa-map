@@ -1,0 +1,5117 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-roya-frostlands-906-5-7",
+  "progressMapId": "wuwa-kuro-state-906",
+  "title": "Startorch Academy",
+  "subtitle": "470 vị trí · 45 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/906/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 11,
+    "rows": 10,
+    "availableTiles": [
+      "5,-1",
+      "5,-2",
+      "5,-3",
+      "5,-4",
+      "5,-5",
+      "5,-6",
+      "4,-1",
+      "4,-2",
+      "4,-3",
+      "4,-4",
+      "4,-5",
+      "4,-6",
+      "6,-1",
+      "6,-2",
+      "6,-3",
+      "6,-4",
+      "6,-5",
+      "6,-6",
+      "7,-1",
+      "7,-2",
+      "7,-3",
+      "7,-4",
+      "7,-5",
+      "7,-6",
+      "8,-1",
+      "8,-2",
+      "8,-3",
+      "8,-4",
+      "8,-5",
+      "8,-6"
+    ]
+  },
+  "bounds": {
+    "minX": 3072,
+    "minY": 3072,
+    "maxX": 6912,
+    "maxY": 7680
+  },
+  "initialView": {
+    "minX": 3982.4590000000003,
+    "minY": 3865.2990000000004,
+    "maxX": 5915.407,
+    "maxY": 6382.740000000001
+  },
+  "areas": [
+    {
+      "id": "official-area-1",
+      "label": "Ridgebone",
+      "bounds": {
+        "minX": 3093.160658823529,
+        "minY": 3523.9725176470583,
+        "maxX": 4091.5606588235296,
+        "maxY": 4522.372517647058
+      },
+      "markerIds": []
+    },
+    {
+      "id": "official-area-2",
+      "label": "Spiral Abacus Hill",
+      "bounds": {
+        "minX": 3982.4590000000003,
+        "minY": 3865.2990000000004,
+        "maxX": 5915.407,
+        "maxY": 6382.740000000001
+      },
+      "markerIds": [
+        "kuro:1453124571327950848",
+        "kuro:1453130068932227072",
+        "kuro:1453135660792885248",
+        "kuro:1451214294512627712",
+        "kuro:1458957835721932800",
+        "kuro:1458958008938811392",
+        "kuro:1458958156246450176",
+        "kuro:1458958376175292416",
+        "kuro:1458958521721323520",
+        "kuro:1458958688885821440",
+        "kuro:1458958843617378304",
+        "kuro:1458959010702184448",
+        "kuro:1458959371432787968",
+        "kuro:1458959514135592960",
+        "kuro:1458959667986857984",
+        "kuro:1458959810941321216",
+        "kuro:1458960077107658752",
+        "kuro:1458960312035332096",
+        "kuro:1458960433619304448",
+        "kuro:1458960556307402752",
+        "kuro:1454602063830118400",
+        "kuro:1458580382520344576",
+        "kuro:1458601077170143232",
+        "kuro:1458604527153467392",
+        "kuro:1526359990329921536",
+        "kuro:1453149874502823936",
+        "kuro:1454273930067128320",
+        "kuro:1454274404407373824",
+        "kuro:1454275014062043136",
+        "kuro:1454275469613789184",
+        "kuro:1454275469714452480",
+        "kuro:1454275469815115776",
+        "kuro:1454276090637004800",
+        "kuro:1454276090787999744",
+        "kuro:1454276090938994688",
+        "kuro:1454484459176013824",
+        "kuro:1454484459339591680",
+        "kuro:1454484459507363840",
+        "kuro:1454484459670941696",
+        "kuro:1454486610310918144",
+        "kuro:1454486610428358656",
+        "kuro:1454486610516439040",
+        "kuro:1454486610608713728",
+        "kuro:1454486610700988416",
+        "kuro:1454486610789068800",
+        "kuro:1454486610881343488",
+        "kuro:1454486610969423872",
+        "kuro:1454486611061698560",
+        "kuro:1454486611149778944",
+        "kuro:1454486611246247936",
+        "kuro:1454486611334328320",
+        "kuro:1454486611426603008",
+        "kuro:1454486611518877696",
+        "kuro:1454489153491382272",
+        "kuro:1454489153638182912",
+        "kuro:1454489153784983552",
+        "kuro:1454489153935978496",
+        "kuro:1454489154082779136",
+        "kuro:1454489154229579776",
+        "kuro:1454489154372186112",
+        "kuro:1454489154518986752",
+        "kuro:1454489154674176000",
+        "kuro:1454489154833559552",
+        "kuro:1454489154988748800",
+        "kuro:1454489155148132352",
+        "kuro:1454490566311342080",
+        "kuro:1454490566403616768",
+        "kuro:1454490566500085760",
+        "kuro:1454490566596554752",
+        "kuro:1454490566688829440",
+        "kuro:1454490566785298432",
+        "kuro:1454490566877573120",
+        "kuro:1457449087992786944",
+        "kuro:1457453471881981952",
+        "kuro:1457453669307871232",
+        "kuro:1457455242348032000",
+        "kuro:1457455701204889600",
+        "kuro:1457459130276442112",
+        "kuro:1457459251793817600",
+        "kuro:1457462641003819008",
+        "kuro:1457462891912818688",
+        "kuro:1457463093310713856",
+        "kuro:1457465286686896128",
+        "kuro:1457466697696899072",
+        "kuro:1457467010840981504",
+        "kuro:1457468004625248256",
+        "kuro:1457469497172520960",
+        "kuro:1457469556083060736",
+        "kuro:1457469621346430976",
+        "kuro:1457471182922018816",
+        "kuro:1457471441463111680",
+        "kuro:1457472817674514432",
+        "kuro:1457473273863794688",
+        "kuro:1457474874796077056",
+        "kuro:1457474944610267136",
+        "kuro:1457476100886065152",
+        "kuro:1457476181966155776",
+        "kuro:1457477163773030400",
+        "kuro:1457477221697908736",
+        "kuro:1457477938314178560",
+        "kuro:1457477993754488832",
+        "kuro:1457478901030121472",
+        "kuro:1457478974370181120",
+        "kuro:1457479533782822912",
+        "kuro:1457491427460083712",
+        "kuro:1457492146506395648",
+        "kuro:1457505240272039936",
+        "kuro:1457507433788174336",
+        "kuro:1457511719813214208",
+        "kuro:1457512885326409728",
+        "kuro:1457513981054775296",
+        "kuro:1457530282852151296",
+        "kuro:1457530827619397632",
+        "kuro:1457531094398103552",
+        "kuro:1457713428939046912",
+        "kuro:1457714169124651008",
+        "kuro:1457863794594840576",
+        "kuro:1457863837590650880",
+        "kuro:1457864402903650304",
+        "kuro:1457864487535804416",
+        "kuro:1465024765660930048",
+        "kuro:1465025273029107712",
+        "kuro:1451248504996687872",
+        "kuro:1451591287624232960",
+        "kuro:1451598851099389952",
+        "kuro:1451990189932228608",
+        "kuro:1452049018525118464",
+        "kuro:1452133070772842496",
+        "kuro:1452134024975020032",
+        "kuro:1452134420493692928",
+        "kuro:1452134874243870720",
+        "kuro:1452135618324000768",
+        "kuro:1452283316167569408",
+        "kuro:1452283910110375936",
+        "kuro:1452284360440213504",
+        "kuro:1452284937339351040",
+        "kuro:1452294803263123456",
+        "kuro:1452296315030679552",
+        "kuro:1452305937657442304",
+        "kuro:1452376247868125184",
+        "kuro:1452402563401183232",
+        "kuro:1453717794266083328",
+        "kuro:1454153657882046464",
+        "kuro:1456041094481408000",
+        "kuro:1456406439144124416",
+        "kuro:1451599371945848832",
+        "kuro:1452002105467547648",
+        "kuro:1452129814866882560",
+        "kuro:1452376441280065536",
+        "kuro:1452402723275468800",
+        "kuro:1455196173819392000",
+        "kuro:1456040654563373056",
+        "kuro:1451244979365408768",
+        "kuro:1451599192209551360",
+        "kuro:1452000754717110272",
+        "kuro:1452001755970990080",
+        "kuro:1452002544198152192",
+        "kuro:1452046848301936640",
+        "kuro:1452128749958262784",
+        "kuro:1452129258863538176",
+        "kuro:1452292681180180480",
+        "kuro:1452293692531732480",
+        "kuro:1452295114104975360",
+        "kuro:1452295452113563648",
+        "kuro:1452303957820125184",
+        "kuro:1452305406000050176",
+        "kuro:1452306222803005440",
+        "kuro:1452306473574264832",
+        "kuro:1452376069534707712",
+        "kuro:1452402347507773440",
+        "kuro:1456041236485304320",
+        "kuro:1456405111785320448",
+        "kuro:1451245578274271232",
+        "kuro:1451246093754232832",
+        "kuro:1451250505541283840",
+        "kuro:1451249697198239744",
+        "kuro:1452802073981939712",
+        "kuro:1452805492811444224",
+        "kuro:1452805779756363776",
+        "kuro:1452806031045505024",
+        "kuro:1452806044977000448",
+        "kuro:1452806237795332096",
+        "kuro:1452810311974465536",
+        "kuro:1452810341699497984",
+        "kuro:1452810463887962112",
+        "kuro:1453147536494899200",
+        "kuro:1451364300932460544",
+        "kuro:1451365965752381440",
+        "kuro:1451388878564044800",
+        "kuro:1451389386228035584",
+        "kuro:1451390434443325440",
+        "kuro:1451390994546487296",
+        "kuro:1451555284414951424",
+        "kuro:1451561311726268416",
+        "kuro:1451561809929891840",
+        "kuro:1451562396792713216",
+        "kuro:1451562718598475776",
+        "kuro:1451562783494959104",
+        "kuro:1451563311461363712",
+        "kuro:1451563974828290048",
+        "kuro:1451564353179676672",
+        "kuro:1451565002642485248",
+        "kuro:1451566042445983744",
+        "kuro:1452062807720931328",
+        "kuro:1451217545689624576",
+        "kuro:1451327401369071616",
+        "kuro:1451328278978834432",
+        "kuro:1452062688351039488",
+        "kuro:1452696704880160768",
+        "kuro:1452698839690833920",
+        "kuro:1454174301394890752",
+        "kuro:1452062897160269824",
+        "kuro:1458992969078702080",
+        "kuro:1458993532138848256",
+        "kuro:1458993532239511552",
+        "kuro:1458993532344369152",
+        "kuro:1458993986155479040",
+        "kuro:1458993986256142336",
+        "kuro:1458994204053766144",
+        "kuro:1458994524385857536",
+        "kuro:1458994524549435392",
+        "kuro:1458994730984177664",
+        "kuro:1458995046899666944",
+        "kuro:1458995695926267904",
+        "kuro:1458995696089845760",
+        "kuro:1459228974801637376",
+        "kuro:1459229986148995072",
+        "kuro:1459229986304184320",
+        "kuro:1459229986463567872",
+        "kuro:1459230152507674624",
+        "kuro:1459242653965778944",
+        "kuro:1459242654066442240",
+        "kuro:1459242654162911232",
+        "kuro:1459242654259380224",
+        "kuro:1459242654368432128",
+        "kuro:1459242897898622976",
+        "kuro:1459242898053812224",
+        "kuro:1459243181034602496",
+        "kuro:1459243181131071488",
+        "kuro:1459243915293655040",
+        "kuro:1459243915390124032",
+        "kuro:1459243915486593024",
+        "kuro:1459244079379533824",
+        "kuro:1459244500470366208",
+        "kuro:1459296228226007040",
+        "kuro:1459296228326670336",
+        "kuro:1459296432476028928",
+        "kuro:1459316261518462976",
+        "kuro:1459316261677846528",
+        "kuro:1459316568436658176",
+        "kuro:1459316775211139072",
+        "kuro:1459316900092858368",
+        "kuro:1459318118944505856",
+        "kuro:1459318119049363456",
+        "kuro:1459318119145832448",
+        "kuro:1459318119242301440",
+        "kuro:1459318119334576128",
+        "kuro:1459318772061065216",
+        "kuro:1459318772216254464",
+        "kuro:1459320506002604032",
+        "kuro:1459320506132627456",
+        "kuro:1459320506258456576",
+        "kuro:1459320506380091392",
+        "kuro:1459320739168157696",
+        "kuro:1459322169921261568",
+        "kuro:1459322170080645120",
+        "kuro:1459322170240028672",
+        "kuro:1459322170395217920",
+        "kuro:1459322170550407168",
+        "kuro:1459322540558811136",
+        "kuro:1459323369231646720",
+        "kuro:1459323369336504320",
+        "kuro:1459323369437167616",
+        "kuro:1459323561691480064",
+        "kuro:1457449784736444416",
+        "kuro:1457450254181265408",
+        "kuro:1457450500964184064",
+        "kuro:1457453858011148288",
+        "kuro:1457455496657072128",
+        "kuro:1457455962245787648",
+        "kuro:1457459406366502912",
+        "kuro:1457459713329295360",
+        "kuro:1457462498516463616",
+        "kuro:1457462760907927552",
+        "kuro:1457465061362036736",
+        "kuro:1457466900390834176",
+        "kuro:1457467752627269632",
+        "kuro:1457469344040022016",
+        "kuro:1457470703726981120",
+        "kuro:1457470903528386560",
+        "kuro:1457472632968409088",
+        "kuro:1457473448399826944",
+        "kuro:1457475033768587264",
+        "kuro:1457475088189681664",
+        "kuro:1457476258960994304",
+        "kuro:1457476319275085824",
+        "kuro:1457477094931918848",
+        "kuro:1457477840458412032",
+        "kuro:1457478392536330240",
+        "kuro:1457490712605421568",
+        "kuro:1457490762958041088",
+        "kuro:1457492226953146368",
+        "kuro:1457492265617780736",
+        "kuro:1457511613143674880",
+        "kuro:1457511927758417920",
+        "kuro:1457513235426504704",
+        "kuro:1457513701529579520",
+        "kuro:1457530197739794432",
+        "kuro:1457531186991558656",
+        "kuro:1457531255669092352",
+        "kuro:1457713957568151552",
+        "kuro:1457863719878021120",
+        "kuro:1457863752664383488",
+        "kuro:1457864531194314752",
+        "kuro:1453046526806126592",
+        "kuro:1453046699076562944",
+        "kuro:1453046926177153024",
+        "kuro:1453047060961112064",
+        "kuro:1453047300072206336",
+        "kuro:1453047326536052736",
+        "kuro:1453047438553329664",
+        "kuro:1453047699204157440",
+        "kuro:1453047721444569088",
+        "kuro:1453048373665017856",
+        "kuro:1453048409142652928",
+        "kuro:1453048435231223808",
+        "kuro:1453050795290587136",
+        "kuro:1453050829440610304",
+        "kuro:1451364359386492928",
+        "kuro:1451365156753043456",
+        "kuro:1451365709797191680",
+        "kuro:1451366655566606336",
+        "kuro:1451367162393718784",
+        "kuro:1451367244937621504",
+        "kuro:1451388047964041216",
+        "kuro:1451388724918300672",
+        "kuro:1451389334539415552",
+        "kuro:1451390108747231232",
+        "kuro:1451390907992829952",
+        "kuro:1451391546319761408",
+        "kuro:1451412223934279680",
+        "kuro:1452052165261733888",
+        "kuro:1451985769177755648",
+        "kuro:1451985804716093440",
+        "kuro:1451233169035816960",
+        "kuro:1451233307764404224",
+        "kuro:1451233379587665920",
+        "kuro:1451233450492375040",
+        "kuro:1451233544438607872",
+        "kuro:1451234606381854720",
+        "kuro:1451234665963925504",
+        "kuro:1451234708227944448",
+        "kuro:1451234747299868672",
+        "kuro:1451234784725643264",
+        "kuro:1451237448312221696",
+        "kuro:1451237484811055104",
+        "kuro:1451237562382495744",
+        "kuro:1451237595469377536",
+        "kuro:1451237647963074560",
+        "kuro:1453529801137795072",
+        "kuro:1453530316921958400",
+        "kuro:1453839972617744384",
+        "kuro:1453841883251027968",
+        "kuro:1453845998154870784",
+        "kuro:1453851127740313600",
+        "kuro:1453852773616775168",
+        "kuro:1453854668311703552",
+        "kuro:1453855940469272576",
+        "kuro:1453860536782745600",
+        "kuro:1453864851857534976",
+        "kuro:1453865920253603840",
+        "kuro:1453877771463094272",
+        "kuro:1453878632656351232",
+        "kuro:1453883283078328320",
+        "kuro:1454077588799696896",
+        "kuro:1452756424361979904",
+        "kuro:1452756684520091648",
+        "kuro:1451186320660819968",
+        "kuro:1453541900155154432",
+        "kuro:1453542220880998400",
+        "kuro:1453543203199578112",
+        "kuro:1453547332183470080",
+        "kuro:1453547332347047936",
+        "kuro:1453548135424258048",
+        "kuro:1453548135520727040",
+        "kuro:1453548855323996160",
+        "kuro:1453548855487574016",
+        "kuro:1453549454736175104",
+        "kuro:1453550447498571776",
+        "kuro:1453550447670538240",
+        "kuro:1453550447838310400",
+        "kuro:1453550448006082560",
+        "kuro:1453890396641095680",
+        "kuro:1453890690974167040",
+        "kuro:1453890995654815744",
+        "kuro:1452696222824607744",
+        "kuro:1452696588421115904",
+        "kuro:1452755665966919680",
+        "kuro:1452755823790190592",
+        "kuro:1451609911613255680",
+        "kuro:1451243603759525888",
+        "kuro:1451243603872772096",
+        "kuro:1451243603990212608",
+        "kuro:1451243604103458816",
+        "kuro:1451600133790838784",
+        "kuro:1451600133954416640",
+        "kuro:1451600134117994496",
+        "kuro:1451600134285766656",
+        "kuro:1451600134449344512",
+        "kuro:1451324575309950976",
+        "kuro:1451326173333368832",
+        "kuro:1451327183948935168",
+        "kuro:1451328126455181312",
+        "kuro:1451329468705746944",
+        "kuro:1451330794856591360",
+        "kuro:1451331483355787264",
+        "kuro:1451332783044767744",
+        "kuro:1451334233370193920",
+        "kuro:1451335452654366720",
+        "kuro:1452432364822278144",
+        "kuro:1452742606051291136",
+        "kuro:1452743021063106560",
+        "kuro:1452744502686199808",
+        "kuro:1452744657372131328",
+        "kuro:1452753137200066560",
+        "kuro:1452753353619746816",
+        "kuro:1452753713799426048",
+        "kuro:1452754198652579840",
+        "kuro:1452754591239434240",
+        "kuro:1452754955615399936",
+        "kuro:1452755503183769600",
+        "kuro:1452755913774788608",
+        "kuro:1452756032591032320",
+        "kuro:1452757045087629312",
+        "kuro:1452758752987246592",
+        "kuro:1452758914792894464",
+        "kuro:1452759050839339008",
+        "kuro:1452759680920268800",
+        "kuro:1452759800544030720",
+        "kuro:1452759935841677312",
+        "kuro:1452760365615230976",
+        "kuro:1452760496194514944",
+        "kuro:1452761010736934912",
+        "kuro:1452761130977259520",
+        "kuro:1461103794182586368",
+        "kuro:1461104299000627200",
+        "kuro:1461104524562419712",
+        "kuro:1461104642350546944",
+        "kuro:1461104759350657024",
+        "kuro:1461104879349694464",
+        "kuro:1461119520134037504",
+        "kuro:1461119684089380864",
+        "kuro:1461119795817250816",
+        "kuro:1461120221174714368",
+        "kuro:1461120343874371584",
+        "kuro:1461120455296057344",
+        "kuro:1461120580995153920",
+        "kuro:1461121171003703296",
+        "kuro:1461121305817022464",
+        "kuro:1461121434124976128",
+        "kuro:1461121553167712256",
+        "kuro:1461121683765755904",
+        "kuro:1461122121646899200",
+        "kuro:1461122248386183168",
+        "kuro:1461122676511375360",
+        "kuro:1453489170346733568",
+        "kuro:1453498896956469248",
+        "kuro:1453499327233339392",
+        "kuro:1454146777696759808",
+        "kuro:1452061963894075392"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "exploration",
+      "label": "Khám phá",
+      "icon": "exploration"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "elite-enemies",
+      "label": "Kẻ thù mạnh",
+      "icon": "elite"
+    },
+    {
+      "id": "activities",
+      "label": "Hoạt động",
+      "icon": "activity"
+    },
+    {
+      "id": "locations",
+      "label": "Địa điểm",
+      "icon": "location"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_02",
+    "qzx_03",
+    "qzx_01"
+  ],
+  "categories": [
+    {
+      "id": "44",
+      "label": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/e097e7ee241d0df585b8.webp"
+    },
+    {
+      "id": "390071",
+      "label": "B.1.N.G.O.",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/42d22f7afdc261479542.webp"
+    },
+    {
+      "id": "42601360",
+      "label": "Lông cừu Swaddle Rock",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/50184b98c97b10e10dd3.webp"
+    },
+    {
+      "id": "47",
+      "label": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/992142e14fc8f8ea4838.webp"
+    },
+    {
+      "id": "48",
+      "label": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/27884400d395ddbb48f2.webp"
+    },
+    {
+      "id": "49",
+      "label": "thử thách đua xe",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/457c35db339d93b70e5d.webp"
+    },
+    {
+      "id": "42601320",
+      "label": "nón thông",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/fee3f58b53fbebbed661.webp"
+    },
+    {
+      "id": "310000800",
+      "label": "Thi hành Blade VÔ gia CƯ",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a81d94866faa3b39bbab.webp"
+    },
+    {
+      "id": "381032",
+      "label": "Khoa Y học Cộng hưởng",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/21d5b32c922f78c401f1.webp"
+    },
+    {
+      "id": "qzx_02",
+      "label": "Rương tiêu chuẩn",
+      "color": "#f07e83",
+      "symbol": "2",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/6e2acd535621d4d6bc2b.webp"
+    },
+    {
+      "id": "qzx_03",
+      "label": "Rương tinh xảo",
+      "color": "#6cc8ee",
+      "symbol": "3",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/eda5d68d05e96fdcbbae.webp"
+    },
+    {
+      "id": "381031",
+      "label": "Trung tâm tài liệu không gian sâu",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/0201ab01f4af98f13b0d.webp"
+    },
+    {
+      "id": "qzx_01",
+      "label": "Rương đơn sơ",
+      "color": "#8bd3c7",
+      "symbol": "1",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/c277f12152e5ae7ddb0d.webp"
+    },
+    {
+      "id": "381035",
+      "label": "Trạm in vũ trang cộng sinh",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/8c7b65910b984193594c.webp"
+    },
+    {
+      "id": "381034",
+      "label": "Nhà ga bữa ăn",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/860abcc8705685772618.webp"
+    },
+    {
+      "id": "381033",
+      "label": "chợ du mục",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/2fdd793c08e55dfae265.webp"
+    },
+    {
+      "id": "381038",
+      "label": "Nơi neo đậu xe",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "locations",
+      "icon": "location",
+      "imageSrc": "map-packs/private/icons/e692ca4171d09b3a4b7b.webp"
+    },
+    {
+      "id": "320000560",
+      "label": "Bóng sắt ẩn giấu",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a076ebbea8a998c1cc94.webp"
+    },
+    {
+      "id": "51",
+      "label": "tài xế số một",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/f896a4759ac9543b8d30.webp"
+    },
+    {
+      "id": "320000520",
+      "label": "Máy khai thác đá",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/1decb00506d6b2fd64ae.webp"
+    },
+    {
+      "id": "cx_01",
+      "label": "Di sản của thủy triều·Xanh",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/1b956f2f5d2ab8f86ef4.webp"
+    },
+    {
+      "id": "7010",
+      "label": "Khu định cư voi còn sót lại Zengzuliuchuan",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/ab88203bc9b5c656b034.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "cx_02",
+      "label": "Di sản thủy triều·Tím",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
+    },
+    {
+      "id": "42601410",
+      "label": "Mỏ đá nhiễu xạ",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/15021eaf6954d11f1371.webp"
+    },
+    {
+      "id": "310000810",
+      "label": "Người tị nạn Thunderstaff",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/b1d6f414590c651ff12f.webp"
+    },
+    {
+      "id": "320000550",
+      "label": "Saw Attack Iron Shadow",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/df896f065118dc63157d.webp"
+    },
+    {
+      "id": "320000510",
+      "label": "Máy trồng cây",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2d694c8594ee0c541b7a.webp"
+    },
+    {
+      "id": "xx·wcxl·smqt",
+      "label": "Ảo ảnh ·Con diệc hung hãn vô thường ·Tà đạo sinh tử",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "elite-enemies",
+      "icon": "elite",
+      "imageSrc": "map-packs/private/icons/e52f993fb465253ab68a.webp"
+    },
+    {
+      "id": "320000580",
+      "label": "Ảo ảnh gió",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/61eabca2fa1c0fc4b40e.webp"
+    },
+    {
+      "id": "42601380",
+      "label": "ngôi sao nấm đôi",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/1d64a4f68a930fdf1a31.webp"
+    },
+    {
+      "id": "310000820",
+      "label": "tiếng nổ lách tách",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/81237a5dcf584ebddb06.webp"
+    },
+    {
+      "id": "zscj",
+      "label": "Tàn dư cuối cùng",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/ed9ef2e8c51bdc5d12e2.webp"
+    },
+    {
+      "id": "320000540",
+      "label": "Máy móc hạng nặng đào hầm",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/2590b87b3e2af8364685.webp"
+    },
+    {
+      "id": "4027",
+      "label": "Chiến lược ảnh ba chiều·Đồng bộ hóa",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "activities",
+      "icon": "activity",
+      "imageSrc": "map-packs/private/icons/a0c5dc98fceef610abd4.webp"
+    },
+    {
+      "id": "42601350",
+      "label": "cây dương xỉ",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/77ad3937a0a49aab2484.webp"
+    },
+    {
+      "id": "cbd",
+      "label": "nơi kho báu",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/5111afe1ca71aba1d1e3.webp"
+    },
+    {
+      "id": "320000570",
+      "label": "Ảo ảnh quy mô băng giá",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/94e50aeebe9671949856.webp"
+    },
+    {
+      "id": "42601390",
+      "label": "hoa thư sương giá",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/68cd35bf3da69060b139.webp"
+    },
+    {
+      "id": "CS_02",
+      "label": "ngọn hải đăng nhỏ",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/ace53ba2750c41850ccd.webp"
+    },
+    {
+      "id": "CS_01",
+      "label": "Hub Beacon",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/35bb0bb1bbd2f285b3bf.webp"
+    },
+    {
+      "id": "320000530",
+      "label": "Móng sắt công nghiệp nặng",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/90f9a0e66f0c6d41fe06.webp"
+    },
+    {
+      "id": "310000790",
+      "label": "Loại Rock Spider S4",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/30c2306bf43b2db6a700.webp"
+    },
+    {
+      "id": "42",
+      "label": "Riling",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/737a517c7fc367ccb974.webp"
+    },
+    {
+      "id": "43",
+      "label": "Vùng bão từ vật chất ảo",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "exploration",
+      "icon": "exploration",
+      "imageSrc": "map-packs/private/icons/e9ffeefc820c3c82ddfa.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "-1/30",
+      "label": "Học viện Xingju·Khu vực hình vuông",
+      "groupId": "30",
+      "groupLabel": "Startorch Academy",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-1_30/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "6,-4"
+        ]
+      }
+    },
+    {
+      "id": "-2/30",
+      "label": "Cao đẳng Xingju·Khu vực giảng dạy",
+      "groupId": "30",
+      "groupLabel": "Startorch Academy",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-2_30/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "6,-4"
+        ]
+      }
+    },
+    {
+      "id": "-3/30",
+      "label": "Học viện Star Torch·Khu vực mang theo",
+      "groupId": "30",
+      "groupLabel": "Startorch Academy",
+      "tiles": {
+        "src": "map-packs/private/layers/906/-3_30/{x}_{y}.webp",
+        "tileSize": 768,
+        "columns": 11,
+        "rows": 10,
+        "availableTiles": [
+          "6,-4"
+        ]
+      }
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1453124571327950848",
+      "categoryId": "44",
+      "title": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "x": 4624.173,
+      "y": 4362.213,
+      "description": "Sau khi hoàn thành việc giải mã, bạn có thể nhận được 15 sao và các phần thưởng khác",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453130068932227072",
+      "categoryId": "44",
+      "title": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "x": 5562.29,
+      "y": 5360.134,
+      "description": "Sau khi hoàn thành việc giải mã, bạn có thể nhận được 15 sao và các phần thưởng khác",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453135660792885248",
+      "categoryId": "44",
+      "title": "Khơ ̉ i đô ̣ ng la ̣ i",
+      "x": 4571,
+      "y": 5573.502,
+      "description": "Sau khi hoàn thành việc giải mã, bạn có thể nhận được 15 sao và các phần thưởng khác",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451214294512627712",
+      "categoryId": "390071",
+      "title": "B.1.N.G.O.",
+      "x": 4981.6,
+      "y": 5085.985,
+      "description": "Một nơi chứng minh chiến thuật dưới lòng đất để thử nghiệm nhiều loại vũ khí cộng sinh. Có một xưởng gỡ lỗi ngoài trời bên ngoài địa điểm thử nghiệm để tạo điều kiện cho người thử nghiệm điều chỉnh và điều chỉnh hiệu suất của vũ khí trong thời gian thực.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458957835721932800",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4623.36,
+      "y": 5733.798,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458958008938811392",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4622.456,
+      "y": 5732.894,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458958156246450176",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4622.456,
+      "y": 5734.701,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458958376175292416",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4626.071,
+      "y": 5726.569,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458958521721323520",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4627.878,
+      "y": 5725.666,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458958688885821440",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4626.974,
+      "y": 5722.955,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458958843617378304",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4628.781,
+      "y": 5723.859,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458959010702184448",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4628.781,
+      "y": 5722.955,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458959371432787968",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4656.791,
+      "y": 5827.765,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458959514135592960",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4657.694,
+      "y": 5826.861,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458959667986857984",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4656.791,
+      "y": 5825.958,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458959810941321216",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4654.984,
+      "y": 5825.958,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458960077107658752",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4656.791,
+      "y": 5822.344,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458960312035332096",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4704.678,
+      "y": 5853.967,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458960433619304448",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4703.774,
+      "y": 5853.064,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458960556307402752",
+      "categoryId": "42601360",
+      "title": "Lông cừu Swaddle Rock",
+      "x": 4702.871,
+      "y": 5853.064,
+      "description": "Địa y mọc trên đá gần nước đã tồn tại từ lâu như những hang động dưới lòng đất và thậm chí còn có trước sự xuất hiện của những người đào hầm.\nRất lâu trước khi những hố sâu dưới lòng đất được gọi là Lahayro, những tấm thảm len đá đã là những sản phẩm tiên phong đầu tiên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454602063830118400",
+      "categoryId": "47",
+      "title": "Đường đua thử thách hệ thống treo xây dựng đường",
+      "x": 5150.967,
+      "y": 5741.568,
+      "description": "Đường đua thử thách này có các nhiệm vụ tiên quyết! Bạn cần hoàn thành việc xây dựng đường ở phía bên kia đường để mở khóa đường. Bạn có thể kiểm tra hướng dẫn liên quan để hoàn thành nó (dấu chấm câu được cung cấp bởi người chơi sẵn sàng nghe giọng nói của bạn)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458580382520344576",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 4623.568,
+      "y": 4363.83,
+      "description": "Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458601077170143232",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 4571.244,
+      "y": 5573.557,
+      "description": "Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458604527153467392",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 5563.582,
+      "y": 5361.363,
+      "description": "Loại robot nhảy trên bầu trời có một cánh tay cơ khí khổng lồ được tùy chỉnh đặc biệt có thể đưa con người đến những nơi xa xôi.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1526359990329921536",
+      "categoryId": "48",
+      "title": "Cơ khí bao phủ bầu trời·loại nhảy vọt",
+      "x": 4871.505,
+      "y": 5807.146,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453149874502823936",
+      "categoryId": "49",
+      "title": "thử thách đua xe",
+      "x": 4409.395,
+      "y": 4691.956,
+      "description": "Thử thách đường đua và đạt mục tiêu thời gian để nhận phần thưởng",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454273930067128320",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4840.207,
+      "y": 5513.336,
+      "description": "Dưới đây là những lá thông biến thành nón thông sau khi được hái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454274404407373824",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4839.304,
+      "y": 5511.529,
+      "description": "Đây là một cây thông có thùy. Sau khi hái, nó sẽ trở thành một quả thông.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454275014062043136",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4841.111,
+      "y": 5512.433,
+      "description": "Đây là những lá thông, sau khi được thu thập sẽ là những quả thông.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454275469613789184",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4842.014,
+      "y": 5511.529,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454275469714452480",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4841.111,
+      "y": 5510.626,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454275469815115776",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4839.304,
+      "y": 5509.722,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454276090637004800",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4835.689,
+      "y": 5507.915,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454276090787999744",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4836.593,
+      "y": 5507.012,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454276090938994688",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4837.496,
+      "y": 5507.915,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454484459176013824",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4782.381,
+      "y": 5637.12,
+      "description": "4 lá thông đũng quần nhóm lại với nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454484459339591680",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4781.478,
+      "y": 5637.12,
+      "description": "4 lá thông đũng quần nhóm lại với nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454484459507363840",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4781.478,
+      "y": 5636.216,
+      "description": "4 lá thông đũng quần nhóm lại với nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454484459670941696",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4780.574,
+      "y": 5636.216,
+      "description": "4 lá thông đũng quần nhóm lại với nhau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610310918144",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4780.574,
+      "y": 5641.638,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610428358656",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4779.671,
+      "y": 5638.927,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610516439040",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4778.767,
+      "y": 5640.734,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610608713728",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4777.864,
+      "y": 5638.927,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610700988416",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4778.767,
+      "y": 5641.638,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610789068800",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4776.96,
+      "y": 5641.638,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610881343488",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4776.96,
+      "y": 5639.831,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486610969423872",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4776.96,
+      "y": 5638.927,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486611061698560",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4776.96,
+      "y": 5638.024,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486611149778944",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4776.056,
+      "y": 5638.024,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486611246247936",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4774.249,
+      "y": 5638.024,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486611334328320",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4774.249,
+      "y": 5638.927,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486611426603008",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4774.249,
+      "y": 5639.831,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454486611518877696",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 4775.153,
+      "y": 5639.831,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489153491382272",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5053.44,
+      "y": 5524.179,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489153638182912",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5052.536,
+      "y": 5525.082,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489153784983552",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5051.633,
+      "y": 5520.565,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489153935978496",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5049.826,
+      "y": 5520.565,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154082779136",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5048.922,
+      "y": 5520.565,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154229579776",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5048.019,
+      "y": 5521.468,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154372186112",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5048.922,
+      "y": 5523.275,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154518986752",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5049.826,
+      "y": 5524.179,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154674176000",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5048.922,
+      "y": 5524.179,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154833559552",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5048.019,
+      "y": 5523.275,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489154988748800",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5047.115,
+      "y": 5522.372,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454489155148132352",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5046.212,
+      "y": 5523.275,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566311342080",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5085.967,
+      "y": 5486.682,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566403616768",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5085.967,
+      "y": 5488.038,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566500085760",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5085.967,
+      "y": 5487.134,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566596554752",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5085.064,
+      "y": 5488.038,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566688829440",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5083.256,
+      "y": 5488.038,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566785298432",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5084.16,
+      "y": 5487.134,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454490566877573120",
+      "categoryId": "42601320",
+      "title": "nón thông",
+      "x": 5085.064,
+      "y": 5485.327,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457449087992786944",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5405.816,
+      "y": 4926.042,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457453471881981952",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5301.007,
+      "y": 4916.104,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457453669307871232",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5302.814,
+      "y": 4917.911,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457455242348032000",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5327.209,
+      "y": 5052.536,
+      "description": "Tuần tra trên đường đi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457455701204889600",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5323.595,
+      "y": 5048.019,
+      "description": "Tuần tra trên đường đi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457459130276442112",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5398.588,
+      "y": 5235.953,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457459251793817600",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5396.781,
+      "y": 5235.953,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457462641003819008",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5422.08,
+      "y": 5275.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457462891912818688",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5430.212,
+      "y": 5277.515,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457463093310713856",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5427.501,
+      "y": 5282.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457465286686896128",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5422.984,
+      "y": 5326.306,
+      "description": "Bạn vẫn đang nhảy, tôi sẽ đưa bạn đến đây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457466697696899072",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5308.235,
+      "y": 5293.779,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457467010840981504",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5309.139,
+      "y": 5279.322,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457468004625248256",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5280.226,
+      "y": 5369.675,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457469497172520960",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5279.964,
+      "y": 5423.471,
+      "description": "Ngừng chiến đấu. Ngừng chiến đấu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457469556083060736",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5289.858,
+      "y": 5418.773,
+      "description": "Ngừng chiến đấu. Ngừng chiến đấu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457469621346430976",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5281.202,
+      "y": 5407.642,
+      "description": "Ngừng chiến đấu. Ngừng chiến đấu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457471182922018816",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5150.118,
+      "y": 5423.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457471441463111680",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5146.504,
+      "y": 5436.536,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457472817674514432",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5103.134,
+      "y": 5389.553,
+      "description": "tuần tra",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457473273863794688",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5093.195,
+      "y": 5397.685,
+      "description": "tuần tra",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457474874796077056",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5069.767,
+      "y": 5236.477,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457474944610267136",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5079.516,
+      "y": 5240.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457476100886065152",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5220.936,
+      "y": 5209.814,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457476181966155776",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5218.677,
+      "y": 5209.678,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457477163773030400",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5297.032,
+      "y": 5202.947,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457477221697908736",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5296.173,
+      "y": 5205.052,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457477938314178560",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5161.502,
+      "y": 5129.517,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457477993754488832",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5163.752,
+      "y": 5131.107,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457478901030121472",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5215.976,
+      "y": 5034.511,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457478974370181120",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5212.407,
+      "y": 5033.996,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457479533782822912",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5159.153,
+      "y": 4873.638,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457491427460083712",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5243.181,
+      "y": 5062.475,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457492146506395648",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5241.239,
+      "y": 4764.555,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457505240272039936",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4687.511,
+      "y": 4324.292,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457507433788174336",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4696.546,
+      "y": 4414.645,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457511719813214208",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4676.388,
+      "y": 4330.074,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457512885326409728",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4589.026,
+      "y": 4392.056,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457513981054775296",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4581.798,
+      "y": 4382.118,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457530282852151296",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4533.893,
+      "y": 4494.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457530827619397632",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4508.612,
+      "y": 4761.6,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457531094398103552",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4506.805,
+      "y": 4762.115,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457713428939046912",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5378.711,
+      "y": 5104.038,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457714169124651008",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5376,
+      "y": 5117.591,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457863794594840576",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5454.228,
+      "y": 5560.663,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457863837590650880",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5461.664,
+      "y": 5557.853,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457864402903650304",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5355.915,
+      "y": 5655.959,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457864487535804416",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 5367.669,
+      "y": 5653.853,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1465024765660930048",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4742.626,
+      "y": 4188.762,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1465025273029107712",
+      "categoryId": "310000800",
+      "title": "Thi hành Blade VÔ gia CƯ",
+      "x": 4742.626,
+      "y": 4187.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451248504996687872",
+      "categoryId": "381032",
+      "title": "Khoa Y học Cộng hưởng",
+      "x": 4801.699,
+      "y": 4990.094,
+      "description": "Tầng 30 · 拉贝尔学部主管的共鸣医疗研究科室兼医务室，以「频率医疗」闻名。主执校医由陆·赫斯坦纲，护士型自主医护助手N.A.N.A.负责协理。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1451591287624232960",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4824.847,
+      "y": 5763.614,
+      "description": "Nó có thể được mở sau khi giải quyết được quái vật",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451598851099389952",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4823.944,
+      "y": 5677.779,
+      "description": "Rương kho báu của thử thách mô tô nằm ở khu vực ô của bức tranh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451990189932228608",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 5443.765,
+      "y": 5267.576,
+      "description": "Đầu tiên, nhìn vào vị trí của Ga Linnai trong bức tranh thứ hai, có sự đơn giản trên cột đá phía dưới bên tay trái, trước cửa tòa nhà bên phải, có sự chính xác cần phải làm rõ, còn trên ban công của tòa nhà xa hơn về phía bên trái, có một điểm chuẩn; sau đó, đi về phía vị trí hình vuông màu trắng trong bức tranh thứ hai, đến vị trí trong bức tranh thứ ba, có sự đơn giản ở phía dưới bên trái, và có sự đơn giản ở cầu thang ở phía bên phải; cuối cùng, có một điểm đón xe máy chỉ bằng một cú nhấp chuột và phối cảnh của bức ảnh thứ hai hướng về phía trên bên trái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452049018525118464",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 5115.784,
+      "y": 5685.007,
+      "description": "Đánh giá từ vị trí của Turinna trong Chương 2, có một điểm chuẩn ở phía bên phải, ô màu đỏ gần nhất trên mặt đất là một đồng bằng, có một đồng bằng trên nóc tòa nhà, đường ống xa nhất là một đồng bằng, và cuối cùng là khung hình vuông bên trái là một khu vực chính xác được bảo vệ bởi đám đông; điểm rương kho báu chỉ bằng một cú nhấp chuột trên xe máy nằm phía trên bức ảnh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452133070772842496",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4779.671,
+      "y": 5156.442,
+      "description": "Tầng 30 · 传送到学院运载区的信标，然后开着摩托一路狂奔，就能看到。",
+      "floorId": "30",
+      "levelId": "-3/30"
+    },
+    {
+      "id": "kuro:1452134024975020032",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4666.729,
+      "y": 4934.174,
+      "description": "Tầng 30 · 传送到运载区信标，第二张图方框位置，然后跳下来就行。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1452134420493692928",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4691.125,
+      "y": 4916.104,
+      "description": "Tầng 30 · 传送到运载区信标，第三张图方框位置，然后跳下来就行。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1452134874243870720",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4757.082,
+      "y": 4945.016,
+      "description": "Tầng 30 · 传送到广场区信标，第三张图方框位置，开个扫描，一直朝前走，跳下来就能看到。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1452135618324000768",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4939.595,
+      "y": 4952.245,
+      "description": "Tầng 30 · 传送到全息战略的传送点，之后一直向前走，开个扫描就能看到。",
+      "floorId": "30",
+      "levelId": "-2/30"
+    },
+    {
+      "id": "kuro:1452283316167569408",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4946.824,
+      "y": 4814.005,
+      "description": "Tầng 30 · 传送到星空学院的中枢信标，传送过来的面前就是。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1452283910110375936",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4973.026,
+      "y": 4793.224,
+      "description": "Tầng 30 · 传送到星矩学院的中枢信标，之后超前面楼梯走，上一个台阶右转，就能看到。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1452284360440213504",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 5000.132,
+      "y": 4773.346,
+      "description": "Tầng 30 · 虽然在分区上是教学区，不过直接传送到星矩学院的中枢信标最快，然后朝面前一直走，开着扫描往标点位置找。",
+      "floorId": "30",
+      "levelId": "-2/30"
+    },
+    {
+      "id": "kuro:1452284937339351040",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4937.788,
+      "y": 4750.758,
+      "description": "Tầng 30 · 虽然分区是教学区，不过不用管，直接传送到星矩学院中枢信标，然后上楼梯，上到平台上，左转，开扫描，很容易看到。",
+      "floorId": "30",
+      "levelId": "-2/30"
+    },
+    {
+      "id": "kuro:1452294803263123456",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4734.494,
+      "y": 4522.165,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Linnai trong bức tranh thứ hai. Có sự đơn giản ở ban công tòa nhà ở bên phải, sự đơn giản ở phía dưới bên trái và điểm chuẩn ở ban công tòa nhà bên trái. Sau đó, đi về phía bên trái của bức tranh thứ hai và đến vị trí của bức tranh thứ ba. Có sự đơn giản ở phía bên trái của ban công tòa nhà và phía trên tảng đá ở phía bên phải. Điểm mở của rương kho báu bằng một cú nhấp chuột hơi lệch so với góc nhìn của bức tranh thứ hai, sau đó nhìn lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452296315030679552",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4510.419,
+      "y": 4762.504,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452305937657442304",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4567.341,
+      "y": 5141.082,
+      "description": "Đánh giá từ vị trí của Linna trong bức tranh thứ hai, có sự đơn giản ở phía bên phải, sự đơn giản bên cạnh chiếc lều bên trái, sự đơn giản phía trên cột đá bên trái và một điểm chuẩn trên mái nhà trước mặt bạn. Sau đó, đi về phía lều theo hướng khung màu trắng trong bức tranh thứ hai. Xung quanh lều có sự đơn giản. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Cuối cùng, bạn có thể nhìn thấy điểm mở của rương kho báu bằng một cú nhấp chuột, nằm trong hình thứ hai, nếu bạn ngẩng đầu lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452376247868125184",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4411.934,
+      "y": 4711.906,
+      "description": "Được rồi, anh em, giai đoạn xe máy, nếu bạn có một giấc mơ, bạn có thể đến. Chỉ cần chạm vào thử thách cuộc đua bên cạnh dấu câu, và bạn có thể đăng ký. Hãy đến và trở thành Vua đua Solaris!",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452402563401183232",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 5221.496,
+      "y": 4922.428,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453717794266083328",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4930.56,
+      "y": 5179.031,
+      "description": "Tầng 30 · 传送到星矩学院印造台，然后朝前走就能看到。",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1454153657882046464",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4594.266,
+      "y": 4391.469,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1456041094481408000",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 5436.536,
+      "y": 5451.896,
+      "description": "Nó có thể nhận được sau khi hoàn thành thử thách treo đường xây dựng số 8 (dấu chấm câu do người chơi Yunkai cung cấp và vị trí thử thách là P2)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1456406439144124416",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 4792.32,
+      "y": 4800.452,
+      "description": "Nhận được sau khi hoàn thành chuỗi nhiệm vụ Câu chuyện bí ẩn (có thể hoàn thành cùng với các chiến lược liên quan, dấu chấm câu do người chơi Delu Mengyu cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451599371945848832",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4826.654,
+      "y": 5677.779,
+      "description": "Rương kho báu của thử thách mô tô nằm ở khu vực ô của bức tranh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452002105467547648",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 5399.492,
+      "y": 5348.894,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Ga Linnai trong hình đầu tiên. Có sự đơn giản trên cột đá phía dưới bên tay trái. Trước cửa tòa nhà bên tay phải có sự chính xác cần phải làm rõ. Trên ban công của tòa nhà xa hơn về phía bên trái, có một điểm chuẩn. Sau đó, đi về phía vị trí hình vuông màu trắng trong bức tranh đầu tiên và đến vị trí của bức tranh thứ hai. Có sự đơn giản ở phía dưới bên trái và trên cầu thang ở phía bên phải. Cuối cùng là điểm đón xe máy chỉ bằng một cú nhấp chuột. Phối cảnh của bức tranh thứ hai hướng về phía trên bên trái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452129814866882560",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 5077.835,
+      "y": 5634.409,
+      "description": "Đánh giá từ vị trí của Turinna trong Chương 2, có một điểm chuẩn ở phía bên phải, ô màu đỏ gần nhất trên mặt đất là một đồng bằng, có một đồng bằng trên nóc tòa nhà, đường ống xa nhất là một đồng bằng, và cuối cùng là khung hình vuông bên trái là một khu vực chính xác được bảo vệ bởi đám đông; điểm rương kho báu chỉ bằng một cú nhấp chuột trên xe máy nằm phía trên bức ảnh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452376441280065536",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 4411.934,
+      "y": 4710.099,
+      "description": "Được rồi, anh em, giai đoạn xe máy, nếu bạn có một giấc mơ, bạn có thể đến. Chỉ cần chạm vào thử thách cuộc đua bên cạnh dấu câu, và bạn có thể đăng ký. Hãy đến và trở thành Vua đua Solaris!",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452402723275468800",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 5225.111,
+      "y": 4923.332,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1455196173819392000",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 5200.715,
+      "y": 5761.807,
+      "description": "Làm đường. Mở đường khảo sát biên giới: xây dựng lại đường cao tốc đường dài. (Điểm được cung cấp bởi người chơi)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1456040654563373056",
+      "categoryId": "qzx_03",
+      "title": "Rương tinh xảo",
+      "x": 5438.344,
+      "y": 5454.607,
+      "description": "Nó có thể nhận được sau khi hoàn thành thử thách treo đường xây dựng số 8 (dấu chấm câu do người chơi Yunkai cung cấp và vị trí thử thách là P2)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451244979365408768",
+      "categoryId": "381031",
+      "title": "Trung tâm tài liệu không gian sâu",
+      "x": 4798.798,
+      "y": 5127.918,
+      "description": "Solaris là một trong những cơ sở dữ liệu tạp chí toàn diện có quyền truy cập cao nhất. Nó cũng là cửa sổ học thuật bên ngoài của Liên minh không gian sâu và Học viện Star Torch. Nó được quản lý bởi hệ thống truy xuất và lập chỉ mục thông minh AI có tên I.R.I.S. cho việc quản lý tài liệu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451599192209551360",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4822.136,
+      "y": 5677.779,
+      "description": "Rương kho báu của thử thách mô tô nằm ở khu vực ô của bức tranh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452000754717110272",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5441.054,
+      "y": 5301.007,
+      "description": "Đầu tiên, nhìn vào vị trí của Ga Linnai trong bức tranh thứ hai, có sự đơn giản trên cột đá phía dưới bên tay trái, trước cửa tòa nhà bên phải, có sự chính xác cần phải làm rõ, còn trên ban công của tòa nhà xa hơn về phía bên trái, có một điểm chuẩn; sau đó, đi về phía vị trí hình vuông màu trắng trong bức tranh thứ hai, đến vị trí trong bức tranh thứ ba, có sự đơn giản ở phía dưới bên trái, và có sự đơn giản ở cầu thang ở phía bên phải; cuối cùng, có một điểm đón xe máy chỉ bằng một cú nhấp chuột và phối cảnh của bức ảnh thứ hai hướng về phía trên bên trái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452001755970990080",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5429.308,
+      "y": 5331.727,
+      "description": "Đầu tiên, nhìn vào vị trí của Ga Linnai trong bức tranh thứ hai, có sự đơn giản trên cột đá phía dưới bên tay trái, trước cửa tòa nhà bên phải, có sự chính xác cần phải làm rõ, còn trên ban công của tòa nhà xa hơn về phía bên trái, có một điểm chuẩn; sau đó, đi về phía vị trí hình vuông màu trắng trong bức tranh thứ hai, đến vị trí trong bức tranh thứ ba, có sự đơn giản ở phía dưới bên trái, và có sự đơn giản ở cầu thang ở phía bên phải; cuối cùng, có một điểm đón xe máy chỉ bằng một cú nhấp chuột và phối cảnh của bức ảnh thứ hai hướng về phía trên bên trái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452002544198152192",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5394.974,
+      "y": 5295.586,
+      "description": "Đầu tiên, nhìn vào vị trí của Ga Linnai trong bức tranh thứ hai, có sự đơn giản trên cột đá phía dưới bên tay trái, trước cửa tòa nhà bên phải, có sự chính xác cần phải làm rõ, còn trên ban công của tòa nhà xa hơn về phía bên trái, có một điểm chuẩn; sau đó, đi về phía vị trí hình vuông màu trắng trong bức tranh thứ hai, đến vị trí trong bức tranh thứ ba, có sự đơn giản ở phía dưới bên trái, và có sự đơn giản ở cầu thang ở phía bên phải; cuối cùng, có một điểm đón xe máy chỉ bằng một cú nhấp chuột và phối cảnh của bức ảnh thứ hai hướng về phía trên bên trái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452046848301936640",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5112.169,
+      "y": 5619.953,
+      "description": "Đánh giá từ vị trí của Turinna trong Chương 2, có một điểm chuẩn ở phía bên phải, ô màu đỏ gần nhất trên mặt đất là một đồng bằng, có một đồng bằng trên nóc tòa nhà, đường ống xa nhất là một đồng bằng, và cuối cùng là khung hình vuông bên trái là một khu vực chính xác được bảo vệ bởi đám đông; điểm rương kho báu chỉ bằng một cú nhấp chuột trên xe máy nằm phía trên bức ảnh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452128749958262784",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5088.678,
+      "y": 5663.322,
+      "description": "Đánh giá từ vị trí của Turinna trong Chương 2, có một điểm chuẩn ở phía bên phải, ô màu đỏ gần nhất trên mặt đất là một đồng bằng, có một đồng bằng trên nóc tòa nhà, đường ống xa nhất là một đồng bằng, và cuối cùng là khung hình vuông bên trái là một khu vực chính xác được bảo vệ bởi đám đông; điểm rương kho báu chỉ bằng một cú nhấp chuột trên xe máy nằm phía trên bức ảnh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452129258863538176",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5099.52,
+      "y": 5644.348,
+      "description": "Đánh giá từ vị trí của Turinna trong Chương 2, có một điểm chuẩn ở phía bên phải, ô màu đỏ gần nhất trên mặt đất là một đồng bằng, có một đồng bằng trên nóc tòa nhà, đường ống xa nhất là một đồng bằng, và cuối cùng là khung hình vuông bên trái là một khu vực chính xác được bảo vệ bởi đám đông; điểm rương kho báu chỉ bằng một cú nhấp chuột trên xe máy nằm phía trên bức ảnh thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452292681180180480",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4719.134,
+      "y": 4547.464,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Linnai trong bức tranh thứ hai. Có sự đơn giản ở ban công tòa nhà ở bên phải, sự đơn giản ở phía dưới bên trái và điểm chuẩn ở ban công tòa nhà bên trái. Sau đó, đi về phía bên trái của bức tranh thứ hai và đến vị trí của bức tranh thứ ba. Có sự đơn giản ở phía bên trái của ban công tòa nhà và phía trên tảng đá ở phía bên phải. Điểm mở của rương kho báu bằng một cú nhấp chuột hơi lệch so với góc nhìn của bức tranh thứ hai, sau đó nhìn lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452293692531732480",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4692.028,
+      "y": 4560.113,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Linnai trong bức tranh thứ hai. Có sự đơn giản ở ban công tòa nhà ở bên phải, sự đơn giản ở phía dưới bên trái và điểm chuẩn ở ban công tòa nhà bên trái. Sau đó, đi về phía bên trái của bức tranh thứ hai và đến vị trí của bức tranh thứ ba. Có sự đơn giản ở phía bên trái của ban công tòa nhà và phía trên tảng đá ở phía bên phải. Điểm mở của rương kho báu bằng một cú nhấp chuột hơi lệch so với góc nhìn của bức tranh thứ hai, sau đó nhìn lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452295114104975360",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4750.758,
+      "y": 4532.104,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Linnai trong bức tranh thứ hai. Có sự đơn giản ở ban công tòa nhà ở bên phải, sự đơn giản ở phía dưới bên trái và điểm chuẩn ở ban công tòa nhà bên trái. Sau đó, đi về phía bên trái của bức tranh thứ hai và đến vị trí của bức tranh thứ ba. Có sự đơn giản ở phía bên trái của ban công tòa nhà và phía trên tảng đá ở phía bên phải. Điểm mở của rương kho báu bằng một cú nhấp chuột hơi lệch so với góc nhìn của bức tranh thứ hai, sau đó nhìn lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452295452113563648",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4772.442,
+      "y": 4506.805,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Linnai trong bức tranh thứ hai. Có sự đơn giản ở ban công tòa nhà ở bên phải, sự đơn giản ở phía dưới bên trái và điểm chuẩn ở ban công tòa nhà bên trái. Sau đó, đi về phía bên trái của bức tranh thứ hai và đến vị trí của bức tranh thứ ba. Có sự đơn giản ở phía bên trái của ban công tòa nhà và phía trên tảng đá ở phía bên phải. Điểm mở của rương kho báu bằng một cú nhấp chuột hơi lệch so với góc nhìn của bức tranh thứ hai, sau đó nhìn lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452303957820125184",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4577.28,
+      "y": 5098.616,
+      "description": "Đánh giá từ vị trí của Linna trong bức tranh thứ hai, có sự đơn giản ở phía bên phải, sự đơn giản bên cạnh chiếc lều bên trái, sự đơn giản phía trên cột đá bên trái và một điểm chuẩn trên mái nhà trước mặt bạn. Sau đó, đi về phía lều theo hướng khung màu trắng trong bức tranh thứ hai. Xung quanh lều có sự đơn giản. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Cuối cùng, bạn có thể nhìn thấy điểm mở của rương kho báu bằng một cú nhấp chuột, nằm trong hình thứ hai, nếu bạn ngẩng đầu lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452305406000050176",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4577.28,
+      "y": 5175.416,
+      "description": "Đánh giá từ vị trí của Linna trong bức tranh thứ hai, có sự đơn giản ở phía bên phải, sự đơn giản bên cạnh chiếc lều bên trái, sự đơn giản phía trên cột đá bên trái và một điểm chuẩn trên mái nhà trước mặt bạn. Sau đó, đi về phía lều theo hướng khung màu trắng trong bức tranh thứ hai. Xung quanh lều có sự đơn giản. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Cuối cùng, bạn có thể nhìn thấy điểm mở của rương kho báu bằng một cú nhấp chuột, nằm trong hình thứ hai, nếu bạn ngẩng đầu lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452306222803005440",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4606.193,
+      "y": 5132.047,
+      "description": "Đánh giá từ vị trí của Linna trong bức tranh thứ hai, có sự đơn giản ở phía bên phải, sự đơn giản bên cạnh chiếc lều bên trái, sự đơn giản phía trên cột đá bên trái và một điểm chuẩn trên mái nhà trước mặt bạn. Sau đó, đi về phía lều theo hướng khung màu trắng trong bức tranh thứ hai. Xung quanh lều có sự đơn giản. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Cuối cùng, bạn có thể nhìn thấy điểm mở của rương kho báu bằng một cú nhấp chuột, nằm trong hình thứ hai, nếu bạn ngẩng đầu lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452306473574264832",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4623.36,
+      "y": 5131.144,
+      "description": "Đánh giá từ vị trí của Linna trong bức tranh thứ hai, có sự đơn giản ở phía bên phải, sự đơn giản bên cạnh chiếc lều bên trái, sự đơn giản phía trên cột đá bên trái và một điểm chuẩn trên mái nhà trước mặt bạn. Sau đó, đi về phía lều theo hướng khung màu trắng trong bức tranh thứ hai. Xung quanh lều có sự đơn giản. Xin vui lòng xem hình ảnh thứ ba để biết chi tiết. Cuối cùng, bạn có thể nhìn thấy điểm mở của rương kho báu bằng một cú nhấp chuột, nằm trong hình thứ hai, nếu bạn ngẩng đầu lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452376069534707712",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4411.934,
+      "y": 4714.616,
+      "description": "Được rồi, anh em, giai đoạn xe máy, nếu bạn có một giấc mơ, bạn có thể đến. Chỉ cần chạm vào thử thách cuộc đua bên cạnh dấu câu, và bạn có thể đăng ký. Hãy đến và trở thành Vua đua Solaris!",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452402347507773440",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5218.786,
+      "y": 4922.428,
+      "description": "Rương kho báu của thử thách mô tô nằm trong chiếc hộp ở hình thứ hai.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1456041236485304320",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 5435.633,
+      "y": 5449.186,
+      "description": "Nó có thể nhận được sau khi hoàn thành thử thách treo đường xây dựng số 8 (dấu chấm câu do người chơi Yunkai cung cấp, vị trí thử thách là P2, lỗi hiển thị trong trò chơi phải là Hộp Qizang Đơn giản)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1456405111785320448",
+      "categoryId": "qzx_01",
+      "title": "Rương đơn sơ",
+      "x": 4928.753,
+      "y": 5034.466,
+      "description": "Tầng 30 · 完成任务不可思议怪谈·无法离开的教室可获得（可结合相关攻略完成，标点由玩家得鹿梦鱼提供）",
+      "floorId": "30",
+      "levelId": "-2/30"
+    },
+    {
+      "id": "kuro:1451245578274271232",
+      "categoryId": "381035",
+      "title": "Trạm in vũ trang cộng sinh",
+      "x": 4923.702,
+      "y": 5148.166,
+      "description": "Cơ sở in ấn “Vũ khí cộng sinh” thuộc nhóm chuyên đề phát triển chiến thuật. Các đặc tính sinh học của Tunneler được tích hợp vào quy trình sản xuất vũ khí Blackstone, để vũ khí có thể thích ứng với tần số của Bộ cộng hưởng và dần dần tối ưu hóa hiệu suất khi sử dụng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451246093754232832",
+      "categoryId": "381034",
+      "title": "Nhà ga bữa ăn",
+      "x": 5033.969,
+      "y": 4949.155,
+      "description": "Trường thử nghiệm vi trọng lực được xây dựng cho các mẫu đất mặt trăng - đất ngoài Trái đất. Trọng lực vi mô gây ra sự đột biến của thực vật thời tiền sử, làm tăng mật độ và chức năng dinh dưỡng của chúng, đồng thời tạo ra siêu \"thức ăn không gian\" giúp cải thiện khả năng tinh thần, thể chất và khả năng cộng hưởng của học sinh và dễ ăn trong mọi tình huống.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451250505541283840",
+      "categoryId": "381033",
+      "title": "chợ du mục",
+      "x": 4559.345,
+      "y": 5152.666,
+      "description": "Bãi chở hàng lộ thiên nơi Học viện Star Torch tiến hành trao đổi vật chất và buôn bán nhỏ với người Roy. Trong giờ giao dịch được chỉ định, Roy's Merchant đến buôn bán các nguyên liệu và hàng tạp hóa địa phương. Giáo viên và học sinh có thể mua đặc sản của Lahailo tại đây.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451249697198239744",
+      "categoryId": "381038",
+      "title": "Nơi neo đậu xe",
+      "x": 4675.9,
+      "y": 4974.987,
+      "description": "Tầng 30 · 学院的师生们停放摩托载具的驻车广场，作为管理者与交通督查的S.I.G.M.A.先生，竭诚为学院师生们提供绝对安全、合规的载具升级与修缮服务。",
+      "floorId": "30",
+      "levelId": "-3/30"
+    },
+    {
+      "id": "kuro:1452802073981939712",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 5310.115,
+      "y": 5425.026,
+      "description": "Một con trong trận chiến (quái vật có thể tàng hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452805492811444224",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4305.019,
+      "y": 4800.533,
+      "description": "Một (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452805779756363776",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4660.54,
+      "y": 4426.246,
+      "description": "Người ở dưới cầu (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452806031045505024",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4756.025,
+      "y": 4447.307,
+      "description": "Hai (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452806044977000448",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4754.878,
+      "y": 4449.096,
+      "description": "Hai (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452806237795332096",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4787.685,
+      "y": 4403.558,
+      "description": "Một (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452810311974465536",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4800.235,
+      "y": 4318.356,
+      "description": "Hai Legacy of Tides (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452810341699497984",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4803.822,
+      "y": 4334.348,
+      "description": "Hai (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452810463887962112",
+      "categoryId": "320000560",
+      "title": "Bóng sắt ẩn giấu",
+      "x": 4712.439,
+      "y": 4316.07,
+      "description": "Một (quái vật sẽ trở nên vô hình, hãy quan sát cẩn thận)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453147536494899200",
+      "categoryId": "51",
+      "title": "tài xế số một",
+      "x": 4676.027,
+      "y": 4976.649,
+      "description": "Tầng 30 · 在标点处与图中NPC对话后开启【车手一号】任务",
+      "floorId": "30",
+      "levelId": "-3/30"
+    },
+    {
+      "id": "kuro:1451364300932460544",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5521.947,
+      "y": 5482.354,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451365965752381440",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5444.587,
+      "y": 5128.532,
+      "description": "Sẽ di chuyển lên dốc dọc theo con đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451388878564044800",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4625.673,
+      "y": 4515.84,
+      "description": "Có thể chiến đấu với quái vật khác",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451389386228035584",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4577.542,
+      "y": 4590.752,
+      "description": "Có thể đang có chiến tranh",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451390434443325440",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4457.093,
+      "y": 4806.767,
+      "description": "Trên bãi cỏ phía bắc hồ bơi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451390994546487296",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4385.858,
+      "y": 4919.88,
+      "description": "bên cạnh nhà máy khổng lồ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451555284414951424",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5290.626,
+      "y": 4916.357,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451561311726268416",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5351.343,
+      "y": 5663.304,
+      "description": "bên cạnh con đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451561809929891840",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5140.784,
+      "y": 5431.874,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451562396792713216",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5070.923,
+      "y": 5239.314,
+      "description": "Trong chiến tranh",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451562718598475776",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4984.085,
+      "y": 5259.878,
+      "description": "Hai cây cùng khai thác",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451562783494959104",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4975.917,
+      "y": 5262.164,
+      "description": "Hai cây cùng nhau khai thác từ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451563311461363712",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 5191.382,
+      "y": 5042.056,
+      "description": "Có một cuộc ẩu đả trên bãi cỏ bên dưới khán đài của học viện.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451563974828290048",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4746.556,
+      "y": 5660.874,
+      "description": "Khai thác mỏ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451564353179676672",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4755.049,
+      "y": 5639.659,
+      "description": "Khai thác mỏ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451565002642485248",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4458.574,
+      "y": 4923.874,
+      "description": "Trận chiến với hai cái tên xanh",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451566042445983744",
+      "categoryId": "320000520",
+      "title": "Máy khai thác đá",
+      "x": 4686.182,
+      "y": 4404.372,
+      "description": "Tuần tra dọc theo bức tường đá phía trên",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452062807720931328",
+      "categoryId": "cx_01",
+      "title": "Di sản của thủy triều·Xanh",
+      "x": 5481.577,
+      "y": 5028.647,
+      "description": "Sau khi hoàn thành thử thách ở khu vực này, bạn có thể nhận được một Relic of the Tide màu xanh lá cây, một màu tím và một màu vàng (thử thách rất khó nên hãy chuẩn bị sẵn sàng!)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451217545689624576",
+      "categoryId": "7010",
+      "title": "Khu định cư voi còn sót lại Zengzuliuchuan",
+      "x": 4789.049,
+      "y": 5479.572,
+      "description": "Một số lượng tàn dư nhất định sẽ được làm mới trong khu vực này mỗi ngày. Sau khi đánh bại những kẻ còn sót lại trong khu định cư, những kẻ còn sót lại có xác suất đánh rơi bộ mảnh vỡ âm thanh tương ứng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451327401369071616",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4678.014,
+      "y": 6060.18,
+      "description": "Mở khóa sau khi tiêu diệt quái vật gần dấu chấm câu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451328278978834432",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4556.246,
+      "y": 5719.829,
+      "description": "Mở khóa sau khi tiêu diệt quái vật gần dấu chấm câu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452062688351039488",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 5481.261,
+      "y": 5030.942,
+      "description": "Sau khi hoàn thành thử thách ở khu vực này, bạn có thể nhận được một Relic of the Tide màu xanh lá cây, một màu tím và một màu vàng (thử thách rất khó nên hãy chuẩn bị sẵn sàng!)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452696704880160768",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4733.591,
+      "y": 5844.028,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452698839690833920",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 5419.369,
+      "y": 5384.132,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454174301394890752",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 4804.066,
+      "y": 4324.292,
+      "description": "Cần phải được giải tỏa.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452062897160269824",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 5481.821,
+      "y": 5032.731,
+      "description": "Sau khi hoàn thành thử thách ở khu vực này, bạn có thể nhận được một Relic of the Tide màu xanh lá cây, một màu tím và một màu vàng (thử thách rất khó nên hãy chuẩn bị sẵn sàng!)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458992969078702080",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4694.739,
+      "y": 5974.136,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458993532138848256",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4705.581,
+      "y": 5937.092,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458993532239511552",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4706.485,
+      "y": 5937.092,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458993532344369152",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4709.195,
+      "y": 5937.092,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458993986155479040",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4768.828,
+      "y": 5982.268,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458993986256142336",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4767.925,
+      "y": 5983.172,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458994204053766144",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4763.407,
+      "y": 5984.979,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458994524385857536",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4754.372,
+      "y": 5987.689,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458994524549435392",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4753.468,
+      "y": 5987.689,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458994730984177664",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4756.179,
+      "y": 5989.496,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458995046899666944",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4755.275,
+      "y": 5988.593,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458995695926267904",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4786.899,
+      "y": 5966.005,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1458995696089845760",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4787.802,
+      "y": 5966.908,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459228974801637376",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4729.073,
+      "y": 5664.226,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459229986148995072",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4753.468,
+      "y": 5635.313,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459229986304184320",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4752.565,
+      "y": 5635.313,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459229986463567872",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4750.758,
+      "y": 5638.927,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459230152507674624",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4751.661,
+      "y": 5637.12,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242653965778944",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4745.336,
+      "y": 5656.998,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242654066442240",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4748.047,
+      "y": 5656.998,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242654162911232",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4747.144,
+      "y": 5657.901,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242654259380224",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4746.24,
+      "y": 5658.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242654368432128",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4745.336,
+      "y": 5659.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242897898622976",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4748.047,
+      "y": 5658.805,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459242898053812224",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4748.047,
+      "y": 5661.515,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459243181034602496",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4748.951,
+      "y": 5666.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459243181131071488",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4748.951,
+      "y": 5668.744,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459243915293655040",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4752.565,
+      "y": 5658.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459243915390124032",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4753.468,
+      "y": 5658.805,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459243915486593024",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4752.565,
+      "y": 5659.708,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459244079379533824",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4752.565,
+      "y": 5662.419,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459244500470366208",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4753.468,
+      "y": 5652.48,
+      "description": "Tại Riling Point, sử dụng Sound Skeleton Vision để triệu hồi con nai sừng tấm máy đá khoáng để nghiền nát đá nhiễu xạ đặc biệt để thu được nhiều mỏ đá nhiễu xạ (nó sẽ không được làm mới)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459296228226007040",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4745.336,
+      "y": 5670.551,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459296228326670336",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4742.626,
+      "y": 5670.551,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459296432476028928",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4738.108,
+      "y": 5667.84,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459316261518462976",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4735.398,
+      "y": 5666.936,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459316261677846528",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4734.494,
+      "y": 5668.744,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459316568436658176",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4738.108,
+      "y": 5668.744,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459316775211139072",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4732.687,
+      "y": 5676.875,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459316900092858368",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4730.88,
+      "y": 5678.682,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318118944505856",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4755.275,
+      "y": 5710.306,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318119049363456",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4757.986,
+      "y": 5715.727,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318119145832448",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4759.793,
+      "y": 5714.824,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318119242301440",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4758.889,
+      "y": 5713.016,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318119334576128",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4759.793,
+      "y": 5711.209,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318772061065216",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4757.082,
+      "y": 5712.113,
+      "description": "Quặng lớn, nghiền nát để lấy 6 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459318772216254464",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 4758.889,
+      "y": 5710.306,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459320506002604032",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5267.576,
+      "y": 5721.148,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459320506132627456",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5269.384,
+      "y": 5723.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459320506258456576",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5270.287,
+      "y": 5722.955,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459320506380091392",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5271.191,
+      "y": 5723.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459320739168157696",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5272.094,
+      "y": 5724.762,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459322169921261568",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5329.016,
+      "y": 5716.631,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459322170080645120",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5330.824,
+      "y": 5716.631,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459322170240028672",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5333.534,
+      "y": 5720.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459322170395217920",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5334.438,
+      "y": 5721.148,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459322170550407168",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5335.341,
+      "y": 5720.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459322540558811136",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5330.824,
+      "y": 5721.148,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459323369231646720",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5350.701,
+      "y": 5721.148,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459323369336504320",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5352.508,
+      "y": 5720.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459323369437167616",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5356.122,
+      "y": 5720.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1459323561691480064",
+      "categoryId": "42601410",
+      "title": "Mỏ đá nhiễu xạ",
+      "x": 5355.219,
+      "y": 5722.955,
+      "description": "Quặng lớn, nghiền nát để lấy 5 Quặng đá nhiễu xạ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457449784736444416",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5408.527,
+      "y": 4921.525,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457450254181265408",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5401.299,
+      "y": 4926.946,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457450500964184064",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5400.395,
+      "y": 4928.753,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457453858011148288",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5298.296,
+      "y": 4919.718,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457455496657072128",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5323.595,
+      "y": 5052.536,
+      "description": "Tuần tra trên đường đi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457455962245787648",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5329.92,
+      "y": 5054.344,
+      "description": "Tuần tra trên đường đi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457459406366502912",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5396.781,
+      "y": 5237.76,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457459713329295360",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5401.299,
+      "y": 5236.856,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457462498516463616",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5422.08,
+      "y": 5281.129,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457462760907927552",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5427.501,
+      "y": 5273.901,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457465061362036736",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5426.598,
+      "y": 5323.595,
+      "description": "Bạn vẫn đang nhảy, tôi sẽ đưa bạn đến đây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457466900390834176",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5310.946,
+      "y": 5281.129,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457467752627269632",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5282.936,
+      "y": 5369.675,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457469344040022016",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5279.223,
+      "y": 5412.593,
+      "description": "Ngừng chiến đấu. Ngừng chiến đấu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457470703726981120",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5153.732,
+      "y": 5428.405,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457470903528386560",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5151.925,
+      "y": 5425.694,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457472632968409088",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5104.941,
+      "y": 5393.167,
+      "description": "tuần tra",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457473448399826944",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5090.485,
+      "y": 5397.685,
+      "description": "tuần tra",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457475033768587264",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5082.561,
+      "y": 5221.262,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457475088189681664",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5089.87,
+      "y": 5227.957,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457476258960994304",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5219.473,
+      "y": 5211.531,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457476319275085824",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5216.428,
+      "y": 5210.211,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457477094931918848",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5293.074,
+      "y": 5205.667,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457477840458412032",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5163.282,
+      "y": 5128.858,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457478392536330240",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5214.268,
+      "y": 5034.466,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457490712605421568",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5157.752,
+      "y": 4873.764,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457490762958041088",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5160.4,
+      "y": 4872.264,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457492226953146368",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5244.003,
+      "y": 4769.009,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457492265617780736",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5239.133,
+      "y": 4761.555,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457511613143674880",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4675.62,
+      "y": 4316.223,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457511927758417920",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4697.603,
+      "y": 4420.644,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457513235426504704",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4589.929,
+      "y": 4394.767,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457513701529579520",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4583.605,
+      "y": 4364.047,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457530197739794432",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4532.311,
+      "y": 4493.975,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457531186991558656",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4507.97,
+      "y": 4756.73,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457531255669092352",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 4504.555,
+      "y": 4761.184,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457713957568151552",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5377.807,
+      "y": 5113.976,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457863719878021120",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5459.658,
+      "y": 5555.848,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457863752664383488",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5452.619,
+      "y": 5556.652,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1457864531194314752",
+      "categoryId": "310000810",
+      "title": "Người tị nạn Thunderstaff",
+      "x": 5364.082,
+      "y": 5655.462,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453046526806126592",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4747.342,
+      "y": 4396.917,
+      "description": "Một bên nước",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453046699076562944",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4794.507,
+      "y": 4304.514,
+      "description": "Di tích thủy triều một",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453046926177153024",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4686.191,
+      "y": 4457.698,
+      "description": "một",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453047060961112064",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4709.259,
+      "y": 4419.777,
+      "description": "Cái tiếp theo dưới cầu",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453047300072206336",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4651.794,
+      "y": 4493.442,
+      "description": "Hai bên cạnh cơ thể",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453047326536052736",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4647.972,
+      "y": 4494.246,
+      "description": "Hai bên cạnh cơ thể",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453047438553329664",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4620.649,
+      "y": 4497.263,
+      "description": "Một trong không gian mở",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453047699204157440",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4341.504,
+      "y": 4836.195,
+      "description": "Hai bên cạnh cơ thể",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453047721444569088",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4346.699,
+      "y": 4845.095,
+      "description": "Hai bên cạnh cơ thể",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453048373665017856",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4613.186,
+      "y": 5631.057,
+      "description": "Ba trên sườn đồi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453048409142652928",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4605.136,
+      "y": 5631.753,
+      "description": "Ba trên sườn đồi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453048435231223808",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 4619.836,
+      "y": 5636.307,
+      "description": "Ba trên sườn đồi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453050795290587136",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 5413.632,
+      "y": 5381.62,
+      "description": "Di sản của thủy triều thứ hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453050829440610304",
+      "categoryId": "320000550",
+      "title": "Saw Attack Iron Shadow",
+      "x": 5416.243,
+      "y": 5388.803,
+      "description": "Di sản của thủy triều thứ hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451364359386492928",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5527.567,
+      "y": 5478.939,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451365156753043456",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5423.381,
+      "y": 5282.873,
+      "description": "trong đám đông",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451365709797191680",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5420.083,
+      "y": 5130.014,
+      "description": "Sẽ di chuyển lên dốc dọc theo con đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451366655566606336",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5370.452,
+      "y": 5111.239,
+      "description": "di chuyển dọc theo con đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451367162393718784",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5343.527,
+      "y": 5165.713,
+      "description": "Hai người ở cùng một chỗ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451367244937621504",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5344.611,
+      "y": 5156.46,
+      "description": "Hai người ở cùng một chỗ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451388047964041216",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 4614.397,
+      "y": 4447.931,
+      "description": "Tuần tra đường thấp",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451388724918300672",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 4610.44,
+      "y": 4533.811,
+      "description": "Đội tuần tra sẽ được chuyển về phía Tây",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451389334539415552",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 4581.201,
+      "y": 4583.749,
+      "description": "Có thể đang có chiến tranh",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451390108747231232",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 4453.686,
+      "y": 4793.702,
+      "description": "Tuần tra khu vực cỏ phía bắc hồ bơi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451390907992829952",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 4388.108,
+      "y": 4916.61,
+      "description": "bên cạnh nhà máy khổng lồ",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451391546319761408",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 4457.888,
+      "y": 4922.094,
+      "description": "Hai cuộc chiến với hai cái tên xanh",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451412223934279680",
+      "categoryId": "320000510",
+      "title": "Máy trồng cây",
+      "x": 5157.96,
+      "y": 4861.485,
+      "description": "dưới đường",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452052165261733888",
+      "categoryId": "xx·wcxl·smqt",
+      "title": "Ảo ảnh ·Con diệc hung hãn vô thường ·Tà đạo sinh tử",
+      "x": 5486.113,
+      "y": 5029.487,
+      "description": "Xuất hiện trong làn sóng thử thách vùng bão từ ảo thứ hai. Sau khi hoàn thành thử thách, bạn có thể nhận được một Relic of the Tide màu xanh lá cây, một màu tím và một màu vàng (thử thách rất khó nên hãy chuẩn bị sẵn sàng!)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451985769177755648",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 5217.087,
+      "y": 5202.441,
+      "description": "Hai trong trận chiến",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451985804716093440",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 5231.788,
+      "y": 5208.395,
+      "description": "Hai trong trận chiến",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451233169035816960",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4619.15,
+      "y": 5937.851,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451233307764404224",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4615.96,
+      "y": 5935.176,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451233379587665920",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4616.014,
+      "y": 5935.881,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451233450492375040",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4615.779,
+      "y": 5936.486,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451233544438607872",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4615.635,
+      "y": 5937.751,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451234606381854720",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4639.09,
+      "y": 5986.578,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451234665963925504",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4641.647,
+      "y": 5985.729,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451234708227944448",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4643.066,
+      "y": 5985.864,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451234747299868672",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4642.217,
+      "y": 5988.566,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451234784725643264",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 4644.349,
+      "y": 5988.286,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237448312221696",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 5542.593,
+      "y": 5049.428,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237484811055104",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 5544.3,
+      "y": 5048.922,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237562382495744",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 5542.042,
+      "y": 5052.546,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237595469377536",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 5543.09,
+      "y": 5053.449,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451237647963074560",
+      "categoryId": "42601380",
+      "title": "ngôi sao nấm đôi",
+      "x": 5539.575,
+      "y": 5047.115,
+      "description": "Chất liệu cho nhân vật đột phá.\nCác bào tử và nấm kỳ lạ phát triển trên thiên thạch lan rộng thành mạng lưới và đan xen với nhau, giống như một mô hình thu nhỏ được xây dựng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453529801137795072",
+      "categoryId": "310000820",
+      "title": "tiếng nổ lách tách",
+      "x": 5282.936,
+      "y": 4838.4,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453530316921958400",
+      "categoryId": "310000820",
+      "title": "tiếng nổ lách tách",
+      "x": 4441.751,
+      "y": 5086.871,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453839972617744384",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4923.332,
+      "y": 4864.602,
+      "description": "Nó nằm phía trên vòm phía tây nam của đèn hiệu trung tâm. Bạn có thể tiếp cận nó bằng cách chạy dọc tường từ dưới vòm và dùng móc để đến gần hơn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453841883251027968",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4880.866,
+      "y": 4881.769,
+      "description": "Nằm phía trên tòa nhà hình chiếc ô. Đầu tiên bạn có thể leo lên tòa nhà bên cạnh rồi lướt qua để lấy nó.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453845998154870784",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4797.741,
+      "y": 5125.722,
+      "description": "Đứng đầu khu vực giảng dạy của Học viện Star Torch. Bạn có thể đi từ điểm trung chuyển như trong Hình 2 dọc theo con đường đến vị trí của mảnh vỡ cuối cùng. Khi bạn đi đến cửa tòa nhà và sử dụng nghi thức truyền phát như trong Hình 3, bạn có thể được chuyển trực tiếp lên phía trên khu vực giảng dạy. Bạn cũng có thể vào tòa nhà và đi theo cầu thang xoắn ốc lên trên cùng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453851127740313600",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4763.407,
+      "y": 4958.569,
+      "description": "Nằm trên đỉnh mái vòm, gần lối đi thẳng vào dây móc. Bạn có thể đi ngang qua đèn hiệu được hiển thị trong hộp màu đỏ ở Hình 2.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453852773616775168",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4764.311,
+      "y": 4938.692,
+      "description": "Nằm ở phía trên của chiếc ô này, hãy đưa nó đến gần dây móc. Bạn có thể đi ngang qua đèn hiệu nằm ở ô màu đỏ ở Hình 2.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453854668311703552",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4675.765,
+      "y": 5006.456,
+      "description": "Nó nằm trên biển báo đèn hình bánh xe và có thể lấy được bằng cách tiếp cận đường móc. Bạn có thể dịch chuyển tức thời từ đèn hiệu như trong Hình 2 và đi bộ một đoạn ngắn về phía nam để xem mảnh cuối cùng của mục tiêu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453855940469272576",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4664.922,
+      "y": 4894.419,
+      "description": "Nằm ở phía trên của lá, hãy lướt lại gần và vật lộn để lấy nó. Bạn có thể dịch chuyển tức thời từ đèn hiệu như trong Hình 2. Đi hai bước về phía bắc và nhìn xuống để xem mảnh cuối cùng của mục tiêu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453860536782745600",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 5029.948,
+      "y": 4897.129,
+      "description": "Nó nằm trên đỉnh của nhà máy. Nó bị chặn bởi một tấm kính và không thể lấy được trực tiếp bằng cách móc. Bạn cần phải leo lên một nơi cao gần đó và lướt đi để đến gần hơn. Bạn có thể tiếp cận mục tiêu từ đèn hiệu trong ô màu đỏ ở Hình 2. Hoặc leo thẳng lên từ cột như ở Hình 3 để lấy nó.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453864851857534976",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4514.936,
+      "y": 4793.224,
+      "description": "Nó nằm giữa ngọn núi trên mặt đất và tòa nhà.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453865920253603840",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4682.089,
+      "y": 4419.162,
+      "description": "Nằm trong hang động ở dưới cùng của nhãn hiệu.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453877771463094272",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4826.654,
+      "y": 5979.558,
+      "description": "Ngọn cây trong tự nhiên",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453878632656351232",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4801.355,
+      "y": 5516.047,
+      "description": "Nằm trên một ngọn đồi hoang dã",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453883283078328320",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 5161.864,
+      "y": 5378.711,
+      "description": "Nằm trên đỉnh cột đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454077588799696896",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 4923.332,
+      "y": 5147.407,
+      "description": "Nằm ở tầng cao nhất của tòa nhà. Bạn có thể dịch chuyển đến đèn hiệu được đánh dấu trong Hình 2, lướt đến gần nó từ trên cao rồi sử dụng móc để đến gần hơn.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452756424361979904",
+      "categoryId": "320000540",
+      "title": "Máy móc hạng nặng đào hầm",
+      "x": 5069.704,
+      "y": 5633.506,
+      "description": "Lớp giáp của cỗ máy hạng nặng đào hầm rất chắc chắn và ổn định, đồng thời có khả năng cơ động cao. Nó còn được trang bị một khẩu súng điện từ mạnh mẽ đáng kinh ngạc và một máy tạo lá chắn có thể hỗ trợ các lực lượng đồng minh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452756684520091648",
+      "categoryId": "320000540",
+      "title": "Máy móc hạng nặng đào hầm",
+      "x": 5072.414,
+      "y": 5604.593,
+      "description": "Lớp giáp của cỗ máy hạng nặng đào hầm rất chắc chắn và ổn định, đồng thời có khả năng cơ động cao. Nó còn được trang bị một khẩu súng điện từ mạnh mẽ đáng kinh ngạc và một máy tạo lá chắn có thể hỗ trợ các lực lượng đồng minh.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451186320660819968",
+      "categoryId": "4027",
+      "title": "Chiến lược ảnh ba chiều·Đồng bộ hóa",
+      "x": 4902.948,
+      "y": 4971.815,
+      "description": "Hoàn thành nhiệm vụ tiên quyết [Tiến vào chiến trường ảo! 】Mở khóa sau",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453541900155154432",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5184.452,
+      "y": 5763.614,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453542220880998400",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5185.355,
+      "y": 5761.807,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453543203199578112",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5185.355,
+      "y": 5755.482,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453547332183470080",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5188.066,
+      "y": 5754.579,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453547332347047936",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5188.969,
+      "y": 5753.675,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453548135424258048",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5406.72,
+      "y": 5744.64,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453548135520727040",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5406.72,
+      "y": 5743.736,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453548855323996160",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5404.009,
+      "y": 5744.64,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453548855487574016",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5404.009,
+      "y": 5743.736,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453549454736175104",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5400.395,
+      "y": 5741.929,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453550447498571776",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5396.781,
+      "y": 5742.833,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453550447670538240",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5397.685,
+      "y": 5742.833,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453550447838310400",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5397.685,
+      "y": 5743.736,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453550448006082560",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5398.588,
+      "y": 5742.833,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453890396641095680",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5206.136,
+      "y": 5753.675,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453890690974167040",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5205.233,
+      "y": 5752.772,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453890995654815744",
+      "categoryId": "42601350",
+      "title": "cây dương xỉ",
+      "x": 5204.329,
+      "y": 5754.579,
+      "description": "Đây là dương xỉ khô",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452696222824607744",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 5085.624,
+      "y": 5640.517,
+      "description": "Đánh giá từ vị trí của Linna, có một điểm chuẩn ở phía bên tay phải, khung màu đỏ gần nhất trên mặt đất là một đồng bằng, có một đồng bằng trên nóc tòa nhà, đường ống xa nhất là một đồng bằng, và cuối cùng là khung hình vuông bên trái là một khu vực chính xác được bảo vệ bởi đám đông; điểm rương kho báu chỉ bằng một cú nhấp chuột trên xe máy ở phía trên Linna.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452696588421115904",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 5419.207,
+      "y": 5318.608,
+      "description": "Đầu tiên, hãy nhìn vào vị trí của Linnai trong bức ảnh đầu tiên. Có sự đơn giản trên cột đá phía dưới bên tay trái. Trước cửa tòa nhà bên tay phải có sự chính xác cần phải làm rõ. Trên ban công của tòa nhà xa hơn về phía bên trái, có một điểm chuẩn. Sau đó, đi về phía ô màu trắng ở bức tranh đầu tiên và đến vị trí của bức tranh thứ hai. Có sự đơn giản ở phía dưới bên trái và sự đơn giản ở cầu thang ở phía bên phải. Cuối cùng là điểm đón xe máy chỉ bằng một cú nhấp chuột. Phối cảnh của bức ảnh đầu tiên hướng về phía trên bên trái.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452755665966919680",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 4583.776,
+      "y": 5131.189,
+      "description": "Đánh giá từ vị trí của Linnai, có sự đơn giản ở phía bên phải, sự đơn giản ở phía bên trái của lều, sự đơn giản phía trên cột đá ở phía bên trái và một điểm chuẩn trên mái nhà trước mặt bạn. Sau đó đi về phía lều theo hướng khung màu trắng. Xung quanh lều có sự đơn giản. Xin vui lòng xem hình ảnh thứ hai để biết chi tiết. Cuối cùng, bạn có thể thấy điểm mở của rương kho báu bằng một cú nhấp chuột trên xe mô tô, nằm ở hình ảnh đầu tiên, nếu bạn ngẩng đầu lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452755823790190592",
+      "categoryId": "cbd",
+      "title": "nơi kho báu",
+      "x": 4736.12,
+      "y": 4526.899,
+      "description": "Đầu tiên hãy nhìn vào vị trí của Linnai trong bức ảnh đầu tiên. Có sự đơn giản ở ban công tòa nhà ở bên phải, sự đơn giản ở phía dưới bên trái và điểm chuẩn ở ban công tòa nhà bên trái. Sau đó, đi về phía bên trái của bức tranh đầu tiên và đến vị trí của bức tranh thứ hai. Có sự đơn giản ở phía bên trái của ban công tòa nhà và phía trên viên đá bên phải. Điểm mở của rương kho báu bằng một cú nhấp chuột được quay sang trái từ góc nhìn của bức ảnh đầu tiên, sau đó nhìn lên.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451609911613255680",
+      "categoryId": "320000570",
+      "title": "Ảo ảnh quy mô băng giá",
+      "x": 5050.205,
+      "y": 5547.779,
+      "description": "Một trong trận chiến",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243603759525888",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4672.151,
+      "y": 4424.584,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243603872772096",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4673.958,
+      "y": 4425.487,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243603990212608",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4673.958,
+      "y": 4426.391,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604103458816",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4675.765,
+      "y": 4425.487,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451600133790838784",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4699.256,
+      "y": 4405.609,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451600133954416640",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4698.353,
+      "y": 4403.802,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451600134117994496",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4697.449,
+      "y": 4404.706,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451600134285766656",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4696.546,
+      "y": 4403.802,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451600134449344512",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 4695.642,
+      "y": 4403.802,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451324575309950976",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4978.619,
+      "y": 4455.665,
+      "description": "Roy Icefield - Đồng bằng khắc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451326173333368832",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 5466.01,
+      "y": 5347.186,
+      "description": "Roy Icefield - Đồng bằng khắc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451327183948935168",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 5139.348,
+      "y": 5745.67,
+      "description": "Roy Icefield - Đồng bằng khắc",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451328126455181312",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 5049.79,
+      "y": 4686.273,
+      "description": "Roy Icefield-Học viện Ngọn đuốc Ngôi sao",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451329468705746944",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4827.458,
+      "y": 4804.021,
+      "description": "Tầng 30 · 罗伊冰原-星炬学院-星炬学院·广场区",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1451330794856591360",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4686.679,
+      "y": 4926.53,
+      "description": "Tầng 30 · 罗伊冰原-星炬学院-星炬学院·运载区",
+      "floorId": "30",
+      "levelId": "-3/30"
+    },
+    {
+      "id": "kuro:1451331483355787264",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4770.382,
+      "y": 4938.71,
+      "description": "Tầng 30 · 罗伊冰原-星炬学院-星炬学院·广场区",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1451332783044767744",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 5033.382,
+      "y": 4987.853,
+      "description": "Tầng 30 · 罗伊冰原-星炬学院-星炬学院·广场区",
+      "floorId": "30",
+      "levelId": "-1/30"
+    },
+    {
+      "id": "kuro:1451334233370193920",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4842.918,
+      "y": 5046.212,
+      "description": "Tầng 30 · 罗伊冰原-星炬学院-星炬学院·运载区",
+      "floorId": "30",
+      "levelId": "-3/30"
+    },
+    {
+      "id": "kuro:1451335452654366720",
+      "categoryId": "CS_02",
+      "title": "ngọn hải đăng nhỏ",
+      "x": 4605.416,
+      "y": 5177.711,
+      "description": "Roy Icefield-Học viện Ngọn đuốc Ngôi sao",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452432364822278144",
+      "categoryId": "CS_01",
+      "title": "Hub Beacon",
+      "x": 4935.078,
+      "y": 4839.304,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452742606051291136",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4580.894,
+      "y": 4380.311,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452743021063106560",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4678.475,
+      "y": 4328.809,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452744502686199808",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4906.165,
+      "y": 4424.584,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452744657372131328",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4910.682,
+      "y": 4420.066,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452753137200066560",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5469.967,
+      "y": 5551.285,
+      "description": "trên đỉnh núi",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452753353619746816",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5445.572,
+      "y": 5563.934,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452753713799426048",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5404.913,
+      "y": 5394.071,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452754198652579840",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5291.068,
+      "y": 5214.268,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452754591239434240",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5175.416,
+      "y": 5100.424,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452754955615399936",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5143.793,
+      "y": 4844.725,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452755503183769600",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5066.993,
+      "y": 5417.562,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452755913774788608",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5222.4,
+      "y": 5605.496,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452756032591032320",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 5220.593,
+      "y": 5609.111,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452757045087629312",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4664.922,
+      "y": 5524.179,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452758752987246592",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4652.273,
+      "y": 5520.565,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452758914792894464",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4658.598,
+      "y": 5520.565,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452759050839339008",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4644.141,
+      "y": 5502.494,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452759680920268800",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4480.602,
+      "y": 5534.118,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452759800544030720",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4489.638,
+      "y": 5541.346,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452759935841677312",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4490.541,
+      "y": 5534.118,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452760365615230976",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4403.802,
+      "y": 4849.242,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452760496194514944",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4409.224,
+      "y": 4854.664,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452761010736934912",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4561.92,
+      "y": 4627.878,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452761130977259520",
+      "categoryId": "320000530",
+      "title": "Móng sắt công nghiệp nặng",
+      "x": 4556.499,
+      "y": 4627.878,
+      "description": "Sừng cơ học của móng guốc công nghiệp nặng có thể bị phá hủy bởi các cuộc phản công tiềm năng. Sau khi phá hủy thành công vị trí này, cuộc tấn công của móng guốc công nghiệp nặng có thể bị giảm và phạm vi tấn công của chúng có thể bị giảm.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461103794182586368",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 4535.718,
+      "y": 5151.925,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461104299000627200",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 4361.336,
+      "y": 4882.673,
+      "description": "Một trong những điểm check-in và chụp ảnh, có năm điểm",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461104524562419712",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 4352.301,
+      "y": 4886.287,
+      "description": "Một trong những điểm check-in và chụp ảnh, có năm điểm",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461104642350546944",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 4350.494,
+      "y": 4891.708,
+      "description": "Một trong những điểm check-in và chụp ảnh, có năm điểm",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461104759350657024",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 4347.784,
+      "y": 4879.059,
+      "description": "Một trong những điểm check-in và chụp ảnh, có năm điểm",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461104879349694464",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 4343.266,
+      "y": 4873.638,
+      "description": "Một trong những điểm check-in và chụp ảnh, có năm điểm",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461119520134037504",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5051.633,
+      "y": 5538.635,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461119684089380864",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5044.405,
+      "y": 5537.732,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461119795817250816",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5040.791,
+      "y": 5543.153,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461120221174714368",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5211.558,
+      "y": 5315.464,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461120343874371584",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5216.075,
+      "y": 5314.56,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461120455296057344",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5217.882,
+      "y": 5324.499,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461120580995153920",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5224.207,
+      "y": 5326.306,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461121171003703296",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5217.882,
+      "y": 5115.784,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461121305817022464",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5220.593,
+      "y": 5120.301,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461121434124976128",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5229.628,
+      "y": 5112.169,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461121553167712256",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5229.628,
+      "y": 5122.108,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461121683765755904",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5236.856,
+      "y": 5128.433,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461122121646899200",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5587.426,
+      "y": 5100.424,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461122248386183168",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5592.847,
+      "y": 5104.038,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1461122676511375360",
+      "categoryId": "310000790",
+      "title": "Loại Rock Spider S4",
+      "x": 5585.619,
+      "y": 5102.231,
+      "description": "Robot thám hiểm do Deep Space hợp tác phát triển rất nhỏ, linh hoạt và có thể thích ứng với địa hình phức tạp của Lahailo.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453489170346733568",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 4749.854,
+      "y": 5650.673,
+      "description": "Cần sử dụng chức năng chụp ảnh để hình dung máy đá khoáng.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453498896956469248",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 4543.849,
+      "y": 5155.539,
+      "description": "Sử dụng hình ảnh âm thanh nhện đá",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1453499327233339392",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 4547.464,
+      "y": 5123.915,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454146777696759808",
+      "categoryId": "42",
+      "title": "Riling",
+      "x": 4988.386,
+      "y": 5853.967,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452061963894075392",
+      "categoryId": "43",
+      "title": "Vùng bão từ vật chất ảo",
+      "x": 5491.2,
+      "y": 5030.906,
+      "description": "Vào khu vực này để bắt đầu thử thách khu vực bão từ ảo. Sau khi hoàn thành thử thách, bạn có thể nhận được một Relic of the Tide màu xanh lá cây, một màu tím và một màu vàng (thử thách rất khó nên hãy chuẩn bị sẵn sàng!)",
+      "levelId": "0"
+    }
+  ]
+}

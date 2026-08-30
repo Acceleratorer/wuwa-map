@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwa-kuro-atlas-roya-frostlands-906-5-8",
+  "progressMapId": "wuwa-kuro-state-906",
+  "title": "Starward Riseway",
+  "subtitle": "37 vị trí · 10 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "tiles": {
+    "src": "map-packs/private/maps/906/{x}_{y}.webp",
+    "tileSize": 768,
+    "columns": 11,
+    "rows": 10,
+    "availableTiles": [
+      "5,-7",
+      "5,-8",
+      "5,-9",
+      "5,-6",
+      "4,-7",
+      "4,-8",
+      "4,-9",
+      "4,-6",
+      "3,-7",
+      "3,-8",
+      "3,-9",
+      "3,-6",
+      "2,-7",
+      "2,-8",
+      "2,-9",
+      "2,-6"
+    ]
+  },
+  "bounds": {
+    "minX": 1536,
+    "minY": 768,
+    "maxX": 4608,
+    "maxY": 3840
+  },
+  "initialView": {
+    "minX": 2306.7110000000002,
+    "minY": 1818.8049999999998,
+    "maxX": 3739.708,
+    "maxY": 2875.717
+  },
+  "areas": [
+    {
+      "id": "whole-map",
+      "label": "Toàn khu vực",
+      "bounds": {
+        "minX": 2306.7110000000002,
+        "minY": 1818.8049999999998,
+        "maxX": 3739.708,
+        "maxY": 2875.717
+      },
+      "markerIds": [
+        "kuro:1455627036386586624",
+        "kuro:1454534146304307200",
+        "kuro:1454521184493449216",
+        "kuro:1454521184640249856",
+        "kuro:1454534365836161024",
+        "kuro:1454534719676035072",
+        "kuro:1451598221169455104",
+        "kuro:1451983765713924096",
+        "kuro:1451984026746433536",
+        "kuro:1451984060577689600",
+        "kuro:1451173550991028224",
+        "kuro:1454127579750789120",
+        "kuro:1454129245273141248",
+        "kuro:1452426028508196864",
+        "kuro:1451597032591781888",
+        "kuro:1451597032705028096",
+        "kuro:1451243604220899328",
+        "kuro:1451243604338339840",
+        "kuro:1451243604451586048",
+        "kuro:1451243604564832256",
+        "kuro:1451243604682272768",
+        "kuro:1451243604795518976",
+        "kuro:1451243604917153792",
+        "kuro:1451243605026205696",
+        "kuro:1451243605143646208",
+        "kuro:1451243605261086720",
+        "kuro:1451243605374332928",
+        "kuro:1451243605491773440",
+        "kuro:1451243605609213952",
+        "kuro:1451243605726654464",
+        "kuro:1451243605844094976",
+        "kuro:1451243605957341184",
+        "kuro:1451243606074781696",
+        "kuro:1451243606192222208",
+        "kuro:1451243606309662720",
+        "kuro:1451243606422908928",
+        "kuro:1452425675389743104"
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "collection",
+      "label": "Bộ sưu tập",
+      "icon": "collection"
+    },
+    {
+      "id": "resources",
+      "label": "Tài nguyên",
+      "icon": "resource"
+    },
+    {
+      "id": "enemies",
+      "label": "Kẻ thù",
+      "icon": "enemy"
+    },
+    {
+      "id": "bosses",
+      "label": "Boss",
+      "icon": "boss"
+    }
+  ],
+  "defaultVisibleCategoryIds": [
+    "qzx_04"
+  ],
+  "categories": [
+    {
+      "id": "qzx_04",
+      "label": "Rương huy quang",
+      "color": "#8bd3c7",
+      "symbol": "4",
+      "groupId": "collection",
+      "icon": "chest",
+      "imageSrc": "map-packs/private/icons/9fb9717a222ce68bd07e.webp"
+    },
+    {
+      "id": "cx_03",
+      "label": "Di sản của thủy triều·Vàng",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/0c7537783a162a18228c.webp"
+    },
+    {
+      "id": "cx_02",
+      "label": "Di sản thủy triều·Tím",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/59f0eaade75ad1457a7e.webp"
+    },
+    {
+      "id": "320000580",
+      "label": "Ảo ảnh gió",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/61eabca2fa1c0fc4b40e.webp"
+    },
+    {
+      "id": "5040",
+      "label": "Heavisha",
+      "color": "#6cc8ee",
+      "symbol": "•",
+      "groupId": "bosses",
+      "icon": "boss",
+      "imageSrc": "map-packs/private/icons/254ee23b5c756e153789.webp"
+    },
+    {
+      "id": "zscj",
+      "label": "Tàn dư cuối cùng",
+      "color": "#9fdb72",
+      "symbol": "•",
+      "groupId": "collection",
+      "icon": "collection",
+      "imageSrc": "map-packs/private/icons/ed9ef2e8c51bdc5d12e2.webp"
+    },
+    {
+      "id": "320000500",
+      "label": "Lưỡng cực·Mặt trận hạng nặng Yuanyun",
+      "color": "#8bd3c7",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/db11e370075ea75890a0.webp"
+    },
+    {
+      "id": "320000570",
+      "label": "Ảo ảnh quy mô băng giá",
+      "color": "#f8c963",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/94e50aeebe9671949856.webp"
+    },
+    {
+      "id": "42601390",
+      "label": "hoa thư sương giá",
+      "color": "#b8a1ff",
+      "symbol": "•",
+      "groupId": "resources",
+      "icon": "resource",
+      "imageSrc": "map-packs/private/icons/68cd35bf3da69060b139.webp"
+    },
+    {
+      "id": "320000490",
+      "label": "Súng mọc ngôi sao lưỡng cực",
+      "color": "#f07e83",
+      "symbol": "•",
+      "groupId": "enemies",
+      "icon": "enemy",
+      "imageSrc": "map-packs/private/icons/a42014e123396b017e5e.webp"
+    }
+  ],
+  "markers": [
+    {
+      "id": "kuro:1455627036386586624",
+      "categoryId": "qzx_04",
+      "title": "Rương huy quang",
+      "x": 2629.271,
+      "y": 2481.995,
+      "description": "Làm đường. Mở đường đo ranh giới: xây dựng lại Vòng xoáy chết đuối. (Điểm này do người chơi cung cấp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454534146304307200",
+      "categoryId": "cx_03",
+      "title": "Di sản của thủy triều·Vàng",
+      "x": 2939.181,
+      "y": 2141.365,
+      "description": "Mở khóa sau khi đánh bại hai kẻ thù xung quanh (dấu câu được người chơi cung cấp trong tệp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454521184493449216",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 3081.939,
+      "y": 2260.631,
+      "description": "Mở khóa sau khi đánh bại kẻ thù xung quanh (dấu câu được người chơi cung cấp trong tệp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454521184640249856",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 2927.435,
+      "y": 2249.788,
+      "description": "Mở khóa sau khi đánh bại quái vật xung quanh (dấu chấm câu được người chơi cung cấp để thay đổi tập tin)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454534365836161024",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 2944.602,
+      "y": 2141.365,
+      "description": "Mở khóa sau khi đánh bại hai kẻ thù xung quanh (dấu câu được người chơi cung cấp trong tệp)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454534719676035072",
+      "categoryId": "cx_02",
+      "title": "Di sản thủy triều·Tím",
+      "x": 2783.774,
+      "y": 2233.525,
+      "description": "Mở khóa sau khi đánh bại hai quái vật xung quanh (dấu chấm câu này được người chơi cung cấp để thay đổi file)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451598221169455104",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 3081.939,
+      "y": 2254.369,
+      "description": "Thử thách di sản thủy triều thứ hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451983765713924096",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 3081.09,
+      "y": 2253.149,
+      "description": "Di sản của thủy triều thứ hai",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451984026746433536",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 2786.105,
+      "y": 2227.643,
+      "description": "Hai di tích thủy triều bên sông",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451984060577689600",
+      "categoryId": "320000580",
+      "title": "Ảo ảnh gió",
+      "x": 2787.912,
+      "y": 2231.971,
+      "description": "Hai di tích thủy triều bên sông",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451173550991028224",
+      "categoryId": "5040",
+      "title": "Heavisha",
+      "x": 2903.049,
+      "y": 2553.157,
+      "description": "Khả năng chống lại sát thương nhiễu xạ của kẻ thù này được tăng lên.\nĐể theo dõi và duy trì trạng thái năng lượng của lõi lò trong thời gian thực, Liên minh Không gian sâu đã xây dựng mảng phát hiện đầu tiên - Heavisha trên bề mặt Hồ Kiếm Rơi.\nChức năng chính của nó là thực hiện hiệu chuẩn khẩn cấp và truyền dữ liệu ngược về lõi lò khi có biến động bất thường hoặc nghiêm trọng trong dòng năng lượng lõi lò để duy trì hoạt động ổn định của hệ thống.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454127579750789120",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 2633.788,
+      "y": 2363.633,
+      "description": "Nằm trên một cột đá vuông vắn bên đường. Nơi này cách xa đèn hiệu. Có một số cách để dịch chuyển tức thời đến một nơi gần hơn:\n1. Xây dựng đường mở khóa điểm truyền Sensen Vortex;\n2. Những người đấu tay đôi từ Núi Vinh quang gần đó;\n3. Điểm dịch chuyển Heavisha",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1454129245273141248",
+      "categoryId": "zscj",
+      "title": "Tàn dư cuối cùng",
+      "x": 3417.148,
+      "y": 2466.635,
+      "description": "Nó nằm ở độ cao thấp của tòa nhà hình tròn ở tầng trệt. Nó có thể đạt được bằng cách rơi từ độ cao lớn hoặc đến từ điểm dịch chuyển Heavisha.",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452426028508196864",
+      "categoryId": "320000500",
+      "title": "Lưỡng cực·Mặt trận hạng nặng Yuanyun",
+      "x": 2954.541,
+      "y": 2162.146,
+      "description": "Khu vực bãi biển phía dưới",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451597032591781888",
+      "categoryId": "320000570",
+      "title": "Ảo ảnh quy mô băng giá",
+      "x": 2931.953,
+      "y": 2248.885,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451597032705028096",
+      "categoryId": "320000570",
+      "title": "Ảo ảnh quy mô băng giá",
+      "x": 2926.532,
+      "y": 2251.595,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604220899328",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3067.482,
+      "y": 2270.569,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604338339840",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3064.772,
+      "y": 2269.666,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604451586048",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3063.868,
+      "y": 2267.859,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604564832256",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3064.772,
+      "y": 2261.534,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604682272768",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3066.579,
+      "y": 2262.438,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604795518976",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3067.482,
+      "y": 2264.245,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243604917153792",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3010.56,
+      "y": 2247.981,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605026205696",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3008.753,
+      "y": 2246.174,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605143646208",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3007.849,
+      "y": 2246.174,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605261086720",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 2987.068,
+      "y": 2245.271,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605374332928",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 2986.165,
+      "y": 2245.271,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605491773440",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 2985.261,
+      "y": 2243.464,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605609213952",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 2982.551,
+      "y": 2243.464,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605726654464",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3134.344,
+      "y": 2355.501,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605844094976",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3136.151,
+      "y": 2357.308,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243605957341184",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3136.151,
+      "y": 2358.212,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243606074781696",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3137.054,
+      "y": 2359.115,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243606192222208",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3137.958,
+      "y": 2351.887,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243606309662720",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3137.054,
+      "y": 2350.08,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1451243606422908928",
+      "categoryId": "42601390",
+      "title": "hoa thư sương giá",
+      "x": 3136.151,
+      "y": 2350.08,
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1452425675389743104",
+      "categoryId": "320000490",
+      "title": "Súng mọc ngôi sao lưỡng cực",
+      "x": 2938.278,
+      "y": 2162.146,
+      "description": "Khu vực bãi biển phía dưới",
+      "levelId": "0"
+    }
+  ]
+}

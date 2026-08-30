@@ -17,9 +17,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Khu_vực-10-9fe870?style=for-the-badge" alt="10 khu vực" />
-    <img src="https://img.shields.io/badge/Marker-22%2C616-7c5cfc?style=for-the-badge" alt="22.616 marker" />
-    <img src="https://img.shields.io/badge/Tầng_bản_đồ-85-00c2ff?style=for-the-badge" alt="85 tầng bản đồ" />
+    <img src="https://img.shields.io/badge/Atlas-51-9fe870?style=for-the-badge" alt="51 atlas" />
+    <img src="https://img.shields.io/badge/Marker-23%2C811-7c5cfc?style=for-the-badge" alt="23.811 marker" />
+    <img src="https://img.shields.io/badge/Tầng_bản_đồ-87-00c2ff?style=for-the-badge" alt="87 tầng bản đồ" />
     <img src="https://img.shields.io/badge/Ngôn_ngữ-Tiếng_Việt-f5c451?style=for-the-badge" alt="Tiếng Việt" />
   </p>
 
@@ -43,7 +43,7 @@
 | | Tính năng |
 | --- | --- |
 | 🗺️ | Bản đồ tile nhiều khu vực, pan/zoom mượt bằng Leaflet |
-| 🧭 | Chuyển khu vực và tầng bản đồ trên cả desktop lẫn mobile |
+| 🧭 | Bộ chuyển map kiểu trong game: đại vùng → cụm map → khu vực → tầng |
 | ✅ | Đánh dấu hoặc hoàn tác điểm đã nhặt, với tiến trình tính theo các loại điểm đang chọn |
 | 🔎 | Tìm theo tên/ID, lọc danh mục và ẩn điểm đã hoàn thành |
 | 🇻🇳 | Giao diện cùng dữ liệu map được Việt hóa và lưu sẵn trong bundle |
@@ -58,20 +58,13 @@
 Bundle hiện tại được tạo từ dữ liệu map công khai và được Việt hóa theo hướng
 community-maintained.
 
-| Khu vực | Marker | Danh mục | Tầng |
-| --- | ---: | ---: | ---: |
-| Băng nguyên Roya | 2.530 | 74 | 23 |
-| Hoàng Long | 8.761 | 184 | 8 |
-| Hoàng Long 2 | 1.478 | 49 | 7 |
-| Quần đảo Bờ Đen | 352 | 40 | 0 |
-| Rinascita | 6.953 | 184 | 16 |
-| Vực sâu Tethys | 415 | 40 | 5 |
-| Kho bạc ngầm | 231 | 37 | 10 |
-| Avinoleum | 454 | 31 | 0 |
-| Bãi thử Biển Ẩn | 236 | 35 | 1 |
-| Đồng bằng Dimmr | 673 | 43 | 7 |
-| Đô thị Chronorift | 59 | 9 | 0 |
-| **Tổng** | **22.142** | **726** | **77** |
+| Đại khu vực | Cụm map | Atlas | Marker | Danh mục | Tầng | Khu chạy |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Băng nguyên Roya | 3 | 18 | 4.393 | 541 | 33 | 48 |
+| Rinascita | 2 | 15 | 7.875 | 657 | 26 | 62 |
+| Quần đảo Bờ Đen | — | 3 | 826 | 89 | 4 | 12 |
+| Hoàng Long | 2 | 15 | 10.717 | 951 | 24 | 74 |
+| **Tổng** | **7** | **51** | **23.811** | **2.238** | **87** | **196** |
 
 > Số liệu trên phản ánh bundle hiện đang được commit trong repository và có thể
 > thay đổi sau những lần cập nhật dữ liệu tiếp theo.
