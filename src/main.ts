@@ -18,10 +18,12 @@ import {
   parseMapCatalog,
   parseMapPack,
 } from "./map-pack";
+import { resolveRequestedMapPackId } from "./map-selection";
 import { summarizeProgressForCategories } from "./progress";
 import { LocalDatabase, progressRecordId } from "./storage";
 import { SyncApiError, SyncClient, type RemoteSession } from "./sync";
 import { buildMarkerSearchIndex, normalizeSearchText } from "./marker-search";
+import { filterVisibleMarkers } from "./marker-visibility";
 import type {
   MapCatalog,
   MapCatalogEntry,
@@ -47,7 +49,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
-const MAP_DATA_VERSION = "route-switcher-v9";
+const MAP_DATA_VERSION = "route-switcher-v10";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);
@@ -254,7 +256,7 @@ app.innerHTML = `
         <div>
           <button class="secondary-button" value="cancel">Hủy</button>
           <button class="primary-button" id="confirm-map-switch" type="button">
-            ${uiIcon("map")} Mở khu vực
+            ${uiIcon("map")} <span id="confirm-map-switch-label">Mở khu vực</span>
           </button>
         </div>
       </footer>
@@ -342,6 +344,7 @@ const elements = {
   mapAreaList: mustQuery<HTMLElement>("#map-area-list"),
   mapSwitchSelection: mustQuery<HTMLElement>("#map-switch-selection"),
   confirmMapSwitch: mustQuery<HTMLButtonElement>("#confirm-map-switch"),
+  confirmMapSwitchLabel: mustQuery<HTMLElement>("#confirm-map-switch-label"),
   mapTitle: mustQuery<HTMLElement>("#map-title"),
   mapSubtitle: mustQuery<HTMLElement>("#map-subtitle"),
   routeRealmTitle: mustQuery<HTMLElement>("#route-realm-title"),
@@ -407,13 +410,13 @@ if (remoteSession) {
 }
 let activeProfileId = remoteSession?.profile.id ??
   (await resolveActiveProfileId(profiles));
-const activeMapPack = resolveBasemapSources(mapPack);
-const activeMapDimensions = mapPackDimensions(activeMapPack);
-const categoryGroups = resolveCategoryGroups(activeMapPack);
-const categoryGroupById = new Map(
+let activeMapPack = resolveBasemapSources(mapPack);
+let activeMapDimensions = mapPackDimensions(activeMapPack);
+let categoryGroups = resolveCategoryGroups(activeMapPack);
+let categoryGroupById = new Map(
   categoryGroups.map((group) => [group.id, group]),
 );
-const categoryById = new Map(
+let categoryById = new Map(
   activeMapPack.categories.map((category) => [category.id, category]),
 );
 let markerSearchIndex: Map<string, string> | undefined;
@@ -600,10 +603,12 @@ async function resolveActiveMapPack(
   bundledPack: MapPack | undefined,
 ): Promise<MapPack> {
   const storedMapPackId = await database.getSetting<unknown>("activeMapPackId");
-  const requestedMapPackId =
-    typeof storedMapPackId === "string"
-      ? storedMapPackId
-      : catalog?.defaultMapId ?? bundledPack?.id ?? demoMapPack.id;
+  const requestedMapPackId = resolveRequestedMapPackId({
+    storedMapPackId,
+    catalogDefaultMapId: catalog?.defaultMapId,
+    bundledMapPackId: bundledPack?.id,
+    demoMapPackId: demoMapPack.id,
+  });
   const activeMapPackId =
     MAP_ID_ALIASES.get(requestedMapPackId) ?? requestedMapPackId;
 
@@ -1186,12 +1191,78 @@ async function applyActiveArea(areaId: string): Promise<void> {
     activeAreaId,
   );
   updateRouteDetails();
-  renderCategories();
-  renderMarkers();
+  updateProgressDisplay();
   map.fitBounds(activeRouteBounds(), {
     animate: !window.matchMedia("(prefers-reduced-motion: reduce)").matches,
     padding: [24, 24],
   });
+}
+
+async function activateMapPack(
+  mapPack: MapPack,
+  requestedAreaId: string | undefined,
+): Promise<void> {
+  const nextMapPack = resolveBasemapSources(mapPack);
+  const [
+    nextVisibleCategoryIds,
+    storedFloorId,
+    storedAreaId,
+    progressRecords,
+  ] = await Promise.all([
+    resolveVisibleCategoryIds(nextMapPack),
+    database.getSetting<unknown>(`activeFloor:${nextMapPack.id}`),
+    database.getSetting<unknown>(`activeArea:${nextMapPack.id}`),
+    database.getProgress(activeProfileId, progressMapId(nextMapPack)),
+  ]);
+  const nextFloorId =
+    typeof storedFloorId === "string" &&
+      nextMapPack.layers?.some((layer) => layer.id === storedFloorId)
+      ? storedFloorId
+      : "";
+  const areaCandidate =
+    requestedAreaId ??
+    (typeof storedAreaId === "string" ? storedAreaId : "");
+  const nextAreaId =
+    areaCandidate &&
+      nextMapPack.areas?.some((area) => area.id === areaCandidate)
+      ? areaCandidate
+      : "";
+
+  window.clearTimeout(markerRenderTimer);
+  markerRenderTimer = undefined;
+  map.remove();
+
+  activeMapPack = nextMapPack;
+  activeMapDimensions = mapPackDimensions(activeMapPack);
+  categoryGroups = resolveCategoryGroups(activeMapPack);
+  categoryGroupById = new Map(
+    categoryGroups.map((group) => [group.id, group]),
+  );
+  categoryById = new Map(
+    activeMapPack.categories.map((category) => [category.id, category]),
+  );
+  markerSearchIndex = undefined;
+  completedMarkerIds = new Set(
+    progressRecords
+      .filter((record) => record.done)
+      .map((record) => record.markerId),
+  );
+  visibleCategoryIds = nextVisibleCategoryIds;
+  activeCategoryGroupId = resolveInitialCategoryGroupId();
+  activeFloorId = nextFloorId;
+  activeAreaId = nextAreaId;
+  searchTerm = "";
+  elements.searchInput.value = "";
+  switchGroupId = catalogGroupForMap(activeMapPack.id)?.id ?? "";
+  switchMapId = activeMapPack.id;
+  switchSectionId = catalogSectionForMap(activeMapPack.id)?.id ?? "";
+  switchAreaId = activeAreaId;
+
+  renderStaticMapDetails();
+  renderCategories();
+  initializeMap();
+  renderMarkers();
+  setSidebarOpen(false);
 }
 
 async function confirmMapSwitch(): Promise<void> {
@@ -1202,13 +1273,27 @@ async function confirmMapSwitch(): Promise<void> {
   mapSwitchInFlight = true;
   elements.confirmMapSwitch.disabled = true;
   elements.confirmMapSwitch.setAttribute("aria-busy", "true");
+  elements.confirmMapSwitchLabel.textContent = "Đang tải...";
   try {
     if (switchMapId !== activeMapPack.id) {
-      await Promise.all([
-        database.putSetting("activeMapPackId", switchMapId),
-        database.putSetting(`activeArea:${switchMapId}`, switchAreaId),
+      if (!bundledMapCatalog) {
+        throw new Error("Không tìm thấy catalog bản đồ.");
+      }
+      const selectedMapPack = await loadCatalogMapPack(
+        bundledMapCatalog,
+        switchMapId,
+      );
+      if (!selectedMapPack) {
+        throw new Error("Không tải được dữ liệu bản đồ đã chọn.");
+      }
+      await database.putSettings([
+        { key: "activeMapPackId", value: switchMapId },
+        { key: `activeArea:${switchMapId}`, value: switchAreaId },
       ]);
-      window.location.reload();
+      await activateMapPack(selectedMapPack, switchAreaId);
+      closeDialog(elements.mapSwitchDialog);
+      showToast(`Đã chuyển tới ${activeMapPack.title}.`);
+      void syncRemoteProgress();
       return;
     }
     await applyActiveArea(switchAreaId);
@@ -1224,6 +1309,7 @@ async function confirmMapSwitch(): Promise<void> {
     mapSwitchInFlight = false;
     elements.confirmMapSwitch.disabled = false;
     elements.confirmMapSwitch.removeAttribute("aria-busy");
+    elements.confirmMapSwitchLabel.textContent = "Mở khu vực";
   }
 }
 
@@ -1258,28 +1344,28 @@ function renderCategories(): void {
   elements.selectedCategoryList.replaceChildren();
   const normalizedSearchTerm = normalizeSearchText(searchTerm);
   const isSearching = normalizedSearchTerm.length > 0;
-  const routeMarkersByCategory = new Map<string, MapMarker[]>();
-  for (const marker of activeRouteMarkers()) {
+  const atlasMarkersByCategory = new Map<string, MapMarker[]>();
+  for (const marker of activeMapPack.markers) {
     const categoryMarkers =
-      routeMarkersByCategory.get(marker.categoryId) ?? [];
+      atlasMarkersByCategory.get(marker.categoryId) ?? [];
     categoryMarkers.push(marker);
-    routeMarkersByCategory.set(marker.categoryId, categoryMarkers);
+    atlasMarkersByCategory.set(marker.categoryId, categoryMarkers);
   }
-  const routeCategories = activeMapPack.categories.filter(
-    (category) => (routeMarkersByCategory.get(category.id)?.length ?? 0) > 0,
+  const atlasCategories = activeMapPack.categories.filter(
+    (category) => (atlasMarkersByCategory.get(category.id)?.length ?? 0) > 0,
   );
   if (
-    !routeCategories.some(
+    !atlasCategories.some(
       (category) => categoryGroupId(category) === activeCategoryGroupId,
     )
   ) {
-    activeCategoryGroupId = routeCategories[0]
-      ? categoryGroupId(routeCategories[0])
+    activeCategoryGroupId = atlasCategories[0]
+      ? categoryGroupId(atlasCategories[0])
       : categoryGroups[0]?.id ?? FALLBACK_CATEGORY_GROUP.id;
   }
 
   for (const group of categoryGroups) {
-    const groupCategories = routeCategories.filter(
+    const groupCategories = atlasCategories.filter(
       (category) => categoryGroupId(category) === group.id,
     );
     const selectedCount = groupCategories.filter((category) =>
@@ -1314,7 +1400,7 @@ function renderCategories(): void {
     elements.categoryGroups.append(button);
   }
 
-  const displayedCategories = routeCategories.filter((category) => {
+  const displayedCategories = atlasCategories.filter((category) => {
     if (isSearching) {
       const categorySearchText = normalizeSearchText(
         `${category.label} ${category.id}`,
@@ -1336,12 +1422,12 @@ function renderCategories(): void {
     empty.className = "category-empty";
     empty.textContent = isSearching
       ? "Không tìm thấy loại điểm phù hợp."
-      : "Nhóm này chưa có điểm trong khu vực.";
+      : "Nhóm này chưa có điểm trên atlas.";
     elements.categoryList.append(empty);
   }
 
   for (const category of displayedCategories) {
-    const categoryMarkers = routeMarkersByCategory.get(category.id) ?? [];
+    const categoryMarkers = atlasMarkersByCategory.get(category.id) ?? [];
     const categoryGroup = categoryGroupById.get(categoryGroupId(category)) ??
       FALLBACK_CATEGORY_GROUP;
     const completed = categoryMarkers.filter((marker) =>
@@ -1408,7 +1494,7 @@ function renderCategories(): void {
     elements.categoryList.append(card);
   }
 
-  const selectedCategories = routeCategories.filter((category) =>
+  const selectedCategories = atlasCategories.filter((category) =>
     visibleCategoryIds.has(category.id),
   );
   elements.selectedCategoryCount.textContent =
@@ -1442,11 +1528,11 @@ function renderCategories(): void {
     elements.selectedCategoryList.append(chip);
   }
 
-  const allRouteCategoriesSelected =
-    routeCategories.length > 0 &&
-    routeCategories.every((category) => visibleCategoryIds.has(category.id));
+  const allAtlasCategoriesSelected =
+    atlasCategories.length > 0 &&
+    atlasCategories.every((category) => visibleCategoryIds.has(category.id));
   elements.toggleAllCategories.textContent =
-    allRouteCategoriesSelected
+    allAtlasCategoriesSelected
       ? "Bỏ chọn tất cả"
       : "Chọn tất cả";
 }
@@ -1584,10 +1670,6 @@ function markerLatLng(marker: MapMarker): L.LatLngExpression {
   return [activeMapDimensions.height - marker.y, marker.x];
 }
 
-function markerMatchesActiveFloor(marker: MapMarker): boolean {
-  return activeFloorId === "" || marker.levelId === activeFloorId;
-}
-
 function renderMarkers(): void {
   window.clearTimeout(markerRenderTimer);
   markerRenderTimer = undefined;
@@ -1597,21 +1679,13 @@ function renderMarkers(): void {
     normalizedSearchTerm.length > 0
       ? markerSearchIndex ??= buildMarkerSearchIndex(activeMapPack.markers)
       : undefined;
-  const visibleMarkers = activeMapPack.markers.filter((marker) => {
-    const isDone = completedMarkerIds.has(marker.id);
-    const matchesCategory =
-      normalizedSearchTerm.length > 0 ||
-      visibleCategoryIds.has(marker.categoryId);
-    const matchesSearch =
-      normalizedSearchTerm.length === 0 ||
-      (activeSearchIndex?.get(marker.id) ?? "").includes(normalizedSearchTerm);
-    return (
-      matchesCategory &&
-      matchesSearch &&
-      markerMatchesActiveArea(marker) &&
-      markerMatchesActiveFloor(marker) &&
-      !(hideCompleted && isDone)
-    );
+  const visibleMarkers = filterVisibleMarkers(activeMapPack.markers, {
+    activeFloorId,
+    completedMarkerIds,
+    hideCompleted,
+    normalizedSearchTerm,
+    searchIndex: activeSearchIndex,
+    visibleCategoryIds,
   });
   const useDomIconMarkers = visibleMarkers.length <= MAX_DOM_ICON_MARKERS;
 
@@ -2017,18 +2091,18 @@ function bindEvents(): void {
   });
 
   elements.toggleAllCategories.addEventListener("click", async () => {
-    const routeCategoryIds = new Set(
-      activeRouteMarkers().map((marker) => marker.categoryId),
+    const atlasCategoryIds = new Set(
+      activeMapPack.markers.map((marker) => marker.categoryId),
     );
     const allSelected =
-      routeCategoryIds.size > 0 &&
-      [...routeCategoryIds].every((id) => visibleCategoryIds.has(id));
+      atlasCategoryIds.size > 0 &&
+      [...atlasCategoryIds].every((id) => visibleCategoryIds.has(id));
     if (allSelected) {
-      for (const categoryId of routeCategoryIds) {
+      for (const categoryId of atlasCategoryIds) {
         visibleCategoryIds.delete(categoryId);
       }
     } else {
-      for (const categoryId of routeCategoryIds) {
+      for (const categoryId of atlasCategoryIds) {
         visibleCategoryIds.add(categoryId);
       }
     }
@@ -2049,7 +2123,7 @@ function bindEvents(): void {
   });
 
   elements.fitMap.addEventListener("click", () => {
-    map.fitBounds(activeRouteBounds());
+    map.fitBounds(mapViewBounds);
     setSidebarOpen(false);
   });
 
@@ -2175,18 +2249,30 @@ function bindEvents(): void {
     try {
       const importedMapPack = parseMapPack(JSON.parse(await file.text()));
       await database.putMapPack(importedMapPack);
-      await database.putSetting("activeMapPackId", importedMapPack.id);
-      showToast("Đã import map pack. Đang tải lại...");
-      window.setTimeout(() => window.location.reload(), 500);
+      await database.putSettings([
+        { key: "activeMapPackId", value: importedMapPack.id },
+        { key: `activeArea:${importedMapPack.id}`, value: "" },
+      ]);
+      await activateMapPack(importedMapPack, "");
+      closeDialog(elements.settingsDialog);
+      showToast("Đã import và mở map pack.");
     } catch (error) {
       showToast(errorMessage(error), "error");
     }
   });
 
   elements.useDemoMap.addEventListener("click", async () => {
-    await database.putSetting("activeMapPackId", demoMapPack.id);
-    showToast("Đang chuyển về bản đồ demo...");
-    window.setTimeout(() => window.location.reload(), 350);
+    try {
+      await database.putSettings([
+        { key: "activeMapPackId", value: demoMapPack.id },
+        { key: `activeArea:${demoMapPack.id}`, value: "" },
+      ]);
+      await activateMapPack(demoMapPack, "");
+      closeDialog(elements.settingsDialog);
+      showToast("Đã chuyển sang bản đồ demo.");
+    } catch (error) {
+      showToast(`Không mở được bản đồ demo: ${errorMessage(error)}`, "error");
+    }
   });
 }
 

@@ -5,6 +5,7 @@ import type {
   Profile,
   ProgressRecord,
 } from "./types";
+import { waitForTransactionCompletion } from "./storage-transaction";
 
 const DATABASE_NAME = "wayfinder-map";
 const DATABASE_VERSION = 2;
@@ -17,18 +18,6 @@ function requestToPromise<T>(request: IDBRequest<T>): Promise<T> {
     request.addEventListener("success", () => resolve(request.result));
     request.addEventListener("error", () =>
       reject(request.error ?? new Error("IndexedDB request failed")),
-    );
-  });
-}
-
-function transactionToPromise(transaction: IDBTransaction): Promise<void> {
-  return new Promise((resolve, reject) => {
-    transaction.addEventListener("complete", () => resolve());
-    transaction.addEventListener("abort", () =>
-      reject(transaction.error ?? new Error("IndexedDB transaction aborted")),
-    );
-    transaction.addEventListener("error", () =>
-      reject(transaction.error ?? new Error("IndexedDB transaction failed")),
     );
   });
 }
@@ -121,7 +110,7 @@ export class LocalDatabase {
     for (const record of records) {
       store.put(record);
     }
-    await transactionToPromise(transaction);
+    await waitForTransactionCompletion(transaction);
   }
 
   async getSetting<T>(key: string): Promise<T | undefined> {
@@ -136,9 +125,19 @@ export class LocalDatabase {
   }
 
   async putSetting<T>(key: string, value: T): Promise<void> {
-    await requestToPromise(
-      this.store("settings", "readwrite").put({ key, value }),
-    );
+    await this.putSettings([{ key, value }]);
+  }
+
+  async putSettings(settings: readonly AppSetting[]): Promise<void> {
+    if (settings.length === 0) {
+      return;
+    }
+    const transaction = this.database.transaction("settings", "readwrite");
+    const store = transaction.objectStore("settings");
+    for (const setting of settings) {
+      store.put(setting);
+    }
+    await waitForTransactionCompletion(transaction);
   }
 
   async getMapPack(id: string): Promise<MapPack | undefined> {
@@ -146,7 +145,9 @@ export class LocalDatabase {
   }
 
   async putMapPack(mapPack: MapPack): Promise<void> {
-    await requestToPromise(this.store("mapPacks", "readwrite").put(mapPack));
+    const transaction = this.database.transaction("mapPacks", "readwrite");
+    transaction.objectStore("mapPacks").put(mapPack);
+    await waitForTransactionCompletion(transaction);
   }
 
   async exportBackup(): Promise<BackupPayload> {
@@ -181,7 +182,7 @@ export class LocalDatabase {
       transaction.objectStore("settings").put(setting);
     }
 
-    await transactionToPromise(transaction);
+    await waitForTransactionCompletion(transaction);
   }
 }
 
