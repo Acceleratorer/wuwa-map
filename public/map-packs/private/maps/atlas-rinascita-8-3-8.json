@@ -4,7 +4,7 @@
   "progressMapId": "wuwa-kuro-state-8",
   "title": "Thessaleo Fells",
   "subtitle": "665 vị trí · 50 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-09-30.",
   "tiles": {
     "src": "map-packs/private/maps/8/{x}_{y}.webp",
     "tileSize": 768,
@@ -5891,7 +5891,7 @@
       "title": "Rương tiêu chuẩn",
       "x": 17779.652,
       "y": 16995.388,
-      "description": "Các con thỏ tương tác theo trình tự theo số lượng bóng là 1234 và nhận được sau khi hoàn thành tương tác (dấu câu do người chơi cung cấp im lặng)",
+      "description": "Các con thỏ tương tác theo số lượng bóng hồng dưới cột từ ít nhất đến nhiều nhất là 1234 và chúng nhận được sau khi hoàn thành tương tác (dấu chấm câu do người chơi cung cấp im lặng)",
       "levelId": "0"
     },
     {

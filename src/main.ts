@@ -49,7 +49,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
-const MAP_DATA_VERSION = "route-switcher-v10";
+const MAP_DATA_VERSION = "route-switcher-v11";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);
@@ -554,7 +554,7 @@ async function loadBundledMapCatalog(): Promise<MapCatalog | undefined> {
       document.baseURI,
     );
     catalogUrl.searchParams.set("v", MAP_DATA_VERSION);
-    const response = await fetch(catalogUrl);
+    const response = await fetch(catalogUrl, { cache: "no-store" });
     if (!response.ok) {
       return undefined;
     }
@@ -570,7 +570,7 @@ async function loadMapPackResource(
   try {
     const packUrl = new URL(path, document.baseURI);
     packUrl.searchParams.set("v", MAP_DATA_VERSION);
-    const response = await fetch(packUrl);
+    const response = await fetch(packUrl, { cache: "no-store" });
     if (!response.ok) {
       return undefined;
     }

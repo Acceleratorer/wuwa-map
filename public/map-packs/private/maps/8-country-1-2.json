@@ -4,7 +4,7 @@
   "progressMapId": "wuwa-kuro-state-8",
   "title": "Xuanfang Hold",
   "subtitle": "160 vị trí · 25 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-09-30.",
   "tiles": {
     "src": "map-packs/private/maps/8/{x}_{y}.webp",
     "tileSize": 768,
@@ -429,7 +429,7 @@
       "symbol": "•",
       "groupId": "locations",
       "icon": "location",
-      "imageSrc": "map-packs/private/icons/2a77da5473904671dcee.webp"
+      "imageSrc": "map-packs/private/icons/058e4beb4cc186d7ff3d.webp"
     },
     {
       "id": "3510005",
@@ -438,7 +438,7 @@
       "symbol": "•",
       "groupId": "locations",
       "icon": "location",
-      "imageSrc": "map-packs/private/icons/7b9a544d8646d43cd6b3.webp"
+      "imageSrc": "map-packs/private/icons/585b7e5ef7a659486593.webp"
     },
     {
       "id": "3510004",
@@ -447,7 +447,7 @@
       "symbol": "•",
       "groupId": "locations",
       "icon": "location",
-      "imageSrc": "map-packs/private/icons/2b67d8115c757fc3ecd6.webp"
+      "imageSrc": "map-packs/private/icons/f4081f7f3cfc903d106c.webp"
     },
     {
       "id": "3510002",
@@ -456,7 +456,7 @@
       "symbol": "•",
       "groupId": "locations",
       "icon": "location",
-      "imageSrc": "map-packs/private/icons/689242fb8ddced18c1d0.webp"
+      "imageSrc": "map-packs/private/icons/590823b1f43651ef0469.webp"
     },
     {
       "id": "3510001",
@@ -465,7 +465,7 @@
       "symbol": "•",
       "groupId": "locations",
       "icon": "location",
-      "imageSrc": "map-packs/private/icons/dea4adfe1fbc6c15073b.webp"
+      "imageSrc": "map-packs/private/icons/82296498ed3539f1ce46.webp"
     },
     {
       "id": "wzdly",

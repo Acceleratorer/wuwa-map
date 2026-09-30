@@ -3,8 +3,8 @@
   "id": "wuwa-kuro-atlas-huanglong-8-1-11",
   "progressMapId": "wuwa-kuro-state-8",
   "title": "Mt. Firmament",
-  "subtitle": "1435 vị trí · 79 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "subtitle": "1436 vị trí · 79 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-09-30.",
   "tiles": {
     "src": "map-packs/private/maps/8/{x}_{y}.webp",
     "tileSize": 768,
@@ -1107,6 +1107,7 @@
         "kuro:1410964200303702016",
         "kuro:1410968029321535488",
         "kuro:1410977759989374976",
+        "kuro:1411088154771103744",
         "kuro:1411102377727270912",
         "kuro:1411142445724639232",
         "kuro:1411152392130736128",
@@ -8298,6 +8299,15 @@
       "x": 20885.715,
       "y": 23028.977,
       "description": "Tương tác với điểm thứ 2 trong hình để bắt đầu thử thách [Thử thách xương âm thanh·Tăng vọt·Phần 2]. Sau khi hoàn thành tất cả các thử thách, bạn sẽ nhận được hộp kho báu (dấu chấm câu được người chơi cung cấp để đổi file)",
+      "levelId": "0"
+    },
+    {
+      "id": "kuro:1411088154771103744",
+      "categoryId": "qzx_02",
+      "title": "Rương tiêu chuẩn",
+      "x": 20661.911,
+      "y": 23371.595,
+      "description": "Sau khi điều tra gần dấu câu sẽ xuất hiện một rương kho báu (bạn cần nhận nhiệm vụ ẩn của Utata tại P2 thì mới có thể tương tác! P3 là nơi bạn có thể nhận nhiệm vụ trong game). Sau khi hoàn thành chuỗi nhiệm vụ, bạn có thể đạt được thành tích [Tôi đã tìm thấy bạn, Moo Ota Ota]",
       "levelId": "0"
     },
     {

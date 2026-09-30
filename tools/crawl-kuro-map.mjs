@@ -1641,7 +1641,7 @@ async function main() {
   });
   writeJson(join(rawOutputDirectory, "manifest.json"), {
     schemaVersion: 1,
-    source: "https://www.kurobbs.com/mc/map/",
+    source: "https://www.kurobbs.com/map/",
     resourceHash,
     retrievedAt,
     tileSize,

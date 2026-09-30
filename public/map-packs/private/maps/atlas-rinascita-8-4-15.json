@@ -3,8 +3,8 @@
   "id": "wuwa-kuro-atlas-rinascita-8-4-15",
   "progressMapId": "wuwa-kuro-state-8",
   "title": "Sanguis Plateaus",
-  "subtitle": "456 vị trí · 50 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "subtitle": "455 vị trí · 50 loại điểm",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-09-30.",
   "tiles": {
     "src": "map-packs/private/maps/8/{x}_{y}.webp",
     "tileSize": 768,
@@ -261,7 +261,6 @@
         "kuro:1408066024890044416",
         "kuro:1411079360989143040",
         "kuro:1411083320647036928",
-        "kuro:1411088154771103744",
         "kuro:1407856443756777472",
         "kuro:1409896055824060416",
         "kuro:1411085877746376704",
@@ -663,6 +662,11 @@
       "id": "locations",
       "label": "Địa điểm",
       "icon": "location"
+    },
+    {
+      "id": "other",
+      "label": "Khác",
+      "icon": "default"
     }
   ],
   "defaultVisibleCategoryIds": [
@@ -881,21 +885,21 @@
     },
     {
       "id": "37",
-      "label": "Giấc mơ Embertide",
+      "label": "Khoảnh khắc phản chiếu gương và sét",
       "color": "#9fdb72",
       "symbol": "•",
-      "groupId": "exploration",
-      "icon": "exploration",
-      "imageSrc": "map-packs/private/icons/aaf7464edb6bfeec1c49.webp"
+      "groupId": "other",
+      "icon": "default",
+      "imageSrc": "map-packs/private/icons/c707ec6de069eab64b16.webp"
     },
     {
       "id": "38",
-      "label": "Giấc mơ về thủy triều than hồng: Sự kết thúc",
+      "label": "Bông hoa hoài niệm của Akane",
       "color": "#8bd3c7",
       "symbol": "•",
-      "groupId": "exploration",
-      "icon": "exploration",
-      "imageSrc": "map-packs/private/icons/fdc591521d842cc6d036.webp"
+      "groupId": "other",
+      "icon": "default",
+      "imageSrc": "map-packs/private/icons/df2a731e7e6bcc539c11.webp"
     },
     {
       "id": "40",
@@ -3179,7 +3183,7 @@
     {
       "id": "kuro:1408781943769534464",
       "categoryId": "37",
-      "title": "Giấc mơ Embertide",
+      "title": "Khoảnh khắc phản chiếu gương và sét",
       "x": 20758.588,
       "y": 23265.882,
       "description": "Hoàn thành Thử thách 1 bạn sẽ nhận được Legacy Purple of the Tide, hoàn thành thử thách 2 và 3 sẽ lần lượt nhận được một và hai Legacy Gold of the Tide (điểm tương tác để mở thử thách cần ở gần phía có thanh kiếm sáng, nếu không sẽ hơi khó bấm. Các bạn lưu ý vị trí bên dưới)",
@@ -3188,7 +3192,7 @@
     {
       "id": "kuro:1408781943861809152",
       "categoryId": "37",
-      "title": "Giấc mơ Embertide",
+      "title": "Khoảnh khắc phản chiếu gương và sét",
       "x": 20718.833,
       "y": 23363.464,
       "description": "Hoàn thành thử thách 1 sẽ nhận được Legacy Purple of the Tide, hoàn thành thử thách 2 và 3 sẽ nhận được một và hai Legacy Gold of the Tide (điểm tương tác để mở thử thách cần phải gần mặt sáng của thanh kiếm, nếu không sẽ hơi khó bấm)",
@@ -3197,7 +3201,7 @@
     {
       "id": "kuro:1408781943975055360",
       "categoryId": "37",
-      "title": "Giấc mơ Embertide",
+      "title": "Khoảnh khắc phản chiếu gương và sét",
       "x": 20417.958,
       "y": 23397.798,
       "description": "Hoàn thành thử thách 1 sẽ nhận được Legacy Purple of the Tide, hoàn thành thử thách 2 và 3 sẽ nhận được một và hai Legacy Gold of the Tide (điểm tương tác để mở thử thách cần ở gần phía có ánh sáng của kiếm, nếu không sẽ hơi khó bấm. Các bạn lưu ý vị trí bên dưới)",
@@ -3206,7 +3210,7 @@
     {
       "id": "kuro:1408780515751628800",
       "categoryId": "38",
-      "title": "Giấc mơ về thủy triều than hồng: Sự kết thúc",
+      "title": "Bông hoa hoài niệm của Akane",
       "x": 20660.104,
       "y": 23199.925,
       "description": "Bạn cần phải hoàn thành chín thử thách của Dream of the Ember Tide ba lần trước khi có thể thử thách nó. Hoàn thành thử thách có thể nhận được Legacy Purple of the Tide, hoàn thành thử thách thứ hai và ba có thể nhận được một và hai Legacy Gold of the Tide (điểm tương tác để mở thử thách cần phải gần với mặt sáng của thanh kiếm, nếu không sẽ hơi khó bấm)",
@@ -3973,15 +3977,6 @@
       "x": 20740.518,
       "y": 23182.758,
       "description": "Nó có thể được mở sau khi hoàn thành nhiệm vụ \"Giấc mơ của thanh kiếm mục nát\" (dấu câu sẽ được người chơi cung cấp khi thay đổi tập tin)",
-      "levelId": "0"
-    },
-    {
-      "id": "kuro:1411088154771103744",
-      "categoryId": "qzx_02",
-      "title": "Rương tiêu chuẩn",
-      "x": 20661.911,
-      "y": 23371.595,
-      "description": "Sau khi điều tra gần dấu câu sẽ xuất hiện một rương kho báu (đầu tiên bạn phải nhận nhiệm vụ ẩn Utata tại P2 thì mới có thể tương tác! P3 là nơi bạn nhận nhiệm vụ trong game)",
       "levelId": "0"
     },
     {

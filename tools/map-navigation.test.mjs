@@ -132,10 +132,16 @@ test("every official atlas assigns each bundled marker exactly once", () => {
       "utf8",
     ),
   );
-  assert.equal(catalog.maps.length, 51);
+  assert.equal(catalog.maps.length, 52);
   assert.deepEqual(
     catalog.groups.map((group) => group.mapIds.length),
-    [18, 15, 3, 15],
+    [18, 15, 3, 16],
+  );
+  assert.ok(
+    catalog.maps.some(
+      (entry) => entry.id === "wuwa-kuro-atlas-huanglong-912-8-16",
+    ),
+    "Catalog thiếu Simulacrum Nexus of Mengzhou.",
   );
   assert.deepEqual(
     catalog.groups.map((group) =>
@@ -156,7 +162,7 @@ test("every official atlas assigns each bundled marker exactly once", () => {
       ],
       undefined,
       [
-        { title: "Mengzhou", count: 4 },
+        { title: "Mengzhou", count: 5 },
         { title: "Jinzhou", count: 11 },
       ],
     ],

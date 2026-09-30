@@ -4,7 +4,7 @@
   "progressMapId": "wuwa-kuro-state-8",
   "title": "Wuming Bay",
   "subtitle": "207 vị trí · 45 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-09-30.",
   "tiles": {
     "src": "map-packs/private/maps/8/{x}_{y}.webp",
     "tileSize": 768,

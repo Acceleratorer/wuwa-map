@@ -4,7 +4,7 @@
   "progressMapId": "wuwa-kuro-state-906",
   "title": "Fangspire Chasm",
   "subtitle": "448 vị trí · 42 loại điểm",
-  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-08-30.",
+  "attribution": "Dữ liệu và tile bản đồ: KURO GAMES official interactive map; dùng phi thương mại theo permission do chủ dự án xác nhận. Tải ngày 2026-09-30.",
   "tiles": {
     "src": "map-packs/private/maps/906/{x}_{y}.webp",
     "tileSize": 768,
@@ -4093,8 +4093,9 @@
       "title": "Tàn dư cuối cùng",
       "x": 5202.522,
       "y": 2620.235,
-      "description": "Bên dưới con đường phía dưới, bạn có thể nhìn thấy nó bằng cách dịch chuyển tức thời từ Vương quốc Ningsu và đi dọc theo con đường bên dưới.",
-      "levelId": "0"
+      "description": "Tầng 37 · Bên dưới con đường phía dưới, bạn có thể nhìn thấy nó bằng cách dịch chuyển tức thời từ Vương quốc Ningsu và đi dọc theo con đường bên dưới.",
+      "floorId": "37",
+      "levelId": "-1/37"
     },
     {
       "id": "kuro:1454115698352910336",
@@ -4102,8 +4103,9 @@
       "title": "Tàn dư cuối cùng",
       "x": 5211.558,
       "y": 2516.329,
-      "description": "Phía trên con đường phía dưới, sau khi dịch chuyển từ Vương quốc Ningsu, hãy đi về phía đông cho đến khi bạn nhìn thấy con đường, sau đó lái xe về phía bắc dọc theo con đường trên mặt đất đến cuối con đường nơi bạn có thể rẽ vào con đường trên không. Lái xe dọc đường cho đến khi bạn đến điểm đánh dấu để xem cuộn giấy cuối cùng.",
-      "levelId": "0"
+      "description": "Tầng 37 · Phía trên con đường phía dưới, sau khi dịch chuyển từ Vương quốc Ningsu, hãy đi về phía đông cho đến khi bạn nhìn thấy con đường, sau đó lái xe về phía bắc dọc theo con đường trên mặt đất đến cuối con đường nơi bạn có thể rẽ vào con đường trên không. Lái xe dọc đường cho đến khi bạn đến điểm đánh dấu để xem cuộn giấy cuối cùng.",
+      "floorId": "37",
+      "levelId": "-1/37"
     },
     {
       "id": "kuro:1454117998922248192",

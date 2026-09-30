@@ -2318,6 +2318,83 @@
           }
         }
       ]
+    },
+    {
+      "id": "wuwa-kuro-atlas-huanglong-912-8-16",
+      "title": "Simulacrum Nexus of Mengzhou",
+      "pack": "map-packs/private/maps/atlas-huanglong-912-8-16.json",
+      "areas": [
+        {
+          "id": "official-area-1",
+          "label": "Heart of Flames",
+          "bounds": {
+            "minX": 3933.064,
+            "minY": 5275.509,
+            "maxX": 4945.0160000000005,
+            "maxY": 6232.546
+          }
+        },
+        {
+          "id": "official-area-2",
+          "label": "Heart of Bloom",
+          "bounds": {
+            "minX": 3707.606,
+            "minY": 6042.460999999999,
+            "maxX": 4868.216,
+            "maxY": 6960.791
+          }
+        },
+        {
+          "id": "official-area-3",
+          "label": "Heart of Frost",
+          "bounds": {
+            "minX": 4233.324,
+            "minY": 5726.5689999999995,
+            "maxX": 5421.691000000001,
+            "maxY": 6879.473
+          }
+        },
+        {
+          "id": "official-area-4",
+          "label": "Heart of Ruin",
+          "bounds": {
+            "minX": 4376.696,
+            "minY": 5654.286999999999,
+            "maxX": 5371.753000000001,
+            "maxY": 6385.794000000001
+          }
+        },
+        {
+          "id": "official-area-5",
+          "label": "Heart of Stillness",
+          "bounds": {
+            "minX": 3779.1560000000004,
+            "minY": 5631.681,
+            "maxX": 4930.985000000001,
+            "maxY": 6770.146000000001
+          }
+        },
+        {
+          "id": "official-area-6",
+          "label": "Heartscape Labyrinth",
+          "bounds": {
+            "minX": 3677.527,
+            "minY": 5218.785999999999,
+            "maxX": 4496.866,
+            "maxY": 6262.362
+          }
+        },
+        {
+          "id": "official-area-7",
+          "label": "Heart of Appearance",
+          "bounds": {
+            "minX": 4606.192999999999,
+            "minY": 6185.897,
+            "maxX": 5303.835,
+            "maxY": 7001.4490000000005
+          }
+        }
+      ]
     }
   ],
   "groups": [
@@ -2450,6 +2527,7 @@
         "wuwa-kuro-atlas-huanglong-8-8-13",
         "wuwa-kuro-atlas-huanglong-8-8-14",
         "wuwa-kuro-atlas-huanglong-8-8-15",
+        "wuwa-kuro-atlas-huanglong-912-8-16",
         "wuwa-kuro-atlas-huanglong-8-1-1",
         "wuwa-kuro-state-8-country-1",
         "wuwa-kuro-atlas-huanglong-8-1-3",
@@ -2470,7 +2548,8 @@
             "wuwa-kuro-state-8-country-1-2",
             "wuwa-kuro-atlas-huanglong-8-8-13",
             "wuwa-kuro-atlas-huanglong-8-8-14",
-            "wuwa-kuro-atlas-huanglong-8-8-15"
+            "wuwa-kuro-atlas-huanglong-8-8-15",
+            "wuwa-kuro-atlas-huanglong-912-8-16"
           ]
         },
         {
