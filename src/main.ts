@@ -49,7 +49,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
-const MAP_DATA_VERSION = "route-switcher-v11";
+const MAP_DATA_VERSION = "route-switcher-v12";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);
@@ -651,12 +651,13 @@ async function resolveActiveMapPack(
 function resolveTileTemplate(source: string): string {
   const xToken = "__WAYFINDER_TILE_X__";
   const yToken = "__WAYFINDER_TILE_Y__";
-  return new URL(
+  const resolved = new URL(
     source.replace("{x}", xToken).replace("{y}", yToken),
     document.baseURI,
   ).href
     .replace(xToken, "{x}")
     .replace(yToken, "{y}");
+  return `${resolved}${resolved.includes("?") ? "&" : "?"}v=${MAP_DATA_VERSION}`;
 }
 
 function resolveBasemapSources(pack: MapPack): MapPack {
