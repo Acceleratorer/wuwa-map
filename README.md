@@ -40,8 +40,8 @@
 
 ## Có gì trong map?
 
-| | Tính năng |
-| --- |
+|  Tính năng |
+|  --- |
 | Bản đồ tile nhiều khu vực, pan/zoom mượt bằng Leaflet |
 |  Bộ chuyển map kiểu trong game: đại vùng → cụm map → khu vực → tầng |
 |  Đánh dấu hoặc hoàn tác điểm đã nhặt, với tiến trình tính theo các loại điểm đang chọn |
