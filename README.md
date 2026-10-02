@@ -41,17 +41,17 @@
 ## Có gì trong map?
 
 | | Tính năng |
-| --- | --- |
-| 🗺️ | Bản đồ tile nhiều khu vực, pan/zoom mượt bằng Leaflet |
-| 🧭 | Bộ chuyển map kiểu trong game: đại vùng → cụm map → khu vực → tầng |
-| ✅ | Đánh dấu hoặc hoàn tác điểm đã nhặt, với tiến trình tính theo các loại điểm đang chọn |
-| 🔎 | Tìm theo tên/ID, lọc danh mục và ẩn điểm đã hoàn thành |
-| 🇻🇳 | Giao diện cùng dữ liệu map được Việt hóa và lưu sẵn trong bundle |
-| 💾 | IndexedDB lưu progress, profile, setting và map pack ngay trên trình duyệt |
-| 📦 | Export/import JSON để backup hoặc chuyển tiến trình sang máy khác |
-| 📴 | Local-only fallback khi không có backend; PWA runtime cache cho production |
-| 🔐 | Backend Node + SQLite tùy chọn với one-time invite và session dài hạn |
-| 🧩 | Import map pack riêng có validation, không khóa vào một nguồn dữ liệu |
+| --- |
+| Bản đồ tile nhiều khu vực, pan/zoom mượt bằng Leaflet |
+|  Bộ chuyển map kiểu trong game: đại vùng → cụm map → khu vực → tầng |
+|  Đánh dấu hoặc hoàn tác điểm đã nhặt, với tiến trình tính theo các loại điểm đang chọn |
+|  Tìm theo tên/ID, lọc danh mục và ẩn điểm đã hoàn thành |
+|  Giao diện cùng dữ liệu map được Việt hóa và lưu sẵn trong bundle |
+|  IndexedDB lưu progress, profile, setting và map pack ngay trên trình duyệt |
+|  Export/import JSON để backup hoặc chuyển tiến trình sang máy khác |
+|  Local-only fallback khi không có backend; PWA runtime cache cho production |
+|  Backend Node + SQLite tùy chọn với one-time invite và session dài hạn |
+|  Import map pack riêng có validation, không khóa vào một nguồn dữ liệu |
 
 ## Snapshot dữ liệu
 
