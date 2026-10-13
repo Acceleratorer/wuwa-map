@@ -36,6 +36,12 @@ https://accel.io.vn/wuwa-map/
 Sau khi thay build, hard refresh một lần để service worker nhận cache version
 mới.
 
+## GitHub Actions
+
+Muốn tự động test, build và deploy sau mỗi lần push `main`, xem
+[`GITHUB_ACTIONS.md`](GITHUB_ACTIONS.md). Pull request chỉ chạy kiểm tra và
+không thay đổi production.
+
 ## Tiến trình trên static hosting
 
 Static hosting không có `/wuwa-map/api/*`, nên ứng dụng tự chạy local-only:
