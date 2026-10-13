@@ -123,7 +123,11 @@ jobs:
 
           remote_dir = Path(__import__('os').environ['REMOTE_DIR'])
           paths = [str(remote_dir)]
-          paths.extend(str(remote_dir / path) for path in sorted(Path('dist').rglob('*')) if path.is_dir())
+          paths.extend(
+              str(remote_dir / path.relative_to('dist'))
+              for path in sorted(Path('dist').rglob('*'))
+              if path.is_dir()
+          )
           for index in range(0, len(paths), 100):
               Path(f'/tmp/wuwa-map-chmod-{index}.json').write_text(
                   json.dumps({'paths': paths[index:index + 100], 'perm': 493}),
