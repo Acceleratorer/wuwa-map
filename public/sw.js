@@ -1,5 +1,5 @@
 const CACHE_VERSION =
-  new URL(self.location.href).searchParams.get("v") ?? "route-switcher-v12";
+  new URL(self.location.href).searchParams.get("v") ?? "route-switcher-v13";
 const CACHE_NAME = `wayfinder-runtime-${CACHE_VERSION}`;
 const APP_SHELL = ["./", "./demo-map.svg", "./icon.svg", "./manifest.webmanifest"];
 

@@ -20,6 +20,12 @@ import {
 } from "./map-pack";
 import { resolveRequestedMapPackId } from "./map-selection";
 import { summarizeProgressForCategories } from "./progress";
+import {
+  createProgressCompatibilitySnapshot,
+  migrateProgressRecords,
+  parseProgressCompatibilitySnapshot,
+  resolveCompatibleAreaId,
+} from "./progress-migration";
 import { LocalDatabase, progressRecordId } from "./storage";
 import { SyncApiError, SyncClient, type RemoteSession } from "./sync";
 import { buildMarkerSearchIndex, normalizeSearchText } from "./marker-search";
@@ -49,7 +55,7 @@ const FALLBACK_CATEGORY_GROUP: MapCategoryGroup = {
 const TRANSPARENT_TILE =
   "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 const MAX_DOM_ICON_MARKERS = 2500;
-const MAP_DATA_VERSION = "route-switcher-v12";
+const MAP_DATA_VERSION = "route-switcher-v13";
 const MAP_ID_ALIASES = new Map<string, string>([
   ["wuwa-kuro-state-8", "wuwa-kuro-state-8-country-1"],
 ]);
@@ -411,6 +417,8 @@ if (remoteSession) {
 let activeProfileId = remoteSession?.profile.id ??
   (await resolveActiveProfileId(profiles));
 let activeMapPack = resolveBasemapSources(mapPack);
+const compatibilityMigration =
+  await reconcileMapPackCompatibility(activeMapPack);
 let activeMapDimensions = mapPackDimensions(activeMapPack);
 let categoryGroups = resolveCategoryGroups(activeMapPack);
 let categoryGroupById = new Map(
@@ -438,11 +446,26 @@ let activeFloorId =
 const storedAreaId = await database.getSetting<unknown>(
   `activeArea:${activeMapPack.id}`,
 );
+const storedCompatibility = parseProgressCompatibilitySnapshot(
+  compatibilityMigration.previousSnapshot,
+);
 let activeAreaId =
   typeof storedAreaId === "string" &&
   activeMapPack.areas?.some((area) => area.id === storedAreaId)
     ? storedAreaId
+    : typeof storedAreaId === "string"
+      ? resolveCompatibleAreaId(
+          storedAreaId,
+          storedCompatibility,
+          activeMapPack.areas,
+        )
     : "";
+if (typeof storedAreaId === "string" && activeAreaId !== storedAreaId) {
+  await database.putSetting(
+    `activeArea:${activeMapPack.id}`,
+    activeAreaId,
+  );
+}
 let switchGroupId = catalogGroupForMap(activeMapPack.id)?.id ?? "";
 let switchMapId = activeMapPack.id;
 let switchSectionId = catalogSectionForMap(activeMapPack.id)?.id ?? "";
@@ -473,6 +496,16 @@ renderSyncState(
 );
 if (initialSyncMessage) {
   showToast(initialSyncMessage, remoteSession ? "success" : "error");
+}
+if (compatibilityMigration.migratedCount > 0) {
+  showToast(
+    `Đã giữ lại ${compatibilityMigration.migratedCount} điểm đã đánh dấu sau khi cập nhật dữ liệu.`,
+  );
+} else if (compatibilityMigration.unmatchedCount > 0) {
+  showToast(
+    `${compatibilityMigration.unmatchedCount} điểm cũ vẫn được giữ trong bộ nhớ nhưng chưa ghép được với catalog mới.`,
+    "error",
+  );
 }
 void syncRemoteProgress();
 
@@ -562,6 +595,47 @@ async function loadBundledMapCatalog(): Promise<MapCatalog | undefined> {
   } catch {
     return undefined;
   }
+}
+
+async function reconcileMapPackCompatibility(
+  mapPack: MapPack,
+): Promise<{
+  migratedCount: number;
+  unmatchedCount: number;
+  previousSnapshot: ReturnType<typeof parseProgressCompatibilitySnapshot>;
+}> {
+  const profiles = await database.getAllProfiles();
+  let migratedCount = 0;
+  let unmatchedCount = 0;
+  const mapId = progressMapId(mapPack);
+  const currentSnapshot = createProgressCompatibilitySnapshot(mapPack);
+  const snapshotKey = `progressCompatibility:${mapPack.id}`;
+  const previousSnapshot = parseProgressCompatibilitySnapshot(
+    await database.getSetting<unknown>(snapshotKey),
+  );
+  if (previousSnapshot) {
+    for (const profile of profiles) {
+      const migration = migrateProgressRecords(
+        await database.getProgress(profile.id, mapId),
+        previousSnapshot,
+        mapPack,
+      );
+      unmatchedCount += migration.unmatchedCount;
+      if (migration.migratedCount > 0) {
+        await database.putProgressBatch(migration.records);
+        await database.deleteProgress(migration.removeIds);
+        migratedCount += migration.migratedCount;
+      }
+    }
+  } else {
+    const currentMarkerIds = new Set(mapPack.markers.map((marker) => marker.id));
+    for (const profile of profiles) {
+      unmatchedCount += (await database.getProgress(profile.id, mapId))
+        .filter((record) => !currentMarkerIds.has(record.markerId)).length;
+    }
+  }
+  await database.putSetting(snapshotKey, currentSnapshot);
+  return { migratedCount, unmatchedCount, previousSnapshot };
 }
 
 async function loadMapPackResource(
@@ -1204,15 +1278,19 @@ async function activateMapPack(
   requestedAreaId: string | undefined,
 ): Promise<void> {
   const nextMapPack = resolveBasemapSources(mapPack);
+  const compatibilityMigration =
+    await reconcileMapPackCompatibility(nextMapPack);
   const [
     nextVisibleCategoryIds,
     storedFloorId,
     storedAreaId,
+    storedCompatibility,
     progressRecords,
   ] = await Promise.all([
     resolveVisibleCategoryIds(nextMapPack),
     database.getSetting<unknown>(`activeFloor:${nextMapPack.id}`),
     database.getSetting<unknown>(`activeArea:${nextMapPack.id}`),
+    Promise.resolve(compatibilityMigration.previousSnapshot),
     database.getProgress(activeProfileId, progressMapId(nextMapPack)),
   ]);
   const nextFloorId =
@@ -1227,7 +1305,17 @@ async function activateMapPack(
     areaCandidate &&
       nextMapPack.areas?.some((area) => area.id === areaCandidate)
       ? areaCandidate
+      : typeof areaCandidate === "string"
+        ? resolveCompatibleAreaId(
+            areaCandidate,
+            parseProgressCompatibilitySnapshot(storedCompatibility),
+            nextMapPack.areas,
+          )
       : "";
+  await database.putSetting(
+    `activeArea:${nextMapPack.id}`,
+    nextAreaId,
+  );
 
   window.clearTimeout(markerRenderTimer);
   markerRenderTimer = undefined;

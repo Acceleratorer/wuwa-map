@@ -79,7 +79,7 @@ jobs:
           set -euo pipefail
           archive="wuwa-map-${GITHUB_SHA}.zip"
           remote_dir_query="$(python3 -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["REMOTE_DIR"], safe=""))')"
-          curl --fail-with-body --silent --show-error --insecure \
+          curl --fail-with-body --silent --show-error \
             --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
             --request POST \
             --form "file=@${archive};type=application/zip" \
@@ -103,7 +103,7 @@ jobs:
           }))
           PY
           )"
-          curl --fail-with-body --silent --show-error --insecure \
+          curl --fail-with-body --silent --show-error \
             --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
             --request POST \
             --header 'Content-Type: application/json' \
@@ -135,7 +135,7 @@ jobs:
               )
           PY
           for payload in /tmp/wuwa-map-chmod-*.json; do
-            curl --fail-with-body --silent --show-error --insecure \
+            curl --fail-with-body --silent --show-error \
               --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
               --request POST \
               --header 'Content-Type: application/json' \
@@ -147,10 +147,40 @@ jobs:
         run: |
           set -euo pipefail
           site='https://accel.io.vn/wuwa-map'
-          curl --fail --silent --show-error "${site}/" | grep -Eq '/wuwa-map/assets/index-[^" ]+\.js'
-          curl --fail --silent --show-error "${site}/sw.js?v=${GITHUB_SHA}" | grep -Eq 'route-switcher-v[0-9]+'
-          maps="$(curl --fail --silent --show-error "${site}/map-packs/private/catalog.json?v=${GITHUB_SHA}" | jq '.maps | length')"
+          origin='https://accel.io.vn'
+          shell="$(curl --fail --silent --show-error "${site}/")"
+          app_asset="$(printf '%s' "${shell}" | grep -Eo '/wuwa-map/assets/index-[^" ]+\.js' | head -n 1)"
+          test -n "${app_asset}"
+          curl --fail --silent --show-error -o /tmp/wuwa-map-app.js "${origin}${app_asset}"
+          test "$(sha256sum "dist/assets/${app_asset##*/}" | cut -d' ' -f1)" = "$(sha256sum /tmp/wuwa-map-app.js | cut -d' ' -f1)"
+          curl --fail --silent --show-error -o /tmp/wuwa-map-sw.js "${site}/sw.js?v=${GITHUB_SHA}"
+          cmp -s dist/sw.js /tmp/wuwa-map-sw.js
+          sw="$(cat /tmp/wuwa-map-sw.js)"
+          app_js="$(cat /tmp/wuwa-map-app.js)"
+          cache_version="$(printf '%s' "${sw}" | sed -nE 's/.*route-switcher-v([0-9]+).*/\1/p' | head -n 1)"
+          test -n "${cache_version}"
+          curl --fail --silent --show-error -o /tmp/wuwa-map-catalog.json "${site}/map-packs/private/catalog.json?v=${GITHUB_SHA}"
+          cmp -s dist/map-packs/private/catalog.json /tmp/wuwa-map-catalog.json
+          catalog_json="$(cat /tmp/wuwa-map-catalog.json)"
+          maps="$(printf '%s' "${catalog_json}" | jq '.maps | length')"
           test "${maps}" -ge 52
+          printf '%s' "${app_js}" | grep -Fq "route-switcher-v${cache_version}"
+          printf '%s' "${app_js}" | grep -Fq "map-packs/private/catalog.json"
+          printf '%s' "${app_js}" | grep -Fq "progressCompatibility"
+          printf '%s' "${catalog_json}" | jq -e '
+            .schemaVersion == 1 and
+            (.maps | length >= 52) and
+            (.maps | all(.id and .pack)) and
+            (.maps | all((.pack | startswith("map-packs/private/"))))
+          ' >/dev/null
+          first_pack="$(printf '%s' "${catalog_json}" | jq -r '.maps[0].pack')"
+          pack_json="$(curl --fail --silent --show-error "${site}/${first_pack}?v=${GITHUB_SHA}")"
+          printf '%s' "${pack_json}" | jq -e '
+            .schemaVersion == 1 and
+            (.id | type == "string") and
+            (.markers | type == "array") and
+            (.categories | type == "array")
+          ' >/dev/null
           curl --fail --silent --show-error \
             -o /tmp/wuwa-map-tile.webp \
             "${site}/map-packs/private/maps/912/5_-5.webp?v=${GITHUB_SHA}"

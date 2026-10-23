@@ -113,6 +113,18 @@ export class LocalDatabase {
     await waitForTransactionCompletion(transaction);
   }
 
+  async deleteProgress(ids: readonly string[]): Promise<void> {
+    if (ids.length === 0) {
+      return;
+    }
+    const transaction = this.database.transaction("progress", "readwrite");
+    const store = transaction.objectStore("progress");
+    for (const id of ids) {
+      store.delete(id);
+    }
+    await waitForTransactionCompletion(transaction);
+  }
+
   async getSetting<T>(key: string): Promise<T | undefined> {
     const result = await requestToPromise<AppSetting<T> | undefined>(
       this.store("settings").get(key),
