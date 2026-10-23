@@ -7,7 +7,7 @@ interactive map at `https://www.kurobbs.com/map/`.
 - Intended use in this repository: personal, non-commercial progress tracking.
 - Permission basis: the repository owner has stated that KURO authorized this non-commercial
   crawl and use.
-- Retrieval date for the current generated bundle: 2026-09-30.
+- Retrieval date for the current generated bundle: 2026-10-22.
 
 The repository's software license does not relicense KURO's data or assets. Keep this notice and
 the attribution embedded in each generated map pack when deploying the bundle.
