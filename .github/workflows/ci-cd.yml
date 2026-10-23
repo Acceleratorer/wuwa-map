@@ -70,6 +70,15 @@ jobs:
       - name: Create deployment archive
         run: (cd dist && zip -qr "../wuwa-map-${GITHUB_SHA}.zip" .)
 
+      - name: Prepare DirectAdmin CA bundle
+        env:
+          DIRECTADMIN_CA_BUNDLE: ${{ secrets.DIRECTADMIN_CA_BUNDLE }}
+        run: |
+          set -euo pipefail
+          test -n "${DIRECTADMIN_CA_BUNDLE}"
+          printf '%s\n' "${DIRECTADMIN_CA_BUNDLE}" > "${RUNNER_TEMP}/directadmin-ca-bundle.pem"
+          chmod 600 "${RUNNER_TEMP}/directadmin-ca-bundle.pem"
+
       - name: Upload archive to DirectAdmin
         env:
           DIRECTADMIN_HOST: ${{ secrets.DIRECTADMIN_HOST }}
@@ -80,6 +89,7 @@ jobs:
           archive="wuwa-map-${GITHUB_SHA}.zip"
           remote_dir_query="$(python3 -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["REMOTE_DIR"], safe=""))')"
           curl --fail-with-body --silent --show-error \
+            --cacert "${RUNNER_TEMP}/directadmin-ca-bundle.pem" \
             --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
             --request POST \
             --form "file=@${archive};type=application/zip" \
@@ -104,6 +114,7 @@ jobs:
           PY
           )"
           curl --fail-with-body --silent --show-error \
+            --cacert "${RUNNER_TEMP}/directadmin-ca-bundle.pem" \
             --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
             --request POST \
             --header 'Content-Type: application/json' \
@@ -136,6 +147,7 @@ jobs:
           PY
           for payload in /tmp/wuwa-map-chmod-*.json; do
             curl --fail-with-body --silent --show-error \
+              --cacert "${RUNNER_TEMP}/directadmin-ca-bundle.pem" \
               --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
               --request POST \
               --header 'Content-Type: application/json' \
