@@ -79,121 +79,12 @@ jobs:
           printf '%s\n' "${DIRECTADMIN_CA_BUNDLE}" > "${RUNNER_TEMP}/directadmin-ca-bundle.pem"
           chmod 600 "${RUNNER_TEMP}/directadmin-ca-bundle.pem"
 
-      - name: Upload archive to DirectAdmin
+      - name: Deploy release with automatic rollback
         env:
           DIRECTADMIN_HOST: ${{ secrets.DIRECTADMIN_HOST }}
           DIRECTADMIN_USER: ${{ secrets.DIRECTADMIN_USER }}
           DIRECTADMIN_PASSWORD: ${{ secrets.DIRECTADMIN_PASSWORD }}
+          DIRECTADMIN_CA_BUNDLE: ${{ secrets.DIRECTADMIN_CA_BUNDLE }}
         run: |
           set -euo pipefail
-          archive="wuwa-map-${GITHUB_SHA}.zip"
-          remote_dir_query="$(python3 -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["REMOTE_DIR"], safe=""))')"
-          curl --fail-with-body --silent --show-error \
-            --cacert "${RUNNER_TEMP}/directadmin-ca-bundle.pem" \
-            --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
-            --request POST \
-            --form "file=@${archive};type=application/zip" \
-            "https://${DIRECTADMIN_HOST}:2222/api/filemanager-actions/upload?dir=${remote_dir_query}&name=${archive}&perm=420&overwrite=true"
-
-      - name: Extract deployment archive
-        env:
-          DIRECTADMIN_HOST: ${{ secrets.DIRECTADMIN_HOST }}
-          DIRECTADMIN_USER: ${{ secrets.DIRECTADMIN_USER }}
-          DIRECTADMIN_PASSWORD: ${{ secrets.DIRECTADMIN_PASSWORD }}
-        run: |
-          set -euo pipefail
-          payload="$(python3 - <<'PY'
-          import json
-          import os
-          print(json.dumps({
-              "source": f"{os.environ['REMOTE_DIR']}/wuwa-map-{os.environ['GITHUB_SHA']}.zip",
-              "destinationDir": os.environ['REMOTE_DIR'],
-              "members": [],
-              "mergeAndOverwrite": True,
-          }))
-          PY
-          )"
-          curl --fail-with-body --silent --show-error \
-            --cacert "${RUNNER_TEMP}/directadmin-ca-bundle.pem" \
-            --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
-            --request POST \
-            --header 'Content-Type: application/json' \
-            --data "${payload}" \
-            "https://${DIRECTADMIN_HOST}:2222/api/filemanager-actions/extract-archive"
-
-      - name: Normalize directory permissions
-        env:
-          DIRECTADMIN_HOST: ${{ secrets.DIRECTADMIN_HOST }}
-          DIRECTADMIN_USER: ${{ secrets.DIRECTADMIN_USER }}
-          DIRECTADMIN_PASSWORD: ${{ secrets.DIRECTADMIN_PASSWORD }}
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          remote_dir = Path(__import__('os').environ['REMOTE_DIR'])
-          paths = [str(remote_dir)]
-          paths.extend(
-              str(remote_dir / path.relative_to('dist'))
-              for path in sorted(Path('dist').rglob('*'))
-              if path.is_dir()
-          )
-          for index in range(0, len(paths), 100):
-              Path(f'/tmp/wuwa-map-chmod-{index}.json').write_text(
-                  json.dumps({'paths': paths[index:index + 100], 'perm': 493}),
-                  encoding='utf-8',
-              )
-          PY
-          for payload in /tmp/wuwa-map-chmod-*.json; do
-            curl --fail-with-body --silent --show-error \
-              --cacert "${RUNNER_TEMP}/directadmin-ca-bundle.pem" \
-              --user "${DIRECTADMIN_USER}:${DIRECTADMIN_PASSWORD}" \
-              --request POST \
-              --header 'Content-Type: application/json' \
-              --data-binary "@${payload}" \
-              "https://${DIRECTADMIN_HOST}:2222/api/filemanager-actions/chmod"
-          done
-
-      - name: Verify production
-        run: |
-          set -euo pipefail
-          site='https://accel.io.vn/wuwa-map'
-          origin='https://accel.io.vn'
-          shell="$(curl --fail --silent --show-error "${site}/")"
-          app_asset="$(printf '%s' "${shell}" | grep -Eo '/wuwa-map/assets/index-[^" ]+\.js' | head -n 1)"
-          test -n "${app_asset}"
-          curl --fail --silent --show-error -o /tmp/wuwa-map-app.js "${origin}${app_asset}"
-          test "$(sha256sum "dist/assets/${app_asset##*/}" | cut -d' ' -f1)" = "$(sha256sum /tmp/wuwa-map-app.js | cut -d' ' -f1)"
-          curl --fail --silent --show-error -o /tmp/wuwa-map-sw.js "${site}/sw.js?v=${GITHUB_SHA}"
-          cmp -s dist/sw.js /tmp/wuwa-map-sw.js
-          sw="$(cat /tmp/wuwa-map-sw.js)"
-          app_js="$(cat /tmp/wuwa-map-app.js)"
-          cache_version="$(printf '%s' "${sw}" | sed -nE 's/.*route-switcher-v([0-9]+).*/\1/p' | head -n 1)"
-          test -n "${cache_version}"
-          curl --fail --silent --show-error -o /tmp/wuwa-map-catalog.json "${site}/map-packs/private/catalog.json?v=${GITHUB_SHA}"
-          cmp -s dist/map-packs/private/catalog.json /tmp/wuwa-map-catalog.json
-          catalog_json="$(cat /tmp/wuwa-map-catalog.json)"
-          maps="$(printf '%s' "${catalog_json}" | jq '.maps | length')"
-          test "${maps}" -ge 52
-          printf '%s' "${app_js}" | grep -Fq "route-switcher-v${cache_version}"
-          printf '%s' "${app_js}" | grep -Fq "map-packs/private/catalog.json"
-          printf '%s' "${app_js}" | grep -Fq "progressCompatibility"
-          printf '%s' "${catalog_json}" | jq -e '
-            .schemaVersion == 1 and
-            (.maps | length >= 52) and
-            (.maps | all(.id and .pack)) and
-            (.maps | all((.pack | startswith("map-packs/private/"))))
-          ' >/dev/null
-          first_pack="$(printf '%s' "${catalog_json}" | jq -r '.maps[0].pack')"
-          pack_json="$(curl --fail --silent --show-error "${site}/${first_pack}?v=${GITHUB_SHA}")"
-          printf '%s' "${pack_json}" | jq -e '
-            .schemaVersion == 1 and
-            (.id | type == "string") and
-            (.markers | type == "array") and
-            (.categories | type == "array")
-          ' >/dev/null
-          curl --fail --silent --show-error \
-            -o /tmp/wuwa-map-tile.webp \
-            "${site}/map-packs/private/maps/912/5_-5.webp?v=${GITHUB_SHA}"
-          test "$(stat -c '%s' /tmp/wuwa-map-tile.webp)" -gt 0
+          bash tools/deploy-directadmin.sh
