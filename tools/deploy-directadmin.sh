@@ -42,11 +42,18 @@ import urllib.parse
 print(urllib.parse.quote(sys.argv[1], safe=""))
 PY
 )"
-  "${DA_CURL[@]}" \
+  local status
+  status="$("${DA_CURL[@]}" \
     --request GET \
     --output /dev/null \
     --write-out '%{http_code}' \
-    "${API_BASE}/filemanager/stat?path=${query}"
+    "${API_BASE}/filemanager/stat?path=${query}")"
+  # DirectAdmin reports a missing file-manager path as 409 FilemanagerOpError.
+  if [[ "${status}" == 409 ]]; then
+    printf '404\n'
+  else
+    printf '%s\n' "${status}"
+  fi
 }
 
 da_remove() {
